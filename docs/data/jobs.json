@@ -966,6 +966,19 @@
    "title": "Software Development Engineer, Leo Autopilot",
    "url": "https://www.amazon.jobs/en/jobs/10504175/software-development-engineer-leo-autopilot"
   },
+  "amazon:ca6916402524": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-20",
+   "location": "Palo Alto, California, USA",
+   "posted_at": "2026-08-20",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Advertiser 1P Data",
+   "url": "https://www.amazon.jobs/en/jobs/10509566/software-development-engineer-advertiser-1p-data"
+  },
   "amazon:cbe6f2ce7213": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4227,6 +4240,7 @@
    "company": "Boeing",
    "first_seen": "2026-08-20",
    "location": "USA - Colorado Springs, CO",
+   "posted_at": "2026-08-07",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -5759,6 +5773,17 @@
    "tier": "experienced",
    "title": "Site Reliability Engineer II",
    "url": "https://instacart.careers/job/?gh_jid=8121910"
+  },
+  "instacart:4b47dcc48805": {
+   "company": "Instacart",
+   "first_seen": "2026-08-20",
+   "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+   "posted_at": "2026-08-20",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer II, Ads - Response Prediction",
+   "url": "https://instacart.careers/job/?gh_jid=8143263"
   },
   "instacart:f7b3c807606d": {
    "company": "Instacart",
@@ -13909,6 +13934,17 @@
    "title": "Software Engineer, Embedded Software (Starlink)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8552752002?gh_jid=8552752002"
   },
+  "spacex:b8a2908d370e": {
+   "company": "SpaceX",
+   "first_seen": "2026-08-20",
+   "location": "Hawthorne, CA",
+   "posted_at": "2026-08-20",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Electromagnetic Effects Test Engineer (Automotive/Satellite EMC) ",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8721179002?gh_jid=8721179002"
+  },
   "spacex:b8b400a8b7de": {
    "company": "SpaceX",
    "first_seen": "2026-08-20",
@@ -15362,6 +15398,6 @@
    "url": "https://jobs-woodcons.icims.com/jobs/14759/job?mobile=true&needsRedirect=false"
   }
  },
- "updated": "2026-08-20T21:19:41Z",
+ "updated": "2026-08-20T21:51:37Z",
  "version": 1
 }
