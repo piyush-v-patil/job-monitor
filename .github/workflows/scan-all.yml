@@ -1,8 +1,10 @@
-name: Full sweep (daily)
+name: Full sweep (every 3h)
 
 on:
   schedule:
-    - cron: "30 13 * * *"   # 13:30 UTC daily (~9:30am ET)
+    - cron: "30 */3 * * *"   # every 3h at :30 UTC (= 6:00, 9:00, 12:00... IST)
+                             # offset from scan-bigtech's :00 so the two
+                             # never queue behind each other (shared concurrency group)
   workflow_dispatch:
 
 permissions:
