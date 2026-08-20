@@ -1,0 +1,173 @@
+# Company registry.
+# bigtech: scanned every 3 hours. other + aggregators: scanned once daily.
+#
+# fetcher types: greenhouse | lever | ashby | workday | eightfold |
+#                smartrecruiters | amazon | microsoft | google | apple |
+#                tesla | uber | simplify
+#
+# NOTE: ATS tokens/tenants are best-effort and may need verification.
+# To find a token: open the company's careers page, check the URL or the
+# network tab for boards.greenhouse.io/<token>, jobs.lever.co/<token>,
+# jobs.ashbyhq.com/<token>, or <tenant>.wdX.myworkdayjobs.com/<site>.
+
+bigtech:
+  - name: Amazon
+    fetcher: amazon
+  - name: Microsoft
+    fetcher: microsoft
+  - name: Google
+    fetcher: google
+  - name: Apple
+    fetcher: apple
+  - name: Netflix
+    fetcher: eightfold
+    host: explore.jobs.netflix.net
+    domain: netflix.com
+  - name: Nvidia
+    fetcher: workday
+    host: nvidia.wd5.myworkdayjobs.com
+    tenant: nvidia
+    site: NVIDIAExternalCareerSite
+  - name: Tesla
+    fetcher: tesla
+  - name: Uber
+    fetcher: uber
+  - name: Stripe
+    fetcher: greenhouse
+    token: stripe
+  - name: Airbnb
+    fetcher: greenhouse
+    token: airbnb
+  - name: OpenAI
+    fetcher: ashby
+    token: openai
+  - name: Anthropic
+    fetcher: greenhouse
+    token: anthropic
+  # Meta and LinkedIn have no stable public API; they are covered by the
+  # Simplify aggregator in the daily sweep.
+
+other:
+  # --- big tech adjacent ---
+  - name: Adobe
+    fetcher: workday
+    host: adobe.wd5.myworkdayjobs.com
+    tenant: adobe
+    site: external_experienced
+  - name: Salesforce
+    fetcher: workday
+    host: salesforce.wd12.myworkdayjobs.com
+    tenant: salesforce
+    site: External_Career_Site
+  # --- finance & fintech ---
+  - name: Capital One
+    fetcher: workday
+    host: capitalone.wd12.myworkdayjobs.com
+    tenant: capitalone
+    site: Capital_One
+  - name: Visa
+    fetcher: smartrecruiters
+    token: Visa
+  - name: Coinbase
+    fetcher: greenhouse
+    token: coinbase
+  - name: Robinhood
+    fetcher: greenhouse
+    token: robinhood
+  - name: Citadel
+    fetcher: greenhouse
+    token: citadelcampus
+  - name: Two Sigma
+    fetcher: greenhouse
+    token: twosigma
+  - name: Affirm
+    fetcher: greenhouse
+    token: affirm
+  - name: Plaid
+    fetcher: lever
+    token: plaid
+  - name: Ramp
+    fetcher: ashby
+    token: ramp
+  - name: Chime
+    fetcher: greenhouse
+    token: chime
+  # --- Fortune 500 across sectors ---
+  - name: Boeing
+    fetcher: workday
+    host: boeing.wd1.myworkdayjobs.com
+    tenant: boeing
+    site: EXTERNAL_CAREERS
+  - name: Verizon
+    fetcher: workday
+    host: mycareer.verizon.com
+    tenant: verizon
+    site: verizon-careers
+  - name: Walmart Global Tech
+    fetcher: workday
+    host: walmart.wd5.myworkdayjobs.com
+    tenant: walmart
+    site: WalmartExternal
+  - name: Target
+    fetcher: workday
+    host: target.wd5.myworkdayjobs.com
+    tenant: target
+    site: targetcareers
+  - name: CVS Health
+    fetcher: workday
+    host: cvshealth.wd1.myworkdayjobs.com
+    tenant: cvshealth
+    site: CVS_Health_Careers
+  # Ford uses Oracle Cloud HCM (no fetcher yet) - covered via aggregator.
+  # To add: build an oraclecloud fetcher or check if they expose eightfold.
+  # --- high-growth startups & unicorns ---
+  - name: Databricks
+    fetcher: greenhouse
+    token: databricks
+  - name: Figma
+    fetcher: greenhouse
+    token: figma
+  - name: Scale AI
+    fetcher: greenhouse
+    token: scaleai
+  - name: Notion
+    fetcher: greenhouse
+    token: notion
+  - name: Discord
+    fetcher: greenhouse
+    token: discord
+  - name: Snowflake
+    fetcher: eightfold
+    host: careers.snowflake.com
+    domain: snowflake.com
+  - name: Palantir
+    fetcher: lever
+    token: palantir
+  - name: Anduril
+    fetcher: greenhouse
+    token: andurilindustries
+  - name: SpaceX
+    fetcher: greenhouse
+    token: spacex
+  - name: Pinterest
+    fetcher: greenhouse
+    token: pinterest
+  - name: Reddit
+    fetcher: greenhouse
+    token: reddit
+  - name: DoorDash
+    fetcher: greenhouse
+    token: doordashusa
+  - name: Instacart
+    fetcher: greenhouse
+    token: instacart
+  - name: Roblox
+    fetcher: greenhouse
+    token: roblox
+
+aggregators:
+  # Catches Meta, LinkedIn, Goldman/JPMorgan campus roles, and hundreds of
+  # other companies. Only rows added in the last N days are considered.
+  - name: Simplify Aggregator
+    fetcher: simplify
+    max_age_days: 4

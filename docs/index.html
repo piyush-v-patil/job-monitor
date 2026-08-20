@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Monitor</title>
+<style>
+  :root { --bg:#0f1117; --card:#181b23; --text:#e6e8ee; --muted:#8a90a2;
+          --accent:#5b8cff; --green:#2ecc71; --orange:#e67e22; --blue:#3498db; --red:#e74c3c; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.5 system-ui,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+  header { padding:16px 24px; display:flex; gap:12px; align-items:center; flex-wrap:wrap;
+           border-bottom:1px solid #262a35; position:sticky; top:0; background:var(--bg); z-index:5; }
+  h1 { font-size:18px; margin:0 16px 0 0; }
+  select,input[type=text] { background:var(--card); color:var(--text); border:1px solid #2c3140;
+           border-radius:8px; padding:7px 10px; }
+  input[type=text] { min-width:220px; }
+  .pill { font-size:11px; padding:2px 8px; border-radius:10px; font-weight:600; }
+  .intern { background:#153a55; color:#6ec1ff; } .newgrad { background:#12402a; color:#57e08f; }
+  .experienced { background:#4a2f12; color:#ffb763; }
+  main { padding:16px 24px; max-width:1200px; margin:0 auto; }
+  .job { background:var(--card); border:1px solid #262a35; border-radius:12px;
+         padding:12px 16px; margin-bottom:8px; display:flex; gap:12px; align-items:center; }
+  .job.applied { opacity:.45; } .job.skip { opacity:.3; }
+  .job .info { flex:1; min-width:0; }
+  .job a.title { color:var(--text); font-weight:600; text-decoration:none; }
+  .job a.title:hover { color:var(--accent); }
+  .meta { color:var(--muted); font-size:12px; margin-top:2px; }
+  .btns { display:flex; gap:6px; }
+  button { background:#232837; color:var(--text); border:1px solid #2c3140; border-radius:8px;
+           padding:6px 10px; cursor:pointer; font-size:12px; }
+  button:hover { border-color:var(--accent); }
+  button.active { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .newdot { width:8px; height:8px; border-radius:50%; background:var(--green); flex:none; }
+  #stats { color:var(--muted); font-size:12px; margin:0 0 12px; }
+  #settings { margin-left:auto; }
+  dialog { background:var(--card); color:var(--text); border:1px solid #2c3140; border-radius:12px; max-width:420px; }
+  dialog input { width:100%; margin:4px 0 10px; }
+  #toast { position:fixed; bottom:20px; right:20px; background:var(--card); border:1px solid var(--accent);
+           padding:10px 16px; border-radius:10px; display:none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Job Monitor</h1>
+  <select id="fTier"><option value="">All tiers</option><option value="intern">Intern</option>
+    <option value="newgrad">New Grad</option><option value="experienced">Experienced</option></select>
+  <select id="fStatus"><option value="open">Open (new)</option><option value="applied">Applied</option>
+    <option value="skip">Skipped</option><option value="">Everything</option></select>
+  <select id="fCompany"><option value="">All companies</option></select>
+  <input type="text" id="fSearch" placeholder="Search title/location...">
+  <button id="settings">⚙ GitHub token</button>
+</header>
+<main>
+  <p id="stats"></p>
+  <div id="list"></div>
+</main>
+
+<dialog id="dlg">
+  <h3>GitHub write access</h3>
+  <p style="color:var(--muted);font-size:12px">To save Applied/Skip status back to the repo, create a
+  <b>fine-grained personal access token</b> with <b>Contents: read &amp; write</b> on this repo only.
+  Stored in your browser's localStorage.</p>
+  <label>Owner</label><input id="ghOwner" placeholder="your-github-username">
+  <label>Repo</label><input id="ghRepo" placeholder="job-monitor">
+  <label>Branch</label><input id="ghBranch" placeholder="main">
+  <label>Token</label><input id="ghToken" type="password" placeholder="github_pat_...">
+  <button onclick="saveSettings()">Save</button>
+  <button onclick="document.getElementById('dlg').close()">Close</button>
+</dialog>
+<div id="toast"></div>
+
+<script>
+const PATH = "docs/data/jobs.json";
+let data = null, dirty = {};
+
+const $ = id => document.getElementById(id);
+const cfg = () => ({
+  owner: localStorage.gh_owner || "", repo: localStorage.gh_repo || "",
+  branch: localStorage.gh_branch || "main", token: localStorage.gh_token || "",
+});
+
+async function load() {
+  let r;
+  try {
+    r = await fetch("data/jobs.json?" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    data = await r.json();
+  } catch (e) {
+    $("list").innerHTML = "<p style='color:var(--muted)'>Could not load data/jobs.json (" +
+      esc(e.message) + "). Run a scan workflow first, then refresh.</p>";
+    return;
+  }
+  const companies = [...new Set(Object.values(data.jobs).map(j => j.company))].sort();
+  $("fCompany").innerHTML = '<option value="">All companies</option>' +
+    companies.map(c => `<option>${c}</option>`).join("");
+  render();
+}
+
+function render() {
+  const tier = $("fTier").value, status = $("fStatus").value,
+        comp = $("fCompany").value, q = $("fSearch").value.toLowerCase();
+  const rows = Object.entries(data.jobs)
+    .filter(([id, j]) =>
+      (!tier || j.tier === tier) &&
+      (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
+      (!comp || j.company === comp) &&
+      (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)))
+    .sort((a, b) => (b[1].first_seen || "").localeCompare(a[1].first_seen || ""));
+
+  $("stats").textContent =
+    `${rows.length} shown · ${Object.values(data.jobs).filter(j=>j.status==="new").length} open · ` +
+    `${Object.values(data.jobs).filter(j=>j.status==="applied").length} applied · ` +
+    `last scan ${data.updated || "?"}`;
+
+  $("list").innerHTML = rows.map(([id, j]) => `
+    <div class="job ${j.status === "applied" ? "applied" : j.status === "skip" ? "skip" : ""}">
+      ${j.status === "new" ? '<span class="newdot"></span>' : ""}
+      <div class="info">
+        <a class="title" href="${j.url}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <span class="pill ${j.tier}">${j.tier}</span>
+        <div class="meta">${esc(j.company)} · ${esc(j.location)} · first seen ${j.first_seen}</div>
+      </div>
+      <div class="btns">
+        <button class="${j.status==='applied'?'active':''}" onclick="mark('${id}','applied')">✓ Applied</button>
+        <button class="${j.status==='skip'?'active':''}" onclick="mark('${id}','skip')">✗ Skip</button>
+        <button class="${j.status==='interview'?'active':''}" onclick="mark('${id}','interview')">★ Interview</button>
+      </div>
+    </div>`).join("") || "<p style='color:var(--muted)'>Nothing matches.</p>";
+}
+
+function esc(s){ return (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function mark(id, status) {
+  const j = data.jobs[id];
+  j.status = j.status === status ? "new" : status;
+  dirty[id] = j.status;
+  render();
+  scheduleSave();
+}
+
+let saveTimer = null;
+function scheduleSave(){ clearTimeout(saveTimer); saveTimer = setTimeout(persist, 1500); }
+
+async function persist(attempt = 0) {
+  const c = cfg();
+  if (!c.token || !c.owner || !c.repo) { toast("Set GitHub token (⚙) to save status"); return; }
+  const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${PATH}`;
+  const h = { Authorization: `Bearer ${c.token}`, Accept: "application/vnd.github+json" };
+  try {
+    const cur = await (await fetch(`${api}?ref=${c.branch}&t=${Date.now()}`, { headers: h })).json();
+    const remote = JSON.parse(new TextDecoder().decode(
+      Uint8Array.from(atob(cur.content.replace(/\n/g, "")), ch => ch.charCodeAt(0))));
+    for (const [id, st] of Object.entries(dirty))
+      if (remote.jobs[id]) remote.jobs[id].status = st;
+    const body = {
+      message: "dashboard: update statuses",
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(remote, null, 1)))),
+      sha: cur.sha, branch: c.branch,
+    };
+    const r = await fetch(api, { method: "PUT", headers: h, body: JSON.stringify(body) });
+    if (r.status === 409 && attempt < 2) return persist(attempt + 1);
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    dirty = {};
+    toast("Saved ✓");
+  } catch (e) { toast("Save failed: " + e.message); }
+}
+
+function toast(msg){ const t=$("toast"); t.textContent=msg; t.style.display="block";
+  setTimeout(()=>t.style.display="none", 3000); }
+
+$("settings").onclick = () => {
+  const c = cfg();
+  $("ghOwner").value=c.owner; $("ghRepo").value=c.repo;
+  $("ghBranch").value=c.branch; $("ghToken").value=c.token;
+  $("dlg").showModal();
+};
+function saveSettings(){
+  localStorage.gh_owner=$("ghOwner").value.trim(); localStorage.gh_repo=$("ghRepo").value.trim();
+  localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
+  $("dlg").close(); toast("Settings saved");
+}
+["fTier","fStatus","fCompany"].forEach(id => $(id).onchange = render);
+$("fSearch").oninput = render;
+load();
+</script>
+</body>
+</html>
