@@ -26,6 +26,13 @@
   .job a.title { color:var(--text); font-weight:600; text-decoration:none; }
   .job a.title:hover { color:var(--accent); }
   .meta { color:var(--muted); font-size:12px; margin-top:2px; }
+  .badges { margin-top:6px; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .badge { font-size:11px; padding:2px 7px; border-radius:999px; border:1px solid #2c3140;
+           color:var(--muted); background:#12151c; }
+  .badge.comp { color:#7ee2a8; border-color:#2b5540; }
+  .badge.remote { color:#8ab4ff; border-color:#2b3d55; }
+  .badge.fresh { color:#ffd479; border-color:#5a4a24; }
+  .snip { color:var(--muted); font-size:12px; margin-top:5px; line-height:1.45; }
   .btns { display:flex; gap:6px; }
   button { background:#232837; color:var(--text); border:1px solid #2c3140; border-radius:8px;
            padding:6px 10px; cursor:pointer; font-size:12px; }
@@ -48,6 +55,11 @@
   <select id="fStatus"><option value="open">Open (new)</option><option value="applied">Applied</option>
     <option value="skip">Skipped</option><option value="">Everything</option></select>
   <select id="fCompany"><option value="">All companies</option></select>
+  <select id="fSort">
+    <option value="posted">Sort: newest posted</option>
+    <option value="seen">Sort: newest seen</option>
+    <option value="comp">Sort: has compensation</option>
+  </select>
   <input type="text" id="fSearch" placeholder="Search title/location...">
   <button id="settings">⚙ GitHub token</button>
 </header>
@@ -106,7 +118,17 @@ function render() {
       (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
       (!comp || j.company === comp) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)))
-    .sort((a, b) => (b[1].first_seen || "").localeCompare(a[1].first_seen || ""));
+    .sort((a, b) => {
+      const mode = $("fSort") ? $("fSort").value : "posted";
+      if (mode === "comp" && (!!a[1].comp !== !!b[1].comp)) return a[1].comp ? -1 : 1;
+      if (mode === "posted") {
+        // fall back to first_seen so entries with no posted_at still order sanely
+        const pa = a[1].posted_at || a[1].first_seen || "";
+        const pb = b[1].posted_at || b[1].first_seen || "";
+        if (pa !== pb) return pb.localeCompare(pa);
+      }
+      return (b[1].first_seen || "").localeCompare(a[1].first_seen || "");
+    });
 
   $("stats").textContent =
     `${rows.length} shown · ${Object.values(data.jobs).filter(j=>j.status==="new").length} open · ` +
@@ -119,7 +141,9 @@ function render() {
       <div class="info">
         <a class="title" href="${j.url}" target="_blank" rel="noopener">${esc(j.title)}</a>
         <span class="pill ${j.tier}">${j.tier}</span>
-        <div class="meta">${esc(j.company)} · ${esc(j.location)} · first seen ${j.first_seen}</div>
+        <div class="meta">${esc(j.company)} · ${esc(j.location)} · ${
+          j.posted_at ? "posted " + j.posted_at : "first seen " + j.first_seen}</div>
+        ${badges(j)}
       </div>
       <div class="btns">
         <button class="${j.status==='applied'?'active':''}" onclick="mark('${id}','applied')">✓ Applied</button>
@@ -127,6 +151,23 @@ function render() {
         <button class="${j.status==='interview'?'active':''}" onclick="mark('${id}','interview')">★ Interview</button>
       </div>
     </div>`).join("") || "<p style='color:var(--muted)'>Nothing matches.</p>";
+}
+
+function daysOld(d){
+  if (!d) return null;
+  const ms = Date.now() - Date.parse(d + "T00:00:00Z");
+  return isNaN(ms) ? null : Math.floor(ms / 86400000);
+}
+
+function badges(j){
+  const b = [];
+  if (j.comp) b.push(`<span class="badge comp">💰 ${esc(j.comp)}</span>`);
+  const age = daysOld(j.posted_at);
+  if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);
+  if (j.workplace) b.push(`<span class="badge${j.workplace === "Remote" ? " remote" : ""}">${esc(j.workplace)}</span>`);
+  if (j.employment_type) b.push(`<span class="badge">${esc(j.employment_type)}</span>`);
+  if (j.department) b.push(`<span class="badge">🗂 ${esc(j.department)}</span>`);
+  return b.length ? `<div class="badges">${b.join("")}</div>` : "";
 }
 
 function esc(s){ return (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
@@ -180,7 +221,7 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany"].forEach(id => $(id).onchange = render);
+["fTier","fStatus","fCompany","fSort"].forEach(id => $(id).onchange = render);
 $("fSearch").oninput = render;
 load();
 </script>

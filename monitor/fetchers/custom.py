@@ -4,7 +4,13 @@ These use unofficial-but-public JSON endpoints that back each company's own
 careers site. They can change without notice — if one starts failing, check
 the network tab of the careers page and update the endpoint.
 """
-from .http import session, get_json, post_json
+from .http import session, get_json, post_json, iso_date, clean_text
+
+
+def _sched(value: str) -> str:
+    """Amazon job_schedule_type -> the shared vocabulary."""
+    v = str(value or "").lower()
+    return "Full-time" if "full" in v else ("Part-time" if "part" in v else "")
 
 
 def amazon(c):
@@ -22,6 +28,11 @@ def amazon(c):
             "url": "https://www.amazon.jobs" + j.get("job_path", ""),
             "external_id": str(j.get("id_icims", "") or j.get("id", "")),
             "source": "amazon.jobs",
+            "posted_at": iso_date(j.get("posted_date")),
+            "employment_type": "Intern" if j.get("is_intern") else _sched(
+                j.get("job_schedule_type", "")),
+            "department": j.get("job_category", "") or j.get("business_category", ""),
+            "snippet": clean_text(j.get("description_short", "") or j.get("description", "")),
         })
     return out
 
@@ -47,6 +58,12 @@ def microsoft(c):
                 "url": f"https://jobs.careers.microsoft.com/global/en/job/{j.get('jobId','')}",
                 "external_id": str(j.get("jobId", "")),
                 "source": "microsoft careers",
+                "posted_at": iso_date(props.get("postingDate")),
+                "employment_type": props.get("employmentType", ""),
+                "workplace": ("Remote" if str(props.get("workSiteFlexibility", "")).lower()
+                              .startswith("up to 100") else ""),
+                "department": props.get("discipline", "") or props.get("profession", ""),
+                "snippet": clean_text(props.get("description", "")),
             })
     return out
 

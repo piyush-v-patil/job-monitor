@@ -34,7 +34,8 @@ def run_fetcher(company):
         return []
     try:
         jobs = fn(company)
-        print(f"  ✓ {name}: {len(jobs)} raw postings")
+        mark = "✓" if jobs else "∅"   # ∅ = reachable but returned nothing
+        print(f"  {mark} {name}: {len(jobs)} raw postings")
         return jobs
     except Exception as e:  # noqa: BLE001
         print(f"  ! {name}: FAILED - {e}")
@@ -45,6 +46,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tier", choices=["bigtech", "other", "all"], default="all")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--no-notify", action="store_true",
+                    help="save state but send no Discord messages (use after "
+                         "repairing a fetcher, to absorb its backlog quietly)")
     ap.add_argument("--include-senior", action="store_true")
     args = ap.parse_args()
 
@@ -57,9 +61,10 @@ def main():
         companies += cfg.get("aggregators", [])
 
     print(f"Scanning {len(companies)} sources (tier={args.tier})...")
-    raw = []
+    raw, counts = [], []
     with cf.ThreadPoolExecutor(max_workers=8) as ex:
         for jobs in ex.map(run_fetcher, companies):
+            counts.append(len(jobs))
             raw.extend(jobs)
 
     in_scope = []
@@ -77,6 +82,11 @@ def main():
 
     print(f"\n{len(raw)} raw -> {len(in_scope)} in scope -> {len(new)} new"
           + (" (seed run: notifications suppressed)" if seeding else ""))
+
+    empty = [c.get("name", "?") for c, n in zip(companies, counts) if n == 0]
+    if empty:
+        print(f"WARNING: {len(empty)} source(s) returned 0 postings: "
+              + ", ".join(empty))
     for j in new[:50]:
         print(f"  [{j['tier']:>11}] {j['company']}: {j['title']} ({j['location'][:60]})")
 
@@ -85,8 +95,10 @@ def main():
         return
 
     state.save(st)
-    if new and not seeding:
+    if new and not seeding and not args.no_notify:
         notify.send(new, run_label=f"(scan: {args.tier})")
+    elif new and args.no_notify:
+        print(f"--no-notify: absorbed {len(new)} job(s) without notifying.")
 
     # Fail the workflow visibly if literally every fetcher errored.
     if raw == [] and companies:

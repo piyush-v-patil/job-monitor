@@ -131,7 +131,7 @@ other:
     fetcher: greenhouse
     token: scaleai
   - name: Notion
-    fetcher: greenhouse
+    fetcher: ashby          # verified: no Greenhouse board exists
     token: notion
   - name: Discord
     fetcher: greenhouse

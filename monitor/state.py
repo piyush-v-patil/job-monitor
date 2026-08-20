@@ -8,13 +8,18 @@ Structure:
     "<job_id>": {
       "company": str, "title": str, "tier": "intern|newgrad|experienced",
       "location": str, "url": str, "source": str,
-      "first_seen": "YYYY-MM-DD", "status": "new|applied|skip|interview|rejected|closed"
+      "first_seen": "YYYY-MM-DD", "status": "new|applied|skip|interview|rejected|closed",
+      # best-effort enrichment; key is omitted entirely when the ATS has no value
+      "posted_at": "YYYY-MM-DD", "comp": str, "employment_type": str,
+      "workplace": "Remote|Hybrid|On-site", "department": str
     }
   }
 }
 
 The dashboard edits only the "status" field; the scanner only adds new ids
 and never overwrites an existing entry, so user edits are always preserved.
+Enrichment fields are the one exception: they are backfilled onto existing
+entries when previously missing, which never touches "status".
 """
 import hashlib
 import json
@@ -44,13 +49,25 @@ def save(state: dict) -> None:
         json.dump(state, f, indent=1, ensure_ascii=False, sort_keys=True)
 
 
+ENRICH = ("posted_at", "comp", "employment_type", "workplace", "department")
+
+
 def add_new(state: dict, jobs: list) -> list:
-    """Add jobs not already tracked. Returns the list of newly added jobs."""
+    """Add jobs not already tracked. Returns the list of newly added jobs.
+
+    Existing entries are left alone except that missing enrichment fields are
+    filled in (a job first seen before enrichment existed gets upgraded on a
+    later scan). "status" is never written here.
+    """
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     new = []
     for j in jobs:
         jid = job_id(j["company"], j.get("external_id", ""), j.get("url", ""))
+        extra = {k: j[k] for k in ENRICH if j.get(k)}
         if jid in state["jobs"]:
+            entry = state["jobs"][jid]
+            for k, v in extra.items():          # backfill only what is absent
+                entry.setdefault(k, v)
             continue
         entry = {
             "company": j["company"],
@@ -62,6 +79,8 @@ def add_new(state: dict, jobs: list) -> list:
             "first_seen": today,
             "status": "new",
         }
+        entry.update(extra)
         state["jobs"][jid] = entry
-        new.append(dict(entry, id=jid))
+        # the notification copy also carries the (unstored) description snippet
+        new.append(dict(entry, id=jid, snippet=j.get("snippet", "")))
     return new
