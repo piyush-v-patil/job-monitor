@@ -73,6 +73,37 @@
            background:var(--card); border:1px solid #262a35; border-radius:999px; padding:4px 11px; }
   .schip b { color:var(--text); font-weight:600; }
   @media (max-width:720px){ #kpi { grid-template-columns:1fr; } .hero-val { font-size:40px; } }
+
+  /* ---- application activity ---- */
+  /* one-hue ordinal ramp, validated: monotone L, dL>=.06, light end 2.63:1 */
+  :root { --h0:#1f242e; --h1:#1a6b3a; --h2:#1f8a4c; --h3:#2eb85f; --h4:#4fd97f; }
+  #activity { background:var(--card); border:1px solid #262a35; border-radius:14px;
+              padding:14px 18px 16px; margin:0 0 14px; }
+  .act-head { display:flex; flex-wrap:wrap; gap:10px; align-items:baseline; margin-bottom:14px; }
+  .act-title { font-size:13px; font-weight:600; margin-right:auto; }
+  .streak { display:flex; align-items:baseline; gap:6px; background:#12151c; border:1px solid #262a35;
+            border-radius:999px; padding:4px 12px; font-size:12px; color:var(--muted); }
+  .streak b { font-size:15px; color:var(--text); font-weight:600; }
+  .streak.live { border-color:#2eb85f55; }
+  .hm-scroll { overflow-x:auto; padding-bottom:2px; }
+  .hm-inner { display:inline-block; min-width:min-content; }
+  .hm-months { display:grid; grid-auto-flow:column; grid-auto-columns:13px;
+               margin:0 0 4px 30px; font-size:10px; color:var(--muted); }
+  .hm-months span { grid-row:1; white-space:nowrap; }
+  .hm-body { display:flex; gap:5px; }
+  .hm-days { display:grid; grid-template-rows:repeat(7,13px); font-size:10px;
+             color:var(--muted); width:25px; }
+  .hm-days span { line-height:13px; }
+  .hm-grid { display:grid; grid-template-rows:repeat(7,13px); grid-auto-flow:column;
+             grid-auto-columns:13px; }
+  .hm-cell { width:10px; height:10px; border-radius:2px; background:var(--h0); }
+  .hm-cell[data-l="1"]{ background:var(--h1); } .hm-cell[data-l="2"]{ background:var(--h2); }
+  .hm-cell[data-l="3"]{ background:var(--h3); } .hm-cell[data-l="4"]{ background:var(--h4); }
+  .hm-cell.today { outline:1px solid var(--muted); outline-offset:1px; }
+  .hm-legend { display:flex; align-items:center; gap:4px; justify-content:flex-end;
+               font-size:10px; color:var(--muted); margin-top:8px; }
+  .hm-legend i { width:10px; height:10px; border-radius:2px; display:inline-block; }
+  .act-empty { color:var(--muted); font-size:12px; margin-top:10px; }
   #settings { margin-left:auto; }
   dialog { background:var(--card); color:var(--text); border:1px solid #2c3140; border-radius:12px; max-width:420px; }
   dialog input { width:100%; margin:4px 0 10px; }
@@ -104,6 +135,28 @@
       <div class="hero-sub" id="heroSub"></div>
     </div>
     <div class="tiles" id="tiles"></div>
+  </section>
+  <section id="activity" aria-label="Application activity">
+    <div class="act-head">
+      <span class="act-title">Application activity</span>
+      <span class="streak" id="stkNow">🔥 <b>0</b> day streak</span>
+      <span class="streak">best <b id="stkBest">0</b></span>
+      <span class="streak">this week <b id="stkWeek">0</b></span>
+      <span class="streak">total <b id="stkTotal">0</b></span>
+    </div>
+    <div class="hm-scroll"><div class="hm-inner">
+      <div class="hm-months" id="hmMonths"></div>
+      <div class="hm-body">
+        <div class="hm-days"><span></span><span>Mon</span><span></span><span>Wed</span>
+          <span></span><span>Fri</span><span></span></div>
+        <div class="hm-grid" id="hmGrid"></div>
+      </div>
+    </div></div>
+    <div class="hm-legend">Less
+      <i style="background:var(--h0)"></i><i style="background:var(--h1)"></i>
+      <i style="background:var(--h2)"></i><i style="background:var(--h3)"></i>
+      <i style="background:var(--h4)"></i>More</div>
+    <p class="act-empty" id="actEmpty"></p>
   </section>
   <div id="statusbar"></div>
   <p id="stats"></p>
@@ -164,6 +217,7 @@ function render() {
       (!comp || j.company === comp) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
+  renderActivity();
   const rows = base
     .filter(([id, j]) => (!tier || j.tier === tier))
     .sort((a, b) => {
@@ -215,23 +269,27 @@ function renderKpi(base, tier, status) {
   $("heroLab").textContent = total === 1 ? `${word} role` : `${word} roles`;
   $("heroSub").textContent = `last scan ${ago(data.updated)}`;
 
+  const all = Object.values(data.jobs);
   $("tiles").innerHTML = TIERS.map(([key, label]) => {
     const n = base.filter(([, j]) => j.tier === key).length;
-    const pct = total ? Math.round(n / total * 100) : 0;
+    const inTier = all.filter(j => j.tier === key);
+    const applied = inTier.filter(j => j.status === "applied" || j.status === "interview").length;
+    // the meter tracks YOUR progress through this tier, not the tier's size
+    const pct = inTier.length ? Math.round(applied / inTier.length * 100) : 0;
     const on = tier === key;
     return `<button class="tile" data-tier="${key}" aria-pressed="${on}"
               style="--tint:var(--t-${key})"
-              title="${on ? "Clear the" : "Filter to"} ${label} tier">
+              title="${on ? "Clear the" : "Filter to"} ${label} tier - ${applied} applied of ${inTier.length} tracked">
         <span class="tile-top"><span class="dot"></span>${label}</span>
         <span class="tile-val">${n.toLocaleString()}</span>
-        <span class="tile-share">${pct}% of ${word}</span>
-        <span class="meter" role="img" aria-label="${pct}% of ${word} roles">
+        <span class="tile-share"><b style="color:var(--text)">${applied}</b> applied${
+          pct ? ` · ${pct}%` : ""}</span>
+        <span class="meter" role="img" aria-label="${applied} applied of ${inTier.length} ${label} roles">
           <span class="meter-fill" style="width:${pct}%"></span></span>
       </button>`;
   }).join("");
 
   // whole-database standing totals, independent of the filters above
-  const all = Object.values(data.jobs);
   const count = st => all.filter(j => j.status === st).length;
   const withComp = all.filter(j => j.comp).length;
   $("statusbar").innerHTML = [
@@ -239,6 +297,60 @@ function renderKpi(base, tier, status) {
     ["Interview", count("interview")], ["Skipped", count("skip")],
     ["With pay range", withComp], ["Companies", new Set(all.map(j => j.company)).size],
   ].map(([k, v]) => `<span class="schip">${k} <b>${v.toLocaleString()}</b></span>`).join("");
+}
+
+function renderActivity() {
+  const days = {};                       // "YYYY-MM-DD" -> applications that day
+  for (const j of Object.values(data.jobs))
+    if (j.applied_on) days[j.applied_on] = (days[j.applied_on] || 0) + 1;
+
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const dayMs = 86400000;
+  const total = Object.values(days).reduce((a, b) => a + b, 0);
+
+  // current streak: consecutive days with >=1 application. Today not being
+  // done yet is not a break, so an empty today falls back to yesterday.
+  let cur = 0, probe = new Date(today);
+  if (!days[isoDay(probe)]) probe = new Date(today - dayMs);
+  while (days[isoDay(probe)]) { cur++; probe = new Date(probe - dayMs); }
+
+  let best = 0, run = 0, prev = null;
+  for (const d of Object.keys(days).sort()) {
+    run = (prev && (Date.parse(d) - Date.parse(prev)) === dayMs) ? run + 1 : 1;
+    best = Math.max(best, run); prev = d;
+  }
+  const week = [...Array(7)].reduce((a, _, i) => a + (days[isoDay(new Date(today - i * dayMs))] || 0), 0);
+
+  $("stkNow").innerHTML = `🔥 <b>${cur}</b> day streak`;
+  $("stkNow").classList.toggle("live", cur > 0);
+  $("stkBest").textContent = best;
+  $("stkWeek").textContent = week;
+  $("stkTotal").textContent = total;
+
+  // 26 weeks back, aligned so each grid column is one Sun-Sat week
+  const start = new Date(today - 181 * dayMs);
+  start.setDate(start.getDate() - start.getDay());
+  const cells = [], months = [];
+  let lastMonth = -1, col = 0;
+  for (let d = new Date(start); d <= today; d.setDate(d.getDate() + 1)) {
+    const iso = isoDay(d), n = days[iso] || 0;
+    const lvl = n === 0 ? 0 : n === 1 ? 1 : n === 2 ? 2 : n <= 4 ? 3 : 4;
+    cells.push(`<span class="hm-cell${iso === isoDay(today) ? " today" : ""}" data-l="${lvl}"
+      title="${n} application${n === 1 ? "" : "s"} on ${iso}"></span>`);
+    if (d.getDay() === 0) {
+      col++;
+      if (d.getMonth() !== lastMonth) {
+        // skip the leading partial month - its label would collide with the next
+        if (lastMonth !== -1 || col > 1)
+          months.push(`<span style="grid-column:${col}">${d.toLocaleString(undefined,{month:"short"})}</span>`);
+        lastMonth = d.getMonth();
+      }
+    }
+  }
+  $("hmGrid").innerHTML = cells.join("");
+  $("hmMonths").innerHTML = months.join("");
+  $("actEmpty").textContent = total
+    ? "" : "No applications logged yet - hit ✓ Applied on a role and this fills in.";
 }
 
 function daysOld(d){
@@ -260,10 +372,22 @@ function badges(j){
 
 function esc(s){ return (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
+function isoDay(d){  // local calendar day, not UTC - streaks follow your clock
+  const x = new Date(d);
+  return `${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,"0")}-${String(x.getDate()).padStart(2,"0")}`;
+}
+
 function mark(id, status) {
   const j = data.jobs[id];
   j.status = j.status === status ? "new" : status;
-  dirty[id] = j.status;
+  // record WHEN, so the activity heatmap and streak have a date to plot.
+  // interview implies you applied earlier, so it keeps an existing stamp.
+  if (j.status === "applied" || j.status === "interview") {
+    if (!j.applied_on) j.applied_on = isoDay(new Date());
+  } else {
+    delete j.applied_on;
+  }
+  dirty[id] = { status: j.status, applied_on: j.applied_on || null };
   render();
   scheduleSave();
 }
@@ -280,8 +404,12 @@ async function persist(attempt = 0) {
     const cur = await (await fetch(`${api}?ref=${c.branch}&t=${Date.now()}`, { headers: h })).json();
     const remote = JSON.parse(new TextDecoder().decode(
       Uint8Array.from(atob(cur.content.replace(/\n/g, "")), ch => ch.charCodeAt(0))));
-    for (const [id, st] of Object.entries(dirty))
-      if (remote.jobs[id]) remote.jobs[id].status = st;
+    for (const [id, d] of Object.entries(dirty)) {
+      const t = remote.jobs[id];
+      if (!t) continue;
+      t.status = d.status;
+      if (d.applied_on) t.applied_on = d.applied_on; else delete t.applied_on;
+    }
     const body = {
       message: "dashboard: update statuses",
       content: btoa(unescape(encodeURIComponent(JSON.stringify(remote, null, 1)))),

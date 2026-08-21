@@ -11,7 +11,10 @@ Structure:
       "first_seen": "YYYY-MM-DD", "status": "new|applied|skip|interview|rejected|closed",
       # best-effort enrichment; key is omitted entirely when the ATS has no value
       "posted_at": "YYYY-MM-DD", "comp": str, "employment_type": str,
-      "workplace": "Remote|Hybrid|On-site", "department": str
+      "workplace": "Remote|Hybrid|On-site", "department": str,
+      # written by the dashboard when you mark Applied/Interview; the scanner
+      # only ever reads past it, so the activity history is never rewritten
+      "applied_on": "YYYY-MM-DD"
     }
   }
 }
