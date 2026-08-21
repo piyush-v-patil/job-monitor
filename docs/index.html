@@ -65,8 +65,10 @@
   .dot { width:9px; height:9px; border-radius:50%; background:var(--tint); flex:none; }
   .tile-val { font-size:27px; font-weight:600; line-height:1.15; letter-spacing:-.01em; }
   .tile-share { color:var(--muted); font-size:11px; }
+  /* track stays on the same hue (state reads across the whole bar) but far
+     dimmer, so 0% cannot be mistaken for a completed bar */
   .meter { height:4px; border-radius:999px; margin-top:8px; overflow:hidden;
-           background:color-mix(in oklab, var(--tint) 22%, transparent); }
+           background:color-mix(in oklab, var(--tint) 14%, #0b0d13); }
   .meter-fill { display:block; height:100%; border-radius:999px; background:var(--tint); }
   #statusbar { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 14px; }
   .schip { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--muted);
@@ -87,19 +89,19 @@
   .streak.live { border-color:#2eb85f55; }
   .hm-scroll { overflow-x:auto; padding-bottom:2px; }
   .hm-inner { display:inline-block; min-width:min-content; }
-  .hm-months { display:grid; grid-auto-flow:column; grid-auto-columns:13px;
+  .hm-months { display:grid; grid-auto-flow:column; grid-auto-columns:15px;
                margin:0 0 4px 30px; font-size:10px; color:var(--muted); }
   .hm-months span { grid-row:1; white-space:nowrap; }
   .hm-body { display:flex; gap:5px; }
-  .hm-days { display:grid; grid-template-rows:repeat(7,13px); font-size:10px;
+  .hm-days { display:grid; grid-template-rows:repeat(7,15px); font-size:10px;
              color:var(--muted); width:25px; }
-  .hm-days span { line-height:13px; }
-  .hm-grid { display:grid; grid-template-rows:repeat(7,13px); grid-auto-flow:column;
-             grid-auto-columns:13px; }
-  .hm-cell { width:10px; height:10px; border-radius:2px; background:var(--h0); }
+  .hm-days span { line-height:15px; }
+  .hm-grid { display:grid; grid-template-rows:repeat(7,15px); grid-auto-flow:column;
+             grid-auto-columns:15px; }
+  .hm-cell { width:12px; height:12px; border-radius:2px; background:var(--h0); }
   .hm-cell[data-l="1"]{ background:var(--h1); } .hm-cell[data-l="2"]{ background:var(--h2); }
   .hm-cell[data-l="3"]{ background:var(--h3); } .hm-cell[data-l="4"]{ background:var(--h4); }
-  .hm-cell.today { outline:1px solid var(--muted); outline-offset:1px; }
+  .hm-cell.today { outline:1px solid #4a5165; outline-offset:1px; }
   .hm-legend { display:flex; align-items:center; gap:4px; justify-content:flex-end;
                font-size:10px; color:var(--muted); margin-top:8px; }
   .hm-legend i { width:10px; height:10px; border-radius:2px; display:inline-block; }
@@ -343,7 +345,7 @@ function renderKpi(base, tier, status) {
         <span class="tile-share"><b style="color:var(--text)">${applied}</b> applied${
           pct ? ` · ${pct}%` : ""}</span>
         <span class="meter" role="img" aria-label="${applied} applied of ${inTier.length} ${label} roles">
-          <span class="meter-fill" style="width:${pct}%"></span></span>
+          <span class="meter-fill" style="width:${applied ? Math.max(pct, 2) : 0}%"></span></span>
       </button>`;
   }).join("");
 
@@ -385,8 +387,8 @@ function renderActivity() {
   $("stkWeek").textContent = week;
   $("stkTotal").textContent = total;
 
-  // 26 weeks back, aligned so each grid column is one Sun-Sat week
-  const start = new Date(today - 181 * dayMs);
+  // a full year back, aligned so each grid column is one Sun-Sat week
+  const start = new Date(today - 364 * dayMs);
   start.setDate(start.getDate() - start.getDay());
   const cells = [], months = [];
   let lastMonth = -1, col = 0;
