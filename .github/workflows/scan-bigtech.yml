@@ -33,9 +33,23 @@ jobs:
         run: |
           git config user.name "job-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data/jobs.json
-          if ! git diff --cached --quiet; then
+          # A concurrent scan, or a status write from the dashboard, can land
+          # first. Rebasing onto it conflicts inside jobs.json, so instead
+          # reconcile the two copies by hand and retry the push.
+          for attempt in 1 2 3; do
+            git add docs/data/jobs.json
+            if git diff --cached --quiet; then
+              echo "nothing to commit"; exit 0
+            fi
             git commit -m "scan(bigtech): update jobs.json"
-            git pull --rebase origin ${GITHUB_REF_NAME}
-            git push
-          fi
+            if git push origin HEAD:"${GITHUB_REF_NAME}"; then
+              echo "pushed (attempt $attempt)"; exit 0
+            fi
+            echo "push rejected - reconciling with the branch (attempt $attempt)"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git show "origin/${GITHUB_REF_NAME}:docs/data/jobs.json" > /tmp/theirs.json
+            python -m monitor.merge docs/data/jobs.json /tmp/theirs.json /tmp/merged.json
+            git reset --hard "origin/${GITHUB_REF_NAME}"
+            cp /tmp/merged.json docs/data/jobs.json
+          done
+          echo "still could not push after 3 attempts"; exit 1
