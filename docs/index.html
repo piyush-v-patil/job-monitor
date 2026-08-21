@@ -6,7 +6,10 @@
 <title>Job Monitor</title>
 <style>
   :root { --bg:#0f1117; --card:#181b23; --text:#e6e8ee; --muted:#8a90a2;
-          --accent:#5b8cff; --green:#2ecc71; --orange:#e67e22; --blue:#3498db; --red:#e74c3c; }
+          --accent:#5b8cff; --green:#2ecc71; --orange:#e67e22; --blue:#3498db; --red:#e74c3c;
+          /* tier identity hues - validated as a categorical set against the
+             card surface (all-pairs CVD dE 9.4, normal-vision 20.9, >=3:1) */
+          --t-intern:#3987e5; --t-newgrad:#199e70; --t-experienced:#d95926; }
   * { box-sizing:border-box; }
   body { margin:0; font:14px/1.5 system-ui,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
   header { padding:16px 24px; display:flex; gap:12px; align-items:center; flex-wrap:wrap;
@@ -15,9 +18,12 @@
   select,input[type=text] { background:var(--card); color:var(--text); border:1px solid #2c3140;
            border-radius:8px; padding:7px 10px; }
   input[type=text] { min-width:220px; }
-  .pill { font-size:11px; padding:2px 8px; border-radius:10px; font-weight:600; }
-  .intern { background:#153a55; color:#6ec1ff; } .newgrad { background:#12402a; color:#57e08f; }
-  .experienced { background:#4a2f12; color:#ffb763; }
+  /* identity rides the dot; the label stays in ink (never the series colour) */
+  .pill { font-size:11px; padding:2px 9px 2px 7px; border-radius:10px; font-weight:600;
+          background:#1e222c; color:#c8ccd8; display:inline-flex; align-items:center; gap:5px; }
+  .pill::before { content:""; width:7px; height:7px; border-radius:50%; background:var(--tint); }
+  .intern { --tint:var(--t-intern); } .newgrad { --tint:var(--t-newgrad); }
+  .experienced { --tint:var(--t-experienced); }
   main { padding:16px 24px; max-width:1200px; margin:0 auto; }
   .job { background:var(--card); border:1px solid #262a35; border-radius:12px;
          padding:12px 16px; margin-bottom:8px; display:flex; gap:12px; align-items:center; }
@@ -40,6 +46,33 @@
   button.active { background:var(--accent); border-color:var(--accent); color:#fff; }
   .newdot { width:8px; height:8px; border-radius:50%; background:var(--green); flex:none; }
   #stats { color:var(--muted); font-size:12px; margin:0 0 12px; }
+
+  /* ---- KPI band ---- */
+  #kpi { display:grid; grid-template-columns:minmax(180px,220px) 1fr; gap:16px;
+         align-items:stretch; margin:4px 0 14px; }
+  .hero { background:var(--card); border:1px solid #262a35; border-radius:14px;
+          padding:14px 18px; display:flex; flex-direction:column; justify-content:center; }
+  .hero-val { font-size:48px; line-height:1.05; font-weight:600; letter-spacing:-.02em; }
+  .hero-lab { color:var(--muted); font-size:13px; margin-top:2px; }
+  .hero-sub { color:var(--muted); font-size:11px; margin-top:8px; }
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; }
+  .tile { background:var(--card); border:1px solid #262a35; border-radius:14px;
+          padding:12px 14px; display:flex; flex-direction:column; gap:2px; text-align:left;
+          cursor:pointer; font:inherit; color:var(--text); transition:border-color .12s; }
+  .tile:hover { border-color:#3a4256; }
+  .tile[aria-pressed="true"] { border-color:var(--tint); box-shadow:inset 0 0 0 1px var(--tint); }
+  .tile-top { display:flex; align-items:center; gap:7px; color:var(--muted); font-size:12px; }
+  .dot { width:9px; height:9px; border-radius:50%; background:var(--tint); flex:none; }
+  .tile-val { font-size:27px; font-weight:600; line-height:1.15; letter-spacing:-.01em; }
+  .tile-share { color:var(--muted); font-size:11px; }
+  .meter { height:4px; border-radius:999px; margin-top:8px; overflow:hidden;
+           background:color-mix(in oklab, var(--tint) 22%, transparent); }
+  .meter-fill { display:block; height:100%; border-radius:999px; background:var(--tint); }
+  #statusbar { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 14px; }
+  .schip { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--muted);
+           background:var(--card); border:1px solid #262a35; border-radius:999px; padding:4px 11px; }
+  .schip b { color:var(--text); font-weight:600; }
+  @media (max-width:720px){ #kpi { grid-template-columns:1fr; } .hero-val { font-size:40px; } }
   #settings { margin-left:auto; }
   dialog { background:var(--card); color:var(--text); border:1px solid #2c3140; border-radius:12px; max-width:420px; }
   dialog input { width:100%; margin:4px 0 10px; }
@@ -64,6 +97,15 @@
   <button id="settings">⚙ GitHub token</button>
 </header>
 <main>
+  <section id="kpi" aria-label="Roles by tier">
+    <div class="hero">
+      <div class="hero-val" id="heroVal">-</div>
+      <div class="hero-lab" id="heroLab"></div>
+      <div class="hero-sub" id="heroSub"></div>
+    </div>
+    <div class="tiles" id="tiles"></div>
+  </section>
+  <div id="statusbar"></div>
   <p id="stats"></p>
   <div id="list"></div>
 </main>
@@ -109,15 +151,21 @@ async function load() {
   render();
 }
 
+const TIERS = [["intern","Intern"],["newgrad","New Grad"],["experienced","Experienced"]];
+const STATUS_WORD = { open:"open", applied:"applied", skip:"skipped", interview:"in interview", "":"tracked" };
+
 function render() {
   const tier = $("fTier").value, status = $("fStatus").value,
         comp = $("fCompany").value, q = $("fSearch").value.toLowerCase();
-  const rows = Object.entries(data.jobs)
-    .filter(([id, j]) =>
-      (!tier || j.tier === tier) &&
+  // "base" applies every filter EXCEPT tier, so each tile answers
+  // "how many would I see if I picked this tier?"
+  const base = Object.entries(data.jobs).filter(([id, j]) =>
       (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
       (!comp || j.company === comp) &&
-      (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)))
+      (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
+  renderKpi(base, tier, status);
+  const rows = base
+    .filter(([id, j]) => (!tier || j.tier === tier))
     .sort((a, b) => {
       const mode = $("fSort") ? $("fSort").value : "posted";
       if (mode === "comp" && (!!a[1].comp !== !!b[1].comp)) return a[1].comp ? -1 : 1;
@@ -130,10 +178,8 @@ function render() {
       return (b[1].first_seen || "").localeCompare(a[1].first_seen || "");
     });
 
-  $("stats").textContent =
-    `${rows.length} shown · ${Object.values(data.jobs).filter(j=>j.status==="new").length} open · ` +
-    `${Object.values(data.jobs).filter(j=>j.status==="applied").length} applied · ` +
-    `last scan ${data.updated || "?"}`;
+  $("stats").textContent = `${rows.length} shown`
+    + (tier ? ` · filtered to ${TIERS.find(t=>t[0]===tier)[1]}` : "");
 
   $("list").innerHTML = rows.map(([id, j]) => `
     <div class="job ${j.status === "applied" ? "applied" : j.status === "skip" ? "skip" : ""}">
@@ -151,6 +197,48 @@ function render() {
         <button class="${j.status==='interview'?'active':''}" onclick="mark('${id}','interview')">★ Interview</button>
       </div>
     </div>`).join("") || "<p style='color:var(--muted)'>Nothing matches.</p>";
+}
+
+function ago(iso){
+  if (!iso) return "never";
+  const mins = Math.floor((Date.now() - Date.parse(iso)) / 60000);
+  if (isNaN(mins)) return iso;
+  if (mins < 60) return mins <= 1 ? "just now" : mins + "m ago";
+  const h = Math.floor(mins / 60);
+  return h < 24 ? h + "h ago" : Math.floor(h / 24) + "d ago";
+}
+
+function renderKpi(base, tier, status) {
+  const total = base.length;
+  const word = STATUS_WORD[status] ?? "matching";
+  $("heroVal").textContent = total.toLocaleString();
+  $("heroLab").textContent = total === 1 ? `${word} role` : `${word} roles`;
+  $("heroSub").textContent = `last scan ${ago(data.updated)}`;
+
+  $("tiles").innerHTML = TIERS.map(([key, label]) => {
+    const n = base.filter(([, j]) => j.tier === key).length;
+    const pct = total ? Math.round(n / total * 100) : 0;
+    const on = tier === key;
+    return `<button class="tile" data-tier="${key}" aria-pressed="${on}"
+              style="--tint:var(--t-${key})"
+              title="${on ? "Clear the" : "Filter to"} ${label} tier">
+        <span class="tile-top"><span class="dot"></span>${label}</span>
+        <span class="tile-val">${n.toLocaleString()}</span>
+        <span class="tile-share">${pct}% of ${word}</span>
+        <span class="meter" role="img" aria-label="${pct}% of ${word} roles">
+          <span class="meter-fill" style="width:${pct}%"></span></span>
+      </button>`;
+  }).join("");
+
+  // whole-database standing totals, independent of the filters above
+  const all = Object.values(data.jobs);
+  const count = st => all.filter(j => j.status === st).length;
+  const withComp = all.filter(j => j.comp).length;
+  $("statusbar").innerHTML = [
+    ["Open", count("new")], ["Applied", count("applied")],
+    ["Interview", count("interview")], ["Skipped", count("skip")],
+    ["With pay range", withComp], ["Companies", new Set(all.map(j => j.company)).size],
+  ].map(([k, v]) => `<span class="schip">${k} <b>${v.toLocaleString()}</b></span>`).join("");
 }
 
 function daysOld(d){
@@ -222,6 +310,13 @@ function saveSettings(){
   $("dlg").close(); toast("Settings saved");
 }
 ["fTier","fStatus","fCompany","fSort"].forEach(id => $(id).onchange = render);
+$("tiles").addEventListener("click", e => {
+  const t = e.target.closest(".tile");
+  if (!t) return;
+  const cur = $("fTier").value;
+  $("fTier").value = (cur === t.dataset.tier) ? "" : t.dataset.tier;  // click again to clear
+  render();
+});
 $("fSearch").oninput = render;
 load();
 </script>
