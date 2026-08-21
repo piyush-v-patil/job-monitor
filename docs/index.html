@@ -198,10 +198,68 @@ async function load() {
       esc(e.message) + "). Run a scan workflow first, then refresh.</p>";
     return;
   }
+  fillCompanies();
+  render();
+  startAutoRefresh();
+}
+
+function fillCompanies() {
+  const keep = $("fCompany").value;
   const companies = [...new Set(Object.values(data.jobs).map(j => j.company))].sort();
   $("fCompany").innerHTML = '<option value="">All companies</option>' +
     companies.map(c => `<option>${c}</option>`).join("");
-  render();
+  if (companies.includes(keep)) $("fCompany").value = keep;   // survive a refresh
+}
+
+// ---- live updates -------------------------------------------------------
+// A scan commits jobs.json every hour and Pages redeploys it, so an open tab
+// goes stale. Poll cheaply with HEAD and only pull the ~500KB body when the
+// file has actually changed.
+let lastTag = null, polling = false;
+
+async function checkForUpdates(force = false) {
+  if (polling) return;
+  polling = true;
+  try {
+    let tag = null;
+    try {
+      const h = await fetch("data/jobs.json", { method: "HEAD", cache: "no-store" });
+      tag = h.headers.get("etag") || h.headers.get("last-modified");
+    } catch (e) { /* HEAD unsupported or offline - fall through to a full read */ }
+    if (!force && tag && tag === lastTag) { touchAgo(); return; }
+    const r = await fetch("data/jobs.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) return;
+    const fresh = await r.json();
+    if (!force && data && fresh.updated === data.updated) { lastTag = tag; touchAgo(); return; }
+    const before = data ? Object.keys(data.jobs).length : 0;
+    // re-apply marks that have not been persisted yet, so a scan landing
+    // mid-edit never silently discards them
+    for (const [id, d] of Object.entries(dirty)) {
+      const t = fresh.jobs[id];
+      if (!t) continue;
+      t.status = d.status;
+      if (d.applied_on) t.applied_on = d.applied_on; else delete t.applied_on;
+    }
+    data = fresh;
+    lastTag = tag;
+    fillCompanies();
+    render();
+    const added = Object.keys(data.jobs).length - before;
+    if (added > 0) toast(`${added} new role${added === 1 ? "" : "s"} from the latest scan`);
+  } catch (e) { /* transient - the next tick retries */ }
+  finally { polling = false; }
+}
+
+function touchAgo() {   // keep "last scan Xm ago" honest between refreshes
+  if (data) $("heroSub").textContent = `last scan ${ago(data.updated)}`;
+}
+
+function startAutoRefresh() {
+  setInterval(() => { if (!document.hidden) checkForUpdates(); }, 60000);
+  // coming back to the tab should show current data straight away
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) checkForUpdates();
+  });
 }
 
 const TIERS = [["intern","Intern"],["newgrad","New Grad"],["experienced","Experienced"]];

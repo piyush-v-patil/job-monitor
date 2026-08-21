@@ -4,8 +4,9 @@ A self-hosted, zero-server monitor for newly posted **US software engineering
 jobs** (intern / new grad / experienced up to ~5 yrs) across **big tech,
 finance & fintech, Fortune 500, and high-growth startups**.
 
-- **GitHub Actions** runs the scans on a schedule (big tech every 3 hours, a
-  full sweep of everything once daily). No server, no cost.
+- **GitHub Actions** runs the scans on a schedule (a full sweep of everything
+  every 2 hours, with big tech again on the off hour, so the biggest names are
+  checked hourly). No server, no cost.
 - **Discord** receives an alert for every genuinely new posting, with a direct
   apply link. The same job ID is **never notified twice**.
 - **A web dashboard** (GitHub Pages) shows everything found so far and lets
@@ -18,8 +19,8 @@ finance & fintech, Fortune 500, and high-growth startups**.
 
 ```
                      ┌────────────────────────────────────────────┐
- GitHub Actions cron │  every 3h  → scan big tech (12 companies)  │
-                     │  daily     → scan everything (45+ sources) │
+ GitHub Actions cron │  every 2h  → scan everything (45+ sources) │
+                     │  +1h offset→ scan big tech (12 companies)  │
                      └───────────────────┬────────────────────────┘
                                          │
              fetchers pull JSON from public careers APIs
@@ -51,9 +52,10 @@ job-monitor/
 │
 ├── config/
 │   └── companies.yaml             ← THE COMPANY LIST. Three sections:
-│                                    · bigtech:     scanned every 3 hours
-│                                    · other:       scanned once daily
-│                                    · aggregators: SimplifyJobs repos, daily
+│                                    · bigtech:     every 2h, offset 1h (so
+│                                    ·                these get hourly cover)
+│                                    · other:       every 2h (full sweep)
+│                                    · aggregators: SimplifyJobs repos, ditto
 │                                    Each entry names a fetcher + its
 │                                    parameters (ATS token, Workday tenant…).
 │                                    This is the file you'll edit most.
@@ -116,11 +118,11 @@ job-monitor/
 │                                    Actions commits updates after each run.
 │
 └── .github/workflows/
-    ├── scan-bigtech.yml           ← cron "0 */3 * * *" (every 3h UTC):
+    ├── scan-bigtech.yml           ← cron "30 1-23/2 * * *" (odd hours UTC):
     │                                runs `python -m monitor.main --tier
     │                                bigtech`, commits jobs.json if changed
-    └── scan-all.yml               ← cron "30 13 * * *" (daily 13:30 UTC ≈
-                                     9:30am ET): full sweep including
+    └── scan-all.yml               ← cron "30 */2 * * *" (even hours UTC,
+                                     :30): full sweep including
                                      Fortune 500, fintech, startups, and
                                      the Simplify aggregator
 ```
@@ -190,7 +192,7 @@ Refresh the repo page — you should see all the folders.
 
 1. Repo → **Actions** tab. If prompted "Workflows aren't being run on this
    repository", click **I understand my workflows, go ahead and enable them**.
-2. In the left sidebar click **Full sweep (daily)** → **Run workflow** →
+2. In the left sidebar click **Full sweep (every 2h)** → **Run workflow** →
    green **Run workflow** button.
 3. Wait 2–4 minutes, then open the run and read the log of the "Run full
    sweep" step. You'll see one line per company (`✓ Amazon: 100 raw
@@ -262,6 +264,13 @@ committed or sent anywhere except api.github.com.
 - **✗ Skip** hides roles you don't want; **★ Interview** tracks progress.
 - Applied/skipped roles never re-alert. The scanner only ever *adds* new job
   IDs — it cannot overwrite your statuses.
+- **The page keeps itself current.** An open tab checks for a new scan every
+  minute (and the moment you switch back to it) and folds in new roles with a
+  toast, so you never sit on stale data. Marks you have not saved yet survive
+  that refresh.
+- **Track your own progress.** Each tier tile counts what you have applied to,
+  and the activity heatmap plus streak show applications per day. Marking a
+  role Applied stamps the date, so the history builds from your first click.
 
 ---
 
@@ -317,7 +326,7 @@ normal, occasionally more during peak load.
   the careers sites themselves use — they can change without notice. A
   failing fetcher is logged and skipped, never fatal.
 - **Meta & LinkedIn** have no stable public careers API; they arrive via the
-  SimplifyJobs aggregator (daily sweep), typically within a day of posting.
+  SimplifyJobs aggregator, typically within a day of posting.
 - **"Experienced ≤5 yrs" is title-based** (SWE II/III, Engineer 2…). Plain
   "Software Engineer" titles are included too — verify the years requirement
   in the actual posting.
