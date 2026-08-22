@@ -4,6 +4,7 @@ These use unofficial-but-public JSON endpoints that back each company's own
 careers site. They can change without notice — if one starts failing, check
 the network tab of the careers page and update the endpoint.
 """
+from .. import filters
 from .http import session, get_json, post_json, iso_date, clean_text
 
 
@@ -33,6 +34,9 @@ def amazon(c):
                 j.get("job_schedule_type", "")),
             "department": j.get("job_category", "") or j.get("business_category", ""),
             "snippet": clean_text(j.get("description_short", "") or j.get("description", "")),
+            "yoe": filters.parse_yoe(
+                (j.get("basic_qualifications", "") or "") + " " + (j.get("description", "") or ""),
+                j.get("title", "")),
         })
     return out
 
@@ -221,6 +225,7 @@ def walmart(c):
                          if lo and hi else ""),
                 "employment_type": (m.get("employmentTypes") or [""])[0],
                 "department": (m.get("areas") or [""])[0],
+                "yoe": filters.parse_yoe(j.get("text", ""), m.get("title", "")),
             })
         page += 1
         if len(jobs) < size:

@@ -14,6 +14,8 @@ Structure:
       "workplace": "Remote|Hybrid|On-site", "department": str,
       "role": "ml-ai|data|security|devops-sre|mobile|frontend|fullstack|backend|
                embedded|qa-test|solutions|software",
+      "yoe": int,            # lowest stated years-of-experience, when the posting says
+      "deadline": "YYYY-MM-DD",  # application close date; very rarely published
       # written by the dashboard when you mark Applied/Interview; the scanner
       # only ever reads past it, so the activity history is never rewritten
       "applied_on": "YYYY-MM-DD"
@@ -54,7 +56,8 @@ def save(state: dict) -> None:
         json.dump(state, f, indent=1, ensure_ascii=False, sort_keys=True)
 
 
-ENRICH = ("posted_at", "comp", "employment_type", "workplace", "department", "role")
+ENRICH = ("posted_at", "comp", "employment_type", "workplace", "department",
+          "role", "yoe", "deadline")
 
 
 def source_health(state: dict, counts: dict) -> list:
@@ -91,7 +94,8 @@ def add_new(state: dict, jobs: list) -> list:
     new = []
     for j in jobs:
         jid = job_id(j["company"], j.get("external_id", ""), j.get("url", ""))
-        extra = {k: j[k] for k in ENRICH if j.get(k)}
+        # not truthiness: yoe == 0 is a real answer ("0-2 years of experience")
+        extra = {k: j[k] for k in ENRICH if j.get(k) not in ("", None)}
         if jid in state["jobs"]:
             entry = state["jobs"][jid]
             for k, v in extra.items():          # backfill only what is absent

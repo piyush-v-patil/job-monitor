@@ -203,3 +203,58 @@ def in_scope(job: dict, include_senior: bool = False) -> dict | None:
     job["tier"] = tier
     job["role"] = role_family(job.get("title", ""))
     return job
+
+
+# ---- years of experience ---------------------------------------------------
+# The tier a title implies is often wrong ("Software Engineer" says nothing),
+# so where a posting states its own bar in prose we read it. Only a stated
+# requirement counts - company history ("founded 15 years ago"), degree length
+# ("4-year degree") and anniversaries must not register.
+
+# "years" only counts when what follows reads like a requirement, never "ago".
+YOE_RE = re.compile(
+    r"(?:(?:minimum|min\.?|at least)\s+(?:of\s+)?)?"
+    r"(\d{1,2})\s*(?:\+|plus)?\s*(?:[-–]|to)?\s*(?:\d{1,2})?\s*(?:\+|plus)?\s*"
+    r"years?\b(?!\s+ago)"
+    r"\s+(?:of|in|with|working|building|developing|professional|relevant"
+    r"|industry|hands.?on|post|full.?time|prior|related|applicable)",
+    re.I)
+
+# Cues just before the number that mean it is describing the company, not you.
+YOE_HISTORY = re.compile(
+    r"(founded|formed|established|spent|celebrat|anniversary|history|been around"
+    r"|over the (past|last)|in the (past|last)|for the (past|last)|since)\b[^.]{0,40}$",
+    re.I)
+
+# ...and cues just after it, for the same reason ("10 years of company history").
+YOE_HISTORY_AFTER = re.compile(
+    r"^\s*(of\s+)?(company|corporate|business|operation|growth|history|innovation"
+    r"|partnership|service|success)", re.I)
+
+# "4-year degree", "four year program" - length of study, not experience.
+YOE_DEGREE = re.compile(r"\d\s*[-\s]?year\s+(degree|program|university|college|school)", re.I)
+
+
+def parse_yoe(text: str, title: str = "") -> int | None:
+    """Lowest stated years-of-experience requirement, or None if unstated.
+
+    The minimum is taken rather than the maximum: a posting asking for "2+
+    years backend, 5+ years distributed systems" is reachable at two.
+    """
+    if not text or INTERN.search(title or ""):
+        return None                      # an internship never states a real bar
+    best = None
+    for m in YOE_RE.finditer(text):
+        before = text[max(0, m.start() - 60): m.start()]
+        if YOE_HISTORY.search(before):
+            continue
+        # the match already consumed the connector ("of"/"in"), so look at
+        # what comes straight after it: "...years of | company history"
+        if YOE_HISTORY_AFTER.search(text[m.end(): m.end() + 40]):
+            continue
+        if YOE_DEGREE.search(text[max(0, m.start() - 20): m.end() + 20]):
+            continue
+        n = int(m.group(1))
+        if 0 <= n <= 20:
+            best = n if best is None else min(best, n)
+    return best

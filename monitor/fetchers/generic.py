@@ -49,6 +49,11 @@ def greenhouse(c):
             "posted_at": iso_date(j.get("first_published") or j.get("updated_at")),
             "department": depts[0] if depts else "",
             "snippet": clean_text(j.get("content", "")),
+            # almost never populated (0.2% of boards) but free to carry
+            "deadline": iso_date(j.get("application_deadline")),
+            # only present when the board is configured with_content
+            "yoe": filters.parse_yoe(clean_text(j.get("content", ""), 6000),
+                                     j.get("title", "")),
         })
     return out
 
@@ -79,6 +84,7 @@ def lever(c):
             "workplace": _norm(WORKPLACE, j.get("workplaceType", "")),
             "department": cats.get("team", "") or cats.get("department", ""),
             "snippet": clean_text(j.get("descriptionPlain", "")),
+            "yoe": filters.parse_yoe(j.get("descriptionPlain", ""), j.get("text", "")),
         })
     return out
 
@@ -112,6 +118,7 @@ def ashby(c):
             "workplace": _norm(WORKPLACE, workplace),
             "department": j.get("department", "") or j.get("team", ""),
             "snippet": clean_text(j.get("descriptionPlain", "")),
+            "yoe": filters.parse_yoe(j.get("descriptionPlain", ""), j.get("title", "")),
         })
     return out
 

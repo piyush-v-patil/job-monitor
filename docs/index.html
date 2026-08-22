@@ -132,6 +132,8 @@
   .badge.comp { color:#7ee2a8; border-color:rgba(126,226,168,.22); background:rgba(126,226,168,.06); }
   .badge.remote { color:#8ab4ff; border-color:rgba(138,180,255,.22); background:rgba(138,180,255,.06); }
   .badge.fresh { color:#ffd479; border-color:rgba(255,212,121,.22); background:rgba(255,212,121,.06); }
+  .badge.yoe { color:#c3b6ff; border-color:rgba(195,182,255,.22); background:rgba(195,182,255,.06); }
+  .badge.urgent { color:#ff9b8a; border-color:rgba(255,155,138,.3); background:rgba(255,155,138,.08); }
   .snip { color:var(--dim); font-size:11.5px; margin-top:6px; line-height:1.45; }
   .btns { display:flex; gap:5px; }
   button { background:var(--raised); color:var(--muted); border:1px solid var(--line);
@@ -166,11 +168,20 @@
   <select id="fStatus"><option value="open">Open (new)</option><option value="applied">Applied</option>
     <option value="skip">Skipped</option><option value="">Everything</option></select>
   <select id="fRole"><option value="">All roles</option></select>
+  <select id="fYoe">
+    <option value="">Any experience</option>
+    <option value="0">0 yrs stated</option>
+    <option value="2">&le; 2 yrs</option>
+    <option value="3">&le; 3 yrs</option>
+    <option value="5">&le; 5 yrs</option>
+    <option value="unstated">Not stated</option>
+  </select>
   <select id="fCompany"><option value="">All companies</option></select>
   <select id="fSort">
     <option value="posted">Sort: newest posted</option>
     <option value="seen">Sort: newest seen</option>
     <option value="comp">Sort: has compensation</option>
+    <option value="yoe">Sort: lowest experience bar</option>
   </select>
   <input type="text" id="fSearch" placeholder="Search title/location...">
   <button id="settings">⚙ GitHub token</button>
@@ -332,13 +343,14 @@ const STATUS_WORD = { open:"open", applied:"applied", skip:"skipped", interview:
 function render() {
   const tier = $("fTier").value, status = $("fStatus").value,
         comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
-        role = $("fRole").value;
+        role = $("fRole").value, yoe = $("fYoe").value;
   // "base" applies every filter EXCEPT tier, so each tile answers
   // "how many would I see if I picked this tier?"
   const base = Object.entries(data.jobs).filter(([id, j]) =>
       (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
       (!comp || j.company === comp) &&
       (!role || (j.role || "software") === role) &&
+      (!yoe || (yoe === "unstated" ? j.yoe == null : j.yoe != null && j.yoe <= +yoe)) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
   renderActivity();
@@ -347,6 +359,11 @@ function render() {
     .sort((a, b) => {
       const mode = $("fSort") ? $("fSort").value : "posted";
       if (mode === "comp" && (!!a[1].comp !== !!b[1].comp)) return a[1].comp ? -1 : 1;
+      if (mode === "yoe") {
+        // postings that state no bar sort last rather than pretending to be 0
+        const ya = a[1].yoe == null ? 99 : a[1].yoe, yb = b[1].yoe == null ? 99 : b[1].yoe;
+        if (ya !== yb) return ya - yb;
+      }
       if (mode === "posted") {
         // fall back to first_seen so entries with no posted_at still order sanely
         const pa = a[1].posted_at || a[1].first_seen || "";
@@ -503,6 +520,14 @@ function badges(j){
   if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);
   if (j.workplace) b.push(`<span class="badge${j.workplace === "Remote" ? " remote" : ""}">${esc(j.workplace)}</span>`);
   if (j.employment_type) b.push(`<span class="badge">${esc(j.employment_type)}</span>`);
+  if (j.yoe != null)
+    b.push(`<span class="badge yoe">${j.yoe === 0 ? "entry level" : j.yoe + "+ yrs"}</span>`);
+  if (j.deadline) {
+    const left = Math.ceil((Date.parse(j.deadline + "T23:59:59Z") - Date.now()) / 86400000);
+    if (left >= 0)
+      b.push(`<span class="badge${left <= 7 ? " urgent" : ""}">⏳ closes ${
+        left === 0 ? "today" : left === 1 ? "tomorrow" : "in " + left + "d"}</span>`);
+  }
   if (j.role && j.role !== "software")
     b.push(`<span class="badge">${esc(ROLE_LABEL[j.role] || j.role)}</span>`);
   if (j.department) b.push(`<span class="badge">🗂 ${esc(j.department)}</span>`);
@@ -590,7 +615,7 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany","fSort","fRole"].forEach(id => $(id).onchange = render);
+["fTier","fStatus","fCompany","fSort","fRole","fYoe"].forEach(id => $(id).onchange = render);
 $("tiles").addEventListener("click", e => {
   const t = e.target.closest(".tile");
   if (!t) return;
