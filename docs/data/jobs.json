@@ -12053,11 +12053,24 @@
    "title": "Software Engineer, Data Platform",
    "url": "https://nuro.ai/careersitem?gh_jid=7895644"
   },
+  "nvidia:128d940c8b5d": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-21",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, SONiC",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Engineer--SONiC_JR2023435"
+  },
   "nvidia:1f8c261d6766": {
    "company": "Nvidia",
    "first_seen": "2026-08-20",
    "location": "US, CA, Santa Clara",
    "posted_at": "2026-07-29",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -12081,11 +12094,24 @@
    "first_seen": "2026-08-20",
    "location": "US, CA, Santa Clara",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "GPU Simulation System Software Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Simulation-System-Software-Engineer_JR2018237"
+  },
+  "nvidia:54532b7dd222": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-07-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, CUDA-Q",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Software-Engineer--CUDA-Q_JR2011649"
   },
   "nvidia:5af15a3ca0ae": {
    "company": "NVIDIA",
@@ -12099,11 +12125,24 @@
    "title": "Backend Compiler Engineer New Grad",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242"
   },
+  "nvidia:5f6fe6b20461": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-07-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDK Eth Software Engineer, Networking",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/SDK-Eth-Software-Engineer--Networking_JR2013956"
+  },
   "nvidia:6601bea5598b": {
    "company": "Nvidia",
    "first_seen": "2026-08-20",
    "location": "US, CA, Santa Clara",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -12127,6 +12166,7 @@
    "first_seen": "2026-08-20",
    "location": "US, Remote",
    "posted_at": "2026-07-31",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -12145,11 +12185,36 @@
    "title": "Computer Vision and Deep Learning Intern 🎓",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Vision-and-Deep-Learning_JR2023833"
   },
+  "nvidia:d231e8fd4679": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-11",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - NVLink GPU Networking",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer---NVLink-GPU-Networking_JR2016557"
+  },
+  "nvidia:d3f793b45736": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-07-24",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System Software Engineering Lead",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineering-Lead_JR2021953"
+  },
   "nvidia:ea8c9d888bd1": {
    "company": "Nvidia",
    "first_seen": "2026-08-20",
    "location": "US, CA, Santa Clara",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -12161,6 +12226,7 @@
    "first_seen": "2026-08-20",
    "location": "US, MA, Westford",
    "posted_at": "2026-08-18",
+   "role": "embedded",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -12172,6 +12238,7 @@
    "first_seen": "2026-08-20",
    "location": "US, CA, Santa Clara",
    "posted_at": "2026-07-21",
+   "role": "embedded",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -28446,9 +28513,9 @@
    "last_ok": "2026-08-22"
   },
   "Nvidia": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
+   "best": 100,
+   "last": 100,
+   "last_ok": "2026-08-22"
   },
   "Okta": {
    "best": 335,
@@ -28636,6 +28703,6 @@
    "last_ok": "2026-08-22"
   }
  },
- "updated": "2026-08-22T07:07:19Z",
+ "updated": "2026-08-22T07:55:29Z",
  "version": 1
 }
