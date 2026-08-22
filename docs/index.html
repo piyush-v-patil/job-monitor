@@ -71,46 +71,35 @@
   .meter-fill { display:block; height:100%; border-radius:999px; background:var(--tint);
                 transition:width .35s cubic-bezier(.4,0,.2,1); }
 
-  /* ---- application activity: heatmap and stats share one row ---- */
-  #activity { border-radius:13px; padding:9px 12px; margin:0 0 8px;
-              display:grid; grid-template-columns:minmax(0,1fr) auto; gap:16px;
-              align-items:center; }
-  .act-main { min-width:0; }
-  .act-side { display:flex; flex-direction:column; gap:5px; min-width:196px; }
-  .act-title { font-size:9px; font-weight:600; letter-spacing:.09em; text-transform:uppercase;
-               color:var(--muted); }
-  .stats { display:grid; grid-template-columns:1fr 1fr; gap:4px; }
-  .srow { display:flex; align-items:baseline; justify-content:space-between; gap:8px;
-          font-size:8.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
-          color:var(--muted); padding:3px 8px; border-radius:7px; white-space:nowrap;
-          background:rgba(255,255,255,.025); border:1px solid var(--line);
-          transition:border-color .16s, background .16s; }
-  .srow b { font-size:12px; font-weight:650; color:var(--text); letter-spacing:-.01em; }
-  .srow.live { border-color:color-mix(in oklab,var(--h4) 32%,transparent);
-               background:color-mix(in oklab,var(--h4) 7%,transparent); }
-  .hm-scroll { overflow-x:auto; padding-bottom:1px; }
-  .hm-inner { display:inline-block; min-width:min-content; }
-  .hm-months { display:grid; grid-auto-flow:column; grid-auto-columns:10px;
-               margin:0 0 2px 26px; font-size:8.5px; color:var(--dim); }
-  .hm-months span { grid-row:1; white-space:nowrap; }
-  .hm-body { display:flex; gap:4px; }
-  .hm-days { display:grid; grid-template-rows:repeat(7,10px); font-size:8.5px;
-             color:var(--dim); width:22px; }
-  .hm-days span { line-height:10px; }
+  /* ---- activity: a 30-day heatmap living in the KPI row ---- */
+  #kpi { grid-template-columns:minmax(148px,172px) minmax(0,1fr) minmax(178px,206px); }
+  .actile { cursor:default; }
+  .actile:hover { transform:none; border-color:var(--line); }
+  .stk { margin-left:auto; font-size:12px; font-weight:650; color:var(--text);
+         letter-spacing:-.01em; }
+  .stk i { font-style:normal; font-size:9px; color:var(--muted); font-weight:600; }
+  .stk.live { color:var(--h4); }
+  .act-row { display:flex; align-items:flex-start; gap:10px; margin-top:7px; }
   .hm-grid { display:grid; grid-template-rows:repeat(7,10px); grid-auto-flow:column;
-             grid-auto-columns:10px; }
+             grid-auto-columns:10px; flex:none; }
   .hm-cell { width:8px; height:8px; border-radius:2px; background:var(--h0);
              transition:transform .1s; }
-  .hm-cell:hover { transform:scale(1.35); }
+  .hm-cell:hover { transform:scale(1.4); }
   .hm-cell[data-l="1"]{ background:var(--h1); } .hm-cell[data-l="2"]{ background:var(--h2); }
   .hm-cell[data-l="3"]{ background:var(--h3); } .hm-cell[data-l="4"]{ background:var(--h4); }
   .hm-cell.today { outline:1px solid #4a5165; outline-offset:1px; }
-  .hm-foot { display:flex; align-items:center; justify-content:space-between; gap:12px;
-             margin-top:4px; }
-  .hm-legend { display:flex; align-items:center; gap:3px; font-size:9px; color:var(--dim);
-               margin-left:auto; }
-  .hm-legend i { width:8px; height:8px; border-radius:2px; display:inline-block; }
-  .act-empty { color:var(--dim); font-size:10px; }
+  .act-nums { display:flex; flex-direction:column; gap:2px; font-size:8.5px; font-weight:600;
+              letter-spacing:.05em; text-transform:uppercase; color:var(--muted);
+              white-space:nowrap; }
+  .act-nums b { color:var(--text); font-size:11px; font-weight:650; letter-spacing:-.01em; }
+  .act-empty { color:var(--dim); font-size:8.5px; margin-top:5px; line-height:1.3; }
+
+  /* ---- source health ---- */
+  .schip.health { cursor:help; }
+  .schip.health .hdot { width:6px; height:6px; border-radius:50%; display:inline-block;
+                        background:var(--h3); align-self:center; }
+  .schip.health.warn .hdot { background:#e0a83a; }
+  .schip.health.bad  .hdot { background:#e05a4a; }
 
   .barrow { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin:0 0 10px; }
   #statusbar { display:flex; flex-wrap:wrap; gap:6px; margin:0; }
@@ -161,8 +150,8 @@
   #toast { position:fixed; bottom:22px; right:22px; background:var(--raised);
            border:1px solid var(--line-2); padding:10px 16px; border-radius:11px; display:none;
            font-size:12.5px; box-shadow:0 16px 40px -14px rgba(0,0,0,.8); }
-  @media (max-width:860px){ #activity { grid-template-columns:1fr; align-items:stretch; }
-    .stats { grid-template-columns:repeat(4,1fr); } }
+  @media (max-width:1040px){ #kpi { grid-template-columns:minmax(148px,172px) 1fr; }
+    .actile { grid-column:1 / -1; } }
   @media (max-width:720px){
     #kpi { grid-template-columns:1fr; } .hero-val { font-size:34px; }
     main { padding:14px 16px 32px; } header { padding:11px 16px; }
@@ -187,7 +176,7 @@
   <button id="settings">⚙ GitHub token</button>
 </header>
 <main>
-  <section id="kpi" aria-label="Roles by tier">
+  <section id="kpi" aria-label="Roles by tier and application activity">
     <div class="hero">
       <div class="hero-val" id="heroVal">-</div>
       <div class="hero-lab" id="heroLab"></div>
@@ -195,33 +184,18 @@
       <div class="hero-sub" id="heroSub"></div>
     </div>
     <div class="tiles" id="tiles"></div>
-  </section>
-  <section id="activity" aria-label="Application activity">
-    <div class="act-main">
-      <div class="hm-scroll"><div class="hm-inner">
-        <div class="hm-months" id="hmMonths"></div>
-        <div class="hm-body">
-          <div class="hm-days"><span></span><span>Mon</span><span></span><span>Wed</span>
-            <span></span><span>Fri</span><span></span></div>
-          <div class="hm-grid" id="hmGrid"></div>
+    <div class="tile actile" id="actile">
+      <span class="tile-top"><span class="dot" style="--tint:var(--h3)"></span>Activity
+        <b class="stk" id="stkRow">0<i>d</i></b></span>
+      <div class="act-row">
+        <div class="hm-grid" id="hmGrid" title="applications, last 30 days"></div>
+        <div class="act-nums">
+          <span>best <b id="stkBest">0</b></span>
+          <span>7d <b id="stkWeek">0</b></span>
+          <span>all <b id="stkTotal">0</b></span>
         </div>
-      </div></div>
-      <div class="hm-foot">
-        <span class="act-empty" id="actEmpty"></span>
-        <span class="hm-legend">Less
-          <i style="background:var(--h0)"></i><i style="background:var(--h1)"></i>
-          <i style="background:var(--h2)"></i><i style="background:var(--h3)"></i>
-          <i style="background:var(--h4)"></i>More</span>
       </div>
-    </div>
-    <div class="act-side">
-      <span class="act-title">Application activity</span>
-      <div class="stats">
-        <div class="srow" id="stkRow"><span>🔥 Streak</span><b id="stkNow">0</b></div>
-        <div class="srow"><span>Best</span><b id="stkBest">0</b></div>
-        <div class="srow"><span>This week</span><b id="stkWeek">0</b></div>
-        <div class="srow"><span>Total</span><b id="stkTotal">0</b></div>
-      </div>
+      <span class="act-empty" id="actEmpty"></span>
     </div>
   </section>
   <div class="barrow">
@@ -451,7 +425,23 @@ function renderKpi(base, tier, status) {
   // whole-database standing totals, independent of the filters above
   const count = st => all.filter(j => j.status === st).length;
   const withComp = all.filter(j => j.comp).length;
-  $("statusbar").innerHTML = [
+  // ---- source health, straight from the sources block the scanner writes ----
+  const src = data.sources || {};
+  const names = Object.keys(src);
+  const dead = names.filter(n => (src[n].last || 0) === 0);
+  const live = names.length - dead.length;
+  const pct = names.length ? Math.round(live / names.length * 100) : 0;
+  const cls = pct >= 95 ? "" : pct >= 85 ? " warn" : " bad";
+  const detail = dead.length
+    ? "Returning nothing:\n" + dead.sort().map(n => {
+        const r = src[n];
+        return `  • ${n}${r.best ? ` (best ${r.best}` + (r.last_ok ? `, last had jobs ${r.last_ok}` : "") + ")" : ""}`;
+      }).join("\n")
+    : "Every configured source returned postings on the last scan.";
+  const health = `<span class="schip health${cls}" title="${esc(detail)}">` +
+    `<span class="hdot"></span>Sources <b>${live}/${names.length}</b></span>`;
+
+  $("statusbar").innerHTML = health + [
     ["Open", count("new")], ["Applied", count("applied")],
     ["Interview", count("interview")], ["Skipped", count("skip")],
     ["With pay range", withComp], ["Companies", new Set(all.map(j => j.company)).size],
@@ -480,35 +470,24 @@ function renderActivity() {
   }
   const week = [...Array(7)].reduce((a, _, i) => a + (days[isoDay(new Date(today - i * dayMs))] || 0), 0);
 
-  $("stkNow").textContent = cur;
+  $("stkRow").innerHTML = `${cur}<i>d streak</i>`;
   $("stkRow").classList.toggle("live", cur > 0);
   $("stkBest").textContent = best;
   $("stkWeek").textContent = week;
   $("stkTotal").textContent = total;
 
-  // a full year back, aligned so each grid column is one Sun-Sat week
-  const start = new Date(today - 364 * dayMs);
+  // 30 days, aligned so each column is one Sun-Sat week (5 columns)
+  const start = new Date(today - 29 * dayMs);
   start.setDate(start.getDate() - start.getDay());
-  const cells = [], months = [];
-  let lastMonth = -1, col = 0;
+  const cells = [];
   for (let d = new Date(start); d <= today; d.setDate(d.getDate() + 1)) {
     const iso = isoDay(d), n = days[iso] || 0;
     const lvl = n === 0 ? 0 : n === 1 ? 1 : n === 2 ? 2 : n <= 4 ? 3 : 4;
     cells.push(`<span class="hm-cell${iso === isoDay(today) ? " today" : ""}" data-l="${lvl}"
       title="${n} application${n === 1 ? "" : "s"} on ${iso}"></span>`);
-    if (d.getDay() === 0) {
-      col++;
-      if (d.getMonth() !== lastMonth) {
-        // skip the leading partial month - its label would collide with the next
-        if (lastMonth !== -1 || col > 1)
-          months.push(`<span style="grid-column:${col}">${d.toLocaleString(undefined,{month:"short"})}</span>`);
-        lastMonth = d.getMonth();
-      }
-    }
   }
   $("hmGrid").innerHTML = cells.join("");
-  $("hmMonths").innerHTML = months.join("");
-  $("actEmpty").textContent = total ? "" : "Nothing logged yet — hit Applied on a role.";
+  $("actEmpty").textContent = total ? "" : "Nothing logged yet";
 }
 
 function daysOld(d){
