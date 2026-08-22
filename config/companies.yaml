@@ -108,8 +108,8 @@ other:
     tenant: boeing
     site: EXTERNAL_CAREERS
   - name: Verizon
-    fetcher: workday
-    host: mycareer.verizon.com
+    fetcher: workday        # mycareer.verizon.com is not a Workday CXS host
+    host: verizon.wd12.myworkdayjobs.com
     tenant: verizon
     site: verizon-careers
   - name: Walmart Global Tech
