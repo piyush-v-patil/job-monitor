@@ -165,9 +165,151 @@ other:
     fetcher: greenhouse
     token: roblox
 
+  # --- added after verifying each board returns postings live ---
+  - name: Datadog
+    fetcher: greenhouse
+    token: datadog
+  - name: MongoDB
+    fetcher: greenhouse
+    token: mongodb
+  - name: Waymo
+    fetcher: greenhouse
+    token: waymo
+  - name: Okta
+    fetcher: greenhouse
+    token: okta
+  - name: Cloudflare
+    fetcher: greenhouse
+    token: cloudflare
+  - name: Brex
+    fetcher: greenhouse
+    token: brex
+  - name: Verkada
+    fetcher: greenhouse
+    token: verkada
+  - name: Samsara
+    fetcher: greenhouse
+    token: samsara
+  - name: Elastic
+    fetcher: greenhouse
+    token: elastic
+  - name: GitLab
+    fetcher: greenhouse
+    token: gitlab
+  - name: Block
+    fetcher: greenhouse
+    token: block
+  - name: Flexport
+    fetcher: greenhouse
+    token: flexport
+  - name: Lyft
+    fetcher: greenhouse
+    token: lyft
+  - name: Twilio
+    fetcher: greenhouse
+    token: twilio
+  - name: Asana
+    fetcher: greenhouse
+    token: asana
+  - name: Nuro
+    fetcher: greenhouse
+    token: nuro
+  - name: Upstart
+    fetcher: greenhouse
+    token: upstart
+  - name: Gusto
+    fetcher: greenhouse
+    token: gusto
+  - name: Duolingo
+    fetcher: greenhouse
+    token: duolingo
+  - name: Faire
+    fetcher: greenhouse
+    token: faire
+  - name: SoFi
+    fetcher: greenhouse
+    token: sofi
+  - name: Carta
+    fetcher: greenhouse
+    token: carta
+  - name: Mercury
+    fetcher: greenhouse
+    token: mercury
+  - name: Peloton
+    fetcher: greenhouse
+    token: peloton
+  - name: Checkr
+    fetcher: greenhouse
+    token: checkr
+  - name: Dropbox
+    fetcher: greenhouse
+    token: dropbox
+  - name: Attentive
+    fetcher: greenhouse
+    token: attentive
+  - name: Komodo Health
+    fetcher: greenhouse
+    token: komodohealth
+  - name: Betterment
+    fetcher: greenhouse
+    token: betterment
+  - name: PagerDuty
+    fetcher: greenhouse
+    token: pagerduty
+  - name: Webflow
+    fetcher: greenhouse
+    token: webflow
+  - name: Airtable
+    fetcher: greenhouse
+    token: airtable
+  - name: Marqeta
+    fetcher: greenhouse
+    token: marqeta
+  - name: Spotify
+    fetcher: lever
+    token: spotify
+  - name: Match Group
+    fetcher: lever
+    token: matchgroup
+  - name: Harvey
+    fetcher: ashby
+    token: harvey
+  - name: ElevenLabs
+    fetcher: ashby
+    token: elevenlabs
+  - name: Decagon
+    fetcher: ashby
+    token: decagon
+  - name: Vanta
+    fetcher: ashby
+    token: vanta
+  - name: Perplexity
+    fetcher: ashby
+    token: perplexity
+  - name: Cognition
+    fetcher: ashby
+    token: cognition
+  - name: Replit
+    fetcher: ashby
+    token: replit
+  - name: Suno
+    fetcher: ashby
+    token: suno
+  - name: Abridge
+    fetcher: ashby
+    token: abridge
+  - name: Linear
+    fetcher: ashby
+    token: linear
+  - name: OpenEvidence
+    fetcher: ashby
+    token: openevidence
+
 aggregators:
   # Catches Meta, LinkedIn, Goldman/JPMorgan campus roles, and hundreds of
   # other companies. Only rows added in the last N days are considered.
   - name: Simplify Aggregator
     fetcher: simplify
-    max_age_days: 4
+    # 30d roughly triples company coverage (90 -> ~293) and lets the
+    # scanner catch up after an outage instead of ageing rows out
+    max_age_days: 30

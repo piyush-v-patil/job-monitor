@@ -176,6 +176,7 @@
     <option value="newgrad">New Grad</option><option value="experienced">Experienced</option></select>
   <select id="fStatus"><option value="open">Open (new)</option><option value="applied">Applied</option>
     <option value="skip">Skipped</option><option value="">Everything</option></select>
+  <select id="fRole"><option value="">All roles</option></select>
   <select id="fCompany"><option value="">All companies</option></select>
   <select id="fSort">
     <option value="posted">Sort: newest posted</option>
@@ -266,8 +267,29 @@ async function load() {
     return;
   }
   fillCompanies();
+  fillRoles();
   render();
   startAutoRefresh();
+}
+
+const ROLE_LABEL = {
+  "software":"Software (general)", "backend":"Backend", "frontend":"Frontend",
+  "fullstack":"Full stack", "mobile":"Mobile", "ml-ai":"ML / AI", "data":"Data",
+  "devops-sre":"DevOps / SRE", "security":"Security", "embedded":"Embedded / Systems",
+  "qa-test":"QA / Test", "solutions":"Solutions / Forward-deployed",
+};
+
+function fillRoles() {
+  const keep = $("fRole").value;
+  const counts = {};
+  for (const j of Object.values(data.jobs)) {
+    const r = j.role || "software";
+    counts[r] = (counts[r] || 0) + 1;
+  }
+  const order = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  $("fRole").innerHTML = '<option value="">All roles</option>' +
+    order.map(r => `<option value="${r}">${ROLE_LABEL[r] || r} (${counts[r]})</option>`).join("");
+  if (order.includes(keep)) $("fRole").value = keep;
 }
 
 function fillCompanies() {
@@ -310,6 +332,7 @@ async function checkForUpdates(force = false) {
     data = fresh;
     lastTag = tag;
     fillCompanies();
+    fillRoles();
     render();
     const added = Object.keys(data.jobs).length - before;
     if (added > 0) toast(`${added} new role${added === 1 ? "" : "s"} from the latest scan`);
@@ -334,12 +357,14 @@ const STATUS_WORD = { open:"open", applied:"applied", skip:"skipped", interview:
 
 function render() {
   const tier = $("fTier").value, status = $("fStatus").value,
-        comp = $("fCompany").value, q = $("fSearch").value.toLowerCase();
+        comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
+        role = $("fRole").value;
   // "base" applies every filter EXCEPT tier, so each tile answers
   // "how many would I see if I picked this tier?"
   const base = Object.entries(data.jobs).filter(([id, j]) =>
       (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
       (!comp || j.company === comp) &&
+      (!role || (j.role || "software") === role) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
   renderActivity();
@@ -499,6 +524,8 @@ function badges(j){
   if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);
   if (j.workplace) b.push(`<span class="badge${j.workplace === "Remote" ? " remote" : ""}">${esc(j.workplace)}</span>`);
   if (j.employment_type) b.push(`<span class="badge">${esc(j.employment_type)}</span>`);
+  if (j.role && j.role !== "software")
+    b.push(`<span class="badge">${esc(ROLE_LABEL[j.role] || j.role)}</span>`);
   if (j.department) b.push(`<span class="badge">🗂 ${esc(j.department)}</span>`);
   return b.length ? `<div class="badges">${b.join("")}</div>` : "";
 }
@@ -570,7 +597,7 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany","fSort"].forEach(id => $(id).onchange = render);
+["fTier","fStatus","fCompany","fSort","fRole"].forEach(id => $(id).onchange = render);
 $("tiles").addEventListener("click", e => {
   const t = e.target.closest(".tile");
   if (!t) return;

@@ -12,6 +12,8 @@ Structure:
       # best-effort enrichment; key is omitted entirely when the ATS has no value
       "posted_at": "YYYY-MM-DD", "comp": str, "employment_type": str,
       "workplace": "Remote|Hybrid|On-site", "department": str,
+      "role": "ml-ai|data|security|devops-sre|mobile|frontend|fullstack|backend|
+               embedded|qa-test|solutions|software",
       # written by the dashboard when you mark Applied/Interview; the scanner
       # only ever reads past it, so the activity history is never rewritten
       "applied_on": "YYYY-MM-DD"
@@ -52,7 +54,30 @@ def save(state: dict) -> None:
         json.dump(state, f, indent=1, ensure_ascii=False, sort_keys=True)
 
 
-ENRICH = ("posted_at", "comp", "employment_type", "workplace", "department")
+ENRICH = ("posted_at", "comp", "employment_type", "workplace", "department", "role")
+
+
+def source_health(state: dict, counts: dict) -> list:
+    """Record this run's per-source yield; return sources that just went dark.
+
+    A source that has produced postings before and now returns nothing is the
+    failure mode that hides: the run still succeeds and the log still shows a
+    tidy summary. Comparing against the recorded high-water mark turns that
+    into something worth paging about.
+    """
+    hist = state.setdefault("sources", {})
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    broke = []
+    for name, n in counts.items():
+        rec = hist.setdefault(name, {"best": 0, "last": 0, "last_ok": None})
+        if n > 0:
+            rec["last_ok"] = today
+        elif rec.get("best", 0) >= 5 and rec.get("last", 0) > 0:
+            # was healthy on the previous run, now empty
+            broke.append({"name": name, "was": rec["last"], "since": rec.get("last_ok")})
+        rec["best"] = max(rec.get("best", 0), n)
+        rec["last"] = n
+    return broke
 
 
 def add_new(state: dict, jobs: list) -> list:

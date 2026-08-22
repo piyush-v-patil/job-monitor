@@ -6,6 +6,11 @@ on:
                              # scan-bigtech bisects this interval (see its cron),
                              # so big tech ends up checked once an hour
   workflow_dispatch:
+    inputs:
+      no_notify:
+        description: "Absorb new postings silently (use after widening filters)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,7 +32,7 @@ jobs:
       - name: Run full sweep
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python -m monitor.main --tier all
+        run: python -m monitor.main --tier all ${{ inputs.no_notify && '--no-notify' || '' }}
       - name: Commit state
         run: |
           git config user.name "job-monitor-bot"

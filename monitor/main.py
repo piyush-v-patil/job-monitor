@@ -83,10 +83,16 @@ def main():
     print(f"\n{len(raw)} raw -> {len(in_scope)} in scope -> {len(new)} new"
           + (" (seed run: notifications suppressed)" if seeding else ""))
 
-    empty = [c.get("name", "?") for c, n in zip(companies, counts) if n == 0]
+    by_source = {c.get("name", "?"): n for c, n in zip(companies, counts)}
+    empty = [name for name, n in by_source.items() if n == 0]
     if empty:
         print(f"WARNING: {len(empty)} source(s) returned 0 postings: "
               + ", ".join(empty))
+    # sources that worked last run and are empty now - worth interrupting for
+    broke = state.source_health(st, by_source)
+    if broke:
+        print("BROKEN since last run: "
+              + ", ".join(f"{b['name']} (was {b['was']})" for b in broke))
     for j in new[:50]:
         print(f"  [{j['tier']:>11}] {j['company']}: {j['title']} ({j['location'][:60]})")
 
@@ -99,6 +105,10 @@ def main():
         notify.send(new, run_label=f"(scan: {args.tier})")
     elif new and args.no_notify:
         print(f"--no-notify: absorbed {len(new)} job(s) without notifying.")
+    # a broken source is reported even on a --no-notify backfill: it means
+    # postings are being missed right now, which is not a quiet event
+    if broke and not seeding:
+        notify.send_alert(broke)
 
     # Fail the workflow visibly if literally every fetcher errored.
     if raw == [] and companies:

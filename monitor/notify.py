@@ -28,6 +28,34 @@ def _fields(j: dict) -> list:
     return out
 
 
+def send_alert(broken: list) -> None:
+    """Tell Discord a source stopped returning anything.
+
+    Silent breakage is the expensive kind - the Simplify aggregator returned
+    zero for weeks behind a green check - so this is worth its own message.
+    """
+    url = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+    if not url or not broken:
+        return
+    lines = "\n".join(
+        f"- **{b['name']}** - was returning {b['was']}, now 0"
+        + (f" (last had postings {b['since']})" if b.get("since") else "")
+        for b in broken[:20])
+    payload = {"embeds": [{
+        "title": f"⚠️ {len(broken)} source(s) stopped returning postings",
+        "description": (lines + "\n\nLikely a changed endpoint or an expired ATS "
+                        "token. Jobs from these companies are being missed until "
+                        "it is fixed.")[:4000],
+        "color": 0xE67E22,
+    }]}
+    try:
+        r = requests.post(url, json=payload, timeout=15)
+        r.raise_for_status()
+        print(f"Alerted Discord: {len(broken)} broken source(s)")
+    except Exception as e:  # noqa: BLE001 - an alert must never fail the run
+        print(f"could not send source alert: {e}")
+
+
 def send(new_jobs: list, run_label: str = "") -> None:
     url = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
     if not url:
