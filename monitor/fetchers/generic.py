@@ -8,6 +8,7 @@ Filtering happens later in filters.py.
 """
 import re
 
+from .. import filters
 from .http import session, get_json, post_json, iso_date, rel_date, clean_text
 
 # Ashby/SmartRecruiters use their own vocabulary; normalize to one set.
@@ -118,11 +119,21 @@ def ashby(c):
 # Workday's `locationsText` collapses to "N Locations" whenever a posting is
 # attached to more than one office, which hides the country from filters.py -
 # that is how Israel-based Nvidia roles reached the US-only feed. The country
-# is still recoverable: `externalPath` is slugged from the *primary* location
-# ("/job/Israel-Tel-Aviv/...", "/job/US-CA-Santa-Clara/..."). Only leading
-# segments we recognize are trusted; anything else leaves country empty so the
-# existing location heuristics stay in charge.
+# is still recoverable from `externalPath`, which is slugged from the *primary*
+# location. Tenants spell that slug three different ways:
+#   country name   /job/Israel-Tel-Aviv/, /job/Germany---Munich/
+#   ISO-3166 alpha-3   /job/GBR---Fleet-UK/, /job/POL---Gdansk-Poland/
+#   bare city, no country at all   /job/Noida/, /job/BangaloreIndia/
+# Only slugs we actually recognize set a country; anything else leaves it empty
+# so the existing location heuristics stay in charge.
 WD_US_PREFIX = re.compile(r"^(US|USA|United-States(-of-America)?)(-|$)", re.I)
+
+# Not every tenant leads with a country - Capital One emits "/job/McLean-VA/" -
+# so a US town named after a country or a foreign city (Panama City FL, Mexico
+# MO, Peru IN, Paris TX, Berlin NH) can look foreign. A US state code standing
+# as its own segment settles it, and is checked first for that reason. No US
+# code collides with a Canadian or Mexican state abbreviation.
+WD_US_STATE = re.compile(rf"(^|-)({filters.US_STATES})(-|$)")
 
 # Non-US countries as Workday slugs them. Longest match wins, so multi-word
 # names are listed ahead of the single word they start with.
@@ -145,6 +156,49 @@ WD_COUNTRIES = (
 WD_COUNTRY = re.compile(
     r"^(" + "|".join(sorted(WD_COUNTRIES, key=len, reverse=True)) + r")(-|$)", re.I)
 
+# Alpha-3 codes (Boeing, Target) and the one alpha-2 that is unambiguous here.
+WD_CODES = {
+    "ARE": "United Arab Emirates", "ARG": "Argentina", "AUS": "Australia",
+    "AUT": "Austria", "BEL": "Belgium", "BRA": "Brazil", "CAN": "Canada",
+    "CHE": "Switzerland", "CHL": "Chile", "CHN": "China", "COL": "Colombia",
+    "CZE": "Czechia", "DEU": "Germany", "DNK": "Denmark", "EGY": "Egypt",
+    "ESP": "Spain", "FIN": "Finland", "FRA": "France", "GBR": "United Kingdom",
+    "GRC": "Greece", "HKG": "Hong Kong", "HUN": "Hungary", "IDN": "Indonesia",
+    "IND": "India", "IRL": "Ireland", "ISR": "Israel", "ITA": "Italy",
+    "JPN": "Japan", "KEN": "Kenya", "KOR": "Korea", "MEX": "Mexico",
+    "MYS": "Malaysia", "NGA": "Nigeria", "NLD": "Netherlands", "NOR": "Norway",
+    "NZL": "New Zealand", "PER": "Peru", "PHL": "Philippines", "POL": "Poland",
+    "PRT": "Portugal", "QAT": "Qatar", "ROU": "Romania", "SAU": "Saudi Arabia",
+    "SGP": "Singapore", "SWE": "Sweden", "THA": "Thailand", "TUR": "Turkey",
+    "TWN": "Taiwan", "UKR": "Ukraine", "VNM": "Vietnam", "ZAF": "South Africa",
+    "UK": "United Kingdom",
+}
+WD_CODE = re.compile(r"^(" + "|".join(WD_CODES) + r")(-|$)")
+
+# Tenants that slug the city alone ("/job/Noida/", "/job/BangaloreIndia/").
+# Only non-US engineering hubs, and only reached after the US state check
+# above, so US namesakes (Paris TX, Berlin NH, Toronto OH) never land here.
+WD_CITIES = {
+    "Bangalore": "India", "Bengaluru": "India", "Chennai": "India",
+    "Gurgaon": "India", "Gurugram": "India", "Hyderabad": "India",
+    "Mumbai": "India", "Noida": "India", "Pune": "India",
+    "Amsterdam": "Netherlands", "Barcelona": "Spain", "Basel": "Switzerland",
+    "Beijing": "China", "Berlin": "Germany", "Bucharest": "Romania",
+    "Budapest": "Hungary", "Copenhagen": "Denmark", "Dublin": "Ireland",
+    "Edinburgh": "United Kingdom", "Hamburg": "Germany", "Helsinki": "Finland",
+    "Krakow": "Poland", "Lisbon": "Portugal", "London": "United Kingdom",
+    "Madrid": "Spain", "Manchester": "United Kingdom", "Milan": "Italy",
+    "Montreal": "Canada", "Munich": "Germany", "Oslo": "Norway",
+    "Paris": "France", "Prague": "Czechia", "Seoul": "Korea",
+    "Shanghai": "China", "Shenzhen": "China", "Singapore": "Singapore",
+    "Stockholm": "Sweden", "Sydney": "Australia", "Taipei": "Taiwan",
+    "Tel-Aviv": "Israel", "Tokyo": "Japan", "Toronto": "Canada",
+    "Vancouver": "Canada", "Warsaw": "Poland", "Zurich": "Switzerland",
+}
+# No trailing boundary: the city may be glued to its country ("BangaloreIndia").
+WD_CITY = re.compile(
+    r"^(" + "|".join(sorted(WD_CITIES, key=len, reverse=True)) + r")", re.I)
+
 
 def workday_country(external_path: str) -> str:
     """Country of a Workday posting, read off its URL slug. '' if unrecognized."""
@@ -152,10 +206,17 @@ def workday_country(external_path: str) -> str:
     if not m:
         return ""
     slug = m.group(1)
-    if WD_US_PREFIX.match(slug):
+    if WD_US_PREFIX.match(slug) or WD_US_STATE.search(slug):
         return "US"
-    hit = WD_COUNTRY.match(slug)
-    return hit.group(1).replace("-", " ") if hit else ""
+    for pattern, resolve in (
+        (WD_COUNTRY, lambda t: t.replace("-", " ")),
+        (WD_CODE, lambda t: WD_CODES[t.upper()]),
+        (WD_CITY, lambda t: WD_CITIES[t.title()]),
+    ):
+        hit = pattern.match(slug)
+        if hit:
+            return resolve(hit.group(1))
+    return ""
 
 
 def workday(c):

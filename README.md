@@ -284,6 +284,7 @@ committed or sent anywhere except api.github.com.
 | Change role/location rules | the regexes in `monitor/filters.py` |
 | Wider/narrower aggregator window | `max_age_days` under `aggregators:` in the config |
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run` |
+| Drop tracked postings that are not US | `python -m monitor.prune --dry-run` to review, then without the flag to save. Re-applies the current location rules to `jobs.json`; anything you have already marked (status past `new`) is reported and kept. |
 
 ---
 

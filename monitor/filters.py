@@ -88,9 +88,45 @@ NON_US = re.compile(
     r"|singapore|tokyo|japan|china|shanghai|beijing|germany|berlin|munich|paris"
     r"|france|israel|tel aviv|australia|sydney|mexico|brazil|poland|warsaw"
     r"|netherlands|amsterdam|spain|madrid|zurich|switzerland|korea|seoul|taiwan"
-    r"|ireland|uk\b|united kingdom|remote.*(emea|apac|latam)",
+    r"|ireland|uk\b|united kingdom|england|scotland|wales|remote.*(emea|apac|latam)",
     re.I,
 )
+
+# A country named at the END of a location is the authoritative one: "Cambridge,
+# England, GBR" is not Cambridge MA, however hard the city name hints US.
+TRAILING_NON_US = re.compile(
+    r",\s*(canada|can|gbr|uk|united kingdom|england|scotland|wales|ireland|irl"
+    r"|india|ind|israel|isr|germany|deu|france|fra|spain|esp|italy|ita|poland|pol"
+    r"|netherlands|nld|sweden|swe|switzerland|che|australia|aus|new zealand|nzl"
+    r"|japan|jpn|china|chn|singapore|sgp|korea|kor|taiwan|twn|brazil|bra|mexico"
+    r"|mex|argentina|arg|colombia|col|romania|rou|portugal|prt|denmark|dnk"
+    r"|norway|nor|finland|fin|austria|aut|belgium|bel|czechia|cze|hungary|hun"
+    r"|greece|grc|turkey|tur|ukraine|ukr|philippines|phl|indonesia|idn|malaysia"
+    r"|mys|vietnam|vnm|thailand|tha|south africa|zaf|egypt|nigeria|kenya)\s*$",
+    re.I,
+)
+
+# "Toronto, ON, CA" is Canada; a bare "CA" after a Canadian province is not
+# California. Rewritten before the hints run so the province settles it.
+CA_PROVINCE = re.compile(
+    r"\b(ON|BC|QC|AB|MB|SK|NS|NB|NL|PE|YT|NT|NU)\s*,\s*CA\b")
+
+# Boards list multi-site postings as one string ("Toronto, ON, Canada;
+# Sunnyvale, CA"). One US site makes the posting reachable, so each site is
+# judged on its own and any US one carries it.
+LOC_SPLIT = re.compile(r"\s*[;|]\s*|\s+/\s+")
+
+
+def _site_is_us(loc: str) -> bool:
+    """Judge a single location string."""
+    if not loc or AMBIGUOUS_LOC.match(loc):
+        return True
+    loc = CA_PROVINCE.sub("Canada", loc)
+    if TRAILING_NON_US.search(loc):
+        return False
+    if NON_US.search(loc) and not US_HINT.search(loc):
+        return False
+    return bool(US_HINT.search(loc))
 
 
 def is_us(location: str, country: str = "") -> bool:
@@ -105,9 +141,7 @@ def is_us(location: str, country: str = "") -> bool:
     loc = (location or "").strip()
     if not loc or AMBIGUOUS_LOC.match(loc):
         return True
-    if NON_US.search(loc) and not US_HINT.search(loc):
-        return False
-    return bool(US_HINT.search(loc))
+    return any(_site_is_us(p.strip()) for p in LOC_SPLIT.split(loc) if p.strip())
 
 
 # ---- role family -----------------------------------------------------------
