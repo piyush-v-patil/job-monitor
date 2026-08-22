@@ -78,6 +78,9 @@ def main():
 
     st = state.load()
     seeding = not st["jobs"]
+    merged = state.dedupe(st)
+    if merged:
+        print(f"merged {merged} duplicate posting(s) held under two source ids")
     new = state.add_new(st, in_scope)
 
     print(f"\n{len(raw)} raw -> {len(in_scope)} in scope -> {len(new)} new"
