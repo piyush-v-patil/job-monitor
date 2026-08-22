@@ -8667,6 +8667,42 @@
    "title": "Software Engineer 1",
    "url": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2435081"
   },
+  "cvs-health:3e6fb0087b20": {
+   "company": "CVS Health",
+   "first_seen": "2026-08-22",
+   "location": "TX - Irving",
+   "posted_at": "2026-08-18",
+   "role": "data",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/TX---Irving/Data-Engineer_R1011899"
+  },
+  "cvs-health:603265554936": {
+   "company": "CVS Health",
+   "first_seen": "2026-08-22",
+   "location": "RI - Woonsocket",
+   "posted_at": "2026-08-10",
+   "role": "devops-sre",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - SRE, Retail & Pharmacy",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/RI---Woonsocket/Software-Engineer---SRE--Retail---Pharmacy_R0987009"
+  },
+  "cvs-health:9b862fa0efa5": {
+   "company": "CVS Health",
+   "first_seen": "2026-08-22",
+   "location": "CT - Hartford",
+   "posted_at": "2026-08-17",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/CT---Hartford/Software-Development-Engineer_R1011965"
+  },
   "cvs-health:b28dc4911184": {
    "company": "CVS Health",
    "first_seen": "2026-08-22",
@@ -8690,6 +8726,18 @@
    "tier": "experienced",
    "title": "Software Development Engineer - Pricing & Promotions",
    "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/New-York-161-Ave-of-the-Americas/Software-Development-Engineer---Front-Store_R0927508"
+  },
+  "cvs-health:d61e4bb7a61f": {
+   "company": "CVS Health",
+   "first_seen": "2026-08-22",
+   "location": "CT - Hartford",
+   "posted_at": "2026-08-19",
+   "role": "frontend",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Data, API, Front End",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/CT---Hartford/Software-Engineer---Data--API--Front-End_R0992413"
   },
   "cvs-health:e0870276caaf": {
    "company": "CVS Health",
@@ -28568,14 +28616,39 @@
   }
  },
  "sources": {
+  "Abridge": {
+   "best": 47,
+   "last": 47,
+   "last_ok": "2026-08-22"
+  },
+  "Adobe": {
+   "best": 100,
+   "last": 100,
+   "last_ok": "2026-08-22"
+  },
+  "Affirm": {
+   "best": 207,
+   "last": 207,
+   "last_ok": "2026-08-22"
+  },
   "Airbnb": {
    "best": 189,
    "last": 189,
    "last_ok": "2026-08-22"
   },
+  "Airtable": {
+   "best": 16,
+   "last": 16,
+   "last_ok": "2026-08-22"
+  },
   "Amazon": {
    "best": 100,
    "last": 100,
+   "last_ok": "2026-08-22"
+  },
+  "Anduril": {
+   "best": 2236,
+   "last": 2236,
    "last_ok": "2026-08-22"
   },
   "Anthropic": {
@@ -28588,19 +28661,219 @@
    "last": 0,
    "last_ok": null
   },
+  "Asana": {
+   "best": 126,
+   "last": 126,
+   "last_ok": "2026-08-22"
+  },
+  "Attentive": {
+   "best": 39,
+   "last": 39,
+   "last_ok": "2026-08-22"
+  },
+  "Betterment": {
+   "best": 32,
+   "last": 32,
+   "last_ok": "2026-08-22"
+  },
+  "Block": {
+   "best": 190,
+   "last": 190,
+   "last_ok": "2026-08-22"
+  },
+  "Boeing": {
+   "best": 100,
+   "last": 100,
+   "last_ok": "2026-08-22"
+  },
+  "Brex": {
+   "best": 294,
+   "last": 294,
+   "last_ok": "2026-08-22"
+  },
+  "CVS Health": {
+   "best": 100,
+   "last": 100,
+   "last_ok": "2026-08-22"
+  },
+  "Capital One": {
+   "best": 100,
+   "last": 100,
+   "last_ok": "2026-08-22"
+  },
+  "Carta": {
+   "best": 60,
+   "last": 60,
+   "last_ok": "2026-08-22"
+  },
+  "Checkr": {
+   "best": 45,
+   "last": 45,
+   "last_ok": "2026-08-22"
+  },
+  "Chime": {
+   "best": 59,
+   "last": 59,
+   "last_ok": "2026-08-22"
+  },
+  "Citadel": {
+   "best": 0,
+   "last": 0,
+   "last_ok": null
+  },
+  "Cloudflare": {
+   "best": 308,
+   "last": 308,
+   "last_ok": "2026-08-22"
+  },
+  "Cognition": {
+   "best": 84,
+   "last": 84,
+   "last_ok": "2026-08-22"
+  },
+  "Coinbase": {
+   "best": 173,
+   "last": 173,
+   "last_ok": "2026-08-22"
+  },
+  "Databricks": {
+   "best": 818,
+   "last": 818,
+   "last_ok": "2026-08-22"
+  },
+  "Datadog": {
+   "best": 448,
+   "last": 448,
+   "last_ok": "2026-08-22"
+  },
+  "Decagon": {
+   "best": 137,
+   "last": 137,
+   "last_ok": "2026-08-22"
+  },
+  "Discord": {
+   "best": 51,
+   "last": 51,
+   "last_ok": "2026-08-22"
+  },
+  "DoorDash": {
+   "best": 463,
+   "last": 463,
+   "last_ok": "2026-08-22"
+  },
+  "Dropbox": {
+   "best": 41,
+   "last": 41,
+   "last_ok": "2026-08-22"
+  },
+  "Duolingo": {
+   "best": 69,
+   "last": 69,
+   "last_ok": "2026-08-22"
+  },
+  "Elastic": {
+   "best": 249,
+   "last": 249,
+   "last_ok": "2026-08-22"
+  },
+  "ElevenLabs": {
+   "best": 255,
+   "last": 255,
+   "last_ok": "2026-08-22"
+  },
+  "Faire": {
+   "best": 62,
+   "last": 62,
+   "last_ok": "2026-08-22"
+  },
+  "Figma": {
+   "best": 161,
+   "last": 161,
+   "last_ok": "2026-08-22"
+  },
+  "Flexport": {
+   "best": 164,
+   "last": 164,
+   "last_ok": "2026-08-22"
+  },
+  "GitLab": {
+   "best": 204,
+   "last": 204,
+   "last_ok": "2026-08-22"
+  },
   "Google": {
    "best": 0,
    "last": 0,
    "last_ok": null
+  },
+  "Gusto": {
+   "best": 91,
+   "last": 91,
+   "last_ok": "2026-08-22"
+  },
+  "Harvey": {
+   "best": 360,
+   "last": 360,
+   "last_ok": "2026-08-22"
+  },
+  "Instacart": {
+   "best": 118,
+   "last": 118,
+   "last_ok": "2026-08-22"
+  },
+  "Komodo Health": {
+   "best": 36,
+   "last": 36,
+   "last_ok": "2026-08-22"
+  },
+  "Linear": {
+   "best": 32,
+   "last": 32,
+   "last_ok": "2026-08-22"
+  },
+  "Lyft": {
+   "best": 162,
+   "last": 162,
+   "last_ok": "2026-08-22"
+  },
+  "Marqeta": {
+   "best": 2,
+   "last": 2,
+   "last_ok": "2026-08-22"
+  },
+  "Match Group": {
+   "best": 81,
+   "last": 81,
+   "last_ok": "2026-08-22"
+  },
+  "Mercury": {
+   "best": 56,
+   "last": 56,
+   "last_ok": "2026-08-22"
   },
   "Microsoft": {
    "best": 0,
    "last": 0,
    "last_ok": null
   },
+  "MongoDB": {
+   "best": 404,
+   "last": 404,
+   "last_ok": "2026-08-22"
+  },
   "Netflix": {
    "best": 10,
    "last": 10,
+   "last_ok": "2026-08-22"
+  },
+  "Notion": {
+   "best": 128,
+   "last": 128,
+   "last_ok": "2026-08-22"
+  },
+  "Nuro": {
+   "best": 104,
+   "last": 104,
    "last_ok": "2026-08-22"
   },
   "Nvidia": {
@@ -28608,9 +28881,114 @@
    "last": 100,
    "last_ok": "2026-08-22"
   },
+  "Okta": {
+   "best": 335,
+   "last": 335,
+   "last_ok": "2026-08-22"
+  },
   "OpenAI": {
    "best": 754,
    "last": 754,
+   "last_ok": "2026-08-22"
+  },
+  "OpenEvidence": {
+   "best": 7,
+   "last": 7,
+   "last_ok": "2026-08-22"
+  },
+  "PagerDuty": {
+   "best": 29,
+   "last": 29,
+   "last_ok": "2026-08-22"
+  },
+  "Palantir": {
+   "best": 308,
+   "last": 308,
+   "last_ok": "2026-08-22"
+  },
+  "Peloton": {
+   "best": 49,
+   "last": 49,
+   "last_ok": "2026-08-22"
+  },
+  "Perplexity": {
+   "best": 100,
+   "last": 100,
+   "last_ok": "2026-08-22"
+  },
+  "Pinterest": {
+   "best": 225,
+   "last": 225,
+   "last_ok": "2026-08-22"
+  },
+  "Plaid": {
+   "best": 0,
+   "last": 0,
+   "last_ok": null
+  },
+  "Ramp": {
+   "best": 136,
+   "last": 136,
+   "last_ok": "2026-08-22"
+  },
+  "Reddit": {
+   "best": 151,
+   "last": 151,
+   "last_ok": "2026-08-22"
+  },
+  "Replit": {
+   "best": 71,
+   "last": 71,
+   "last_ok": "2026-08-22"
+  },
+  "Robinhood": {
+   "best": 130,
+   "last": 130,
+   "last_ok": "2026-08-22"
+  },
+  "Roblox": {
+   "best": 232,
+   "last": 232,
+   "last_ok": "2026-08-22"
+  },
+  "Salesforce": {
+   "best": 100,
+   "last": 100,
+   "last_ok": "2026-08-22"
+  },
+  "Samsara": {
+   "best": 266,
+   "last": 266,
+   "last_ok": "2026-08-22"
+  },
+  "Scale AI": {
+   "best": 208,
+   "last": 208,
+   "last_ok": "2026-08-22"
+  },
+  "Simplify Aggregator": {
+   "best": 875,
+   "last": 875,
+   "last_ok": "2026-08-22"
+  },
+  "Snowflake": {
+   "best": 0,
+   "last": 0,
+   "last_ok": null
+  },
+  "SoFi": {
+   "best": 62,
+   "last": 62,
+   "last_ok": "2026-08-22"
+  },
+  "SpaceX": {
+   "best": 2179,
+   "last": 2179,
+   "last_ok": "2026-08-22"
+  },
+  "Spotify": {
+   "best": 95,
+   "last": 95,
    "last_ok": "2026-08-22"
   },
   "Stripe": {
@@ -28618,7 +28996,27 @@
    "last": 576,
    "last_ok": "2026-08-22"
   },
+  "Suno": {
+   "best": 62,
+   "last": 62,
+   "last_ok": "2026-08-22"
+  },
+  "Target": {
+   "best": 100,
+   "last": 100,
+   "last_ok": "2026-08-22"
+  },
   "Tesla": {
+   "best": 0,
+   "last": 0,
+   "last_ok": null
+  },
+  "Twilio": {
+   "best": 146,
+   "last": 146,
+   "last_ok": "2026-08-22"
+  },
+  "Two Sigma": {
    "best": 0,
    "last": 0,
    "last_ok": null
@@ -28627,8 +29025,48 @@
    "best": 0,
    "last": 0,
    "last_ok": null
+  },
+  "Upstart": {
+   "best": 97,
+   "last": 97,
+   "last_ok": "2026-08-22"
+  },
+  "Vanta": {
+   "best": 103,
+   "last": 103,
+   "last_ok": "2026-08-22"
+  },
+  "Verizon": {
+   "best": 0,
+   "last": 0,
+   "last_ok": null
+  },
+  "Verkada": {
+   "best": 279,
+   "last": 279,
+   "last_ok": "2026-08-22"
+  },
+  "Visa": {
+   "best": 0,
+   "last": 0,
+   "last_ok": null
+  },
+  "Walmart Global Tech": {
+   "best": 0,
+   "last": 0,
+   "last_ok": null
+  },
+  "Waymo": {
+   "best": 366,
+   "last": 366,
+   "last_ok": "2026-08-22"
+  },
+  "Webflow": {
+   "best": 28,
+   "last": 28,
+   "last_ok": "2026-08-22"
   }
  },
- "updated": "2026-08-22T11:46:49Z",
+ "updated": "2026-08-22T13:07:25Z",
  "version": 1
 }
