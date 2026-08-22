@@ -6,6 +6,8 @@ plus best-effort enrichment: {posted_at, comp, employment_type, workplace,
 department, snippet}. Any enrichment field the ATS does not expose is "".
 Filtering happens later in filters.py.
 """
+import re
+
 from .http import session, get_json, post_json, iso_date, rel_date, clean_text
 
 # Ashby/SmartRecruiters use their own vocabulary; normalize to one set.
@@ -113,6 +115,49 @@ def ashby(c):
     return out
 
 
+# Workday's `locationsText` collapses to "N Locations" whenever a posting is
+# attached to more than one office, which hides the country from filters.py -
+# that is how Israel-based Nvidia roles reached the US-only feed. The country
+# is still recoverable: `externalPath` is slugged from the *primary* location
+# ("/job/Israel-Tel-Aviv/...", "/job/US-CA-Santa-Clara/..."). Only leading
+# segments we recognize are trusted; anything else leaves country empty so the
+# existing location heuristics stay in charge.
+WD_US_PREFIX = re.compile(r"^(US|USA|United-States(-of-America)?)(-|$)", re.I)
+
+# Non-US countries as Workday slugs them. Longest match wins, so multi-word
+# names are listed ahead of the single word they start with.
+WD_COUNTRIES = (
+    "United-Arab-Emirates", "United-Kingdom", "Costa-Rica", "Czech-Republic",
+    "Dominican-Republic", "Hong-Kong", "New-Zealand", "Puerto-Rico",
+    "Saudi-Arabia", "South-Africa", "South-Korea", "Sri-Lanka",
+    "Argentina", "Australia", "Austria", "Bahrain", "Bangladesh", "Belgium",
+    "Brazil", "Bulgaria", "Cambodia", "Canada", "Chile", "China", "Colombia",
+    "Croatia", "Czechia", "Denmark", "Ecuador", "Egypt", "Estonia", "Finland",
+    "France", "Germany", "Greece", "Guatemala", "Hungary", "Iceland", "India",
+    "Indonesia", "Ireland", "Israel", "Italy", "Japan", "Jordan", "Kenya",
+    "Korea", "Kuwait", "Latvia", "Lithuania", "Luxembourg", "Malaysia",
+    "Malta", "Mexico", "Morocco", "Netherlands", "Nigeria", "Norway", "Oman",
+    "Pakistan", "Palestine", "Panama", "Paraguay", "Peru", "Philippines",
+    "Poland", "Portugal", "Qatar", "Romania", "Russia", "Serbia", "Singapore",
+    "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Taiwan",
+    "Thailand", "Tunisia", "Turkey", "Ukraine", "Uruguay", "Vietnam",
+)
+WD_COUNTRY = re.compile(
+    r"^(" + "|".join(sorted(WD_COUNTRIES, key=len, reverse=True)) + r")(-|$)", re.I)
+
+
+def workday_country(external_path: str) -> str:
+    """Country of a Workday posting, read off its URL slug. '' if unrecognized."""
+    m = re.search(r"/job/([^/]+)/", external_path or "")
+    if not m:
+        return ""
+    slug = m.group(1)
+    if WD_US_PREFIX.match(slug):
+        return "US"
+    hit = WD_COUNTRY.match(slug)
+    return hit.group(1).replace("-", " ") if hit else ""
+
+
 def workday(c):
     """c: {name, host, tenant, site, search?}  e.g. host=nvidia.wd5.myworkdayjobs.com"""
     s = session()
@@ -132,6 +177,7 @@ def workday(c):
                 "company": c["name"],
                 "title": j.get("title", ""),
                 "location": j.get("locationsText", ""),
+                "country": workday_country(path),
                 "url": f"https://{c['host']}/en-US/{c['site']}{path}" if path else "",
                 "external_id": j.get("bulletFields", [""])[0] if j.get("bulletFields") else path,
                 "source": "workday",

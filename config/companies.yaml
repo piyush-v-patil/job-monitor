@@ -28,6 +28,15 @@ bigtech:
     host: nvidia.wd5.myworkdayjobs.com
     tenant: nvidia
     site: NVIDIAExternalCareerSite
+    # Nvidia lists ~270 Israel roles (Mellanox) that Workday reports as
+    # "N Locations", so they read as location-unknown and slipped into the
+    # US-only feed. Restrict the query itself to the US facet; this also
+    # stops non-US postings from eating the max_results budget.
+    # Facet ids are per-tenant: read them from the `facets` array in the
+    # /wday/cxs/<tenant>/<site>/jobs response before copying this elsewhere.
+    facets:
+      locationHierarchy1:
+        - 2fcb99c455831013ea52fb338f2932d8   # United States
   - name: Tesla
     fetcher: tesla
   - name: Uber
