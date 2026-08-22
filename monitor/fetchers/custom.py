@@ -178,3 +178,51 @@ def uber(c):
             "source": "uber.com",
         })
     return out
+
+
+def walmart(c):
+    """c: {name, search?, max_results?}  ->  careers.walmart.com search-ai API
+
+    The Workday CXS endpoint Walmart used to expose now answers 422. Their
+    careers site talks to this hybrid-search service instead, which also
+    carries pay range and posting date.
+    """
+    s = session()
+    s.headers.update({"Referer": "https://careers.walmart.com/results",
+                      "Origin": "https://careers.walmart.com"})
+    out, page, size = [], 0, 50
+    want = int(c.get("max_results", 200))
+    while len(out) < want:
+        data = post_json(
+            s, "https://careers.walmart.com/api/ai/search-ai/api/v1/combined/"
+               f"hybrid-search?page={page}&size={size}&locale=en_US",
+            json={"query": c.get("search", "software engineer"),
+                  "basicSearch": False, "filter": "", "locale": "en_US"},
+            headers={"Content-Type": "application/json"})
+        jobs = data.get("jobs") or []
+        if not jobs:
+            break
+        for j in jobs:
+            m = j.get("metadata") or {}
+            jid = m.get("jobId") or str(j.get("id", "")).replace("-External", "")
+            city = (m.get("primaryLocationCity") or "").title()
+            state = m.get("primaryLocationState") or ""
+            lo, hi = m.get("minPay"), m.get("maxPay")
+            out.append({
+                "company": c.get("name", "Walmart"),
+                "title": m.get("title") or m.get("jobPostingTitle", ""),
+                "location": ", ".join(filter(None, [city, state])),
+                "country": m.get("primaryLocationCountry", ""),
+                "url": f"https://careers.walmart.com/us/en/job/{jid}" if jid else "",
+                "external_id": jid,
+                "source": "walmart careers",
+                "posted_at": iso_date(m.get("jobPostingStartDate")),
+                "comp": (f"${int(lo):,} - ${int(hi):,} {m.get('payFrequency','')}".strip()
+                         if lo and hi else ""),
+                "employment_type": (m.get("employmentTypes") or [""])[0],
+                "department": (m.get("areas") or [""])[0],
+            })
+        page += 1
+        if len(jobs) < size:
+            break
+    return out

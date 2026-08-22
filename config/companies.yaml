@@ -93,7 +93,7 @@ other:
     fetcher: greenhouse
     token: affirm
   - name: Plaid
-    fetcher: lever
+    fetcher: ashby          # verified: moved off Lever, Lever board is empty
     token: plaid
   - name: Ramp
     fetcher: ashby
@@ -113,10 +113,8 @@ other:
     tenant: verizon
     site: verizon-careers
   - name: Walmart Global Tech
-    fetcher: workday
-    host: walmart.wd5.myworkdayjobs.com
-    tenant: walmart
-    site: WalmartExternal
+    fetcher: walmart        # their Workday CXS endpoint now answers 422
+    max_results: 200
   - name: Target
     fetcher: workday
     host: target.wd5.myworkdayjobs.com
@@ -146,9 +144,8 @@ other:
     fetcher: greenhouse
     token: discord
   - name: Snowflake
-    fetcher: eightfold
-    host: careers.snowflake.com
-    domain: snowflake.com
+    fetcher: ashby          # verified: the Eightfold board returns nothing
+    token: snowflake
   - name: Palantir
     fetcher: lever
     token: palantir
