@@ -137,6 +137,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-24",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -148,6 +149,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -159,6 +161,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-08-10",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -170,28 +173,79 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Software Development Engineer",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Software-Development-Engineer_R168026"
   },
+  "adobe:273c5bdfa837": {
+   "company": "Adobe",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-10",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Adobe Firefly Web",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Software-Development-Engineer---Adobe-Firefly-Web_R170972-1"
+  },
+  "adobe:335b4cce3d11": {
+   "company": "Adobe",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-03",
+   "role": "backend",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Backend",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Francisco/Senior-Software-Engineer---Backend_R169447"
+  },
+  "adobe:43031e725126": {
+   "company": "Adobe",
+   "first_seen": "2026-08-22",
+   "location": "3 Locations",
+   "posted_at": "2026-07-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/New-York/Software-Development-Engineer_R170344"
+  },
   "adobe:4574e07d94fe": {
    "company": "Adobe",
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-08-17",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Software Development Engineer 3",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Software-Development-Engineer-3_R171086"
   },
+  "adobe:59a48442501e": {
+   "company": "Adobe",
+   "first_seen": "2026-08-22",
+   "location": "3 Locations",
+   "posted_at": "2026-08-14",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Seattle/Software-Development-Engineer_R170806"
+  },
   "adobe:7b0b531c28b9": {
    "company": "Adobe",
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -203,17 +257,31 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-08-04",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Lead Software Engineer",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Sr-Software-Engineer--UI_R169956"
   },
+  "adobe:9b199ae4c818": {
+   "company": "Adobe",
+   "first_seen": "2026-08-22",
+   "location": "3 Locations",
+   "posted_at": "2026-07-24",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 4",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Software-Development-Engineer-4_R170759"
+  },
   "adobe:a343948f16cc": {
    "company": "Adobe",
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-08-18",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -225,6 +293,7 @@
    "first_seen": "2026-08-20",
    "location": "New York",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -236,6 +305,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-08-17",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -247,6 +317,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -258,6 +329,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -269,6 +341,7 @@
    "first_seen": "2026-08-20",
    "location": "Seattle",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -280,6 +353,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-08-04",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -291,17 +365,31 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-08-12",
+   "role": "frontend",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Front end Engineer",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Software-Development-Engineer_R168040-1"
   },
+  "adobe:be762cad165a": {
+   "company": "Adobe",
+   "first_seen": "2026-08-22",
+   "location": "3 Locations",
+   "posted_at": "2026-08-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Seattle/Software-Development-Engineer_R170622"
+  },
   "adobe:befded862107": {
    "company": "Adobe",
    "first_seen": "2026-08-20",
    "location": "San Francisco",
    "posted_at": "2026-07-21",
+   "role": "frontend",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -313,6 +401,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -324,6 +413,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -335,6 +425,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-30",
+   "role": "mobile",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -346,6 +437,7 @@
    "first_seen": "2026-08-20",
    "location": "Seattle",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -357,17 +449,31 @@
    "first_seen": "2026-08-20",
    "location": "New York",
    "posted_at": "2026-07-21",
+   "role": "qa-test",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Software Quality Engineer",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/New-York/Software-Quality-Engineer_R169819"
   },
+  "adobe:f5788293f6d3": {
+   "company": "Adobe",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-06",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Influencer Management",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Remote-Massachusetts/Software-Development-Engineer--Influencer-Management_R166981"
+  },
   "adobe:f99878d606e7": {
    "company": "Adobe",
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "qa-test",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -379,6 +485,7 @@
    "first_seen": "2026-08-20",
    "location": "San Jose",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -390,6 +497,7 @@
    "first_seen": "2026-08-20",
    "location": "San Francisco",
    "posted_at": "2026-08-07",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6200,11 +6308,24 @@
    "title": "Ground MILSATCOM Systems Engineer Trainer – (Associate or Mid-Level)",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Colorado-Springs-CO/Ground-MILSATCOM-Systems-Engineer-Trainer----Associate-or-Mid-Level-_JR2026511200-1"
   },
+  "boeing:015d65edd45b": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-21",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Associate Software Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Associate-Software-Engineer_JR2026516706-1"
+  },
   "boeing:083ed4ee8f2f": {
    "company": "Boeing",
    "first_seen": "2026-08-20",
    "location": "USA - Scott AFB, IL",
    "posted_at": "2026-08-10",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6216,6 +6337,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Omaha, NE",
    "posted_at": "2026-08-20",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "newgrad",
@@ -6227,6 +6349,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Hazelwood, MO",
    "posted_at": "2026-08-17",
+   "role": "data",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6238,17 +6361,43 @@
    "first_seen": "2026-08-21",
    "location": "USA - El Segundo, CA",
    "posted_at": "2026-08-06",
+   "role": "qa-test",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Mid-Level Spacecraft Integration and Test Engineer - Millennium Space Systems",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Senior-ATLO--Assembly--Test----Launch-Operations--Engineer---Millennium-Space-Systems_JR2026512879-2"
   },
+  "boeing:15f104745a2d": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-17",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer, Phantom Works",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Lead-Software-Engineer-Developer_JR2026506929-1"
+  },
+  "boeing:1a8ec8a9196d": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-14",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Software Engineer (Experienced or Lead)",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Chantilly-VA/Full-Stack-Software-Engineer--Experienced-or-Lead-_JR2026518435-1"
+  },
   "boeing:1ce3cbe4e8b9": {
    "company": "Boeing",
    "first_seen": "2026-08-20",
    "location": "USA - Colorado Springs, CO",
    "posted_at": "2026-08-14",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6260,17 +6409,55 @@
    "first_seen": "2026-08-20",
    "location": "USA - El Segundo, CA",
    "posted_at": "2026-08-17",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Lead Software Developer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Lead-Software-Developer_JR2026517935-1"
   },
+  "boeing:2d65e97fa663": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-20",
+   "role": "embedded",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Embedded",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Long-Beach-CA/Lead-Software-Engineer---Embedded_JR2026522733-1"
+  },
+  "boeing:2fc07e6fd035": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-11",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Experienced Software Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Experienced-Software-Engineer_JR2026518406-1"
+  },
+  "boeing:317525c7714f": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-11",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Experienced Simulation Software Engineer - Training Systems",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Experienced-Simulation-Software-Engineer---Training-Systems_JR2026521191-1"
+  },
   "boeing:39fbd06d80ab": {
    "company": "Boeing",
    "first_seen": "2026-08-21",
    "location": "USA - Berkeley, MO",
    "posted_at": "2026-08-21",
+   "role": "security",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6326,6 +6513,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Saint Charles, MO",
    "posted_at": "2026-08-11",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6337,6 +6525,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Hazelwood, MO",
    "posted_at": "2026-08-04",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6365,16 +6554,41 @@
    "title": "Associate Software Systems Engineer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Tinker-AFB-OK/Associate-Software-Systems-Engineer_JR2026514489-1"
   },
+  "boeing:7d0396a8d600": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "3 Locations",
+   "posted_at": "2026-08-10",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Test & Verification Engineer, Phantom Works",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Lead-Software-Test---Verification-Engineer--Phantom-Works_JR2026511292-1"
+  },
   "boeing:82e730ffa27e": {
    "company": "Boeing",
    "first_seen": "2026-08-20",
    "location": "USA - Seal Beach, CA",
    "posted_at": "2026-08-18",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Experienced Software Engineer – Vehicle Management Systems",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Experienced-Software-Engineer---Vehicle-Management-Systems_JR2026516293-1"
+  },
+  "boeing:8745eb592bd8": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-11",
+   "role": "qa-test",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Test Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Software-Test-Engineer_JR2026516709-2"
   },
   "boeing:8cb4715ba5e4": {
    "company": "Boeing",
@@ -6392,6 +6606,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Scott AFB, IL",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6403,17 +6618,31 @@
    "first_seen": "2026-08-20",
    "location": "USA - El Segundo, CA",
    "posted_at": "2026-08-19",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Lead DevSecOps Software Engineer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Lead-DevSecOps-Software-Engineer_JR2026522639"
   },
+  "boeing:9f96258a1105": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-17",
+   "role": "security",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Mid-Level Software Security Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Seattle-WA/Mid-Level-Software-Security-Engineer_JR2026513366-1"
+  },
   "boeing:a4f59ffad1ff": {
    "company": "Boeing",
    "first_seen": "2026-08-20",
    "location": "USA - Maryland Heights, MO",
    "posted_at": "2026-07-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6425,11 +6654,36 @@
    "first_seen": "2026-08-20",
    "location": "USA - El Segundo, CA",
    "posted_at": "2026-08-20",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Software Engineer Developer – Millennium Space Systems",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Software-Engineer-Developer---Millennium-Space-Systems_JR2026521347-1"
+  },
+  "boeing:ab032cc9b125": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "3 Locations",
+   "posted_at": "2026-08-10",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full-Stack Software Engineer (Associate/Experienced)",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Chantilly-VA/Full-Stack-Software-Engineer--Associate-Experienced-_JR2026502050-1"
+  },
+  "boeing:b0b1092d2d2e": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "4 Locations",
+   "posted_at": "2026-08-19",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Java Software Engineer – Developer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Herndon-VA/Lead-Java-Software-Engineer---Developer_JR2026512286-2"
   },
   "boeing:b346b4844695": {
    "company": "Boeing",
@@ -6442,11 +6696,24 @@
    "title": "Lead Simulation Software Engineer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Lead-Simulation-Software-Engineer_JR2026519791-1"
   },
+  "boeing:b9512306a6b2": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-18",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Ground Software Engineer (Mid Career) - Millennium Space Systems",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Chantilly-VA/Ground-Software-Engineer--Mid-Career----Millennium-Space-Systems_JR2026514051-1"
+  },
   "boeing:bf733f41171b": {
    "company": "Boeing",
    "first_seen": "2026-08-20",
    "location": "USA - Oklahoma City, OK",
    "posted_at": "2026-08-07",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "newgrad",
@@ -6469,6 +6736,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Daytona Beach, FL",
    "posted_at": "2026-08-03",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6491,6 +6759,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Swansea, IL",
    "posted_at": "2026-08-13",
+   "role": "security",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6502,6 +6771,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Berkeley, MO",
    "posted_at": "2026-08-17",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6513,6 +6783,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Berkeley, MO",
    "posted_at": "2026-08-20",
+   "role": "devops-sre",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6524,17 +6795,31 @@
    "first_seen": "2026-08-20",
    "location": "USA - Oklahoma City, OK",
    "posted_at": "2026-08-11",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Mid-Level Software Engineer (Test & Verification)",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/Mid-Level-Software-Engineer--Test---Verification-_JR2026503246-1"
   },
+  "boeing:e4e284ee97d8": {
+   "company": "Boeing",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-17",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer–Developer, Phantom Works Weapons (Associate or Experienced)",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Saint-Charles-MO/Software-Engineer-Developer--Phantom-Works-Weapons--Associate-or-Experienced-_JR2026517300-1"
+  },
   "boeing:ebc3d42362b9": {
    "company": "Boeing",
    "first_seen": "2026-08-20",
    "location": "USA - Seal Beach, CA",
    "posted_at": "2026-08-17",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6546,6 +6831,7 @@
    "first_seen": "2026-08-21",
    "location": "USA - Seal Beach, CA",
    "posted_at": "2026-08-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -6557,6 +6843,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Kent, WA",
    "posted_at": "2026-08-14",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -8379,6 +8666,42 @@
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2435081"
+  },
+  "cvs-health:b28dc4911184": {
+   "company": "CVS Health",
+   "first_seen": "2026-08-22",
+   "location": "18 Locations",
+   "posted_at": "2026-08-11",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Java Software Engineer",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/Work-At-Home-Connecticut/Staff-Software-Development-Engineer_R0821040"
+  },
+  "cvs-health:cb1170610d44": {
+   "company": "CVS Health",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Pricing & Promotions",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/New-York-161-Ave-of-the-Americas/Software-Development-Engineer---Front-Store_R0927508"
+  },
+  "cvs-health:e0870276caaf": {
+   "company": "CVS Health",
+   "first_seen": "2026-08-22",
+   "location": "",
+   "posted_at": "2026-08-19",
+   "role": "devops-sre",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/Site-Reliability-Engineer_R0959789"
   },
   "cybernetic-labs:2762a3feea3f": {
    "company": "Cybernetic Labs",
@@ -25189,6 +25512,7 @@
    "first_seen": "2026-08-20",
    "location": "7000 Target Pkwy N,NCD-0375 Brooklyn Park,MN 55445",
    "posted_at": "2026-08-07",
+   "role": "ml-ai",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -25211,17 +25535,31 @@
    "first_seen": "2026-08-20",
    "location": "7000 Target Pkwy N,NCD-0375 Brooklyn Park,MN 55445",
    "posted_at": "2026-08-18",
+   "role": "security",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Lead Security Engineer – Proactive Security",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Lead-Security-Engineer---Proactive-Security_R0000440731"
   },
+  "target:5f51cd9eb258": {
+   "company": "Target",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-07",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Applied Data Scientist - Search Ranking (applied ML, LLMs, NLP)",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/100-Mathilda-PlaceSte-100-SunnyvaleCA-94086-6017/Lead-Applied-Data-Scientist---Search-Ranking--applied-ML--LLMs--NLP-_R0000446050-1"
+  },
   "target:68d1b50f43e1": {
    "company": "Target",
    "first_seen": "2026-08-20",
    "location": "7000 Target Pkwy N,NCD-0375 Brooklyn Park,MN 55445",
    "posted_at": "2026-08-17",
+   "role": "security",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -25233,6 +25571,7 @@
    "first_seen": "2026-08-21",
    "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
    "posted_at": "2026-07-22",
+   "role": "ml-ai",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -25244,6 +25583,7 @@
    "first_seen": "2026-08-21",
    "location": "7000 Target Pkwy N,NCD-0375 Brooklyn Park,MN 55445",
    "posted_at": "2026-08-21",
+   "role": "security",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -25255,6 +25595,7 @@
    "first_seen": "2026-08-20",
    "location": "7000 Target Pkwy N,NCD-0375 Brooklyn Park,MN 55445",
    "posted_at": "2026-08-14",
+   "role": "data",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -25266,11 +25607,24 @@
    "first_seen": "2026-08-20",
    "location": "7000 Target Pkwy N,NCD-0375 Brooklyn Park,MN 55445",
    "posted_at": "2026-08-14",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
    "title": "Lead Engineer - Network Operating System, Software  Developer",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Lead-Engineer---Network-Operating-System--Software--Developer_R0000449204"
+  },
+  "target:c95c873cfebf": {
+   "company": "Target",
+   "first_seen": "2026-08-22",
+   "location": "2 Locations",
+   "posted_at": "2026-08-17",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead AI Engineer -- Advanced AI (applied ML, LLMs, agentic AI, ML Ops)",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Lead-AI-Engineer----Advanced-AI--applied-ML--LLMs--agentic-AI--ML-Ops-_R0000441559"
   },
   "tax-relief-advocates:87512c879c83": {
    "company": "Tax Relief Advocates",
@@ -28081,458 +28435,6 @@
    "url": "https://www.zipline.com/open-roles?gh_jid=7891459003"
   }
  },
- "sources": {
-  "Abridge": {
-   "best": 47,
-   "last": 47,
-   "last_ok": "2026-08-22"
-  },
-  "Adobe": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Affirm": {
-   "best": 207,
-   "last": 207,
-   "last_ok": "2026-08-22"
-  },
-  "Airbnb": {
-   "best": 189,
-   "last": 189,
-   "last_ok": "2026-08-22"
-  },
-  "Airtable": {
-   "best": 16,
-   "last": 16,
-   "last_ok": "2026-08-22"
-  },
-  "Amazon": {
-   "best": 100,
-   "last": 100,
-   "last_ok": "2026-08-22"
-  },
-  "Anduril": {
-   "best": 2236,
-   "last": 2236,
-   "last_ok": "2026-08-22"
-  },
-  "Anthropic": {
-   "best": 517,
-   "last": 517,
-   "last_ok": "2026-08-22"
-  },
-  "Apple": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Asana": {
-   "best": 126,
-   "last": 126,
-   "last_ok": "2026-08-22"
-  },
-  "Attentive": {
-   "best": 39,
-   "last": 39,
-   "last_ok": "2026-08-22"
-  },
-  "Betterment": {
-   "best": 32,
-   "last": 32,
-   "last_ok": "2026-08-22"
-  },
-  "Block": {
-   "best": 190,
-   "last": 190,
-   "last_ok": "2026-08-22"
-  },
-  "Boeing": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Brex": {
-   "best": 294,
-   "last": 294,
-   "last_ok": "2026-08-22"
-  },
-  "CVS Health": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Capital One": {
-   "best": 100,
-   "last": 100,
-   "last_ok": "2026-08-22"
-  },
-  "Carta": {
-   "best": 60,
-   "last": 60,
-   "last_ok": "2026-08-22"
-  },
-  "Checkr": {
-   "best": 45,
-   "last": 45,
-   "last_ok": "2026-08-22"
-  },
-  "Chime": {
-   "best": 59,
-   "last": 59,
-   "last_ok": "2026-08-22"
-  },
-  "Citadel": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Cloudflare": {
-   "best": 308,
-   "last": 308,
-   "last_ok": "2026-08-22"
-  },
-  "Cognition": {
-   "best": 84,
-   "last": 84,
-   "last_ok": "2026-08-22"
-  },
-  "Coinbase": {
-   "best": 173,
-   "last": 173,
-   "last_ok": "2026-08-22"
-  },
-  "Databricks": {
-   "best": 818,
-   "last": 818,
-   "last_ok": "2026-08-22"
-  },
-  "Datadog": {
-   "best": 448,
-   "last": 448,
-   "last_ok": "2026-08-22"
-  },
-  "Decagon": {
-   "best": 137,
-   "last": 137,
-   "last_ok": "2026-08-22"
-  },
-  "Discord": {
-   "best": 51,
-   "last": 51,
-   "last_ok": "2026-08-22"
-  },
-  "DoorDash": {
-   "best": 463,
-   "last": 463,
-   "last_ok": "2026-08-22"
-  },
-  "Dropbox": {
-   "best": 41,
-   "last": 41,
-   "last_ok": "2026-08-22"
-  },
-  "Duolingo": {
-   "best": 69,
-   "last": 69,
-   "last_ok": "2026-08-22"
-  },
-  "Elastic": {
-   "best": 249,
-   "last": 249,
-   "last_ok": "2026-08-22"
-  },
-  "ElevenLabs": {
-   "best": 255,
-   "last": 255,
-   "last_ok": "2026-08-22"
-  },
-  "Faire": {
-   "best": 62,
-   "last": 62,
-   "last_ok": "2026-08-22"
-  },
-  "Figma": {
-   "best": 161,
-   "last": 161,
-   "last_ok": "2026-08-22"
-  },
-  "Flexport": {
-   "best": 164,
-   "last": 164,
-   "last_ok": "2026-08-22"
-  },
-  "GitLab": {
-   "best": 204,
-   "last": 204,
-   "last_ok": "2026-08-22"
-  },
-  "Google": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Gusto": {
-   "best": 91,
-   "last": 91,
-   "last_ok": "2026-08-22"
-  },
-  "Harvey": {
-   "best": 360,
-   "last": 360,
-   "last_ok": "2026-08-22"
-  },
-  "Instacart": {
-   "best": 118,
-   "last": 118,
-   "last_ok": "2026-08-22"
-  },
-  "Komodo Health": {
-   "best": 36,
-   "last": 36,
-   "last_ok": "2026-08-22"
-  },
-  "Linear": {
-   "best": 32,
-   "last": 32,
-   "last_ok": "2026-08-22"
-  },
-  "Lyft": {
-   "best": 162,
-   "last": 162,
-   "last_ok": "2026-08-22"
-  },
-  "Marqeta": {
-   "best": 2,
-   "last": 2,
-   "last_ok": "2026-08-22"
-  },
-  "Match Group": {
-   "best": 81,
-   "last": 81,
-   "last_ok": "2026-08-22"
-  },
-  "Mercury": {
-   "best": 56,
-   "last": 56,
-   "last_ok": "2026-08-22"
-  },
-  "Microsoft": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "MongoDB": {
-   "best": 404,
-   "last": 404,
-   "last_ok": "2026-08-22"
-  },
-  "Netflix": {
-   "best": 10,
-   "last": 10,
-   "last_ok": "2026-08-22"
-  },
-  "Notion": {
-   "best": 128,
-   "last": 128,
-   "last_ok": "2026-08-22"
-  },
-  "Nuro": {
-   "best": 104,
-   "last": 104,
-   "last_ok": "2026-08-22"
-  },
-  "Nvidia": {
-   "best": 100,
-   "last": 100,
-   "last_ok": "2026-08-22"
-  },
-  "Okta": {
-   "best": 335,
-   "last": 335,
-   "last_ok": "2026-08-22"
-  },
-  "OpenAI": {
-   "best": 754,
-   "last": 754,
-   "last_ok": "2026-08-22"
-  },
-  "OpenEvidence": {
-   "best": 7,
-   "last": 7,
-   "last_ok": "2026-08-22"
-  },
-  "PagerDuty": {
-   "best": 29,
-   "last": 29,
-   "last_ok": "2026-08-22"
-  },
-  "Palantir": {
-   "best": 308,
-   "last": 308,
-   "last_ok": "2026-08-22"
-  },
-  "Peloton": {
-   "best": 49,
-   "last": 49,
-   "last_ok": "2026-08-22"
-  },
-  "Perplexity": {
-   "best": 100,
-   "last": 100,
-   "last_ok": "2026-08-22"
-  },
-  "Pinterest": {
-   "best": 225,
-   "last": 225,
-   "last_ok": "2026-08-22"
-  },
-  "Plaid": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Ramp": {
-   "best": 136,
-   "last": 136,
-   "last_ok": "2026-08-22"
-  },
-  "Reddit": {
-   "best": 151,
-   "last": 151,
-   "last_ok": "2026-08-22"
-  },
-  "Replit": {
-   "best": 71,
-   "last": 71,
-   "last_ok": "2026-08-22"
-  },
-  "Robinhood": {
-   "best": 130,
-   "last": 130,
-   "last_ok": "2026-08-22"
-  },
-  "Roblox": {
-   "best": 232,
-   "last": 232,
-   "last_ok": "2026-08-22"
-  },
-  "Salesforce": {
-   "best": 100,
-   "last": 100,
-   "last_ok": "2026-08-22"
-  },
-  "Samsara": {
-   "best": 266,
-   "last": 266,
-   "last_ok": "2026-08-22"
-  },
-  "Scale AI": {
-   "best": 208,
-   "last": 208,
-   "last_ok": "2026-08-22"
-  },
-  "Simplify Aggregator": {
-   "best": 863,
-   "last": 863,
-   "last_ok": "2026-08-22"
-  },
-  "Snowflake": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "SoFi": {
-   "best": 62,
-   "last": 62,
-   "last_ok": "2026-08-22"
-  },
-  "SpaceX": {
-   "best": 2179,
-   "last": 2179,
-   "last_ok": "2026-08-22"
-  },
-  "Spotify": {
-   "best": 95,
-   "last": 95,
-   "last_ok": "2026-08-22"
-  },
-  "Stripe": {
-   "best": 576,
-   "last": 576,
-   "last_ok": "2026-08-22"
-  },
-  "Suno": {
-   "best": 62,
-   "last": 62,
-   "last_ok": "2026-08-22"
-  },
-  "Target": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Tesla": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Twilio": {
-   "best": 146,
-   "last": 146,
-   "last_ok": "2026-08-22"
-  },
-  "Two Sigma": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Uber": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Upstart": {
-   "best": 97,
-   "last": 97,
-   "last_ok": "2026-08-22"
-  },
-  "Vanta": {
-   "best": 103,
-   "last": 103,
-   "last_ok": "2026-08-22"
-  },
-  "Verizon": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Verkada": {
-   "best": 279,
-   "last": 279,
-   "last_ok": "2026-08-22"
-  },
-  "Visa": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Walmart Global Tech": {
-   "best": 0,
-   "last": 0,
-   "last_ok": null
-  },
-  "Waymo": {
-   "best": 366,
-   "last": 366,
-   "last_ok": "2026-08-22"
-  },
-  "Webflow": {
-   "best": 28,
-   "last": 28,
-   "last_ok": "2026-08-22"
-  }
- },
- "updated": "2026-08-22T09:53:53Z",
+ "updated": "2026-08-22T11:33:08Z",
  "version": 1
 }
