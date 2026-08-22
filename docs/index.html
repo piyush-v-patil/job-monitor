@@ -561,9 +561,23 @@ async function persist(attempt = 0) {
   const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${PATH}`;
   const h = { Authorization: `Bearer ${c.token}`, Accept: "application/vnd.github+json" };
   try {
-    const cur = await (await fetch(`${api}?ref=${c.branch}&t=${Date.now()}`, { headers: h })).json();
-    const remote = JSON.parse(new TextDecoder().decode(
-      Uint8Array.from(atob(cur.content.replace(/\n/g, "")), ch => ch.charCodeAt(0))));
+    // jobs.json is ~1MB and growing. The contents API refuses to return
+    // base64 `content` above 1MB, so read the raw media type instead (good to
+    // 100MB) and take the blob sha from the parent directory listing, which
+    // carries no size limit either.
+    const dir = PATH.slice(0, PATH.lastIndexOf("/"));
+    const name = PATH.slice(PATH.lastIndexOf("/") + 1);
+    const listing = await (await fetch(
+      `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${dir}?ref=${c.branch}&t=${Date.now()}`,
+      { headers: h })).json();
+    if (!Array.isArray(listing)) throw new Error(listing.message || "cannot list data dir");
+    const entry = listing.find(f => f.name === name);
+    if (!entry) throw new Error(`${name} not found on ${c.branch}`);
+    const rawRes = await fetch(`${api}?ref=${c.branch}&t=${Date.now()}`,
+      { headers: { ...h, Accept: "application/vnd.github.raw" } });
+    if (!rawRes.ok) throw new Error("read HTTP " + rawRes.status);
+    const remote = JSON.parse(await rawRes.text());
+    const cur = { sha: entry.sha };
     for (const [id, d] of Object.entries(dirty)) {
       const t = remote.jobs[id];
       if (!t) continue;
