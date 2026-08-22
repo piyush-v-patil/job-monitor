@@ -1058,6 +1058,20 @@
    "title": "Software Dev Engineer II, AWS Applied AI Solutions",
    "url": "https://www.amazon.jobs/en/jobs/10507206/software-dev-engineer-ii-aws-applied-ai-solutions"
   },
+  "amazon:65cc05778503": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-08-22",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Optics",
+   "url": "https://www.amazon.jobs/en/jobs/10511479/software-development-engineer-amazon-optics"
+  },
   "amazon:6a07da009b01": {
    "company": "Amazon",
    "department": "Software Development",
@@ -20751,6 +20765,7 @@
    "first_seen": "2026-08-21",
    "location": "Aurora, CO",
    "posted_at": "2026-08-20",
+   "role": "software",
    "source": "simplify-github",
    "status": "new",
    "tier": "newgrad",
@@ -28261,6 +28276,21 @@
    "title": "Software Engineer 1 - Java",
    "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=26336&siteid=5014&PageType=JobDetails&jobid=1855141"
   },
+  "walmart-global-tech:47c6dad275d4": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-22",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-08-19",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2604639"
+  },
   "walmart-global-tech:4b23d169fae3": {
    "comp": "$80,000 - $155,000 Annual",
    "company": "Walmart Global Tech",
@@ -28395,6 +28425,51 @@
    "tier": "experienced",
    "title": "Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2413964"
+  },
+  "walmart-global-tech:b53e5967dbb1": {
+   "comp": "$117,000 - $234,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-22",
+   "location": "Sunnyvale, CA",
+   "posted_at": "2026-08-10",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2586055"
+  },
+  "walmart-global-tech:b831fce35c70": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-22",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-07-16",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2558547"
+  },
+  "walmart-global-tech:be5896c20861": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-22",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-08-14",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2565184"
   },
   "walmart-global-tech:f99415b29398": {
    "comp": "$117,000 - $234,000 Annual",
@@ -29092,8 +29167,8 @@
    "last_ok": "2026-08-22"
   },
   "Anduril": {
-   "best": 2236,
-   "last": 2236,
+   "best": 2237,
+   "last": 2237,
    "last_ok": "2026-08-22"
   },
   "Anthropic": {
@@ -29182,8 +29257,8 @@
    "last_ok": "2026-08-22"
   },
   "Databricks": {
-   "best": 819,
-   "last": 819,
+   "best": 820,
+   "last": 820,
    "last_ok": "2026-08-22"
   },
   "Datadog": {
@@ -29288,7 +29363,7 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 81,
+   "last": 80,
    "last_ok": "2026-08-22"
   },
   "Mercury": {
@@ -29413,7 +29488,7 @@
   },
   "Simplify Aggregator": {
    "best": 875,
-   "last": 871,
+   "last": 872,
    "last_ok": "2026-08-22"
   },
   "Snowflake": {
@@ -29423,7 +29498,7 @@
   },
   "SoFi": {
    "best": 62,
-   "last": 62,
+   "last": 61,
    "last_ok": "2026-08-22"
   },
   "SpaceX": {
@@ -29512,6 +29587,6 @@
    "last_ok": "2026-08-22"
   }
  },
- "updated": "2026-08-22T15:47:37Z",
+ "updated": "2026-08-22T16:46:41Z",
  "version": 1
 }
