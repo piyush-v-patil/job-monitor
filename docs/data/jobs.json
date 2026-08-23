@@ -14242,6 +14242,23 @@
    "workplace": "Hybrid",
    "yoe": 7
   },
+  "openai:63456b7c547a": {
+   "comp": "$266K – $362K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Go To Market",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-23",
+   "location": "San Francisco",
+   "posted_at": "2026-06-23",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI Engineer, Cyber",
+   "url": "https://jobs.ashbyhq.com/openai/b46ffd99-f9f2-440c-ac13-448eb7911ad6",
+   "workplace": "Hybrid",
+   "yoe": 5
+  },
   "openai:647967c96a33": {
    "comp": "$230K – $385K • Offers Equity",
    "company": "OpenAI",
@@ -28445,6 +28462,21 @@
    "url": "https://careers.walmart.com/us/en/job/R-2565175",
    "yoe": 4
   },
+  "walmart-global-tech:920e36549ebc": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-23",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-07-22",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2570481"
+  },
   "walmart-global-tech:9247ca1f1e3b": {
    "comp": "$99,000 - $198,000 Annual",
    "company": "Walmart Global Tech",
@@ -29235,8 +29267,8 @@
    "last_ok": "2026-08-23"
   },
   "Anduril": {
-   "best": 2238,
-   "last": 2238,
+   "best": 2239,
+   "last": 2239,
    "last_ok": "2026-08-23"
   },
   "Anthropic": {
@@ -29476,7 +29508,7 @@
   },
   "OpenAI": {
    "best": 754,
-   "last": 753,
+   "last": 750,
    "last_ok": "2026-08-23"
   },
   "OpenEvidence": {
@@ -29555,8 +29587,8 @@
    "last_ok": "2026-08-23"
   },
   "Simplify Aggregator": {
-   "best": 875,
-   "last": 869,
+   "best": 880,
+   "last": 880,
    "last_ok": "2026-08-23"
   },
   "Snowflake": {
@@ -29655,6 +29687,6 @@
    "last_ok": "2026-08-23"
   }
  },
- "updated": "2026-08-23T05:55:23Z",
+ "updated": "2026-08-23T07:09:19Z",
  "version": 1
 }
