@@ -29530,7 +29530,7 @@
   },
   "ElevenLabs": {
    "best": 255,
-   "last": 254,
+   "last": 255,
    "last_ok": "2026-08-23"
   },
   "Faire": {
@@ -29640,12 +29640,12 @@
   },
   "OpenAI": {
    "best": 754,
-   "last": 751,
+   "last": 753,
    "last_ok": "2026-08-23"
   },
   "OpenEvidence": {
-   "best": 7,
-   "last": 7,
+   "best": 8,
+   "last": 8,
    "last_ok": "2026-08-23"
   },
   "PagerDuty": {
@@ -29720,7 +29720,7 @@
   },
   "Simplify Aggregator": {
    "best": 880,
-   "last": 874,
+   "last": 872,
    "last_ok": "2026-08-23"
   },
   "Snowflake": {
@@ -29735,7 +29735,7 @@
   },
   "SpaceX": {
    "best": 2179,
-   "last": 2175,
+   "last": 2176,
    "last_ok": "2026-08-23"
   },
   "Spotify": {
@@ -29750,7 +29750,7 @@
   },
   "Suno": {
    "best": 63,
-   "last": 63,
+   "last": 61,
    "last_ok": "2026-08-23"
   },
   "Target": {
@@ -29819,6 +29819,6 @@
    "last_ok": "2026-08-23"
   }
  },
- "updated": "2026-08-23T21:47:17Z",
+ "updated": "2026-08-23T22:44:16Z",
  "version": 1
 }
