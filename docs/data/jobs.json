@@ -1382,6 +1382,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10504369/software-dev-engineer-amazon-leo-ai-foundations",
    "yoe": 2
   },
+  "amazon:b2d6be6ded24": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-23",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-08-23",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Creative X",
+   "url": "https://www.amazon.jobs/en/jobs/10511620/software-dev-engineer-creative-x",
+   "yoe": 2
+  },
   "amazon:b70bb7e6ec22": {
    "company": "Amazon",
    "department": "Software Development",
@@ -28276,6 +28291,21 @@
    "title": "Software Engineer 1 - Java",
    "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=26336&siteid=5014&PageType=JobDetails&jobid=1855141"
   },
+  "walmart-global-tech:1067f5eb5433": {
+   "comp": "$117,000 - $234,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-23",
+   "location": "Sunnyvale, CA",
+   "posted_at": "2026-08-19",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2584855"
+  },
   "walmart-global-tech:15189724adc8": {
    "comp": "$90,000 - $180,000 Annual",
    "company": "Walmart Global Tech",
@@ -28290,6 +28320,21 @@
    "tier": "experienced",
    "title": "(USA) Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2602121"
+  },
+  "walmart-global-tech:16cb7d07047a": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-23",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-08-19",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2588046"
   },
   "walmart-global-tech:276960e50853": {
    "comp": "$117,000 - $234,000 Annual",
@@ -28398,6 +28443,21 @@
    "tier": "experienced",
    "title": "(USA) Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2586094"
+  },
+  "walmart-global-tech:78100c7b81f3": {
+   "comp": "$117,000 - $234,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-23",
+   "location": "Sunnyvale, CA",
+   "posted_at": "2026-08-20",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2499802"
   },
   "walmart-global-tech:7a84e30018a2": {
    "comp": "$117,000 - $234,000 Annual",
@@ -28523,6 +28583,21 @@
    "title": "Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2413964"
   },
+  "walmart-global-tech:b18992dc94fe": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-23",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-08-06",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2592459"
+  },
   "walmart-global-tech:b53e5967dbb1": {
    "comp": "$117,000 - $234,000 Annual",
    "company": "Walmart Global Tech",
@@ -28585,6 +28660,21 @@
    "title": "Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2558623",
    "yoe": 5
+  },
+  "walmart-global-tech:fd25201d382a": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-23",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-08-20",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2600874"
   },
   "wavestone:8c70b0a94d8d": {
    "company": "Wavestone",
@@ -29502,8 +29592,8 @@
    "last_ok": "2026-08-23"
   },
   "Okta": {
-   "best": 336,
-   "last": 336,
+   "best": 338,
+   "last": 338,
    "last_ok": "2026-08-23"
   },
   "OpenAI": {
@@ -29588,7 +29678,7 @@
   },
   "Simplify Aggregator": {
    "best": 880,
-   "last": 880,
+   "last": 878,
    "last_ok": "2026-08-23"
   },
   "Snowflake": {
@@ -29603,7 +29693,7 @@
   },
   "SpaceX": {
    "best": 2179,
-   "last": 2179,
+   "last": 2178,
    "last_ok": "2026-08-23"
   },
   "Spotify": {
@@ -29687,6 +29777,6 @@
    "last_ok": "2026-08-23"
   }
  },
- "updated": "2026-08-23T07:57:03Z",
+ "updated": "2026-08-23T08:55:14Z",
  "version": 1
 }
