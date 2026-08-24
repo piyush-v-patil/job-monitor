@@ -8789,6 +8789,18 @@
    "title": "Software Engineer 1",
    "url": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2435081"
   },
+  "cvs-health:3d9174f2a2cb": {
+   "company": "CVS Health",
+   "first_seen": "2026-08-24",
+   "location": "3 Locations",
+   "posted_at": "2026-08-24",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer  (Full Stack/AI)",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/AZ---Scottsdale/Software-Development-Engineer---Full-Stack-AI-_R1011977"
+  },
   "cvs-health:3e6fb0087b20": {
    "company": "CVS Health",
    "first_seen": "2026-08-22",
@@ -29468,7 +29480,7 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2238,
+   "last": 2236,
    "last_ok": "2026-08-24"
   },
   "Anthropic": {
@@ -29543,7 +29555,7 @@
   },
   "Cloudflare": {
    "best": 310,
-   "last": 308,
+   "last": 309,
    "last_ok": "2026-08-24"
   },
   "Cognition": {
@@ -29558,7 +29570,7 @@
   },
   "Databricks": {
    "best": 827,
-   "last": 825,
+   "last": 827,
    "last_ok": "2026-08-24"
   },
   "Datadog": {
@@ -29593,12 +29605,12 @@
   },
   "Elastic": {
    "best": 250,
-   "last": 246,
+   "last": 247,
    "last_ok": "2026-08-24"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 256,
+   "last": 255,
    "last_ok": "2026-08-24"
   },
   "Faire": {
@@ -29617,8 +29629,8 @@
    "last_ok": "2026-08-24"
   },
   "GitLab": {
-   "best": 204,
-   "last": 204,
+   "best": 207,
+   "last": 207,
    "last_ok": "2026-08-24"
   },
   "Google": {
@@ -29678,7 +29690,7 @@
   },
   "MongoDB": {
    "best": 404,
-   "last": 404,
+   "last": 403,
    "last_ok": "2026-08-24"
   },
   "Netflix": {
@@ -29702,8 +29714,8 @@
    "last_ok": "2026-08-24"
   },
   "Okta": {
-   "best": 345,
-   "last": 345,
+   "best": 346,
+   "last": 346,
    "last_ok": "2026-08-24"
   },
   "OpenAI": {
@@ -29728,7 +29740,7 @@
   },
   "Peloton": {
    "best": 49,
-   "last": 49,
+   "last": 48,
    "last_ok": "2026-08-24"
   },
   "Perplexity": {
@@ -29777,8 +29789,8 @@
    "last_ok": "2026-08-24"
   },
   "Samsara": {
-   "best": 266,
-   "last": 266,
+   "best": 267,
+   "last": 267,
    "last_ok": "2026-08-24"
   },
   "Scale AI": {
@@ -29788,7 +29800,7 @@
   },
   "Simplify Aggregator": {
    "best": 880,
-   "last": 865,
+   "last": 862,
    "last_ok": "2026-08-24"
   },
   "Snowflake": {
@@ -29833,7 +29845,7 @@
   },
   "Twilio": {
    "best": 146,
-   "last": 145,
+   "last": 146,
    "last_ok": "2026-08-24"
   },
   "Two Sigma": {
@@ -29858,7 +29870,7 @@
   },
   "Verizon": {
    "best": 34,
-   "last": 34,
+   "last": 33,
    "last_ok": "2026-08-24"
   },
   "Verkada": {
@@ -29887,6 +29899,6 @@
    "last_ok": "2026-08-24"
   }
  },
- "updated": "2026-08-24T11:55:37Z",
+ "updated": "2026-08-24T13:28:54Z",
  "version": 1
 }
