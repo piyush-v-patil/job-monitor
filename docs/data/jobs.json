@@ -1548,6 +1548,21 @@
    "title": "Embedded Software Dev Engineer, Amazon Leo Customer Terminal Software",
    "url": "https://www.amazon.jobs/en/jobs/10507323/embedded-software-dev-engineer-amazon-leo-customer-terminal-software"
   },
+  "amazon:bde95d94c998": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "North Reading, Massachusetts, USA",
+   "posted_at": "2026-08-24",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Software Development Engineer - Sensor & Compute, Amazon Robotics",
+   "url": "https://www.amazon.jobs/en/jobs/10512938/embedded-software-development-engineer-sensor-compute-amazon-robotics",
+   "yoe": 1
+  },
   "amazon:bf22443b961b": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1760,6 +1775,21 @@
    "tier": "experienced",
    "title": "Software Engineer II, Athena Engine Front End",
    "url": "https://www.amazon.jobs/en/jobs/10505887/software-engineer-ii-athena-engine-front-end"
+  },
+  "amazon:ed8cb37c967b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-08-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Conversational Ads Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10512945/software-development-engineer-conversational-ads-experience",
+   "yoe": 1
   },
   "amazon:ee19a1984aaa": {
    "company": "Amazon",
@@ -5574,6 +5604,18 @@
    "tier": "experienced",
    "title": "Research Engineer / Scientist, Alignment",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4631822008"
+  },
+  "anthropic:61768994bf86": {
+   "company": "Anthropic",
+   "first_seen": "2026-08-24",
+   "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
+   "posted_at": "2026-08-24",
+   "role": "devops-sre",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "IT Systems Engineer, Mobile Client Platform Engineer ",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5396384008"
   },
   "anthropic:69689310da95": {
    "company": "Anthropic",
@@ -30672,7 +30714,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 195,
+   "last": 194,
    "last_ok": "2026-08-24"
   },
   "Airtable": {
@@ -30691,8 +30733,8 @@
    "last_ok": "2026-08-24"
   },
   "Anthropic": {
-   "best": 532,
-   "last": 532,
+   "best": 534,
+   "last": 534,
    "last_ok": "2026-08-24"
   },
   "Apple": {
@@ -30844,7 +30886,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 99,
+   "last": 98,
    "last_ok": "2026-08-24"
   },
   "Gusto": {
@@ -30920,7 +30962,7 @@
   },
   "Nvidia": {
    "best": 192,
-   "last": 192,
+   "last": 191,
    "last_ok": "2026-08-24"
   },
   "Okta": {
@@ -30930,7 +30972,7 @@
   },
   "OpenAI": {
    "best": 757,
-   "last": 757,
+   "last": 756,
    "last_ok": "2026-08-24"
   },
   "OpenEvidence": {
@@ -31035,7 +31077,7 @@
   },
   "Stripe": {
    "best": 581,
-   "last": 579,
+   "last": 578,
    "last_ok": "2026-08-24"
   },
   "Suno": {
@@ -31113,6 +31155,6 @@
    "last_ok": "2026-08-24"
   }
  },
- "updated": "2026-08-24T20:56:06Z",
+ "updated": "2026-08-24T21:54:26Z",
  "version": 1
 }
