@@ -6842,6 +6842,7 @@
    "first_seen": "2026-08-21",
    "location": "USA - Tukwila, WA",
    "posted_at": "2026-08-21",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -29451,12 +29452,12 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2239,
+   "last": 2238,
    "last_ok": "2026-08-24"
   },
   "Anthropic": {
    "best": 518,
-   "last": 516,
+   "last": 515,
    "last_ok": "2026-08-24"
   },
   "Apple": {
@@ -29541,12 +29542,12 @@
   },
   "Databricks": {
    "best": 821,
-   "last": 821,
+   "last": 820,
    "last_ok": "2026-08-24"
   },
   "Datadog": {
-   "best": 450,
-   "last": 450,
+   "best": 451,
+   "last": 451,
    "last_ok": "2026-08-24"
   },
   "Decagon": {
@@ -29771,7 +29772,7 @@
   },
   "Simplify Aggregator": {
    "best": 880,
-   "last": 872,
+   "last": 870,
    "last_ok": "2026-08-24"
   },
   "Snowflake": {
@@ -29786,7 +29787,7 @@
   },
   "SpaceX": {
    "best": 2179,
-   "last": 2177,
+   "last": 2178,
    "last_ok": "2026-08-24"
   },
   "Spotify": {
@@ -29795,8 +29796,8 @@
    "last_ok": "2026-08-24"
   },
   "Stripe": {
-   "best": 579,
-   "last": 579,
+   "best": 581,
+   "last": 581,
    "last_ok": "2026-08-24"
   },
   "Suno": {
@@ -29870,6 +29871,6 @@
    "last_ok": "2026-08-24"
   }
  },
- "updated": "2026-08-24T04:21:51Z",
+ "updated": "2026-08-24T05:08:41Z",
  "version": 1
 }
