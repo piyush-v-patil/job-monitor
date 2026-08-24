@@ -824,6 +824,21 @@
    "title": "Software Development Engineer, Leo Autopilot",
    "url": "https://www.amazon.jobs/en/jobs/10504173/software-development-engineer-leo-autopilot"
   },
+  "amazon:0b4448f90f2a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon WorkSpaces",
+   "url": "https://www.amazon.jobs/en/jobs/10512148/software-development-engineer-amazon-workspaces",
+   "yoe": 2
+  },
   "amazon:0fcfe8559b28": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1243,6 +1258,21 @@
    "tier": "experienced",
    "title": "Software Engineer- AI/ML, Amazon Neuron Training",
    "url": "https://www.amazon.jobs/en/jobs/10501454/software-engineer-ai-ml-amazon-neuron-training"
+  },
+  "amazon:8872e105dc0c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-08-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Brand Measurement",
+   "url": "https://www.amazon.jobs/en/jobs/10512044/software-development-engineer-brand-measurement",
+   "yoe": 2
   },
   "amazon:8abc2490b5e5": {
    "company": "Amazon",
@@ -10965,6 +10995,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Google Cloud Platform, Fault Management",
    "url": "https://www.google.com/about/careers/applications/jobs/results/74720779295433414-software-engineer-google-cloud-platform-fault-management"
+  },
+  "google:dbf825fd446b": {
+   "company": "Google",
+   "first_seen": "2026-08-24",
+   "location": "Mountain View, CA, USA",
+   "role": "solutions",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer, Geo Auto",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/95342051154895558-forward-deployed-engineer-geo-auto"
   },
   "google:e0d3de7ba2c4": {
    "company": "Google",
@@ -30134,8 +30175,8 @@
    "last_ok": "2026-08-24"
   },
   "Anthropic": {
-   "best": 518,
-   "last": 516,
+   "best": 525,
+   "last": 525,
    "last_ok": "2026-08-24"
   },
   "Apple": {
@@ -30373,7 +30414,7 @@
   },
   "OpenAI": {
    "best": 754,
-   "last": 751,
+   "last": 750,
    "last_ok": "2026-08-24"
   },
   "OpenEvidence": {
@@ -30478,7 +30519,7 @@
   },
   "Stripe": {
    "best": 581,
-   "last": 578,
+   "last": 579,
    "last_ok": "2026-08-24"
   },
   "Suno": {
@@ -30556,6 +30597,6 @@
    "last_ok": "2026-08-24"
   }
  },
- "updated": "2026-08-24T15:08:05Z",
+ "updated": "2026-08-24T16:05:09Z",
  "version": 1
 }
