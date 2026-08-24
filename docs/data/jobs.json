@@ -5587,6 +5587,18 @@
    "title": "Model Performance Software Engineer, Claude Code",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5098025008"
   },
+  "anthropic:48a6dbb8487a": {
+   "company": "Anthropic",
+   "first_seen": "2026-08-24",
+   "location": "New York City, NY; San Francisco, CA; Seattle, WA",
+   "posted_at": "2026-05-07",
+   "role": "data",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist, Product",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5182605008"
+  },
   "anthropic:4bc97e9102de": {
    "company": "Anthropic",
    "first_seen": "2026-08-22",
@@ -11334,6 +11346,17 @@
    "title": "Research Scientist, Optical Engineering Neutral Atoms, Quantum AI",
    "url": "https://www.google.com/about/careers/applications/jobs/results/80664283888657094-research-scientist-optical-engineering-neutral-atoms-quantum-ai"
   },
+  "google:9368f309af12": {
+   "company": "Google",
+   "first_seen": "2026-08-24",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Serving Quality, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/112251165600555718-research-engineer-serving-quality-deepmind"
+  },
   "google:93c0e91d2a92": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -13716,6 +13739,18 @@
    "title": "Research Engineer New Grad - Interactive World Models",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Engineer--Interactive-World-Models---New-College-Grad-2026_JR2023950"
   },
+  "nvidia:397b6ab08c6a": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-24",
+   "location": "6 Locations",
+   "posted_at": "2026-08-24",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Applied-AI-Engineer_JR2018181-1"
+  },
   "nvidia:472b56adb0b8": {
    "company": "Nvidia",
    "first_seen": "2026-08-22",
@@ -13824,6 +13859,18 @@
    "title": "NVIDIA 2027 Internships: Software Engineering",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495"
   },
+  "nvidia:7d086a5e3e8e": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-24",
+   "location": "4 Locations",
+   "posted_at": "2026-08-24",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Applied-AI-Engineer_JR2018178-3"
+  },
   "nvidia:82d1d5d54eb0": {
    "company": "Nvidia",
    "first_seen": "2026-08-22",
@@ -13895,6 +13942,18 @@
    "tier": "experienced",
    "title": "ML and Agentic Systems Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ML-and-Agentic-Systems-Engineer_JR2023952"
+  },
+  "nvidia:c533757da2dc": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-24",
+   "location": "6 Locations",
+   "posted_at": "2026-08-24",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Applied-AI-Engineer_JR2018179-3"
   },
   "nvidia:cb1d410cc5bf": {
    "company": "Nvidia",
@@ -16368,6 +16427,21 @@
    "tier": "experienced",
    "title": "Research Engineer, Frontier Evals & Environments",
    "url": "https://jobs.ashbyhq.com/openai/bba18df5-f30f-4d2c-909c-30e651f95579"
+  },
+  "openai:9bd05e8a2dce": {
+   "comp": "$198K – $220K • Offers Equity",
+   "company": "OpenAI",
+   "department": "People",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "San Francisco",
+   "posted_at": "2026-08-24",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "People Research Scientist",
+   "url": "https://jobs.ashbyhq.com/openai/95151536-2118-431b-b0ee-d0727592e161"
   },
   "openai:9c260a2c2da9": {
    "comp": "$295K – $555K • Offers Equity",
@@ -31090,8 +31164,8 @@
    "last_ok": "2026-08-24"
   },
   "Anthropic": {
-   "best": 534,
-   "last": 534,
+   "best": 535,
+   "last": 535,
    "last_ok": "2026-08-24"
   },
   "Apple": {
@@ -31318,8 +31392,8 @@
    "last_ok": "2026-08-24"
   },
   "Nvidia": {
-   "best": 192,
-   "last": 192,
+   "best": 193,
+   "last": 193,
    "last_ok": "2026-08-24"
   },
   "Okta": {
@@ -31329,7 +31403,7 @@
   },
   "OpenAI": {
    "best": 757,
-   "last": 755,
+   "last": 756,
    "last_ok": "2026-08-24"
   },
   "OpenEvidence": {
@@ -31433,8 +31507,8 @@
    "last_ok": "2026-08-24"
   },
   "Stripe": {
-   "best": 581,
-   "last": 580,
+   "best": 582,
+   "last": 582,
    "last_ok": "2026-08-24"
   },
   "Suno": {
@@ -31512,6 +31586,6 @@
    "last_ok": "2026-08-24"
   }
  },
- "updated": "2026-08-24T22:50:06Z",
+ "updated": "2026-08-24T23:48:11Z",
  "version": 1
 }
