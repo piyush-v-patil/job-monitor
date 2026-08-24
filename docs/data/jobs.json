@@ -968,6 +968,21 @@
    "title": "Software Development Engineer, Leo Security",
    "url": "https://www.amazon.jobs/en/jobs/10500803/software-development-engineer-leo-security"
   },
+  "amazon:30f0ab0733e9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, S3 Glacier",
+   "url": "https://www.amazon.jobs/en/jobs/10512552/software-development-engineer-s3-glacier",
+   "yoe": 1
+  },
   "amazon:35dd220639e0": {
    "company": "Amazon",
    "department": "Software Development",
@@ -11026,6 +11041,17 @@
    "tier": "experienced",
    "title": "Research Engineer, Winslow, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/113810496427041478-research-engineer-winslow-deepmind"
+  },
+  "google:9b4ff161e719": {
+   "company": "Google",
+   "first_seen": "2026-08-24",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI/ML Accelerator Modeling Engineer, Silicon",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/123815554023596742-aiml-accelerator-modeling-engineer-silicon"
   },
   "google:9d49eea450c4": {
    "company": "Google",
@@ -30367,8 +30393,8 @@
    "last_ok": "2026-08-24"
   },
   "Anthropic": {
-   "best": 526,
-   "last": 526,
+   "best": 527,
+   "last": 527,
    "last_ok": "2026-08-24"
   },
   "Apple": {
@@ -30606,7 +30632,7 @@
   },
   "OpenAI": {
    "best": 754,
-   "last": 749,
+   "last": 752,
    "last_ok": "2026-08-24"
   },
   "OpenEvidence": {
@@ -30711,7 +30737,7 @@
   },
   "Stripe": {
    "best": 581,
-   "last": 578,
+   "last": 577,
    "last_ok": "2026-08-24"
   },
   "Suno": {
@@ -30789,6 +30815,6 @@
    "last_ok": "2026-08-24"
   }
  },
- "updated": "2026-08-24T17:03:00Z",
+ "updated": "2026-08-24T17:58:47Z",
  "version": 1
 }
