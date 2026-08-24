@@ -760,6 +760,21 @@
    "title": "Software Development Intern",
    "url": "https://jobs.jobvite.com/altamiracorps/job/oMqCAfw8?nl=1&nl=1&fr=false"
   },
+  "amazon:03a87c326c4b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-08-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Ads Console Frameworks",
+   "url": "https://www.amazon.jobs/en/jobs/10511665/software-development-engineer-ads-console-frameworks",
+   "yoe": 1
+  },
   "amazon:075f708d51cd": {
    "company": "Amazon",
    "department": "Software Development",
@@ -7756,6 +7771,18 @@
    "title": "Lead Software Engineer (Go, AWS)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Go--AWS-_R246873-1"
   },
+  "capital-one:3489e5e3bb26": {
+   "company": "Capital One",
+   "first_seen": "2026-08-24",
+   "location": "McLean, VA",
+   "posted_at": "2026-08-24",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer, Full Stack (Enterprise Platforms Technology)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Full-Stack--Enterprise-Platforms-Technology-_R248630-1"
+  },
   "capital-one:3b9b0dc45bb4": {
    "company": "Capital One",
    "first_seen": "2026-08-20",
@@ -7972,6 +7999,18 @@
    "tier": "experienced",
    "title": "Lead Software Engineer, Full Stack",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Lead-Software-Engineer--Full-Stack_R249775-1"
+  },
+  "capital-one:b75fffe1899d": {
+   "company": "Capital One",
+   "first_seen": "2026-08-24",
+   "location": "McLean, VA",
+   "posted_at": "2026-08-24",
+   "role": "security",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer, Full Stack (Cloud Security for Multi Cloud) (Cloud Operations Resilience Engineering)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Full-Stack--Cloud-Security-for-Multi-Cloud---Cloud-Operations-Resilience-Engineering-_R248393-1"
   },
   "capital-one:bd5eea9b3c7b": {
    "company": "Capital One",
@@ -29502,12 +29541,12 @@
   },
   "Databricks": {
    "best": 821,
-   "last": 820,
+   "last": 821,
    "last_ok": "2026-08-24"
   },
   "Datadog": {
-   "best": 448,
-   "last": 448,
+   "best": 450,
+   "last": 450,
    "last_ok": "2026-08-24"
   },
   "Decagon": {
@@ -29572,7 +29611,7 @@
   },
   "Gusto": {
    "best": 92,
-   "last": 92,
+   "last": 91,
    "last_ok": "2026-08-24"
   },
   "Harvey": {
@@ -29831,6 +29870,6 @@
    "last_ok": "2026-08-24"
   }
  },
- "updated": "2026-08-24T02:46:57Z",
+ "updated": "2026-08-24T03:29:08Z",
  "version": 1
 }
