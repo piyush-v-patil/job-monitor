@@ -4,8 +4,11 @@ These use unofficial-but-public JSON endpoints that back each company's own
 careers site. They can change without notice — if one starts failing, check
 the network tab of the careers page and update the endpoint.
 """
+import html
+import re
+
 from .. import filters
-from .http import session, get_json, post_json, iso_date, clean_text
+from .http import session, get_json, get_text, post_json, iso_date, clean_text
 
 
 def _sched(value: str) -> str:
@@ -72,26 +75,48 @@ def microsoft(c):
     return out
 
 
+# Google retired the careers JSON API (v3/search now 404s). The results page
+# is server-rendered though, so the listing is read straight out of the HTML.
+# Each card carries the id and title on its "Learn more" anchor and the
+# locations in a preceding <p class="l103df">.
+GOOGLE_CARD = re.compile(
+    r'href="(jobs/results/(\d+)-[^"?]*)[^"]*"\s+aria-label="Learn more about ([^"]+)"')
+GOOGLE_LOC = re.compile(r'<p class="l103df">(.*?)</p>', re.S)
+
+
+def _text(fragment: str) -> str:
+    """Tags out, entities decoded, whitespace collapsed."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", fragment))).strip()
+
+
 def google(c):
+    """Scrape the careers results page - sorted newest-first, 20 per page."""
     s = session()
-    out = []
-    for page in (1, 2):
-        url = ("https://careers.google.com/api/v3/search/"
+    out, seen = [], set()
+    for page in range(1, int(c.get("pages", 5)) + 1):
+        url = ("https://www.google.com/about/careers/applications/jobs/results/"
                f"?q={c.get('search', 'software engineer').replace(' ', '%20')}"
-               f"&location=United%20States&page={page}")
-        data = get_json(s, url)
-        jobs = data.get("jobs", [])
-        if not jobs:
+               f"&location=United%20States&sort_by=date&page={page}")
+        markup = get_text(s, url)
+        cards = list(GOOGLE_CARD.finditer(markup))
+        if not cards:
             break
-        for j in jobs:
-            jid = str(j.get("id", "")).replace("jobs/", "")
+        for m in cards:
+            jid = m.group(2)
+            if jid in seen:
+                continue
+            seen.add(jid)
+            # the card's location paragraph is the last one before its anchor
+            before = GOOGLE_LOC.findall(markup[: m.start()])
+            loc = _text(before[-1]) if before else ""
+            # "Google | Sunnyvale, CA, USA" and "YouTube | San Bruno, CA, USA"
+            loc = loc.split("|")[-1].strip()
             out.append({
                 "company": "Google",
-                "title": j.get("title", ""),
-                "location": "; ".join(
-                    loc.get("display", "") for loc in (j.get("locations") or [])),
-                "url": ("https://www.google.com/about/careers/applications/jobs/results/"
-                        + jid),
+                "title": html.unescape(m.group(3)),
+                "location": loc,
+                "url": ("https://www.google.com/about/careers/applications/"
+                        + m.group(1)),
                 "external_id": jid,
                 "source": "google careers",
             })

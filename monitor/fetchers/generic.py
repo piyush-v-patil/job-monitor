@@ -226,14 +226,12 @@ def workday_country(external_path: str) -> str:
     return ""
 
 
-def workday(c):
-    """c: {name, host, tenant, site, search?}  e.g. host=nvidia.wd5.myworkdayjobs.com"""
-    s = session()
-    url = f"https://{c['host']}/wday/cxs/{c['tenant']}/{c['site']}/jobs"
+def _workday_pass(s, url, c, search):
+    """One paged sweep of a Workday board for a given search term."""
     out, offset, limit = [], 0, 20
     while offset < int(c.get("max_results", 100)):
-        body = {"appliedFacets": c.get("facets", {}), "limit": limit, "offset": offset,
-                "searchText": c.get("search", "software engineer")}
+        body = {"appliedFacets": c.get("facets", {}), "limit": limit,
+                "offset": offset, "searchText": search}
         data = post_json(s, url, json=body,
                          headers={"Content-Type": "application/json"})
         posts = data.get("jobPostings", [])
@@ -252,6 +250,31 @@ def workday(c):
                 "posted_at": rel_date(j.get("postedOn", "")),
             })
         offset += limit
+    return out
+
+
+def workday(c):
+    """c: {name, host, tenant, site, search?}  e.g. host=nvidia.wd5.myworkdayjobs.com
+
+    Two sweeps, because Workday orders results one way or the other but never
+    both. With a searchText it ranks by relevance, so on a 990-posting board
+    the 100 we read are the best matches and a role posted today can sit at
+    rank 400 forever - invisible to a monitor. With an empty searchText it
+    orders newest-first, which catches those, but the first 100 are then mostly
+    roles we do not want (Target and CVS yield nothing that way). Running both
+    and merging gets the relevant and the recent; ids overlap heavily, so the
+    union costs far less than twice the postings.
+    """
+    s = session()
+    url = f"https://{c['host']}/wday/cxs/{c['tenant']}/{c['site']}/jobs"
+    out, seen = [], set()
+    for search in (c.get("search", "software engineer"), ""):
+        for job in _workday_pass(s, url, c, search):
+            key = job["external_id"] or job["url"]
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(job)
     return out
 
 

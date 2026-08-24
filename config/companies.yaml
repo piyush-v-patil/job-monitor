@@ -53,8 +53,20 @@ bigtech:
   - name: Anthropic
     fetcher: greenhouse
     token: anthropic
-  # Meta and LinkedIn have no stable public API; they are covered by the
-  # Simplify aggregator in the daily sweep.
+  # Meta and LinkedIn have no stable public API. They were assumed to be
+  # covered by the Simplify aggregator, but it currently carries 0 postings
+  # for either, so neither company is actually being monitored.
+  #
+  # Microsoft, Apple, Tesla and Uber are configured below but return nothing:
+  #   Microsoft - careers moved to Eightfold; its API answers
+  #               403 "Not authorized for PCSX" without a tenant token
+  #   Apple     - /api/role/search no longer exists (404) and the search page
+  #               renders results client-side, so there is nothing to read
+  #   Tesla     - Akamai "Access Denied" to non-browser clients
+  #   Uber      - the loadSearchJobsResults RPC handler was removed, and the
+  #               careers page no longer server-renders
+  # They are left in place so the source-health alert keeps reporting them
+  # rather than silently dropping the coverage.
 
 other:
   # --- big tech adjacent ---

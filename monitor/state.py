@@ -97,6 +97,12 @@ def source_health(state: dict, counts: dict) -> list:
     failure mode that hides: the run still succeeds and the log still shows a
     tidy summary. Comparing against the recorded high-water mark turns that
     into something worth paging about.
+
+    A source that has NEVER produced anything hides even better, because it
+    cannot "go dark" - it has no high-water mark to fall from. Five big-tech
+    fetchers sat at zero for weeks without ever tripping the check above. So a
+    source with no successful run on record is reported too, once, and re-armed
+    if it ever starts working.
     """
     hist = state.setdefault("sources", {})
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -105,9 +111,14 @@ def source_health(state: dict, counts: dict) -> list:
         rec = hist.setdefault(name, {"best": 0, "last": 0, "last_ok": None})
         if n > 0:
             rec["last_ok"] = today
+            rec.pop("reported_dead", None)   # working again: re-arm the alert
         elif rec.get("best", 0) >= 5 and rec.get("last", 0) > 0:
             # was healthy on the previous run, now empty
             broke.append({"name": name, "was": rec["last"], "since": rec.get("last_ok")})
+        elif not rec.get("last_ok") and not rec.get("reported_dead"):
+            # never once worked - report it a single time, not every 2 hours
+            rec["reported_dead"] = today
+            broke.append({"name": name, "was": 0, "since": None, "never": True})
         rec["best"] = max(rec.get("best", 0), n)
         rec["last"] = n
     return broke

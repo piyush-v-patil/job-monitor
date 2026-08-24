@@ -38,11 +38,14 @@ def send_alert(broken: list) -> None:
     if not url or not broken:
         return
     lines = "\n".join(
-        f"- **{b['name']}** - was returning {b['was']}, now 0"
-        + (f" (last had postings {b['since']})" if b.get("since") else "")
+        (f"- **{b['name']}** - has never returned a posting; the fetcher is "
+         "broken, not the company"
+         if b.get("never") else
+         f"- **{b['name']}** - was returning {b['was']}, now 0"
+         + (f" (last had postings {b['since']})" if b.get("since") else ""))
         for b in broken[:20])
     payload = {"embeds": [{
-        "title": f"⚠️ {len(broken)} source(s) stopped returning postings",
+        "title": f"⚠️ {len(broken)} source(s) returning no postings",
         "description": (lines + "\n\nLikely a changed endpoint or an expired ATS "
                         "token. Jobs from these companies are being missed until "
                         "it is fixed.")[:4000],

@@ -24,7 +24,12 @@ def post_json(s, url, retries=2, **kw):
     return _req(s, "POST", url, retries, **kw)
 
 
-def _req(s, method, url, retries, **kw):
+def get_text(s, url, retries=2, **kw):
+    """Same retry policy as get_json, for boards that only render HTML."""
+    return _req(s, "GET", url, retries, parse=lambda r: r.text, **kw)
+
+
+def _req(s, method, url, retries, parse=lambda r: r.json(), **kw):
     kw.setdefault("timeout", 30)
     last = None
     for attempt in range(retries + 1):
@@ -34,7 +39,7 @@ def _req(s, method, url, retries, **kw):
                 time.sleep(2 * (attempt + 1))
                 continue
             r.raise_for_status()
-            return r.json()
+            return parse(r)
         except Exception as e:  # noqa: BLE001
             last = e
             time.sleep(1 + attempt)
