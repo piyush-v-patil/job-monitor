@@ -893,6 +893,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10505927/software-development-engineer-ads-ai-core-infra-aci",
    "yoe": 2
   },
+  "amazon:1289e7f8ed77": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Conversational Ads Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10513808/software-development-engineer-conversational-ads-experience",
+   "yoe": 1
+  },
   "amazon:1316897cdb9e": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1298,6 +1313,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, EC2 Trainium AI Infra ",
    "url": "https://www.amazon.jobs/en/jobs/10510280/software-development-engineer-ec2-trainium-ai-infra",
+   "yoe": 1
+  },
+  "amazon:77fa0f87875d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon - Selling Partners",
+   "url": "https://www.amazon.jobs/en/jobs/10513797/software-development-engineer-amazon-selling-partners",
    "yoe": 1
   },
   "amazon:7fb623a3000c": {
@@ -31395,7 +31425,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 189,
+   "last": 188,
    "last_ok": "2026-08-25"
   },
   "Airtable": {
@@ -31415,7 +31445,7 @@
   },
   "Anthropic": {
    "best": 539,
-   "last": 534,
+   "last": 533,
    "last_ok": "2026-08-25"
   },
   "Apple": {
@@ -31643,7 +31673,7 @@
   },
   "Nvidia": {
    "best": 193,
-   "last": 192,
+   "last": 191,
    "last_ok": "2026-08-25"
   },
   "Okta": {
@@ -31653,7 +31683,7 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 757,
+   "last": 754,
    "last_ok": "2026-08-25"
   },
   "OpenEvidence": {
@@ -31757,8 +31787,8 @@
    "last_ok": "2026-08-25"
   },
   "Stripe": {
-   "best": 585,
-   "last": 585,
+   "best": 586,
+   "last": 586,
    "last_ok": "2026-08-25"
   },
   "Suno": {
@@ -31836,6 +31866,6 @@
    "last_ok": "2026-08-25"
   }
  },
- "updated": "2026-08-25T15:12:03Z",
+ "updated": "2026-08-25T16:09:12Z",
  "version": 1
 }
