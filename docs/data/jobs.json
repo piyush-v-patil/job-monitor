@@ -2069,6 +2069,18 @@
    "title": "Firmware Engineer Intern/Co-op 🎓",
    "url": "https://careers.amd.com/jobs/90805?icims=1"
   },
+  "amd:b31c875ff757": {
+   "company": "AMD",
+   "first_seen": "2026-08-25",
+   "location": "6 locationsSecaucus, NJ; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA",
+   "posted_at": "2026-08-21",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Research Engineering Intern/Co-op - AMD Research 🎓",
+   "url": "https://careers.amd.com/jobs/90926?icims=1"
+  },
   "amd:c4434b0ce9e6": {
    "company": "AMD",
    "first_seen": "2026-08-21",
@@ -12232,6 +12244,18 @@
    "tier": "experienced",
    "title": "Infrastructure Engineer ",
    "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8571139002"
+  },
+  "l3harris-technologies:ad0d451fed3a": {
+   "company": "L3Harris Technologies",
+   "first_seen": "2026-08-25",
+   "location": "Melbourne, FL",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://jobs.l3harris.com/job/Melbourne-Associate,-Software-Engineer-1-FL-32934/1422829700/?ats=successfactors"
   },
   "lennar-corporation:bc72c1d4d856": {
    "company": "Lennar Corporation",
@@ -31277,12 +31301,12 @@
   },
   "Affirm": {
    "best": 210,
-   "last": 210,
+   "last": 206,
    "last_ok": "2026-08-25"
   },
   "Airbnb": {
    "best": 195,
-   "last": 193,
+   "last": 192,
    "last_ok": "2026-08-25"
   },
   "Airtable": {
@@ -31297,7 +31321,7 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2219,
+   "last": 2214,
    "last_ok": "2026-08-25"
   },
   "Anthropic": {
@@ -31333,7 +31357,7 @@
   },
   "Boeing": {
    "best": 188,
-   "last": 185,
+   "last": 187,
    "last_ok": "2026-08-25"
   },
   "Brex": {
@@ -31342,8 +31366,8 @@
    "last_ok": "2026-08-25"
   },
   "CVS Health": {
-   "best": 199,
-   "last": 199,
+   "best": 200,
+   "last": 200,
    "last_ok": "2026-08-25"
   },
   "Capital One": {
@@ -31374,7 +31398,7 @@
   },
   "Cloudflare": {
    "best": 310,
-   "last": 306,
+   "last": 304,
    "last_ok": "2026-08-25"
   },
   "Cognition": {
@@ -31409,7 +31433,7 @@
   },
   "DoorDash": {
    "best": 464,
-   "last": 460,
+   "last": 458,
    "last_ok": "2026-08-25"
   },
   "Dropbox": {
@@ -31418,13 +31442,13 @@
    "last_ok": "2026-08-25"
   },
   "Duolingo": {
-   "best": 73,
-   "last": 73,
+   "best": 75,
+   "last": 75,
    "last_ok": "2026-08-25"
   },
   "Elastic": {
-   "best": 282,
-   "last": 282,
+   "best": 284,
+   "last": 284,
    "last_ok": "2026-08-25"
   },
   "ElevenLabs": {
@@ -31444,7 +31468,7 @@
   },
   "Flexport": {
    "best": 166,
-   "last": 161,
+   "last": 160,
    "last_ok": "2026-08-25"
   },
   "GitLab": {
@@ -31454,7 +31478,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 98,
+   "last": 100,
    "last_ok": "2026-08-25"
   },
   "Gusto": {
@@ -31510,7 +31534,7 @@
   },
   "MongoDB": {
    "best": 407,
-   "last": 406,
+   "last": 407,
    "last_ok": "2026-08-25"
   },
   "Netflix": {
@@ -31535,12 +31559,12 @@
   },
   "Okta": {
    "best": 350,
-   "last": 350,
+   "last": 348,
    "last_ok": "2026-08-25"
   },
   "OpenAI": {
    "best": 758,
-   "last": 757,
+   "last": 758,
    "last_ok": "2026-08-25"
   },
   "OpenEvidence": {
@@ -31620,12 +31644,12 @@
   },
   "Simplify Aggregator": {
    "best": 939,
-   "last": 907,
+   "last": 931,
    "last_ok": "2026-08-25"
   },
   "Snowflake": {
    "best": 393,
-   "last": 383,
+   "last": 379,
    "last_ok": "2026-08-25"
   },
   "SoFi": {
@@ -31655,7 +31679,7 @@
   },
   "Target": {
    "best": 197,
-   "last": 197,
+   "last": 196,
    "last_ok": "2026-08-25"
   },
   "Tesla": {
@@ -31693,7 +31717,7 @@
   },
   "Verizon": {
    "best": 132,
-   "last": 132,
+   "last": 131,
    "last_ok": "2026-08-25"
   },
   "Verkada": {
@@ -31723,6 +31747,6 @@
    "last_ok": "2026-08-25"
   }
  },
- "updated": "2026-08-25T11:55:28Z",
+ "updated": "2026-08-25T13:26:32Z",
  "version": 1
 }
