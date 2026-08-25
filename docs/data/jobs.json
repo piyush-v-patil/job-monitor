@@ -1063,6 +1063,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10503878/software-dev-engineer-ii-ecr-private",
    "yoe": 2
   },
+  "amazon:2ca98ae41d89": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Recipient Experience, Your Orders",
+   "url": "https://www.amazon.jobs/en/jobs/10514850/software-development-engineer-recipient-experience-your-orders",
+   "yoe": 1
+  },
   "amazon:303c95cb1b0b": {
    "company": "Amazon",
    "department": "Software Development",
@@ -11947,6 +11962,17 @@
    "tier": "experienced",
    "title": "Graphics Software Engineer, Chrome Browser",
    "url": "https://www.google.com/about/careers/applications/jobs/results/77690182244934342-graphics-software-engineer-chrome-browser"
+  },
+  "google:c188d18234af": {
+   "company": "Google",
+   "first_seen": "2026-08-25",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Generative AI, Maps",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/76862868464509638-software-engineer-generative-ai-maps"
   },
   "google:c8c4ccb1399d": {
    "company": "Google",
@@ -32104,7 +32130,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 188,
+   "last": 187,
    "last_ok": "2026-08-25"
   },
   "Airtable": {
@@ -32124,7 +32150,7 @@
   },
   "Anthropic": {
    "best": 544,
-   "last": 541,
+   "last": 543,
    "last_ok": "2026-08-25"
   },
   "Apple": {
@@ -32276,7 +32302,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 98,
+   "last": 100,
    "last_ok": "2026-08-25"
   },
   "Gusto": {
@@ -32352,7 +32378,7 @@
   },
   "Nvidia": {
    "best": 193,
-   "last": 190,
+   "last": 189,
    "last_ok": "2026-08-25"
   },
   "Okta": {
@@ -32362,7 +32388,7 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 754,
+   "last": 753,
    "last_ok": "2026-08-25"
   },
   "OpenEvidence": {
@@ -32466,8 +32492,8 @@
    "last_ok": "2026-08-25"
   },
   "Stripe": {
-   "best": 589,
-   "last": 589,
+   "best": 590,
+   "last": 590,
    "last_ok": "2026-08-25"
   },
   "Suno": {
@@ -32545,6 +32571,6 @@
    "last_ok": "2026-08-25"
   }
  },
- "updated": "2026-08-25T20:54:38Z",
+ "updated": "2026-08-25T21:54:20Z",
  "version": 1
 }
