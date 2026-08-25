@@ -10221,6 +10221,18 @@
    "title": "Software Engineer, Unified Gateway",
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8146670"
   },
+  "doordash:a391e91d8380": {
+   "company": "DoorDash",
+   "first_seen": "2026-08-25",
+   "location": "Oakland, CA",
+   "posted_at": "2026-08-25",
+   "role": "embedded",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Hardware Systems Engineer",
+   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8156042"
+  },
   "doordash:b957fdf5a078": {
    "company": "DoorDash",
    "first_seen": "2026-08-22",
@@ -31270,7 +31282,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 194,
+   "last": 192,
    "last_ok": "2026-08-25"
   },
   "Airtable": {
@@ -31290,7 +31302,7 @@
   },
   "Anthropic": {
    "best": 539,
-   "last": 537,
+   "last": 536,
    "last_ok": "2026-08-25"
   },
   "Apple": {
@@ -31321,7 +31333,7 @@
   },
   "Boeing": {
    "best": 188,
-   "last": 184,
+   "last": 185,
    "last_ok": "2026-08-25"
   },
   "Brex": {
@@ -31362,7 +31374,7 @@
   },
   "Cloudflare": {
    "best": 310,
-   "last": 307,
+   "last": 306,
    "last_ok": "2026-08-25"
   },
   "Cognition": {
@@ -31377,12 +31389,12 @@
   },
   "Databricks": {
    "best": 827,
-   "last": 823,
+   "last": 824,
    "last_ok": "2026-08-25"
   },
   "Datadog": {
-   "best": 453,
-   "last": 453,
+   "best": 454,
+   "last": 454,
    "last_ok": "2026-08-25"
   },
   "Decagon": {
@@ -31397,7 +31409,7 @@
   },
   "DoorDash": {
    "best": 464,
-   "last": 459,
+   "last": 460,
    "last_ok": "2026-08-25"
   },
   "Dropbox": {
@@ -31411,13 +31423,13 @@
    "last_ok": "2026-08-25"
   },
   "Elastic": {
-   "best": 281,
-   "last": 280,
+   "best": 282,
+   "last": 282,
    "last_ok": "2026-08-25"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 248,
+   "last": 245,
    "last_ok": "2026-08-25"
   },
   "Faire": {
@@ -31437,7 +31449,7 @@
   },
   "GitLab": {
    "best": 211,
-   "last": 211,
+   "last": 210,
    "last_ok": "2026-08-25"
   },
   "Google": {
@@ -31462,7 +31474,7 @@
   },
   "Komodo Health": {
    "best": 36,
-   "last": 35,
+   "last": 34,
    "last_ok": "2026-08-25"
   },
   "Linear": {
@@ -31482,7 +31494,7 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 81,
+   "last": 80,
    "last_ok": "2026-08-25"
   },
   "Mercury": {
@@ -31498,7 +31510,7 @@
   },
   "MongoDB": {
    "best": 407,
-   "last": 405,
+   "last": 406,
    "last_ok": "2026-08-25"
   },
   "Netflix": {
@@ -31523,7 +31535,7 @@
   },
   "Okta": {
    "best": 350,
-   "last": 349,
+   "last": 350,
    "last_ok": "2026-08-25"
   },
   "OpenAI": {
@@ -31558,7 +31570,7 @@
   },
   "Pinterest": {
    "best": 225,
-   "last": 219,
+   "last": 217,
    "last_ok": "2026-08-25"
   },
   "Plaid": {
@@ -31598,17 +31610,17 @@
   },
   "Samsara": {
    "best": 268,
-   "last": 265,
+   "last": 262,
    "last_ok": "2026-08-25"
   },
   "Scale AI": {
    "best": 216,
-   "last": 216,
+   "last": 215,
    "last_ok": "2026-08-25"
   },
   "Simplify Aggregator": {
    "best": 939,
-   "last": 920,
+   "last": 907,
    "last_ok": "2026-08-25"
   },
   "Snowflake": {
@@ -31628,7 +31640,7 @@
   },
   "Spotify": {
    "best": 95,
-   "last": 95,
+   "last": 93,
    "last_ok": "2026-08-25"
   },
   "Stripe": {
@@ -31711,6 +31723,6 @@
    "last_ok": "2026-08-25"
   }
  },
- "updated": "2026-08-25T10:01:50Z",
+ "updated": "2026-08-25T10:57:21Z",
  "version": 1
 }
