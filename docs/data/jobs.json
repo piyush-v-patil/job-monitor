@@ -1270,6 +1270,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10505607/software-development-engineer-amazon-leo-for-government",
    "yoe": 1
   },
+  "amazon:6ec4166fe989": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Amazon Leo Fulfillment Technology",
+   "url": "https://www.amazon.jobs/en/jobs/10514163/software-development-engineer-ii-amazon-leo-fulfillment-technology",
+   "yoe": 2
+  },
   "amazon:70a1a4365803": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1300,6 +1315,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10504942/software-development-engineer-ii-aws-ecs",
    "yoe": 1
   },
+  "amazon:755e1c0b5c30": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Arlington, Virginia, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, S3",
+   "url": "https://www.amazon.jobs/en/jobs/10513864/software-development-engineer-s3",
+   "yoe": 2
+  },
   "amazon:76396551cf36": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1329,6 +1359,21 @@
    "title": "Software Development Engineer, Amazon - Selling Partners",
    "url": "https://www.amazon.jobs/en/jobs/10513797/software-development-engineer-amazon-selling-partners",
    "yoe": 1
+  },
+  "amazon:7bb94c829f42": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Arlington, Virginia, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, S3",
+   "url": "https://www.amazon.jobs/en/jobs/10513862/software-development-engineer-s3",
+   "yoe": 2
   },
   "amazon:7fb623a3000c": {
    "company": "Amazon",
@@ -1919,6 +1964,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer, Amazon Leo  AI Foundations",
    "url": "https://www.amazon.jobs/en/jobs/10504431/software-dev-engineer-amazon-leo-ai-foundations",
+   "yoe": 2
+  },
+  "amazon:f23558820b55": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, EC2 Networking (VPC Core)",
+   "url": "https://www.amazon.jobs/en/jobs/10513880/software-development-engineer-ec2-networking-vpc-core",
    "yoe": 2
   },
   "amazon:f36039658b41": {
@@ -6259,6 +6319,18 @@
    "title": "Research Engineer / Scientist, Frontier Red Team (Cyber)",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076477008"
   },
+  "anthropic:f407e3fd036d": {
+   "company": "Anthropic",
+   "first_seen": "2026-08-25",
+   "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+   "posted_at": "2026-08-25",
+   "role": "security",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Platform Security Engineer, DRTM / Secure Launch",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5361411008"
+  },
   "anthropic:f51243eba101": {
    "company": "Anthropic",
    "first_seen": "2026-08-20",
@@ -8382,6 +8454,18 @@
    "title": "Lead Software Engineer, Full Stack",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Lead-Software-Engineer--Full-Stack_R249388-1"
   },
+  "capital-one:5565086b441b": {
+   "company": "Capital One",
+   "first_seen": "2026-08-25",
+   "location": "McLean, VA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - MLOps",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer---MLOps_R249947-1"
+  },
   "capital-one:76231ccd4552": {
    "company": "Capital One",
    "first_seen": "2026-08-20",
@@ -8392,6 +8476,18 @@
    "tier": "experienced",
    "title": "Lead Software Engineer, Backend",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Backend_R249224-1"
+  },
+  "capital-one:797e8d79b9f5": {
+   "company": "Capital One",
+   "first_seen": "2026-08-25",
+   "location": "4 Locations",
+   "posted_at": "2026-08-25",
+   "role": "devops-sre",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Platform Engineer",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Lead-Platform-Engineer_R245238-1"
   },
   "capital-one:7e139a78b6f1": {
    "company": "Capital One",
@@ -8684,6 +8780,18 @@
    "tier": "experienced",
    "title": "Lead Machine Learning Engineer",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Machine-Learning-Engineer_R249608"
+  },
+  "capital-one:ee0c8a0452c4": {
+   "company": "Capital One",
+   "first_seen": "2026-08-25",
+   "location": "McLean, VA",
+   "posted_at": "2026-08-25",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer, Full Stack (Java, API, AWS, AI)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Full-Stack--Java--API--AWS--AI-_R247737-1"
   },
   "capital-one:f1719422064b": {
    "company": "Capital One",
@@ -10540,6 +10648,18 @@
    "tier": "newgrad",
    "title": "Software Engineer New Grad",
    "url": "https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066/application?embed=true"
+  },
+  "fidelity-investments:c3ede8b77e41": {
+   "company": "Fidelity Investments",
+   "first_seen": "2026-08-25",
+   "location": "Westlake, TX; Merrimack, NH",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer New Grad - LEAP",
+   "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/XMLNAME-2026-Undergraduate---LEAP--Software-Engineer_2134380"
   },
   "fifth-third-bank:8b116ceb766c": {
    "company": "Fifth Third Bank",
@@ -22690,6 +22810,18 @@
    "title": "Software Engineering MTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS_JR353585"
   },
+  "salesforce:1bb22db26f5f": {
+   "company": "Salesforce",
+   "first_seen": "2026-08-25",
+   "location": "11 Locations",
+   "posted_at": "2026-08-25",
+   "role": "solutions",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer (FDE) — Agentforce Orchestration",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Georgia---Atlanta/Forward-Deployed-Engineer--FDE----Agentforce-Orchestration_JR357427"
+  },
   "salesforce:3a3ec76e33f9": {
    "company": "Salesforce",
    "first_seen": "2026-08-22",
@@ -22749,6 +22881,18 @@
    "title": "Full Stack Software Engineer – AI-Native Engineering",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Texas---Dallas/Senior-Software-Engineer--Contract-Lifecycle-Management--CLM-_JR338000"
   },
+  "salesforce:6c218b1098cc": {
+   "company": "Salesforce",
+   "first_seen": "2026-08-25",
+   "location": "4 Locations",
+   "posted_at": "2026-08-25",
+   "role": "data",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer (SMTS / LMTS) - MDM",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Data-Engineer--SMTS---LMTS----MDM_JR347388"
+  },
   "salesforce:8b1024243c6d": {
    "company": "Salesforce",
    "first_seen": "2026-08-22",
@@ -22772,6 +22916,18 @@
    "tier": "experienced",
    "title": "GovCloud Distributed Systems Software Engineer",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Virginia---Herndon/GovCloud-Distributed-Systems-Software-Engineer_JR346223"
+  },
+  "salesforce:e37f960f6802": {
+   "company": "Salesforce",
+   "first_seen": "2026-08-25",
+   "location": "11 Locations",
+   "posted_at": "2026-08-25",
+   "role": "solutions",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer (FDE) - Data 360",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/New-York---New-York/Forward-Deployed-Engineer--FDE----Data-360_JR357428"
   },
   "samsara:34b2e7e15559": {
    "company": "Samsara",
@@ -23325,6 +23481,23 @@
    "tier": "newgrad",
    "title": "Junior Data Engineer - Multiple Teams",
    "url": "https://jobs.smartrecruiters.com/SmarterAgent/743999706496509"
+  },
+  "snowflake:0f20af4168c0": {
+   "comp": "$165,000 – $216,562",
+   "company": "Snowflake",
+   "department": "Solution Engineering",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "US-NY-New York City-Remote",
+   "posted_at": "2026-08-07",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI/ML Flex Solution Engineer",
+   "url": "https://jobs.ashbyhq.com/snowflake/89617e94-de24-4e5d-bdff-c42ee01ca3e6",
+   "workplace": "Remote",
+   "yoe": 2
   },
   "snowflake:16531519cb32": {
    "comp": "$126K – $181.7K",
@@ -25234,6 +25407,18 @@
    "tier": "experienced",
    "title": "Operations Engineer, Applied AI (Application Software) ",
    "url": "https://boards.greenhouse.io/spacex/jobs/8652236002?gh_jid=8652236002"
+  },
+  "spacex:839990bd6787": {
+   "company": "SpaceX",
+   "first_seen": "2026-08-25",
+   "location": "Redmond, WA",
+   "posted_at": "2026-08-25",
+   "role": "data",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Software Engineer, Data Platform (Starlink)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8746439002?gh_jid=8746439002"
   },
   "spacex:845148b131fc": {
    "company": "SpaceX",
@@ -30348,6 +30533,22 @@
    "title": "(USA) Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2588246"
   },
+  "walmart-global-tech:37acd3c06b1e": {
+   "comp": "$104,000 - $202,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-25",
+   "location": "Sunnyvale, CA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://careers.walmart.com/us/en/job/R-2516224",
+   "yoe": 1
+  },
   "walmart-global-tech:389e6e640d53": {
    "comp": "$90,000 - $180,000 Annual",
    "company": "Walmart Global Tech",
@@ -31440,12 +31641,12 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2217,
+   "last": 2205,
    "last_ok": "2026-08-25"
   },
   "Anthropic": {
    "best": 539,
-   "last": 533,
+   "last": 535,
    "last_ok": "2026-08-25"
   },
   "Apple": {
@@ -31471,12 +31672,12 @@
   },
   "Block": {
    "best": 190,
-   "last": 185,
+   "last": 184,
    "last_ok": "2026-08-25"
   },
   "Boeing": {
    "best": 188,
-   "last": 187,
+   "last": 188,
    "last_ok": "2026-08-25"
   },
   "Brex": {
@@ -31491,7 +31692,7 @@
   },
   "Capital One": {
    "best": 163,
-   "last": 163,
+   "last": 159,
    "last_ok": "2026-08-25"
   },
   "Carta": {
@@ -31501,12 +31702,12 @@
   },
   "Checkr": {
    "best": 45,
-   "last": 43,
+   "last": 44,
    "last_ok": "2026-08-25"
   },
   "Chime": {
    "best": 64,
-   "last": 64,
+   "last": 63,
    "last_ok": "2026-08-25"
   },
   "Citadel": {
@@ -31517,12 +31718,12 @@
   },
   "Cloudflare": {
    "best": 310,
-   "last": 305,
+   "last": 306,
    "last_ok": "2026-08-25"
   },
   "Cognition": {
-   "best": 86,
-   "last": 86,
+   "best": 87,
+   "last": 87,
    "last_ok": "2026-08-25"
   },
   "Coinbase": {
@@ -31537,7 +31738,7 @@
   },
   "Datadog": {
    "best": 456,
-   "last": 456,
+   "last": 452,
    "last_ok": "2026-08-25"
   },
   "Decagon": {
@@ -31552,7 +31753,7 @@
   },
   "DoorDash": {
    "best": 464,
-   "last": 459,
+   "last": 462,
    "last_ok": "2026-08-25"
   },
   "Dropbox": {
@@ -31566,13 +31767,13 @@
    "last_ok": "2026-08-25"
   },
   "Elastic": {
-   "best": 284,
-   "last": 284,
+   "best": 286,
+   "last": 286,
    "last_ok": "2026-08-25"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 244,
+   "last": 248,
    "last_ok": "2026-08-25"
   },
   "Faire": {
@@ -31582,12 +31783,12 @@
   },
   "Figma": {
    "best": 162,
-   "last": 158,
+   "last": 157,
    "last_ok": "2026-08-25"
   },
   "Flexport": {
    "best": 166,
-   "last": 160,
+   "last": 161,
    "last_ok": "2026-08-25"
   },
   "GitLab": {
@@ -31602,7 +31803,7 @@
   },
   "Gusto": {
    "best": 92,
-   "last": 90,
+   "last": 89,
    "last_ok": "2026-08-25"
   },
   "Harvey": {
@@ -31612,7 +31813,7 @@
   },
   "Instacart": {
    "best": 123,
-   "last": 122,
+   "last": 120,
    "last_ok": "2026-08-25"
   },
   "Komodo Health": {
@@ -31663,12 +31864,12 @@
   },
   "Notion": {
    "best": 133,
-   "last": 133,
+   "last": 132,
    "last_ok": "2026-08-25"
   },
   "Nuro": {
    "best": 105,
-   "last": 105,
+   "last": 104,
    "last_ok": "2026-08-25"
   },
   "Nvidia": {
@@ -31678,7 +31879,7 @@
   },
   "Okta": {
    "best": 350,
-   "last": 347,
+   "last": 349,
    "last_ok": "2026-08-25"
   },
   "OpenAI": {
@@ -31698,7 +31899,7 @@
   },
   "Palantir": {
    "best": 308,
-   "last": 308,
+   "last": 307,
    "last_ok": "2026-08-25"
   },
   "Peloton": {
@@ -31718,17 +31919,17 @@
   },
   "Plaid": {
    "best": 104,
-   "last": 104,
+   "last": 103,
    "last_ok": "2026-08-25"
   },
   "Ramp": {
    "best": 139,
-   "last": 137,
+   "last": 136,
    "last_ok": "2026-08-25"
   },
   "Reddit": {
    "best": 151,
-   "last": 149,
+   "last": 148,
    "last_ok": "2026-08-25"
   },
   "Replit": {
@@ -31738,7 +31939,7 @@
   },
   "Robinhood": {
    "best": 130,
-   "last": 129,
+   "last": 130,
    "last_ok": "2026-08-25"
   },
   "Roblox": {
@@ -31748,12 +31949,12 @@
   },
   "Salesforce": {
    "best": 168,
-   "last": 164,
+   "last": 158,
    "last_ok": "2026-08-25"
   },
   "Samsara": {
    "best": 268,
-   "last": 260,
+   "last": 263,
    "last_ok": "2026-08-25"
   },
   "Scale AI": {
@@ -31768,7 +31969,7 @@
   },
   "Snowflake": {
    "best": 393,
-   "last": 378,
+   "last": 379,
    "last_ok": "2026-08-25"
   },
   "SoFi": {
@@ -31778,7 +31979,7 @@
   },
   "SpaceX": {
    "best": 2183,
-   "last": 2171,
+   "last": 2170,
    "last_ok": "2026-08-25"
   },
   "Spotify": {
@@ -31788,7 +31989,7 @@
   },
   "Stripe": {
    "best": 586,
-   "last": 586,
+   "last": 585,
    "last_ok": "2026-08-25"
   },
   "Suno": {
@@ -31809,7 +32010,7 @@
   },
   "Twilio": {
    "best": 146,
-   "last": 142,
+   "last": 140,
    "last_ok": "2026-08-25"
   },
   "Two Sigma": {
@@ -31826,7 +32027,7 @@
   },
   "Upstart": {
    "best": 97,
-   "last": 96,
+   "last": 95,
    "last_ok": "2026-08-25"
   },
   "Vanta": {
@@ -31841,7 +32042,7 @@
   },
   "Verkada": {
    "best": 279,
-   "last": 279,
+   "last": 278,
    "last_ok": "2026-08-25"
   },
   "Visa": {
@@ -31857,7 +32058,7 @@
   },
   "Waymo": {
    "best": 367,
-   "last": 363,
+   "last": 362,
    "last_ok": "2026-08-25"
   },
   "Webflow": {
@@ -31866,6 +32067,6 @@
    "last_ok": "2026-08-25"
   }
  },
- "updated": "2026-08-25T16:09:12Z",
+ "updated": "2026-08-25T17:04:22Z",
  "version": 1
 }
