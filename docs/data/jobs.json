@@ -1952,6 +1952,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10506811/software-development-engineer-specialist-ai-tooling-specialist-technology-team",
    "yoe": 1
   },
+  "amazon:ddd813528596": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Customer Service",
+   "url": "https://www.amazon.jobs/en/jobs/10515085/software-development-engineer-amazon-customer-service",
+   "yoe": 2
+  },
   "amazon:e3a5fff628a6": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5879,6 +5894,18 @@
    "tier": "experienced",
    "title": "Model Performance Software Engineer, Claude Code",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5098025008"
+  },
+  "anthropic:4717667ec8cb": {
+   "company": "Anthropic",
+   "first_seen": "2026-08-25",
+   "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA",
+   "posted_at": "2026-08-25",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer, GTM Claudification ",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390966008"
   },
   "anthropic:48a6dbb8487a": {
    "company": "Anthropic",
@@ -32333,8 +32360,8 @@
    "last_ok": "2026-08-25"
   },
   "Anthropic": {
-   "best": 544,
-   "last": 544,
+   "best": 546,
+   "last": 546,
    "last_ok": "2026-08-25"
   },
   "Apple": {
@@ -32572,7 +32599,7 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 752,
+   "last": 751,
    "last_ok": "2026-08-25"
   },
   "OpenEvidence": {
@@ -32755,6 +32782,6 @@
    "last_ok": "2026-08-25"
   }
  },
- "updated": "2026-08-25T22:53:09Z",
+ "updated": "2026-08-25T23:50:01Z",
  "version": 1
 }
