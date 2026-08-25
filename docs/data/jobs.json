@@ -1418,6 +1418,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10512044/software-development-engineer-brand-measurement",
    "yoe": 2
   },
+  "amazon:8a08836a9bd3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-25",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AWS Activate",
+   "url": "https://www.amazon.jobs/en/jobs/10514216/software-development-engineer-ii-aws-activate",
+   "yoe": 1
+  },
   "amazon:8abc2490b5e5": {
    "company": "Amazon",
    "department": "Software Development",
@@ -11652,6 +11667,17 @@
    "title": "Software Engineer, Cloud Interconnect Networking",
    "url": "https://www.google.com/about/careers/applications/jobs/results/119204047637881542-software-engineer-cloud-interconnect-networking"
   },
+  "google:b6d261ae826b": {
+   "company": "Google",
+   "first_seen": "2026-08-25",
+   "location": "Mountain View, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Embedded Systems, Pixel Touch",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/84868756223730374-software-engineer-embedded-systems-pixel-touch"
+  },
   "google:b6e7166db566": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -14075,6 +14101,18 @@
    "title": "GPU Simulation System Software Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Simulation-System-Software-Engineer_JR2018237"
   },
+  "nvidia:4f59ec672988": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-25",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-08-25",
+   "role": "qa-test",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Systems Software Test Engineer – CSP Engagements",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Lead-Systems-Software-Test-Engineer---CSP-Engagements_JR2020107"
+  },
   "nvidia:54532b7dd222": {
    "company": "Nvidia",
    "first_seen": "2026-08-22",
@@ -14242,6 +14280,18 @@
    "tier": "experienced",
    "title": "ML and Agentic Systems Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ML-and-Agentic-Systems-Engineer_JR2023952"
+  },
+  "nvidia:bb2acd61001e": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-25",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-08-25",
+   "role": "embedded",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Hardware Test Engineer - Silicon Validation",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Hardware-Test-Engineer---Silicon-Validation_JR2021022"
   },
   "nvidia:c533757da2dc": {
    "company": "Nvidia",
@@ -31646,7 +31696,7 @@
   },
   "Anthropic": {
    "best": 539,
-   "last": 535,
+   "last": 537,
    "last_ok": "2026-08-25"
   },
   "Apple": {
@@ -31798,7 +31848,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 100,
+   "last": 99,
    "last_ok": "2026-08-25"
   },
   "Gusto": {
@@ -31874,7 +31924,7 @@
   },
   "Nvidia": {
    "best": 193,
-   "last": 191,
+   "last": 192,
    "last_ok": "2026-08-25"
   },
   "Okta": {
@@ -32067,6 +32117,6 @@
    "last_ok": "2026-08-25"
   }
  },
- "updated": "2026-08-25T17:04:22Z",
+ "updated": "2026-08-25T17:57:04Z",
  "version": 1
 }
