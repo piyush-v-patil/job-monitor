@@ -116,7 +116,7 @@
   .job:hover { border-color:var(--line-2); }
   .job.applied { opacity:.4; } .job.skip { opacity:.26; }
   .job .info { flex:1; min-width:0; }
-  .job a.title { color:var(--text); font-weight:600; text-decoration:none; letter-spacing:-.005em; }
+  .job .title { color:var(--text); font-weight:600; text-decoration:none; letter-spacing:-.005em; }
   .job a.title:hover { color:var(--accent); }
   .meta { color:var(--muted); font-size:11.5px; margin-top:3px; }
   /* identity rides the dot; the label stays in ink (never the series colour) */
@@ -281,7 +281,7 @@ function fillCompanies() {
   const keep = $("fCompany").value;
   const companies = [...new Set(Object.values(data.jobs).map(j => j.company))].sort();
   $("fCompany").innerHTML = '<option value="">All companies</option>' +
-    companies.map(c => `<option>${c}</option>`).join("");
+    companies.map(c => `<option>${esc(c)}</option>`).join("");
   if (companies.includes(keep)) $("fCompany").value = keep;   // survive a refresh
 }
 
@@ -376,22 +376,32 @@ function render() {
   $("stats").textContent = `${rows.length} shown`
     + (tier ? ` · filtered to ${TIERS.find(t=>t[0]===tier)[1]}` : "");
 
-  $("list").innerHTML = rows.map(([id, j]) => `
+  $("list").innerHTML = rows.map(([id, j]) => {
+    const href = safeUrl(j.url);
+    // a posting whose url will not pass as http(s) still shows, just not as a link
+    const title = href
+      ? `<a class="title" href="${href}" target="_blank" rel="noopener">${esc(j.title)}</a>`
+      : `<span class="title">${esc(j.title)}</span>`;
+    // the id rides in a data attribute and is read back by one delegated
+    // listener, so it never has to survive being parsed as JavaScript
+    const btn = (act, label) =>
+      `<button class="${j.status === act ? "active" : ""}" data-act="${act}"
+               data-id="${esc(id)}">${label}</button>`;
+    return `
     <div class="job ${j.status === "applied" ? "applied" : j.status === "skip" ? "skip" : ""}">
       ${j.status === "new" ? '<span class="newdot"></span>' : ""}
       <div class="info">
-        <a class="title" href="${j.url}" target="_blank" rel="noopener">${esc(j.title)}</a>
-        <span class="pill ${j.tier}">${j.tier}</span>
+        ${title}
+        <span class="pill ${esc(j.tier)}">${esc(j.tier)}</span>
         <div class="meta">${esc(j.company)} · ${esc(j.location)} · ${
-          j.posted_at ? "posted " + j.posted_at : "first seen " + j.first_seen}</div>
+          j.posted_at ? "posted " + esc(j.posted_at) : "first seen " + esc(j.first_seen)}</div>
         ${badges(j)}
       </div>
       <div class="btns">
-        <button class="${j.status==='applied'?'active':''}" onclick="mark('${id}','applied')">✓ Applied</button>
-        <button class="${j.status==='skip'?'active':''}" onclick="mark('${id}','skip')">✗ Skip</button>
-        <button class="${j.status==='interview'?'active':''}" onclick="mark('${id}','interview')">★ Interview</button>
+        ${btn("applied", "✓ Applied")}${btn("skip", "✗ Skip")}${btn("interview", "★ Interview")}
       </div>
-    </div>`).join("") || "<p style='color:var(--muted)'>Nothing matches.</p>";
+    </div>`;
+  }).join("") || "<p style='color:var(--muted)'>Nothing matches.</p>";
 }
 
 function ago(iso){
@@ -521,7 +531,7 @@ function badges(j){
   if (j.workplace) b.push(`<span class="badge${j.workplace === "Remote" ? " remote" : ""}">${esc(j.workplace)}</span>`);
   if (j.employment_type) b.push(`<span class="badge">${esc(j.employment_type)}</span>`);
   if (j.yoe != null)
-    b.push(`<span class="badge yoe">${j.yoe === 0 ? "entry level" : j.yoe + "+ yrs"}</span>`);
+    b.push(`<span class="badge yoe">${j.yoe === 0 ? "entry level" : esc(j.yoe) + "+ yrs"}</span>`);
   if (j.deadline) {
     const left = Math.ceil((Date.parse(j.deadline + "T23:59:59Z") - Date.now()) / 86400000);
     if (left >= 0)
@@ -534,7 +544,22 @@ function badges(j){
   return b.length ? `<div class="badges">${b.join("")}</div>` : "";
 }
 
-function esc(s){ return (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+// Everything here arrives from third-party job boards and a community-edited
+// GitHub README, so nothing reaches the DOM unescaped. The apostrophe matters
+// as much as the angle brackets: ids and company names carry them ("Steven's
+// Capital Management"), and they sit inside quoted attributes.
+const ESCAPES = {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"};
+function esc(s){ return (s == null ? "" : String(s)).replace(/[&<>"']/g, c => ESCAPES[c]); }
+
+// A url only becomes an href if it is really http(s) - never javascript:,
+// data:, or anything else a board could put in that field.
+function safeUrl(u){
+  try {
+    const p = new URL(u, location.href);
+    if (p.protocol === "http:" || p.protocol === "https:") return esc(p.href);
+  } catch (e) { /* unparseable - treated as no link at all */ }
+  return "";
+}
 
 function isoDay(d){  // local calendar day, not UTC - streaks follow your clock
   const x = new Date(d);
@@ -624,6 +649,12 @@ $("tiles").addEventListener("click", e => {
   render();
 });
 $("fSearch").oninput = render;
+// #list is replaced wholesale on every render, so the handler lives on the
+// container instead of on each button
+$("list").addEventListener("click", e => {
+  const b = e.target.closest("button[data-act]");
+  if (b) mark(b.dataset.id, b.dataset.act);
+});
 load();
 </script>
 </body>

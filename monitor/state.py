@@ -66,10 +66,59 @@ def canonical_key(company: str, url: str) -> str:
     return ""
 
 
+# A job id is read back out of the dashboard's markup, so it has to survive
+# being written into an HTML attribute. Ids used to keep every character of the
+# company name, which put an apostrophe inside "Steven's Capital Management"
+# and broke that row's buttons. Anything outside [a-z0-9] becomes a hyphen.
+SLUG = re.compile(r"[^a-z0-9]+")
+
+
+def company_slug(company: str) -> str:
+    return SLUG.sub("-", (company or "").lower()).strip("-") or "unknown"
+
+
 def job_id(company: str, external_id: str = "", url: str = "") -> str:
     key = external_id.strip() or url.strip()
     digest = hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
-    return f"{company.lower().replace(' ', '-')}:{digest}"
+    return f"{company_slug(company)}:{digest}"
+
+
+def migrate_ids(state: dict) -> int:
+    """Re-key entries stored under a pre-slug id. Returns how many moved.
+
+    Only the company half of an id changes; the digest is derived from the
+    posting's url or ATS id, neither of which this touches, so an entry can be
+    renamed in place without re-fetching anything. Without this the scanner
+    would stop recognising those postings and notify them a second time.
+
+    Idempotent - an already-slugged id computes back to itself.
+    """
+    moved = 0
+    for jid in list(state["jobs"]):
+        entry = state["jobs"][jid]
+        prefix, sep, digest = jid.rpartition(":")
+        if not sep:
+            continue
+        want = f"{company_slug(entry.get('company') or prefix)}:{digest}"
+        if want == jid:
+            continue
+        current = state["jobs"].get(want)
+        if current is None:
+            state["jobs"][want] = entry
+        else:
+            # both ids are already present: keep whichever the user has acted
+            # on and fold in any field only the other one carried
+            keep, drop = ((entry, current)
+                          if entry.get("status", "new") != "new"
+                          and current.get("status", "new") == "new"
+                          else (current, entry))
+            for k, v in drop.items():
+                if v not in ("", None):
+                    keep.setdefault(k, v)
+            state["jobs"][want] = keep
+        del state["jobs"][jid]
+        moved += 1
+    return moved
 
 
 def load() -> dict:

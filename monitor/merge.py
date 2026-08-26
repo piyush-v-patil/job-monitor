@@ -15,6 +15,13 @@ owns what:
 So the branch's copy wins on user data, ours contributes any job it has not
 seen yet plus enrichment it is missing, and no edit is lost either way.
 
+The "sources" block is merged too. It used to be dropped, because the result
+was built from a fixed list of keys that did not name it - which quietly reset
+every fetcher's health history on any push race, re-firing the "never worked"
+alert for each currently-empty source and erasing the high-water marks a real
+outage is measured against. The result is now built from the branch's copy, so
+a top-level key can never be lost by omission again.
+
 Usage:  python -m monitor.merge OURS THEIRS OUT
 """
 import json
@@ -23,12 +30,35 @@ import sys
 USER_OWNED = ("status", "applied_on")
 
 
+def merge_source(mine: dict, current: dict) -> dict:
+    """Reconcile one fetcher's health record across the two copies.
+
+    "best" and "last_ok" are monotone - a count reached and a run that
+    succeeded are facts, so the larger/later one wins outright.
+
+    "last" is the count from the most recent run, and a 0 on one side may just
+    mean that side's run did not cover this tier. The healthier count is kept,
+    because the two mistakes are not symmetric: keeping a stale non-zero only
+    delays an alert by one scan (the next empty run still trips it), whereas
+    keeping a stale 0 clears the trigger entirely and the breakage goes unseen.
+    """
+    out = {
+        "best": max(mine.get("best", 0), current.get("best", 0)),
+        "last": max(mine.get("last", 0), current.get("last", 0)),
+        "last_ok": max(mine.get("last_ok") or "", current.get("last_ok") or "") or None,
+    }
+    # "reported_dead" latches a one-time alert. Either side seeing the source
+    # work clears it, so it only survives while BOTH copies still hold it.
+    if mine.get("reported_dead") and current.get("reported_dead"):
+        out["reported_dead"] = max(mine["reported_dead"], current["reported_dead"])
+    return out
+
+
 def merge(ours: dict, theirs: dict) -> dict:
     """Union of both, resolving each field to whichever side owns it."""
-    out = {
-        "version": theirs.get("version", ours.get("version", 1)),
-        "jobs": dict(theirs.get("jobs", {})),
-    }
+    out = dict(theirs)          # start from the branch so no key is lost
+    out["version"] = theirs.get("version", ours.get("version", 1))
+    out["jobs"] = dict(theirs.get("jobs", {}))
     for jid, mine in ours.get("jobs", {}).items():
         current = out["jobs"].get(jid)
         if current is None:
@@ -41,6 +71,12 @@ def merge(ours: dict, theirs: dict) -> dict:
             if value and not merged.get(key):
                 merged[key] = value          # backfill only what is missing
         out["jobs"][jid] = merged
+    sources = {name: dict(rec) for name, rec in (theirs.get("sources") or {}).items()}
+    for name, mine in (ours.get("sources") or {}).items():
+        sources[name] = (merge_source(mine, sources[name]) if name in sources
+                         else dict(mine))
+    if sources:
+        out["sources"] = sources
     stamps = [s for s in (ours.get("updated"), theirs.get("updated")) if s]
     out["updated"] = max(stamps) if stamps else None
     return out
@@ -60,7 +96,8 @@ def main(argv):
         json.dump(result, f, indent=1, ensure_ascii=False, sort_keys=True)
     added = len(result["jobs"]) - len(theirs.get("jobs", {}))
     print(f"merged: {len(theirs.get('jobs', {}))} on branch + {added} from this run "
-          f"-> {len(result['jobs'])}")
+          f"-> {len(result['jobs'])} jobs, "
+          f"{len(result.get('sources', {}))} source health record(s) kept")
     return 0
 
 
