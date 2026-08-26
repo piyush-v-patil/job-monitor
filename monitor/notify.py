@@ -68,6 +68,7 @@ def send(new_jobs: list, run_label: str = "") -> None:
         return
 
     # Discord: max 10 embeds per message, 30 msg/min per webhook.
+    sent = failed = 0
     for i in range(0, len(new_jobs), 10):
         chunk = new_jobs[i : i + 10]
         embeds = []
@@ -85,10 +86,21 @@ def send(new_jobs: list, run_label: str = "") -> None:
         payload = {"embeds": embeds}
         if i == 0:
             payload["content"] = f"**{len(new_jobs)} new posting(s)** {run_label}".strip()
-        resp = requests.post(url, json=payload, timeout=15)
-        if resp.status_code == 429:
-            time.sleep(float(resp.json().get("retry_after", 2)))
+        # One bad message must not take the run down with it. The state has
+        # already been saved by this point, so an exception here would kill the
+        # process, skip the workflow's commit step, and throw the whole scan
+        # away - after which the next run re-discovers these jobs and re-sends
+        # every chunk that did get through. Losing one message beats that.
+        try:
             resp = requests.post(url, json=payload, timeout=15)
-        resp.raise_for_status()
+            if resp.status_code == 429:
+                time.sleep(float(resp.json().get("retry_after", 2)))
+                resp = requests.post(url, json=payload, timeout=15)
+            resp.raise_for_status()
+            sent += len(chunk)
+        except Exception as e:  # noqa: BLE001
+            failed += len(chunk)
+            print(f"could not deliver {len(chunk)} posting(s): {e}")
         time.sleep(1)
-    print(f"Notified Discord: {len(new_jobs)} job(s)")
+    print(f"Notified Discord: {sent} job(s)"
+          + (f"; {failed} could not be delivered" if failed else ""))

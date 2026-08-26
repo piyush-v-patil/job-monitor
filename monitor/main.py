@@ -78,6 +78,9 @@ def main():
 
     st = state.load()
     seeding = not st["jobs"]
+    rekeyed = state.migrate_ids(st)
+    if rekeyed:
+        print(f"re-keyed {rekeyed} posting(s) onto slugged ids")
     merged = state.dedupe(st)
     if merged:
         print(f"merged {merged} duplicate posting(s) held under two source ids")
