@@ -1729,6 +1729,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10514554/software-engineer-ii-fintech",
    "yoe": 3
   },
+  "amazon:a10be8be0e9f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Arlington, Virginia, USA",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Transit Gateway",
+   "url": "https://www.amazon.jobs/en/jobs/10515153/software-development-engineer-transit-gateway",
+   "yoe": 1
+  },
   "amazon:a45f4f30b002": {
    "company": "Amazon",
    "department": "Software Development",
@@ -32677,7 +32692,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 187,
+   "last": 188,
    "last_ok": "2026-08-26"
   },
   "Airtable": {
@@ -32935,7 +32950,7 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 751,
+   "last": 749,
    "last_ok": "2026-08-26"
   },
   "OpenEvidence": {
@@ -33118,6 +33133,6 @@
    "last_ok": "2026-08-26"
   }
  },
- "updated": "2026-08-26T02:08:05Z",
+ "updated": "2026-08-26T02:48:47Z",
  "version": 1
 }
