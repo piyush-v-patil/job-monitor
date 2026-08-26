@@ -31517,6 +31517,22 @@
    "title": "(USA) Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2588046"
   },
+  "walmart-global-tech:19280d11ebb6": {
+   "comp": "$104,000 - $202,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-26",
+   "location": "Sunnyvale, CA",
+   "posted_at": "2026-08-14",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://careers.walmart.com/us/en/job/R-2532041",
+   "yoe": 1
+  },
   "walmart-global-tech:276960e50853": {
    "comp": "$117,000 - $234,000 Annual",
    "company": "Walmart Global Tech",
@@ -31918,6 +31934,21 @@
    "title": "(USA) Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2581083",
    "yoe": 4
+  },
+  "walmart-global-tech:c8a1b3602d6c": {
+   "comp": "$117,000 - $234,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-08-26",
+   "location": "Sunnyvale, CA",
+   "posted_at": "2026-08-14",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2600624"
   },
   "walmart-global-tech:f99415b29398": {
    "comp": "$117,000 - $234,000 Annual",
@@ -32795,8 +32826,8 @@
    "reported_dead": "2026-08-24"
   },
   "Cloudflare": {
-   "best": 311,
-   "last": 311,
+   "best": 312,
+   "last": 312,
    "last_ok": "2026-08-26"
   },
   "Cognition": {
@@ -32821,7 +32852,7 @@
   },
   "Decagon": {
    "best": 137,
-   "last": 137,
+   "last": 135,
    "last_ok": "2026-08-26"
   },
   "Discord": {
@@ -32845,8 +32876,8 @@
    "last_ok": "2026-08-26"
   },
   "Elastic": {
-   "best": 286,
-   "last": 285,
+   "best": 287,
+   "last": 287,
    "last_ok": "2026-08-26"
   },
   "ElevenLabs": {
@@ -32886,7 +32917,7 @@
   },
   "Harvey": {
    "best": 362,
-   "last": 361,
+   "last": 362,
    "last_ok": "2026-08-26"
   },
   "Instacart": {
@@ -32932,7 +32963,7 @@
   },
   "MongoDB": {
    "best": 407,
-   "last": 405,
+   "last": 406,
    "last_ok": "2026-08-26"
   },
   "Netflix": {
@@ -33027,7 +33058,7 @@
   },
   "Salesforce": {
    "best": 168,
-   "last": 160,
+   "last": 158,
    "last_ok": "2026-08-26"
   },
   "Samsara": {
@@ -33042,12 +33073,12 @@
   },
   "Simplify Aggregator": {
    "best": 974,
-   "last": 974,
+   "last": 973,
    "last_ok": "2026-08-26"
   },
   "Snowflake": {
    "best": 393,
-   "last": 375,
+   "last": 376,
    "last_ok": "2026-08-26"
   },
   "SoFi": {
@@ -33057,7 +33088,7 @@
   },
   "SpaceX": {
    "best": 2184,
-   "last": 2184,
+   "last": 2181,
    "last_ok": "2026-08-26"
   },
   "Spotify": {
@@ -33067,7 +33098,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 590,
+   "last": 589,
    "last_ok": "2026-08-26"
   },
   "Suno": {
@@ -33088,7 +33119,7 @@
   },
   "Twilio": {
    "best": 146,
-   "last": 140,
+   "last": 139,
    "last_ok": "2026-08-26"
   },
   "Two Sigma": {
@@ -33145,6 +33176,6 @@
    "last_ok": "2026-08-26"
   }
  },
- "updated": "2026-08-26T04:11:00Z",
+ "updated": "2026-08-26T05:02:21Z",
  "version": 1
 }
