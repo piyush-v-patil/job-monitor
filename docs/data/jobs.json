@@ -1076,6 +1076,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10509453/software-development-engineer-automated-vehicle-testing",
    "yoe": 1
   },
+  "amazon:1cb92e59d893": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-26",
+   "role": "security",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - AWS Cryptography",
+   "url": "https://www.amazon.jobs/en/jobs/10516264/software-development-engineer-aws-cryptography",
+   "yoe": 3
+  },
   "amazon:1e3c57cf134f": {
    "company": "Amazon",
    "department": "Software Development",
@@ -12410,6 +12425,17 @@
    "title": "Software Engineer III, Mobile (Android)",
    "url": "https://www.google.com/about/careers/applications/jobs/results/106495582469530310-software-engineer-iii-mobile-android"
   },
+  "google:21437cecb28d": {
+   "company": "Google",
+   "first_seen": "2026-08-26",
+   "location": "Cambridge, MA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Rapid Prototyping New Pixel Software Products",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/111569715351954118-software-engineer-rapid-prototyping-new-pixel-software-products"
+  },
   "google:252c6039e677": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -12476,6 +12502,17 @@
    "title": "Software Engineer, Infrastructure, PhD, Early Career, 2027 Start",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84680705375642310-software-engineer-infrastructure-phd-early-career-2027-start"
   },
+  "google:3b6fde4d60d6": {
+   "company": "Google",
+   "first_seen": "2026-08-26",
+   "location": "Mountain View, CA, USA; Cambridge, MA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Chrome Networking Security",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/100397577702122182-software-engineer-chrome-networking-security"
+  },
   "google:3ee436e328ce": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -12497,6 +12534,17 @@
    "tier": "experienced",
    "title": "Forward Deployed Engineer III, Generative AI, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127965694384841414-forward-deployed-engineer-iii-generative-ai-google-cloud"
+  },
+  "google:4f64e7cace03": {
+   "company": "Google",
+   "first_seen": "2026-08-26",
+   "location": "Boulder, CO, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Generative AI, Workspace Drive",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/137877730069750470-software-engineer-iii-generative-ai-workspace-drive"
   },
   "google:53a1b00998ad": {
    "company": "Google",
@@ -12883,6 +12931,17 @@
    "tier": "newgrad",
    "title": "Software Engineer, AI/Machine Learning,  PhD, Early Career, 2027 Start",
    "url": "https://www.google.com/about/careers/applications/jobs/results/123087196289671878-software-engineer-aimachine-learning-phd-early-career-2027-start"
+  },
+  "google:ef636c4a9418": {
+   "company": "Google",
+   "first_seen": "2026-08-26",
+   "location": "New York, NY, USA; Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Infra Bigtable",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/101599343911281350-software-engineer-iii-infrastructure-infra-bigtable"
   },
   "google:f39ef069ef37": {
    "company": "Google",
@@ -14382,6 +14441,20 @@
    "tier": "experienced",
    "title": "Full Stack Software Engineer 4 - Product Localization",
    "url": "https://explore.jobs.netflix.net/careers/job/790317811890",
+   "workplace": "On-site"
+  },
+  "netflix:7592f2e9ee62": {
+   "company": "Netflix",
+   "department": "Engineering",
+   "first_seen": "2026-08-26",
+   "location": "Los Angeles,California,United States of America",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "eightfold",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Solutions Software Engineer 5",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318126309",
    "workplace": "On-site"
   },
   "netflix:8be5a793e25f": {
@@ -33689,7 +33762,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 184,
+   "last": 186,
    "last_ok": "2026-08-26"
   },
   "Airtable": {
@@ -33937,7 +34010,7 @@
   },
   "Nvidia": {
    "best": 193,
-   "last": 187,
+   "last": 188,
    "last_ok": "2026-08-26"
   },
   "Okta": {
@@ -33947,7 +34020,7 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 752,
+   "last": 749,
    "last_ok": "2026-08-26"
   },
   "OpenEvidence": {
@@ -34130,6 +34203,6 @@
    "last_ok": "2026-08-26"
   }
  },
- "updated": "2026-08-26T20:20:35Z",
+ "updated": "2026-08-26T22:24:33Z",
  "version": 1
 }
