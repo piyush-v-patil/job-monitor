@@ -1348,6 +1348,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10510229/software-development-engineer-integrated-vehicle-testing",
    "yoe": 1
   },
+  "amazon:60536f9420a2": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, WW Deals and Promotions",
+   "url": "https://www.amazon.jobs/en/jobs/10515707/software-development-engineer-ww-deals-and-promotions",
+   "yoe": 1
+  },
   "amazon:63de81cf08e2": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1597,6 +1612,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, STRADA",
    "url": "https://www.amazon.jobs/en/jobs/10502434/software-development-engineer-strada"
+  },
+  "amazon:8afa251ff6ec": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Shopping Videos (Ads)",
+   "url": "https://www.amazon.jobs/en/jobs/10515713/software-development-engineer-amazon-shopping-videos-ads",
+   "yoe": 1
   },
   "amazon:8e4a5f9218c1": {
    "company": "Amazon",
@@ -33054,8 +33084,8 @@
    "last_ok": "2026-08-26"
   },
   "Anthropic": {
-   "best": 552,
-   "last": 552,
+   "best": 553,
+   "last": 553,
    "last_ok": "2026-08-26"
   },
   "Apple": {
@@ -33293,7 +33323,7 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 747,
+   "last": 746,
    "last_ok": "2026-08-26"
   },
   "OpenEvidence": {
@@ -33398,7 +33428,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 585,
+   "last": 582,
    "last_ok": "2026-08-26"
   },
   "Suno": {
@@ -33476,6 +33506,6 @@
    "last_ok": "2026-08-26"
   }
  },
- "updated": "2026-08-26T15:58:36Z",
+ "updated": "2026-08-26T16:37:06Z",
  "version": 1
 }
