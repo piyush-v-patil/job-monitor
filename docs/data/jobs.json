@@ -11932,6 +11932,17 @@
    "title": "Developer Relations Engineer, Chrome AI",
    "url": "https://www.google.com/about/careers/applications/jobs/results/128592966406021830-developer-relations-engineer-chrome-ai"
   },
+  "google:30a83f60493c": {
+   "company": "Google",
+   "first_seen": "2026-08-26",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "EMC Test Engineer, Platforms Infrastructure Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/121101450372620998-emc-test-engineer-platforms-infrastructure-engineering"
+  },
   "google:37f20678153b": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -12064,6 +12075,17 @@
    "title": "Software Engineer, Agentic Infrastructure for Data Engineering",
    "url": "https://www.google.com/about/careers/applications/jobs/results/137120864490398406-software-engineer-agentic-infrastructure-for-data-engineering"
   },
+  "google:74406f16e9ba": {
+   "company": "Google",
+   "first_seen": "2026-08-26",
+   "location": "London, UK; San Francisco, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, UX, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/81974532381778630-software-engineer-ux-deepmind"
+  },
   "google:75c42e4a2fca": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -12074,6 +12096,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Google Cloud Platforms",
    "url": "https://www.google.com/about/careers/applications/jobs/results/79605303951139526-software-engineer-iii-infrastructure-google-cloud-platforms"
+  },
+  "google:77102df33be9": {
+   "company": "Google",
+   "first_seen": "2026-08-26",
+   "location": "New York, NY, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Storage Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/131238947580715718-software-engineer-iii-storage-infrastructure"
   },
   "google:8f83b50c4634": {
    "company": "Google",
@@ -12196,6 +12229,17 @@
    "tier": "experienced",
    "title": "Graphics Software Engineer, Chrome Browser",
    "url": "https://www.google.com/about/careers/applications/jobs/results/77690182244934342-graphics-software-engineer-chrome-browser"
+  },
+  "google:c10baf2de88c": {
+   "company": "Google",
+   "first_seen": "2026-08-26",
+   "location": "Cambridge, MA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Search, AI/ML",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/130737570278449862-software-engineer-search-aiml"
   },
   "google:c188d18234af": {
    "company": "Google",
@@ -32767,7 +32811,7 @@
   },
   "Anthropic": {
    "best": 551,
-   "last": 551,
+   "last": 550,
    "last_ok": "2026-08-26"
   },
   "Apple": {
@@ -32919,7 +32963,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 100,
+   "last": 99,
    "last_ok": "2026-08-26"
   },
   "Gusto": {
@@ -33110,7 +33154,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 587,
+   "last": 586,
    "last_ok": "2026-08-26"
   },
   "Suno": {
@@ -33188,6 +33232,6 @@
    "last_ok": "2026-08-26"
   }
  },
- "updated": "2026-08-26T13:31:53Z",
+ "updated": "2026-08-26T14:12:17Z",
  "version": 1
 }
