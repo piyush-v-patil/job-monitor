@@ -1896,6 +1896,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515153/software-development-engineer-transit-gateway",
    "yoe": 1
   },
+  "amazon:a2b03f2c86f6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II,  Network Load Balancer (NLB)",
+   "url": "https://www.amazon.jobs/en/jobs/10516175/software-dev-engineer-ii-network-load-balancer-nlb",
+   "yoe": 1
+  },
   "amazon:a45f4f30b002": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3572,6 +3587,18 @@
    "tier": "experienced",
    "title": "Software Engineer, C++",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5009240007?gh_jid=5009240007"
+  },
+  "anduril:3cc01c5b91cb": {
+   "company": "Anduril",
+   "first_seen": "2026-08-26",
+   "location": "Irvine, California, United States",
+   "posted_at": "2026-08-26",
+   "role": "embedded",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Hardware Test Engineer",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5222924007?gh_jid=5222924007"
   },
   "anduril:3cd749e393c3": {
    "company": "Anduril",
@@ -7519,6 +7546,18 @@
    "title": "Full Stack Software Engineer (Experienced or Lead)",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Chantilly-VA/Full-Stack-Software-Engineer--Experienced-or-Lead-_JR2026518435-1"
   },
+  "boeing:1abd322c9f5b": {
+   "company": "Boeing",
+   "first_seen": "2026-08-26",
+   "location": "3 Locations",
+   "posted_at": "2026-08-26",
+   "role": "qa-test",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Quality Engineer (Software Engineering)",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Software-Quality-Engineer--Software-Engineering-_JR2026510986-1"
+  },
   "boeing:1ce3cbe4e8b9": {
    "company": "Boeing",
    "first_seen": "2026-08-20",
@@ -7744,6 +7783,18 @@
    "title": "Experienced Systems Engineer - Product Owner",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Experienced-Systems-Engineer---Product-Owner_JR2026512628-1"
   },
+  "boeing:6ddbbeffbc36": {
+   "company": "Boeing",
+   "first_seen": "2026-08-26",
+   "location": "2 Locations",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevSecOps Software Engineer, Phantom Works (Associate or Experienced)",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Saint-Charles-MO/DevSecOps-Software-Engineer--Associate-or-Experienced---Phantom-Works_JR2026511366-1"
+  },
   "boeing:707c9bf07f2c": {
    "company": "Boeing",
    "first_seen": "2026-08-24",
@@ -7755,6 +7806,18 @@
    "tier": "experienced",
    "title": "Systems Engineer (Associate or Experienced)",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Heath-OH/Systems-Engineer--Associate-or-Experienced-_JR2026515113"
+  },
+  "boeing:73dc7457bd77": {
+   "company": "Boeing",
+   "first_seen": "2026-08-26",
+   "location": "USA - Berkeley, MO",
+   "posted_at": "2026-08-26",
+   "role": "devops-sre",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer (Associate or Experienced)",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Site-Reliability-Engineer--Associate-or-Experienced-_JR2026519788-1"
   },
   "boeing:780f788906a2": {
    "company": "Boeing",
@@ -7802,6 +7865,18 @@
    "tier": "experienced",
    "title": "Experienced Software Engineer – Vehicle Management Systems",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Experienced-Software-Engineer---Vehicle-Management-Systems_JR2026516293-1"
+  },
+  "boeing:83334b0ee54f": {
+   "company": "Boeing",
+   "first_seen": "2026-08-26",
+   "location": "USA - Berkeley, MO",
+   "posted_at": "2026-08-26",
+   "role": "security",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Experienced Product Security Engineer (Integration)***Signing Bonus Potential***",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Experienced-Product-Security-Engineer--Integration----Signing-Bonus-Potential---_JR2026508995"
   },
   "boeing:838b710a17fe": {
    "company": "Boeing",
@@ -9059,6 +9134,18 @@
    "tier": "experienced",
    "title": "Lead Software Engineer, Front End",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Front-End_R246678-1"
+  },
+  "capital-one:25dab30fe103": {
+   "company": "Capital One",
+   "first_seen": "2026-08-26",
+   "location": "McLean, VA",
+   "posted_at": "2026-08-26",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer, Full Stack (Java, Spring, DynamoDB, S3, GraphQL, GenAI)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Full-Stack--Java--API--AWS--AI-_R247736-1"
   },
   "capital-one:2815f88962a1": {
    "company": "Capital One",
@@ -21590,6 +21677,21 @@
    "url": "https://jobs.ashbyhq.com/perplexity/6c9b3c71-85ba-47db-bce5-44fd9fa95d03",
    "yoe": 4
   },
+  "perplexity:157da6d85ea9": {
+   "comp": "$220K – $405K • Offers Equity",
+   "company": "Perplexity",
+   "department": "AI Research & Systems",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "San Francisco",
+   "posted_at": "2026-08-26",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff (AI Software Engineer, Agents)",
+   "url": "https://jobs.ashbyhq.com/perplexity/50a2def5-adeb-4f13-99c1-88c32482b772"
+  },
   "perplexity:1784cc9b3c52": {
    "comp": "$200K – $300K",
    "company": "Perplexity",
@@ -23609,6 +23711,18 @@
    "title": "Developer Engagement Representative - Thailand (Part-Time Contract)",
    "url": "https://careers.roblox.com/jobs/7992558?gh_jid=7992558"
   },
+  "roblox:db8f0b3917f1": {
+   "company": "Roblox",
+   "first_seen": "2026-08-26",
+   "location": "San Mateo, CA, United States",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Creator",
+   "url": "https://careers.roblox.com/jobs/8115917?gh_jid=8115917"
+  },
   "rocket-lab-usa:a507c1c994a4": {
    "company": "Rocket Lab USA",
    "first_seen": "2026-08-22",
@@ -24536,6 +24650,18 @@
    "title": "Finance & Strategy AI Engineer",
    "url": "https://www.samsara.com/company/careers/roles/8113356?gh_jid=8113356"
   },
+  "scale-ai:0f73ae87941d": {
+   "company": "Scale AI",
+   "first_seen": "2026-08-26",
+   "location": "San Francisco, CA; Seattle, WA; New York, NY",
+   "posted_at": "2025-02-11",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Research Scientist, Post-Training",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4528009005"
+  },
   "scale-ai:15bb7ddba4eb": {
    "company": "Scale AI",
    "first_seen": "2026-08-22",
@@ -24823,6 +24949,18 @@
    "tier": "experienced",
    "title": "AI Infrastructure Engineer, Sandbox Platform",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716453005"
+  },
+  "scale-ai:c09a64d4e80e": {
+   "company": "Scale AI",
+   "first_seen": "2026-08-26",
+   "location": "San Francisco, CA; Seattle, WA; New York, NY",
+   "posted_at": "2026-08-26",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Research Scientist, Evaluations",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4728014005"
   },
   "scale-ai:cb67025f5ac4": {
    "company": "Scale AI",
@@ -26941,6 +27079,18 @@
    "tier": "experienced",
    "title": "Software Engineer (Starlink Mobile)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8568939002?gh_jid=8568939002"
+  },
+  "spacex:83389da6285f": {
+   "company": "SpaceX",
+   "first_seen": "2026-08-26",
+   "location": "Redmond, WA",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Satellite Systems Software Engineer (Starlink)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8751097002?gh_jid=8751097002"
   },
   "spacex:838893628fda": {
    "company": "SpaceX",
@@ -31868,6 +32018,18 @@
    "title": "Software Engineer, Upstart Bank",
    "url": "https://careers.upstart.com/jobs?gh_jid=8060056"
   },
+  "upstart:9f6e7229c198": {
+   "company": "Upstart",
+   "first_seen": "2026-08-26",
+   "location": "United States | Remote",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II, Delivery",
+   "url": "https://careers.upstart.com/jobs?gh_jid=8159614"
+  },
   "upstart:c97341e8d032": {
    "company": "Upstart",
    "first_seen": "2026-08-22",
@@ -31952,6 +32114,18 @@
    "title": "Applied Scientist",
    "url": "https://careers.upstart.com/jobs?gh_jid=7572996"
   },
+  "v2x:1c716c5b963e": {
+   "company": "V2X",
+   "first_seen": "2026-08-26",
+   "location": "Indianapolis, IN",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1 - Multiple Teams",
+   "url": "https://careers.gov2x.com/jobs/62655?icims=1"
+  },
   "v2x:de62f70e5c25": {
    "company": "V2X",
    "first_seen": "2026-08-22",
@@ -31987,6 +32161,18 @@
    "tier": "newgrad",
    "title": "Data Engineer 1",
    "url": "https://careers.varsitybrands.com/global/en/job/JR114562"
+  },
+  "verizon:6241f36a50c1": {
+   "company": "Verizon",
+   "first_seen": "2026-08-26",
+   "location": "Charlotte, North Carolina",
+   "posted_at": "2026-08-26",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "RAN Systems Performance Engineer",
+   "url": "https://verizon.wd12.myworkdayjobs.com/en-US/verizon-careers/job/Charlotte-North-Carolina/RAN-Systems-Performance-Engineer_R-1097640-1"
   },
   "verizon:7bd5e563b672": {
    "company": "Verizon",
@@ -33518,12 +33704,12 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2197,
+   "last": 2191,
    "last_ok": "2026-08-26"
   },
   "Anthropic": {
-   "best": 554,
-   "last": 554,
+   "best": 556,
+   "last": 556,
    "last_ok": "2026-08-26"
   },
   "Apple": {
@@ -33534,7 +33720,7 @@
   },
   "Asana": {
    "best": 126,
-   "last": 126,
+   "last": 125,
    "last_ok": "2026-08-26"
   },
   "Attentive": {
@@ -33544,7 +33730,7 @@
   },
   "Betterment": {
    "best": 32,
-   "last": 31,
+   "last": 32,
    "last_ok": "2026-08-26"
   },
   "Block": {
@@ -33554,7 +33740,7 @@
   },
   "Boeing": {
    "best": 190,
-   "last": 182,
+   "last": 178,
    "last_ok": "2026-08-26"
   },
   "Brex": {
@@ -33564,12 +33750,12 @@
   },
   "CVS Health": {
    "best": 200,
-   "last": 198,
+   "last": 199,
    "last_ok": "2026-08-26"
   },
   "Capital One": {
    "best": 163,
-   "last": 155,
+   "last": 157,
    "last_ok": "2026-08-26"
   },
   "Carta": {
@@ -33578,13 +33764,13 @@
    "last_ok": "2026-08-26"
   },
   "Checkr": {
-   "best": 47,
-   "last": 47,
+   "best": 48,
+   "last": 48,
    "last_ok": "2026-08-26"
   },
   "Chime": {
    "best": 64,
-   "last": 64,
+   "last": 63,
    "last_ok": "2026-08-26"
   },
   "Citadel": {
@@ -33604,13 +33790,13 @@
    "last_ok": "2026-08-26"
   },
   "Coinbase": {
-   "best": 176,
-   "last": 176,
+   "best": 177,
+   "last": 177,
    "last_ok": "2026-08-26"
   },
   "Databricks": {
    "best": 831,
-   "last": 830,
+   "last": 831,
    "last_ok": "2026-08-26"
   },
   "Datadog": {
@@ -33620,7 +33806,7 @@
   },
   "Decagon": {
    "best": 137,
-   "last": 136,
+   "last": 135,
    "last_ok": "2026-08-26"
   },
   "Discord": {
@@ -33629,8 +33815,8 @@
    "last_ok": "2026-08-26"
   },
   "DoorDash": {
-   "best": 469,
-   "last": 468,
+   "best": 472,
+   "last": 472,
    "last_ok": "2026-08-26"
   },
   "Dropbox": {
@@ -33660,7 +33846,7 @@
   },
   "Figma": {
    "best": 162,
-   "last": 158,
+   "last": 159,
    "last_ok": "2026-08-26"
   },
   "Flexport": {
@@ -33670,17 +33856,17 @@
   },
   "GitLab": {
    "best": 218,
-   "last": 217,
+   "last": 218,
    "last_ok": "2026-08-26"
   },
   "Google": {
    "best": 100,
-   "last": 100,
+   "last": 99,
    "last_ok": "2026-08-26"
   },
   "Gusto": {
    "best": 92,
-   "last": 87,
+   "last": 88,
    "last_ok": "2026-08-26"
   },
   "Harvey": {
@@ -33690,12 +33876,12 @@
   },
   "Instacart": {
    "best": 123,
-   "last": 118,
+   "last": 119,
    "last_ok": "2026-08-26"
   },
   "Komodo Health": {
    "best": 36,
-   "last": 34,
+   "last": 35,
    "last_ok": "2026-08-26"
   },
   "Linear": {
@@ -33705,7 +33891,7 @@
   },
   "Lyft": {
    "best": 166,
-   "last": 163,
+   "last": 166,
    "last_ok": "2026-08-26"
   },
   "Marqeta": {
@@ -33715,7 +33901,7 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 77,
+   "last": 76,
    "last_ok": "2026-08-26"
   },
   "Mercury": {
@@ -33730,8 +33916,8 @@
    "reported_dead": "2026-08-24"
   },
   "MongoDB": {
-   "best": 407,
-   "last": 406,
+   "best": 408,
+   "last": 408,
    "last_ok": "2026-08-26"
   },
   "Netflix": {
@@ -33740,13 +33926,13 @@
    "last_ok": "2026-08-26"
   },
   "Notion": {
-   "best": 134,
-   "last": 134,
+   "best": 135,
+   "last": 135,
    "last_ok": "2026-08-26"
   },
   "Nuro": {
    "best": 105,
-   "last": 103,
+   "last": 102,
    "last_ok": "2026-08-26"
   },
   "Nvidia": {
@@ -33756,12 +33942,12 @@
   },
   "Okta": {
    "best": 350,
-   "last": 348,
+   "last": 349,
    "last_ok": "2026-08-26"
   },
   "OpenAI": {
    "best": 758,
-   "last": 751,
+   "last": 752,
    "last_ok": "2026-08-26"
   },
   "OpenEvidence": {
@@ -33781,7 +33967,7 @@
   },
   "Peloton": {
    "best": 49,
-   "last": 48,
+   "last": 49,
    "last_ok": "2026-08-26"
   },
   "Perplexity": {
@@ -33801,17 +33987,17 @@
   },
   "Ramp": {
    "best": 139,
-   "last": 135,
+   "last": 134,
    "last_ok": "2026-08-26"
   },
   "Reddit": {
    "best": 154,
-   "last": 154,
+   "last": 153,
    "last_ok": "2026-08-26"
   },
   "Replit": {
    "best": 72,
-   "last": 72,
+   "last": 71,
    "last_ok": "2026-08-26"
   },
   "Robinhood": {
@@ -33821,12 +34007,12 @@
   },
   "Roblox": {
    "best": 237,
-   "last": 234,
+   "last": 235,
    "last_ok": "2026-08-26"
   },
   "Salesforce": {
    "best": 168,
-   "last": 155,
+   "last": 153,
    "last_ok": "2026-08-26"
   },
   "Samsara": {
@@ -33835,13 +34021,13 @@
    "last_ok": "2026-08-26"
   },
   "Scale AI": {
-   "best": 217,
-   "last": 216,
+   "best": 219,
+   "last": 219,
    "last_ok": "2026-08-26"
   },
   "Simplify Aggregator": {
-   "best": 981,
-   "last": 981,
+   "best": 985,
+   "last": 985,
    "last_ok": "2026-08-26"
   },
   "Snowflake": {
@@ -33851,22 +34037,22 @@
   },
   "SoFi": {
    "best": 63,
-   "last": 63,
+   "last": 61,
    "last_ok": "2026-08-26"
   },
   "SpaceX": {
-   "best": 2187,
-   "last": 2187,
+   "best": 2188,
+   "last": 2188,
    "last_ok": "2026-08-26"
   },
   "Spotify": {
    "best": 95,
-   "last": 89,
+   "last": 90,
    "last_ok": "2026-08-26"
   },
   "Stripe": {
    "best": 592,
-   "last": 582,
+   "last": 580,
    "last_ok": "2026-08-26"
   },
   "Suno": {
@@ -33876,7 +34062,7 @@
   },
   "Target": {
    "best": 198,
-   "last": 195,
+   "last": 196,
    "last_ok": "2026-08-26"
   },
   "Tesla": {
@@ -33887,7 +34073,7 @@
   },
   "Twilio": {
    "best": 146,
-   "last": 141,
+   "last": 140,
    "last_ok": "2026-08-26"
   },
   "Two Sigma": {
@@ -33909,17 +34095,17 @@
   },
   "Vanta": {
    "best": 108,
-   "last": 107,
+   "last": 108,
    "last_ok": "2026-08-26"
   },
   "Verizon": {
    "best": 138,
-   "last": 138,
+   "last": 137,
    "last_ok": "2026-08-26"
   },
   "Verkada": {
    "best": 283,
-   "last": 275,
+   "last": 279,
    "last_ok": "2026-08-26"
   },
   "Visa": {
@@ -33935,7 +34121,7 @@
   },
   "Waymo": {
    "best": 367,
-   "last": 355,
+   "last": 353,
    "last_ok": "2026-08-26"
   },
   "Webflow": {
@@ -33944,6 +34130,6 @@
    "last_ok": "2026-08-26"
   }
  },
- "updated": "2026-08-26T19:25:00Z",
+ "updated": "2026-08-26T20:20:35Z",
  "version": 1
 }
