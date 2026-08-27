@@ -2160,6 +2160,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10509566/software-development-engineer-advertiser-1p-data",
    "yoe": 2
   },
+  "amazon:caa2198b4c22": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-27",
+   "role": "security",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Compliance & Security Assurance",
+   "url": "https://www.amazon.jobs/en/jobs/10516800/software-development-engineer-aws-compliance-security-assurance",
+   "yoe": 2
+  },
   "amazon:cbe6f2ce7213": {
    "company": "Amazon",
    "department": "Software Development",
@@ -12579,6 +12594,17 @@
    "title": "Software Engineer, Rapid Prototyping New Pixel Software Products",
    "url": "https://www.google.com/about/careers/applications/jobs/results/111569715351954118-software-engineer-rapid-prototyping-new-pixel-software-products"
   },
+  "google:22d830049500": {
+   "company": "Google",
+   "first_seen": "2026-08-27",
+   "location": "Mountain View, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Embedded Systems/Firmware, Pixel Bootloader",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/106422454745735878-software-engineer-embedded-systemsfirmware-pixel-bootloader"
+  },
   "google:252c6039e677": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -12689,6 +12715,17 @@
    "title": "Forward Deployed Engineer III, Generative AI, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127965694384841414-forward-deployed-engineer-iii-generative-ai-google-cloud"
   },
+  "google:470b76e83cce": {
+   "company": "Google",
+   "first_seen": "2026-08-27",
+   "location": "Mountain View, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, YouTube Ads Serving",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/89159022678024902-software-engineer-iii-infrastructure-youtube-ads-serving"
+  },
   "google:4f64e7cace03": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -12732,6 +12769,28 @@
    "tier": "experienced",
    "title": "Software Engineer, Terraform",
    "url": "https://www.google.com/about/careers/applications/jobs/results/111130436834337478-software-engineer-terraform"
+  },
+  "google:5f32cb2558cd": {
+   "company": "Google",
+   "first_seen": "2026-08-27",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML, gUP Customer Support",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/116766660139852486-software-engineer-iii-aiml-gup-customer-support"
+  },
+  "google:64726305dc53": {
+   "company": "Google",
+   "first_seen": "2026-08-27",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Tech Lead, YouTube Shorts Discovery, ML Recommendations",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/133526198591333062-tech-lead-youtube-shorts-discovery-ml-recommendations"
   },
   "google:67922545695f": {
    "company": "Google",
@@ -12864,6 +12923,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure,  Infrastructure Storage",
    "url": "https://www.google.com/about/careers/applications/jobs/results/111982135291585222-software-engineer-iii-infrastructure-infrastructure-storage"
+  },
+  "google:878d8b431a02": {
+   "company": "Google",
+   "first_seen": "2026-08-27",
+   "location": "San Bruno, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Technical Lead, YouTube Posts Discovery, Machine Learning and Recommendation",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/72482495743828678-technical-lead-youtube-posts-discovery-machine-learning-and-recommendation"
   },
   "google:8f83b50c4634": {
    "company": "Google",
@@ -13130,6 +13200,17 @@
    "title": "Software Engineer, AI/Machine Learning,  PhD, Early Career, 2027 Start",
    "url": "https://www.google.com/about/careers/applications/jobs/results/123087196289671878-software-engineer-aimachine-learning-phd-early-career-2027-start"
   },
+  "google:e2b83c00e35b": {
+   "company": "Google",
+   "first_seen": "2026-08-27",
+   "location": "Mountain View, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Embedded, Pixel Graphics",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/73194847107719878-software-engineer-embedded-pixel-graphics"
+  },
   "google:ef636c4a9418": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -13195,6 +13276,28 @@
    "tier": "experienced",
    "title": "Software Engineer III, Computer Vision, Pixel Camera",
    "url": "https://www.google.com/about/careers/applications/jobs/results/119584399204197062-software-engineer-iii-computer-vision-pixel-camera"
+  },
+  "google:fb6bf32641e4": {
+   "company": "Google",
+   "first_seen": "2026-08-27",
+   "location": "San Francisco, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/136557869439820486-software-engineer-iii-aiml"
+  },
+  "google:ff64b9833dc4": {
+   "company": "Google",
+   "first_seen": "2026-08-27",
+   "location": "Atlanta, GA, USA",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/106862259396846278-software-engineer-iii-full-stack"
   },
   "great-american-insurance-company:cf94d1b8d5cc": {
    "company": "Great American Insurance Company",
@@ -16975,6 +17078,22 @@
    "url": "https://jobs.ashbyhq.com/openai/f6b9903c-9034-436b-a4ec-4c8643a6d0dd",
    "workplace": "Hybrid"
   },
+  "openai:387ed101445d": {
+   "comp": "$210K – $405K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Applied AI",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "San Francisco",
+   "posted_at": "2026-08-27",
+   "role": "devops-sre",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Infrastructure ",
+   "url": "https://jobs.ashbyhq.com/openai/984da843-107f-4ff6-ad27-07a06700e338",
+   "yoe": 4
+  },
   "openai:38f2b423a791": {
    "comp": "$230K – $385K • Offers Equity",
    "company": "OpenAI",
@@ -17775,6 +17894,23 @@
    "url": "https://jobs.ashbyhq.com/openai/a4332746-163e-4506-b62a-90758fb7a950",
    "workplace": "On-site",
    "yoe": 6
+  },
+  "openai:7414b11f084c": {
+   "comp": "$162K – $280K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Forward Deployed Engineering",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "New York City",
+   "posted_at": "2026-08-27",
+   "role": "solutions",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer (FDE), Legal-SF",
+   "url": "https://jobs.ashbyhq.com/openai/832094fd-4d89-4fe4-bc18-9ba88d347a18",
+   "workplace": "Hybrid",
+   "yoe": 5
   },
   "openai:74781a6d42eb": {
    "comp": "$205K – $445K • Offers Equity",
@@ -34497,7 +34633,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 184,
+   "last": 185,
    "last_ok": "2026-08-27"
   },
   "Airtable": {
@@ -34516,8 +34652,8 @@
    "last_ok": "2026-08-27"
   },
   "Anthropic": {
-   "best": 561,
-   "last": 561,
+   "best": 562,
+   "last": 562,
    "last_ok": "2026-08-27"
   },
   "Apple": {
@@ -34745,7 +34881,7 @@
   },
   "Nvidia": {
    "best": 193,
-   "last": 185,
+   "last": 186,
    "last_ok": "2026-08-27"
   },
   "Okta": {
@@ -34755,7 +34891,7 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 742,
+   "last": 744,
    "last_ok": "2026-08-27"
   },
   "OpenEvidence": {
@@ -34860,7 +34996,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 580,
+   "last": 578,
    "last_ok": "2026-08-27"
   },
   "Suno": {
@@ -34938,6 +35074,6 @@
    "last_ok": "2026-08-27"
   }
  },
- "updated": "2026-08-27T14:25:22Z",
+ "updated": "2026-08-27T16:39:27Z",
  "version": 1
 }
