@@ -2293,6 +2293,21 @@
    "title": "Software Development Engineer, Leo Autopilot",
    "url": "https://www.amazon.jobs/en/jobs/10504175/software-development-engineer-leo-autopilot"
   },
+  "amazon:ca2f9867a205": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-28",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-08-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, Secure Foundations - Detective Tooling",
+   "url": "https://www.amazon.jobs/en/jobs/10518426/software-development-engineer-iii-secure-foundations-detective-tooling",
+   "yoe": 5
+  },
   "amazon:ca6916402524": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2609,6 +2624,21 @@
    "title": "Software Development Engineer , Leo Customer Terminals Applications & Networking Team",
    "url": "https://www.amazon.jobs/en/jobs/10515148/software-development-engineer-leo-customer-terminals-applications-networking-team",
    "yoe": 1
+  },
+  "amazon:f8d5843199f5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-28",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Identity Services",
+   "url": "https://www.amazon.jobs/en/jobs/10518441/software-development-engineer-identity-services",
+   "yoe": 3
   },
   "amazon:f8e96b02bc85": {
    "company": "Amazon",
@@ -13229,6 +13259,17 @@
    "title": "Software Engineer III, Access Transparency",
    "url": "https://www.google.com/about/careers/applications/jobs/results/90936073986679494-software-engineer-iii-access-transparency"
   },
+  "google:157ab89d8489": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "San Francisco, CA, USA",
+   "role": "mobile",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Android, Geo",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/109889747484058310-software-engineer-iii-android-geo"
+  },
   "google:1c27a31c5668": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -13416,6 +13457,17 @@
    "title": "Forward Deployed Engineer III, Generative AI, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127965694384841414-forward-deployed-engineer-iii-generative-ai-google-cloud"
   },
+  "google:470268a75e16": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "San Jose, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infra, Core Communications",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/75489138207269574-software-engineer-iii-infra-core-communications"
+  },
   "google:470b76e83cce": {
    "company": "Google",
    "first_seen": "2026-08-27",
@@ -13503,6 +13555,17 @@
    "tier": "experienced",
    "title": "Tech Lead, YouTube Shorts Discovery, ML Recommendations",
    "url": "https://www.google.com/about/careers/applications/jobs/results/133526198591333062-tech-lead-youtube-shorts-discovery-ml-recommendations"
+  },
+  "google:64b5ace39e3c": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "Atlanta, GA, USA",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/99193560930099910-software-engineer-iii-full-stack"
   },
   "google:67922545695f": {
    "company": "Google",
@@ -13747,6 +13810,17 @@
    "title": "Software Engineer III, Connectivity, Android microXR",
    "url": "https://www.google.com/about/careers/applications/jobs/results/107920258018222790-software-engineer-iii-connectivity-android-microxr"
   },
+  "google:9ed7001e7a9b": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "Raleigh, NC, USA; Durham, NC, USA",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/84134649676079814-software-engineer-iii-full-stack"
+  },
   "google:a23b109b585e": {
    "company": "Google",
    "first_seen": "2026-08-27",
@@ -13768,6 +13842,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Cloud Interconnect Networking",
    "url": "https://www.google.com/about/careers/applications/jobs/results/119204047637881542-software-engineer-cloud-interconnect-networking"
+  },
+  "google:a77ea2096efb": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Infra Spanner",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/93036433253507782-software-engineer-iii-infrastructure-infra-spanner"
   },
   "google:a8e586f187c9": {
    "company": "Google",
@@ -13901,6 +13986,17 @@
    "title": "Software Engineer, Google Cloud Platform, Fault Management",
    "url": "https://www.google.com/about/careers/applications/jobs/results/74720779295433414-software-engineer-google-cloud-platform-fault-management"
   },
+  "google:da7126a630c2": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "Mountain View, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Firmware Engineer, Robotics",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/100030564156744390-lead-firmware-engineer-robotics"
+  },
   "google:dbf825fd446b": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -13977,6 +14073,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Keystore Platforms",
    "url": "https://www.google.com/about/careers/applications/jobs/results/116568913403093702-software-engineer-iii-infrastructure-keystore-platforms"
+  },
+  "google:f54a62c8b3c3": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Google Distributed Cloud AI Storage",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/81105770019463878-software-engineer-iii-google-distributed-cloud-ai-storage"
   },
   "google:f55271772516": {
    "company": "Google",
@@ -16863,6 +16970,18 @@
    "tier": "experienced",
    "title": "System Software Engineer, HPC Performance",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-IL-Champaign/System-Software-Engineer--HPC-Performance_JR2023599"
+  },
+  "nvidia:b7c89c1bcf2c": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-28",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-08-28",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Product Evaluations Lead - Gen AI Software",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Evaluations-Lead---Gen-AI-Software_JR2021025"
   },
   "nvidia:bad6e3822a52": {
    "company": "Nvidia",
@@ -35834,8 +35953,8 @@
    "last_ok": "2026-08-28"
   },
   "Anthropic": {
-   "best": 562,
-   "last": 559,
+   "best": 563,
+   "last": 563,
    "last_ok": "2026-08-28"
   },
   "Apple": {
@@ -36063,7 +36182,7 @@
   },
   "Nvidia": {
    "best": 193,
-   "last": 189,
+   "last": 188,
    "last_ok": "2026-08-28"
   },
   "Okta": {
@@ -36073,7 +36192,7 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 749,
+   "last": 751,
    "last_ok": "2026-08-28"
   },
   "OpenEvidence": {
@@ -36178,7 +36297,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 580,
+   "last": 575,
    "last_ok": "2026-08-28"
   },
   "Suno": {
@@ -36256,6 +36375,6 @@
    "last_ok": "2026-08-28"
   }
  },
- "updated": "2026-08-28T06:12:10Z",
+ "updated": "2026-08-28T15:35:28Z",
  "version": 1
 }
