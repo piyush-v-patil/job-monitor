@@ -943,6 +943,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10516094/software-development-engineer-amazon-leo",
    "yoe": 2
   },
+  "amazon:0a384d77c2de": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-28",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-08-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10517531/software-development-engineer-amazon-leo",
+   "yoe": 2
+  },
   "amazon:0b4448f90f2a": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1002,6 +1017,20 @@
    "title": "Software Development Engineer, Amazon Leo  AI Foundations",
    "url": "https://www.amazon.jobs/en/jobs/10504368/software-development-engineer-amazon-leo-ai-foundations",
    "yoe": 2
+  },
+  "amazon:10778aa3cd15": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-28",
+   "location": "Cupertino, California, USA",
+   "posted_at": "2026-08-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Development Engineer Intern, Annapurna Labs - 2027",
+   "url": "https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027"
   },
   "amazon:10baaa06a97c": {
    "company": "Amazon",
@@ -1664,6 +1693,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10517095/software-development-engineer-us-adc-security",
    "yoe": 2
   },
+  "amazon:7e82fae6a33e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-28",
+   "location": "Santa Clara, California, USA",
+   "posted_at": "2026-08-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Quick",
+   "url": "https://www.amazon.jobs/en/jobs/10517569/software-development-engineer-amazon-quick",
+   "yoe": 1
+  },
   "amazon:7fb623a3000c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2119,6 +2163,21 @@
    "title": "Software Development Engineer, Amazon Brand Store",
    "url": "https://www.amazon.jobs/en/jobs/10508230/software-development-engineer-amazon-brand-store",
    "yoe": 1
+  },
+  "amazon:b751620731ca": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-28",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer ,  Project Dawn",
+   "url": "https://www.amazon.jobs/en/jobs/10517671/software-development-engineer-project-dawn",
+   "yoe": 3
   },
   "amazon:bd7fc5fa6fd3": {
    "company": "Amazon",
@@ -13108,6 +13167,17 @@
    "title": "Software Engineer, Infrastructure, PhD, Early Career, 2027 Start",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84680705375642310-software-engineer-infrastructure-phd-early-career-2027-start"
   },
+  "google:3b3f9aba39a7": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "Kirkland, WA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, AI and Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/88630088865587910-software-engineer-iii-infrastructure-ai-and-infrastructure"
+  },
   "google:3b6fde4d60d6": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -13371,6 +13441,17 @@
    "tier": "experienced",
    "title": "Technical Lead, YouTube Posts Discovery, Machine Learning and Recommendation",
    "url": "https://www.google.com/about/careers/applications/jobs/results/72482495743828678-technical-lead-youtube-posts-discovery-machine-learning-and-recommendation"
+  },
+  "google:88f2ee15ee97": {
+   "company": "Google",
+   "first_seen": "2026-08-28",
+   "location": "Los Angeles, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML GenAI, Google Ads",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/72980190111638214-software-engineer-iii-aiml-genai-google-ads"
   },
   "google:8c7d8c220405": {
    "company": "Google",
@@ -15286,6 +15367,20 @@
    "tier": "experienced",
    "title": "Full-Stack Software Engineer 5 - Ads Policy Infrastructure",
    "url": "https://explore.jobs.netflix.net/careers/job/790317610340",
+   "workplace": "On-site"
+  },
+  "netflix:9317fca809fa": {
+   "company": "Netflix",
+   "department": "Inkubator",
+   "first_seen": "2026-08-28",
+   "location": "Los Angeles,California,United States of America",
+   "posted_at": "2026-08-20",
+   "role": "software",
+   "source": "eightfold",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer 4- Ink",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317940553",
    "workplace": "On-site"
   },
   "netflix:996d91f4a442": {
@@ -35283,8 +35378,8 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 181,
-   "last_ok": "2026-08-27"
+   "last": 183,
+   "last_ok": "2026-08-28"
   },
   "Airtable": {
    "best": 16,
@@ -35294,7 +35389,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-08-27"
+   "last_ok": "2026-08-28"
   },
   "Anduril": {
    "best": 2239,
@@ -35303,8 +35398,8 @@
   },
   "Anthropic": {
    "best": 562,
-   "last": 559,
-   "last_ok": "2026-08-27"
+   "last": 562,
+   "last_ok": "2026-08-28"
   },
   "Apple": {
    "best": 0,
@@ -35456,7 +35551,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-08-27"
+   "last_ok": "2026-08-28"
   },
   "Gusto": {
    "best": 92,
@@ -35517,7 +35612,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-08-27"
+   "last_ok": "2026-08-28"
   },
   "Notion": {
    "best": 135,
@@ -35531,8 +35626,8 @@
   },
   "Nvidia": {
    "best": 193,
-   "last": 186,
-   "last_ok": "2026-08-27"
+   "last": 188,
+   "last_ok": "2026-08-28"
   },
   "Okta": {
    "best": 350,
@@ -35541,8 +35636,8 @@
   },
   "OpenAI": {
    "best": 758,
-   "last": 743,
-   "last_ok": "2026-08-27"
+   "last": 745,
+   "last_ok": "2026-08-28"
   },
   "OpenEvidence": {
    "best": 8,
@@ -35646,8 +35741,8 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 578,
-   "last_ok": "2026-08-27"
+   "last": 580,
+   "last_ok": "2026-08-28"
   },
   "Suno": {
    "best": 63,
@@ -35724,6 +35819,6 @@
    "last_ok": "2026-08-27"
   }
  },
- "updated": "2026-08-27T20:37:36Z",
+ "updated": "2026-08-28T01:36:43Z",
  "version": 1
 }
