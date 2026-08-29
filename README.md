@@ -31,10 +31,14 @@ finance & fintech, Fortune 500, and high-growth startups**.
              filters: US-only · SWE + adjacent roles · tier
              detection · staff/principal/senior excluded
                                          │
+             new grad / early career detection (title AND body)
+             → apply_now + priority, so these lead everything
+                                         │
              compare against docs/data/jobs.json (the database,
              committed back into this repo after every run)
                                          │
               new jobs only → Discord webhook notification
+                    (🚨 new grad roles first, with an @here)
 ```
 
 The dashboard is a single static HTML page that reads `docs/data/jobs.json`
@@ -256,9 +260,58 @@ committed or sent anywhere except api.github.com.
 
 ---
 
+## 3b. New grad / early career gets top priority
+
+New grad reqs open on a campus cycle and close in days, so they are treated as
+the one thing worth interrupting for.
+
+**How a posting gets flagged** (`monitor/filters.py`):
+
+| Signal | Example |
+|---|---|
+| `title` | "New Grad Software Engineer", "SWE I", "SDE — 2027" |
+| `description` | a plain "Software Engineer" title whose body says *new grad*, *recent graduate*, *early career*, *entry level*, *university/campus recruiting*, *graduating in 2027*, *rotational program*, *no prior experience* |
+| `yoe` | the posting states a real zero-year bar ("0–2 years of experience") |
+| `aggregator` | SimplifyJobs labelled the row new grad |
+
+Guard rails: an explicit `II`/`III` in the title wins over any wording, a
+stated bar above 2 years disqualifies the posting however it is phrased, and a
+body that says *"this is not an entry level role / new grads are not eligible"*
+is not flagged — including the common redirect note *"if you are an intern or
+new grad applicant, please do not apply using this link"*, which is judged by
+the 200 characters around the phrase rather than the phrase alone. A bare
+"early career" only counts when it describes the role, not the team. A "1–3
+years" posting is ranked up but not flagged. Internships stay in their own tier.
+
+**What you get:**
+
+- **Discord** — flagged roles are sorted to the front of the batch (so if the
+  webhook rate-limits, the urgent ones went out first), the message opens with
+  `@here 🚨 APPLY IMMEDIATELY — N new grad / early career posting(s)`, and each
+  one has a gold embed, a 🚨 title, and an **⚡ Action** field saying *why* it
+  was flagged. Set the repo variable `DISCORD_MENTION` to `none` to ping nobody,
+  or to `<@your-user-id>` to be pinged on your phone; leaving it unset keeps
+  `@here`.
+- **Dashboard** — a gold **🚨 APPLY NOW** badge, a highlighted row, a
+  *"Sort: apply now first"* ordering (the default), a *🚨 Apply now (new grad)*
+  entry in the tier filter, and a `· 🚨 N to apply to now` counter in the header.
+  The badge clears once you mark the role Applied or Skipped.
+- **Run log** — the scan prints an `🚨 APPLY IMMEDIATELY` block with direct
+  links before the ordinary listing.
+
+Stored on each posting in `jobs.json`: `apply_now`, `newgrad_signal`, and
+`priority` (newgrad 100 · intern 60 · experienced 20, +25 for a stated 0–1 year
+bar, +10 when a published deadline is inside 14 days). Postings tracked before
+this existed are still shown as urgent by their tier, and get the fields
+backfilled on the next scan.
+
+---
+
 ## 4. Daily use
 
 - New postings arrive in Discord with tier, location, and a direct apply link.
+  **New grad / early career roles come first, in gold, marked 🚨 APPLY
+  IMMEDIATELY** — see [§3b](#3b-new-grad--early-career-gets-top-priority).
 - Open the dashboard (default filter shows **Open (new)**), apply on the
   company site, click **✓ Applied**. Clicking the same button again undoes it.
 - **✗ Skip** hides roles you don't want; **★ Interview** tracks progress.
@@ -282,6 +335,9 @@ committed or sent anywhere except api.github.com.
 | Change scan frequency | the `cron:` lines in `.github/workflows/*.yml` — times are **UTC** |
 | Include Senior titles | add `--include-senior` to the `run:` command in the workflows |
 | Change role/location rules | the regexes in `monitor/filters.py` |
+| Change what counts as new grad | `NEWGRAD` / `NEWGRAD_TEXT` / `NEWGRAD_TEXT_EXCLUDE` in `monitor/filters.py`; `NEWGRAD_MAX_YOE` sets how many stated years still qualify |
+| Re-rank urgency | `TIER_PRIORITY` and `priority()` in `monitor/filters.py` |
+| Change/silence the apply-now Discord ping | repo variable `DISCORD_MENTION` (unset = `@here`, `none` = no ping, `<@id>` = ping you directly) |
 | Wider/narrower aggregator window | `max_age_days` under `aggregators:` in the config |
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run` |
 | Run the unit tests | `pip install -r requirements-dev.txt` then `python -m pytest tests -q`. Covers the filter/tier rules, the id scheme, jobs.json reconciliation, and Discord delivery. CI runs them on every push to `monitor/`. |

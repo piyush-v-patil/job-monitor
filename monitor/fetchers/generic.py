@@ -54,6 +54,9 @@ def greenhouse(c):
             # only present when the board is configured with_content
             "yoe": filters.parse_yoe(clean_text(j.get("content", ""), 6000),
                                      j.get("title", "")),
+            # not stored - read once by the scope filter, which looks for
+            # "new grad"/"early career" wording the title never carries
+            "desc": clean_text(j.get("content", ""), 6000),
         })
     return out
 
@@ -85,6 +88,7 @@ def lever(c):
             "department": cats.get("team", "") or cats.get("department", ""),
             "snippet": clean_text(j.get("descriptionPlain", "")),
             "yoe": filters.parse_yoe(j.get("descriptionPlain", ""), j.get("text", "")),
+            "desc": clean_text(j.get("descriptionPlain", ""), 6000),
         })
     return out
 
@@ -119,6 +123,7 @@ def ashby(c):
             "department": j.get("department", "") or j.get("team", ""),
             "snippet": clean_text(j.get("descriptionPlain", "")),
             "yoe": filters.parse_yoe(j.get("descriptionPlain", ""), j.get("title", "")),
+            "desc": clean_text(j.get("descriptionPlain", ""), 6000),
         })
     return out
 

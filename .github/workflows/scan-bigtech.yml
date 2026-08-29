@@ -28,6 +28,10 @@ jobs:
       - name: Run scan
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          # who to ping when a new grad / early career role lands.
+          # unset -> @here; set the variable to "" for no ping, or to
+          # "<@your-discord-user-id>" to be pinged directly.
+          DISCORD_MENTION: ${{ vars.DISCORD_MENTION }}
         run: python -m monitor.main --tier bigtech
       - name: Commit state
         run: |

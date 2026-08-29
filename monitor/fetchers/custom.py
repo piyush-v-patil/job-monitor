@@ -40,6 +40,10 @@ def amazon(c):
             "yoe": filters.parse_yoe(
                 (j.get("basic_qualifications", "") or "") + " " + (j.get("description", "") or ""),
                 j.get("title", "")),
+            # not stored - read once by the scope filter, which looks for
+            # "new grad"/"early career" wording the title never carries
+            "desc": clean_text((j.get("basic_qualifications", "") or "") + " "
+                               + (j.get("description", "") or ""), 6000),
         })
     return out
 
@@ -71,6 +75,7 @@ def microsoft(c):
                               .startswith("up to 100") else ""),
                 "department": props.get("discipline", "") or props.get("profession", ""),
                 "snippet": clean_text(props.get("description", "")),
+                "desc": clean_text(props.get("description", ""), 6000),
             })
     return out
 
@@ -251,6 +256,7 @@ def walmart(c):
                 "employment_type": (m.get("employmentTypes") or [""])[0],
                 "department": (m.get("areas") or [""])[0],
                 "yoe": filters.parse_yoe(j.get("text", ""), m.get("title", "")),
+                "desc": clean_text(j.get("text", ""), 6000),
             })
         page += 1
         if len(jobs) < size:

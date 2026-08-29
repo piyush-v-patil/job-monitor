@@ -125,3 +125,32 @@ def test_source_health_reports_a_never_working_source_exactly_once():
     assert state.source_health(st, {"Citadel": 0}) == []      # latched
     state.source_health(st, {"Citadel": 12})                  # works -> re-armed
     assert [b["name"] for b in state.source_health(st, {"Citadel": 0})] == ["Citadel"]
+
+
+def test_the_full_description_classifies_but_is_never_stored():
+    """"desc" is scratch data for the scope filter - jobs.json stays small."""
+    from monitor import filters
+    job = filters.in_scope({"company": "Acme", "title": "Software Engineer",
+                            "location": "Austin, TX", "url": "https://x.test/1",
+                            "desc": "We hire recent graduates. " * 200})
+    st = {"version": 1, "updated": None, "jobs": {}}
+    state.add_new(st, [job])
+    entry = next(iter(st["jobs"].values()))
+    assert "desc" not in entry
+    assert entry["tier"] == "newgrad" and entry["apply_now"] is True
+
+
+def test_urgency_is_backfilled_onto_a_posting_stored_before_the_flag_existed():
+    st = {"version": 1, "updated": None, "jobs": {}}
+    jid = state.job_id("Acme", url="https://x.test/2")
+    st["jobs"][jid] = {"company": "Acme", "title": "New Grad SWE", "tier": "newgrad",
+                       "location": "NYC", "url": "https://x.test/2", "source": "lever",
+                       "first_seen": "2026-01-01", "status": "applied"}
+    added = state.add_new(st, [{"company": "Acme", "title": "New Grad SWE",
+                                "tier": "newgrad", "location": "NYC",
+                                "url": "https://x.test/2", "apply_now": True,
+                                "newgrad_signal": "title", "priority": 100}])
+    assert added == []                      # already tracked: no second alert
+    entry = st["jobs"][jid]
+    assert entry["apply_now"] is True and entry["priority"] == 100
+    assert entry["status"] == "applied"     # the user's own mark is untouched

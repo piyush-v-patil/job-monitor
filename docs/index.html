@@ -134,6 +134,11 @@
   .badge.fresh { color:#ffd479; border-color:rgba(255,212,121,.22); background:rgba(255,212,121,.06); }
   .badge.yoe { color:#c3b6ff; border-color:rgba(195,182,255,.22); background:rgba(195,182,255,.06); }
   .badge.urgent { color:#ff9b8a; border-color:rgba(255,155,138,.3); background:rgba(255,155,138,.08); }
+  /* new grad / early career: the one thing on this page that shouts */
+  .badge.applynow { color:#141821; font-weight:700; letter-spacing:.03em;
+                    border-color:#ffd479; background:#ffd479; }
+  .job.applynow { border-color:rgba(255,212,121,.38); background:rgba(255,212,121,.045); }
+  .job.applynow.applied, .job.applynow.skip { border-color:var(--line); background:none; }
   .snip { color:var(--dim); font-size:11.5px; margin-top:6px; line-height:1.45; }
   .btns { display:flex; gap:5px; }
   button { background:var(--raised); color:var(--muted); border:1px solid var(--line);
@@ -163,7 +168,9 @@
 <body>
 <header>
   <h1>Job Monitor</h1>
-  <select id="fTier"><option value="">All tiers</option><option value="intern">Intern</option>
+  <select id="fTier"><option value="">All tiers</option>
+    <option value="applynow">🚨 Apply now (new grad)</option>
+    <option value="intern">Intern</option>
     <option value="newgrad">New Grad</option><option value="experienced">Experienced</option></select>
   <select id="fStatus"><option value="open">Open (new)</option><option value="applied">Applied</option>
     <option value="skip">Skipped</option><option value="">Everything</option></select>
@@ -178,6 +185,7 @@
   </select>
   <select id="fCompany"><option value="">All companies</option></select>
   <select id="fSort">
+    <option value="priority">Sort: apply now first</option>
     <option value="posted">Sort: newest posted</option>
     <option value="seen">Sort: newest seen</option>
     <option value="comp">Sort: has compensation</option>
@@ -338,6 +346,24 @@ function startAutoRefresh() {
 }
 
 const TIERS = [["intern","Intern"],["newgrad","New Grad"],["experienced","Experienced"]];
+const TIER_LABEL = Object.fromEntries(TIERS.concat([["applynow","🚨 Apply now"]]));
+
+// New grad / early career reqs run on a campus cycle and close in days, so
+// they outrank everything on this page. The scanner writes apply_now, but
+// entries first seen before that field existed only have their tier - so the
+// tier still counts, and no backfill is needed for the flag to be right.
+function applyNow(j){ return j.apply_now === true || j.tier === "newgrad"; }
+const WHY_NOW = {
+  title: "the title says new grad / early career",
+  description: "the description says new grad / early career",
+  yoe: "it asks for 0-1 years of experience",
+  aggregator: "the aggregator lists it as a new grad role",
+};
+function prio(j){
+  if (typeof j.priority === "number") return j.priority;
+  // pre-priority entries: derive the same ranking from what they do carry
+  return applyNow(j) ? 100 : j.tier === "intern" ? 60 : 20;
+}
 const STATUS_WORD = { open:"open", applied:"applied", skip:"skipped", interview:"in interview", "":"tracked" };
 
 function render() {
@@ -355,9 +381,15 @@ function render() {
   renderKpi(base, tier, status);
   renderActivity();
   const rows = base
-    .filter(([id, j]) => (!tier || j.tier === tier))
+    .filter(([id, j]) => (!tier || (tier === "applynow" ? applyNow(j) : j.tier === tier)))
     .sort((a, b) => {
-      const mode = $("fSort") ? $("fSort").value : "posted";
+      const mode = $("fSort") ? $("fSort").value : "priority";
+      // urgency leads every ordering except when you explicitly sort by
+      // something else - a new grad req buried on page three is a missed one
+      if (mode === "priority") {
+        const pa = prio(a[1]), pb = prio(b[1]);
+        if (pa !== pb) return pb - pa;
+      }
       if (mode === "comp" && (!!a[1].comp !== !!b[1].comp)) return a[1].comp ? -1 : 1;
       if (mode === "yoe") {
         // postings that state no bar sort last rather than pretending to be 0
@@ -374,7 +406,11 @@ function render() {
     });
 
   $("stats").textContent = `${rows.length} shown`
-    + (tier ? ` · filtered to ${TIERS.find(t=>t[0]===tier)[1]}` : "");
+    + (tier ? ` · filtered to ${TIER_LABEL[tier] || tier}` : "")
+    + (() => {
+        const n = rows.filter(([, j]) => applyNow(j) && j.status === "new").length;
+        return n ? ` · 🚨 ${n} to apply to now` : "";
+      })();
 
   $("list").innerHTML = rows.map(([id, j]) => {
     const href = safeUrl(j.url);
@@ -388,7 +424,8 @@ function render() {
       `<button class="${j.status === act ? "active" : ""}" data-act="${act}"
                data-id="${esc(id)}">${label}</button>`;
     return `
-    <div class="job ${j.status === "applied" ? "applied" : j.status === "skip" ? "skip" : ""}">
+    <div class="job ${applyNow(j) ? "applynow " : ""}${
+      j.status === "applied" ? "applied" : j.status === "skip" ? "skip" : ""}">
       ${j.status === "new" ? '<span class="newdot"></span>' : ""}
       <div class="info">
         ${title}
@@ -525,6 +562,10 @@ function daysOld(d){
 
 function badges(j){
   const b = [];
+  if (applyNow(j) && j.status === "new")
+    b.push(`<span class="badge applynow" title="New grad / early career - ${
+      esc(WHY_NOW[j.newgrad_signal] || "it is a new grad tier posting")
+    }. These close fast.">🚨 APPLY NOW</span>`);
   if (j.comp) b.push(`<span class="badge comp">💰 ${esc(j.comp)}</span>`);
   const age = daysOld(j.posted_at);
   if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);

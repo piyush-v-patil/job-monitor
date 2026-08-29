@@ -16,6 +16,10 @@ Structure:
                embedded|qa-test|solutions|software",
       "yoe": int,            # lowest stated years-of-experience, when the posting says
       "deadline": "YYYY-MM-DD",  # application close date; very rarely published
+      # new grad / early career urgency; absent unless the posting qualifies
+      "apply_now": True,          # set for every newgrad-tier posting
+      "newgrad_signal": "title|description|yoe|aggregator",   # what flagged it
+      "priority": int,            # notification + dashboard sort rank, higher first
       # written by the dashboard when you mark Applied/Interview; the scanner
       # only ever reads past it, so the activity history is never rewritten
       "applied_on": "YYYY-MM-DD"
@@ -136,7 +140,7 @@ def save(state: dict) -> None:
 
 
 ENRICH = ("posted_at", "comp", "employment_type", "workplace", "department",
-          "role", "yoe", "deadline")
+          "role", "yoe", "deadline", "newgrad_signal", "apply_now", "priority")
 
 
 def source_health(state: dict, counts: dict) -> list:

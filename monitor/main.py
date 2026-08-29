@@ -74,6 +74,13 @@ def main():
             # Aggregator rows carry a tier hint; trust it if the title was ambiguous.
             if j.get("tier_hint") and r["tier"] == "experienced":
                 r["tier"] = j["tier_hint"]
+                # the tier just changed, so the urgency derived from it must
+                # be recomputed - otherwise a hinted new grad row ships with
+                # an experienced role's priority and no apply-now flag
+                if r["tier"] == "newgrad":
+                    r["apply_now"] = True
+                    r.setdefault("newgrad_signal", "aggregator")
+                r["priority"] = filters.priority(r)
             in_scope.append(r)
 
     st = state.load()
@@ -99,6 +106,11 @@ def main():
     if broke:
         print("BROKEN since last run: "
               + ", ".join(f"{b['name']} (was {b['was']})" for b in broke))
+    urgent = [j for j in new if j.get("apply_now")]
+    if urgent:
+        print(f"\n🚨 {len(urgent)} new grad / early career posting(s) - APPLY IMMEDIATELY:")
+        for j in urgent[:50]:
+            print(f"  -> {j['company']}: {j['title']} ({j['location'][:60]}) {j['url']}")
     for j in new[:50]:
         print(f"  [{j['tier']:>11}] {j['company']}: {j['title']} ({j['location'][:60]})")
 

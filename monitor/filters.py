@@ -7,6 +7,7 @@ Scope (from project spec):
   - US locations (incl. US-remote) only.
 """
 import re
+from datetime import datetime, timezone
 
 # ---- role scope ------------------------------------------------------------
 ROLE_INCLUDE = re.compile(
@@ -49,6 +50,91 @@ NEWGRAD = re.compile(
 # Explicit mid-level markers (II/III/2/3). Plain "Software Engineer" titles also
 # land in "experienced" — verify years-of-experience in the posting yourself.
 EXPERIENCED = re.compile(r"(engineer|swe|sde)\s*(ii|iii|2|3)\b|mid.?level", re.I)
+
+# ---- new grad / early career, from the posting body ------------------------
+# A title alone misses most of them: "Software Engineer, Infrastructure" reads
+# as experienced, while the description says "for candidates graduating in
+# 2026". These are the phrases postings actually use to say "new grad".
+NEWGRAD_TEXT = re.compile(
+    r"new ?grad(uate)?s?\b|recent (college |university )?graduates?"
+    r"|new college graduate|university (grad(uate)?|hire|recruiting|program)"
+    r"|campus (hire|hiring|recruiting|program)|entry.?level"
+    # "early career" only counts when it is describing the ROLE. Postings for
+    # senior engineers say things like "early-career engineers get real surface
+    # area here", which is a culture note, not a level.
+    r"|early.?career\b(?=[^.]{0,40}\b(role|position|program|opportunit|hir"
+    r"|candidate|applicant|track|level|cohort|professional|engineer(ing)? (role|program))\b)"
+    r"|no prior (professional |industry |work )?experience|\b0\s*(\+|-|to)?\s*\d?\s*years?"
+    r"|graduating (in|by|between)|final year (student|undergrad)"
+    r"|(expect(ed|ing) to )?(complete|receive|obtain|graduat\w+ with) (a |your )?"
+    r"(bachelor|master|b\.?s\.?|m\.?s\.?|degree)"
+    r"|rotational (program|engineer)|(grad|graduate) (program|scheme)"
+    r"|start(ing)? (date )?in 20\d{2}",
+    re.I,
+)
+
+# Experienced reqs routinely NAME the new-grad track in order to send new grads
+# away: Stripe opens several with "if you are an intern, new grad, staff...
+# applicant, please do not apply using this link". A plain keyword search reads
+# those as new-grad roles. So every match is judged by what surrounds it, not
+# by the phrase alone - if the neighbourhood is a redirect or a disclaimer, the
+# match does not count.
+NEWGRAD_DISCLAIMER = re.compile(
+    r"do(es)? not apply|don'?t apply|not eligible|do(es)? not qualify"
+    r"|please (visit|see|use|apply (to|via|through))"
+    r"|(visit|see) (our|the) (jobs?|careers?|other)"
+    r"|separate (posting|position|listing|req|application|process|page)"
+    r"|(this|that) (role|posting|position|req|listing) is not"
+    r"|not (intended|meant|suitable|appropriate|designed|open) for"
+    r"|is not (an? )?(entry.?level|new ?grad|junior|university)"
+    r"|if you are an?\b[^.]{0,80}applicant"
+    r"|other (openings?|postings?|roles?)|different (posting|role|link)",
+    re.I,
+)
+# How far either side of a match to look for that disclaimer. Wide enough to
+# span the whole "if you are an X, Y, or Z applicant, please do not..." clause.
+DISCLAIMER_WINDOW = 200
+
+
+def _is_genuine(text: str, m: re.Match) -> bool:
+    """True unless the match sits inside a "new grads should apply elsewhere" note."""
+    window = text[max(0, m.start() - DISCLAIMER_WINDOW): m.end() + DISCLAIMER_WINDOW]
+    return not NEWGRAD_DISCLAIMER.search(window)
+
+
+# Above this many stated years, description wording never wins: a posting
+# asking for 3+ years is not a new-grad req even if it says "early career".
+NEWGRAD_MAX_YOE = 2
+
+# A stated bar can flag a posting on its own, but only a real zero does. "1-3
+# years" is reachable-ish and gets a priority nudge (see priority()), yet
+# calling it a new grad req would put "APPLY IMMEDIATELY" on roles that are
+# not part of any campus cycle - which is how an urgent flag stops meaning
+# anything.
+NEWGRAD_SIGNAL_YOE = 0
+
+
+def newgrad_signal(title: str, text: str = "", yoe: int | None = None) -> str | None:
+    """Where the new-grad evidence came from, or None if there is none.
+
+    Returns "title", "description" or "yoe" - the strongest signal found, in
+    that order. Kept separate from classify() so the dashboard and the
+    notifier can say WHY a posting is flagged rather than just that it is.
+    """
+    title = title or ""
+    if INTERN.search(title):
+        return None                      # an internship is its own tier
+    if yoe is not None and yoe > NEWGRAD_MAX_YOE:
+        return None                      # a stated bar outranks any wording
+    if NEWGRAD.search(title):
+        return "title"
+    body = text or ""
+    if any(_is_genuine(body, m) for m in NEWGRAD_TEXT.finditer(body)):
+        return "description"
+    if yoe is not None and yoe <= NEWGRAD_SIGNAL_YOE:
+        return "yoe"                     # "0-2 years of experience" is a new grad req
+    return None
+
 
 # ---- US location -----------------------------------------------------------
 US_STATES = (
@@ -176,8 +262,14 @@ def role_family(title: str) -> str:
     return "software"          # generic SWE with no discipline in the title
 
 
-def classify(title: str, include_senior: bool = False) -> str | None:
-    """Return tier string if the job is in scope, else None."""
+def classify(title: str, include_senior: bool = False,
+             text: str = "", yoe: int | None = None) -> str | None:
+    """Return tier string if the job is in scope, else None.
+
+    `text` (the posting body/snippet) and `yoe` are optional: when given, a
+    posting whose title says nothing about level can still be recognised as a
+    new-grad req from what the description says.
+    """
     if not title or ROLE_EXCLUDE.search(title):
         return None
     if INTERN.search(title):
@@ -188,20 +280,61 @@ def classify(title: str, include_senior: bool = False) -> str | None:
         return None
     if NEWGRAD.search(title):
         return "newgrad"
+    # An explicit II/III marker is the author being deliberate about level;
+    # description wording never overrides it.
     if EXPERIENCED.search(title):
         return "experienced"
+    if newgrad_signal(title, text, yoe):
+        return "newgrad"
     # Plain engineer title with no level marker: treat as experienced-unknown.
     return "experienced"
 
 
+# ---- priority --------------------------------------------------------------
+# New grad / early career is the thing worth interrupting for: those reqs open
+# on a campus cycle, fill in days, and close without warning. Everything else
+# can wait for the next time the dashboard is opened.
+TIER_PRIORITY = {"newgrad": 100, "intern": 60, "experienced": 20}
+DEADLINE_SOON_DAYS = 14
+
+
+def priority(job: dict) -> int:
+    """Rank a posting for notification order and dashboard sort. Higher first."""
+    score = TIER_PRIORITY.get(job.get("tier", ""), 0)
+    yoe = job.get("yoe")
+    if job.get("tier") != "newgrad" and yoe is not None and yoe <= 1:
+        score += 25          # "1-3 years": reachable, but not a campus req
+    deadline = job.get("deadline") or ""
+    if deadline:
+        try:
+            left = (datetime.strptime(deadline, "%Y-%m-%d").date()
+                    - datetime.now(timezone.utc).date()).days
+        except ValueError:
+            left = None
+        if left is not None and 0 <= left <= DEADLINE_SOON_DAYS:
+            score += 10      # closing this fortnight, whatever the tier
+    return score
+
+
 def in_scope(job: dict, include_senior: bool = False) -> dict | None:
-    tier = classify(job.get("title", ""), include_senior)
+    # "desc" is the full posting body when the fetcher had one, and is never
+    # stored; "snippet" is the 180-char preview every fetcher carries.
+    text = " ".join(str(job.get(k, "") or "")
+                    for k in ("desc", "snippet", "description", "content"))
+    tier = classify(job.get("title", ""), include_senior, text, job.get("yoe"))
     if tier is None:
         return None
     if not is_us(job.get("location", ""), job.get("country", "")):
         return None
     job["tier"] = tier
     job["role"] = role_family(job.get("title", ""))
+    signal = newgrad_signal(job.get("title", ""), text, job.get("yoe"))
+    if signal:
+        job["newgrad_signal"] = signal
+    if tier == "newgrad":
+        # read by the notifier and the dashboard - "drop what you are doing"
+        job["apply_now"] = True
+    job["priority"] = priority(job)
     return job
 
 

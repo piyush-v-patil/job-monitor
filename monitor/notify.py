@@ -8,6 +8,50 @@ TIER_LABEL = {"intern": "🎓 Intern", "newgrad": "🌱 New Grad", "experienced"
 TIER_COLOR = {"intern": 0x3498DB, "newgrad": 0x2ECC71, "experienced": 0xE67E22}
 WORKPLACE_ICON = {"Remote": "🏠", "Hybrid": "🔀", "On-site": "🏢"}
 
+# New grad / early career reqs open on a campus cycle and close in days, so
+# they are pulled to the front of the message, given their own colour, and say
+# out loud what to do about them.
+APPLY_NOW_COLOR = 0xF1C40F
+APPLY_NOW_BANNER = "🚨 **APPLY IMMEDIATELY**"
+# Who to ping when an apply-now posting lands. "@here" by default (this is a
+# personal feed); set DISCORD_MENTION to "none" to ping nobody, or to
+# "<@your-user-id>" to be pinged even when Discord is closed. An EMPTY value
+# means the default, not silence: an unset GitHub Actions variable arrives as
+# an empty string, and that must not quietly disable the ping.
+DEFAULT_MENTION = "@here"
+MENTION_OFF = ("none", "off", "-")
+
+
+def mention() -> str:
+    value = os.environ.get("DISCORD_MENTION", "").strip()
+    if not value:
+        return DEFAULT_MENTION
+    return "" if value.lower() in MENTION_OFF else value
+SIGNAL_WHY = {
+    "title": "the title says new grad / early career",
+    "description": "the description says new grad / early career",
+    "yoe": "it asks for 0-1 years of experience",
+    "aggregator": "the aggregator lists it as a new grad role",
+}
+
+
+def is_apply_now(j: dict) -> bool:
+    """New grad / early career - the postings worth dropping everything for."""
+    return bool(j.get("apply_now")) or j.get("tier") == "newgrad"
+
+
+def _posted(j: dict) -> str:
+    return j.get("posted_at") or j.get("first_seen") or ""
+
+
+def rank(jobs: list) -> list:
+    """Highest priority first, newest first within a priority."""
+    # sorted() is stable, so ordering by date and then by priority leaves the
+    # date order intact inside each priority band - which a single tuple key
+    # cannot express, there being no way to reverse a string comparison.
+    return sorted(sorted(jobs, key=_posted, reverse=True),
+                  key=lambda j: -int(j.get("priority") or 0))
+
 
 def _fields(j: dict) -> list:
     """Inline embed fields, skipping anything the ATS did not provide."""
@@ -25,6 +69,11 @@ def _fields(j: dict) -> list:
                     "inline": True})
     if j.get("department"):
         out.append({"name": "🗂 Team", "value": j["department"][:1024], "inline": True})
+    if is_apply_now(j):
+        why = SIGNAL_WHY.get(j.get("newgrad_signal", ""), "it is a new grad tier posting")
+        out.append({"name": "⚡ Action",
+                    "value": f"**Apply now** - {why}. These close fast.",
+                    "inline": False})
     return out
 
 
@@ -67,25 +116,39 @@ def send(new_jobs: list, run_label: str = "") -> None:
     if not new_jobs:
         return
 
+    # Urgent first: if the webhook rate-limits or a chunk fails, the postings
+    # that had to be seen today are the ones that already went out.
+    new_jobs = rank(new_jobs)
+    urgent = [j for j in new_jobs if is_apply_now(j)]
+
     # Discord: max 10 embeds per message, 30 msg/min per webhook.
     sent = failed = 0
     for i in range(0, len(new_jobs), 10):
         chunk = new_jobs[i : i + 10]
         embeds = []
         for j in chunk:
+            hot = is_apply_now(j)
             header = f"{TIER_LABEL.get(j['tier'], j['tier'])} · 📍 {j.get('location','')[:150]}"
+            if hot:
+                header = f"{APPLY_NOW_BANNER}\n{header}"
             snippet = j.get("snippet", "")
             embeds.append({
-                "title": f"{j['company']} — {j['title']}"[:256],
+                "title": (f"🚨 {j['company']} — {j['title']}" if hot
+                          else f"{j['company']} — {j['title']}")[:256],
                 "url": j["url"],
-                "color": TIER_COLOR.get(j["tier"], 0x95A5A6),
+                "color": APPLY_NOW_COLOR if hot else TIER_COLOR.get(j["tier"], 0x95A5A6),
                 "description": (header + (f"\n\n{snippet}" if snippet else ""))[:4096],
                 "fields": _fields(j),
                 "footer": {"text": f"source: {j.get('source','')} · first seen {j.get('first_seen','')}"},
             })
         payload = {"embeds": embeds}
         if i == 0:
-            payload["content"] = f"**{len(new_jobs)} new posting(s)** {run_label}".strip()
+            content = f"**{len(new_jobs)} new posting(s)** {run_label}".strip()
+            if urgent:
+                banner = (f"{mention()} {APPLY_NOW_BANNER} - {len(urgent)} new grad / "
+                          "early career posting(s) in this batch, listed first.").lstrip()
+                content = f"{banner}\n{content}"
+            payload["content"] = content[:2000]
         # One bad message must not take the run down with it. The state has
         # already been saved by this point, so an exception here would kill the
         # process, skip the workflow's commit step, and throw the whole scan
@@ -103,4 +166,5 @@ def send(new_jobs: list, run_label: str = "") -> None:
             print(f"could not deliver {len(chunk)} posting(s): {e}")
         time.sleep(1)
     print(f"Notified Discord: {sent} job(s)"
+          + (f" ({len(urgent)} flagged apply-immediately)" if urgent else "")
           + (f"; {failed} could not be delivered" if failed else ""))
