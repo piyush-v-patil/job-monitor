@@ -51,6 +51,12 @@ NEWGRAD = re.compile(
 # land in "experienced" — verify years-of-experience in the posting yourself.
 EXPERIENCED = re.compile(r"(engineer|swe|sde)\s*(ii|iii|2|3)\b|mid.?level", re.I)
 
+# Seniority bands that NEWGRAD's weaker cues must never override. The year rule
+# is the one that needs this: "Lead Software Engineer (Crypto) - IC6 - 2026" is
+# a staff-band req whose title happens to carry a year, and without this guard
+# it is promoted to new grad and shipped as "apply immediately".
+SENIOR_BAND = re.compile(r"\blead\b|\bic[4-9]\b|\bl[5-9]\b|\bsr\b|\bstaff\b|principal", re.I)
+
 # ---- new grad / early career, from the posting body ------------------------
 # A title alone misses most of them: "Software Engineer, Infrastructure" reads
 # as experienced, while the description says "for candidates graduating in
@@ -126,6 +132,8 @@ def newgrad_signal(title: str, text: str = "", yoe: int | None = None) -> str | 
         return None                      # an internship is its own tier
     if yoe is not None and yoe > NEWGRAD_MAX_YOE:
         return None                      # a stated bar outranks any wording
+    if SENIOR_BAND.search(title):
+        return None                      # a staff-band title, whatever else it says
     if NEWGRAD.search(title):
         return "title"
     body = text or ""
@@ -278,7 +286,7 @@ def classify(title: str, include_senior: bool = False,
         return None
     if SENIOR.search(title) and not include_senior:
         return None
-    if NEWGRAD.search(title):
+    if NEWGRAD.search(title) and not SENIOR_BAND.search(title):
         return "newgrad"
     # An explicit II/III marker is the author being deliberate about level;
     # description wording never overrides it.

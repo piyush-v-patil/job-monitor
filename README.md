@@ -19,7 +19,7 @@ finance & fintech, Fortune 500, and high-growth startups**.
 
 ```
                      ┌────────────────────────────────────────────┐
- GitHub Actions cron │  every 2h  → scan everything (45+ sources) │
+ GitHub Actions cron │  every 2h  → scan everything (160+ sources)│
                      │  +1h offset→ scan big tech (12 companies)  │
                      └───────────────────┬────────────────────────┘
                                          │

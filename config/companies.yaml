@@ -9,6 +9,13 @@
 # To find a token: open the company's careers page, check the URL or the
 # network tab for boards.greenhouse.io/<token>, jobs.lever.co/<token>,
 # jobs.ashbyhq.com/<token>, or <tenant>.wdX.myworkdayjobs.com/<site>.
+#
+# Before adding an entry, run the fetcher against it and confirm it returns
+# postings. A guessed token does not fail loudly - it 404s once per scan and
+# the company silently contributes nothing, which is exactly the failure the
+# source-health alert exists to catch. Everything below the 2026-08-29 marker
+# was probed this way; the ~80 guesses that did not answer were discarded
+# rather than committed.
 
 bigtech:
   - name: Amazon
@@ -322,6 +329,244 @@ other:
   - name: OpenEvidence
     fetcher: ashby
     token: openevidence
+
+  # --- added 2026-08-29: every board below was probed live before being
+  #     added; only tokens that actually returned postings are here ---
+  # quant trading & finance - deep Java/C++ backend work, and they hire new grads hard
+  - name: Jane Street
+    fetcher: greenhouse
+    token: janestreet
+  - name: Point72
+    fetcher: greenhouse
+    token: point72
+  - name: Jump Trading
+    fetcher: greenhouse
+    token: jumptrading
+  - name: IMC Trading
+    fetcher: greenhouse
+    token: imc
+  - name: Belvedere Trading
+    fetcher: lever
+    token: belvederetrading
+  - name: Northwestern Mutual
+    fetcher: smartrecruiters
+    token: northwesternmutual
+  # payments & fintech - the domain he already has five years in
+  - name: Nubank
+    fetcher: ashby
+    token: nubank
+  - name: Adyen
+    fetcher: greenhouse
+    token: adyen
+  - name: Bill.com
+    fetcher: greenhouse
+    token: billcom
+  - name: Melio
+    fetcher: greenhouse
+    token: melio
+  - name: Modern Treasury
+    fetcher: ashby
+    token: moderntreasury
+  - name: Column
+    fetcher: ashby
+    token: column
+  - name: Alloy
+    fetcher: greenhouse
+    token: alloy
+  - name: Sardine
+    fetcher: ashby
+    token: sardine
+  - name: Toast
+    fetcher: greenhouse
+    token: toast
+  - name: Klaviyo
+    fetcher: greenhouse
+    token: klaviyo
+  # AI labs & LLM infrastructure
+  - name: Cohere
+    fetcher: ashby
+    token: cohere
+  - name: Character AI
+    fetcher: ashby
+    token: character
+  - name: Sierra
+    fetcher: ashby
+    token: sierra
+  - name: Writer
+    fetcher: ashby
+    token: writer
+  - name: LangChain
+    fetcher: ashby
+    token: langchain
+  - name: Together AI
+    fetcher: greenhouse
+    token: togetherai
+  - name: Baseten
+    fetcher: ashby
+    token: baseten
+  - name: Modal
+    fetcher: ashby
+    token: modal
+  - name: Luma AI
+    fetcher: ashby
+    token: lumaai
+  - name: Cerebras
+    fetcher: ashby
+    token: cerebras
+  - name: Crusoe
+    fetcher: ashby
+    token: crusoe
+  # data & developer infrastructure
+  - name: ClickHouse
+    fetcher: greenhouse
+    token: clickhouse
+  - name: Confluent
+    fetcher: ashby
+    token: confluent
+  - name: Cockroach Labs
+    fetcher: greenhouse
+    token: cockroachlabs
+  - name: PlanetScale
+    fetcher: greenhouse
+    token: planetscale
+  - name: Supabase
+    fetcher: ashby
+    token: supabase
+  - name: Fivetran
+    fetcher: greenhouse
+    token: fivetran
+  - name: Airbyte
+    fetcher: ashby
+    token: airbyte
+  - name: Sigma Computing
+    fetcher: greenhouse
+    token: sigmacomputing
+  - name: Vercel
+    fetcher: greenhouse
+    token: vercel
+  - name: Sentry
+    fetcher: ashby
+    token: sentry
+  - name: Postman
+    fetcher: greenhouse
+    token: postman
+  - name: Fastly
+    fetcher: greenhouse
+    token: fastly
+  - name: Amplitude
+    fetcher: greenhouse
+    token: amplitude
+  - name: Braze
+    fetcher: greenhouse
+    token: braze
+  - name: Squarespace
+    fetcher: greenhouse
+    token: squarespace
+  # security & enterprise infrastructure
+  - name: Zscaler
+    fetcher: greenhouse
+    token: zscaler
+  - name: Rubrik
+    fetcher: greenhouse
+    token: rubrik
+  - name: 1Password
+    fetcher: ashby
+    token: 1password
+  - name: Pure Storage
+    fetcher: greenhouse
+    token: purestorage
+  - name: Arista
+    fetcher: smartrecruiters
+    token: aristanetworks
+  # autonomy & hardware
+  - name: Applied Intuition
+    fetcher: ashby
+    token: applied
+  - name: Zoox
+    fetcher: lever
+    token: zoox
+  - name: Lucid Motors
+    fetcher: greenhouse
+    token: lucidmotors
+  - name: Epic Games
+    fetcher: greenhouse
+    token: epicgames
+  # North Carolina - he lives in Charlotte, so local boards are worth their own sweep
+  - name: Red Ventures
+    fetcher: greenhouse
+    token: redventures
+  - name: Bandwidth
+    fetcher: greenhouse
+    token: bandwidth
+  - name: Pendo
+    fetcher: greenhouse
+    token: pendo
+  # everything else that verified
+  - name: AQR
+    fetcher: greenhouse
+    token: aqr
+  - name: Coursera
+    fetcher: greenhouse
+    token: coursera
+  - name: Grafana Labs
+    fetcher: greenhouse
+    token: grafanalabs
+  - name: MetLife
+    fetcher: lever
+    token: metlife
+  - name: Miro
+    fetcher: ashby
+    token: miro
+  - name: Neo4j
+    fetcher: greenhouse
+    token: neo4j
+  - name: Payoneer
+    fetcher: greenhouse
+    token: payoneer
+  - name: Redis
+    fetcher: ashby
+    token: redis
+  - name: Sonic Automotive
+    fetcher: smartrecruiters
+    token: sonicautomotive
+  - name: Starburst
+    fetcher: greenhouse
+    token: starburst
+  - name: Tanium
+    fetcher: greenhouse
+    token: tanium
+  - name: Temporal
+    fetcher: ashby
+    token: temporal
+  - name: Wise
+    fetcher: greenhouse
+    token: wise
+  # Workday boards - host/tenant/site verified against a live response
+  - name: Motorola Solutions
+    fetcher: workday
+    host: motorolasolutions.wd5.myworkdayjobs.com
+    tenant: motorolasolutions
+    site: Careers
+  - name: Freddie Mac
+    fetcher: workday
+    host: freddiemac.wd5.myworkdayjobs.com
+    tenant: freddiemac
+    site: External
+  - name: Nordstrom
+    fetcher: workday
+    host: nordstrom.wd501.myworkdayjobs.com
+    tenant: nordstrom
+    site: Nordstrom_Careers
+  - name: Cisco
+    fetcher: workday        # answers with an HTML interstitial ~1 run in 4;
+    host: cisco.wd5.myworkdayjobs.com   # the run logs it and carries on
+    tenant: cisco
+    site: cisco_careers
+  - name: The Hartford
+    fetcher: workday
+    host: thehartford.wd5.myworkdayjobs.com
+    tenant: thehartford
+    site: Careers_External
 
 aggregators:
   # Catches Meta, LinkedIn, Goldman/JPMorgan campus roles, and hundreds of

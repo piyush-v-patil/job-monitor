@@ -252,3 +252,15 @@ def test_a_closing_deadline_lifts_a_posting_within_its_tier():
     assert (F.priority({"tier": "experienced", "deadline": soon})
             > F.priority({"tier": "experienced", "deadline": far}))
     assert F.priority({"tier": "newgrad", "deadline": "not-a-date"}) == 100
+
+
+def test_a_year_in_the_title_cannot_promote_a_staff_band_role():
+    """"Lead Software Engineer - IC6 - 2026" is not a campus req."""
+    for title in ("Lead Software Engineer (Crypto, SV) - US - IC6 - 2026",
+                  "Lead Mobile Engineer - IC6 - US - 2026",
+                  "Staff Software Engineer, Platform 2027"):
+        assert F.newgrad_signal(title) is None
+        assert F.classify(title) in (None, "experienced")
+    # the guard must not swallow ordinary new grad titles
+    assert F.classify("New Grad Software Engineer, 2027") == "newgrad"
+    assert F.classify("Software Engineer I") == "newgrad"
