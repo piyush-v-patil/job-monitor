@@ -1295,6 +1295,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515122/software-engineer-ii-embedded-networking-amazon-leo",
    "yoe": 1
   },
+  "amazon:354076d3a387": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-08-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Unified Streaming and Monitoring Service",
+   "url": "https://www.amazon.jobs/en/jobs/10520555/software-development-engineer-unified-streaming-and-monitoring-service",
+   "yoe": 3
+  },
   "amazon:35dd220639e0": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2193,6 +2208,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10517671/software-development-engineer-project-dawn",
    "yoe": 3
   },
+  "amazon:bb5a2d976182": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Pasadena, California, USA",
+   "posted_at": "2026-08-28",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics SDE, Safe Autonomy, SAF Lab",
+   "url": "https://www.amazon.jobs/en/jobs/10519865/robotics-sde-safe-autonomy-saf-lab",
+   "yoe": 5
+  },
   "amazon:bd7fc5fa6fd3": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2425,6 +2455,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10512986/software-engineer-flex-offer-journey",
    "yoe": 2
   },
+  "amazon:d0ed71d39c47": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Creative Asset Library, CreativeX",
+   "url": "https://www.amazon.jobs/en/jobs/10519943/software-development-engineer-creative-asset-library-creativex",
+   "yoe": 1
+  },
   "amazon:dcda3ee2844a": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2539,6 +2584,21 @@
    "title": "Software Engineer II, Athena Engine Front End",
    "url": "https://www.amazon.jobs/en/jobs/10505887/software-engineer-ii-athena-engine-front-end"
   },
+  "amazon:ea5c666b64da": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Herndon, Virginia, USA",
+   "posted_at": "2026-08-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Route 53 Global Resolver, AWS Route 53 Global Resolver",
+   "url": "https://www.amazon.jobs/en/jobs/10520075/software-development-engineer-aws-route-53-global-resolver-aws-route-53-global-resolver",
+   "yoe": 2
+  },
   "amazon:ed8cb37c967b": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2566,6 +2626,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Leo Customer Terminals Applications & Networking Team",
    "url": "https://www.amazon.jobs/en/jobs/10507325/software-development-engineer-leo-customer-terminals-applications-networking-team"
+  },
+  "amazon:ee311bf9f8ee": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-08-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Leo Regulus ",
+   "url": "https://www.amazon.jobs/en/jobs/10519888/software-development-engineer-leo-regulus",
+   "yoe": 2
   },
   "amazon:ef903b2b5830": {
    "company": "Amazon",
@@ -17299,6 +17374,18 @@
    "tier": "experienced",
    "title": "Research Engineer, Interactive World Models",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Engineer--Interactive-World-Models_JR2023830"
+  },
+  "nvidia:dc52b1ba9a2a": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-29",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-08-29",
+   "role": "qa-test",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ATE Test Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ATE-Test-Engineer_JR2021950"
   },
   "nvidia:dfb2c4c49afd": {
    "company": "Nvidia",
@@ -36280,8 +36367,8 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 174,
-   "last_ok": "2026-08-28"
+   "last": 172,
+   "last_ok": "2026-08-29"
   },
   "Airtable": {
    "best": 16,
@@ -36291,7 +36378,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-08-28"
+   "last_ok": "2026-08-29"
   },
   "Anduril": {
    "best": 2239,
@@ -36299,9 +36386,9 @@
    "last_ok": "2026-08-28"
   },
   "Anthropic": {
-   "best": 566,
-   "last": 566,
-   "last_ok": "2026-08-28"
+   "best": 570,
+   "last": 570,
+   "last_ok": "2026-08-29"
   },
   "Apple": {
    "best": 0,
@@ -36453,7 +36540,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-08-28"
+   "last_ok": "2026-08-29"
   },
   "Gusto": {
    "best": 92,
@@ -36514,7 +36601,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-08-28"
+   "last_ok": "2026-08-29"
   },
   "Notion": {
    "best": 135,
@@ -36527,9 +36614,9 @@
    "last_ok": "2026-08-28"
   },
   "Nvidia": {
-   "best": 193,
-   "last": 188,
-   "last_ok": "2026-08-28"
+   "best": 194,
+   "last": 194,
+   "last_ok": "2026-08-29"
   },
   "Okta": {
    "best": 350,
@@ -36537,9 +36624,9 @@
    "last_ok": "2026-08-28"
   },
   "OpenAI": {
-   "best": 758,
-   "last": 756,
-   "last_ok": "2026-08-28"
+   "best": 759,
+   "last": 759,
+   "last_ok": "2026-08-29"
   },
   "OpenEvidence": {
    "best": 8,
@@ -36643,8 +36730,8 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 573,
-   "last_ok": "2026-08-28"
+   "last": 574,
+   "last_ok": "2026-08-29"
   },
   "Suno": {
    "best": 63,
@@ -36721,6 +36808,6 @@
    "last_ok": "2026-08-28"
   }
  },
- "updated": "2026-08-28T18:52:23Z",
+ "updated": "2026-08-29T01:06:08Z",
  "version": 1
 }
