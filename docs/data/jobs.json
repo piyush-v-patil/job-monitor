@@ -28080,6 +28080,18 @@
    "title": "Embedded Software Engineer, OS/Platform  (Starlink)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8752935002?gh_jid=8752935002"
   },
+  "spacex:01c751e6a806": {
+   "company": "SpaceX",
+   "first_seen": "2026-08-30",
+   "location": "Hawthorne, CA",
+   "posted_at": "2026-08-30",
+   "role": "fullstack",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Software Engineer, Developer Systems ",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8763489002?gh_jid=8763489002"
+  },
   "spacex:021999b8594d": {
    "company": "SpaceX",
    "first_seen": "2026-08-22",
@@ -28139,6 +28151,18 @@
    "tier": "intern",
    "title": "Software Engineering Intern/Co-op",
    "url": "https://boards.greenhouse.io/spacex/jobs/8621757002"
+  },
+  "spacex:05db758f96ee": {
+   "company": "SpaceX",
+   "first_seen": "2026-08-30",
+   "location": "Memphis, TN",
+   "posted_at": "2026-08-30",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (Application Software)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8763491002?gh_jid=8763491002"
   },
   "spacex:062fd03b18cf": {
    "company": "SpaceX",
@@ -29447,6 +29471,18 @@
    "title": "Application Software Engineer",
    "url": "https://boards.greenhouse.io/spacex/jobs/8643772002?gh_jid=8643772002"
   },
+  "spacex:689fdab516ab": {
+   "company": "SpaceX",
+   "first_seen": "2026-08-30",
+   "location": "Hawthorne, CA",
+   "posted_at": "2026-08-30",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer, Finance",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8763490002?gh_jid=8763490002"
+  },
   "spacex:6a16a1592800": {
    "company": "SpaceX",
    "first_seen": "2026-08-20",
@@ -30057,6 +30093,18 @@
    "tier": "experienced",
    "title": "Product Security Engineer (Starlink)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8719864002?gh_jid=8719864002"
+  },
+  "spacex:93fbb38dac45": {
+   "company": "SpaceX",
+   "first_seen": "2026-08-30",
+   "location": "Cape Canaveral, FL",
+   "posted_at": "2026-08-30",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8763487002?gh_jid=8763487002"
   },
   "spacex:9585af075e41": {
    "company": "SpaceX",
@@ -31040,6 +31088,18 @@
    "tier": "newgrad",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002"
+  },
+  "spacex:dec88e189102": {
+   "company": "SpaceX",
+   "first_seen": "2026-08-30",
+   "location": "Palo Alto, CA",
+   "posted_at": "2026-08-30",
+   "role": "fullstack",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer, Employee Experience ",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8763492002?gh_jid=8763492002"
   },
   "spacex:e13d9748fbe2": {
    "company": "SpaceX",
@@ -36972,7 +37032,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 149,
+   "last": 150,
    "last_ok": "2026-08-30"
   },
   "Carta": {
@@ -37013,7 +37073,7 @@
   },
   "Databricks": {
    "best": 858,
-   "last": 850,
+   "last": 856,
    "last_ok": "2026-08-30"
   },
   "Datadog": {
@@ -37164,7 +37224,7 @@
   },
   "OpenAI": {
    "best": 759,
-   "last": 758,
+   "last": 757,
    "last_ok": "2026-08-30"
   },
   "OpenEvidence": {
@@ -37244,7 +37304,7 @@
   },
   "Simplify Aggregator": {
    "best": 1047,
-   "last": 1037,
+   "last": 1032,
    "last_ok": "2026-08-30"
   },
   "Snowflake": {
@@ -37258,8 +37318,8 @@
    "last_ok": "2026-08-30"
   },
   "SpaceX": {
-   "best": 2230,
-   "last": 2230,
+   "best": 2236,
+   "last": 2236,
    "last_ok": "2026-08-30"
   },
   "Spotify": {
@@ -37279,7 +37339,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 198,
+   "last": 197,
    "last_ok": "2026-08-30"
   },
   "Tesla": {
@@ -37347,6 +37407,6 @@
    "last_ok": "2026-08-30"
   }
  },
- "updated": "2026-08-30T07:18:52Z",
+ "updated": "2026-08-30T12:03:55Z",
  "version": 1
 }
