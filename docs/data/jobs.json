@@ -1074,6 +1074,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10513808/software-development-engineer-conversational-ads-experience",
    "yoe": 1
   },
+  "amazon:1308e6d34af7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-08-31",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Leo Commerce, Leo Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10522077/software-development-engineer-leo-commerce-leo-commerce",
+   "yoe": 1
+  },
   "amazon:1316897cdb9e": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1450,6 +1465,21 @@
    "tier": "experienced",
    "title": "Software Engineer II, Prime Air",
    "url": "https://www.amazon.jobs/en/jobs/10509680/software-engineer-ii-prime-air",
+   "yoe": 1
+  },
+  "amazon:51af601f07d9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-08-31",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Leo Commerce, Leo Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10522076/software-development-engineer-leo-commerce-leo-commerce",
    "yoe": 1
   },
   "amazon:527572525208": {
@@ -1953,6 +1983,21 @@
    "title": "Software Development Engineer , Project Leo",
    "url": "https://www.amazon.jobs/en/jobs/10507256/software-development-engineer-project-leo",
    "yoe": 2
+  },
+  "amazon:8f2bd1f08b74": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-08-31",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Atlas Telemetry",
+   "url": "https://www.amazon.jobs/en/jobs/10522051/software-dev-engineer-ii-atlas-telemetry",
+   "yoe": 1
   },
   "amazon:8f7008aea609": {
    "company": "Amazon",
@@ -13873,6 +13918,17 @@
    "title": "Software Engineer III, Generative AI, Core",
    "url": "https://www.google.com/about/careers/applications/jobs/results/86191709230113478-software-engineer-iii-generative-ai-core"
   },
+  "google:0cfd3c0d4a22": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Secure Network Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/140690633000919750-software-engineer-iii-secure-network-infrastructure"
+  },
   "google:0d1ef927fcd7": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -13917,6 +13973,17 @@
    "title": "Software Engineer III, Android, Geo",
    "url": "https://www.google.com/about/careers/applications/jobs/results/109889747484058310-software-engineer-iii-android-geo"
   },
+  "google:161470f33481": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Atlanta, GA, USA",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/100318765052240582-software-engineer-iii-full-stack"
+  },
   "google:1c27a31c5668": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -13938,6 +14005,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Mobile (Android)",
    "url": "https://www.google.com/about/careers/applications/jobs/results/141957021288014534-software-engineer-iii-mobile-android"
+  },
+  "google:1f24b1587f74": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Frontier AI, Incubation, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/132538578914681542-research-engineer-frontier-ai-incubation-deepmind"
   },
   "google:1f5ca5c287b5": {
    "company": "Google",
@@ -14016,6 +14094,17 @@
    "title": "Software Engineer, Search Platforms, GenAI Content",
    "url": "https://www.google.com/about/careers/applications/jobs/results/92046058892206790-software-engineer-search-platforms-genai-content"
   },
+  "google:2a7915e0966d": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Mountain View, CA, USA",
+   "role": "data",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/99826183842996934-data-engineer"
+  },
   "google:2c99b013482e": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -14037,6 +14126,17 @@
    "tier": "intern",
    "title": "Software Engineering Intern, PhD, Summer 2026",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054-software-engineering-intern-phd-summer-2026"
+  },
+  "google:2f163790e050": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Mountain View, CA, USA; Austin, TX, USA; +30 more; +29 more",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Intern, BS, Summer 2027",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382-software-engineering-intern-bs-summer-2027"
   },
   "google:2fe7f4952091": {
    "company": "Google",
@@ -14092,6 +14192,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Chrome Networking Security",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100397577702122182-software-engineer-chrome-networking-security"
+  },
+  "google:3c168dd6b9d1": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Seattle, WA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer, PSO",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/118291244680913606-security-engineer-pso"
   },
   "google:3ee436e328ce": {
    "company": "Google",
@@ -14170,6 +14281,17 @@
    "title": "Software Engineer III, Infrastructure, Core",
    "url": "https://www.google.com/about/careers/applications/jobs/results/94295386415342278-software-engineer-iii-infrastructure-core"
   },
+  "google:525f003006ca": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Mountain View, CA, USA",
+   "role": "qa-test",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Test Engineer, Pixel Device Experiences",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/86800819344548550-test-engineer-pixel-device-experiences"
+  },
   "google:53a1b00998ad": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -14192,6 +14314,17 @@
    "title": "Software Engineer III, Infrastructure, Platforms Infrastructure Engineering",
    "url": "https://www.google.com/about/careers/applications/jobs/results/141492603370513094-software-engineer-iii-infrastructure-platforms-infrastructure-engineering"
   },
+  "google:53eb1ad2443c": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Sunnyvale, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Network Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/131907184362431174-network-engineer"
+  },
   "google:5c362201e60d": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -14213,6 +14346,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, AI/ML, gUP Customer Support",
    "url": "https://www.google.com/about/careers/applications/jobs/results/116766660139852486-software-engineer-iii-aiml-gup-customer-support"
+  },
+  "google:612c6c8659ee": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Mountain View, CA, USA; Austin, TX, USA; +29 more; +28 more",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Intern, MS, Summer 2027",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/94172495052972742-software-engineering-intern-ms-summer-2027"
   },
   "google:6151cc2ce22d": {
    "company": "Google",
@@ -14246,6 +14390,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Full Stack",
    "url": "https://www.google.com/about/careers/applications/jobs/results/99193560930099910-software-engineer-iii-full-stack"
+  },
+  "google:64c423626892": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Raleigh, NC, USA; Durham, NC, USA",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/78750744961786566-software-engineer-iii-full-stack"
   },
   "google:657abd7db6f4": {
    "company": "Google",
@@ -14290,6 +14445,28 @@
    "tier": "experienced",
    "title": "SoC Test Infrastructure Engineer, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/132981907586458310-soc-test-infrastructure-engineer-google-cloud"
+  },
+  "google:6b1a793d26db": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Site Reliability Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/80879399473160902-software-engineer-site-reliability-engineering"
+  },
+  "google:6cf4d7a03d0d": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Chicago, IL, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Solution Security Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/142240944396083910-ai-solution-security-engineer"
   },
   "google:71006dfd596b": {
    "company": "Google",
@@ -14378,6 +14555,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Storage Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/131238947580715718-software-engineer-iii-storage-infrastructure"
+  },
+  "google:7d388d744355": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "San Jose, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Embedded Systems/Firmware, Platforms and Devices",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/77161400903836358-software-engineer-embedded-systemsfirmware-platforms-and-devices"
   },
   "google:8303d21ccfac": {
    "company": "Google",
@@ -14512,6 +14700,17 @@
    "title": "Software Engineer III, Full Stack",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84134649676079814-software-engineer-iii-full-stack"
   },
+  "google:a157fd5cf5d0": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Mountain View, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/106684387621249734-software-engineer"
+  },
   "google:a186e5339389": {
    "company": "Google",
    "first_seen": "2026-08-31",
@@ -14556,6 +14755,17 @@
    "title": "Software Engineer III, Infrastructure, Infra Spanner",
    "url": "https://www.google.com/about/careers/applications/jobs/results/93036433253507782-software-engineer-iii-infrastructure-infra-spanner"
   },
+  "google:a7948d77a99e": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "San Bruno, CA, USA; Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML Recommendations, Rankings, Predictions, YouTube",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/110496342526042822-software-engineer-iii-aiml-recommendations-rankings-predictions-youtube"
+  },
   "google:a8e586f187c9": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -14567,6 +14777,17 @@
    "title": "Developer Relations Engineer, Android Intelligent Experience AI",
    "url": "https://www.google.com/about/careers/applications/jobs/results/138757957847261894-developer-relations-engineer-android-intelligent-experience-ai"
   },
+  "google:add95491b47f": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "San Jose, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Core Labs",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/94997403651711686-software-engineer-iii-infrastructure-core-labs"
+  },
   "google:aeb8be1f7ae3": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -14577,6 +14798,28 @@
    "tier": "experienced",
    "title": "Software Engineer III, Performance, AI and Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/131550590407713478-software-engineer-iii-performance-ai-and-infrastructure"
+  },
+  "google:b169ed207ece": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "New York, NY, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Site Reliability Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/99009796459373254-software-engineer-site-reliability-engineering"
+  },
+  "google:b41698285a3c": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "San Jose, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, AI/ML, Computer Vision, XR",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/85594105333064390-software-engineer-aiml-computer-vision-xr"
   },
   "google:b6d261ae826b": {
    "company": "Google",
@@ -14644,6 +14887,17 @@
    "title": "Software Engineer, Generative AI, Maps",
    "url": "https://www.google.com/about/careers/applications/jobs/results/76862868464509638-software-engineer-generative-ai-maps"
   },
+  "google:c3e7c85bdc18": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Reston, VA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Network Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/127058887839752902-network-engineer"
+  },
   "google:c8c4ccb1399d": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -14677,6 +14931,17 @@
    "title": "Security Engineer III, Cloud Security Controls",
    "url": "https://www.google.com/about/careers/applications/jobs/results/136535844847526598-security-engineer-iii-cloud-security-controls"
   },
+  "google:d73521b5adfb": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "New York, NY, USA; Kirkland, WA, USA; +3 more; +2 more",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Agentic Systems and Production Safety",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/88565947823989446-software-engineer-iii-agentic-systems-and-production-safety"
+  },
   "google:d877dd5b4f8a": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -14698,6 +14963,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Google Cloud Platform, Fault Management",
    "url": "https://www.google.com/about/careers/applications/jobs/results/74720779295433414-software-engineer-google-cloud-platform-fault-management"
+  },
+  "google:d9a498d9d4aa": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Pittsburgh, PA, USA; Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Generative AI, Shopping on Gemini",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/140763200768352966-software-engineer-generative-ai-shopping-on-gemini"
   },
   "google:da7126a630c2": {
    "company": "Google",
@@ -14809,6 +15085,17 @@
    "title": "Software Engineer, Accelerators Software/Hardware Co design, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/108528442567205574-software-engineer-accelerators-softwarehardware-co-design-deepmind"
   },
+  "google:f5fb5387fa59": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML, YouTube",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/129057438295827142-software-engineer-iii-aiml-youtube"
+  },
   "google:f6f169bb8556": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -14831,6 +15118,17 @@
    "title": "Software Engineer III, Computer Vision, Pixel Camera",
    "url": "https://www.google.com/about/careers/applications/jobs/results/119584399204197062-software-engineer-iii-computer-vision-pixel-camera"
   },
+  "google:f9feb663b6ee": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Pittsburgh, PA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/83915700833264326-software-engineer"
+  },
   "google:fb6bf32641e4": {
    "company": "Google",
    "first_seen": "2026-08-27",
@@ -14841,6 +15139,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, AI/ML",
    "url": "https://www.google.com/about/careers/applications/jobs/results/136557869439820486-software-engineer-iii-aiml"
+  },
+  "google:fec0b320437e": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Cambridge, MA, USA; New York, NY, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Customer Engineer II, Platform, Strategic AI and Independent Software Vendor, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/84795604877615814-customer-engineer-ii-platform-strategic-ai-and-independent-software-vendor-google-cloud"
   },
   "google:ff64b9833dc4": {
    "company": "Google",
@@ -19331,6 +19640,22 @@
    "tier": "experienced",
    "title": "Full-Stack Software Engineer, Applied Foundations",
    "url": "https://jobs.ashbyhq.com/openai/f873dd71-46c9-4be1-8580-bc67c56b4cad",
+   "workplace": "Hybrid"
+  },
+  "openai:5210276b3c80": {
+   "comp": "$198K – $220K • Offers Equity",
+   "company": "OpenAI",
+   "department": "People",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "San Francisco",
+   "posted_at": "2026-08-31",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "People Research Data Scientist, AI Fairness & Bias",
+   "url": "https://jobs.ashbyhq.com/openai/cadb7c24-2aea-4b98-a793-65ae9388b5d6",
    "workplace": "Hybrid"
   },
   "openai:531750965c5b": {
@@ -37164,7 +37489,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 166,
+   "last": 168,
    "last_ok": "2026-08-31"
   },
   "Airtable": {
@@ -37184,7 +37509,7 @@
   },
   "Anthropic": {
    "best": 572,
-   "last": 571,
+   "last": 570,
    "last_ok": "2026-08-31"
   },
   "Apple": {
@@ -37336,7 +37661,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 99,
+   "last": 100,
    "last_ok": "2026-08-31"
   },
   "Gusto": {
@@ -37412,7 +37737,7 @@
   },
   "Nvidia": {
    "best": 195,
-   "last": 193,
+   "last": 192,
    "last_ok": "2026-08-31"
   },
   "Okta": {
@@ -37527,7 +37852,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 573,
+   "last": 569,
    "last_ok": "2026-08-31"
   },
   "Suno": {
@@ -37605,6 +37930,6 @@
    "last_ok": "2026-08-31"
   }
  },
- "updated": "2026-08-31T08:45:43Z",
+ "updated": "2026-08-31T17:11:41Z",
  "version": 1
 }
