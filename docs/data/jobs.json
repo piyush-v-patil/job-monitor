@@ -1265,6 +1265,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10514850/software-development-engineer-recipient-experience-your-orders",
    "yoe": 1
   },
+  "amazon:2d29bc77355d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-08-31",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer II , AI Studios ",
+   "url": "https://www.amazon.jobs/en/jobs/10522805/machine-learning-engineer-ii-ai-studios",
+   "yoe": 1
+  },
   "amazon:3031e1f29299": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1910,6 +1925,21 @@
    "title": "Software Development Engineer, Brand Measurement",
    "url": "https://www.amazon.jobs/en/jobs/10512044/software-development-engineer-brand-measurement",
    "yoe": 2
+  },
+  "amazon:88f61ed1d28d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-31",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - AI/ML, AWS Neuron ",
+   "url": "https://www.amazon.jobs/en/jobs/10522799/software-engineer-ii-ai-ml-aws-neuron",
+   "yoe": 3
   },
   "amazon:8a08836a9bd3": {
    "company": "Amazon",
@@ -2586,6 +2616,21 @@
    "title": "Software Development Engineer, Amazon Autos",
    "url": "https://www.amazon.jobs/en/jobs/10510890/software-development-engineer-amazon-autos",
    "yoe": 2
+  },
+  "amazon:ce69003b380b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "North Reading, Massachusetts, USA",
+   "posted_at": "2026-08-31",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics - Embedded Software Development Engineer  ",
+   "url": "https://www.amazon.jobs/en/jobs/10522935/robotics-embedded-software-development-engineer",
+   "yoe": 18
   },
   "amazon:d0b800272be0": {
    "company": "Amazon",
@@ -14473,6 +14518,17 @@
    "title": "Software Engineer, Hardware Accelerators Performance, GeminiApp, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/122537766893298374-software-engineer-hardware-accelerators-performance-geminiapp-deepmind"
   },
+  "google:3fb49953b0b0": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Waterloo, ON, Canada; San Jose, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Android XR Application Compatibility AI Technical Lead",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/132414265381266118-android-xr-application-compatibility-ai-technical-lead"
+  },
   "google:442d27c3ee7b": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -14550,6 +14606,17 @@
    "title": "Test Engineer, Pixel Device Experiences",
    "url": "https://www.google.com/about/careers/applications/jobs/results/86800819344548550-test-engineer-pixel-device-experiences"
   },
+  "google:52e41c3e86e7": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Miami, FL, USA; San Jose, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Embedded Systems/Firmware, XR",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/135557769125077702-software-engineer-iii-embedded-systemsfirmware-xr"
+  },
   "google:53a1b00998ad": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -14582,6 +14649,17 @@
    "tier": "experienced",
    "title": "Network Engineer",
    "url": "https://www.google.com/about/careers/applications/jobs/results/131907184362431174-network-engineer"
+  },
+  "google:55f6806d6586": {
+   "company": "Google",
+   "first_seen": "2026-08-31",
+   "location": "Mountain View, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Health and Home Infrastructure, Health Research Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/118407586755027654-software-engineer-health-and-home-infrastructure-health-research-infrastructure"
   },
   "google:5c362201e60d": {
    "company": "Google",
@@ -18083,6 +18161,18 @@
    "title": "Research Engineer, Interactive World Models - New College Grad 2026",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Engineer--Interactive-World-Models---New-College-Grad-2026_JR2023950"
   },
+  "nvidia:2a076ddd559e": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-31",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-08-31",
+   "role": "qa-test",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Quality Assurance Software Developer Engineer in Test, GeForce GPU",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quality-Assurance-Software-Developer-in-Test-Engineer_JR2011328"
+  },
   "nvidia:2c02f1755494": {
    "company": "Nvidia",
    "first_seen": "2026-08-22",
@@ -18166,6 +18256,18 @@
    "tier": "experienced",
    "title": "Lead Systems Software Test Engineer – CSP Engagements",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Lead-Systems-Software-Test-Engineer---CSP-Engagements_JR2020107"
+  },
+  "nvidia:525d0c6c7205": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-31",
+   "location": "6 Locations",
+   "posted_at": "2026-08-31",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Developer Technology Engineer, AI - New College Graduate 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer--AI---New-College-Graduate-2026_JR2024557"
   },
   "nvidia:54532b7dd222": {
    "company": "Nvidia",
@@ -18286,6 +18388,18 @@
    "tier": "experienced",
    "title": "System Software Engineer, Profiler - GPU",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/System-Software-Engineer--Profiler---GPU_JR2011622"
+  },
+  "nvidia:896422cf0817": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-31",
+   "location": "3 Locations",
+   "posted_at": "2026-08-31",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, CUDA Deep Learning Systems",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CUDA-Deep-Learning-Systems_JR2022831"
   },
   "nvidia:8be68f962c15": {
    "company": "Nvidia",
@@ -22453,6 +22567,23 @@
    "title": "Host Systems Software Engineer",
    "url": "https://jobs.ashbyhq.com/openai/87e5f8c3-3337-480a-9db2-e4cef5db909b",
    "workplace": "Hybrid"
+  },
+  "openai:ff28ac97ab2f": {
+   "comp": "$185K – $385K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Safety Systems",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "San Francisco",
+   "posted_at": "2026-08-31",
+   "role": "software",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Safety Engineering",
+   "url": "https://jobs.ashbyhq.com/openai/9371f837-70ef-4387-a4b7-70f252b04aa5",
+   "workplace": "Hybrid",
+   "yoe": 5
   },
   "openevidence:24bc3611102f": {
    "company": "OpenEvidence",
@@ -37810,7 +37941,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 168,
+   "last": 171,
    "last_ok": "2026-08-31"
   },
   "Airtable": {
@@ -38058,7 +38189,7 @@
   },
   "Nvidia": {
    "best": 195,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-08-31"
   },
   "Okta": {
@@ -38067,8 +38198,8 @@
    "last_ok": "2026-08-31"
   },
   "OpenAI": {
-   "best": 759,
-   "last": 753,
+   "best": 763,
+   "last": 763,
    "last_ok": "2026-08-31"
   },
   "OpenEvidence": {
@@ -38173,7 +38304,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 567,
+   "last": 568,
    "last_ok": "2026-08-31"
   },
   "Suno": {
@@ -38251,6 +38382,6 @@
    "last_ok": "2026-08-31"
   }
  },
- "updated": "2026-08-31T17:39:57Z",
+ "updated": "2026-08-31T21:59:56Z",
  "version": 1
 }
