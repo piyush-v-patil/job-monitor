@@ -1328,6 +1328,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10522805/machine-learning-engineer-ii-ai-studios",
    "yoe": 1
   },
+  "amazon:302dea1231f6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Denied Party Screening, Onboarding Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10524051/software-dev-engineer-ii-denied-party-screening-onboarding-tech",
+   "yoe": 1
+  },
   "amazon:3031e1f29299": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1648,6 +1663,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10514583/software-engineer-xr-fauna",
    "yoe": 2
   },
+  "amazon:5a71390e9fd9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-01",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - GenAI/ML, Amazon Selection and Catalog Systems (ASCS)",
+   "url": "https://www.amazon.jobs/en/jobs/10524045/software-development-engineer-genai-ml-amazon-selection-and-catalog-systems-ascs",
+   "yoe": 2
+  },
   "amazon:5c65d96ebac9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1871,6 +1901,21 @@
    "title": "Software Development Engineer, Amazon - Selling Partners",
    "url": "https://www.amazon.jobs/en/jobs/10513797/software-development-engineer-amazon-selling-partners",
    "yoe": 1
+  },
+  "amazon:77fb2ec8590f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer III,  Amazon Interactive Video Service (IVS), Stream Management",
+   "url": "https://www.amazon.jobs/en/jobs/10524157/software-dev-engineer-iii-amazon-interactive-video-service-ivs-stream-management",
+   "yoe": 5
   },
   "amazon:7bb94c829f42": {
    "company": "Amazon",
@@ -2121,6 +2166,21 @@
    "title": "Software Development Engineer , Project Leo",
    "url": "https://www.amazon.jobs/en/jobs/10507256/software-development-engineer-project-leo",
    "yoe": 2
+  },
+  "amazon:8f12a7084eea": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-01",
+   "role": "frontend",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Front End Engineer, IAM Console Team",
+   "url": "https://www.amazon.jobs/en/jobs/10524274/front-end-engineer-iam-console-team",
+   "yoe": 1
   },
   "amazon:8f2bd1f08b74": {
    "company": "Amazon",
@@ -2492,6 +2552,21 @@
    "title": "Software Development Engineer ,  Project Dawn",
    "url": "https://www.amazon.jobs/en/jobs/10517671/software-development-engineer-project-dawn",
    "yoe": 3
+  },
+  "amazon:b7b098bf2253": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Leo Autopilot",
+   "url": "https://www.amazon.jobs/en/jobs/10524335/software-development-engineer-leo-autopilot",
+   "yoe": 5
   },
   "amazon:bb5a2d976182": {
    "company": "Amazon",
@@ -19774,6 +19849,18 @@
    "title": "GPU Compiler Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/Backend-Compiler-Engineer_JR2017221"
   },
+  "nvidia:09325fb29c07": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-01",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "CAD Tools Developer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/CAD-Tools-Developer_JR2007175"
+  },
   "nvidia:0bb454e01a5c": {
    "company": "Nvidia",
    "first_seen": "2026-08-31",
@@ -20864,6 +20951,21 @@
    "tier": "experienced",
    "title": "Data Scientist, Product",
    "url": "https://jobs.ashbyhq.com/openai/579e2994-ec43-4869-8ad1-8cda8088f74b"
+  },
+  "openai:20b507c773ce": {
+   "comp": "$230K – $290K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Consumer Devices",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "San Francisco",
+   "posted_at": "2026-09-01",
+   "role": "qa-test",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Systems Test Engineer, End-to-End Validation | Consumer Devices",
+   "url": "https://jobs.ashbyhq.com/openai/393b88d7-1fbc-466a-9108-a7c1bafeb8d8"
   },
   "openai:2170e6d4c884": {
    "comp": "$266K – $445K • Offers Equity",
@@ -40056,7 +40158,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 166,
+   "last": 163,
    "last_ok": "2026-09-01"
   },
   "Airtable": {
@@ -40076,7 +40178,7 @@
   },
   "Anthropic": {
    "best": 575,
-   "last": 573,
+   "last": 572,
    "last_ok": "2026-09-01"
   },
   "Apple": {
@@ -40419,7 +40521,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 586,
+   "last": 588,
    "last_ok": "2026-09-01"
   },
   "Suno": {
@@ -40497,6 +40599,6 @@
    "last_ok": "2026-09-01"
   }
  },
- "updated": "2026-09-01T16:47:12Z",
+ "updated": "2026-09-01T18:44:19Z",
  "version": 1
 }
