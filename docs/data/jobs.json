@@ -2283,6 +2283,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10516096/software-development-engineer-amazon-leo",
    "yoe": 2
   },
+  "amazon:9fa6fe34d08c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, 3P Measurement Tech ",
+   "url": "https://www.amazon.jobs/en/jobs/10523697/software-development-engineer-3p-measurement-tech",
+   "yoe": 1
+  },
   "amazon:9fb2d2f4a70c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2739,6 +2754,36 @@
    "title": "Software Development Engineer, Creative Asset Library, CreativeX",
    "url": "https://www.amazon.jobs/en/jobs/10519943/software-development-engineer-creative-asset-library-creativex",
    "yoe": 1
+  },
+  "amazon:d42feea352f7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, CIA Orchestration Team",
+   "url": "https://www.amazon.jobs/en/jobs/10523735/software-development-engineer-cia-orchestration-team",
+   "yoe": 2
+  },
+  "amazon:d7a74bce9e78": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Newark, New Jersey, USA",
+   "posted_at": "2026-09-01",
+   "role": "mobile",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, Android",
+   "url": "https://www.amazon.jobs/en/jobs/10523727/software-development-engineer-iii-android",
+   "yoe": 5
   },
   "amazon:dcda3ee2844a": {
    "company": "Amazon",
@@ -39416,7 +39461,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 169,
+   "last": 167,
    "last_ok": "2026-09-01"
   },
   "Airtable": {
@@ -39435,8 +39480,8 @@
    "last_ok": "2026-09-01"
   },
   "Anthropic": {
-   "best": 572,
-   "last": 570,
+   "best": 575,
+   "last": 575,
    "last_ok": "2026-09-01"
   },
   "Apple": {
@@ -39674,7 +39719,7 @@
   },
   "OpenAI": {
    "best": 769,
-   "last": 769,
+   "last": 767,
    "last_ok": "2026-09-01"
   },
   "OpenEvidence": {
@@ -39779,7 +39824,7 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 583,
+   "last": 585,
    "last_ok": "2026-09-01"
   },
   "Suno": {
@@ -39857,6 +39902,6 @@
    "last_ok": "2026-09-01"
   }
  },
- "updated": "2026-09-01T11:51:15Z",
+ "updated": "2026-09-01T14:15:00Z",
  "version": 1
 }
