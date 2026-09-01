@@ -1588,6 +1588,21 @@
    "title": "Software Development Engineer, Amazon Brand Store",
    "url": "https://www.amazon.jobs/en/jobs/10503300/software-development-engineer-amazon-brand-store"
   },
+  "amazon:4d5a2bf0ff7c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Dallas, Texas, USA",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Benefits Experience and Technology (BXT)",
+   "url": "https://www.amazon.jobs/en/jobs/10524930/software-dev-engineer-benefits-experience-and-technology-bxt",
+   "yoe": 1
+  },
   "amazon:4eea58e4055d": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1676,6 +1691,21 @@
    "title": "Software Development Engineer , Service Resource Management",
    "url": "https://www.amazon.jobs/en/jobs/10524376/software-development-engineer-service-resource-management",
    "yoe": 3
+  },
+  "amazon:5526184e909f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, DynamoDB Performance",
+   "url": "https://www.amazon.jobs/en/jobs/10524941/software-engineer-dynamodb-performance",
+   "yoe": 1
   },
   "amazon:5736bd9e15d6": {
    "company": "Amazon",
@@ -20642,6 +20672,18 @@
    "title": "System Software Engineer, UEFI Firmware",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314"
   },
+  "nvidia:3419bf58be07": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-01",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System Software Engineer, Performance - CUDA Driver",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Performance---CUDA-Driver_JR2024918"
+  },
   "nvidia:35bb3145f24e": {
    "company": "NVIDIA",
    "first_seen": "2026-08-22",
@@ -21226,6 +21268,23 @@
    "title": "Research Engineer/Research Scientist - Personal AGI, North Stars",
    "url": "https://jobs.ashbyhq.com/openai/171ebca6-de53-4d6e-a312-30332f353957",
    "workplace": "Hybrid"
+  },
+  "openai:03186fa3ed0b": {
+   "comp": "$211K – $302K • Offers Equity",
+   "company": "OpenAI",
+   "department": "OpenAI for Gov",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Washington, DC",
+   "posted_at": "2026-09-01",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI Engineer, Cyber, Government",
+   "url": "https://jobs.ashbyhq.com/openai/be7b1bf5-37ab-40f7-9ec1-e9732244f12a",
+   "workplace": "Hybrid",
+   "yoe": 7
   },
   "openai:03324914f9b4": {
    "comp": "$295K – $555K • Offers Equity",
@@ -41055,7 +41114,7 @@
   },
   "Anthropic": {
    "best": 575,
-   "last": 571,
+   "last": 572,
    "last_ok": "2026-09-01"
   },
   "Apple": {
@@ -41283,7 +41342,7 @@
   },
   "Nvidia": {
    "best": 195,
-   "last": 192,
+   "last": 195,
    "last_ok": "2026-09-01"
   },
   "Okta": {
@@ -41293,7 +41352,7 @@
   },
   "OpenAI": {
    "best": 769,
-   "last": 765,
+   "last": 766,
    "last_ok": "2026-09-01"
   },
   "OpenEvidence": {
@@ -41476,6 +41535,6 @@
    "last_ok": "2026-09-01"
   }
  },
- "updated": "2026-09-01T21:10:26Z",
+ "updated": "2026-09-01T21:55:15Z",
  "version": 1
 }
