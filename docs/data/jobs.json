@@ -765,6 +765,18 @@
    "title": "Software Engineer II, Fullstack (App Experience)",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7819445003"
   },
+  "airbnb:1ea6690b490f": {
+   "company": "Airbnb",
+   "first_seen": "2026-09-01",
+   "location": "United States",
+   "posted_at": "2026-05-08",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Relevance and Personalization",
+   "url": "https://careers.airbnb.com/positions/7708224?gh_jid=7708224"
+  },
   "airbnb:27c82651d3ed": {
    "company": "Airbnb",
    "first_seen": "2026-08-21",
@@ -1336,6 +1348,21 @@
    "title": "Software Engineer II - Embedded Networking, Amazon Leo",
    "url": "https://www.amazon.jobs/en/jobs/10515122/software-engineer-ii-embedded-networking-amazon-leo",
    "yoe": 1
+  },
+  "amazon:3313dca155bd": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Santa Clara, California, USA",
+   "posted_at": "2026-08-31",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, AWS Core Networking – Network Fabric Engineering, Core Networking - Edge Capacity",
+   "url": "https://www.amazon.jobs/en/jobs/10523003/software-development-engineer-iii-aws-core-networking-network-fabric-engineering-core-networking-edge-capacity",
+   "yoe": 5
   },
   "amazon:354076d3a387": {
    "company": "Amazon",
@@ -2443,6 +2470,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10507237/sde-kuiper-network-services",
    "yoe": 2
   },
+  "amazon:bf9fa006d4d4": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-08-31",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Payments & Fraud Prevention",
+   "url": "https://www.amazon.jobs/en/jobs/10523012/software-development-engineer-aws-payments-fraud-prevention",
+   "yoe": 1
+  },
   "amazon:bfa35d22e3d8": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2979,6 +3021,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Software Defined Network Controller, Amazon LEO",
    "url": "https://www.amazon.jobs/en/jobs/10510858/software-development-engineer-software-defined-network-controller-amazon-leo",
+   "yoe": 2
+  },
+  "amazon:fec3ed7d245f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-08-31",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Amazon OpenSearch, VectorSearch, OpenSearch",
+   "url": "https://www.amazon.jobs/en/jobs/10523004/software-development-engineer-amazon-opensearch-vectorsearch-opensearch",
    "yoe": 2
   },
   "amazon:ffd4b89ac3d8": {
@@ -15222,6 +15279,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Cloud Bigtable SQL and Analytics",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91776684985852614-software-engineer-cloud-bigtable-sql-and-analytics"
+  },
+  "google:8e85eba56543": {
+   "company": "Google",
+   "first_seen": "2026-09-01",
+   "location": "Mountain View, CA, USA; Cambridge, MA, USA; +9 more; +8 more",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer, Early Career, Campus",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/78703249065943750-software-engineer-early-career-campus"
   },
   "google:8f83b50c4634": {
    "company": "Google",
@@ -38457,8 +38525,8 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 171,
-   "last_ok": "2026-08-31"
+   "last": 170,
+   "last_ok": "2026-09-01"
   },
   "Airtable": {
    "best": 16,
@@ -38468,7 +38536,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-08-31"
+   "last_ok": "2026-09-01"
   },
   "Anduril": {
    "best": 2239,
@@ -38478,7 +38546,7 @@
   "Anthropic": {
    "best": 572,
    "last": 569,
-   "last_ok": "2026-08-31"
+   "last_ok": "2026-09-01"
   },
   "Apple": {
    "best": 0,
@@ -38629,8 +38697,8 @@
   },
   "Google": {
    "best": 100,
-   "last": 92,
-   "last_ok": "2026-08-31"
+   "last": 100,
+   "last_ok": "2026-09-01"
   },
   "Gusto": {
    "best": 92,
@@ -38691,7 +38759,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-08-31"
+   "last_ok": "2026-09-01"
   },
   "Notion": {
    "best": 135,
@@ -38706,7 +38774,7 @@
   "Nvidia": {
    "best": 195,
    "last": 194,
-   "last_ok": "2026-08-31"
+   "last_ok": "2026-09-01"
   },
   "Okta": {
    "best": 350,
@@ -38715,8 +38783,8 @@
   },
   "OpenAI": {
    "best": 766,
-   "last": 766,
-   "last_ok": "2026-08-31"
+   "last": 765,
+   "last_ok": "2026-09-01"
   },
   "OpenEvidence": {
    "best": 8,
@@ -38820,8 +38888,8 @@
   },
   "Stripe": {
    "best": 592,
-   "last": 575,
-   "last_ok": "2026-08-31"
+   "last": 580,
+   "last_ok": "2026-09-01"
   },
   "Suno": {
    "best": 63,
@@ -38898,6 +38966,6 @@
    "last_ok": "2026-08-31"
   }
  },
- "updated": "2026-08-31T22:56:52Z",
+ "updated": "2026-09-01T01:58:30Z",
  "version": 1
 }
