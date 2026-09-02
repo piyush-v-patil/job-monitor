@@ -1547,6 +1547,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10521245/software-development-engineer-ii-aws-lambda",
    "yoe": 1
   },
+  "amazon:43e38c551c68": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-02",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon ECS",
+   "url": "https://www.amazon.jobs/en/jobs/10525114/software-development-engineer-amazon-ecs",
+   "yoe": 1
+  },
   "amazon:46f435a102d8": {
    "company": "Amazon",
    "department": "Software Development",
@@ -41675,7 +41690,7 @@
   },
   "Stripe": {
    "best": 593,
-   "last": 593,
+   "last": 592,
    "last_ok": "2026-09-02"
   },
   "Suno": {
@@ -41753,6 +41768,6 @@
    "last_ok": "2026-09-02"
   }
  },
- "updated": "2026-09-02T00:21:45Z",
+ "updated": "2026-09-02T01:15:41Z",
  "version": 1
 }
