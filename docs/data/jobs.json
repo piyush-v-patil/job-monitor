@@ -3010,6 +3010,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10519943/software-development-engineer-creative-asset-library-creativex",
    "yoe": 1
   },
+  "amazon:d3e73d74c53c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-02",
+   "location": "Culver City, California, USA",
+   "posted_at": "2026-09-02",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AI Studios Engineering",
+   "url": "https://www.amazon.jobs/en/jobs/10526436/software-development-engineer-ai-studios-engineering",
+   "yoe": 1
+  },
   "amazon:d42feea352f7": {
    "company": "Amazon",
    "department": "Software Development",
@@ -36353,6 +36368,18 @@
    "title": "Software Engineer, Product Security Data Platforms",
    "url": "https://stripe.com/jobs/search?gh_jid=8039800"
   },
+  "stripe:2f314d8a6d08": {
+   "company": "Stripe",
+   "first_seen": "2026-09-02",
+   "location": "Seattle, WA",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://stripe.com/jobs/search?gh_jid=8174105"
+  },
   "stripe:36621e3b94cf": {
    "company": "Stripe",
    "first_seen": "2026-08-22",
@@ -41873,7 +41900,7 @@
   },
   "Anthropic": {
    "best": 579,
-   "last": 579,
+   "last": 578,
    "last_ok": "2026-09-02"
   },
   "Apple": {
@@ -42216,7 +42243,7 @@
   },
   "Stripe": {
    "best": 593,
-   "last": 592,
+   "last": 591,
    "last_ok": "2026-09-02"
   },
   "Suno": {
@@ -42294,6 +42321,6 @@
    "last_ok": "2026-09-02"
   }
  },
- "updated": "2026-09-02T16:44:35Z",
+ "updated": "2026-09-02T17:15:23Z",
  "version": 1
 }
