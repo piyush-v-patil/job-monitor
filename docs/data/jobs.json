@@ -1372,6 +1372,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515667/software-development-engineer-gnc-software-amazon-leo",
    "yoe": 3
   },
+  "amazon:214ed42de666": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-02",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Dev Engineer I, Graviton Software, Annapurna Labs",
+   "url": "https://www.amazon.jobs/en/jobs/10526808/software-dev-engineer-i-graviton-software-annapurna-labs",
+   "yoe": 18
+  },
   "amazon:22183a1b0fb9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1414,6 +1429,21 @@
    "title": "Software Development Engineer, Recipient Experience, Your Orders",
    "url": "https://www.amazon.jobs/en/jobs/10514850/software-development-engineer-recipient-experience-your-orders",
    "yoe": 1
+  },
+  "amazon:2cc9683ed2c0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-02",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Software Defined Network Controller, Amazon LEO",
+   "url": "https://www.amazon.jobs/en/jobs/10526793/software-development-engineer-software-defined-network-controller-amazon-leo",
+   "yoe": 2
   },
   "amazon:2d29bc77355d": {
    "company": "Amazon",
@@ -1605,6 +1635,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Last Mile Delivery Automation, Autonomous Vehicle",
    "url": "https://www.amazon.jobs/en/jobs/10507127/software-development-engineer-last-mile-delivery-automation-autonomous-vehicle",
+   "yoe": 1
+  },
+  "amazon:3b88c87b61d0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-02",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Partner Experience and Growth, Amazon Ads",
+   "url": "https://www.amazon.jobs/en/jobs/10526827/software-development-engineer-partner-experience-and-growth-amazon-ads",
    "yoe": 1
   },
   "amazon:3e8e72edc26c": {
@@ -2168,6 +2213,21 @@
    "title": "Software Development Engineer, Amazon Quick",
    "url": "https://www.amazon.jobs/en/jobs/10517569/software-development-engineer-amazon-quick",
    "yoe": 1
+  },
+  "amazon:7f40401d6bb3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-02",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Prime Video Ads Channels",
+   "url": "https://www.amazon.jobs/en/jobs/10526828/software-development-engineer-ii-prime-video-ads-channels",
+   "yoe": 2
   },
   "amazon:7fb623a3000c": {
    "company": "Amazon",
@@ -42256,8 +42316,8 @@
    "last_ok": "2026-09-02"
   },
   "Anthropic": {
-   "best": 581,
-   "last": 581,
+   "best": 582,
+   "last": 582,
    "last_ok": "2026-09-02"
   },
   "Apple": {
@@ -42485,7 +42545,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 195,
+   "last": 193,
    "last_ok": "2026-09-02"
   },
   "Okta": {
@@ -42495,7 +42555,7 @@
   },
   "OpenAI": {
    "best": 771,
-   "last": 766,
+   "last": 771,
    "last_ok": "2026-09-02"
   },
   "OpenEvidence": {
@@ -42600,7 +42660,7 @@
   },
   "Stripe": {
    "best": 593,
-   "last": 592,
+   "last": 591,
    "last_ok": "2026-09-02"
   },
   "Suno": {
@@ -42678,6 +42738,6 @@
    "last_ok": "2026-09-02"
   }
  },
- "updated": "2026-09-02T21:10:40Z",
+ "updated": "2026-09-02T23:30:31Z",
  "version": 1
 }
