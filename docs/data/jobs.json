@@ -2131,6 +2131,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10504429/software-dev-engineer-amazon-leo-ai-foundations",
    "yoe": 2
   },
+  "amazon:713f69ff1a70": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Cupertino, California, USA",
+   "posted_at": "2026-09-03",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning - Compiler Engineer , AWS Neuron, Annapurna Labs",
+   "url": "https://www.amazon.jobs/en/jobs/10528817/machine-learning-compiler-engineer-aws-neuron-annapurna-labs",
+   "yoe": 2
+  },
   "amazon:71c340f75b4d": {
    "company": "Amazon",
    "department": "Software Development",
@@ -43479,8 +43494,8 @@
    "last_ok": "2026-09-03"
   },
   "Anthropic": {
-   "best": 585,
-   "last": 585,
+   "best": 586,
+   "last": 586,
    "last_ok": "2026-09-03"
   },
   "Apple": {
@@ -43901,6 +43916,6 @@
    "last_ok": "2026-09-03"
   }
  },
- "updated": "2026-09-03T16:34:47Z",
+ "updated": "2026-09-03T17:06:58Z",
  "version": 1
 }
