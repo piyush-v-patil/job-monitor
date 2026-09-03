@@ -17654,6 +17654,17 @@
    "title": "Research Scientist, Frontier Health, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/118553789589267142-research-scientist-frontier-health-deepmind"
   },
+  "google:1d102e5cab9b": {
+   "company": "Google",
+   "first_seen": "2026-09-03",
+   "location": "Mountain View, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, YouTube",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/77977290071253702-software-engineer-iii-infrastructure-youtube"
+  },
   "google:1dff3de55e60": {
    "company": "Google",
    "first_seen": "2026-08-27",
@@ -17742,6 +17753,17 @@
    "title": "Software Engineer, Embedded Systems/Firmware, Pixel Bootloader",
    "url": "https://www.google.com/about/careers/applications/jobs/results/106422454745735878-software-engineer-embedded-systemsfirmware-pixel-bootloader"
   },
+  "google:250cfc30c975": {
+   "company": "Google",
+   "first_seen": "2026-09-03",
+   "location": "Mountain View, CA, USA",
+   "role": "mobile",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Mobile, Android",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/87534245139882694-software-engineer-iii-mobile-android"
+  },
   "google:252c6039e677": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -17752,6 +17774,17 @@
    "tier": "experienced",
    "title": "ML Engineer, GenAI Ads, Search Personalization",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91235719359406790-ml-engineer-genai-ads-search-personalization"
+  },
+  "google:284541f5eea3": {
+   "company": "Google",
+   "first_seen": "2026-09-03",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML GenAI, YouTube",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/78100641531994822-software-engineer-iii-aiml-genai-youtube"
   },
   "google:2920fdb58b18": {
    "company": "Google",
@@ -18667,6 +18700,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, AI/ML, Enterprise Engineering, Core",
    "url": "https://www.google.com/about/careers/applications/jobs/results/77938669725328070-software-engineer-iii-aiml-enterprise-engineering-core"
+  },
+  "google:aeb1bd00d6cf": {
+   "company": "Google",
+   "first_seen": "2026-09-03",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML GenAI, Google Cloud Compute Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/115026433880793798-software-engineer-iii-aiml-genai-google-cloud-compute-infrastructure"
   },
   "google:aeb8be1f7ae3": {
    "company": "Google",
@@ -44042,8 +44086,8 @@
    "last_ok": "2026-09-03"
   },
   "Anthropic": {
-   "best": 586,
-   "last": 583,
+   "best": 588,
+   "last": 588,
    "last_ok": "2026-09-03"
   },
   "Apple": {
@@ -44281,7 +44325,7 @@
   },
   "OpenAI": {
    "best": 771,
-   "last": 770,
+   "last": 768,
    "last_ok": "2026-09-03"
   },
   "OpenEvidence": {
@@ -44385,8 +44429,8 @@
    "last_ok": "2026-09-03"
   },
   "Stripe": {
-   "best": 609,
-   "last": 609,
+   "best": 611,
+   "last": 611,
    "last_ok": "2026-09-03"
   },
   "Suno": {
@@ -44464,6 +44508,6 @@
    "last_ok": "2026-09-03"
   }
  },
- "updated": "2026-09-03T21:10:54Z",
+ "updated": "2026-09-03T23:27:20Z",
  "version": 1
 }
