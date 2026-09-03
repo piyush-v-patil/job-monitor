@@ -2389,6 +2389,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10504994/software-development-engineer-amazon-customer-service",
    "yoe": 2
   },
+  "amazon:8e5e9862ab8f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Amazon Leo Customer Terminals",
+   "url": "https://www.amazon.jobs/en/jobs/10526922/software-dev-engineer-amazon-leo-customer-terminals",
+   "yoe": 1
+  },
   "amazon:8e6784948403": {
    "company": "Amazon",
    "department": "Software Development",
@@ -9316,6 +9331,18 @@
    "title": "Associate Software Engineer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Associate-Software-Engineer_JR2026516706-1"
   },
+  "boeing:01a3c09c9219": {
+   "company": "Boeing",
+   "first_seen": "2026-09-03",
+   "location": "USA - El Segundo, CA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Space Communications Payload Systems Engineer (Associate, Experienced, or Lead)",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Space-Communications-Payload-Systems-Engineer--Associate--Experienced--or-Lead-_JR2026500666-1"
+  },
   "boeing:02f8b989e08f": {
    "company": "Boeing",
    "first_seen": "2026-08-24",
@@ -10475,6 +10502,18 @@
    "tier": "experienced",
    "title": "Mid-Level Software Engineer (Test & Verification)",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/Mid-Level-Software-Engineer--Test---Verification-_JR2026503246-1"
+  },
+  "boeing:e3fff1418250": {
+   "company": "Boeing",
+   "first_seen": "2026-09-03",
+   "location": "3 Locations",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Associate Real Time Software Engineer, Phantom Works",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Associate-Real-Time-Software-Engineer--Phantom-Works_JR2026518308-1"
   },
   "boeing:e4e284ee97d8": {
    "company": "Boeing",
@@ -21510,6 +21549,18 @@
    "tier": "newgrad",
    "title": "Research Engineer, Interactive World Models - New College Grad 2026",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Engineer--Interactive-World-Models---New-College-Grad-2026_JR2023950"
+  },
+  "nvidia:26edd72e0973": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-03",
+   "location": "6 Locations",
+   "posted_at": "2026-09-03",
+   "role": "security",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Software Engineer, Vulnerability Operations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Security-Software-Engineer--Vulnerability-Operations_JR2024620-1"
   },
   "nvidia:2a076ddd559e": {
    "company": "Nvidia",
@@ -34933,6 +34984,18 @@
    "title": "Power Systems Engineer (Starship Avionics) ",
    "url": "https://boards.greenhouse.io/spacex/jobs/8627410002?gh_jid=8627410002"
   },
+  "spacex:927860336059": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-03",
+   "location": "Vandenberg, CA",
+   "posted_at": "2026-09-02",
+   "role": "qa-test",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Integration & Test Engineer (Falcon)   ",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8771149002?gh_jid=8771149002"
+  },
   "spacex:92a548558a60": {
    "company": "SpaceX",
    "first_seen": "2026-08-20",
@@ -42283,42 +42346,42 @@
   "Abridge": {
    "best": 48,
    "last": 41,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Adobe": {
    "best": 190,
    "last": 186,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Affirm": {
    "best": 210,
    "last": 203,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Airbnb": {
    "best": 195,
    "last": 170,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Airtable": {
    "best": 16,
    "last": 16,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Anduril": {
    "best": 2239,
-   "last": 2201,
-   "last_ok": "2026-09-02"
+   "last": 2207,
+   "last_ok": "2026-09-03"
   },
   "Anthropic": {
-   "best": 582,
-   "last": 582,
-   "last_ok": "2026-09-02"
+   "best": 583,
+   "last": 583,
+   "last_ok": "2026-09-03"
   },
   "Apple": {
    "best": 0,
@@ -42329,57 +42392,57 @@
   "Asana": {
    "best": 126,
    "last": 119,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Attentive": {
    "best": 39,
    "last": 37,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Betterment": {
    "best": 32,
    "last": 29,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Block": {
-   "best": 197,
-   "last": 197,
-   "last_ok": "2026-09-02"
+   "best": 201,
+   "last": 201,
+   "last_ok": "2026-09-03"
   },
   "Boeing": {
    "best": 195,
-   "last": 183,
-   "last_ok": "2026-09-02"
+   "last": 180,
+   "last_ok": "2026-09-03"
   },
   "Brex": {
    "best": 299,
-   "last": 284,
-   "last_ok": "2026-09-02"
+   "last": 279,
+   "last_ok": "2026-09-03"
   },
   "CVS Health": {
    "best": 200,
-   "last": 199,
-   "last_ok": "2026-09-02"
+   "last": 200,
+   "last_ok": "2026-09-03"
   },
   "Capital One": {
    "best": 171,
    "last": 151,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Carta": {
    "best": 60,
    "last": 60,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Checkr": {
    "best": 50,
    "last": 45,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Chime": {
    "best": 65,
    "last": 65,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Citadel": {
    "best": 0,
@@ -42389,118 +42452,118 @@
   },
   "Cloudflare": {
    "best": 323,
-   "last": 322,
-   "last_ok": "2026-09-02"
+   "last": 321,
+   "last_ok": "2026-09-03"
   },
   "Cognition": {
    "best": 91,
    "last": 91,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Coinbase": {
    "best": 192,
-   "last": 188,
-   "last_ok": "2026-09-02"
+   "last": 187,
+   "last_ok": "2026-09-03"
   },
   "Databricks": {
    "best": 864,
    "last": 859,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Datadog": {
    "best": 456,
    "last": 442,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Decagon": {
    "best": 139,
    "last": 139,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Discord": {
    "best": 52,
-   "last": 49,
-   "last_ok": "2026-09-02"
+   "last": 48,
+   "last_ok": "2026-09-03"
   },
   "DoorDash": {
    "best": 475,
-   "last": 464,
-   "last_ok": "2026-09-02"
+   "last": 462,
+   "last_ok": "2026-09-03"
   },
   "Dropbox": {
    "best": 44,
    "last": 42,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Duolingo": {
    "best": 89,
    "last": 89,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Elastic": {
-   "best": 359,
-   "last": 359,
-   "last_ok": "2026-09-02"
+   "best": 361,
+   "last": 361,
+   "last_ok": "2026-09-03"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 254,
-   "last_ok": "2026-09-02"
+   "last": 255,
+   "last_ok": "2026-09-03"
   },
   "Faire": {
    "best": 67,
    "last": 60,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Figma": {
    "best": 163,
    "last": 160,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Flexport": {
    "best": 174,
-   "last": 169,
-   "last_ok": "2026-09-02"
+   "last": 170,
+   "last_ok": "2026-09-03"
   },
   "GitLab": {
-   "best": 231,
-   "last": 231,
-   "last_ok": "2026-09-02"
+   "best": 232,
+   "last": 232,
+   "last_ok": "2026-09-03"
   },
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Gusto": {
    "best": 94,
    "last": 87,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Harvey": {
    "best": 362,
-   "last": 333,
-   "last_ok": "2026-09-02"
+   "last": 334,
+   "last_ok": "2026-09-03"
   },
   "Instacart": {
    "best": 125,
-   "last": 110,
-   "last_ok": "2026-09-02"
+   "last": 106,
+   "last_ok": "2026-09-03"
   },
   "Komodo Health": {
    "best": 37,
    "last": 35,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Linear": {
    "best": 32,
    "last": 28,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Lyft": {
    "best": 170,
    "last": 167,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Marqeta": {
    "best": 2,
@@ -42510,12 +42573,12 @@
   "Match Group": {
    "best": 81,
    "last": 71,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Mercury": {
    "best": 58,
-   "last": 57,
-   "last_ok": "2026-09-02"
+   "last": 58,
+   "last_ok": "2026-09-03"
   },
   "Microsoft": {
    "best": 0,
@@ -42525,153 +42588,153 @@
   },
   "MongoDB": {
    "best": 412,
-   "last": 400,
-   "last_ok": "2026-09-02"
+   "last": 402,
+   "last_ok": "2026-09-03"
   },
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Notion": {
    "best": 135,
    "last": 134,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Nuro": {
-   "best": 108,
-   "last": 108,
-   "last_ok": "2026-09-02"
+   "best": 109,
+   "last": 109,
+   "last_ok": "2026-09-03"
   },
   "Nvidia": {
    "best": 196,
-   "last": 193,
-   "last_ok": "2026-09-02"
+   "last": 192,
+   "last_ok": "2026-09-03"
   },
   "Okta": {
    "best": 350,
-   "last": 333,
-   "last_ok": "2026-09-02"
+   "last": 331,
+   "last_ok": "2026-09-03"
   },
   "OpenAI": {
    "best": 771,
-   "last": 771,
-   "last_ok": "2026-09-02"
+   "last": 769,
+   "last_ok": "2026-09-03"
   },
   "OpenEvidence": {
    "best": 8,
    "last": 8,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "PagerDuty": {
    "best": 45,
-   "last": 44,
-   "last_ok": "2026-09-02"
+   "last": 43,
+   "last_ok": "2026-09-03"
   },
   "Palantir": {
    "best": 309,
    "last": 307,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Peloton": {
    "best": 53,
    "last": 51,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Perplexity": {
-   "best": 111,
-   "last": 111,
-   "last_ok": "2026-09-02"
+   "best": 112,
+   "last": 112,
+   "last_ok": "2026-09-03"
   },
   "Pinterest": {
    "best": 225,
    "last": 199,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Plaid": {
    "best": 104,
    "last": 102,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Ramp": {
    "best": 140,
    "last": 140,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Reddit": {
    "best": 156,
-   "last": 146,
-   "last_ok": "2026-09-02"
+   "last": 147,
+   "last_ok": "2026-09-03"
   },
   "Replit": {
    "best": 74,
-   "last": 73,
-   "last_ok": "2026-09-02"
+   "last": 72,
+   "last_ok": "2026-09-03"
   },
   "Robinhood": {
    "best": 133,
    "last": 133,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Roblox": {
    "best": 237,
-   "last": 226,
-   "last_ok": "2026-09-02"
+   "last": 224,
+   "last_ok": "2026-09-03"
   },
   "Salesforce": {
    "best": 168,
    "last": 154,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Samsara": {
    "best": 269,
    "last": 245,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Scale AI": {
    "best": 219,
-   "last": 213,
-   "last_ok": "2026-09-02"
+   "last": 212,
+   "last_ok": "2026-09-03"
   },
   "Simplify Aggregator": {
    "best": 1388,
-   "last": 1380,
-   "last_ok": "2026-09-02"
+   "last": 1372,
+   "last_ok": "2026-09-03"
   },
   "Snowflake": {
    "best": 393,
-   "last": 378,
-   "last_ok": "2026-09-02"
+   "last": 379,
+   "last_ok": "2026-09-03"
   },
   "SoFi": {
    "best": 63,
    "last": 61,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "SpaceX": {
-   "best": 2270,
-   "last": 2270,
-   "last_ok": "2026-09-02"
+   "best": 2277,
+   "last": 2277,
+   "last_ok": "2026-09-03"
   },
   "Spotify": {
    "best": 95,
    "last": 79,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Stripe": {
    "best": 593,
    "last": 591,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Suno": {
    "best": 63,
    "last": 63,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Target": {
    "best": 200,
-   "last": 196,
-   "last_ok": "2026-09-02"
+   "last": 197,
+   "last_ok": "2026-09-03"
   },
   "Tesla": {
    "best": 0,
@@ -42681,8 +42744,8 @@
   },
   "Twilio": {
    "best": 146,
-   "last": 142,
-   "last_ok": "2026-09-02"
+   "last": 143,
+   "last_ok": "2026-09-03"
   },
   "Two Sigma": {
    "best": 0,
@@ -42698,23 +42761,23 @@
   },
   "Upstart": {
    "best": 101,
-   "last": 92,
-   "last_ok": "2026-09-02"
+   "last": 91,
+   "last_ok": "2026-09-03"
   },
   "Vanta": {
    "best": 110,
-   "last": 109,
-   "last_ok": "2026-09-02"
+   "last": 110,
+   "last_ok": "2026-09-03"
   },
   "Verizon": {
    "best": 138,
    "last": 127,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Verkada": {
-   "best": 290,
-   "last": 290,
-   "last_ok": "2026-09-02"
+   "best": 291,
+   "last": 291,
+   "last_ok": "2026-09-03"
   },
   "Visa": {
    "best": 0,
@@ -42725,19 +42788,19 @@
   "Walmart Global Tech": {
    "best": 200,
    "last": 200,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   },
   "Waymo": {
    "best": 367,
-   "last": 343,
-   "last_ok": "2026-09-02"
+   "last": 344,
+   "last_ok": "2026-09-03"
   },
   "Webflow": {
    "best": 31,
    "last": 30,
-   "last_ok": "2026-09-02"
+   "last_ok": "2026-09-03"
   }
  },
- "updated": "2026-09-02T23:30:31Z",
+ "updated": "2026-09-03T00:24:41Z",
  "version": 1
 }
