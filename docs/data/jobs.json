@@ -17230,6 +17230,17 @@
    "title": "Software Engineer, Infrastructure, PhD, Early Career, 2027 Start",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84680705375642310-software-engineer-infrastructure-phd-early-career-2027-start"
   },
+  "google:38d0a6a036ff": {
+   "company": "Google",
+   "first_seen": "2026-09-03",
+   "location": "Mountain View, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Front End Infrastructure Software Engineer, AP Performance Google Ads",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/115412774779003590-front-end-infrastructure-software-engineer-ap-performance-google-ads"
+  },
   "google:3b3f9aba39a7": {
    "company": "Google",
    "first_seen": "2026-08-28",
@@ -17339,6 +17350,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Google Cloud Networking",
    "url": "https://www.google.com/about/careers/applications/jobs/results/131727448571028166-software-engineer-iii-infrastructure-google-cloud-networking"
+  },
+  "google:4c0a5985dfe6": {
+   "company": "Google",
+   "first_seen": "2026-09-03",
+   "location": "Sunnyvale, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Google Cloud Storage",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/118858094464639686-software-engineer-iii-google-cloud-storage"
   },
   "google:4c976e80c03a": {
    "company": "Google",
@@ -18012,6 +18034,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Core Labs",
    "url": "https://www.google.com/about/careers/applications/jobs/results/94997403651711686-software-engineer-iii-infrastructure-core-labs"
+  },
+  "google:ae4f4fdbcddc": {
+   "company": "Google",
+   "first_seen": "2026-09-03",
+   "location": "San Jose, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML, Enterprise Engineering, Core",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/77938669725328070-software-engineer-iii-aiml-enterprise-engineering-core"
   },
   "google:aeb8be1f7ae3": {
    "company": "Google",
@@ -43129,7 +43162,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 171,
+   "last": 172,
    "last_ok": "2026-09-03"
   },
   "Airtable": {
@@ -43570,6 +43603,6 @@
    "last_ok": "2026-09-03"
   }
  },
- "updated": "2026-09-03T11:28:37Z",
+ "updated": "2026-09-03T12:12:42Z",
  "version": 1
 }
