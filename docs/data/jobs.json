@@ -1481,6 +1481,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10503878/software-dev-engineer-ii-ecr-private",
    "yoe": 2
   },
+  "amazon:29d4fc52e86b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10529021/software-development-engineer-amazon",
+   "yoe": 1
+  },
   "amazon:2ca98ae41d89": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1981,6 +1996,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10524045/software-development-engineer-genai-ml-amazon-selection-and-catalog-systems-ascs",
    "yoe": 2
   },
+  "amazon:5aae8ee64589": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, RDS Oracle",
+   "url": "https://www.amazon.jobs/en/jobs/10529117/software-development-engineer-rds-oracle",
+   "yoe": 2
+  },
   "amazon:5c65d96ebac9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1994,6 +2024,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, AWS OpenSearch Service",
    "url": "https://www.amazon.jobs/en/jobs/10504029/software-development-engineer-aws-opensearch-service",
+   "yoe": 1
+  },
+  "amazon:5e5ea7e2f385": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Infra Supply Chain",
+   "url": "https://www.amazon.jobs/en/jobs/10528874/software-dev-engineer-ii-infra-supply-chain",
    "yoe": 1
   },
   "amazon:5ecac351364c": {
@@ -2930,6 +2975,21 @@
    "title": "Software Development Engineer, Amazon Fulfillment Technologies (AFT)  - Platform Engineering & Services",
    "url": "https://www.amazon.jobs/en/jobs/10526509/software-development-engineer-amazon-fulfillment-technologies-aft-platform-engineering-services",
    "yoe": 1
+  },
+  "amazon:b490e99a7ca7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-03",
+   "role": "data",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, AAIS Mosaic Data Platform",
+   "url": "https://www.amazon.jobs/en/jobs/10529217/software-development-engineer-iii-aais-mosaic-data-platform",
+   "yoe": 5
   },
   "amazon:b5e00880d061": {
    "company": "Amazon",
@@ -25618,6 +25678,23 @@
    "url": "https://jobs.ashbyhq.com/openai/6eb386ac-9056-4795-aa79-a27e105faf5c",
    "workplace": "Hybrid"
   },
+  "openai:a64938566733": {
+   "comp": "$266K – $385K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Applied AI",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "San Francisco",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Native Learning Experiences",
+   "url": "https://jobs.ashbyhq.com/openai/1098311d-3a07-40ad-8107-6245a492a0b3",
+   "workplace": "Hybrid",
+   "yoe": 5
+  },
   "openai:a6f681a10b2d": {
    "comp": "$145.8K – $280K • Offers Equity",
    "company": "OpenAI",
@@ -38179,6 +38256,18 @@
    "title": "Machine Learning Engineer, Capital Underwriting",
    "url": "https://stripe.com/jobs/search?gh_jid=7952048"
   },
+  "stripe:aa1ceb7d8ac0": {
+   "company": "Stripe",
+   "first_seen": "2026-09-03",
+   "location": "Seattle, WA",
+   "posted_at": "2026-09-03",
+   "role": "devops-sre",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Online Database Infrastructure",
+   "url": "https://stripe.com/jobs/search?gh_jid=8177930"
+  },
   "stripe:abbdec5d66c1": {
    "company": "Stripe",
    "first_seen": "2026-08-20",
@@ -43495,7 +43584,7 @@
   },
   "Anthropic": {
    "best": 586,
-   "last": 586,
+   "last": 584,
    "last_ok": "2026-09-03"
   },
   "Apple": {
@@ -43733,7 +43822,7 @@
   },
   "OpenAI": {
    "best": 771,
-   "last": 765,
+   "last": 768,
    "last_ok": "2026-09-03"
   },
   "OpenEvidence": {
@@ -43837,8 +43926,8 @@
    "last_ok": "2026-09-03"
   },
   "Stripe": {
-   "best": 602,
-   "last": 602,
+   "best": 609,
+   "last": 609,
    "last_ok": "2026-09-03"
   },
   "Suno": {
@@ -43916,6 +44005,6 @@
    "last_ok": "2026-09-03"
   }
  },
- "updated": "2026-09-03T17:06:58Z",
+ "updated": "2026-09-03T20:02:46Z",
  "version": 1
 }
