@@ -11064,6 +11064,18 @@
    "title": "Software Engineer (Associate or Experienced)",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Software-Engineer--Associate-or-Experienced-_JR2026520956-1"
   },
+  "boeing:d2d6bef8bb98": {
+   "company": "Boeing",
+   "first_seen": "2026-09-04",
+   "location": "USA - Hazelwood, MO",
+   "posted_at": "2026-09-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Systems Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Lead-Systems-Engineer_JR2026520157-1"
+  },
   "boeing:d52e413d3406": {
    "company": "Boeing",
    "first_seen": "2026-09-02",
@@ -15047,6 +15059,18 @@
    "title": "Artificial Intelligence and Machine Learning Intern",
    "url": "https://corningjobs.corning.com/job/Wilmington-Artificial-Intelligence-and-Machine-Learning-Intern-Summer-2027-NC-28405/1425596800/?ats=successfactors"
   },
+  "corning:d98157625fcf": {
+   "company": "Corning",
+   "first_seen": "2026-09-04",
+   "location": "Charlotte, NC",
+   "posted_at": "2026-09-02",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Digital & IT Intern - Analyst - Data & AI Platform Engineering",
+   "url": "https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Data-&-AI-Platform-Engineering-Summer-2027-NC-28216/1425716600/?ats=successfactors"
+  },
   "cortica:ea916192ef1a": {
    "company": "Cortica",
    "first_seen": "2026-08-22",
@@ -16146,6 +16170,18 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer, Marketplace Optimization",
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7580407"
+  },
+  "doordash:6c3e6fbf03f5": {
+   "company": "DoorDash",
+   "first_seen": "2026-09-04",
+   "location": "Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA ; Seattle, WA",
+   "posted_at": "2026-09-04",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US",
+   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8163709"
   },
   "doordash:6e716b5ee767": {
    "company": "DoorDash",
@@ -17908,6 +17944,17 @@
    "title": "Software Engineer III, Security/Privacy, Google Cloud Security and Privacy",
    "url": "https://www.google.com/about/careers/applications/jobs/results/128082827370472134-software-engineer-iii-securityprivacy-google-cloud-security-and-privacy"
   },
+  "google:1461e5ac5408": {
+   "company": "Google",
+   "first_seen": "2026-09-04",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Supportability Technical Lead, AI/ML, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/84482894214374086-supportability-technical-lead-aiml-google-cloud"
+  },
   "google:154f85a66744": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -18413,6 +18460,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Health and Home Infrastructure, Health Research Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/118407586755027654-software-engineer-health-and-home-infrastructure-health-research-infrastructure"
+  },
+  "google:57335a925ef1": {
+   "company": "Google",
+   "first_seen": "2026-09-04",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/76965670654223046-software-engineer-iii-infrastructure-google-cloud"
   },
   "google:5aeca8d24bcb": {
    "company": "Google",
@@ -19252,6 +19310,17 @@
    "title": "Software Engineer, Generative AI, Shopping on Gemini",
    "url": "https://www.google.com/about/careers/applications/jobs/results/140763200768352966-software-engineer-generative-ai-shopping-on-gemini"
   },
+  "google:d9cebe2e5595": {
+   "company": "Google",
+   "first_seen": "2026-09-04",
+   "location": "Austin, TX, USA; Atlanta, GA, USA; +3 more; +2 more",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cloud Engineer, AI/ML, Global Services Delivery, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/102426923979678406-cloud-engineer-aiml-global-services-delivery-google-cloud"
+  },
   "google:da7126a630c2": {
    "company": "Google",
    "first_seen": "2026-08-28",
@@ -19317,6 +19386,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Embedded, Pixel Graphics",
    "url": "https://www.google.com/about/careers/applications/jobs/results/73194847107719878-software-engineer-embedded-pixel-graphics"
+  },
+  "google:eb351a9baa3d": {
+   "company": "Google",
+   "first_seen": "2026-09-04",
+   "location": "Sunnyvale, CA, USA; Kirkland, WA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/109193622842155718-software-engineer-iii-aiml-google-cloud"
   },
   "google:ef636c4a9418": {
    "company": "Google",
@@ -31038,6 +31118,18 @@
    "tier": "newgrad",
    "title": "Member of Technical Staff New Grad - Machine Learning Capabilities 🎓",
    "url": "https://jobs.ashbyhq.com/Preference-Model/44642065-e592-44ba-810d-a019703463b6/application"
+  },
+  "primer:bf0985e29a02": {
+   "company": "Primer",
+   "first_seen": "2026-09-04",
+   "location": "SF",
+   "posted_at": "2026-09-04",
+   "role": "fullstack",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Full Stack",
+   "url": "https://jobs.ashbyhq.com/primer/edd1667b-6323-444a-adc1-40bae5b9a3b0/application?embed=true"
   },
   "procter-gamble:bd9ee73ae481": {
    "company": "Procter & Gamble",
@@ -44691,7 +44783,7 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2196,
+   "last": 2195,
    "last_ok": "2026-09-04"
   },
   "Anthropic": {
@@ -44727,7 +44819,7 @@
   },
   "Boeing": {
    "best": 195,
-   "last": 181,
+   "last": 178,
    "last_ok": "2026-09-04"
   },
   "Brex": {
@@ -44742,7 +44834,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 152,
+   "last": 153,
    "last_ok": "2026-09-04"
   },
   "Carta": {
@@ -44778,17 +44870,17 @@
   },
   "Coinbase": {
    "best": 192,
-   "last": 187,
+   "last": 189,
    "last_ok": "2026-09-04"
   },
   "Databricks": {
-   "best": 865,
-   "last": 865,
+   "best": 866,
+   "last": 866,
    "last_ok": "2026-09-04"
   },
   "Datadog": {
    "best": 456,
-   "last": 444,
+   "last": 443,
    "last_ok": "2026-09-04"
   },
   "Decagon": {
@@ -44803,7 +44895,7 @@
   },
   "DoorDash": {
    "best": 475,
-   "last": 457,
+   "last": 458,
    "last_ok": "2026-09-04"
   },
   "Dropbox": {
@@ -44817,8 +44909,8 @@
    "last_ok": "2026-09-04"
   },
   "Elastic": {
-   "best": 362,
-   "last": 362,
+   "best": 363,
+   "last": 363,
    "last_ok": "2026-09-04"
   },
   "ElevenLabs": {
@@ -44843,7 +44935,7 @@
   },
   "GitLab": {
    "best": 234,
-   "last": 231,
+   "last": 230,
    "last_ok": "2026-09-04"
   },
   "Google": {
@@ -44904,7 +44996,7 @@
   },
   "MongoDB": {
    "best": 412,
-   "last": 406,
+   "last": 407,
    "last_ok": "2026-09-04"
   },
   "Netflix": {
@@ -44929,7 +45021,7 @@
   },
   "Okta": {
    "best": 350,
-   "last": 317,
+   "last": 315,
    "last_ok": "2026-09-04"
   },
   "OpenAI": {
@@ -44964,7 +45056,7 @@
   },
   "Pinterest": {
    "best": 225,
-   "last": 194,
+   "last": 192,
    "last_ok": "2026-09-04"
   },
   "Plaid": {
@@ -44994,32 +45086,32 @@
   },
   "Roblox": {
    "best": 237,
-   "last": 227,
+   "last": 226,
    "last_ok": "2026-09-04"
   },
   "Salesforce": {
    "best": 168,
-   "last": 158,
+   "last": 162,
    "last_ok": "2026-09-04"
   },
   "Samsara": {
    "best": 269,
-   "last": 243,
+   "last": 246,
    "last_ok": "2026-09-04"
   },
   "Scale AI": {
    "best": 219,
-   "last": 215,
+   "last": 214,
    "last_ok": "2026-09-04"
   },
   "Simplify Aggregator": {
    "best": 1469,
-   "last": 1469,
+   "last": 1418,
    "last_ok": "2026-09-04"
   },
   "Snowflake": {
    "best": 393,
-   "last": 372,
+   "last": 370,
    "last_ok": "2026-09-04"
   },
   "SoFi": {
@@ -45028,8 +45120,8 @@
    "last_ok": "2026-09-04"
   },
   "SpaceX": {
-   "best": 2309,
-   "last": 2309,
+   "best": 2310,
+   "last": 2310,
    "last_ok": "2026-09-04"
   },
   "Spotify": {
@@ -45049,7 +45141,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 198,
+   "last": 195,
    "last_ok": "2026-09-04"
   },
   "Tesla": {
@@ -45059,8 +45151,8 @@
    "reported_dead": "2026-08-24"
   },
   "Twilio": {
-   "best": 146,
-   "last": 144,
+   "best": 147,
+   "last": 147,
    "last_ok": "2026-09-04"
   },
   "Two Sigma": {
@@ -45117,6 +45209,6 @@
    "last_ok": "2026-09-04"
   }
  },
- "updated": "2026-09-04T06:21:20Z",
+ "updated": "2026-09-04T11:31:43Z",
  "version": 1
 }
