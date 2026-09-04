@@ -178,6 +178,18 @@
    "workplace": "Hybrid",
    "yoe": 5
   },
+  "adobe:0479c0c5693d": {
+   "company": "Adobe",
+   "first_seen": "2026-09-04",
+   "location": "7 locationsSeattle, WA; SF; Austin, TX; San Jose, CA; Waltham, MA; NYC; Lehi, UT",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666"
+  },
   "adobe:0602f255d3f0": {
    "company": "Adobe",
    "first_seen": "2026-08-20",
@@ -549,6 +561,18 @@
    "tier": "experienced",
    "title": "Software Development Engineer - Front End",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Francisco/Software-Development-Engineer---Front-End_R168188"
+  },
+  "adobe:c7c0b59a3652": {
+   "company": "Adobe",
+   "first_seen": "2026-09-04",
+   "location": "San Jose",
+   "posted_at": "2026-09-04",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Machine-Learning-Engineer_R171645-1"
   },
   "adobe:cadbbfe4c016": {
    "company": "Adobe",
@@ -1434,6 +1458,21 @@
    "title": "Software Development Engineer, ASBX Builder Operations",
    "url": "https://www.amazon.jobs/en/jobs/10512704/software-development-engineer-asbx-builder-operations",
    "yoe": 5
+  },
+  "amazon:19ce10289224": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-04",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-04",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Development Engineer, Amazon Dedicated Cloud, Early Career - 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10529546/software-development-engineer-amazon-dedicated-cloud-early-career-2026",
+   "yoe": 18
   },
   "amazon:1a19138b4bf0": {
    "company": "Amazon",
@@ -9049,6 +9088,18 @@
    "title": "Research Engineer / Scientist, Frontier Red Team (Cyber)",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076477008"
   },
+  "anthropic:f3e62fb53e42": {
+   "company": "Anthropic",
+   "first_seen": "2026-09-04",
+   "location": "San Francisco, CA",
+   "posted_at": "2025-11-03",
+   "role": "devops-sre",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Infrastructure Engineer, Pre-training",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/4973067008"
+  },
   "anthropic:f407e3fd036d": {
    "company": "Anthropic",
    "first_seen": "2026-08-25",
@@ -9145,6 +9196,18 @@
    "title": "Software Engineer Intern - Embedded Systems",
    "url": "https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda/application?embed=true"
   },
+  "apex:d158c03cab2e": {
+   "company": "Apex",
+   "first_seen": "2026-09-04",
+   "location": "LA",
+   "posted_at": "2026-09-04",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Ground Software Intern - Spring or Summer 2027",
+   "url": "https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c/application?embed=true"
+  },
   "appian:1729195aa5b0": {
    "company": "Appian",
    "first_seen": "2026-08-22",
@@ -9228,6 +9291,18 @@
    "tier": "newgrad",
    "title": "Software Engineer 2 – New College Grad",
    "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer-II--New-College-Grad---Santa-Clara--CA-_R2622398"
+  },
+  "applied-materials:6facb47c8838": {
+   "company": "Applied Materials",
+   "first_seen": "2026-09-04",
+   "location": "Chandler, AZ",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer - New College Grad-Master's 🎓",
+   "url": "https://amat.wd1.myworkdayjobs.com/External/job/ChandlerAZ/Software-Engineer--New-College-Grad--Master-s--Chandler--AZ-_R2627911"
   },
   "aramark:8f2f1fa126bf": {
    "company": "Aramark",
@@ -12321,6 +12396,18 @@
    "title": "Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern - AML-ARK",
    "url": "https://jobs.bytedance.com/en/position/7672392998231050549/detail"
   },
+  "bytedance:c5657b65b120": {
+   "company": "ByteDance",
+   "first_seen": "2026-09-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-08-06",
+   "role": "devops-sre",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Backend Developer Intern - Infrastructure Platform Delivery",
+   "url": "https://jobs.bytedance.com/en/position/7668489218234157365/detail"
+  },
   "bytedance:ce32f853174d": {
    "company": "ByteDance",
    "first_seen": "2026-08-22",
@@ -12489,6 +12576,18 @@
    "title": "Application Software Developer New Grad",
    "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-2"
   },
+  "cadence-design-systems:4b5247c4b565": {
+   "company": "Cadence Design Systems",
+   "first_seen": "2026-09-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer New Grad",
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738-1"
+  },
   "cadence-design-systems:67733a9d51a7": {
    "company": "Cadence Design Systems",
    "first_seen": "2026-08-22",
@@ -12560,6 +12659,18 @@
    "tier": "newgrad",
    "title": "Application Software Developer New Grad",
    "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736"
+  },
+  "cadence-design-systems:f4f2e8507631": {
+   "company": "Cadence Design Systems",
+   "first_seen": "2026-09-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer New Grad",
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738"
   },
   "capco:a6df39183527": {
    "company": "Capco",
@@ -14241,6 +14352,18 @@
    "tier": "intern",
    "title": "Data Science Machine Learning Intern",
    "url": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Science-Machine-Learning-Internship--Summer-2027-_R1344"
+  },
+  "caterpillar:c051bbed7974": {
+   "company": "Caterpillar",
+   "first_seen": "2026-09-04",
+   "location": "5 locationsPeoria, IL; SF; Pittsburgh, PA; Mossville, IL; Irving, TX",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Corporate Intern - Autonomy & Intelligent Systems Engineering",
+   "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394"
   },
   "cerebras:220da35fccd7": {
    "company": "Cerebras",
@@ -16335,6 +16458,30 @@
    "title": "Software Engineer Intern - Summer 2027",
    "url": "https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928"
   },
+  "drivetime:ca35aba1f6e6": {
+   "company": "DriveTime",
+   "first_seen": "2026-09-04",
+   "location": "Tempe, AZ",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Database Engineer Intern",
+   "url": "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300"
+  },
+  "drivetime:fa03bb0afd0e": {
+   "company": "DriveTime",
+   "first_seen": "2026-09-04",
+   "location": "Tempe, AZ",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Summer 2027",
+   "url": "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294"
+  },
   "dtcc:d16ccb351910": {
    "company": "DTCC",
    "first_seen": "2026-08-26",
@@ -17336,6 +17483,54 @@
    "title": "Energy Optimization Software Engineer Intern - Summer 2027 🎓",
    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050022-2"
   },
+  "ge-vernova:371b506248fd": {
+   "company": "GE Vernova",
+   "first_seen": "2026-09-04",
+   "location": "Rochester, NY",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "CIC Systems Engineer Co-op",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Summer-Fall-2027_R5051597-2"
+  },
+  "ge-vernova:611bb7fbb78c": {
+   "company": "GE Vernova",
+   "first_seen": "2026-09-04",
+   "location": "Rochester, NY",
+   "posted_at": "2026-09-03",
+   "role": "devops-sre",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Co-op - Critical Infrastructure Communication Engineering",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Software-Engineering---Co-op--Summer---Fall_R5051794-1"
+  },
+  "ge-vernova:72e3c5e36672": {
+   "company": "GE Vernova",
+   "first_seen": "2026-09-04",
+   "location": "Rochester, NY",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "CIC Systems Engineer Co-op",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Summer-Fall-2027_R5051597-1"
+  },
+  "ge-vernova:745427b8b6aa": {
+   "company": "GE Vernova",
+   "first_seen": "2026-09-04",
+   "location": "Rochester, NY",
+   "posted_at": "2026-09-03",
+   "role": "devops-sre",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Co-op - Critical Infrastructure Communication",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Software-Engineering---Co-op---Spring-Summer-2027_R5051780-1"
+  },
   "ge-vernova:8b746c45914f": {
    "company": "GE Vernova",
    "first_seen": "2026-08-21",
@@ -17347,6 +17542,54 @@
    "tier": "intern",
    "title": "Energy Optimization Software Engineer Intern - Summer 2027 🎓",
    "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050022-1"
+  },
+  "ge-vernova:a11f23e0ff7d": {
+   "company": "GE Vernova",
+   "first_seen": "2026-09-04",
+   "location": "Rochester, NY",
+   "posted_at": "2026-09-03",
+   "role": "devops-sre",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Co-op - Critical Infrastructure Communication Engineering",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Rochester/GE-Vernova-Software-Engineering---Co-op--Summer---Fall_R5051794-2"
+  },
+  "ge-vernova:bfa2e86ac899": {
+   "company": "GE Vernova",
+   "first_seen": "2026-09-04",
+   "location": "Rochester, NY",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "CIC Systems Engineer Co-op",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Spring---Summer-2027_R5051807-2"
+  },
+  "ge-vernova:c287ac0f54c2": {
+   "company": "GE Vernova",
+   "first_seen": "2026-09-04",
+   "location": "Rochester, NY",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "CIC Systems Engineer Co-op",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Spring---Summer-2027_R5051807-1"
+  },
+  "ge-vernova:e86f18c73274": {
+   "company": "GE Vernova",
+   "first_seen": "2026-09-04",
+   "location": "Rochester, NY",
+   "posted_at": "2026-09-03",
+   "role": "devops-sre",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Co-op - Critical Infrastructure Communication",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Rochester/GE-Vernova-Software-Engineering---Co-op---Spring-Summer-2027_R5051780-2"
   },
   "geico:fbdc91ddcd0d": {
    "company": "Geico",
@@ -19924,6 +20167,18 @@
    "title": "Quantitative Developer Intern - Summer 2027",
    "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594"
   },
+  "innovative-systems:d98a905560a3": {
+   "company": "Innovative Systems",
+   "first_seen": "2026-09-04",
+   "location": "Pittsburgh, PA",
+   "posted_at": "2026-09-04",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern/Co-op",
+   "url": "http://innovativesystems.applytojob.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering"
+  },
   "instacart:172cbaf39868": {
    "company": "Instacart",
    "first_seen": "2026-08-20",
@@ -21300,6 +21555,18 @@
    "title": "Data Engineering Intern",
    "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/ARDMORE-OK/Summer-2027-Internship--Data-Engineering---Ardmore--OK-_R-2026030979"
   },
+  "microchip-technology:53c1516eb586": {
+   "company": "Microchip Technology",
+   "first_seen": "2026-09-04",
+   "location": "Chandler, AZ",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Engineer 1 - Software Development",
+   "url": "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Engineer-I--CAD--Software-Development-_R3637-26"
+  },
   "microchip-technology:bc716ebb2539": {
    "company": "Microchip Technology",
    "first_seen": "2026-08-26",
@@ -21575,6 +21842,18 @@
    "tier": "experienced",
    "title": "Site Reliability Engineer 3",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7821316"
+  },
+  "motorola:801623a8fc8e": {
+   "company": "Motorola",
+   "first_seen": "2026-09-04",
+   "location": "Schaumburg, IL; Plantation, FL",
+   "posted_at": "2026-09-03",
+   "role": "mobile",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Android Platform Software Engineer Intern - Summer 2027",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363"
   },
   "motorola:8635928cac8f": {
    "company": "Motorola",
@@ -32979,6 +33258,18 @@
    "title": "Software Engineer 1",
    "url": "https://jobs.ashbyhq.com/runsybil-jobs/fd733ce7-7892-4019-9f6d-b6a75ba2aa59/application?embed=true"
   },
+  "saab:f5990f6e2352": {
+   "company": "Saab",
+   "first_seen": "2026-09-04",
+   "location": "East Syracuse, NY",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Co-op",
+   "url": "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1"
+  },
   "sage:52a501eba653": {
    "company": "Sage",
    "first_seen": "2026-08-24",
@@ -34154,6 +34445,90 @@
    "title": "Junior Software Development Engineer",
    "url": "https://siemens.avature.net/en_US/externaljobs/JobDetail/520535"
   },
+  "sierra-nevada-corporation:292ef706a0c6": {
+   "company": "Sierra Nevada Corporation",
+   "first_seen": "2026-09-04",
+   "location": "Dayton, OH",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Summer 2027",
+   "url": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Dayton-OH/Software-Engineering-Intern--Summer-2027-_R0030754"
+  },
+  "sierra-nevada-corporation:51f9c04f7cd1": {
+   "company": "Sierra Nevada Corporation",
+   "first_seen": "2026-09-04",
+   "location": "Folsom, CA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1"
+  },
+  "sierra-nevada-corporation:7fddd4b0a8fb": {
+   "company": "Sierra Nevada Corporation",
+   "first_seen": "2026-09-04",
+   "location": "Southern Pines, NC",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759"
+  },
+  "sierra-nevada-corporation:89a325693109": {
+   "company": "Sierra Nevada Corporation",
+   "first_seen": "2026-09-04",
+   "location": "Sparks, NV",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
+  },
+  "sierra-nevada-corporation:91f9ecf1ce17": {
+   "company": "Sierra Nevada Corporation",
+   "first_seen": "2026-09-04",
+   "location": "Lone Tree, CO",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Summer 2027",
+   "url": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757"
+  },
+  "sierra-nevada-corporation:a509bc13ff15": {
+   "company": "Sierra Nevada Corporation",
+   "first_seen": "2026-09-04",
+   "location": "Hagerstown, MD",
+   "posted_at": "2026-09-03",
+   "role": "qa-test",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Test Engineer Intern - Summer 2027",
+   "url": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Hagerstown-MD/Test-Engineering-Intern--Summer-2027-_R0030772"
+  },
+  "sierra-nevada-corporation:a836edd90026": {
+   "company": "Sierra Nevada Corporation",
+   "first_seen": "2026-09-04",
+   "location": "Plano, TX",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Summer 2027",
+   "url": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758"
+  },
   "sierra-nevada-corporation:b97dc06c0ebd": {
    "company": "Sierra Nevada Corporation",
    "first_seen": "2026-08-28",
@@ -34261,6 +34636,30 @@
    "tier": "newgrad",
    "title": "Junior Data Scientist",
    "url": "https://eodq.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3742"
+  },
+  "skydio:65fe06275269": {
+   "company": "Skydio",
+   "first_seen": "2026-09-04",
+   "location": "San Mateo, CA",
+   "posted_at": "2026-09-04",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Autonomy Engineer Intern - Computer Vision / Deep Learning - Summer 2027",
+   "url": "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9/application?embed=true"
+  },
+  "skyward:492f8b2f3045": {
+   "company": "Skyward",
+   "first_seen": "2026-09-04",
+   "location": "Stevens Point, WI",
+   "posted_at": "2026-09-04",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://jobs.smartrecruiters.com/Skyward1/744000147320799"
   },
   "smarter-agent:8d917016e9df": {
    "company": "Smarter Agent",
@@ -39668,6 +40067,18 @@
    "title": "Software Engineer Intern - US - Summer 2027",
    "url": "https://jobs.ashbyhq.com/telus-digital/32ee6ede-d3cf-4827-b7af-f8d64f2bca11/application?embed=true"
   },
+  "tesla:371ffc8f8212": {
+   "company": "Tesla",
+   "first_seen": "2026-09-04",
+   "location": "Palo Alto, CA",
+   "posted_at": "2026-09-04",
+   "role": "embedded",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Embedded Software Engineer Intern - Optimus",
+   "url": "https://www.tesla.com/careers/search/job/282340"
+  },
   "tesla:4b86fc0afbc7": {
    "company": "Tesla",
    "first_seen": "2026-08-28",
@@ -39859,6 +40270,18 @@
    "tier": "intern",
    "title": "Software Engineer Co-op - Uncrewed Land & Air",
    "url": "https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342650"
+  },
+  "the-exploration-company:30663b38688c": {
+   "company": "The Exploration Company",
+   "first_seen": "2026-09-04",
+   "location": "LA",
+   "posted_at": "2026-09-04",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Engineering Intern - Software",
+   "url": "https://jobs.ashbyhq.com/the-exploration-company/86270058-8eec-4692-b49d-97ce59fd54ac/application?embed=true"
   },
   "the-hartford:01141ecd3811": {
    "company": "The Hartford",
@@ -40975,6 +41398,18 @@
    "tier": "intern",
    "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph 🎓",
    "url": "https://lifeattiktok.com/search/7676650607912601861"
+  },
+  "tiktok:ae220d9072fa": {
+   "company": "TikTok",
+   "first_seen": "2026-09-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-08-08",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "AI/ML Infrastructure Engineer Intern - Data-Arch-Tiktok Live",
+   "url": "https://lifeattiktok.com/search/7670876223732762933"
   },
   "tiktok:ae4d593ebc30": {
    "company": "TikTok",
@@ -43346,6 +43781,18 @@
    "title": "(USA) Software Engineer III",
    "url": "https://careers.walmart.com/us/en/job/R-2600874"
   },
+  "walmart:3715d5f12372": {
+   "company": "Walmart",
+   "first_seen": "2026-09-04",
+   "location": "Sunnyvale, CA",
+   "posted_at": "2026-09-03",
+   "role": "data",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Data Scientist 3 Intern - 2026 Intern Conversion: 2027 FT",
+   "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Crossman-Respect-Building-CA-SUNNYVALE-Home-Office/XMLNAME-2026-Intern-Conversion--2027-FT-Data-Scientist-III--Sunnyvale_R-2630125"
+  },
   "wavestone:8c70b0a94d8d": {
    "company": "Wavestone",
    "first_seen": "2026-08-22",
@@ -44244,12 +44691,12 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2200,
+   "last": 2196,
    "last_ok": "2026-09-04"
   },
   "Anthropic": {
-   "best": 589,
-   "last": 589,
+   "best": 590,
+   "last": 590,
    "last_ok": "2026-09-04"
   },
   "Apple": {
@@ -44295,7 +44742,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 153,
+   "last": 152,
    "last_ok": "2026-09-04"
   },
   "Carta": {
@@ -44320,8 +44767,8 @@
    "reported_dead": "2026-08-24"
   },
   "Cloudflare": {
-   "best": 328,
-   "last": 328,
+   "best": 329,
+   "last": 329,
    "last_ok": "2026-09-04"
   },
   "Cognition": {
@@ -44335,13 +44782,13 @@
    "last_ok": "2026-09-04"
   },
   "Databricks": {
-   "best": 864,
-   "last": 858,
+   "best": 865,
+   "last": 865,
    "last_ok": "2026-09-04"
   },
   "Datadog": {
    "best": 456,
-   "last": 443,
+   "last": 444,
    "last_ok": "2026-09-04"
   },
   "Decagon": {
@@ -44370,8 +44817,8 @@
    "last_ok": "2026-09-04"
   },
   "Elastic": {
-   "best": 361,
-   "last": 357,
+   "best": 362,
+   "last": 362,
    "last_ok": "2026-09-04"
   },
   "ElevenLabs": {
@@ -44396,7 +44843,7 @@
   },
   "GitLab": {
    "best": 234,
-   "last": 230,
+   "last": 231,
    "last_ok": "2026-09-04"
   },
   "Google": {
@@ -44411,7 +44858,7 @@
   },
   "Harvey": {
    "best": 362,
-   "last": 341,
+   "last": 339,
    "last_ok": "2026-09-04"
   },
   "Instacart": {
@@ -44472,7 +44919,7 @@
   },
   "Nuro": {
    "best": 110,
-   "last": 109,
+   "last": 108,
    "last_ok": "2026-09-04"
   },
   "Nvidia": {
@@ -44487,7 +44934,7 @@
   },
   "OpenAI": {
    "best": 771,
-   "last": 767,
+   "last": 768,
    "last_ok": "2026-09-04"
   },
   "OpenEvidence": {
@@ -44552,12 +44999,12 @@
   },
   "Salesforce": {
    "best": 168,
-   "last": 157,
+   "last": 158,
    "last_ok": "2026-09-04"
   },
   "Samsara": {
    "best": 269,
-   "last": 244,
+   "last": 243,
    "last_ok": "2026-09-04"
   },
   "Scale AI": {
@@ -44566,13 +45013,13 @@
    "last_ok": "2026-09-04"
   },
   "Simplify Aggregator": {
-   "best": 1416,
-   "last": 1394,
+   "best": 1469,
+   "last": 1469,
    "last_ok": "2026-09-04"
   },
   "Snowflake": {
    "best": 393,
-   "last": 371,
+   "last": 372,
    "last_ok": "2026-09-04"
   },
   "SoFi": {
@@ -44581,8 +45028,8 @@
    "last_ok": "2026-09-04"
   },
   "SpaceX": {
-   "best": 2308,
-   "last": 2308,
+   "best": 2309,
+   "last": 2309,
    "last_ok": "2026-09-04"
   },
   "Spotify": {
@@ -44591,8 +45038,8 @@
    "last_ok": "2026-09-04"
   },
   "Stripe": {
-   "best": 611,
-   "last": 611,
+   "best": 612,
+   "last": 612,
    "last_ok": "2026-09-04"
   },
   "Suno": {
@@ -44630,7 +45077,7 @@
   },
   "Upstart": {
    "best": 101,
-   "last": 89,
+   "last": 88,
    "last_ok": "2026-09-04"
   },
   "Vanta": {
@@ -44661,7 +45108,7 @@
   },
   "Waymo": {
    "best": 367,
-   "last": 344,
+   "last": 343,
    "last_ok": "2026-09-04"
   },
   "Webflow": {
@@ -44670,6 +45117,6 @@
    "last_ok": "2026-09-04"
   }
  },
- "updated": "2026-09-04T01:14:59Z",
+ "updated": "2026-09-04T04:48:55Z",
  "version": 1
 }
