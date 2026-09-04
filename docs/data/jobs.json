@@ -3490,6 +3490,20 @@
    "url": "https://www.amazon.jobs/en/jobs/10522935/robotics-embedded-software-development-engineer",
    "yoe": 18
   },
+  "amazon:cf59a4107470": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-04",
+   "location": "North Reading, Massachusetts, USA",
+   "posted_at": "2026-09-04",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Development Engineer Intern, ROBOTICS - 2027",
+   "url": "https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027"
+  },
   "amazon:d0b800272be0": {
    "company": "Amazon",
    "department": "Software Development",
@@ -44234,8 +44248,8 @@
    "last_ok": "2026-09-04"
   },
   "Anthropic": {
-   "best": 588,
-   "last": 588,
+   "best": 589,
+   "last": 589,
    "last_ok": "2026-09-04"
   },
   "Apple": {
@@ -44473,7 +44487,7 @@
   },
   "OpenAI": {
    "best": 771,
-   "last": 768,
+   "last": 767,
    "last_ok": "2026-09-04"
   },
   "OpenEvidence": {
@@ -44656,6 +44670,6 @@
    "last_ok": "2026-09-04"
   }
  },
- "updated": "2026-09-04T00:12:51Z",
+ "updated": "2026-09-04T01:14:59Z",
  "version": 1
 }
