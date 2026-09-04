@@ -3226,6 +3226,21 @@
    "title": "Embedded Software Dev Engineer, Amazon Leo Customer Terminal Software",
    "url": "https://www.amazon.jobs/en/jobs/10507323/embedded-software-dev-engineer-amazon-leo-customer-terminal-software"
   },
+  "amazon:bdae25764060": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-04",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AWS Vulnerability Management",
+   "url": "https://www.amazon.jobs/en/jobs/10529483/software-development-engineer-ii-aws-vulnerability-management",
+   "yoe": 2
+  },
   "amazon:bde95d94c998": {
    "company": "Amazon",
    "department": "Software Development",
@@ -9781,6 +9796,7 @@
    "first_seen": "2026-08-20",
    "location": "USA - Colorado Springs, CO",
    "posted_at": "2026-08-07",
+   "role": "software",
    "source": "workday",
    "status": "new",
    "tier": "experienced",
@@ -11222,6 +11238,18 @@
    "tier": "experienced",
    "title": "T-7A Aero Performance Engineer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/T-7A-Aero-Performance-Engineer_JR2026517267"
+  },
+  "boeing:feb77cd11715": {
+   "company": "Boeing",
+   "first_seen": "2026-09-04",
+   "location": "USA - Huntsville, AL",
+   "posted_at": "2026-09-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Associate Systems Engineer - Processor IPT",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Associate-Systems-Engineer---Processor-IPT_JR2026517292-1"
   },
   "boeing:feba6102de39": {
    "company": "Boeing",
@@ -13960,6 +13988,18 @@
    "title": "Lead Full Stack Software Engineer (Bank Tech)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Lead-Software-Engineer--Bank-Tech_R232611-2"
   },
+  "capital-one:e5d31df2c60c": {
+   "company": "Capital One",
+   "first_seen": "2026-09-04",
+   "location": "2 Locations",
+   "posted_at": "2026-09-04",
+   "role": "data",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Data Engineer (Python, AWS, Spark, SQL, Snowflake, Databricks, & GenAI) (Enterprise Platforms Technology)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Lead-Data-Engineer--Python--AWS--Spark--SQL--Snowflake--Databricks----GenAI---Enterprise-Platforms-Technology-_R999963-1"
+  },
   "capital-one:e8e17db8e1db": {
    "company": "Capital One",
    "first_seen": "2026-08-24",
@@ -14761,6 +14801,18 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://www.coinbase.com/careers/positions/8003605?gh_jid=8003605"
+  },
+  "coinbase:759d00e71519": {
+   "company": "Coinbase",
+   "first_seen": "2026-09-04",
+   "location": "Remote - USA",
+   "posted_at": "2026-08-20",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Blockchain Platform Nodes",
+   "url": "https://www.coinbase.com/careers/positions/8105437?gh_jid=8105437"
   },
   "coinbase:d680e99b893e": {
    "company": "Coinbase",
@@ -20469,6 +20521,18 @@
    "tier": "intern",
    "title": "Data Engineering & Analytics Intern",
    "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Data-Engineering---Analytics-Intern_R-00190672-1"
+  },
+  "leidos:2cada9630e7e": {
+   "company": "Leidos",
+   "first_seen": "2026-09-04",
+   "location": "St. Louis, MO",
+   "posted_at": "2026-08-05",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Entry Level Software Developer",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/St-Louis-MO/Entry-Level-Software-Developer_R-00186923"
   },
   "leidos:4744e4d21075": {
    "company": "Leidos",
@@ -35145,6 +35209,18 @@
    "title": "RF Software Engineer (Starshield)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8517637002?gh_jid=8517637002"
   },
+  "spacex:2e7d6960cf41": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-04",
+   "location": "Hawthorne, CA",
+   "posted_at": "2026-09-03",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Security Software Engineer (Starshield)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8782397002?gh_jid=8782397002"
+  },
   "spacex:2f78bf5a6e93": {
    "company": "SpaceX",
    "first_seen": "2026-08-20",
@@ -35636,6 +35712,18 @@
    "title": "Software Engineer, Starlink Network",
    "url": "https://boards.greenhouse.io/spacex/jobs/8477137002?gh_jid=8477137002"
   },
+  "spacex:52832f5ac5de": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-04",
+   "location": "Starbase, TX",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (Flight Reliability)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8783284002?gh_jid=8783284002"
+  },
   "spacex:544095c92915": {
    "company": "SpaceX",
    "first_seen": "2026-08-20",
@@ -35815,6 +35903,18 @@
    "tier": "experienced",
    "title": "Embedded Security Engineer (Starlink)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8719863002?gh_jid=8719863002"
+  },
+  "spacex:5e9df8f887ba": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-04",
+   "location": "Hawthorne, CA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (Flight Reliability)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8783243002?gh_jid=8783243002"
   },
   "spacex:6044cd1d8be4": {
    "company": "SpaceX",
@@ -36834,6 +36934,18 @@
    "tier": "experienced",
    "title": "Wireless Software Engineer (Starlink)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8637826002?gh_jid=8637826002"
+  },
+  "spacex:acbcf169f720": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-04",
+   "location": "Redmond, WA",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (Flight Reliability)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8783281002?gh_jid=8783281002"
   },
   "spacex:ad59091fa9e5": {
    "company": "SpaceX",
@@ -38092,6 +38204,18 @@
    "tier": "experienced",
    "title": "Avionics Integration & Test Engineer (Starshield)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8625626002?gh_jid=8625626002"
+  },
+  "spacex:fa509c93f30d": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-04",
+   "location": "Washington, DC",
+   "posted_at": "2026-09-03",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Security Software Engineer (Starshield)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8782424002?gh_jid=8782424002"
   },
   "spacex:fae53f96f448": {
    "company": "SpaceX",
@@ -39998,6 +40122,18 @@
    "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🎓",
    "url": "https://lifeattiktok.com/search/7672881840860940597"
   },
+  "tiktok:14cd503e13c0": {
+   "company": "TikTok",
+   "first_seen": "2026-09-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-08-05",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Machine Learning Infrastructure Engineer Intern - Ads Infrastructure",
+   "url": "https://lifeattiktok.com/search/7668881813744191749"
+  },
   "tiktok:193346c2b665": {
    "company": "TikTok",
    "first_seen": "2026-08-22",
@@ -40513,6 +40649,18 @@
    "tier": "intern",
    "title": "Machine Learning Engineer Intern - Brand Ads",
    "url": "https://lifeattiktok.com/search/7668654528822954245"
+  },
+  "tiktok:687df9883e96": {
+   "company": "TikTok",
+   "first_seen": "2026-09-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-08-05",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Machine Learning Infrastructure Engineer New Grad - Ads Infra",
+   "url": "https://lifeattiktok.com/search/7668693662561634613"
   },
   "tiktok:6c392963f88d": {
    "company": "TikTok",
@@ -44053,42 +44201,42 @@
   "Abridge": {
    "best": 48,
    "last": 40,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Adobe": {
    "best": 190,
-   "last": 185,
-   "last_ok": "2026-09-03"
+   "last": 186,
+   "last_ok": "2026-09-04"
   },
   "Affirm": {
    "best": 210,
    "last": 203,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Airbnb": {
    "best": 195,
-   "last": 171,
-   "last_ok": "2026-09-03"
+   "last": 172,
+   "last_ok": "2026-09-04"
   },
   "Airtable": {
    "best": 16,
    "last": 16,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Anduril": {
    "best": 2239,
-   "last": 2205,
-   "last_ok": "2026-09-03"
+   "last": 2200,
+   "last_ok": "2026-09-04"
   },
   "Anthropic": {
    "best": 588,
    "last": 588,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Apple": {
    "best": 0,
@@ -44099,57 +44247,57 @@
   "Asana": {
    "best": 126,
    "last": 113,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Attentive": {
    "best": 39,
    "last": 37,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Betterment": {
    "best": 32,
-   "last": 29,
-   "last_ok": "2026-09-03"
+   "last": 28,
+   "last_ok": "2026-09-04"
   },
   "Block": {
    "best": 203,
-   "last": 203,
-   "last_ok": "2026-09-03"
+   "last": 201,
+   "last_ok": "2026-09-04"
   },
   "Boeing": {
    "best": 195,
    "last": 181,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Brex": {
    "best": 299,
    "last": 272,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "CVS Health": {
    "best": 200,
-   "last": 200,
-   "last_ok": "2026-09-03"
+   "last": 198,
+   "last_ok": "2026-09-04"
   },
   "Capital One": {
    "best": 171,
-   "last": 150,
-   "last_ok": "2026-09-03"
+   "last": 153,
+   "last_ok": "2026-09-04"
   },
   "Carta": {
    "best": 61,
    "last": 61,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Checkr": {
    "best": 50,
    "last": 44,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Chime": {
    "best": 65,
    "last": 64,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Citadel": {
    "best": 0,
@@ -44160,117 +44308,117 @@
   "Cloudflare": {
    "best": 328,
    "last": 328,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Cognition": {
    "best": 91,
    "last": 91,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Coinbase": {
    "best": 192,
-   "last": 188,
-   "last_ok": "2026-09-03"
+   "last": 187,
+   "last_ok": "2026-09-04"
   },
   "Databricks": {
    "best": 864,
-   "last": 860,
-   "last_ok": "2026-09-03"
+   "last": 858,
+   "last_ok": "2026-09-04"
   },
   "Datadog": {
    "best": 456,
    "last": 443,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Decagon": {
    "best": 139,
-   "last": 139,
-   "last_ok": "2026-09-03"
+   "last": 138,
+   "last_ok": "2026-09-04"
   },
   "Discord": {
    "best": 52,
-   "last": 48,
-   "last_ok": "2026-09-03"
+   "last": 49,
+   "last_ok": "2026-09-04"
   },
   "DoorDash": {
    "best": 475,
-   "last": 463,
-   "last_ok": "2026-09-03"
+   "last": 457,
+   "last_ok": "2026-09-04"
   },
   "Dropbox": {
    "best": 44,
    "last": 40,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Duolingo": {
    "best": 91,
    "last": 90,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Elastic": {
    "best": 361,
-   "last": 358,
-   "last_ok": "2026-09-03"
+   "last": 357,
+   "last_ok": "2026-09-04"
   },
   "ElevenLabs": {
    "best": 256,
    "last": 252,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Faire": {
    "best": 67,
    "last": 60,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Figma": {
    "best": 163,
    "last": 157,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Flexport": {
    "best": 174,
    "last": 173,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "GitLab": {
    "best": 234,
-   "last": 229,
-   "last_ok": "2026-09-03"
+   "last": 230,
+   "last_ok": "2026-09-04"
   },
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Gusto": {
    "best": 94,
-   "last": 89,
-   "last_ok": "2026-09-03"
+   "last": 88,
+   "last_ok": "2026-09-04"
   },
   "Harvey": {
    "best": 362,
-   "last": 332,
-   "last_ok": "2026-09-03"
+   "last": 341,
+   "last_ok": "2026-09-04"
   },
   "Instacart": {
    "best": 125,
-   "last": 108,
-   "last_ok": "2026-09-03"
+   "last": 113,
+   "last_ok": "2026-09-04"
   },
   "Komodo Health": {
    "best": 37,
    "last": 34,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Linear": {
    "best": 32,
    "last": 28,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Lyft": {
    "best": 170,
    "last": 170,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Marqeta": {
    "best": 2,
@@ -44280,12 +44428,12 @@
   "Match Group": {
    "best": 81,
    "last": 73,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Mercury": {
    "best": 58,
    "last": 58,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Microsoft": {
    "best": 0,
@@ -44296,152 +44444,152 @@
   "MongoDB": {
    "best": 412,
    "last": 406,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Notion": {
    "best": 135,
-   "last": 132,
-   "last_ok": "2026-09-03"
+   "last": 133,
+   "last_ok": "2026-09-04"
   },
   "Nuro": {
    "best": 110,
    "last": 109,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Nvidia": {
    "best": 196,
    "last": 194,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Okta": {
    "best": 350,
    "last": 317,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "OpenAI": {
    "best": 771,
    "last": 768,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "OpenEvidence": {
    "best": 8,
    "last": 8,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "PagerDuty": {
    "best": 45,
    "last": 43,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Palantir": {
    "best": 310,
    "last": 310,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Peloton": {
    "best": 53,
    "last": 49,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Perplexity": {
    "best": 112,
    "last": 112,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Pinterest": {
    "best": 225,
-   "last": 195,
-   "last_ok": "2026-09-03"
+   "last": 194,
+   "last_ok": "2026-09-04"
   },
   "Plaid": {
    "best": 104,
    "last": 102,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Ramp": {
-   "best": 140,
-   "last": 140,
-   "last_ok": "2026-09-03"
+   "best": 143,
+   "last": 143,
+   "last_ok": "2026-09-04"
   },
   "Reddit": {
    "best": 156,
    "last": 147,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Replit": {
    "best": 74,
    "last": 72,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Robinhood": {
    "best": 133,
    "last": 133,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Roblox": {
    "best": 237,
    "last": 227,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Salesforce": {
    "best": 168,
-   "last": 156,
-   "last_ok": "2026-09-03"
+   "last": 157,
+   "last_ok": "2026-09-04"
   },
   "Samsara": {
    "best": 269,
    "last": 244,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Scale AI": {
    "best": 219,
-   "last": 212,
-   "last_ok": "2026-09-03"
+   "last": 215,
+   "last_ok": "2026-09-04"
   },
   "Simplify Aggregator": {
    "best": 1416,
-   "last": 1408,
-   "last_ok": "2026-09-03"
+   "last": 1394,
+   "last_ok": "2026-09-04"
   },
   "Snowflake": {
    "best": 393,
-   "last": 375,
-   "last_ok": "2026-09-03"
+   "last": 371,
+   "last_ok": "2026-09-04"
   },
   "SoFi": {
    "best": 63,
-   "last": 59,
-   "last_ok": "2026-09-03"
+   "last": 60,
+   "last_ok": "2026-09-04"
   },
   "SpaceX": {
-   "best": 2301,
-   "last": 2301,
-   "last_ok": "2026-09-03"
+   "best": 2308,
+   "last": 2308,
+   "last_ok": "2026-09-04"
   },
   "Spotify": {
    "best": 95,
    "last": 73,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Stripe": {
    "best": 611,
    "last": 611,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Suno": {
-   "best": 63,
-   "last": 63,
-   "last_ok": "2026-09-03"
+   "best": 64,
+   "last": 64,
+   "last_ok": "2026-09-04"
   },
   "Target": {
    "best": 200,
    "last": 198,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Tesla": {
    "best": 0,
@@ -44452,7 +44600,7 @@
   "Twilio": {
    "best": 146,
    "last": 144,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Two Sigma": {
    "best": 0,
@@ -44468,23 +44616,23 @@
   },
   "Upstart": {
    "best": 101,
-   "last": 90,
-   "last_ok": "2026-09-03"
+   "last": 89,
+   "last_ok": "2026-09-04"
   },
   "Vanta": {
    "best": 110,
    "last": 110,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Verizon": {
    "best": 138,
    "last": 125,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Verkada": {
    "best": 291,
-   "last": 291,
-   "last_ok": "2026-09-03"
+   "last": 288,
+   "last_ok": "2026-09-04"
   },
   "Visa": {
    "best": 0,
@@ -44495,19 +44643,19 @@
   "Walmart Global Tech": {
    "best": 200,
    "last": 200,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   },
   "Waymo": {
    "best": 367,
-   "last": 346,
-   "last_ok": "2026-09-03"
+   "last": 344,
+   "last_ok": "2026-09-04"
   },
   "Webflow": {
    "best": 31,
    "last": 29,
-   "last_ok": "2026-09-03"
+   "last_ok": "2026-09-04"
   }
  },
- "updated": "2026-09-03T23:27:20Z",
+ "updated": "2026-09-04T00:12:51Z",
  "version": 1
 }
