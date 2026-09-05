@@ -27036,6 +27036,22 @@
    "url": "https://jobs.ashbyhq.com/openai/e71cf565-4b21-4b0d-bf45-b22e58ca95eb",
    "yoe": 5
   },
+  "openai:84891ab6ca35": {
+   "comp": "$266K – $445K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Security",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "San Francisco",
+   "posted_at": "2026-09-05",
+   "role": "software",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Host Assurance",
+   "url": "https://jobs.ashbyhq.com/openai/0b9e565a-ae5f-40fc-8350-b59f71f76df1",
+   "workplace": "Hybrid"
+  },
   "openai:8571bde5e3e1": {
    "comp": "$380K – $445K • Offers Equity",
    "company": "OpenAI",
@@ -46159,7 +46175,7 @@
   },
   "Cloudflare": {
    "best": 332,
-   "last": 332,
+   "last": 331,
    "last_ok": "2026-09-05"
   },
   "Cognition": {
@@ -46320,12 +46336,12 @@
   },
   "Okta": {
    "best": 350,
-   "last": 313,
+   "last": 314,
    "last_ok": "2026-09-05"
   },
   "OpenAI": {
    "best": 779,
-   "last": 778,
+   "last": 779,
    "last_ok": "2026-09-05"
   },
   "OpenEvidence": {
@@ -46390,7 +46406,7 @@
   },
   "Salesforce": {
    "best": 168,
-   "last": 167,
+   "last": 166,
    "last_ok": "2026-09-05"
   },
   "Samsara": {
@@ -46405,7 +46421,7 @@
   },
   "Simplify Aggregator": {
    "best": 1520,
-   "last": 1506,
+   "last": 1517,
    "last_ok": "2026-09-05"
   },
   "Snowflake": {
@@ -46499,7 +46515,7 @@
   },
   "Waymo": {
    "best": 367,
-   "last": 344,
+   "last": 343,
    "last_ok": "2026-09-05"
   },
   "Webflow": {
@@ -46508,6 +46524,6 @@
    "last_ok": "2026-09-05"
   }
  },
- "updated": "2026-09-05T13:58:29Z",
+ "updated": "2026-09-05T15:23:04Z",
  "version": 1
 }
