@@ -921,6 +921,18 @@
    "title": "Software Engineer II, Fullstack (App Experience)",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7819445003"
   },
+  "aiprise:6753ace70f43": {
+   "company": "AiPrise",
+   "first_seen": "2026-09-05",
+   "location": "San Jose, CA",
+   "posted_at": "2026-09-05",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://jobs.ashbyhq.com/aiprise/baf8a79b-d035-4bc1-8b12-4ef48e0257ba/application?embed=true"
+  },
   "airbnb:1ea6690b490f": {
    "company": "Airbnb",
    "first_seen": "2026-09-01",
@@ -31628,6 +31640,22 @@
    "title": "Member of Technical Staff (Secure Intelligence Institute)",
    "url": "https://jobs.ashbyhq.com/perplexity/32a36cae-ad73-4198-9354-a72b141ff055"
   },
+  "perplexity:da841ab979dc": {
+   "comp": "$220K – $405K • Offers Equity",
+   "company": "Perplexity",
+   "department": "Platform & Infrastructure",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "San Francisco",
+   "posted_at": "2026-09-05",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff (Software Engineer, Infrastructure)",
+   "url": "https://jobs.ashbyhq.com/perplexity/76c9b39f-aecc-4247-b5f5-ebcd02dff7c3",
+   "yoe": 4
+  },
   "perplexity:dcbcf544f96d": {
    "comp": "$220K – $405K • Offers Equity",
    "company": "Perplexity",
@@ -46090,7 +46118,7 @@
   },
   "Boeing": {
    "best": 195,
-   "last": 184,
+   "last": 183,
    "last_ok": "2026-09-05"
   },
   "Brex": {
@@ -46287,7 +46315,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 0,
+   "last": 192,
    "last_ok": "2026-09-05"
   },
   "Okta": {
@@ -46322,7 +46350,7 @@
   },
   "Perplexity": {
    "best": 112,
-   "last": 111,
+   "last": 112,
    "last_ok": "2026-09-05"
   },
   "Pinterest": {
@@ -46377,7 +46405,7 @@
   },
   "Simplify Aggregator": {
    "best": 1520,
-   "last": 1520,
+   "last": 1506,
    "last_ok": "2026-09-05"
   },
   "Snowflake": {
@@ -46391,8 +46419,8 @@
    "last_ok": "2026-09-05"
   },
   "SpaceX": {
-   "best": 2331,
-   "last": 2331,
+   "best": 2334,
+   "last": 2334,
    "last_ok": "2026-09-05"
   },
   "Spotify": {
@@ -46401,8 +46429,8 @@
    "last_ok": "2026-09-05"
   },
   "Stripe": {
-   "best": 615,
-   "last": 614,
+   "best": 616,
+   "last": 616,
    "last_ok": "2026-09-05"
   },
   "Suno": {
@@ -46423,7 +46451,7 @@
   },
   "Twilio": {
    "best": 147,
-   "last": 146,
+   "last": 147,
    "last_ok": "2026-09-05"
   },
   "Two Sigma": {
@@ -46480,6 +46508,6 @@
    "last_ok": "2026-09-05"
   }
  },
- "updated": "2026-09-05T06:09:49Z",
+ "updated": "2026-09-05T10:47:17Z",
  "version": 1
 }
