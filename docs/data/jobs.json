@@ -2004,6 +2004,21 @@
    "title": "SDE II, AWS Field Experience ",
    "url": "https://www.amazon.jobs/en/jobs/10503183/sde-ii-aws-field-experience"
   },
+  "amazon:4c707f8895d1": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-05",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Infra Supply Chain Automation - Backbone planning",
+   "url": "https://www.amazon.jobs/en/jobs/10530589/software-development-engineer-aws-infra-supply-chain-automation-backbone-planning",
+   "yoe": 3
+  },
   "amazon:4d3154ebc123": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3459,6 +3474,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10508230/software-development-engineer-amazon-brand-store",
    "yoe": 1
   },
+  "amazon:b72615798619": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-05",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Infra Supply Chain Automation, AWS Infra Supply Chain Automation",
+   "url": "https://www.amazon.jobs/en/jobs/10530587/software-development-engineer-aws-infra-supply-chain-automation-aws-infra-supply-chain-automation",
+   "yoe": 3
+  },
   "amazon:b751620731ca": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3620,6 +3650,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer, AWS Elastic Container Service",
    "url": "https://www.amazon.jobs/en/jobs/10530555/software-dev-engineer-aws-elastic-container-service",
+   "yoe": 1
+  },
+  "amazon:c14f52284b78": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-05",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AWS Supply Chain, AWS, Infra Supply Chain Automation",
+   "url": "https://www.amazon.jobs/en/jobs/10530588/software-development-engineer-ii-aws-supply-chain-aws-infra-supply-chain-automation",
    "yoe": 1
   },
   "amazon:c2e05f6ea287": {
@@ -46194,7 +46239,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 190,
+   "last": 191,
    "last_ok": "2026-09-05"
   },
   "Okta": {
@@ -46387,6 +46432,6 @@
    "last_ok": "2026-09-05"
   }
  },
- "updated": "2026-09-05T00:13:21Z",
+ "updated": "2026-09-05T01:17:48Z",
  "version": 1
 }
