@@ -4017,6 +4017,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515085/software-development-engineer-amazon-customer-service",
    "yoe": 2
   },
+  "amazon:df931d0c8bf2": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-05",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE - II, Search Product Grouping And Discovery Team",
+   "url": "https://www.amazon.jobs/en/jobs/10530720/sde-ii-search-product-grouping-and-discovery-team",
+   "yoe": 1
+  },
   "amazon:e0f016c69ef9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -46190,7 +46205,7 @@
   },
   "Databricks": {
    "best": 871,
-   "last": 870,
+   "last": 869,
    "last_ok": "2026-09-05"
   },
   "Datadog": {
@@ -46406,7 +46421,7 @@
   },
   "Salesforce": {
    "best": 168,
-   "last": 166,
+   "last": 165,
    "last_ok": "2026-09-05"
   },
   "Samsara": {
@@ -46416,7 +46431,7 @@
   },
   "Scale AI": {
    "best": 219,
-   "last": 216,
+   "last": 215,
    "last_ok": "2026-09-05"
   },
   "Simplify Aggregator": {
@@ -46450,8 +46465,8 @@
    "last_ok": "2026-09-05"
   },
   "Suno": {
-   "best": 64,
-   "last": 64,
+   "best": 65,
+   "last": 65,
    "last_ok": "2026-09-05"
   },
   "Target": {
@@ -46524,6 +46539,6 @@
    "last_ok": "2026-09-05"
   }
  },
- "updated": "2026-09-05T19:22:12Z",
+ "updated": "2026-09-05T20:33:23Z",
  "version": 1
 }
