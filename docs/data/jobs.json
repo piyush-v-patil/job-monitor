@@ -1440,6 +1440,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10512990/software-development-engineer-amazon-workspaces",
    "yoe": 2
   },
+  "amazon:16d2950eb5a3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-07",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE-II, Supply Chain",
+   "url": "https://www.amazon.jobs/en/jobs/10531028/sde-ii-supply-chain",
+   "yoe": 1
+  },
   "amazon:183174bdc0b8": {
    "company": "Amazon",
    "department": "Software Development",
@@ -17330,6 +17345,30 @@
    "title": "Software Engineer Intern - Summer 2027",
    "url": "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294"
   },
+  "dropbox:2a2a5ece3ef5": {
+   "company": "Dropbox",
+   "first_seen": "2026-09-07",
+   "location": "Remote in USA",
+   "posted_at": "2026-09-07",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Summer 2027",
+   "url": "https://boards.greenhouse.io/embed/job_app?token=8106224"
+  },
+  "dropbox:5711c95e4bc2": {
+   "company": "Dropbox",
+   "first_seen": "2026-09-07",
+   "location": "Remote - US: All locations",
+   "posted_at": "2026-09-07",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Intern (Summer 2027)",
+   "url": "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224"
+  },
   "dtcc:d16ccb351910": {
    "company": "DTCC",
    "first_seen": "2026-08-26",
@@ -21207,6 +21246,18 @@
    "title": "Quantitative Developer Internship - Summer 2027",
    "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134"
   },
+  "infinitequant:42a46806cd6b": {
+   "company": "InfiniteQuant",
+   "first_seen": "2026-09-07",
+   "location": "Dubai - United Arab Emirates; NYC",
+   "posted_at": "2026-09-03",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Quantitative Developer Intern",
+   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000147163879"
+  },
   "infinitequant:606c924e9838": {
    "company": "InfiniteQuant",
    "first_seen": "2026-08-23",
@@ -24951,6 +25002,18 @@
    "tier": "intern",
    "title": "Developer and Performance Technology Intern",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499"
+  },
+  "nxp-semiconductors:57e772b2e88a": {
+   "company": "NXP Semiconductors",
+   "first_seen": "2026-09-07",
+   "location": "Austin, TX",
+   "posted_at": "2026-09-07",
+   "role": "qa-test",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Design for Test Engineer Intern - Summer 2027",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Summer-2027_R-10065550"
   },
   "nxp-semiconductors:7396a1a64908": {
    "company": "NXP Semiconductors",
@@ -46243,7 +46306,7 @@
   },
   "Affirm": {
    "best": 210,
-   "last": 204,
+   "last": 205,
    "last_ok": "2026-09-07"
   },
   "Airbnb": {
@@ -46263,12 +46326,12 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2211,
+   "last": 2212,
    "last_ok": "2026-09-07"
   },
   "Anthropic": {
    "best": 595,
-   "last": 588,
+   "last": 589,
    "last_ok": "2026-09-07"
   },
   "Apple": {
@@ -46339,8 +46402,8 @@
    "reported_dead": "2026-08-24"
   },
   "Cloudflare": {
-   "best": 334,
-   "last": 334,
+   "best": 335,
+   "last": 335,
    "last_ok": "2026-09-07"
   },
   "Cognition": {
@@ -46355,12 +46418,12 @@
   },
   "Databricks": {
    "best": 876,
-   "last": 876,
+   "last": 872,
    "last_ok": "2026-09-07"
   },
   "Datadog": {
    "best": 456,
-   "last": 443,
+   "last": 442,
    "last_ok": "2026-09-07"
   },
   "Decagon": {
@@ -46380,7 +46443,7 @@
   },
   "Dropbox": {
    "best": 44,
-   "last": 42,
+   "last": 43,
    "last_ok": "2026-09-07"
   },
   "Duolingo": {
@@ -46389,13 +46452,13 @@
    "last_ok": "2026-09-07"
   },
   "Elastic": {
-   "best": 366,
-   "last": 366,
+   "best": 368,
+   "last": 368,
    "last_ok": "2026-09-07"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 253,
+   "last": 252,
    "last_ok": "2026-09-07"
   },
   "Faire": {
@@ -46435,7 +46498,7 @@
   },
   "Instacart": {
    "best": 125,
-   "last": 110,
+   "last": 108,
    "last_ok": "2026-09-07"
   },
   "Komodo Health": {
@@ -46450,7 +46513,7 @@
   },
   "Lyft": {
    "best": 171,
-   "last": 168,
+   "last": 169,
    "last_ok": "2026-09-07"
   },
   "Marqeta": {
@@ -46460,7 +46523,7 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 75,
+   "last": 77,
    "last_ok": "2026-09-07"
   },
   "Mercury": {
@@ -46476,7 +46539,7 @@
   },
   "MongoDB": {
    "best": 415,
-   "last": 414,
+   "last": 409,
    "last_ok": "2026-09-07"
   },
   "Netflix": {
@@ -46536,7 +46599,7 @@
   },
   "Pinterest": {
    "best": 225,
-   "last": 188,
+   "last": 189,
    "last_ok": "2026-09-07"
   },
   "Plaid": {
@@ -46571,12 +46634,12 @@
   },
   "Salesforce": {
    "best": 168,
-   "last": 165,
+   "last": 166,
    "last_ok": "2026-09-07"
   },
   "Samsara": {
    "best": 269,
-   "last": 257,
+   "last": 256,
    "last_ok": "2026-09-07"
   },
   "Scale AI": {
@@ -46585,8 +46648,8 @@
    "last_ok": "2026-09-07"
   },
   "Simplify Aggregator": {
-   "best": 1525,
-   "last": 1515,
+   "best": 1549,
+   "last": 1549,
    "last_ok": "2026-09-07"
   },
   "Snowflake": {
@@ -46611,7 +46674,7 @@
   },
   "Stripe": {
    "best": 621,
-   "last": 620,
+   "last": 618,
    "last_ok": "2026-09-07"
   },
   "Suno": {
@@ -46621,7 +46684,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 198,
+   "last": 200,
    "last_ok": "2026-09-07"
   },
   "Tesla": {
@@ -46631,8 +46694,8 @@
    "reported_dead": "2026-08-24"
   },
   "Twilio": {
-   "best": 147,
-   "last": 147,
+   "best": 149,
+   "last": 149,
    "last_ok": "2026-09-07"
   },
   "Two Sigma": {
@@ -46689,6 +46752,6 @@
    "last_ok": "2026-09-07"
   }
  },
- "updated": "2026-09-07T13:37:59Z",
+ "updated": "2026-09-07T18:47:18Z",
  "version": 1
 }
