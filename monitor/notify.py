@@ -4,8 +4,12 @@ import time
 
 import requests
 
+# The tech tracker's vocabulary, and the fallback for any caller that does
+# not pass its own. A profile supplies its tiers via profiles.Profile.
 TIER_LABEL = {"intern": "🎓 Intern", "newgrad": "🌱 New Grad", "experienced": "🛠 Experienced"}
 TIER_COLOR = {"intern": 0x3498DB, "newgrad": 0x2ECC71, "experienced": 0xE67E22}
+
+DEFAULT_WEBHOOK_ENV = "DISCORD_WEBHOOK_URL"
 WORKPLACE_ICON = {"Remote": "🏠", "Hybrid": "🔀", "On-site": "🏢"}
 
 
@@ -28,13 +32,13 @@ def _fields(j: dict) -> list:
     return out
 
 
-def send_alert(broken: list) -> None:
+def send_alert(broken: list, webhook_env: str = DEFAULT_WEBHOOK_ENV) -> None:
     """Tell Discord a source stopped returning anything.
 
     Silent breakage is the expensive kind - the Simplify aggregator returned
     zero for weeks behind a green check - so this is worth its own message.
     """
-    url = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+    url = os.environ.get(webhook_env, "").strip()
     if not url or not broken:
         return
     lines = "\n".join(
@@ -59,10 +63,13 @@ def send_alert(broken: list) -> None:
         print(f"could not send source alert: {e}")
 
 
-def send(new_jobs: list, run_label: str = "") -> None:
-    url = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+def send(new_jobs: list, run_label: str = "", webhook_env: str = DEFAULT_WEBHOOK_ENV,
+         tier_labels: dict | None = None, tier_colors: dict | None = None) -> None:
+    labels = tier_labels or TIER_LABEL
+    colors = tier_colors or TIER_COLOR
+    url = os.environ.get(webhook_env, "").strip()
     if not url:
-        print("DISCORD_WEBHOOK_URL not set - skipping notification")
+        print(f"{webhook_env} not set - skipping notification")
         return
     if not new_jobs:
         return
@@ -73,12 +80,12 @@ def send(new_jobs: list, run_label: str = "") -> None:
         chunk = new_jobs[i : i + 10]
         embeds = []
         for j in chunk:
-            header = f"{TIER_LABEL.get(j['tier'], j['tier'])} · 📍 {j.get('location','')[:150]}"
+            header = f"{labels.get(j['tier'], j['tier'])} · 📍 {j.get('location','')[:150]}"
             snippet = j.get("snippet", "")
             embeds.append({
                 "title": f"{j['company']} — {j['title']}"[:256],
                 "url": j["url"],
-                "color": TIER_COLOR.get(j["tier"], 0x95A5A6),
+                "color": colors.get(j["tier"], 0x95A5A6),
                 "description": (header + (f"\n\n{snippet}" if snippet else ""))[:4096],
                 "fields": _fields(j),
                 "footer": {"text": f"source: {j.get('source','')} · first seen {j.get('first_seen','')}"},

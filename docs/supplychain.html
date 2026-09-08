@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Job Monitor</title>
+<title>Supply Chain Monitor</title>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
 <header>
-  <h1 id="h1">Job Monitor</h1>
+  <h1 id="h1">Supply Chain Monitor</h1>
   <nav id="nav"></nav>
   <select id="fTier"><option value="">All tiers</option></select>
   <select id="fStatus"><option value="open">Open (new)</option><option value="applied">Applied</option>
@@ -88,22 +88,24 @@
 //               categorical set - keep any replacement >=3:1 on the card
 //               surface and separated in CVD space
 window.TRACKER = {
-  title: "Job Monitor",
-  data: "data/jobs.json",
-  path: "docs/data/jobs.json",
-  defaultRole: "software",
+  title: "Supply Chain Monitor",
+  data: "data/supplychain.json",
+  path: "docs/data/supplychain.json",
+  defaultRole: "supply-chain",
   tiers: [
-    ["intern", "Intern", "#3987e5"],
-    ["newgrad", "New Grad", "#199e70"],
-    ["experienced", "Experienced", "#d95926"],
+    ["intern", "Intern / Co-op", "#3987e5"],
+    ["entry", "Entry / Associate", "#199e70"],
+    ["mid", "Analyst / Planner", "#d95926"],
+    ["manager", "Manager / Lead", "#8f5fd6"],
   ],
   roles: {
-    "software":"Software (general)", "backend":"Backend", "frontend":"Frontend",
-    "fullstack":"Full stack", "mobile":"Mobile", "ml-ai":"ML / AI", "data":"Data",
-    "devops-sre":"DevOps / SRE", "security":"Security", "embedded":"Embedded / Systems",
-    "qa-test":"QA / Test", "solutions":"Solutions / Forward-deployed",
+    "demand-planning":"Demand planning & forecasting", "supply-planning":"Supply & production planning",
+    "inventory":"Inventory & replenishment", "merch-planning":"Merchandise planning",
+    "procurement":"Procurement & sourcing", "logistics":"Logistics & distribution",
+    "analytics":"Analytics & data science", "program-mgmt":"Program & project management",
+    "workforce":"Workforce planning", "supply-chain":"Supply chain (general)",
   },
-  siblings: [{ href: "supplychain.html", label: "Supply chain \u2192" }],
+  siblings: [{ href: "index.html", label: "\u2190 Software" }],
 };
 </script>
 <script src="app.js"></script>

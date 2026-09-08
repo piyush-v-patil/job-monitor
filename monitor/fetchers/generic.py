@@ -239,12 +239,18 @@ def _workday_pass(s, url, c, search):
             break
         for j in posts:
             path = j.get("externalPath", "")
+            # Most tenants serve postings from their own host, where the public
+            # URL is <host>/en-US/<site><path>. Tenants on the shared
+            # myworkdaysite.com host (Mondelez) put the tenant in the path
+            # instead, and the derived URL 500s - so those set url_prefix
+            # explicitly. The CXS endpoint itself is unaffected either way.
+            prefix = c.get("url_prefix") or f"https://{c['host']}/en-US/{c['site']}"
             out.append({
                 "company": c["name"],
                 "title": j.get("title", ""),
                 "location": j.get("locationsText", ""),
                 "country": workday_country(path),
-                "url": f"https://{c['host']}/en-US/{c['site']}{path}" if path else "",
+                "url": f"{prefix}{path}" if path else "",
                 "external_id": j.get("bulletFields", [""])[0] if j.get("bulletFields") else path,
                 "source": "workday",
                 "posted_at": rel_date(j.get("postedOn", "")),
@@ -268,7 +274,13 @@ def workday(c):
     s = session()
     url = f"https://{c['host']}/wday/cxs/{c['tenant']}/{c['site']}/jobs"
     out, seen = [], set()
-    for search in (c.get("search", "software engineer"), ""):
+    # skip_recent is set by main.run_fetcher on every pass after the first of
+    # a multi-term `searches:` list, where the newest-first sweep would just
+    # repeat itself.
+    passes = [c.get("search", "software engineer")]
+    if not c.get("skip_recent"):
+        passes.append("")
+    for search in passes:
         for job in _workday_pass(s, url, c, search):
             key = job["external_id"] or job["url"]
             if key in seen:

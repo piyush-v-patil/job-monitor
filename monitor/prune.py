@@ -8,11 +8,12 @@ Entries the dashboard owns are never touched: anything whose status has moved
 off "new" is reported and kept, because a posting you have already applied to
 is worth more than a tidy feed.
 
-Usage:  python -m monitor.prune [--dry-run]
+Usage:  python -m monitor.prune [--profile supplychain] [--dry-run]
 """
 import sys
 
-from . import filters, state
+from . import profiles, state
+from .filters import is_us
 from .fetchers.generic import workday_country
 
 
@@ -26,7 +27,7 @@ def find(jobs: dict) -> tuple[dict, dict]:
             country = workday_country(j.get("url", ""))
             if country and country != "US":
                 reason = country
-        if not reason and not filters.is_us(j.get("location", "")):
+        if not reason and not is_us(j.get("location", "")):
             reason = j.get("location", "") or "non-US"
         if not reason:
             continue
@@ -36,7 +37,11 @@ def find(jobs: dict) -> tuple[dict, dict]:
 
 def main(argv):
     dry = "--dry-run" in argv[1:]
-    st = state.load()
+    key = "tech"
+    if "--profile" in argv:
+        key = argv[argv.index("--profile") + 1]
+    profile = profiles.get(key)
+    st = state.load(profile.state_path)
     drop, held = find(st["jobs"])
 
     for jid, reason in sorted(held.items()):
@@ -53,7 +58,7 @@ def main(argv):
         return 0
     for jid in drop:
         del st["jobs"][jid]
-    state.save(st)
+    state.save(st, profile.state_path)
     print(f"saved: {len(st['jobs'])} postings remain")
     return 0
 
