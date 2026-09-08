@@ -1603,6 +1603,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10526808/software-dev-engineer-i-graviton-software-annapurna-labs",
    "yoe": 18
   },
+  "amazon:21db0cf5b300": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Pasadena, California, USA",
+   "posted_at": "2026-09-08",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics SDE, Safe Autonomy, Compass",
+   "url": "https://www.amazon.jobs/en/jobs/10533184/robotics-sde-safe-autonomy-compass",
+   "yoe": 3
+  },
   "amazon:22183a1b0fb9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3784,6 +3799,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10530588/software-development-engineer-ii-aws-supply-chain-aws-infra-supply-chain-automation",
    "yoe": 1
   },
+  "amazon:c1f9f41ab8f9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, XR , Fauna",
+   "url": "https://www.amazon.jobs/en/jobs/10532969/software-engineer-xr-fauna",
+   "yoe": 2
+  },
   "amazon:c2e05f6ea287": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4270,6 +4300,21 @@
    "title": "Software Development Engineer , Leo Customer Terminals Applications & Networking Team",
    "url": "https://www.amazon.jobs/en/jobs/10507326/software-development-engineer-leo-customer-terminals-applications-networking-team"
   },
+  "amazon:e600476f08f5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Elemental MediaTailor",
+   "url": "https://www.amazon.jobs/en/jobs/10526542/software-development-engineer-aws-elemental-mediatailor",
+   "yoe": 2
+  },
   "amazon:e713ced047bd": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4414,6 +4459,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10519888/software-development-engineer-leo-regulus",
    "yoe": 2
   },
+  "amazon:ef0ae917f32f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "San Francisco, California, USA",
+   "posted_at": "2026-09-08",
+   "role": "data",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Data Platform & Analytics - ART19",
+   "url": "https://www.amazon.jobs/en/jobs/10532746/software-development-engineer-data-platform-analytics-art19",
+   "yoe": 2
+  },
   "amazon:ef903b2b5830": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4458,6 +4518,21 @@
    "title": "Software Development Engineer, EC2 Networking (VPC Core)",
    "url": "https://www.amazon.jobs/en/jobs/10513880/software-development-engineer-ec2-networking-vpc-core",
    "yoe": 2
+  },
+  "amazon:f2ff1f316dd2": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-08",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, AWS Applied AI Solutions",
+   "url": "https://www.amazon.jobs/en/jobs/10532801/software-dev-engineer-ii-aws-applied-ai-solutions",
+   "yoe": 1
   },
   "amazon:f36039658b41": {
    "company": "Amazon",
@@ -28862,6 +28937,21 @@
    "title": "Optical Network Engineer",
    "url": "https://jobs.ashbyhq.com/openai/1c92378f-c553-4711-8d06-00c9f834c699"
   },
+  "openai:c3720f67eee3": {
+   "comp": "$380K – $460K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Research",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "San Francisco",
+   "posted_at": "2026-09-08",
+   "role": "embedded",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Control Systems Software Engineer, Robotics",
+   "url": "https://jobs.ashbyhq.com/openai/60573bf4-13ad-4933-aba7-729f428e9f69"
+  },
   "openai:c4e042de7fb1": {
    "comp": "$295K – $555K • Offers Equity",
    "company": "OpenAI",
@@ -47173,7 +47263,7 @@
   },
   "Anthropic": {
    "best": 595,
-   "last": 590,
+   "last": 591,
    "last_ok": "2026-09-08"
   },
   "Apple": {
@@ -47401,7 +47491,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 194,
+   "last": 191,
    "last_ok": "2026-09-08"
   },
   "Okta": {
@@ -47411,7 +47501,7 @@
   },
   "OpenAI": {
    "best": 782,
-   "last": 777,
+   "last": 780,
    "last_ok": "2026-09-08"
   },
   "OpenEvidence": {
@@ -47516,7 +47606,7 @@
   },
   "Stripe": {
    "best": 621,
-   "last": 619,
+   "last": 620,
    "last_ok": "2026-09-08"
   },
   "Suno": {
@@ -47594,6 +47684,6 @@
    "last_ok": "2026-09-08"
   }
  },
- "updated": "2026-09-08T21:17:05Z",
+ "updated": "2026-09-08T23:33:34Z",
  "version": 1
 }
