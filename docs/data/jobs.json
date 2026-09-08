@@ -1646,6 +1646,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10529317/software-development-engineer-amazon-quick",
    "yoe": 1
   },
+  "amazon:27cb098cf5f6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Amazon Connect",
+   "url": "https://www.amazon.jobs/en/jobs/10532316/software-dev-engineer-amazon-connect",
+   "yoe": 2
+  },
   "amazon:29133101001e": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1927,6 +1942,21 @@
    "title": "Software Development Engineer, Partner Experience and Growth, Amazon Ads",
    "url": "https://www.amazon.jobs/en/jobs/10526827/software-development-engineer-partner-experience-and-growth-amazon-ads",
    "yoe": 1
+  },
+  "amazon:3caf77c16867": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Personalization, Amazon Personalization",
+   "url": "https://www.amazon.jobs/en/jobs/10532576/software-development-engineer-personalization-amazon-personalization",
+   "yoe": 2
   },
   "amazon:3ceba39dd588": {
    "company": "Amazon",
@@ -2950,6 +2980,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515713/software-development-engineer-amazon-shopping-videos-ads",
    "yoe": 1
   },
+  "amazon:8d19a8db2962": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, CreativeX",
+   "url": "https://www.amazon.jobs/en/jobs/10532554/software-development-engineer-creativex",
+   "yoe": 1
+  },
   "amazon:8de828d8c162": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3410,6 +3455,21 @@
    "title": "Software Dev Engineer III,  Amazon Interactive Video Service (IVS), Stream Management",
    "url": "https://www.amazon.jobs/en/jobs/10529297/software-dev-engineer-iii-amazon-interactive-video-service-ivs-stream-management",
    "yoe": 5
+  },
+  "amazon:abc500998ae4": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Personalization, Amazon Personalization",
+   "url": "https://www.amazon.jobs/en/jobs/10532574/software-development-engineer-personalization-amazon-personalization",
+   "yoe": 2
   },
   "amazon:ac47a84b0fef": {
    "company": "Amazon",
@@ -4016,6 +4076,21 @@
    "title": "Software Development Engineer III, Android",
    "url": "https://www.amazon.jobs/en/jobs/10523727/software-development-engineer-iii-android",
    "yoe": 5
+  },
+  "amazon:db45cf421d4d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10532301/software-dev-engineer-ii-amazon-leo",
+   "yoe": 1
   },
   "amazon:dcda3ee2844a": {
    "company": "Amazon",
@@ -25235,6 +25310,18 @@
    "tier": "experienced",
    "title": "Hardware Test Engineer - Silicon Validation",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Hardware-Test-Engineer---Silicon-Validation_JR2021022"
+  },
+  "nvidia:c35d0add287a": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-08",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-08",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Operations Research Scientist",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Operations-Research-Scientist_JR2024116-1"
   },
   "nvidia:c533757da2dc": {
    "company": "Nvidia",
@@ -46874,7 +46961,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 172,
+   "last": 170,
    "last_ok": "2026-09-08"
   },
   "Airtable": {
@@ -47122,7 +47209,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 194,
+   "last": 195,
    "last_ok": "2026-09-08"
   },
   "Okta": {
@@ -47132,7 +47219,7 @@
   },
   "OpenAI": {
    "best": 782,
-   "last": 779,
+   "last": 778,
    "last_ok": "2026-09-08"
   },
   "OpenEvidence": {
@@ -47237,7 +47324,7 @@
   },
   "Stripe": {
    "best": 621,
-   "last": 617,
+   "last": 619,
    "last_ok": "2026-09-08"
   },
   "Suno": {
@@ -47315,6 +47402,6 @@
    "last_ok": "2026-09-08"
   }
  },
- "updated": "2026-09-08T17:21:05Z",
+ "updated": "2026-09-08T20:07:09Z",
  "version": 1
 }
