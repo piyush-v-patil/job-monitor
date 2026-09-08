@@ -2371,6 +2371,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515707/software-development-engineer-ww-deals-and-promotions",
    "yoe": 1
   },
+  "amazon:624391c56d81": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Leo Commerce, Leo Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10532091/software-development-engineer-leo-commerce-leo-commerce",
+   "yoe": 1
+  },
   "amazon:63de81cf08e2": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3200,6 +3215,21 @@
    "title": "Software Dev Eng, Payload Phased Arrays, Amazon Leo, Antenna System Validation, Amazon Leo",
    "url": "https://www.amazon.jobs/en/jobs/10509637/software-dev-eng-payload-phased-arrays-amazon-leo-antenna-system-validation-amazon-leo",
    "yoe": 2
+  },
+  "amazon:9a4be1348776": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Leo Commerce, Leo Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10532089/software-development-engineer-leo-commerce-leo-commerce",
+   "yoe": 1
   },
   "amazon:9a6514efd6c4": {
    "company": "Amazon",
@@ -9702,6 +9732,18 @@
    "tier": "experienced",
    "title": "Research Engineer, Discovery",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4669581008"
+  },
+  "anthropic:fd79e8954ddf": {
+   "company": "Anthropic",
+   "first_seen": "2026-09-08",
+   "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+   "posted_at": "2026-09-08",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Takeoff Intel",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416882008"
   },
   "apex-fintech-solutions:bec3a14e97e5": {
    "company": "Apex Fintech Solutions",
@@ -26429,6 +26471,23 @@
    "title": "Software Engineer, Codex — User Activation",
    "url": "https://jobs.ashbyhq.com/openai/d1c6cb87-a44d-4d04-92a8-dc40eccd090e",
    "workplace": "Hybrid"
+  },
+  "openai:39e1b501df5a": {
+   "comp": "$211K – $302K • Offers Equity",
+   "company": "OpenAI",
+   "department": "OpenAI for Gov",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Washington, DC",
+   "posted_at": "2026-09-08",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI Engineer, Government ",
+   "url": "https://jobs.ashbyhq.com/openai/485cda77-5d8f-4aaa-bca5-916b011477e6",
+   "workplace": "Hybrid",
+   "yoe": 7
   },
   "openai:3b88792154bf": {
    "comp": "$230K – $325K • Offers Equity",
@@ -46835,7 +46894,7 @@
   },
   "Anthropic": {
    "best": 595,
-   "last": 586,
+   "last": 587,
    "last_ok": "2026-09-08"
   },
   "Apple": {
@@ -46987,7 +47046,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 99,
+   "last": 100,
    "last_ok": "2026-09-08"
   },
   "Gusto": {
@@ -47073,7 +47132,7 @@
   },
   "OpenAI": {
    "best": 782,
-   "last": 781,
+   "last": 779,
    "last_ok": "2026-09-08"
   },
   "OpenEvidence": {
@@ -47256,6 +47315,6 @@
    "last_ok": "2026-09-08"
   }
  },
- "updated": "2026-09-08T16:45:52Z",
+ "updated": "2026-09-08T17:21:05Z",
  "version": 1
 }
