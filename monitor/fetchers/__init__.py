@@ -14,5 +14,6 @@ FETCHERS = {
     "tesla": custom.tesla,
     "uber": custom.uber,
     "walmart": custom.walmart,
+    "phenom": custom.phenom,
     "simplify": simplify.simplify,
 }

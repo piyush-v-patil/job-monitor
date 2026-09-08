@@ -1,0 +1,442 @@
+// Every tracker runs this same dashboard; the page that loads it declares
+// what it is looking at. See docs/index.html for the shape of TRACKER.
+const T = window.TRACKER;
+const PATH = T.path;                 // path inside the repo, for saving back
+const DATA = T.data;                 // path the browser fetches
+const DEFAULT_ROLE = T.defaultRole;  // role bucket for "no discipline named"
+let data = null, dirty = {};
+
+const $ = id => document.getElementById(id);
+const cfg = () => ({
+  owner: localStorage.gh_owner || "", repo: localStorage.gh_repo || "",
+  branch: localStorage.gh_branch || "main", token: localStorage.gh_token || "",
+});
+
+async function load() {
+  let r;
+  try {
+    r = await fetch(DATA + "?" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    data = await r.json();
+  } catch (e) {
+    $("list").innerHTML = "<p style='color:var(--muted)'>Could not load " + esc(DATA) +
+      " (" + esc(e.message) + "). Run a scan workflow first, then refresh.</p>";
+    return;
+  }
+  fillCompanies();
+  fillRoles();
+  render();
+  startAutoRefresh();
+}
+
+const ROLE_LABEL = T.roles;
+
+function fillRoles() {
+  const keep = $("fRole").value;
+  const counts = {};
+  for (const j of Object.values(data.jobs)) {
+    const r = j.role || DEFAULT_ROLE;
+    counts[r] = (counts[r] || 0) + 1;
+  }
+  const order = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  $("fRole").innerHTML = '<option value="">All roles</option>' +
+    order.map(r => `<option value="${r}">${ROLE_LABEL[r] || r} (${counts[r]})</option>`).join("");
+  if (order.includes(keep)) $("fRole").value = keep;
+}
+
+function fillCompanies() {
+  const keep = $("fCompany").value;
+  const companies = [...new Set(Object.values(data.jobs).map(j => j.company))].sort();
+  $("fCompany").innerHTML = '<option value="">All companies</option>' +
+    companies.map(c => `<option>${esc(c)}</option>`).join("");
+  if (companies.includes(keep)) $("fCompany").value = keep;   // survive a refresh
+}
+
+// ---- live updates -------------------------------------------------------
+// A scan commits jobs.json every hour and Pages redeploys it, so an open tab
+// goes stale. Poll cheaply with HEAD and only pull the ~500KB body when the
+// file has actually changed.
+let lastTag = null, polling = false;
+
+async function checkForUpdates(force = false) {
+  if (polling) return;
+  polling = true;
+  try {
+    let tag = null;
+    try {
+      const h = await fetch(DATA, { method: "HEAD", cache: "no-store" });
+      tag = h.headers.get("etag") || h.headers.get("last-modified");
+    } catch (e) { /* HEAD unsupported or offline - fall through to a full read */ }
+    if (!force && tag && tag === lastTag) { touchAgo(); return; }
+    const r = await fetch(DATA + "?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) return;
+    const fresh = await r.json();
+    if (!force && data && fresh.updated === data.updated) { lastTag = tag; touchAgo(); return; }
+    const before = data ? Object.keys(data.jobs).length : 0;
+    // re-apply marks that have not been persisted yet, so a scan landing
+    // mid-edit never silently discards them
+    for (const [id, d] of Object.entries(dirty)) {
+      const t = fresh.jobs[id];
+      if (!t) continue;
+      t.status = d.status;
+      if (d.applied_on) t.applied_on = d.applied_on; else delete t.applied_on;
+    }
+    data = fresh;
+    lastTag = tag;
+    fillCompanies();
+    fillRoles();
+    render();
+    const added = Object.keys(data.jobs).length - before;
+    if (added > 0) toast(`${added} new role${added === 1 ? "" : "s"} from the latest scan`);
+  } catch (e) { /* transient - the next tick retries */ }
+  finally { polling = false; }
+}
+
+function touchAgo() {   // keep "last scan Xm ago" honest between refreshes
+  if (data) $("heroSub").textContent = `last scan ${ago(data.updated)}`;
+}
+
+function startAutoRefresh() {
+  setInterval(() => { if (!document.hidden) checkForUpdates(); }, 60000);
+  // coming back to the tab should show current data straight away
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) checkForUpdates();
+  });
+}
+
+const TIERS = T.tiers.map(t => [t[0], t[1]]);
+const STATUS_WORD = { open:"open", applied:"applied", skip:"skipped", interview:"in interview", "":"tracked" };
+
+function render() {
+  const tier = $("fTier").value, status = $("fStatus").value,
+        comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
+        role = $("fRole").value, yoe = $("fYoe").value;
+  // "base" applies every filter EXCEPT tier, so each tile answers
+  // "how many would I see if I picked this tier?"
+  const base = Object.entries(data.jobs).filter(([id, j]) =>
+      (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
+      (!comp || j.company === comp) &&
+      (!role || (j.role || DEFAULT_ROLE) === role) &&
+      (!yoe || (yoe === "unstated" ? j.yoe == null : j.yoe != null && j.yoe <= +yoe)) &&
+      (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
+  renderKpi(base, tier, status);
+  renderActivity();
+  const rows = base
+    .filter(([id, j]) => (!tier || j.tier === tier))
+    .sort((a, b) => {
+      const mode = $("fSort") ? $("fSort").value : "posted";
+      if (mode === "comp" && (!!a[1].comp !== !!b[1].comp)) return a[1].comp ? -1 : 1;
+      if (mode === "yoe") {
+        // postings that state no bar sort last rather than pretending to be 0
+        const ya = a[1].yoe == null ? 99 : a[1].yoe, yb = b[1].yoe == null ? 99 : b[1].yoe;
+        if (ya !== yb) return ya - yb;
+      }
+      if (mode === "posted") {
+        // fall back to first_seen so entries with no posted_at still order sanely
+        const pa = a[1].posted_at || a[1].first_seen || "";
+        const pb = b[1].posted_at || b[1].first_seen || "";
+        if (pa !== pb) return pb.localeCompare(pa);
+      }
+      return (b[1].first_seen || "").localeCompare(a[1].first_seen || "");
+    });
+
+  $("stats").textContent = `${rows.length} shown`
+    + (tier ? ` · filtered to ${TIERS.find(t=>t[0]===tier)[1]}` : "");
+
+  $("list").innerHTML = rows.map(([id, j]) => {
+    const href = safeUrl(j.url);
+    // a posting whose url will not pass as http(s) still shows, just not as a link
+    const title = href
+      ? `<a class="title" href="${href}" target="_blank" rel="noopener">${esc(j.title)}</a>`
+      : `<span class="title">${esc(j.title)}</span>`;
+    // the id rides in a data attribute and is read back by one delegated
+    // listener, so it never has to survive being parsed as JavaScript
+    const btn = (act, label) =>
+      `<button class="${j.status === act ? "active" : ""}" data-act="${act}"
+               data-id="${esc(id)}">${label}</button>`;
+    return `
+    <div class="job ${j.status === "applied" ? "applied" : j.status === "skip" ? "skip" : ""}">
+      ${j.status === "new" ? '<span class="newdot"></span>' : ""}
+      <div class="info">
+        ${title}
+        <span class="pill" style="--tint:var(--t-${esc(j.tier)})">${esc(j.tier)}</span>
+        <div class="meta">${esc(j.company)} · ${esc(j.location)} · ${
+          j.posted_at ? "posted " + esc(j.posted_at) : "first seen " + esc(j.first_seen)}</div>
+        ${badges(j)}
+      </div>
+      <div class="btns">
+        ${btn("applied", "✓ Applied")}${btn("skip", "✗ Skip")}${btn("interview", "★ Interview")}
+      </div>
+    </div>`;
+  }).join("") || "<p style='color:var(--muted)'>Nothing matches.</p>";
+}
+
+function ago(iso){
+  if (!iso) return "never";
+  const mins = Math.floor((Date.now() - Date.parse(iso)) / 60000);
+  if (isNaN(mins)) return iso;
+  if (mins < 60) return mins <= 1 ? "just now" : mins + "m ago";
+  const h = Math.floor(mins / 60);
+  return h < 24 ? h + "h ago" : Math.floor(h / 24) + "d ago";
+}
+
+function renderKpi(base, tier, status) {
+  const total = base.length;
+  const word = STATUS_WORD[status] ?? "matching";
+  $("heroVal").textContent = total.toLocaleString();
+  $("heroLab").textContent = total === 1 ? `${word} role` : `${word} roles`;
+  $("heroSub").textContent = `last scan ${ago(data.updated)}`;
+
+  // tier composition of what the hero counts - a 2px surface gap keeps the
+  // stacked segments from reading as one continuous bar
+  $("heroBar").innerHTML = TIERS.map(([key, label]) => {
+    const n = base.filter(([, j]) => j.tier === key).length;
+    const pct = total ? n / total * 100 : 0;
+    return pct ? `<i style="flex:${pct};background:var(--t-${key})"
+                    title="${label}: ${n.toLocaleString()} (${Math.round(pct)}%)"></i>` : "";
+  }).join("");
+
+  const all = Object.values(data.jobs);
+  $("tiles").innerHTML = TIERS.map(([key, label]) => {
+    const n = base.filter(([, j]) => j.tier === key).length;
+    const inTier = all.filter(j => j.tier === key);
+    const applied = inTier.filter(j => j.status === "applied" || j.status === "interview").length;
+    // the meter tracks YOUR progress through this tier, not the tier's size
+    const pct = inTier.length ? Math.round(applied / inTier.length * 100) : 0;
+    const on = tier === key;
+    return `<button class="tile" data-tier="${key}" aria-pressed="${on}"
+              style="--tint:var(--t-${key})"
+              title="${on ? "Clear the" : "Filter to"} ${label} tier - ${applied} applied of ${inTier.length} tracked">
+        <span class="tile-top"><span class="dot"></span>${label}</span>
+        <span class="tile-val">${n.toLocaleString()}</span>
+        <span class="tile-share"><b style="color:var(--text)">${applied}</b> applied${
+          pct ? ` · ${pct}%` : ""}</span>
+        <span class="meter" role="img" aria-label="${applied} applied of ${inTier.length} ${label} roles">
+          <span class="meter-fill" style="width:${applied ? Math.max(pct, 2) : 0}%"></span></span>
+      </button>`;
+  }).join("");
+
+  // whole-database standing totals, independent of the filters above
+  const count = st => all.filter(j => j.status === st).length;
+  const withComp = all.filter(j => j.comp).length;
+  // ---- source health, straight from the sources block the scanner writes ----
+  const src = data.sources || {};
+  const names = Object.keys(src);
+  const dead = names.filter(n => (src[n].last || 0) === 0);
+  const live = names.length - dead.length;
+  const pct = names.length ? Math.round(live / names.length * 100) : 0;
+  const cls = pct >= 95 ? "" : pct >= 85 ? " warn" : " bad";
+  const detail = dead.length
+    ? "Returning nothing:\n" + dead.sort().map(n => {
+        const r = src[n];
+        return `  • ${n}${r.best ? ` (best ${r.best}` + (r.last_ok ? `, last had jobs ${r.last_ok}` : "") + ")" : ""}`;
+      }).join("\n")
+    : "Every configured source returned postings on the last scan.";
+  const health = `<span class="schip health${cls}" title="${esc(detail)}">` +
+    `<span class="hdot"></span>Sources <b>${live}/${names.length}</b></span>`;
+
+  $("statusbar").innerHTML = health + [
+    ["Open", count("new")], ["Applied", count("applied")],
+    ["Interview", count("interview")], ["Skipped", count("skip")],
+    ["With pay range", withComp], ["Companies", new Set(all.map(j => j.company)).size],
+  ].map(([k, v]) => `<span class="schip">${k} <b>${v.toLocaleString()}</b></span>`).join("");
+}
+
+function renderActivity() {
+  const days = {};                       // "YYYY-MM-DD" -> applications that day
+  for (const j of Object.values(data.jobs))
+    if (j.applied_on) days[j.applied_on] = (days[j.applied_on] || 0) + 1;
+
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const dayMs = 86400000;
+  const total = Object.values(days).reduce((a, b) => a + b, 0);
+
+  // current streak: consecutive days with >=1 application. Today not being
+  // done yet is not a break, so an empty today falls back to yesterday.
+  let cur = 0, probe = new Date(today);
+  if (!days[isoDay(probe)]) probe = new Date(today - dayMs);
+  while (days[isoDay(probe)]) { cur++; probe = new Date(probe - dayMs); }
+
+  let best = 0, run = 0, prev = null;
+  for (const d of Object.keys(days).sort()) {
+    run = (prev && (Date.parse(d) - Date.parse(prev)) === dayMs) ? run + 1 : 1;
+    best = Math.max(best, run); prev = d;
+  }
+  const week = [...Array(7)].reduce((a, _, i) => a + (days[isoDay(new Date(today - i * dayMs))] || 0), 0);
+
+  $("stkRow").innerHTML = `${cur}<i>d streak</i>`;
+  $("stkRow").classList.toggle("live", cur > 0);
+  $("stkBest").textContent = best;
+  $("stkWeek").textContent = week;
+  $("stkTotal").textContent = total;
+
+  // 30 days, aligned so each column is one Sun-Sat week (5 columns)
+  const start = new Date(today - 29 * dayMs);
+  start.setDate(start.getDate() - start.getDay());
+  const cells = [];
+  for (let d = new Date(start); d <= today; d.setDate(d.getDate() + 1)) {
+    const iso = isoDay(d), n = days[iso] || 0;
+    const lvl = n === 0 ? 0 : n === 1 ? 1 : n === 2 ? 2 : n <= 4 ? 3 : 4;
+    cells.push(`<span class="hm-cell${iso === isoDay(today) ? " today" : ""}" data-l="${lvl}"
+      title="${n} application${n === 1 ? "" : "s"} on ${iso}"></span>`);
+  }
+  $("hmGrid").innerHTML = cells.join("");
+  $("actEmpty").textContent = total ? "" : "Nothing logged yet";
+}
+
+function daysOld(d){
+  if (!d) return null;
+  const ms = Date.now() - Date.parse(d + "T00:00:00Z");
+  return isNaN(ms) ? null : Math.floor(ms / 86400000);
+}
+
+function badges(j){
+  const b = [];
+  if (j.comp) b.push(`<span class="badge comp">💰 ${esc(j.comp)}</span>`);
+  const age = daysOld(j.posted_at);
+  if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);
+  if (j.workplace) b.push(`<span class="badge${j.workplace === "Remote" ? " remote" : ""}">${esc(j.workplace)}</span>`);
+  if (j.employment_type) b.push(`<span class="badge">${esc(j.employment_type)}</span>`);
+  if (j.yoe != null)
+    b.push(`<span class="badge yoe">${j.yoe === 0 ? "entry level" : esc(j.yoe) + "+ yrs"}</span>`);
+  if (j.deadline) {
+    const left = Math.ceil((Date.parse(j.deadline + "T23:59:59Z") - Date.now()) / 86400000);
+    if (left >= 0)
+      b.push(`<span class="badge${left <= 7 ? " urgent" : ""}">⏳ closes ${
+        left === 0 ? "today" : left === 1 ? "tomorrow" : "in " + left + "d"}</span>`);
+  }
+  if (j.role && j.role !== DEFAULT_ROLE)
+    b.push(`<span class="badge">${esc(ROLE_LABEL[j.role] || j.role)}</span>`);
+  if (j.department) b.push(`<span class="badge">🗂 ${esc(j.department)}</span>`);
+  return b.length ? `<div class="badges">${b.join("")}</div>` : "";
+}
+
+// Everything here arrives from third-party job boards and a community-edited
+// GitHub README, so nothing reaches the DOM unescaped. The apostrophe matters
+// as much as the angle brackets: ids and company names carry them ("Steven's
+// Capital Management"), and they sit inside quoted attributes.
+const ESCAPES = {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"};
+function esc(s){ return (s == null ? "" : String(s)).replace(/[&<>"']/g, c => ESCAPES[c]); }
+
+// A url only becomes an href if it is really http(s) - never javascript:,
+// data:, or anything else a board could put in that field.
+function safeUrl(u){
+  try {
+    const p = new URL(u, location.href);
+    if (p.protocol === "http:" || p.protocol === "https:") return esc(p.href);
+  } catch (e) { /* unparseable - treated as no link at all */ }
+  return "";
+}
+
+function isoDay(d){  // local calendar day, not UTC - streaks follow your clock
+  const x = new Date(d);
+  return `${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,"0")}-${String(x.getDate()).padStart(2,"0")}`;
+}
+
+function mark(id, status) {
+  const j = data.jobs[id];
+  j.status = j.status === status ? "new" : status;
+  // record WHEN, so the activity heatmap and streak have a date to plot.
+  // interview implies you applied earlier, so it keeps an existing stamp.
+  if (j.status === "applied" || j.status === "interview") {
+    if (!j.applied_on) j.applied_on = isoDay(new Date());
+  } else {
+    delete j.applied_on;
+  }
+  dirty[id] = { status: j.status, applied_on: j.applied_on || null };
+  render();
+  scheduleSave();
+}
+
+let saveTimer = null;
+function scheduleSave(){ clearTimeout(saveTimer); saveTimer = setTimeout(persist, 1500); }
+
+async function persist(attempt = 0) {
+  const c = cfg();
+  if (!c.token || !c.owner || !c.repo) { toast("Set GitHub token (⚙) to save status"); return; }
+  const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${PATH}`;
+  const h = { Authorization: `Bearer ${c.token}`, Accept: "application/vnd.github+json" };
+  try {
+    // jobs.json is ~1MB and growing. The contents API refuses to return
+    // base64 `content` above 1MB, so read the raw media type instead (good to
+    // 100MB) and take the blob sha from the parent directory listing, which
+    // carries no size limit either.
+    const dir = PATH.slice(0, PATH.lastIndexOf("/"));
+    const name = PATH.slice(PATH.lastIndexOf("/") + 1);
+    const listing = await (await fetch(
+      `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${dir}?ref=${c.branch}&t=${Date.now()}`,
+      { headers: h })).json();
+    if (!Array.isArray(listing)) throw new Error(listing.message || "cannot list data dir");
+    const entry = listing.find(f => f.name === name);
+    if (!entry) throw new Error(`${name} not found on ${c.branch}`);
+    const rawRes = await fetch(`${api}?ref=${c.branch}&t=${Date.now()}`,
+      { headers: { ...h, Accept: "application/vnd.github.raw" } });
+    if (!rawRes.ok) throw new Error("read HTTP " + rawRes.status);
+    const remote = JSON.parse(await rawRes.text());
+    const cur = { sha: entry.sha };
+    for (const [id, d] of Object.entries(dirty)) {
+      const t = remote.jobs[id];
+      if (!t) continue;
+      t.status = d.status;
+      if (d.applied_on) t.applied_on = d.applied_on; else delete t.applied_on;
+    }
+    const body = {
+      message: "dashboard: update statuses",
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(remote, null, 1)))),
+      sha: cur.sha, branch: c.branch,
+    };
+    const r = await fetch(api, { method: "PUT", headers: h, body: JSON.stringify(body) });
+    if (r.status === 409 && attempt < 2) return persist(attempt + 1);
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    dirty = {};
+    toast("Saved ✓");
+  } catch (e) { toast("Save failed: " + e.message); }
+}
+
+function toast(msg){ const t=$("toast"); t.textContent=msg; t.style.display="block";
+  setTimeout(()=>t.style.display="none", 3000); }
+
+$("settings").onclick = () => {
+  const c = cfg();
+  $("ghOwner").value=c.owner; $("ghRepo").value=c.repo;
+  $("ghBranch").value=c.branch; $("ghToken").value=c.token;
+  $("dlg").showModal();
+};
+function saveSettings(){
+  localStorage.gh_owner=$("ghOwner").value.trim(); localStorage.gh_repo=$("ghRepo").value.trim();
+  localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
+  $("dlg").close(); toast("Settings saved");
+}
+["fTier","fStatus","fCompany","fSort","fRole","fYoe"].forEach(id => $(id).onchange = render);
+$("tiles").addEventListener("click", e => {
+  const t = e.target.closest(".tile");
+  if (!t) return;
+  const cur = $("fTier").value;
+  $("fTier").value = (cur === t.dataset.tier) ? "" : t.dataset.tier;  // click again to clear
+  render();
+});
+$("fSearch").oninput = render;
+// #list is replaced wholesale on every render, so the handler lives on the
+// container instead of on each button
+$("list").addEventListener("click", e => {
+  const b = e.target.closest("button[data-act]");
+  if (b) mark(b.dataset.id, b.dataset.act);
+});
+// ---- page identity ------------------------------------------------------
+// Tier keys differ per tracker, so their hues are written onto :root here
+// rather than being hard-coded in app.css, and the tier filter is built from
+// the same list that drives the KPI tiles.
+function boot() {
+  document.title = T.title;
+  $("h1").textContent = T.title;
+  for (const [key, , color] of T.tiers)
+    document.documentElement.style.setProperty(`--t-${key}`, color);
+  $("fTier").innerHTML = '<option value="">All tiers</option>' +
+    T.tiers.map(([key, label]) => `<option value="${esc(key)}">${esc(label)}</option>`).join("");
+  $("nav").innerHTML = (T.siblings || [])
+    .map(s => `<a href="${esc(s.href)}">${esc(s.label)}</a>`).join("");
+  $("ghRepo").placeholder = T.repo || "job-monitor";
+}
+
+boot();
+load();

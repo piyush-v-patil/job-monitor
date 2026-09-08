@@ -1,0 +1,62 @@
+name: Supply chain sweep (every 2h)
+
+on:
+  schedule:
+    # every 2h at :00 UTC (= 5:30, 7:30, 9:30 IST). Deliberately offset from
+    # the software tracker's :30 crons so the two never queue behind each
+    # other for a runner, and so their Discord messages stay distinguishable.
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      no_notify:
+        description: "Absorb new postings silently (use after widening filters)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  # its own group: this tracker writes docs/data/supplychain.json, which the
+  # software scans never touch, so the two can run at the same time safely
+  group: job-scan-supplychain
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run supply chain sweep
+        env:
+          DISCORD_WEBHOOK_URL_SUPPLYCHAIN: ${{ secrets.DISCORD_WEBHOOK_URL_SUPPLYCHAIN }}
+        run: python -m monitor.main --profile supplychain --tier all ${{ inputs.no_notify && '--no-notify' || '' }}
+      - name: Commit state
+        run: |
+          git config user.name "job-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          # Same reconciliation the software scans use: a status write from the
+          # dashboard can land first, and rebasing onto it conflicts inside the
+          # JSON, so the two copies are merged by hand and the push retried.
+          for attempt in 1 2 3; do
+            git add docs/data/supplychain.json
+            if git diff --cached --quiet; then
+              echo "nothing to commit"; exit 0
+            fi
+            git commit -m "scan(supplychain): update supplychain.json"
+            if git push origin HEAD:"${GITHUB_REF_NAME}"; then
+              echo "pushed (attempt $attempt)"; exit 0
+            fi
+            echo "push rejected - reconciling with the branch (attempt $attempt)"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git show "origin/${GITHUB_REF_NAME}:docs/data/supplychain.json" > /tmp/theirs.json
+            python -m monitor.merge docs/data/supplychain.json /tmp/theirs.json /tmp/merged.json
+            git reset --hard "origin/${GITHUB_REF_NAME}"
+            cp /tmp/merged.json docs/data/supplychain.json
+          done
+          echo "still could not push after 3 attempts"; exit 1

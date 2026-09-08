@@ -1,0 +1,299 @@
+# Company registry for the SUPPLY CHAIN tracker (profile: supplychain).
+# The software tracker reads config/companies.yaml instead - the two are
+# independent, and a company may sensibly appear in both.
+#
+# bigtech: the highest-yield planning employers, scanned hourly.
+# other:   the rest of the list, scanned on the 2-hourly full sweep.
+#
+# Every source below was verified live before being added: the endpoint
+# answers, and it returns supply-chain planning titles rather than an empty
+# list. The date of that check is 2026-09-08 - if a source goes quiet, the
+# source-health alert will say so rather than letting it fail silently.
+#
+# fetcher types: greenhouse | lever | ashby | workday | eightfold |
+#                smartrecruiters | phenom | amazon | microsoft | google |
+#                apple | tesla | uber | walmart
+#
+# `searches:` (a list) runs a keyword-search board once per term and merges
+# the results. It matters here: one phrase never covers a planning org, so
+# "demand planning" alone misses every "Sr Planner" and "S&OP Manager" on
+# the same board. Boards that hand over their whole listing (Greenhouse,
+# Lever, Ashby, Phenom) ignore it - they are filtered locally instead.
+
+# The search vocabulary reused across keyword-search boards below.
+# YAML anchors keep it in one place; edit here to change every source at once.
+x-searches: &planning_searches
+  - demand planning
+  - supply planning
+  - supply chain planner
+  - production planner
+  - inventory planning
+  - forecast analyst
+  - S&OP
+  - supply chain program manager
+
+bigtech:
+  # --- CPG & food: where demand planning as a discipline actually lives ---
+  - name: General Mills
+    fetcher: workday
+    host: genmills.wd1.myworkdayjobs.com
+    tenant: genmills
+    site: GMI_External_Careers
+    searches: *planning_searches
+  - name: Mondelez
+    fetcher: workday
+    # Mondelez sits on the shared myworkdaysite host, where the tenant lives
+    # in the path; the derived public URL 500s, so it is given explicitly.
+    host: wd3.myworkdaysite.com
+    tenant: mdlz
+    site: External
+    url_prefix: https://wd3.myworkdaysite.com/en-US/recruiting/mdlz/External
+    searches: *planning_searches
+  - name: Unilever
+    fetcher: workday
+    host: unilever.wd3.myworkdayjobs.com
+    tenant: unilever
+    site: Unilever_Experienced_Professionals
+    searches: *planning_searches
+  - name: PepsiCo
+    fetcher: phenom          # keyword search is decorative; the board is paged
+    host: www.pepsicojobs.com
+    max_pages: 6
+  - name: Tyson Foods
+    fetcher: workday
+    host: tysonfoods.wd5.myworkdayjobs.com
+    tenant: tysonfoods
+    site: TSN
+    searches: *planning_searches
+  - name: Land O'Lakes
+    fetcher: workday
+    host: landolakes.wd1.myworkdayjobs.com
+    tenant: landolakes
+    site: LandOLakes
+    searches: *planning_searches
+
+  # --- medtech & pharma: large, stable planning organizations ---
+  - name: Abbott
+    fetcher: workday
+    host: abbott.wd5.myworkdayjobs.com
+    tenant: abbott
+    site: abbottcareers
+    searches: *planning_searches
+  - name: Stryker
+    fetcher: workday
+    host: stryker.wd1.myworkdayjobs.com
+    tenant: stryker
+    site: StrykerCareers
+    searches: *planning_searches
+  - name: Becton Dickinson
+    fetcher: workday
+    host: bdx.wd1.myworkdayjobs.com
+    tenant: bdx
+    site: EXTERNAL_CAREER_SITE_USA
+    searches: *planning_searches
+  - name: Medtronic
+    fetcher: workday
+    host: medtronic.wd1.myworkdayjobs.com
+    tenant: medtronic
+    site: MedtronicCareers
+    searches: *planning_searches
+
+  # --- hardware & semis: supply/demand planning at scale ---
+  - name: Nvidia
+    fetcher: workday
+    host: nvidia.wd5.myworkdayjobs.com
+    tenant: nvidia
+    site: NVIDIAExternalCareerSite
+    searches: *planning_searches
+    # Same US facet the tech tracker uses - Nvidia's non-US postings report
+    # as "N Locations" and would otherwise read as location-unknown.
+    facets:
+      locationHierarchy1:
+        - 2fcb99c455831013ea52fb338f2932d8   # United States
+  - name: Micron
+    fetcher: workday
+    host: micron.wd1.myworkdayjobs.com
+    tenant: micron
+    site: External
+    searches: *planning_searches
+  - name: Applied Materials
+    fetcher: workday
+    host: amat.wd1.myworkdayjobs.com
+    tenant: amat
+    site: External
+    searches: *planning_searches
+  - name: AMD
+    fetcher: phenom
+    host: careers.amd.com
+    max_pages: 6
+
+  # --- retail & consumer hardware ---
+  - name: Nike
+    fetcher: workday
+    host: nike.wd1.myworkdayjobs.com
+    tenant: nike
+    site: nke
+    searches: *planning_searches
+  - name: Target
+    fetcher: workday
+    host: target.wd5.myworkdayjobs.com
+    tenant: target
+    site: targetcareers
+    searches: *planning_searches
+  - name: Amazon
+    fetcher: amazon
+    searches:
+      - supply chain manager
+      - demand planning
+      - inventory planning
+      - supply chain program manager
+      - forecasting
+
+other:
+  # --- industrial & instruments ---
+  - name: Zebra Technologies
+    fetcher: workday
+    host: zebra.wd501.myworkdayjobs.com
+    tenant: zebra
+    site: Zebra_careers
+    searches: *planning_searches
+  - name: Illumina
+    fetcher: workday
+    host: illumina.wd1.myworkdayjobs.com
+    tenant: illumina
+    site: illumina-careers
+    searches: *planning_searches
+  - name: Boeing
+    fetcher: workday
+    host: boeing.wd1.myworkdayjobs.com
+    tenant: boeing
+    site: EXTERNAL_CAREERS
+    searches: *planning_searches
+  - name: CVS Health
+    fetcher: workday
+    host: cvshealth.wd1.myworkdayjobs.com
+    tenant: cvshealth
+    site: CVS_Health_Careers
+    searches: *planning_searches
+  - name: Walmart Global Tech
+    fetcher: walmart
+    max_results: 200
+    searches:
+      - supply chain
+      - demand planning
+      - replenishment
+      - inventory planning
+
+  # --- defense & space: hardware programs, heavy on buyer/planner roles ---
+  - name: Anduril
+    fetcher: greenhouse
+    token: andurilindustries
+  - name: SpaceX
+    fetcher: greenhouse
+    token: spacex
+  - name: Astranis
+    fetcher: greenhouse
+    token: astranis
+  - name: Saronic
+    fetcher: ashby
+    token: saronic
+
+  # --- mobility & automotive ---
+  - name: Lucid Motors
+    fetcher: greenhouse
+    token: lucidmotors
+  - name: Carvana
+    fetcher: greenhouse
+    token: carvana
+  - name: Waymo
+    fetcher: greenhouse
+    token: waymo
+  - name: Nuro
+    fetcher: greenhouse
+    token: nuro
+
+  # --- consumer brands & DTC: small but dense planning teams ---
+  - name: Oura
+    fetcher: greenhouse
+    token: oura
+  - name: Glossier
+    fetcher: greenhouse
+    token: glossier
+  - name: Olipop
+    fetcher: greenhouse
+    token: olipop
+  - name: Peloton
+    fetcher: greenhouse
+    token: peloton
+  - name: Formlabs
+    fetcher: greenhouse
+    token: formlabs
+  - name: Misfits Market
+    fetcher: greenhouse
+    token: misfitsmarket
+  - name: Liquid Death
+    fetcher: greenhouse
+    token: liquiddeath
+  - name: Thrive Market
+    fetcher: greenhouse
+    token: thrivemarket
+  - name: Faire
+    fetcher: greenhouse
+    token: faire
+
+  # --- logistics & marketplaces ---
+  - name: Flexport
+    fetcher: greenhouse
+    token: flexport
+  - name: Instacart
+    fetcher: greenhouse
+    token: instacart
+  - name: DoorDash
+    fetcher: greenhouse
+    token: doordashusa
+  - name: Samsara
+    fetcher: greenhouse
+    token: samsara
+  - name: Verkada
+    fetcher: greenhouse
+    token: verkada
+
+  # --- tech companies running real supply chains (AI compute, devices) ---
+  - name: OpenAI
+    fetcher: ashby
+    token: openai
+  # Apple and Microsoft are deliberately absent: both careers APIs are dead
+  # for the software tracker too (Apple's /api/role/search 404s, Microsoft's
+  # Eightfold endpoint refuses unauthenticated clients), so adding them here
+  # would only add two permanent entries to the broken-source alert.
+  - name: Google
+    fetcher: google
+    searches:
+      - supply chain
+      - demand planning
+      - supply chain program manager
+  # --- forecasting-adjacent roles at software companies ---
+  - name: Stripe
+    fetcher: greenhouse
+    token: stripe
+  - name: Airbnb
+    fetcher: greenhouse
+    token: airbnb
+  - name: Coinbase
+    fetcher: greenhouse
+    token: coinbase
+  - name: Lyft
+    fetcher: greenhouse
+    token: lyft
+  - name: Databricks
+    fetcher: greenhouse
+    token: databricks
+  - name: Gusto
+    fetcher: greenhouse
+    token: gusto
+  - name: Duolingo
+    fetcher: greenhouse
+    token: duolingo
+  - name: Pinterest
+    fetcher: greenhouse
+    token: pinterest

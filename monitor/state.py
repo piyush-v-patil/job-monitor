@@ -1,4 +1,10 @@
-"""State persistence: docs/data/jobs.json is the single source of truth.
+"""State persistence: each tracker's JSON file is its single source of truth.
+
+Which file that is comes from the running profile (monitor/profiles.py):
+docs/data/jobs.json for the software tracker, docs/data/supplychain.json for
+the supply-chain one. The structure and every rule below are identical for
+both - only the tier vocabulary and the role buckets differ, and this layer
+never inspects either.
 
 Structure:
 {
@@ -6,14 +12,19 @@ Structure:
   "updated": "2026-08-20T12:00:00Z",
   "jobs": {
     "<job_id>": {
-      "company": str, "title": str, "tier": "intern|newgrad|experienced",
+      "company": str, "title": str,
+      "tier": software: "intern|newgrad|experienced"
+              supply chain: "intern|entry|mid|manager",
       "location": str, "url": str, "source": str,
       "first_seen": "YYYY-MM-DD", "status": "new|applied|skip|interview|rejected|closed",
       # best-effort enrichment; key is omitted entirely when the ATS has no value
       "posted_at": "YYYY-MM-DD", "comp": str, "employment_type": str,
       "workplace": "Remote|Hybrid|On-site", "department": str,
-      "role": "ml-ai|data|security|devops-sre|mobile|frontend|fullstack|backend|
-               embedded|qa-test|solutions|software",
+      "role": software: "ml-ai|data|security|devops-sre|mobile|frontend|
+                        fullstack|backend|embedded|qa-test|solutions|software"
+              supply chain: "demand-planning|supply-planning|inventory|
+                        merch-planning|procurement|logistics|analytics|
+                        program-mgmt|workforce|supply-chain",
       "yoe": int,            # lowest stated years-of-experience, when the posting says
       "deadline": "YYYY-MM-DD",  # application close date; very rarely published
       # written by the dashboard when you mark Applied/Interview; the scanner
@@ -34,6 +45,10 @@ import os
 import re
 from datetime import datetime, timezone
 
+# Default tracker file. Callers that run a non-default profile pass the path
+# explicitly (see monitor/profiles.py); nothing else about the state layer
+# differs between trackers, so the rest of this module never asks which one
+# it is looking at.
 STATE_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "jobs.json")
 
 
@@ -121,17 +136,19 @@ def migrate_ids(state: dict) -> int:
     return moved
 
 
-def load() -> dict:
-    if not os.path.exists(STATE_PATH):
+def load(path: str | None = None) -> dict:
+    path = path or STATE_PATH
+    if not os.path.exists(path):
         return {"version": 1, "updated": None, "jobs": {}}
-    with open(STATE_PATH, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def save(state: dict) -> None:
+def save(state: dict, path: str | None = None) -> None:
+    path = path or STATE_PATH
     state["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    os.makedirs(os.path.dirname(os.path.abspath(STATE_PATH)), exist_ok=True)
-    with open(STATE_PATH, "w", encoding="utf-8") as f:
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=1, ensure_ascii=False, sort_keys=True)
 
 

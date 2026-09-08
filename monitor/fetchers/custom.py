@@ -256,3 +256,59 @@ def walmart(c):
         if len(jobs) < size:
             break
     return out
+
+
+def phenom(c):
+    """c: {name, host, max_pages?, country?}  ->  Phenom People careers API
+
+    Phenom powers a large share of Fortune 500 careers sites (PepsiCo, AMD,
+    Dollar General...) and exposes the whole board at /api/jobs. Two quirks
+    shape this fetcher:
+
+      - the `keyword` parameter is decorative. Searching "demand planning",
+        "supply chain" or a nonsense string all return the same postings in
+        the same order, so there is nothing to be gained by asking the board
+        to filter; the pages are pulled in full and filters.py decides.
+      - `keyword` must still be *present*, even empty. Omit it and the
+        endpoint answers with no jobs at all rather than an error.
+
+    max_pages caps the sweep: the boards here run to a few hundred US
+    postings, but a retailer's board can hold ten thousand store roles, and
+    reading all of those to find six planners is not a trade worth making.
+    """
+    s = session()
+    host = c["host"]
+    limit, out = 100, []
+    for page in range(1, int(c.get("max_pages", 6)) + 1):
+        data = get_json(s, f"https://{host}/api/jobs", params={
+            "keyword": "", "limit": limit, "page": page, "sortBy": "relevance",
+            "locale": "en_US", "country": c.get("country", "United States"),
+        })
+        rows = data.get("jobs") or []
+        for row in rows:
+            j = row.get("data", row)
+            body = " ".join(filter(None, [j.get("description", ""),
+                                          j.get("qualifications", "")]))
+            cats = j.get("categories") or []
+            out.append({
+                "company": c["name"],
+                "title": j.get("title", ""),
+                "location": j.get("full_location", "") or ", ".join(
+                    filter(None, [j.get("city", ""), j.get("state", "")])),
+                "country": j.get("country", ""),
+                # the Phenom job page is client-rendered and 404s when fetched
+                # directly, so the apply link is the one that actually works
+                "url": j.get("apply_url", "") or f"https://{host}/job/{j.get('req_id','')}",
+                "external_id": str(j.get("req_id", "") or j.get("slug", "")),
+                "source": "phenom",
+                "posted_at": iso_date(j.get("posted_date")),
+                "deadline": iso_date(j.get("posting_expiry_date")),
+                "employment_type": _sched(j.get("employment_type", "")),
+                "department": (cats[0].get("name", "") if cats and
+                               isinstance(cats[0], dict) else ""),
+                "snippet": clean_text(j.get("description", "")),
+                "yoe": filters.parse_yoe(clean_text(body, 6000), j.get("title", "")),
+            })
+        if len(rows) < limit:
+            break
+    return out

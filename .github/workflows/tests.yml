@@ -7,7 +7,8 @@ name: Tests
 
 on:
   push:
-    paths: ["monitor/**", "tests/**", "requirements*.txt", ".github/workflows/tests.yml"]
+    paths: ["monitor/**", "tests/**", "config/**", "requirements*.txt",
+            ".github/workflows/tests.yml"]
   pull_request:
   workflow_dispatch:
 

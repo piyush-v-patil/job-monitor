@@ -88,7 +88,16 @@ NON_US = re.compile(
     r"|singapore|tokyo|japan|china|shanghai|beijing|germany|berlin|munich|paris"
     r"|france|israel|tel aviv|australia|sydney|mexico|brazil|poland|warsaw"
     r"|netherlands|amsterdam|spain|madrid|zurich|switzerland|korea|seoul|taiwan"
-    r"|ireland|uk\b|united kingdom|england|scotland|wales|remote.*(emea|apac|latam)",
+    r"|ireland|uk\b|united kingdom|england|scotland|wales|remote.*(emea|apac|latam)"
+    # A US state code can end a foreign city string and read as a state -
+    # "Dhaka CO" matched the Colorado branch. Naming the city settles it, and
+    # a US namesake ("Vienna, VA", "Athens, GA") still wins on its own hint.
+    r"|dhaka|bangladesh|karachi|lahore|colombo|kathmandu|hanoi|ho chi minh"
+    r"|jakarta|manila|bangkok|kuala lumpur|vietnam|thailand|philippines"
+    r"|istanbul|cairo|nairobi|lagos|casablanca|johannesburg|riyadh|dubai"
+    r"|athens|lisbon|oslo|copenhagen|stockholm|helsinki|vienna|brussels"
+    r"|budapest|prague|bucharest|sofia|santiago|bogota|bogotá|lima\b"
+    r"|buenos aires|montevideo|san jose, costa rica|panama city, panama",
     re.I,
 )
 
@@ -117,6 +126,13 @@ CA_PROVINCE = re.compile(
 LOC_SPLIT = re.compile(r"\s*[;|]\s*|\s+/\s+")
 
 
+# A two-letter code closing a location is only a US state when a comma
+# introduces it. Boards write US locations that way ("Vienna, VA"), while a
+# foreign city carries its own region code unpunctuated - "Dhaka CO" is the
+# Dhaka country office, and it was reading as Colorado.
+BARE_TRAILING_CODE = re.compile(rf"(?<!,)\s+({US_STATES})$")
+
+
 def _site_is_us(loc: str) -> bool:
     """Judge a single location string."""
     if not loc or AMBIGUOUS_LOC.match(loc):
@@ -124,8 +140,12 @@ def _site_is_us(loc: str) -> bool:
     loc = CA_PROVINCE.sub("Canada", loc)
     if TRAILING_NON_US.search(loc):
         return False
-    if NON_US.search(loc) and not US_HINT.search(loc):
-        return False
+    if NON_US.search(loc):
+        # Named somewhere foreign: it takes a US signal beyond that trailing
+        # code to keep it. Anything comma-introduced is left alone, so
+        # "Vienna, VA" and "Athens, GA" still read as the US towns they are.
+        if not US_HINT.search(BARE_TRAILING_CODE.sub("", loc)):
+            return False
     return bool(US_HINT.search(loc))
 
 
