@@ -4559,6 +4559,17 @@
    "title": "Leadership Technical Program Manager I, Procurement Operations, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/87739261108789958-leadership-technical-program-manager-i-procurement-operations-google-cloud"
   },
+  "google:476e0dfc2a6a": {
+   "company": "Google",
+   "first_seen": "2026-09-09",
+   "location": "Sunnyvale, CA, USA; Austin, TX, USA; +2 more; +1 more",
+   "role": "demand-planning",
+   "source": "google careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Program Manager III, Supply and Demand Planning, Infrastructure Supply Chain",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/127381504308191942-program-manager-iii-supply-and-demand-planning-infrastructure-supply-chain"
+  },
   "google:5264ae938ff4": {
    "company": "Google",
    "first_seen": "2026-09-08",
@@ -5202,6 +5213,18 @@
    "title": "Strategic Sourcing Program Manager-M&A",
    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/Strategic-Sourcing-Program-Manager-M-A_R74330"
   },
+  "medtronic:3dd513ece8ca": {
+   "company": "Medtronic",
+   "first_seen": "2026-09-09",
+   "location": "Boulder, Colorado, United States of America",
+   "posted_at": "2026-09-08",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Senior Supplier Quality Engineering Manager",
+   "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Boulder-Colorado-United-States-of-America/Senior-Supplier-Quality-Engineering-Manager_R75746-1"
+  },
   "medtronic:45021da7b505": {
    "company": "Medtronic",
    "first_seen": "2026-09-08",
@@ -5393,6 +5416,18 @@
    "tier": "manager",
    "title": "Senior Category Supplier Manager - Clay, NY",
    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Clay-NY/Principal-Category-Supplier-Manager---Clay--NY_JR103688"
+  },
+  "micron:beceff117976": {
+   "company": "Micron",
+   "first_seen": "2026-09-09",
+   "location": "3 Locations",
+   "posted_at": "2026-09-09",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Program Management Office Taiwan Business Operation  - Office Layout Planning Engineer",
+   "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Tainan-Taiwan/IE-Layout---Office-Layout-Planning_JR110727"
   },
   "micron:c87ce64b4a79": {
    "company": "Micron",
@@ -9687,6 +9722,21 @@
    "url": "https://careers.walmart.com/us/en/job/R-2607595",
    "yoe": 1
   },
+  "walmart-global-tech:f66d5118cef3": {
+   "comp": "$84,000 - $126,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Corporate",
+   "employment_type": "Full time",
+   "first_seen": "2026-09-09",
+   "location": "Cocoa, FL",
+   "posted_at": "2026-05-21",
+   "role": "supply-chain",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "(USA) Assistant Quality Control Manager - Supply Chain",
+   "url": "https://careers.walmart.com/us/en/job/R-2517131"
+  },
   "walmart-global-tech:f899e59a39f2": {
    "comp": "$80,000 - $120,000 Annual",
    "company": "Walmart Global Tech",
@@ -9881,17 +9931,17 @@
  "sources": {
   "AMD": {
    "best": 600,
-   "last": 599,
+   "last": 598,
    "last_ok": "2026-09-09"
   },
   "Abbott": {
    "best": 533,
-   "last": 524,
+   "last": 525,
    "last_ok": "2026-09-09"
   },
   "Airbnb": {
    "best": 172,
-   "last": 170,
+   "last": 171,
    "last_ok": "2026-09-09"
   },
   "Amazon": {
@@ -9905,8 +9955,8 @@
    "last_ok": "2026-09-09"
   },
   "Applied Materials": {
-   "best": 464,
-   "last": 464,
+   "best": 466,
+   "last": 466,
    "last_ok": "2026-09-09"
   },
   "Astranis": {
@@ -9915,13 +9965,13 @@
    "last_ok": "2026-09-09"
   },
   "Becton Dickinson": {
-   "best": 312,
-   "last": 312,
+   "best": 315,
+   "last": 315,
    "last_ok": "2026-09-09"
   },
   "Boeing": {
    "best": 311,
-   "last": 311,
+   "last": 299,
    "last_ok": "2026-09-09"
   },
   "CVS Health": {
@@ -9931,7 +9981,7 @@
   },
   "Carvana": {
    "best": 1741,
-   "last": 1702,
+   "last": 1701,
    "last_ok": "2026-09-09"
   },
   "Coinbase": {
@@ -9981,7 +10031,7 @@
   },
   "Google": {
    "best": 201,
-   "last": 200,
+   "last": 199,
    "last_ok": "2026-09-09"
   },
   "Gusto": {
@@ -9996,7 +10046,7 @@
   },
   "Instacart": {
    "best": 109,
-   "last": 104,
+   "last": 103,
    "last_ok": "2026-09-09"
   },
   "Land O'Lakes": {
@@ -10016,17 +10066,17 @@
   },
   "Lyft": {
    "best": 167,
-   "last": 164,
+   "last": 159,
    "last_ok": "2026-09-09"
   },
   "Medtronic": {
    "best": 426,
-   "last": 424,
+   "last": 413,
    "last_ok": "2026-09-09"
   },
   "Micron": {
    "best": 287,
-   "last": 283,
+   "last": 281,
    "last_ok": "2026-09-09"
   },
   "Misfits Market": {
@@ -10035,13 +10085,13 @@
    "last_ok": "2026-09-09"
   },
   "Mondelez": {
-   "best": 451,
-   "last": 451,
+   "best": 452,
+   "last": 452,
    "last_ok": "2026-09-09"
   },
   "Nike": {
    "best": 178,
-   "last": 175,
+   "last": 174,
    "last_ok": "2026-09-09"
   },
   "Nuro": {
@@ -10061,7 +10111,7 @@
   },
   "OpenAI": {
    "best": 781,
-   "last": 781,
+   "last": 780,
    "last_ok": "2026-09-09"
   },
   "Oura": {
@@ -10081,7 +10131,7 @@
   },
   "Pinterest": {
    "best": 188,
-   "last": 187,
+   "last": 186,
    "last_ok": "2026-09-09"
   },
   "Samsara": {
@@ -10101,7 +10151,7 @@
   },
   "Stripe": {
    "best": 620,
-   "last": 618,
+   "last": 616,
    "last_ok": "2026-09-09"
   },
   "Stryker": {
@@ -10121,12 +10171,12 @@
   },
   "Tyson Foods": {
    "best": 121,
-   "last": 121,
+   "last": 120,
    "last_ok": "2026-09-09"
   },
   "Unilever": {
    "best": 184,
-   "last": 182,
+   "last": 181,
    "last_ok": "2026-09-09"
   },
   "Verkada": {
@@ -10135,13 +10185,13 @@
    "last_ok": "2026-09-09"
   },
   "Walmart Global Tech": {
-   "best": 223,
-   "last": 213,
+   "best": 229,
+   "last": 229,
    "last_ok": "2026-09-09"
   },
   "Waymo": {
    "best": 344,
-   "last": 341,
+   "last": 342,
    "last_ok": "2026-09-09"
   },
   "Zebra Technologies": {
@@ -10150,6 +10200,6 @@
    "last_ok": "2026-09-09"
   }
  },
- "updated": "2026-09-09T03:28:55Z",
+ "updated": "2026-09-09T08:44:53Z",
  "version": 1
 }
