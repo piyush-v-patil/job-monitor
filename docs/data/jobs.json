@@ -3777,6 +3777,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10529217/software-development-engineer-iii-aais-mosaic-data-platform",
    "yoe": 5
   },
+  "amazon:b4adc1088dc8": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-09",
+   "role": "devops-sre",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Infrastructure Supply Chain Automation",
+   "url": "https://www.amazon.jobs/en/jobs/10535519/software-dev-engineer-ii-infrastructure-supply-chain-automation",
+   "yoe": 2
+  },
   "amazon:b5e00880d061": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4366,6 +4381,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, Amazon Leo",
    "url": "https://www.amazon.jobs/en/jobs/10532301/software-dev-engineer-ii-amazon-leo",
+   "yoe": 1
+  },
+  "amazon:db9bbc778761": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Herndon, Virginia, USA",
+   "posted_at": "2026-09-09",
+   "role": "security",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Security Communications",
+   "url": "https://www.amazon.jobs/en/jobs/10535504/software-development-engineer-aws-security-communications",
    "yoe": 1
   },
   "amazon:dcda3ee2844a": {
@@ -9435,6 +9465,18 @@
    "tier": "experienced",
    "title": "Lead Data Scientist, Platform Product",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5116820008"
+  },
+  "anthropic:293eb0119ac2": {
+   "company": "Anthropic",
+   "first_seen": "2026-09-09",
+   "location": "San Francisco, CA | New York City, NY",
+   "posted_at": "2026-09-09",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Performance Engineer, Inference Engine",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418323008"
   },
   "anthropic:2a3aedbd2c17": {
    "company": "Anthropic",
@@ -48905,7 +48947,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 166,
+   "last": 170,
    "last_ok": "2026-09-09"
   },
   "Airtable": {
@@ -48924,8 +48966,8 @@
    "last_ok": "2026-09-09"
   },
   "Anthropic": {
-   "best": 598,
-   "last": 596,
+   "best": 599,
+   "last": 599,
    "last_ok": "2026-09-09"
   },
   "Apple": {
@@ -49153,7 +49195,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 190,
+   "last": 188,
    "last_ok": "2026-09-09"
   },
   "Okta": {
@@ -49162,8 +49204,8 @@
    "last_ok": "2026-09-09"
   },
   "OpenAI": {
-   "best": 786,
-   "last": 786,
+   "best": 788,
+   "last": 788,
    "last_ok": "2026-09-09"
   },
   "OpenEvidence": {
@@ -49268,7 +49310,7 @@
   },
   "Stripe": {
    "best": 621,
-   "last": 618,
+   "last": 619,
    "last_ok": "2026-09-09"
   },
   "Suno": {
@@ -49346,6 +49388,6 @@
    "last_ok": "2026-09-09"
   }
  },
- "updated": "2026-09-09T21:02:36Z",
+ "updated": "2026-09-09T23:27:12Z",
  "version": 1
 }
