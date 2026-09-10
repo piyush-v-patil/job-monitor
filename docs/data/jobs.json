@@ -3642,6 +3642,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10505759/software-development-engineer-sponsored-products-and-brands",
    "yoe": 1
   },
+  "amazon:a92e1300d492": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Post Silicon Validation",
+   "url": "https://www.amazon.jobs/en/jobs/10535706/software-development-engineer-ii-post-silicon-validation",
+   "yoe": 2
+  },
   "amazon:a96034a77fac": {
    "company": "Amazon",
    "department": "Software Development",
@@ -50083,7 +50098,7 @@
   },
   "Stripe": {
    "best": 621,
-   "last": 620,
+   "last": 618,
    "last_ok": "2026-09-10"
   },
   "Suno": {
@@ -50161,6 +50176,6 @@
    "last_ok": "2026-09-10"
   }
  },
- "updated": "2026-09-10T04:58:11Z",
+ "updated": "2026-09-10T06:26:52Z",
  "version": 1
 }
