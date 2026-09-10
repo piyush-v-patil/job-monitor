@@ -84,6 +84,18 @@
    "title": "Senior Application Analyst - SAP IBP",
    "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Wisconsin---Madison/Senior-Application-Analyst---SAP-IBP_35000189-2"
   },
+  "abbott:49ef9c4d0388": {
+   "company": "Abbott",
+   "first_seen": "2026-09-10",
+   "location": "4 Locations",
+   "posted_at": "2026-09-10",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "US Manager, Patient Programs and Market Access, Procurement",
+   "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Illinois---Chicago/USA-Go-To-Market-Manager_31161520-2"
+  },
   "abbott:50e1d834f32e": {
    "company": "Abbott",
    "first_seen": "2026-09-08",
@@ -2135,6 +2147,18 @@
    "title": "Senior Supply Chain Manufacutring Engineer, Propulsion Engines",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5176756007?gh_jid=5176756007"
   },
+  "anduril:f0eae718b34a": {
+   "company": "Anduril",
+   "first_seen": "2026-09-10",
+   "location": "Costa Mesa, California, United States",
+   "posted_at": "2026-09-10",
+   "role": "procurement",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "mid",
+   "title": "Staff Buyer",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5234948007?gh_jid=5234948007"
+  },
   "anduril:f3cf902f8dd8": {
    "company": "Anduril",
    "first_seen": "2026-09-08",
@@ -4007,6 +4031,18 @@
    "title": "Logistics Lead",
    "url": "https://www.carvana.com/careers/apply?gh_jid=8188794"
   },
+  "carvana:605fa446e0eb": {
+   "company": "Carvana",
+   "first_seen": "2026-09-10",
+   "location": "Haines City, FL",
+   "posted_at": "2026-09-10",
+   "role": "logistics",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "manager",
+   "title": "Logistics Lead",
+   "url": "https://www.carvana.com/careers/apply?gh_jid=8192738"
+  },
   "carvana:6c89ffd04ca0": {
    "company": "Carvana",
    "first_seen": "2026-09-08",
@@ -5737,6 +5773,18 @@
    "tier": "mid",
    "title": "Sr Demand Planner - Minimed",
    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Sao-Paulo-Sao-Paulo-Brazil/Sr-Demand-Planner---Minimed_R72884-1"
+  },
+  "medtronic:a688e62e1664": {
+   "company": "Medtronic",
+   "first_seen": "2026-09-10",
+   "location": "New York, New York, United States of America",
+   "posted_at": "2026-09-10",
+   "role": "inventory",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "CRM Field Inventory Analyst - NYC, NY",
+   "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/New-York-New-York-United-States-of-America/CRM-Field-Inventory-Analyst---NYC--NY_R74537-1"
   },
   "medtronic:c466e6e479b2": {
    "company": "Medtronic",
@@ -8943,6 +8991,18 @@
    "title": "Senior Supply Planner",
    "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Irvine-California/Senior-Supply-Planner_R571256"
   },
+  "stryker:97ee1f9d48f7": {
+   "company": "Stryker",
+   "first_seen": "2026-09-10",
+   "location": "San Antonio de Belen, Costa Rica",
+   "posted_at": "2026-09-10",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Analyst, Procurement Systems and Analytics (Fixed term)",
+   "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/San-Antonio-de-Belen-Costa-Rica/Analyst--Procurement-Systems-and-Analytics--Fixed-term-_R572675"
+  },
   "stryker:aafb184d3f39": {
    "company": "Stryker",
    "first_seen": "2026-09-08",
@@ -9422,6 +9482,18 @@
    "tier": "manager",
    "title": "Strategic Sourcing Manager - MBS (Bangladesh)",
    "url": "https://unilever.wd3.myworkdayjobs.com/en-US/Unilever_Experienced_Professionals/job/Dhaka-CO/Strategic-Sourcing-Manager---MBS--Bangladesh-_R-1187452"
+  },
+  "verkada:193cd415889d": {
+   "company": "Verkada",
+   "first_seen": "2026-09-10",
+   "location": "San Mateo, CA United States",
+   "posted_at": "2026-09-10",
+   "role": "supply-chain",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "manager",
+   "title": "Supply Chain Manager",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5234561007"
   },
   "verkada:744b13dadb52": {
    "company": "Verkada",
@@ -10750,12 +10822,12 @@
  "sources": {
   "AMD": {
    "best": 600,
-   "last": 597,
+   "last": 600,
    "last_ok": "2026-09-10"
   },
   "Abbott": {
    "best": 533,
-   "last": 529,
+   "last": 525,
    "last_ok": "2026-09-10"
   },
   "Airbnb": {
@@ -10765,17 +10837,17 @@
   },
   "Amazon": {
    "best": 43,
-   "last": 39,
+   "last": 40,
    "last_ok": "2026-09-10"
   },
   "Anduril": {
-   "best": 2261,
-   "last": 2261,
+   "best": 2270,
+   "last": 2270,
    "last_ok": "2026-09-10"
   },
   "Applied Materials": {
    "best": 466,
-   "last": 461,
+   "last": 459,
    "last_ok": "2026-09-10"
   },
   "Astranis": {
@@ -10785,22 +10857,22 @@
   },
   "Becton Dickinson": {
    "best": 322,
-   "last": 322,
+   "last": 320,
    "last_ok": "2026-09-10"
   },
   "Boeing": {
    "best": 311,
-   "last": 303,
+   "last": 309,
    "last_ok": "2026-09-10"
   },
   "CVS Health": {
    "best": 344,
-   "last": 320,
+   "last": 331,
    "last_ok": "2026-09-10"
   },
   "Carvana": {
    "best": 1741,
-   "last": 1719,
+   "last": 1718,
    "last_ok": "2026-09-10"
   },
   "Coinbase": {
@@ -10815,7 +10887,7 @@
   },
   "DoorDash": {
    "best": 457,
-   "last": 454,
+   "last": 451,
    "last_ok": "2026-09-10"
   },
   "Duolingo": {
@@ -10830,7 +10902,7 @@
   },
   "Flexport": {
    "best": 176,
-   "last": 176,
+   "last": 175,
    "last_ok": "2026-09-10"
   },
   "Formlabs": {
@@ -10840,7 +10912,7 @@
   },
   "General Mills": {
    "best": 220,
-   "last": 215,
+   "last": 216,
    "last_ok": "2026-09-10"
   },
   "Glossier": {
@@ -10854,8 +10926,8 @@
    "last_ok": "2026-09-10"
   },
   "Gusto": {
-   "best": 93,
-   "last": 92,
+   "best": 95,
+   "last": 95,
    "last_ok": "2026-09-10"
   },
   "Illumina": {
@@ -10879,28 +10951,28 @@
    "last_ok": "2026-09-10"
   },
   "Lucid Motors": {
-   "best": 332,
-   "last": 330,
+   "best": 340,
+   "last": 340,
    "last_ok": "2026-09-10"
   },
   "Lyft": {
    "best": 167,
-   "last": 160,
+   "last": 162,
    "last_ok": "2026-09-10"
   },
   "Medtronic": {
-   "best": 446,
-   "last": 446,
+   "best": 450,
+   "last": 450,
    "last_ok": "2026-09-10"
   },
   "Micron": {
    "best": 287,
-   "last": 286,
+   "last": 287,
    "last_ok": "2026-09-10"
   },
   "Misfits Market": {
    "best": 96,
-   "last": 93,
+   "last": 92,
    "last_ok": "2026-09-10"
   },
   "Mondelez": {
@@ -10910,17 +10982,17 @@
   },
   "Nike": {
    "best": 178,
-   "last": 165,
+   "last": 163,
    "last_ok": "2026-09-10"
   },
   "Nuro": {
    "best": 111,
-   "last": 111,
+   "last": 110,
    "last_ok": "2026-09-10"
   },
   "Nvidia": {
    "best": 276,
-   "last": 267,
+   "last": 271,
    "last_ok": "2026-09-10"
   },
   "Olipop": {
@@ -10935,42 +11007,42 @@
   },
   "Oura": {
    "best": 111,
-   "last": 100,
+   "last": 99,
    "last_ok": "2026-09-10"
   },
   "Peloton": {
-   "best": 51,
-   "last": 51,
+   "best": 53,
+   "last": 53,
    "last_ok": "2026-09-10"
   },
   "PepsiCo": {
    "best": 301,
-   "last": 296,
+   "last": 295,
    "last_ok": "2026-09-10"
   },
   "Pinterest": {
    "best": 188,
-   "last": 178,
+   "last": 179,
    "last_ok": "2026-09-10"
   },
   "Samsara": {
-   "best": 260,
-   "last": 260,
+   "best": 263,
+   "last": 263,
    "last_ok": "2026-09-10"
   },
   "Saronic": {
    "best": 202,
-   "last": 202,
+   "last": 201,
    "last_ok": "2026-09-10"
   },
   "SpaceX": {
-   "best": 2377,
-   "last": 2377,
+   "best": 2382,
+   "last": 2382,
    "last_ok": "2026-09-10"
   },
   "Stripe": {
    "best": 620,
-   "last": 617,
+   "last": 620,
    "last_ok": "2026-09-10"
   },
   "Stryker": {
@@ -10979,8 +11051,8 @@
    "last_ok": "2026-09-10"
   },
   "Target": {
-   "best": 364,
-   "last": 364,
+   "best": 371,
+   "last": 371,
    "last_ok": "2026-09-10"
   },
   "Thrive Market": {
@@ -10990,27 +11062,27 @@
   },
   "Tyson Foods": {
    "best": 121,
-   "last": 119,
+   "last": 120,
    "last_ok": "2026-09-10"
   },
   "Unilever": {
    "best": 196,
-   "last": 196,
+   "last": 194,
    "last_ok": "2026-09-10"
   },
   "Verkada": {
-   "best": 294,
-   "last": 294,
+   "best": 296,
+   "last": 296,
    "last_ok": "2026-09-10"
   },
   "Walmart Global Tech": {
    "best": 241,
-   "last": 233,
+   "last": 213,
    "last_ok": "2026-09-10"
   },
   "Waymo": {
    "best": 344,
-   "last": 339,
+   "last": 337,
    "last_ok": "2026-09-10"
   },
   "Zebra Technologies": {
@@ -11019,6 +11091,6 @@
    "last_ok": "2026-09-10"
   }
  },
- "updated": "2026-09-10T19:01:00Z",
+ "updated": "2026-09-10T22:20:07Z",
  "version": 1
 }
