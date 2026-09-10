@@ -555,6 +555,19 @@
    "url": "https://www.amazon.jobs/en/jobs/10530034/software-dev-engineer-ii-long-term-planning-and-forecasting",
    "yoe": 1
   },
+  "amd:01ab4d5249af": {
+   "company": "AMD",
+   "department": "Student / Intern / Temp",
+   "first_seen": "2026-09-10",
+   "location": "Austin, Texas",
+   "posted_at": "2026-09-10",
+   "role": "supply-chain",
+   "source": "phenom",
+   "status": "new",
+   "tier": "intern",
+   "title": "2027 Undergrad Supply Chain Co-Op/Intern",
+   "url": "https://campus-amd.icims.com/jobs/92244/login"
+  },
   "amd:11e952b51619": {
    "company": "AMD",
    "department": "Engineering",
@@ -2710,6 +2723,18 @@
    "title": "Purchasing Manager III (M3)",
    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/BeniciaCA/Purchasing-Manager-III--M3-_R2624923"
   },
+  "applied-materials:b2b40166813d": {
+   "company": "Applied Materials",
+   "first_seen": "2026-09-10",
+   "location": "Austin,TX",
+   "posted_at": "2026-09-10",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Logistics Sourcing Manager IV",
+   "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/AustinTX/Logistics-Sourcing-Manager-IV_R2627721"
+  },
   "applied-materials:b332052e4b23": {
    "company": "Applied Materials",
    "first_seen": "2026-09-08",
@@ -4806,6 +4831,17 @@
    "title": "Technical Program Manager, Warehouse and Logistics Security Systems",
    "url": "https://www.google.com/about/careers/applications/jobs/results/73916226694193862-technical-program-manager-warehouse-and-logistics-security-systems"
   },
+  "google:704c5d6ab784": {
+   "company": "Google",
+   "first_seen": "2026-09-10",
+   "location": "Sunnyvale, CA, USA; Kirkland, WA, USA",
+   "role": "program-mgmt",
+   "source": "google careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Senior Leadership Technical Program Manager, Infrastructure Planning and Efficiency",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/129062176550724294-senior-leadership-technical-program-manager-infrastructure-planning-and-efficiency"
+  },
   "google:715c564e75ff": {
    "company": "Google",
    "first_seen": "2026-09-08",
@@ -6637,6 +6673,21 @@
    "url": "https://jobs.ashbyhq.com/openai/c3458423-2cd6-40c0-bb5d-a5c3726a1d08",
    "workplace": "Hybrid",
    "yoe": 8
+  },
+  "openai:b1162b1206f2": {
+   "comp": "$226K – $378K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Scaling",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "San Francisco",
+   "posted_at": "2026-09-09",
+   "role": "procurement",
+   "source": "ashby",
+   "status": "new",
+   "tier": "manager",
+   "title": "Hardware Strategic Sourcing Manager, Optics",
+   "url": "https://jobs.ashbyhq.com/openai/23014bc8-37d4-4fd9-9a77-d95fdd33437f"
   },
   "openai:c58fe71c8fce": {
    "comp": "$216K – $240K • Offers Equity",
@@ -10428,274 +10479,274 @@
   "AMD": {
    "best": 600,
    "last": 600,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Abbott": {
    "best": 533,
-   "last": 530,
-   "last_ok": "2026-09-09"
+   "last": 528,
+   "last_ok": "2026-09-10"
   },
   "Airbnb": {
    "best": 172,
    "last": 169,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Amazon": {
    "best": 43,
    "last": 41,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Anduril": {
    "best": 2238,
-   "last": 2234,
-   "last_ok": "2026-09-09"
+   "last": 2238,
+   "last_ok": "2026-09-10"
   },
   "Applied Materials": {
    "best": 466,
    "last": 465,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Astranis": {
    "best": 89,
    "last": 89,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Becton Dickinson": {
-   "best": 315,
-   "last": 312,
-   "last_ok": "2026-09-09"
+   "best": 316,
+   "last": 316,
+   "last_ok": "2026-09-10"
   },
   "Boeing": {
    "best": 311,
    "last": 310,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "CVS Health": {
    "best": 344,
-   "last": 314,
-   "last_ok": "2026-09-09"
+   "last": 332,
+   "last_ok": "2026-09-10"
   },
   "Carvana": {
    "best": 1741,
-   "last": 1720,
-   "last_ok": "2026-09-09"
+   "last": 1719,
+   "last_ok": "2026-09-10"
   },
   "Coinbase": {
    "best": 218,
-   "last": 216,
-   "last_ok": "2026-09-09"
+   "last": 218,
+   "last_ok": "2026-09-10"
   },
   "Databricks": {
    "best": 875,
-   "last": 868,
-   "last_ok": "2026-09-09"
+   "last": 869,
+   "last_ok": "2026-09-10"
   },
   "DoorDash": {
    "best": 456,
    "last": 456,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Duolingo": {
    "best": 89,
    "last": 87,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Faire": {
    "best": 61,
    "last": 61,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Flexport": {
    "best": 175,
    "last": 175,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Formlabs": {
    "best": 203,
    "last": 199,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "General Mills": {
    "best": 220,
    "last": 216,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Glossier": {
    "best": 24,
    "last": 24,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Google": {
    "best": 201,
    "last": 201,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Gusto": {
    "best": 93,
    "last": 93,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Illumina": {
    "best": 111,
    "last": 110,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Instacart": {
    "best": 109,
    "last": 104,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Land O'Lakes": {
    "best": 127,
    "last": 125,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Liquid Death": {
    "best": 3,
    "last": 3,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Lucid Motors": {
-   "best": 326,
-   "last": 324,
-   "last_ok": "2026-09-09"
+   "best": 327,
+   "last": 327,
+   "last_ok": "2026-09-10"
   },
   "Lyft": {
    "best": 167,
-   "last": 153,
-   "last_ok": "2026-09-09"
+   "last": 157,
+   "last_ok": "2026-09-10"
   },
   "Medtronic": {
-   "best": 430,
-   "last": 430,
-   "last_ok": "2026-09-09"
+   "best": 435,
+   "last": 435,
+   "last_ok": "2026-09-10"
   },
   "Micron": {
    "best": 287,
-   "last": 279,
-   "last_ok": "2026-09-09"
+   "last": 280,
+   "last_ok": "2026-09-10"
   },
   "Misfits Market": {
    "best": 96,
    "last": 93,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Mondelez": {
    "best": 452,
    "last": 442,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Nike": {
    "best": 178,
    "last": 169,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Nuro": {
-   "best": 110,
-   "last": 109,
-   "last_ok": "2026-09-09"
+   "best": 111,
+   "last": 111,
+   "last_ok": "2026-09-10"
   },
   "Nvidia": {
    "best": 276,
-   "last": 264,
-   "last_ok": "2026-09-09"
+   "last": 267,
+   "last_ok": "2026-09-10"
   },
   "Olipop": {
    "best": 9,
    "last": 8,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "OpenAI": {
    "best": 787,
-   "last": 787,
-   "last_ok": "2026-09-09"
+   "last": 786,
+   "last_ok": "2026-09-10"
   },
   "Oura": {
    "best": 111,
    "last": 105,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Peloton": {
    "best": 50,
-   "last": 50,
-   "last_ok": "2026-09-09"
+   "last": 49,
+   "last_ok": "2026-09-10"
   },
   "PepsiCo": {
    "best": 301,
    "last": 294,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Pinterest": {
    "best": 188,
-   "last": 184,
-   "last_ok": "2026-09-09"
+   "last": 182,
+   "last_ok": "2026-09-10"
   },
   "Samsara": {
    "best": 253,
    "last": 253,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Saronic": {
    "best": 202,
-   "last": 202,
-   "last_ok": "2026-09-09"
+   "last": 201,
+   "last_ok": "2026-09-10"
   },
   "SpaceX": {
-   "best": 2369,
-   "last": 2369,
-   "last_ok": "2026-09-09"
+   "best": 2374,
+   "last": 2374,
+   "last_ok": "2026-09-10"
   },
   "Stripe": {
    "best": 620,
-   "last": 619,
-   "last_ok": "2026-09-09"
+   "last": 620,
+   "last_ok": "2026-09-10"
   },
   "Stryker": {
-   "best": 408,
-   "last": 408,
-   "last_ok": "2026-09-09"
+   "best": 411,
+   "last": 411,
+   "last_ok": "2026-09-10"
   },
   "Target": {
    "best": 349,
    "last": 344,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Thrive Market": {
    "best": 17,
    "last": 16,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Tyson Foods": {
    "best": 121,
-   "last": 121,
-   "last_ok": "2026-09-09"
+   "last": 120,
+   "last_ok": "2026-09-10"
   },
   "Unilever": {
    "best": 192,
-   "last": 192,
-   "last_ok": "2026-09-09"
+   "last": 189,
+   "last_ok": "2026-09-10"
   },
   "Verkada": {
    "best": 292,
    "last": 292,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   },
   "Walmart Global Tech": {
    "best": 241,
-   "last": 236,
-   "last_ok": "2026-09-09"
+   "last": 232,
+   "last_ok": "2026-09-10"
   },
   "Waymo": {
    "best": 344,
-   "last": 343,
-   "last_ok": "2026-09-09"
+   "last": 339,
+   "last_ok": "2026-09-10"
   },
   "Zebra Technologies": {
    "best": 120,
    "last": 120,
-   "last_ok": "2026-09-09"
+   "last_ok": "2026-09-10"
   }
  },
- "updated": "2026-09-09T22:20:11Z",
+ "updated": "2026-09-10T03:27:16Z",
  "version": 1
 }
