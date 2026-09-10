@@ -1817,6 +1817,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10529021/software-development-engineer-amazon",
    "yoe": 1
   },
+  "amazon:2a5b2ca7a4ad": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Irvine, California, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Luna",
+   "url": "https://www.amazon.jobs/en/jobs/10536429/software-dev-engineer-ii-luna",
+   "yoe": 2
+  },
   "amazon:2ca98ae41d89": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2054,6 +2069,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams",
    "yoe": 2
   },
+  "amazon:3a1f25528cc0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Leo Commerce, Leo Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10536497/software-development-engineer-leo-commerce-leo-commerce",
+   "yoe": 1
+  },
   "amazon:3a3fc00477f3": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2157,6 +2187,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Amazon ECS",
    "url": "https://www.amazon.jobs/en/jobs/10525114/software-development-engineer-amazon-ecs",
+   "yoe": 1
+  },
+  "amazon:44a83704e039": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Minneapolis, Minnesota, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS",
+   "url": "https://www.amazon.jobs/en/jobs/10536479/software-development-engineer-aws",
    "yoe": 1
   },
   "amazon:45b1df096c2f": {
@@ -3582,6 +3627,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515153/software-development-engineer-transit-gateway",
    "yoe": 1
   },
+  "amazon:a1d25c0f9f33": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Amazon Leo , Amazon Leo Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10536359/software-development-engineer-amazon-leo-amazon-leo-commerce",
+   "yoe": 1
+  },
   "amazon:a2b03f2c86f6": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3881,6 +3941,21 @@
    "title": "Software Development Engineer, AWS Infra Supply Chain Automation, AWS Infra Supply Chain Automation",
    "url": "https://www.amazon.jobs/en/jobs/10530587/software-development-engineer-aws-infra-supply-chain-automation-aws-infra-supply-chain-automation",
    "yoe": 3
+  },
+  "amazon:b73617067b0f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Quick Governance Platform",
+   "url": "https://www.amazon.jobs/en/jobs/10536501/software-development-engineer-quick-governance-platform",
+   "yoe": 1
   },
   "amazon:b751620731ca": {
    "company": "Amazon",
@@ -4751,6 +4826,21 @@
    "title": "Software Development Engineer , Service Resource Management",
    "url": "https://www.amazon.jobs/en/jobs/10524379/software-development-engineer-service-resource-management",
    "yoe": 3
+  },
+  "amazon:ec91800baf19": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Amazon Catalog",
+   "url": "https://www.amazon.jobs/en/jobs/10536688/software-dev-engineer-ii-amazon-catalog",
+   "yoe": 2
   },
   "amazon:ed3971d6a21c": {
    "company": "Amazon",
@@ -22154,6 +22244,17 @@
    "title": "Network Engineer",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127058887839752902-network-engineer"
   },
+  "google:c521af54a569": {
+   "company": "Google",
+   "first_seen": "2026-09-10",
+   "location": "Kirkland, WA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Trust and Safety, Technology and Innovation Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/120920593594753734-software-engineer-trust-and-safety-technology-and-innovation-engineering"
+  },
   "google:c570b2a973cf": {
    "company": "Google",
    "first_seen": "2026-09-08",
@@ -25623,6 +25724,20 @@
    "title": "Software Engineer Intern",
    "url": "https://jobs.lever.co/neighbor/7d66629f-3f4b-41ee-a324-fe0154e13c46/apply"
   },
+  "netflix:05eab3a4a11b": {
+   "company": "Netflix",
+   "department": "Engineering",
+   "first_seen": "2026-09-10",
+   "location": "Los Gatos,California,United States of America",
+   "posted_at": "2026-08-31",
+   "role": "devops-sre",
+   "source": "eightfold",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (L5/6) - Infrastructure Management",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318143742",
+   "workplace": "On-site"
+  },
   "netflix:0eb4bef58ecf": {
    "company": "Netflix",
    "department": "Engineering",
@@ -26971,6 +27086,18 @@
    "tier": "experienced",
    "title": "Applied AI Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Applied-AI-Engineer_JR2018181-1"
+  },
+  "nvidia:448ce5ee4223": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-10",
+   "location": "6 Locations",
+   "posted_at": "2026-09-10",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ML Data Operations Lead, Dataset Release and Delivery - Autonomous Vehicles",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ML-Data-Operations-Lead--Dataset-Release-and-Delivery---Autonomous-Vehicles_JR2025145"
   },
   "nvidia:472b56adb0b8": {
    "company": "Nvidia",
@@ -30651,6 +30778,23 @@
    "url": "https://jobs.ashbyhq.com/openai/4ef5bf23-cf0e-4b97-a639-11f963c99b88",
    "workplace": "Hybrid",
    "yoe": 5
+  },
+  "openai:bd9c1fdacc56": {
+   "comp": "$197K – $278K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Go To Market",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "San Francisco",
+   "posted_at": "2026-09-10",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Partner Applied AI Engineer ",
+   "url": "https://jobs.ashbyhq.com/openai/552396f4-dc83-43de-9230-6301e5f461bd",
+   "workplace": "Hybrid",
+   "yoe": 8
   },
   "openai:be45c967b9a5": {
    "comp": "$230K – $385K",
@@ -50103,7 +50247,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 168,
+   "last": 167,
    "last_ok": "2026-09-10"
   },
   "Airtable": {
@@ -50123,7 +50267,7 @@
   },
   "Anthropic": {
    "best": 600,
-   "last": 599,
+   "last": 596,
    "last_ok": "2026-09-10"
   },
   "Apple": {
@@ -50351,7 +50495,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 186,
+   "last": 192,
    "last_ok": "2026-09-10"
   },
   "Okta": {
@@ -50361,7 +50505,7 @@
   },
   "OpenAI": {
    "best": 788,
-   "last": 787,
+   "last": 785,
    "last_ok": "2026-09-10"
   },
   "OpenEvidence": {
@@ -50466,7 +50610,7 @@
   },
   "Stripe": {
    "best": 621,
-   "last": 614,
+   "last": 617,
    "last_ok": "2026-09-10"
   },
   "Suno": {
@@ -50544,6 +50688,6 @@
    "last_ok": "2026-09-10"
   }
  },
- "updated": "2026-09-10T17:05:13Z",
+ "updated": "2026-09-10T19:57:39Z",
  "version": 1
 }
