@@ -27183,6 +27183,18 @@
    "title": "Software Engineer, CAD Automation",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CAD-Automation_JR2019252"
   },
+  "nvidia:1ff54011a560": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-10",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System Software Engineer, Calibration - Autonomous Vehicles",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Calibration---Autonomous-Vehicles_JR2014856"
+  },
   "nvidia:2085a5711dea": {
    "company": "Nvidia",
    "first_seen": "2026-08-24",
@@ -30648,6 +30660,21 @@
    "title": "Network Engineer",
    "url": "https://jobs.ashbyhq.com/openai/9f78c41f-8d39-46c9-b9c3-c3b075905b24",
    "workplace": "Hybrid"
+  },
+  "openai:a2f84cf34b59": {
+   "comp": "$295K – $445K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Applied AI",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "San Francisco",
+   "posted_at": "2026-09-10",
+   "role": "fullstack",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full-Stack Software Engineer, Emerging Products",
+   "url": "https://jobs.ashbyhq.com/openai/f7d155c9-06e8-44f0-b2eb-bfa88707f2c1"
   },
   "openai:a33172ac721f": {
    "comp": "$185K – $300K • Offers Equity",
@@ -50586,7 +50613,7 @@
   },
   "Anthropic": {
    "best": 600,
-   "last": 595,
+   "last": 594,
    "last_ok": "2026-09-10"
   },
   "Apple": {
@@ -50814,7 +50841,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 192,
+   "last": 191,
    "last_ok": "2026-09-10"
   },
   "Okta": {
@@ -50928,8 +50955,8 @@
    "last_ok": "2026-09-10"
   },
   "Stripe": {
-   "best": 621,
-   "last": 617,
+   "best": 622,
+   "last": 622,
    "last_ok": "2026-09-10"
   },
   "Suno": {
@@ -51007,6 +51034,6 @@
    "last_ok": "2026-09-10"
   }
  },
- "updated": "2026-09-10T21:01:39Z",
+ "updated": "2026-09-10T23:20:42Z",
  "version": 1
 }
