@@ -1536,6 +1536,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10505873/software-development-engineer-aws-central-sde-team",
    "yoe": 2
   },
+  "amazon:189c077ccbc5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - II, Emerging Planning Solutions Tools",
+   "url": "https://www.amazon.jobs/en/jobs/10536204/software-development-engineer-ii-emerging-planning-solutions-tools",
+   "yoe": 1
+  },
   "amazon:18c5bf40b245": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4189,6 +4204,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Quick Governance Platform",
    "url": "https://www.amazon.jobs/en/jobs/10528714/software-development-engineer-quick-governance-platform",
+   "yoe": 1
+  },
+  "amazon:ca0aafbdb411": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AWS Activate",
+   "url": "https://www.amazon.jobs/en/jobs/10536169/software-development-engineer-ii-aws-activate",
    "yoe": 1
   },
   "amazon:ca2f9867a205": {
@@ -50073,7 +50103,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 167,
+   "last": 168,
    "last_ok": "2026-09-10"
   },
   "Airtable": {
@@ -50321,7 +50351,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 187,
+   "last": 186,
    "last_ok": "2026-09-10"
   },
   "Okta": {
@@ -50331,7 +50361,7 @@
   },
   "OpenAI": {
    "best": 788,
-   "last": 786,
+   "last": 787,
    "last_ok": "2026-09-10"
   },
   "OpenEvidence": {
@@ -50436,7 +50466,7 @@
   },
   "Stripe": {
    "best": 621,
-   "last": 612,
+   "last": 614,
    "last_ok": "2026-09-10"
   },
   "Suno": {
@@ -50514,6 +50544,6 @@
    "last_ok": "2026-09-10"
   }
  },
- "updated": "2026-09-10T16:34:17Z",
+ "updated": "2026-09-10T17:05:13Z",
  "version": 1
 }
