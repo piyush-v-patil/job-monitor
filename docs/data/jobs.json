@@ -3642,6 +3642,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10505759/software-development-engineer-sponsored-products-and-brands",
    "yoe": 1
   },
+  "amazon:a85ddae2cb75": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-10",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Prime Video ML Platform",
+   "url": "https://www.amazon.jobs/en/jobs/10535739/machine-learning-engineer-prime-video-ml-platform",
+   "yoe": 1
+  },
   "amazon:a92e1300d492": {
    "company": "Amazon",
    "department": "Software Development",
@@ -17182,6 +17197,18 @@
    "title": "Software Engineer New Grad",
    "url": "https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e/application"
   },
+  "consumer-direct-care-network:f4e223fdb86a": {
+   "company": "Consumer Direct Care Network",
+   "first_seen": "2026-09-10",
+   "location": "Missoula, MT",
+   "posted_at": "2026-08-13",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://cdcn.avature.net/careers/JobDetail/8611"
+  },
   "corning:3cd71bcd40ba": {
    "company": "Corning",
    "first_seen": "2026-09-01",
@@ -21459,6 +21486,17 @@
    "title": "Software Engineer, Embedded Systems/Firmware, Platforms and Devices",
    "url": "https://www.google.com/about/careers/applications/jobs/results/77161400903836358-software-engineer-embedded-systemsfirmware-platforms-and-devices"
   },
+  "google:80b9fb5a73d1": {
+   "company": "Google",
+   "first_seen": "2026-09-10",
+   "location": "Seattle, WA, USA; Mountain View, CA, USA; +2 more; +1 more",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Google Beam, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/114584494630937286-software-engineer-google-beam-full-stack"
+  },
   "google:8303d21ccfac": {
    "company": "Google",
    "first_seen": "2026-08-27",
@@ -21757,6 +21795,17 @@
    "title": "Software Engineer, Rapid Innovation, Google Public Sector",
    "url": "https://www.google.com/about/careers/applications/jobs/results/116982173008831174-software-engineer-rapid-innovation-google-public-sector"
   },
+  "google:abedbda6323b": {
+   "company": "Google",
+   "first_seen": "2026-09-10",
+   "location": "Kirkland, WA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Cloud Platforms",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/92579968424256198-software-engineer-iii-infrastructure-google-cloud-platforms"
+  },
   "google:ad10adaaccc7": {
    "company": "Google",
    "first_seen": "2026-09-07",
@@ -21823,6 +21872,17 @@
    "title": "Software Engineer, Site Reliability Engineering",
    "url": "https://www.google.com/about/careers/applications/jobs/results/99009796459373254-software-engineer-site-reliability-engineering"
   },
+  "google:b2dd6abf4e25": {
+   "company": "Google",
+   "first_seen": "2026-09-10",
+   "location": "Kirkland, WA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, RCS Video, Google Messages",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/72836613649900230-software-engineer-rcs-video-google-messages"
+  },
   "google:b41698285a3c": {
    "company": "Google",
    "first_seen": "2026-08-31",
@@ -21877,6 +21937,17 @@
    "tier": "experienced",
    "title": "Software Engineer, IT Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/129062335464514246-software-engineer-it-infrastructure"
+  },
+  "google:b9ad2805c36b": {
+   "company": "Google",
+   "first_seen": "2026-09-10",
+   "location": "Sunnyvale, CA, USA; Kirkland, WA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML GenAI, Google Cloud AI",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/121713962638025414-software-engineer-iii-aiml-genai-google-cloud-ai"
   },
   "google:bccceebfb856": {
    "company": "Google",
@@ -36050,6 +36121,18 @@
    "title": "Machine Learning Engineer",
    "url": "https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680"
   },
+  "robinhood:be1c8c5f2fbb": {
+   "company": "Robinhood",
+   "first_seen": "2026-09-10",
+   "location": "Menlo Park, CA; New York, NY",
+   "posted_at": "2026-09-10",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Tokenization",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8189005?t=gh_src=&gh_jid=8189005"
+  },
   "robinhood:e2908a320dac": {
    "company": "Robinhood",
    "first_seen": "2026-08-20",
@@ -36575,6 +36658,30 @@
    "title": "Software Engineer Intern - Summer 2027",
    "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Software-Engineering-Intern--Summer-2027-_01870007"
   },
+  "rtx:225a1a2d7e22": {
+   "company": "RTX",
+   "first_seen": "2026-09-10",
+   "location": "Tewksbury, MA",
+   "posted_at": "2026-09-09",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I---Onsite-_01872452"
+  },
+  "rtx:236acfb95d38": {
+   "company": "RTX",
+   "first_seen": "2026-09-10",
+   "location": "Woburn, MA",
+   "posted_at": "2026-09-09",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-I---Onsite-_01872447"
+  },
   "rtx:24d0b2c79dfb": {
    "company": "RTX",
    "first_seen": "2026-08-27",
@@ -36622,6 +36729,18 @@
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Software-Engineer-I_01861317-1"
+  },
+  "rtx:4098ba1701ad": {
+   "company": "RTX",
+   "first_seen": "2026-09-10",
+   "location": "Huntsville, AL",
+   "posted_at": "2026-09-09",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Intern",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Software-Engineering-Intern--Summer-2027-_01872655"
   },
   "rtx:48d0093aa4ea": {
    "company": "RTX",
@@ -37947,6 +38066,18 @@
    "title": "Software Engineer, AI Applications",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineer--AI-Applications_JR357086"
   },
+  "salesforce:b7309d983098": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-10",
+   "location": "3 Locations",
+   "posted_at": "2026-09-09",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering SMTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-SMTS_JR359584"
+  },
   "salesforce:b878d457f47d": {
    "company": "Salesforce",
    "first_seen": "2026-09-03",
@@ -38030,6 +38161,18 @@
    "tier": "experienced",
    "title": "Lead Software Development Engineer in Test - AI Tooling & Automation",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-LMTS_JR357806"
+  },
+  "salesforce:d9b8257ff56b": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-10",
+   "location": "3 Locations",
+   "posted_at": "2026-09-09",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering SMTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-SMTS_JR359585"
   },
   "salesforce:dee4d8286fef": {
    "company": "Salesforce",
@@ -49735,7 +49878,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 169,
+   "last": 168,
    "last_ok": "2026-09-10"
   },
   "Airtable": {
@@ -49750,12 +49893,12 @@
   },
   "Anduril": {
    "best": 2239,
-   "last": 2239,
+   "last": 2238,
    "last_ok": "2026-09-10"
   },
   "Anthropic": {
-   "best": 599,
-   "last": 599,
+   "best": 600,
+   "last": 600,
    "last_ok": "2026-09-10"
   },
   "Apple": {
@@ -49781,12 +49924,12 @@
   },
   "Block": {
    "best": 208,
-   "last": 203,
+   "last": 202,
    "last_ok": "2026-09-10"
   },
   "Boeing": {
    "best": 195,
-   "last": 189,
+   "last": 190,
    "last_ok": "2026-09-10"
   },
   "Brex": {
@@ -49826,8 +49969,8 @@
    "reported_dead": "2026-08-24"
   },
   "Cloudflare": {
-   "best": 353,
-   "last": 353,
+   "best": 354,
+   "last": 354,
    "last_ok": "2026-09-10"
   },
   "Cognition": {
@@ -49842,7 +49985,7 @@
   },
   "Databricks": {
    "best": 876,
-   "last": 869,
+   "last": 873,
    "last_ok": "2026-09-10"
   },
   "Datadog": {
@@ -49862,7 +50005,7 @@
   },
   "DoorDash": {
    "best": 475,
-   "last": 456,
+   "last": 457,
    "last_ok": "2026-09-10"
   },
   "Dropbox": {
@@ -49872,12 +50015,12 @@
   },
   "Duolingo": {
    "best": 92,
-   "last": 87,
+   "last": 86,
    "last_ok": "2026-09-10"
   },
   "Elastic": {
    "best": 368,
-   "last": 349,
+   "last": 345,
    "last_ok": "2026-09-10"
   },
   "ElevenLabs": {
@@ -49902,7 +50045,7 @@
   },
   "GitLab": {
    "best": 234,
-   "last": 230,
+   "last": 229,
    "last_ok": "2026-09-10"
   },
   "Google": {
@@ -49937,7 +50080,7 @@
   },
   "Lyft": {
    "best": 171,
-   "last": 157,
+   "last": 158,
    "last_ok": "2026-09-10"
   },
   "Marqeta": {
@@ -49947,7 +50090,7 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 74,
+   "last": 75,
    "last_ok": "2026-09-10"
   },
   "Mercury": {
@@ -49963,7 +50106,7 @@
   },
   "MongoDB": {
    "best": 415,
-   "last": 403,
+   "last": 404,
    "last_ok": "2026-09-10"
   },
   "Netflix": {
@@ -49983,17 +50126,17 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 187,
+   "last": 188,
    "last_ok": "2026-09-10"
   },
   "Okta": {
    "best": 350,
-   "last": 310,
+   "last": 313,
    "last_ok": "2026-09-10"
   },
   "OpenAI": {
    "best": 788,
-   "last": 787,
+   "last": 785,
    "last_ok": "2026-09-10"
   },
   "OpenEvidence": {
@@ -50038,7 +50181,7 @@
   },
   "Reddit": {
    "best": 156,
-   "last": 145,
+   "last": 148,
    "last_ok": "2026-09-10"
   },
   "Replit": {
@@ -50048,37 +50191,37 @@
   },
   "Robinhood": {
    "best": 133,
-   "last": 123,
+   "last": 127,
    "last_ok": "2026-09-10"
   },
   "Roblox": {
    "best": 239,
-   "last": 238,
+   "last": 235,
    "last_ok": "2026-09-10"
   },
   "Salesforce": {
    "best": 168,
-   "last": 164,
+   "last": 166,
    "last_ok": "2026-09-10"
   },
   "Samsara": {
    "best": 269,
-   "last": 253,
+   "last": 256,
    "last_ok": "2026-09-10"
   },
   "Scale AI": {
    "best": 219,
-   "last": 217,
+   "last": 219,
    "last_ok": "2026-09-10"
   },
   "Simplify Aggregator": {
    "best": 1806,
-   "last": 1806,
+   "last": 1783,
    "last_ok": "2026-09-10"
   },
   "Snowflake": {
    "best": 393,
-   "last": 363,
+   "last": 364,
    "last_ok": "2026-09-10"
   },
   "SoFi": {
@@ -50093,12 +50236,12 @@
   },
   "Spotify": {
    "best": 95,
-   "last": 78,
+   "last": 76,
    "last_ok": "2026-09-10"
   },
   "Stripe": {
    "best": 621,
-   "last": 618,
+   "last": 616,
    "last_ok": "2026-09-10"
   },
   "Suno": {
@@ -50108,7 +50251,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 197,
+   "last": 194,
    "last_ok": "2026-09-10"
   },
   "Tesla": {
@@ -50119,7 +50262,7 @@
   },
   "Twilio": {
    "best": 154,
-   "last": 154,
+   "last": 153,
    "last_ok": "2026-09-10"
   },
   "Two Sigma": {
@@ -50150,8 +50293,8 @@
    "last_ok": "2026-09-10"
   },
   "Verkada": {
-   "best": 292,
-   "last": 292,
+   "best": 293,
+   "last": 293,
    "last_ok": "2026-09-10"
   },
   "Visa": {
@@ -50162,7 +50305,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 53,
+   "last": 75,
    "last_ok": "2026-09-10"
   },
   "Waymo": {
@@ -50176,6 +50319,6 @@
    "last_ok": "2026-09-10"
   }
  },
- "updated": "2026-09-10T06:26:52Z",
+ "updated": "2026-09-10T11:34:07Z",
  "version": 1
 }
