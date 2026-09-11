@@ -2210,6 +2210,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10529821/embedded-software-engineer-amazon-leo-oisl-star-tracker",
    "yoe": 3
   },
+  "amazon:3d02349c4cb5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Palo Alto, California, USA",
+   "posted_at": "2026-09-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Sponsored Products and Brands",
+   "url": "https://www.amazon.jobs/en/jobs/10537085/software-development-engineer-sponsored-products-and-brands",
+   "yoe": 1
+  },
   "amazon:3e8e72edc26c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -51203,7 +51218,7 @@
   },
   "Anthropic": {
    "best": 600,
-   "last": 596,
+   "last": 594,
    "last_ok": "2026-09-11"
   },
   "Apple": {
@@ -51545,8 +51560,8 @@
    "last_ok": "2026-09-11"
   },
   "Stripe": {
-   "best": 624,
-   "last": 624,
+   "best": 625,
+   "last": 625,
    "last_ok": "2026-09-11"
   },
   "Suno": {
@@ -51624,6 +51639,6 @@
    "last_ok": "2026-09-11"
   }
  },
- "updated": "2026-09-11T04:55:11Z",
+ "updated": "2026-09-11T06:29:12Z",
  "version": 1
 }
