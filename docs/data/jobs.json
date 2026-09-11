@@ -28586,6 +28586,18 @@
    "title": "Applied Systems Engineering Rotation Engineer - New College Graduate 2026",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Systems-Engineering-Rotation-Engineer---New-College-Graduate-2026_JR2024713"
   },
+  "nvidia:4a6ce56dabdb": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-11",
+   "location": "6 Locations",
+   "posted_at": "2026-09-11",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Research Engineer, AI Safety and Security Engineering",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Security-Research-Engineer--AI-Safety-and-Security-Engineering_JR2021887"
+  },
   "nvidia:4f59ec672988": {
    "company": "Nvidia",
    "first_seen": "2026-08-25",
@@ -29701,6 +29713,23 @@
    "tier": "experienced",
    "title": "Forward Deployed Engineer (FDE) - SF",
    "url": "https://jobs.ashbyhq.com/openai/967f94aa-1706-4dba-ac89-bfbc2c38b688",
+   "workplace": "Hybrid",
+   "yoe": 5
+  },
+  "openai:1cc654f23354": {
+   "comp": "$185K – $300K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Forward Deployed Engineering",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "New York City",
+   "posted_at": "2026-09-11",
+   "role": "solutions",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer (FDE) - NYC",
+   "url": "https://jobs.ashbyhq.com/openai/9471b38b-f65c-4a01-9626-bd33fca90f1d",
    "workplace": "Hybrid",
    "yoe": 5
   },
@@ -52366,7 +52395,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 167,
+   "last": 165,
    "last_ok": "2026-09-11"
   },
   "Airtable": {
@@ -52386,7 +52415,7 @@
   },
   "Anthropic": {
    "best": 600,
-   "last": 595,
+   "last": 598,
    "last_ok": "2026-09-11"
   },
   "Apple": {
@@ -52614,7 +52643,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 191,
+   "last": 192,
    "last_ok": "2026-09-11"
   },
   "Okta": {
@@ -52624,7 +52653,7 @@
   },
   "OpenAI": {
    "best": 790,
-   "last": 790,
+   "last": 789,
    "last_ok": "2026-09-11"
   },
   "OpenEvidence": {
@@ -52728,8 +52757,8 @@
    "last_ok": "2026-09-11"
   },
   "Stripe": {
-   "best": 628,
-   "last": 628,
+   "best": 631,
+   "last": 631,
    "last_ok": "2026-09-11"
   },
   "Suno": {
@@ -52807,6 +52836,6 @@
    "last_ok": "2026-09-11"
   }
  },
- "updated": "2026-09-11T21:05:31Z",
+ "updated": "2026-09-11T23:29:30Z",
  "version": 1
 }
