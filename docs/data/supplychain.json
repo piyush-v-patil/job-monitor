@@ -36,6 +36,18 @@
    "title": "Sr. Logistics Analyst (Kansas City, MO, Lake Forest IL, or Richmond, VA)",
    "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Missouri---Kansas-City/Sr-Logistics-Analyst--Kansas-City--MO--Lake-Forest-IL--or-Richmond--VA-_31159984-1"
   },
+  "abbott:31187154ce8d": {
+   "company": "Abbott",
+   "first_seen": "2026-09-11",
+   "location": "United States - California - Alameda",
+   "posted_at": "2026-09-11",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Sr Manager Customer Supply Chain",
+   "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---California---Alameda/Sr-Manager-Customer-Supply-Chain_31161459-1"
+  },
   "abbott:3a944a8d01b7": {
    "company": "Abbott",
    "first_seen": "2026-09-08",
@@ -536,6 +548,21 @@
    "title": "Sr. Software Development Engineer, Infrastructure Supply Chain Automation",
    "url": "https://www.amazon.jobs/en/jobs/10487571/sr-software-development-engineer-infrastructure-supply-chain-automation",
    "yoe": 5
+  },
+  "amazon:9f79522c455c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-11",
+   "role": "analytics",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "manager",
+   "title": "Software Development Manager, Supply Chain Optimization Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10537045/software-development-manager-supply-chain-optimization-tech",
+   "yoe": 3
   },
   "amazon:c14f52284b78": {
    "company": "Amazon",
@@ -6518,6 +6545,18 @@
    "title": "Manager, Silicon Operations Production Planning",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Silicon-Operations-Production-Planning_JR2014495-1"
   },
+  "nvidia:8339827136d0": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-11",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-11",
+   "role": "logistics",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Senior Fulfillment and Logistics Data Analyst",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Fulfillment-and-Logistics-Data-Analyst_JR2023188"
+  },
   "nvidia:9c6960536aba": {
    "company": "Nvidia",
    "first_seen": "2026-09-08",
@@ -9399,6 +9438,18 @@
    "title": "Senior Analyst-Planning & Inventory Management Operations Project SSA (Discretionary) (Minneapolis)",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Sr-Inventory-Ops-Analyst_R0000446647"
   },
+  "target:f8d808473147": {
+   "company": "Target",
+   "first_seen": "2026-09-11",
+   "location": "4333 Power Way, Midlothian,TX 76065-8800",
+   "posted_at": "2026-09-11",
+   "role": "logistics",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Logistics Yard Operations Manager - Regional Distribution Center - Midlothian, TX",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/4333-Power-Way-MidlothianTX-76065-8800/Logistics-Yard-Operations-Manager---Regional-Distribution-Center---Midlothian--TX_R0000453131"
+  },
   "thrive-market:6907547aad26": {
    "company": "Thrive Market",
    "first_seen": "2026-09-08",
@@ -9530,6 +9581,18 @@
    "tier": "manager",
    "title": "Manager, Global Reverse Logistics",
    "url": "https://job-boards.greenhouse.io/verkada/jobs/5198935007"
+  },
+  "verkada:fd5da8152097": {
+   "company": "Verkada",
+   "first_seen": "2026-09-11",
+   "location": "San Mateo, CA United States",
+   "posted_at": "2026-09-10",
+   "role": "supply-chain",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "manager",
+   "title": "Supply Chain Manager, Data Operations ",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5235121007"
   },
   "walmart-global-tech:001760748684": {
    "comp": "$104,000 - $156,000 Annual",
@@ -10823,274 +10886,274 @@
   "AMD": {
    "best": 600,
    "last": 600,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Abbott": {
    "best": 533,
-   "last": 525,
-   "last_ok": "2026-09-10"
+   "last": 527,
+   "last_ok": "2026-09-11"
   },
   "Airbnb": {
    "best": 172,
    "last": 167,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Amazon": {
    "best": 43,
-   "last": 40,
-   "last_ok": "2026-09-10"
+   "last": 41,
+   "last_ok": "2026-09-11"
   },
   "Anduril": {
-   "best": 2270,
-   "last": 2270,
-   "last_ok": "2026-09-10"
+   "best": 2275,
+   "last": 2275,
+   "last_ok": "2026-09-11"
   },
   "Applied Materials": {
    "best": 466,
-   "last": 459,
-   "last_ok": "2026-09-10"
+   "last": 460,
+   "last_ok": "2026-09-11"
   },
   "Astranis": {
    "best": 89,
    "last": 89,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Becton Dickinson": {
    "best": 322,
    "last": 320,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Boeing": {
-   "best": 311,
-   "last": 309,
-   "last_ok": "2026-09-10"
+   "best": 318,
+   "last": 318,
+   "last_ok": "2026-09-11"
   },
   "CVS Health": {
    "best": 344,
-   "last": 331,
-   "last_ok": "2026-09-10"
+   "last": 333,
+   "last_ok": "2026-09-11"
   },
   "Carvana": {
    "best": 1741,
-   "last": 1718,
-   "last_ok": "2026-09-10"
+   "last": 1735,
+   "last_ok": "2026-09-11"
   },
   "Coinbase": {
-   "best": 220,
-   "last": 220,
-   "last_ok": "2026-09-10"
+   "best": 221,
+   "last": 221,
+   "last_ok": "2026-09-11"
   },
   "Databricks": {
-   "best": 875,
-   "last": 874,
-   "last_ok": "2026-09-10"
+   "best": 877,
+   "last": 877,
+   "last_ok": "2026-09-11"
   },
   "DoorDash": {
    "best": 457,
    "last": 451,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Duolingo": {
    "best": 89,
    "last": 85,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Faire": {
    "best": 61,
    "last": 61,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Flexport": {
-   "best": 176,
-   "last": 175,
-   "last_ok": "2026-09-10"
+   "best": 177,
+   "last": 177,
+   "last_ok": "2026-09-11"
   },
   "Formlabs": {
    "best": 203,
    "last": 196,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "General Mills": {
    "best": 220,
    "last": 216,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Glossier": {
    "best": 25,
    "last": 25,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Google": {
    "best": 202,
    "last": 202,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Gusto": {
    "best": 95,
    "last": 95,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Illumina": {
    "best": 111,
    "last": 111,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Instacart": {
    "best": 109,
-   "last": 104,
-   "last_ok": "2026-09-10"
+   "last": 106,
+   "last_ok": "2026-09-11"
   },
   "Land O'Lakes": {
    "best": 127,
    "last": 127,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Liquid Death": {
    "best": 3,
    "last": 1,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Lucid Motors": {
-   "best": 340,
-   "last": 340,
-   "last_ok": "2026-09-10"
+   "best": 348,
+   "last": 348,
+   "last_ok": "2026-09-11"
   },
   "Lyft": {
    "best": 167,
    "last": 162,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Medtronic": {
-   "best": 450,
-   "last": 450,
-   "last_ok": "2026-09-10"
+   "best": 451,
+   "last": 451,
+   "last_ok": "2026-09-11"
   },
   "Micron": {
-   "best": 287,
-   "last": 287,
-   "last_ok": "2026-09-10"
+   "best": 288,
+   "last": 288,
+   "last_ok": "2026-09-11"
   },
   "Misfits Market": {
    "best": 96,
    "last": 92,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Mondelez": {
    "best": 452,
-   "last": 449,
-   "last_ok": "2026-09-10"
+   "last": 448,
+   "last_ok": "2026-09-11"
   },
   "Nike": {
    "best": 178,
    "last": 163,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Nuro": {
    "best": 111,
    "last": 110,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Nvidia": {
    "best": 276,
-   "last": 271,
-   "last_ok": "2026-09-10"
+   "last": 273,
+   "last_ok": "2026-09-11"
   },
   "Olipop": {
    "best": 9,
    "last": 8,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "OpenAI": {
    "best": 787,
-   "last": 784,
-   "last_ok": "2026-09-10"
+   "last": 785,
+   "last_ok": "2026-09-11"
   },
   "Oura": {
    "best": 111,
-   "last": 99,
-   "last_ok": "2026-09-10"
+   "last": 100,
+   "last_ok": "2026-09-11"
   },
   "Peloton": {
    "best": 53,
    "last": 53,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "PepsiCo": {
    "best": 301,
-   "last": 295,
-   "last_ok": "2026-09-10"
+   "last": 297,
+   "last_ok": "2026-09-11"
   },
   "Pinterest": {
    "best": 188,
    "last": 179,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Samsara": {
    "best": 263,
    "last": 263,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Saronic": {
    "best": 202,
    "last": 201,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "SpaceX": {
-   "best": 2382,
-   "last": 2382,
-   "last_ok": "2026-09-10"
+   "best": 2383,
+   "last": 2383,
+   "last_ok": "2026-09-11"
   },
   "Stripe": {
-   "best": 620,
-   "last": 620,
-   "last_ok": "2026-09-10"
+   "best": 624,
+   "last": 624,
+   "last_ok": "2026-09-11"
   },
   "Stryker": {
    "best": 411,
-   "last": 408,
-   "last_ok": "2026-09-10"
+   "last": 410,
+   "last_ok": "2026-09-11"
   },
   "Target": {
    "best": 371,
-   "last": 371,
-   "last_ok": "2026-09-10"
+   "last": 368,
+   "last_ok": "2026-09-11"
   },
   "Thrive Market": {
    "best": 17,
-   "last": 16,
-   "last_ok": "2026-09-10"
+   "last": 17,
+   "last_ok": "2026-09-11"
   },
   "Tyson Foods": {
    "best": 121,
    "last": 120,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   },
   "Unilever": {
    "best": 196,
-   "last": 194,
-   "last_ok": "2026-09-10"
+   "last": 188,
+   "last_ok": "2026-09-11"
   },
   "Verkada": {
    "best": 296,
-   "last": 296,
-   "last_ok": "2026-09-10"
+   "last": 294,
+   "last_ok": "2026-09-11"
   },
   "Walmart Global Tech": {
-   "best": 241,
-   "last": 213,
-   "last_ok": "2026-09-10"
+   "best": 244,
+   "last": 244,
+   "last_ok": "2026-09-11"
   },
   "Waymo": {
    "best": 344,
-   "last": 337,
-   "last_ok": "2026-09-10"
+   "last": 339,
+   "last_ok": "2026-09-11"
   },
   "Zebra Technologies": {
    "best": 121,
    "last": 121,
-   "last_ok": "2026-09-10"
+   "last_ok": "2026-09-11"
   }
  },
- "updated": "2026-09-10T22:20:07Z",
+ "updated": "2026-09-11T03:24:02Z",
  "version": 1
 }
