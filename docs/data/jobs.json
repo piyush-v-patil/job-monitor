@@ -1467,6 +1467,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10505927/software-development-engineer-ads-ai-core-infra-aci",
    "yoe": 2
   },
+  "amazon:125037819bcf": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Optics",
+   "url": "https://www.amazon.jobs/en/jobs/10537818/software-development-engineer-amazon-optics",
+   "yoe": 1
+  },
   "amazon:1289e7f8ed77": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1705,6 +1720,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10516133/software-development-engineer-translation-services",
    "yoe": 2
   },
+  "amazon:1f00b00e79d9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Quick",
+   "url": "https://www.amazon.jobs/en/jobs/10537934/software-development-engineer-amazon-quick",
+   "yoe": 5
+  },
   "amazon:1f4ca2a9358b": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1807,6 +1837,21 @@
    "title": "Software Development Engineer , Amazon Leo",
    "url": "https://www.amazon.jobs/en/jobs/10536815/software-development-engineer-amazon-leo",
    "yoe": 2
+  },
+  "amazon:24db7a03f266": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Sponsored Products and Brands",
+   "url": "https://www.amazon.jobs/en/jobs/10537794/software-development-engineer-sponsored-products-and-brands",
+   "yoe": 1
   },
   "amazon:2528ec859e0a": {
    "company": "Amazon",
@@ -3263,6 +3308,21 @@
    "tier": "experienced",
    "title": "Software Engineer- AI/ML, Amazon Neuron Training",
    "url": "https://www.amazon.jobs/en/jobs/10501454/software-engineer-ai-ml-amazon-neuron-training"
+  },
+  "amazon:87c09d3b5945": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Quick",
+   "url": "https://www.amazon.jobs/en/jobs/10537935/software-development-engineer-amazon-quick",
+   "yoe": 1
   },
   "amazon:8872e105dc0c": {
    "company": "Amazon",
@@ -21822,6 +21882,17 @@
    "title": "Software Engineer III",
    "url": "https://www.google.com/about/careers/applications/jobs/results/132402885865415366-software-engineer-iii"
   },
+  "google:3aece869c193": {
+   "company": "Google",
+   "first_seen": "2026-09-11",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ASIC Power Engineer, ML Accelerators",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/103506938603414214-asic-power-engineer-ml-accelerators"
+  },
   "google:3b3f9aba39a7": {
    "company": "Google",
    "first_seen": "2026-08-28",
@@ -26969,6 +27040,20 @@
    "url": "https://explore.jobs.netflix.net/careers/job/790317690542",
    "workplace": "On-site"
   },
+  "netflix:d0615f5d90a2": {
+   "company": "Netflix",
+   "department": "Engineering",
+   "first_seen": "2026-09-11",
+   "location": "Washington - Remote,United States of America",
+   "posted_at": "2026-08-17",
+   "role": "software",
+   "source": "eightfold",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer 4 - TV Product UI",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317849415",
+   "workplace": "On-site"
+  },
   "netflix:f0e180eac908": {
    "company": "Netflix",
    "department": "Inkubator",
@@ -32091,6 +32176,38 @@
    "title": "Data Scientist, Identity",
    "url": "https://jobs.ashbyhq.com/openai/1f9c3666-82c8-45a7-8d4b-633a265ce996",
    "yoe": 8
+  },
+  "openai:cec15e43f338": {
+   "comp": "$185K – $305K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Applied AI",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "San Francisco",
+   "posted_at": "2026-09-11",
+   "role": "backend",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Software Engineer, ChatGPT ImageGen",
+   "url": "https://jobs.ashbyhq.com/openai/e7a4ee23-138a-4004-916e-72a452e7d115",
+   "workplace": "Hybrid"
+  },
+  "openai:d0e1a11b15ab": {
+   "comp": "$185K – $385K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Applied AI",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "San Francisco",
+   "posted_at": "2026-09-11",
+   "role": "mobile",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Android Engineer, ChatGPT ImageGen",
+   "url": "https://jobs.ashbyhq.com/openai/b15442c5-8e3c-4370-9abf-4b9c63f56de0",
+   "workplace": "Hybrid"
   },
   "openai:d29487626fd6": {
    "comp": "$230K – $385K • Offers Equity",
@@ -51834,7 +51951,7 @@
   },
   "Anthropic": {
    "best": 600,
-   "last": 596,
+   "last": 595,
    "last_ok": "2026-09-11"
   },
   "Apple": {
@@ -52062,7 +52179,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 193,
+   "last": 194,
    "last_ok": "2026-09-11"
   },
   "Okta": {
@@ -52177,7 +52294,7 @@
   },
   "Stripe": {
    "best": 627,
-   "last": 626,
+   "last": 627,
    "last_ok": "2026-09-11"
   },
   "Suno": {
@@ -52255,6 +52372,6 @@
    "last_ok": "2026-09-11"
   }
  },
- "updated": "2026-09-11T17:05:41Z",
+ "updated": "2026-09-11T19:56:59Z",
  "version": 1
 }
