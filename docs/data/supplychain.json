@@ -3374,6 +3374,18 @@
    "title": "Experienced or Senior Supply Chain Compliance Analyst - Self Governance & Compliance",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---St-Louis-City-MO/Experienced-or-Senior-Supply-Chain-Compliance-Analyst---Self-Governance---Compliance_JR2026524001-1"
   },
+  "boeing:316884831498": {
+   "company": "Boeing",
+   "first_seen": "2026-09-11",
+   "location": "2 Locations",
+   "posted_at": "2026-09-11",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Senior Procurement Analyst",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Senior-Procurement-Analyst_JR2026519401-1"
+  },
   "boeing:3330d20cbe12": {
    "company": "Boeing",
    "first_seen": "2026-09-08",
@@ -5323,6 +5335,17 @@
    "tier": "manager",
    "title": "Global Commodity Manager, Board Mounted Power Modules, Infrastructure Supply Chain and Manufacturing Operations",
    "url": "https://www.google.com/about/careers/applications/jobs/results/142994676796793542-global-commodity-manager-board-mounted-power-modules-infrastructure-supply-chain-and-manufacturing-operations"
+  },
+  "google:f778b54eebd4": {
+   "company": "Google",
+   "first_seen": "2026-09-11",
+   "location": "Sunnyvale, CA, USA",
+   "role": "program-mgmt",
+   "source": "google careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Program Manager II, Manufacturing Operations, Cloud Supply Chain",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/101776240729301702-program-manager-ii-manufacturing-operations-cloud-supply-chain"
   },
   "google:f7c6314be127": {
    "company": "Google",
@@ -8573,6 +8596,18 @@
    "title": "Supplier Development Engineer, Manufacturing (Starship)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8687744002?gh_jid=8687744002"
   },
+  "spacex:a8f2451fccd5": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-11",
+   "location": "Cape Canaveral, FL",
+   "posted_at": "2026-09-11",
+   "role": "procurement",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sourcing Specialist, Supply Chain (Launch Site)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8798196002?gh_jid=8798196002"
+  },
   "spacex:a8f537b00923": {
    "company": "SpaceX",
    "first_seen": "2026-09-08",
@@ -9185,6 +9220,18 @@
    "title": "Fulfillment Operations Team Leader - Rowlett, TX",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/4701-Lakeview-PKWY-Rowlett-TX-75088-4037/Fulfillment-Operations-Team-Leader---Rowlett--TX_R0000449220"
   },
+  "target:4ccefdb9565d": {
+   "company": "Target",
+   "first_seen": "2026-09-11",
+   "location": "22832 US Highway 281 N, San Antonio,TX 78258-7430",
+   "posted_at": "2026-09-11",
+   "role": "logistics",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Fulfillment Operations Team Leader, Stone Oak TX",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/22832-US-Highway-281-N-San-AntonioTX-78258-7430/Fulfillment-Operations-Team-Leader--Stone-Oak-TX_R0000453147-1"
+  },
   "target:538aa92ab85a": {
    "company": "Target",
    "first_seen": "2026-09-08",
@@ -9232,6 +9279,18 @@
    "tier": "mid",
    "title": "Sr Logistics Analyst-Domestic Sourcing (Hybrid)",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Sr-Logistics-Analyst-Domestic-Sourcing--Hybrid-_R0000452761"
+  },
+  "target:748719e91459": {
+   "company": "Target",
+   "first_seen": "2026-09-11",
+   "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+   "posted_at": "2026-09-11",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "entry",
+   "title": "Associate Buyer- Coffee & Tea",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Associate-Buyer--Coffee---Tea_R0000453217"
   },
   "target:74c8fd08798c": {
    "company": "Target",
@@ -9740,6 +9799,21 @@
    "title": "Senior Manager Supply Chain, Global Logistics",
    "url": "https://careers.walmart.com/us/en/job/R-2589664",
    "yoe": 1
+  },
+  "walmart-global-tech:1e7e4414fdef": {
+   "comp": "$26 - $51 Hourly",
+   "company": "Walmart Global Tech",
+   "department": "Corporate",
+   "employment_type": "Full time",
+   "first_seen": "2026-09-11",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-09-11",
+   "role": "workforce",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "mid",
+   "title": "Senior Specialist, Workforce Planning",
+   "url": "https://careers.walmart.com/us/en/job/R-2607686"
   },
   "walmart-global-tech:27e720f5a8e5": {
    "comp": "$26 - $30 Hourly",
@@ -10906,7 +10980,7 @@
   },
   "Airbnb": {
    "best": 172,
-   "last": 168,
+   "last": 167,
    "last_ok": "2026-09-11"
   },
   "Amazon": {
@@ -10916,7 +10990,7 @@
   },
   "Anduril": {
    "best": 2275,
-   "last": 2275,
+   "last": 2273,
    "last_ok": "2026-09-11"
   },
   "Applied Materials": {
@@ -10930,18 +11004,18 @@
    "last_ok": "2026-09-11"
   },
   "Becton Dickinson": {
-   "best": 322,
-   "last": 320,
+   "best": 323,
+   "last": 323,
    "last_ok": "2026-09-11"
   },
   "Boeing": {
    "best": 318,
-   "last": 298,
+   "last": 297,
    "last_ok": "2026-09-11"
   },
   "CVS Health": {
    "best": 344,
-   "last": 337,
+   "last": 339,
    "last_ok": "2026-09-11"
   },
   "Carvana": {
@@ -10955,13 +11029,13 @@
    "last_ok": "2026-09-11"
   },
   "Databricks": {
-   "best": 881,
-   "last": 881,
+   "best": 883,
+   "last": 883,
    "last_ok": "2026-09-11"
   },
   "DoorDash": {
    "best": 457,
-   "last": 450,
+   "last": 452,
    "last_ok": "2026-09-11"
   },
   "Duolingo": {
@@ -10981,7 +11055,7 @@
   },
   "Formlabs": {
    "best": 203,
-   "last": 196,
+   "last": 197,
    "last_ok": "2026-09-11"
   },
   "General Mills": {
@@ -10996,7 +11070,7 @@
   },
   "Google": {
    "best": 202,
-   "last": 201,
+   "last": 200,
    "last_ok": "2026-09-11"
   },
   "Gusto": {
@@ -11006,7 +11080,7 @@
   },
   "Illumina": {
    "best": 111,
-   "last": 111,
+   "last": 110,
    "last_ok": "2026-09-11"
   },
   "Instacart": {
@@ -11031,12 +11105,12 @@
   },
   "Lyft": {
    "best": 167,
-   "last": 162,
+   "last": 161,
    "last_ok": "2026-09-11"
   },
   "Medtronic": {
    "best": 451,
-   "last": 429,
+   "last": 430,
    "last_ok": "2026-09-11"
   },
   "Micron": {
@@ -11056,7 +11130,7 @@
   },
   "Nike": {
    "best": 178,
-   "last": 165,
+   "last": 166,
    "last_ok": "2026-09-11"
   },
   "Nuro": {
@@ -11075,8 +11149,8 @@
    "last_ok": "2026-09-11"
   },
   "OpenAI": {
-   "best": 787,
-   "last": 786,
+   "best": 788,
+   "last": 788,
    "last_ok": "2026-09-11"
   },
   "Oura": {
@@ -11091,12 +11165,12 @@
   },
   "PepsiCo": {
    "best": 301,
-   "last": 293,
+   "last": 291,
    "last_ok": "2026-09-11"
   },
   "Pinterest": {
    "best": 188,
-   "last": 179,
+   "last": 180,
    "last_ok": "2026-09-11"
   },
   "Samsara": {
@@ -11110,18 +11184,18 @@
    "last_ok": "2026-09-11"
   },
   "SpaceX": {
-   "best": 2383,
-   "last": 2383,
+   "best": 2384,
+   "last": 2384,
    "last_ok": "2026-09-11"
   },
   "Stripe": {
-   "best": 627,
-   "last": 627,
+   "best": 628,
+   "last": 628,
    "last_ok": "2026-09-11"
   },
   "Stryker": {
    "best": 411,
-   "last": 410,
+   "last": 406,
    "last_ok": "2026-09-11"
   },
   "Target": {
@@ -11140,18 +11214,18 @@
    "last_ok": "2026-09-11"
   },
   "Unilever": {
-   "best": 196,
-   "last": 189,
+   "best": 197,
+   "last": 197,
    "last_ok": "2026-09-11"
   },
   "Verkada": {
    "best": 296,
-   "last": 295,
+   "last": 294,
    "last_ok": "2026-09-11"
   },
   "Walmart Global Tech": {
    "best": 244,
-   "last": 210,
+   "last": 206,
    "last_ok": "2026-09-11"
   },
   "Waymo": {
@@ -11160,11 +11234,11 @@
    "last_ok": "2026-09-11"
   },
   "Zebra Technologies": {
-   "best": 121,
-   "last": 121,
+   "best": 122,
+   "last": 122,
    "last_ok": "2026-09-11"
   }
  },
- "updated": "2026-09-11T08:41:18Z",
+ "updated": "2026-09-11T14:07:38Z",
  "version": 1
 }
