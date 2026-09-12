@@ -603,6 +603,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10530588/software-development-engineer-ii-aws-supply-chain-aws-infra-supply-chain-automation",
    "yoe": 1
   },
+  "amazon:d214cba10b6b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Arlington, Virginia, USA",
+   "posted_at": "2026-07-31",
+   "role": "logistics",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sr. Software Development Engineer, Fulfillment Planning and Execution",
+   "url": "https://www.amazon.jobs/en/jobs/10489410/sr-software-development-engineer-fulfillment-planning-and-execution",
+   "yoe": 5
+  },
   "amazon:fe9b2f900efe": {
    "company": "Amazon",
    "department": "Software Development",
@@ -11337,7 +11352,7 @@
   },
   "Amazon": {
    "best": 43,
-   "last": 42,
+   "last": 43,
    "last_ok": "2026-09-12"
   },
   "Anduril": {
@@ -11477,7 +11492,7 @@
   },
   "Mondelez": {
    "best": 452,
-   "last": 448,
+   "last": 450,
    "last_ok": "2026-09-12"
   },
   "Nike": {
@@ -11491,8 +11506,8 @@
    "last_ok": "2026-09-12"
   },
   "Nvidia": {
-   "best": 276,
-   "last": 275,
+   "best": 277,
+   "last": 277,
    "last_ok": "2026-09-12"
   },
   "Olipop": {
@@ -11502,12 +11517,12 @@
   },
   "OpenAI": {
    "best": 796,
-   "last": 796,
+   "last": 795,
    "last_ok": "2026-09-12"
   },
   "Oura": {
    "best": 111,
-   "last": 99,
+   "last": 98,
    "last_ok": "2026-09-12"
   },
   "Peloton": {
@@ -11536,13 +11551,13 @@
    "last_ok": "2026-09-12"
   },
   "SpaceX": {
-   "best": 2405,
-   "last": 2405,
+   "best": 2406,
+   "last": 2406,
    "last_ok": "2026-09-12"
   },
   "Stripe": {
    "best": 635,
-   "last": 634,
+   "last": 633,
    "last_ok": "2026-09-12"
   },
   "Stryker": {
@@ -11567,7 +11582,7 @@
   },
   "Unilever": {
    "best": 199,
-   "last": 194,
+   "last": 193,
    "last_ok": "2026-09-12"
   },
   "Verkada": {
@@ -11577,7 +11592,7 @@
   },
   "Walmart Global Tech": {
    "best": 244,
-   "last": 215,
+   "last": 219,
    "last_ok": "2026-09-12"
   },
   "Waymo": {
@@ -11591,6 +11606,6 @@
    "last_ok": "2026-09-12"
   }
  },
- "updated": "2026-09-12T20:17:34Z",
+ "updated": "2026-09-12T23:49:49Z",
  "version": 1
 }
