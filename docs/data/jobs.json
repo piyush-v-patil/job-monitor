@@ -20680,6 +20680,18 @@
    "title": "Software Engineer 1",
    "url": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5234127007"
   },
+  "elastic:0d49bbc94443": {
+   "company": "Elastic",
+   "first_seen": "2026-09-13",
+   "location": "United States",
+   "posted_at": "2026-09-13",
+   "role": "devops-sre",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - Builder Experience - Platform Engineering Productivity",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8154426&gh_jid=8154426"
+  },
   "elastic:5d4ed718eaf8": {
    "company": "Elastic",
    "first_seen": "2026-08-22",
@@ -36824,6 +36836,21 @@
    "url": "https://jobs.ashbyhq.com/perplexity/598e1f7d-b802-4de2-99ac-90eb2bc33315",
    "yoe": 3
   },
+  "perplexity:91f9d58f0cd8": {
+   "comp": "$220K – $405K • Offers Equity",
+   "company": "Perplexity",
+   "department": "AI Research & Systems",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-13",
+   "location": "San Francisco",
+   "posted_at": "2026-09-13",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff (AI Software Engineer, Agents)",
+   "url": "https://jobs.ashbyhq.com/perplexity/a172ada5-1a6e-4646-8e0d-26747422af24"
+  },
   "perplexity:9eb4fb4e43de": {
    "comp": "$220K – $405K • Offers Equity",
    "company": "Perplexity",
@@ -40775,6 +40802,18 @@
    "tier": "experienced",
    "title": "Software Engineer II (Full-Stack)",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/North-Carolina---Raleigh/Software-Engineer-II--Full-Stack-_JR359621-2"
+  },
+  "salesforce:63673c956fc3": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-13",
+   "location": "5 Locations",
+   "posted_at": "2026-09-13",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Data & Observability Platforms — MTS/SMTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineer--Data---Observability-Platforms---MTS-SMTS_JR360029"
   },
   "salesforce:655557c693a9": {
    "company": "Salesforce",
@@ -53313,7 +53352,7 @@
   },
   "Boeing": {
    "best": 195,
-   "last": 191,
+   "last": 189,
    "last_ok": "2026-09-13"
   },
   "Brex": {
@@ -53369,7 +53408,7 @@
   },
   "Databricks": {
    "best": 892,
-   "last": 892,
+   "last": 891,
    "last_ok": "2026-09-13"
   },
   "Datadog": {
@@ -53404,7 +53443,7 @@
   },
   "Elastic": {
    "best": 368,
-   "last": 356,
+   "last": 357,
    "last_ok": "2026-09-13"
   },
   "ElevenLabs": {
@@ -53423,8 +53462,8 @@
    "last_ok": "2026-09-13"
   },
   "Flexport": {
-   "best": 179,
-   "last": 179,
+   "best": 180,
+   "last": 180,
    "last_ok": "2026-09-13"
   },
   "GitLab": {
@@ -53474,7 +53513,7 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 74,
+   "last": 75,
    "last_ok": "2026-09-13"
   },
   "Mercury": {
@@ -53510,7 +53549,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 190,
+   "last": 192,
    "last_ok": "2026-09-13"
   },
   "Okta": {
@@ -53585,7 +53624,7 @@
   },
   "Salesforce": {
    "best": 170,
-   "last": 163,
+   "last": 162,
    "last_ok": "2026-09-13"
   },
   "Samsara": {
@@ -53689,7 +53728,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 76,
+   "last": 94,
    "last_ok": "2026-09-13"
   },
   "Waymo": {
@@ -53703,6 +53742,6 @@
    "last_ok": "2026-09-13"
   }
  },
- "updated": "2026-09-13T12:48:24Z",
+ "updated": "2026-09-13T16:31:04Z",
  "version": 1
 }
