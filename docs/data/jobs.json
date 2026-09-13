@@ -45507,6 +45507,18 @@
    "title": "Software Engineer (Platform Team)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002"
   },
+  "spacex:c709a2fdbb2f": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-13",
+   "location": "Hawthorne, CA",
+   "posted_at": "2026-09-12",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Avionics Systems Engineer (Falcon & Dragon)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8805284002?gh_jid=8805284002"
+  },
   "spacex:c7cf9fd2aff8": {
    "company": "SpaceX",
    "first_seen": "2026-08-20",
@@ -53316,7 +53328,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 147,
+   "last": 148,
    "last_ok": "2026-09-13"
   },
   "Carta": {
@@ -53357,7 +53369,7 @@
   },
   "Databricks": {
    "best": 892,
-   "last": 891,
+   "last": 892,
    "last_ok": "2026-09-13"
   },
   "Datadog": {
@@ -53498,7 +53510,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 192,
+   "last": 190,
    "last_ok": "2026-09-13"
   },
   "Okta": {
@@ -53588,7 +53600,7 @@
   },
   "Simplify Aggregator": {
    "best": 1949,
-   "last": 1939,
+   "last": 1908,
    "last_ok": "2026-09-13"
   },
   "Snowflake": {
@@ -53602,8 +53614,8 @@
    "last_ok": "2026-09-13"
   },
   "SpaceX": {
-   "best": 2406,
-   "last": 2406,
+   "best": 2412,
+   "last": 2412,
    "last_ok": "2026-09-13"
   },
   "Spotify": {
@@ -53661,7 +53673,7 @@
   },
   "Verizon": {
    "best": 139,
-   "last": 137,
+   "last": 135,
    "last_ok": "2026-09-13"
   },
   "Verkada": {
@@ -53677,7 +53689,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 84,
+   "last": 74,
    "last_ok": "2026-09-13"
   },
   "Waymo": {
@@ -53691,6 +53703,6 @@
    "last_ok": "2026-09-13"
   }
  },
- "updated": "2026-09-13T01:19:43Z",
+ "updated": "2026-09-13T05:02:31Z",
  "version": 1
 }
