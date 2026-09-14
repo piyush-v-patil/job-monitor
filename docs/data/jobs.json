@@ -22397,6 +22397,17 @@
    "title": "Software Engineer III, Full Stack",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100318765052240582-software-engineer-iii-full-stack"
   },
+  "google:19e8e027c965": {
+   "company": "Google",
+   "first_seen": "2026-09-14",
+   "location": "Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more",
+   "role": "data",
+   "source": "google careers",
+   "status": "new",
+   "tier": "intern",
+   "title": "Data Scientist, Research Intern, PhD, Summer 2027",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/89965613241246406-data-scientist-research-intern-phd-summer-2027"
+  },
   "google:1b10322feeb1": {
    "company": "Google",
    "first_seen": "2026-09-02",
@@ -22870,6 +22881,17 @@
    "title": "Forward Deployed Engineer III, Generative AI, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127965694384841414-forward-deployed-engineer-iii-generative-ai-google-cloud"
   },
+  "google:44d6e692d747": {
+   "company": "Google",
+   "first_seen": "2026-09-14",
+   "location": "Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more",
+   "role": "data",
+   "source": "google careers",
+   "status": "new",
+   "tier": "intern",
+   "title": "Business Data Scientist Intern, PhD, Summer 2027",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/134577198026629830-business-data-scientist-intern-phd-summer-2027"
+  },
   "google:45aad9b860e2": {
    "company": "Google",
    "first_seen": "2026-09-02",
@@ -22913,6 +22935,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Google Cloud Networking",
    "url": "https://www.google.com/about/careers/applications/jobs/results/131727448571028166-software-engineer-iii-infrastructure-google-cloud-networking"
+  },
+  "google:4b31ce255235": {
+   "company": "Google",
+   "first_seen": "2026-09-14",
+   "location": "Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "intern",
+   "title": "Security Engineering Intern, BS/MS, Summer 2027",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/136826798817059526-security-engineering-intern-bsms-summer-2027"
   },
   "google:4c0a5985dfe6": {
    "company": "Google",
@@ -23552,6 +23585,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, AI/ML, AI and Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/72951961439085254-software-engineer-iii-aiml-ai-and-infrastructure"
+  },
+  "google:86b08a0c740c": {
+   "company": "Google",
+   "first_seen": "2026-09-14",
+   "location": "Sunnyvale, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Agent Cloud Rate Limiting",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/127788813236740806-software-engineer-agent-cloud-rate-limiting"
   },
   "google:878d8b431a02": {
    "company": "Google",
@@ -53860,7 +53904,7 @@
   },
   "Stripe": {
    "best": 636,
-   "last": 632,
+   "last": 629,
    "last_ok": "2026-09-14"
   },
   "Suno": {
@@ -53938,6 +53982,6 @@
    "last_ok": "2026-09-14"
   }
  },
- "updated": "2026-09-14T13:06:29Z",
+ "updated": "2026-09-14T14:20:33Z",
  "version": 1
 }
