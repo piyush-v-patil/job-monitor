@@ -1311,6 +1311,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10517433/software-development-engineer-last-mile-delivery-automation-autonomous-vehicle",
    "yoe": 1
   },
+  "amazon:06012f20fa96": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-14",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Ads Nova",
+   "url": "https://www.amazon.jobs/en/jobs/10538328/software-development-engineer-ads-nova",
+   "yoe": 1
+  },
   "amazon:06d67e5e8e1a": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2852,6 +2867,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, WW Deals and Promotions",
    "url": "https://www.amazon.jobs/en/jobs/10515707/software-development-engineer-ww-deals-and-promotions",
+   "yoe": 1
+  },
+  "amazon:61507a13c90e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-14",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Transform",
+   "url": "https://www.amazon.jobs/en/jobs/10538318/software-development-engineer-aws-transform",
    "yoe": 1
   },
   "amazon:624391c56d81": {
@@ -47992,6 +48022,18 @@
    "title": "Junior Machine Learning Engineer",
    "url": "https://job-boards.greenhouse.io/taxreliefadvocates/jobs/4759563008"
   },
+  "td-bank:807d67b4473b": {
+   "company": "TD Bank",
+   "first_seen": "2026-09-14",
+   "location": "Mt Laurel Township, NJ",
+   "posted_at": "2026-09-13",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Global Technology & Solutions",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1"
+  },
   "td-bank:b56e6074b27c": {
    "company": "TD Bank",
    "first_seen": "2026-09-04",
@@ -48003,6 +48045,18 @@
    "tier": "intern",
    "title": "Software Engineer Intern - Software Engineering Rotational Program",
    "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2027-Summer-Analyst---Software-Engineering-Rotational-Program--New-York-City-_R_1508053"
+  },
+  "td-bank:fe691990f25f": {
+   "company": "TD Bank",
+   "first_seen": "2026-09-14",
+   "location": "Mt Laurel Township, NJ",
+   "posted_at": "2026-09-13",
+   "role": "data",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Data Engineer Intern - Global Technology & Solutions",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797"
   },
   "tebra:62a284ef1cbe": {
    "company": "Tebra",
@@ -53327,8 +53381,8 @@
    "last_ok": "2026-09-14"
   },
   "Anduril": {
-   "best": 2293,
-   "last": 2293,
+   "best": 2294,
+   "last": 2294,
    "last_ok": "2026-09-14"
   },
   "Anthropic": {
@@ -53374,7 +53428,7 @@
   },
   "CVS Health": {
    "best": 200,
-   "last": 197,
+   "last": 195,
    "last_ok": "2026-09-14"
   },
   "Capital One": {
@@ -53405,7 +53459,7 @@
   },
   "Cloudflare": {
    "best": 358,
-   "last": 358,
+   "last": 354,
    "last_ok": "2026-09-14"
   },
   "Cognition": {
@@ -53415,17 +53469,17 @@
   },
   "Coinbase": {
    "best": 222,
-   "last": 218,
+   "last": 217,
    "last_ok": "2026-09-14"
   },
   "Databricks": {
    "best": 892,
-   "last": 891,
+   "last": 890,
    "last_ok": "2026-09-14"
   },
   "Datadog": {
    "best": 456,
-   "last": 446,
+   "last": 442,
    "last_ok": "2026-09-14"
   },
   "Decagon": {
@@ -53475,12 +53529,12 @@
   },
   "Flexport": {
    "best": 180,
-   "last": 180,
+   "last": 178,
    "last_ok": "2026-09-14"
   },
   "GitLab": {
    "best": 234,
-   "last": 228,
+   "last": 227,
    "last_ok": "2026-09-14"
   },
   "Google": {
@@ -53525,7 +53579,7 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 75,
+   "last": 73,
    "last_ok": "2026-09-14"
   },
   "Mercury": {
@@ -53566,12 +53620,12 @@
   },
   "Okta": {
    "best": 350,
-   "last": 324,
+   "last": 323,
    "last_ok": "2026-09-14"
   },
   "OpenAI": {
    "best": 796,
-   "last": 794,
+   "last": 795,
    "last_ok": "2026-09-14"
   },
   "OpenEvidence": {
@@ -53636,7 +53690,7 @@
   },
   "Salesforce": {
    "best": 170,
-   "last": 162,
+   "last": 164,
    "last_ok": "2026-09-14"
   },
   "Samsara": {
@@ -53651,7 +53705,7 @@
   },
   "Simplify Aggregator": {
    "best": 1949,
-   "last": 1895,
+   "last": 1926,
    "last_ok": "2026-09-14"
   },
   "Snowflake": {
@@ -53665,8 +53719,8 @@
    "last_ok": "2026-09-14"
   },
   "SpaceX": {
-   "best": 2414,
-   "last": 2414,
+   "best": 2416,
+   "last": 2416,
    "last_ok": "2026-09-14"
   },
   "Spotify": {
@@ -53686,7 +53740,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-09-14"
   },
   "Tesla": {
@@ -53740,7 +53794,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 85,
+   "last": 66,
    "last_ok": "2026-09-14"
   },
   "Waymo": {
@@ -53754,6 +53808,6 @@
    "last_ok": "2026-09-14"
   }
  },
- "updated": "2026-09-14T01:25:29Z",
+ "updated": "2026-09-14T05:11:47Z",
  "version": 1
 }
