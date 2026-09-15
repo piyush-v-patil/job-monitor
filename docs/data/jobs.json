@@ -2210,6 +2210,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10535087/sde-neuron-inference-neuron-inference",
    "yoe": 1
   },
+  "amazon:2ee0ec4e8af6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-15",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Application Performance Monitoring",
+   "url": "https://www.amazon.jobs/en/jobs/10542501/software-development-engineer-application-performance-monitoring",
+   "yoe": 2
+  },
   "amazon:302dea1231f6": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4926,6 +4941,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, STRADA",
    "url": "https://www.amazon.jobs/en/jobs/10502407/software-development-engineer-strada"
+  },
+  "amazon:cdc9190cb7a6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-15",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, AWS Builder Acceleration",
+   "url": "https://www.amazon.jobs/en/jobs/10542502/software-dev-engineer-ii-aws-builder-acceleration",
+   "yoe": 1
   },
   "amazon:ce2e52c7fe9b": {
    "company": "Amazon",
@@ -55405,7 +55435,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 163,
+   "last": 162,
    "last_ok": "2026-09-15"
   },
   "Airtable": {
@@ -55425,7 +55455,7 @@
   },
   "Anthropic": {
    "best": 600,
-   "last": 595,
+   "last": 594,
    "last_ok": "2026-09-15"
   },
   "Apple": {
@@ -55653,7 +55683,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 189,
+   "last": 190,
    "last_ok": "2026-09-15"
   },
   "Okta": {
@@ -55846,6 +55876,6 @@
    "last_ok": "2026-09-15"
   }
  },
- "updated": "2026-09-15T17:10:15Z",
+ "updated": "2026-09-15T17:43:48Z",
  "version": 1
 }
