@@ -694,6 +694,18 @@
    "title": "Software Engineer – Adobe Experience Platform",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Software-Engineer---Adobe-Experience-Platform_R160198-1"
   },
+  "adobe:e66aabb7091d": {
+   "company": "Adobe",
+   "first_seen": "2026-09-15",
+   "location": "San Jose",
+   "posted_at": "2026-09-15",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Software-Development-Engineer_R171559"
+  },
   "adobe:e756903afb39": {
    "company": "Adobe",
    "first_seen": "2026-08-20",
@@ -1855,6 +1867,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10516133/software-development-engineer-translation-services",
    "yoe": 2
   },
+  "amazon:1e59f4c76bae": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Culver City, California, USA",
+   "posted_at": "2026-09-15",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AI Studios Engineering",
+   "url": "https://www.amazon.jobs/en/jobs/10541540/software-development-engineer-ai-studios-engineering",
+   "yoe": 1
+  },
   "amazon:1f00b00e79d9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2151,6 +2178,21 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer II , AI Studios ",
    "url": "https://www.amazon.jobs/en/jobs/10522805/machine-learning-engineer-ii-ai-studios",
+   "yoe": 1
+  },
+  "amazon:2d525e756c99": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Culver City, California, USA",
+   "posted_at": "2026-09-15",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AI Studios Engineering",
+   "url": "https://www.amazon.jobs/en/jobs/10541530/software-development-engineer-ai-studios-engineering",
    "yoe": 1
   },
   "amazon:2e27e1adc157": {
@@ -9249,6 +9291,18 @@
    "tier": "experienced",
    "title": "Laser Test Engineer",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5196584007?gh_jid=5196584007"
+  },
+  "anduril:a9e60b242081": {
+   "company": "Anduril",
+   "first_seen": "2026-09-15",
+   "location": "Santa Ana, California, United States",
+   "posted_at": "2026-09-15",
+   "role": "qa-test",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Product Quality Engineer, Intelligence Systems",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5229683007?gh_jid=5229683007"
   },
   "anduril:a9ebaa438191": {
    "company": "Anduril",
@@ -20809,6 +20863,18 @@
    "tier": "experienced",
    "title": "Firmware Validation & Integration Engineer",
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8010514"
+  },
+  "doordash:92660b508cfa": {
+   "company": "DoorDash",
+   "first_seen": "2026-09-15",
+   "location": "San Francisco, CA; Seattle, WA; New York, NY; Los Angeles, CA",
+   "posted_at": "2026-09-15",
+   "role": "qa-test",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Code Quality",
+   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8202736"
   },
   "doordash:9a6792089ffc": {
    "company": "DoorDash",
@@ -40746,6 +40812,18 @@
    "title": "Software Engineer 1",
    "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-I--Onsite-_01861525"
   },
+  "rtx:30bc7edce9d0": {
+   "company": "RTX",
+   "first_seen": "2026-09-15",
+   "location": "Wilsonville, OR",
+   "posted_at": "2026-09-14",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Co-op",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Software-Engineering-Co-op--Summer-Fall-2027-_01870236"
+  },
   "rtx:36a7a76649e3": {
    "company": "RTX",
    "first_seen": "2026-09-11",
@@ -41069,6 +41147,18 @@
    "title": "Software Engineer Co-op",
    "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineer-Co-op--Summer-Fall-2027----Onsite_01871347"
   },
+  "rtx:7d8bde4782ae": {
+   "company": "RTX",
+   "first_seen": "2026-09-15",
+   "location": "Cambridge, MA; Arlington County, Arlington, VA",
+   "posted_at": "2026-09-14",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Research Engineer 1 - Analytics and Machine Intelligence - AMI",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-VA-ARLINGTON-111--1300-17Th-St-N--BBN-ARLINGTON/Engineer-I---RTX-BBN-Analytics-and-Machine-Intelligence--AMI----Arlington--VA-and-Cambridge--MA--Hybrid-_01874936"
+  },
   "rtx:7f8d578c16f5": {
    "company": "RTX",
    "first_seen": "2026-09-08",
@@ -41246,6 +41336,18 @@
    "tier": "intern",
    "title": "Software Engineer Intern - Summer 2027",
    "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01867892"
+  },
+  "rtx:9c5e4aa2ff81": {
+   "company": "RTX",
+   "first_seen": "2026-09-15",
+   "location": "Wilsonville, OR",
+   "posted_at": "2026-09-14",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Co-op - Summer/Fall 2027",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Software-Engineering-Co-op--Summer-Fall-2027-_01873970"
   },
   "rtx:9d8a6b087a64": {
    "company": "RTX",
@@ -55039,17 +55141,17 @@
   },
   "Adobe": {
    "best": 190,
-   "last": 189,
+   "last": 188,
    "last_ok": "2026-09-15"
   },
   "Affirm": {
    "best": 210,
-   "last": 208,
+   "last": 206,
    "last_ok": "2026-09-15"
   },
   "Airbnb": {
    "best": 195,
-   "last": 161,
+   "last": 160,
    "last_ok": "2026-09-15"
   },
   "Airtable": {
@@ -55064,7 +55166,7 @@
   },
   "Anduril": {
    "best": 2294,
-   "last": 2279,
+   "last": 2280,
    "last_ok": "2026-09-15"
   },
   "Anthropic": {
@@ -55115,12 +55217,12 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 157,
+   "last": 159,
    "last_ok": "2026-09-15"
   },
   "Carta": {
    "best": 65,
-   "last": 63,
+   "last": 64,
    "last_ok": "2026-09-15"
   },
   "Checkr": {
@@ -55141,7 +55243,7 @@
   },
   "Cloudflare": {
    "best": 358,
-   "last": 357,
+   "last": 353,
    "last_ok": "2026-09-15"
   },
   "Cognition": {
@@ -55176,7 +55278,7 @@
   },
   "DoorDash": {
    "best": 475,
-   "last": 454,
+   "last": 455,
    "last_ok": "2026-09-15"
   },
   "Dropbox": {
@@ -55211,12 +55313,12 @@
   },
   "Flexport": {
    "best": 180,
-   "last": 178,
+   "last": 180,
    "last_ok": "2026-09-15"
   },
   "GitLab": {
    "best": 234,
-   "last": 224,
+   "last": 222,
    "last_ok": "2026-09-15"
   },
   "Google": {
@@ -55231,7 +55333,7 @@
   },
   "Harvey": {
    "best": 362,
-   "last": 320,
+   "last": 319,
    "last_ok": "2026-09-15"
   },
   "Instacart": {
@@ -55251,7 +55353,7 @@
   },
   "Lyft": {
    "best": 183,
-   "last": 182,
+   "last": 183,
    "last_ok": "2026-09-15"
   },
   "Marqeta": {
@@ -55277,7 +55379,7 @@
   },
   "MongoDB": {
    "best": 415,
-   "last": 404,
+   "last": 407,
    "last_ok": "2026-09-15"
   },
   "Netflix": {
@@ -55287,7 +55389,7 @@
   },
   "Notion": {
    "best": 135,
-   "last": 126,
+   "last": 127,
    "last_ok": "2026-09-15"
   },
   "Nuro": {
@@ -55302,12 +55404,12 @@
   },
   "Okta": {
    "best": 350,
-   "last": 324,
+   "last": 322,
    "last_ok": "2026-09-15"
   },
   "OpenAI": {
-   "best": 805,
-   "last": 805,
+   "best": 808,
+   "last": 808,
    "last_ok": "2026-09-15"
   },
   "OpenEvidence": {
@@ -55337,7 +55439,7 @@
   },
   "Pinterest": {
    "best": 225,
-   "last": 182,
+   "last": 180,
    "last_ok": "2026-09-15"
   },
   "Plaid": {
@@ -55352,7 +55454,7 @@
   },
   "Reddit": {
    "best": 156,
-   "last": 149,
+   "last": 150,
    "last_ok": "2026-09-15"
   },
   "Replit": {
@@ -55367,12 +55469,12 @@
   },
   "Roblox": {
    "best": 239,
-   "last": 236,
+   "last": 237,
    "last_ok": "2026-09-15"
   },
   "Salesforce": {
    "best": 170,
-   "last": 159,
+   "last": 162,
    "last_ok": "2026-09-15"
   },
   "Samsara": {
@@ -55387,7 +55489,7 @@
   },
   "Simplify Aggregator": {
    "best": 2073,
-   "last": 2051,
+   "last": 2066,
    "last_ok": "2026-09-15"
   },
   "Snowflake": {
@@ -55407,12 +55509,12 @@
   },
   "Spotify": {
    "best": 95,
-   "last": 70,
+   "last": 69,
    "last_ok": "2026-09-15"
   },
   "Stripe": {
    "best": 636,
-   "last": 631,
+   "last": 634,
    "last_ok": "2026-09-15"
   },
   "Suno": {
@@ -55422,7 +55524,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 197,
+   "last": 196,
    "last_ok": "2026-09-15"
   },
   "Tesla": {
@@ -55433,7 +55535,7 @@
   },
   "Twilio": {
    "best": 154,
-   "last": 147,
+   "last": 148,
    "last_ok": "2026-09-15"
   },
   "Two Sigma": {
@@ -55455,12 +55557,12 @@
   },
   "Vanta": {
    "best": 112,
-   "last": 100,
+   "last": 95,
    "last_ok": "2026-09-15"
   },
   "Verizon": {
    "best": 139,
-   "last": 136,
+   "last": 135,
    "last_ok": "2026-09-15"
   },
   "Verkada": {
@@ -55490,6 +55592,6 @@
    "last_ok": "2026-09-15"
   }
  },
- "updated": "2026-09-15T06:30:52Z",
+ "updated": "2026-09-15T11:55:50Z",
  "version": 1
 }
