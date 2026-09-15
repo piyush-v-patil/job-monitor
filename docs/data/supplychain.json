@@ -555,6 +555,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10487617/software-development-engineer-fulfillment-planning-and-execution",
    "yoe": 1
   },
+  "amazon:21d65f59b867": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-15",
+   "role": "demand-planning",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sr. Software Development Engineer, Amazon Demand Side Platform, Forecasting",
+   "url": "https://www.amazon.jobs/en/jobs/10543916/sr-software-development-engineer-amazon-demand-side-platform-forecasting",
+   "yoe": 4
+  },
   "amazon:440ea9e379e8": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1602,6 +1617,18 @@
    "tier": "mid",
    "title": "Buyer",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5163565007?gh_jid=5163565007"
+  },
+  "anduril:611ff66d9973": {
+   "company": "Anduril",
+   "first_seen": "2026-09-15",
+   "location": "Costa Mesa, California, United States",
+   "posted_at": "2026-08-26",
+   "role": "procurement",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "mid",
+   "title": "Buyer, Advanced Effects",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5219013007?gh_jid=5219013007"
   },
   "anduril:61331c437e42": {
    "company": "Anduril",
@@ -4674,6 +4701,18 @@
    "tier": "manager",
    "title": "Regional Senior Manager, Inventory Quality and Readiness",
    "url": "https://www.carvana.com/careers/apply?gh_jid=8084191"
+  },
+  "carvana:dca27280f0c6": {
+   "company": "Carvana",
+   "first_seen": "2026-09-15",
+   "location": "Dallas, TX",
+   "posted_at": "2026-08-06",
+   "role": "logistics",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "entry",
+   "title": "Logistics Associate",
+   "url": "https://www.carvana.com/careers/apply?gh_jid=8110512"
   },
   "carvana:de5175978202": {
    "company": "Carvana",
@@ -7985,6 +8024,22 @@
    "title": "2027 Summer Intern: Supply Chain",
    "url": "https://uscampus-pepsico.icims.com/jobs/461436/login"
   },
+  "pepsico:7167949bf277": {
+   "company": "PepsiCo",
+   "deadline": "2026-09-22",
+   "department": "Global Procurement",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Plano, Texas",
+   "posted_at": "2026-08-05",
+   "role": "procurement",
+   "source": "phenom",
+   "status": "new",
+   "tier": "manager",
+   "title": "Procurement Commodities Manager - Veg Oils",
+   "url": "https://uscareers-pepsico.icims.com/jobs/463666/login",
+   "yoe": 7
+  },
   "pepsico:7523f62ec424": {
    "company": "PepsiCo",
    "deadline": "2026-09-15",
@@ -9971,6 +10026,18 @@
    "title": "Associate Buyer, Wrap and Cards",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Associate-Buyer--Wrap-and-Cards_R0000453608"
   },
+  "target:3dd86bd1a405": {
+   "company": "Target",
+   "first_seen": "2026-09-15",
+   "location": "7000 Target Pkwy N,NCD-0375 Brooklyn Park,MN 55445",
+   "posted_at": "2026-09-15",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Strategic Sourcing Lead - Fixtures (Full-Time Remote or Hybrid)",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Strategic-Sourcing-Lead---Fixtures--Full-Time-Remote-or-Hybrid-_R0000453317"
+  },
   "target:3dfb066aa9a1": {
    "company": "Target",
    "first_seen": "2026-09-08",
@@ -10055,6 +10122,30 @@
    "title": "Fulfillment Operations Team Leader, Stone Oak TX",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/22832-US-Highway-281-N-San-AntonioTX-78258-7430/Fulfillment-Operations-Team-Leader--Stone-Oak-TX_R0000453147-1"
   },
+  "target:4e9210e2f7c3": {
+   "company": "Target",
+   "first_seen": "2026-09-15",
+   "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+   "posted_at": "2026-09-15",
+   "role": "supply-planning",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Manager Global Supply Planning",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Manager-Global-Supply-Planning-Manager--Global-Supply-Planning-Operations_R0000453268"
+  },
+  "target:528f7057954c": {
+   "company": "Target",
+   "first_seen": "2026-09-15",
+   "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+   "posted_at": "2026-09-15",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Merch Planner Oral Care (Minneapolis)",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Merch-Planner-Oral-Care--Minneapolis-_R0000453505"
+  },
   "target:538aa92ab85a": {
    "company": "Target",
    "first_seen": "2026-09-08",
@@ -10090,6 +10181,18 @@
    "tier": "mid",
    "title": "Enterprise Price - Promo Planner",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Enterprise-Price---Promo-Planner_R0000452909"
+  },
+  "target:688b639f1aae": {
+   "company": "Target",
+   "first_seen": "2026-09-15",
+   "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+   "posted_at": "2026-09-15",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Merch Planner NCAA Licensed Sports Apparel Planner Fan Central (Minneapolis)",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Merch-Planner-NCAA-Licensed-Sports-Apparel-Planner-Fan-Central--Minneapolis-_R0000453672"
   },
   "target:73dfc83ebe2b": {
    "company": "Target",
@@ -10865,6 +10968,21 @@
    "title": "Buyer - Roadshows & Pop-Up Shops",
    "url": "https://careers.walmart.com/us/en/job/R-2621984"
   },
+  "walmart-global-tech:3e8a351ea50d": {
+   "comp": "$104,000 - $156,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Corporate",
+   "employment_type": "Full time",
+   "first_seen": "2026-09-15",
+   "location": "Auburn, IN",
+   "posted_at": "2026-09-15",
+   "role": "supply-chain",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Manager II, Process Engineer - Supply Chain",
+   "url": "https://careers.walmart.com/us/en/job/R-2646965"
+  },
   "walmart-global-tech:3ef685c57427": {
    "comp": "$104,000 - $156,000 Annual",
    "company": "Walmart Global Tech",
@@ -10941,6 +11059,21 @@
    "tier": "manager",
    "title": "Manager II, Quality Engineer - Supply Chain",
    "url": "https://careers.walmart.com/us/en/job/R-2525181"
+  },
+  "walmart-global-tech:41c840d85b1e": {
+   "comp": "$70,000 - $130,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Corporate",
+   "employment_type": "Full time",
+   "first_seen": "2026-09-15",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-09-15",
+   "role": "procurement",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Manager, Vendor Management",
+   "url": "https://careers.walmart.com/us/en/job/R-2614195"
   },
   "walmart-global-tech:41ce5b7104c7": {
    "comp": "$17 - $25 Hourly",
@@ -12008,6 +12141,18 @@
    "title": "Supply Chain Planner I, Evening Shift 12pm-8:30pm M-F",
    "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/San-Diego-California/Supply-Chain-Planner-I--Evening-Shift-12pm-8-30pm-M-F_JR103210"
   },
+  "zebra-technologies:2b1a446d6d29": {
+   "company": "Zebra Technologies",
+   "first_seen": "2026-09-15",
+   "location": "2 Locations",
+   "posted_at": "2026-09-15",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "intern",
+   "title": "2027 Summer Internship (US) - Supply Chain",
+   "url": "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Supply-Chain_JR103275"
+  },
   "zebra-technologies:2e8f3ff986e7": {
    "company": "Zebra Technologies",
    "first_seen": "2026-09-08",
@@ -12053,7 +12198,7 @@
   },
   "Abbott": {
    "best": 533,
-   "last": 521,
+   "last": 522,
    "last_ok": "2026-09-15"
   },
   "Airbnb": {
@@ -12062,18 +12207,18 @@
    "last_ok": "2026-09-15"
   },
   "Amazon": {
-   "best": 46,
-   "last": 46,
+   "best": 48,
+   "last": 48,
    "last_ok": "2026-09-15"
   },
   "Anduril": {
-   "best": 2302,
-   "last": 2302,
+   "best": 2307,
+   "last": 2307,
    "last_ok": "2026-09-15"
   },
   "Applied Materials": {
    "best": 466,
-   "last": 464,
+   "last": 462,
    "last_ok": "2026-09-15"
   },
   "Astranis": {
@@ -12083,37 +12228,37 @@
   },
   "Becton Dickinson": {
    "best": 325,
-   "last": 323,
+   "last": 321,
    "last_ok": "2026-09-15"
   },
   "Boeing": {
    "best": 318,
-   "last": 277,
+   "last": 280,
    "last_ok": "2026-09-15"
   },
   "CVS Health": {
    "best": 344,
-   "last": 339,
+   "last": 338,
    "last_ok": "2026-09-15"
   },
   "Carvana": {
    "best": 1744,
-   "last": 1742,
+   "last": 1719,
    "last_ok": "2026-09-15"
   },
   "Coinbase": {
    "best": 221,
-   "last": 214,
+   "last": 215,
    "last_ok": "2026-09-15"
   },
   "Databricks": {
    "best": 893,
-   "last": 888,
+   "last": 884,
    "last_ok": "2026-09-15"
   },
   "DoorDash": {
-   "best": 460,
-   "last": 460,
+   "best": 463,
+   "last": 463,
    "last_ok": "2026-09-15"
   },
   "Duolingo": {
@@ -12133,12 +12278,12 @@
   },
   "Formlabs": {
    "best": 205,
-   "last": 205,
+   "last": 200,
    "last_ok": "2026-09-15"
   },
   "General Mills": {
    "best": 221,
-   "last": 221,
+   "last": 220,
    "last_ok": "2026-09-15"
   },
   "Glossier": {
@@ -12152,8 +12297,8 @@
    "last_ok": "2026-09-15"
   },
   "Gusto": {
-   "best": 96,
-   "last": 96,
+   "best": 99,
+   "last": 99,
    "last_ok": "2026-09-15"
   },
   "Illumina": {
@@ -12163,7 +12308,7 @@
   },
   "Instacart": {
    "best": 109,
-   "last": 108,
+   "last": 107,
    "last_ok": "2026-09-15"
   },
   "Land O'Lakes": {
@@ -12177,18 +12322,18 @@
    "last_ok": "2026-09-15"
   },
   "Lucid Motors": {
-   "best": 381,
-   "last": 381,
+   "best": 382,
+   "last": 382,
    "last_ok": "2026-09-15"
   },
   "Lyft": {
    "best": 183,
-   "last": 182,
+   "last": 180,
    "last_ok": "2026-09-15"
   },
   "Medtronic": {
    "best": 451,
-   "last": 429,
+   "last": 434,
    "last_ok": "2026-09-15"
   },
   "Micron": {
@@ -12198,17 +12343,17 @@
   },
   "Misfits Market": {
    "best": 96,
-   "last": 89,
+   "last": 86,
    "last_ok": "2026-09-15"
   },
   "Mondelez": {
    "best": 452,
-   "last": 443,
+   "last": 442,
    "last_ok": "2026-09-15"
   },
   "Nike": {
    "best": 178,
-   "last": 155,
+   "last": 154,
    "last_ok": "2026-09-15"
   },
   "Nuro": {
@@ -12218,7 +12363,7 @@
   },
   "Nvidia": {
    "best": 282,
-   "last": 282,
+   "last": 281,
    "last_ok": "2026-09-15"
   },
   "Olipop": {
@@ -12228,7 +12373,7 @@
   },
   "OpenAI": {
    "best": 809,
-   "last": 809,
+   "last": 808,
    "last_ok": "2026-09-15"
   },
   "Oura": {
@@ -12238,12 +12383,12 @@
   },
   "Peloton": {
    "best": 56,
-   "last": 55,
+   "last": 56,
    "last_ok": "2026-09-15"
   },
   "PepsiCo": {
    "best": 301,
-   "last": 279,
+   "last": 280,
    "last_ok": "2026-09-15"
   },
   "Pinterest": {
@@ -12252,8 +12397,8 @@
    "last_ok": "2026-09-15"
   },
   "Samsara": {
-   "best": 265,
-   "last": 264,
+   "best": 270,
+   "last": 270,
    "last_ok": "2026-09-15"
   },
   "Saronic": {
@@ -12262,13 +12407,13 @@
    "last_ok": "2026-09-15"
   },
   "SpaceX": {
-   "best": 2448,
-   "last": 2448,
+   "best": 2452,
+   "last": 2452,
    "last_ok": "2026-09-15"
   },
   "Stripe": {
-   "best": 636,
-   "last": 636,
+   "best": 640,
+   "last": 640,
    "last_ok": "2026-09-15"
   },
   "Stryker": {
@@ -12278,7 +12423,7 @@
   },
   "Target": {
    "best": 374,
-   "last": 373,
+   "last": 365,
    "last_ok": "2026-09-15"
   },
   "Thrive Market": {
@@ -12288,12 +12433,12 @@
   },
   "Tyson Foods": {
    "best": 122,
-   "last": 117,
+   "last": 118,
    "last_ok": "2026-09-15"
   },
   "Unilever": {
    "best": 199,
-   "last": 197,
+   "last": 193,
    "last_ok": "2026-09-15"
   },
   "Verkada": {
@@ -12303,20 +12448,20 @@
   },
   "Walmart Global Tech": {
    "best": 244,
-   "last": 212,
+   "last": 210,
    "last_ok": "2026-09-15"
   },
   "Waymo": {
    "best": 344,
-   "last": 326,
+   "last": 329,
    "last_ok": "2026-09-15"
   },
   "Zebra Technologies": {
-   "best": 122,
-   "last": 122,
+   "best": 123,
+   "last": 123,
    "last_ok": "2026-09-15"
   }
  },
- "updated": "2026-09-15T17:59:34Z",
+ "updated": "2026-09-15T21:10:37Z",
  "version": 1
 }
