@@ -23054,6 +23054,17 @@
    "title": "Software Engineer III, Full Stack",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100318765052240582-software-engineer-iii-full-stack"
   },
+  "google:19b2d7f1daa6": {
+   "company": "Google",
+   "first_seen": "2026-09-15",
+   "location": "San Francisco, CA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Google Cloud Security and Privacy",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/130800413166183110-software-engineer-iii-google-cloud-security-and-privacy"
+  },
   "google:19e8e027c965": {
    "company": "Google",
    "first_seen": "2026-09-14",
@@ -55514,7 +55525,7 @@
   },
   "Stripe": {
    "best": 636,
-   "last": 634,
+   "last": 633,
    "last_ok": "2026-09-15"
   },
   "Suno": {
@@ -55592,6 +55603,6 @@
    "last_ok": "2026-09-15"
   }
  },
- "updated": "2026-09-15T11:55:50Z",
+ "updated": "2026-09-15T12:49:55Z",
  "version": 1
 }
