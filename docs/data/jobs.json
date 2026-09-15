@@ -1555,6 +1555,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10517076/software-development-engineer-leo-secure-communications-team",
    "yoe": 1
   },
+  "amazon:0efbff15fa2d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-15",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, Amazon Timestream",
+   "url": "https://www.amazon.jobs/en/jobs/10544010/software-development-engineer-iii-amazon-timestream",
+   "yoe": 5
+  },
   "amazon:0f81cb0bdece": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1776,6 +1791,21 @@
    "tier": "experienced",
    "title": "SDE II, AWS Field Experience ",
    "url": "https://www.amazon.jobs/en/jobs/10503184/sde-ii-aws-field-experience"
+  },
+  "amazon:199e458de3c2": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-14",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II, Amazon Fulfilment Tech, Amazon Fulfilment - Inventory Team",
+   "url": "https://www.amazon.jobs/en/jobs/10539310/sde-ii-amazon-fulfilment-tech-amazon-fulfilment-inventory-team",
+   "yoe": 1
   },
   "amazon:19cb0eaf1c81": {
    "company": "Amazon",
@@ -55858,7 +55888,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 100,
+   "last": 91,
    "last_ok": "2026-09-15"
   },
   "Gusto": {
@@ -55944,7 +55974,7 @@
   },
   "OpenAI": {
    "best": 808,
-   "last": 807,
+   "last": 805,
    "last_ok": "2026-09-15"
   },
   "OpenEvidence": {
@@ -56127,6 +56157,6 @@
    "last_ok": "2026-09-15"
   }
  },
- "updated": "2026-09-15T21:33:23Z",
+ "updated": "2026-09-15T22:24:06Z",
  "version": 1
 }
