@@ -1939,6 +1939,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10545820/software-development-engineer-agentic-ai-velocity-labs",
    "yoe": 1
   },
+  "amazon:1b3db77db584": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-09-16",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Specialist AI Tooling, Specialist Technology Team",
+   "url": "https://www.amazon.jobs/en/jobs/10547170/software-development-engineer-specialist-ai-tooling-specialist-technology-team",
+   "yoe": 1
+  },
   "amazon:1cb92e59d893": {
    "company": "Amazon",
    "department": "Software Development",
@@ -6184,6 +6199,21 @@
    "title": "Software Development Engineer , Leo Customer Terminals Applications & Networking Team",
    "url": "https://www.amazon.jobs/en/jobs/10515148/software-development-engineer-leo-customer-terminals-applications-networking-team",
    "yoe": 1
+  },
+  "amazon:f6e8c5f14a0c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-16",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, IaC Provider Experience, Provider Experience - Coverage",
+   "url": "https://www.amazon.jobs/en/jobs/10547124/software-development-engineer-iac-provider-experience-provider-experience-coverage",
+   "yoe": 2
   },
   "amazon:f71b9060ca7a": {
    "company": "Amazon",
@@ -57198,7 +57228,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 162,
+   "last": 166,
    "last_ok": "2026-09-16"
   },
   "Airtable": {
@@ -57446,7 +57476,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 188,
+   "last": 187,
    "last_ok": "2026-09-16"
   },
   "Okta": {
@@ -57456,7 +57486,7 @@
   },
   "OpenAI": {
    "best": 813,
-   "last": 812,
+   "last": 813,
    "last_ok": "2026-09-16"
   },
   "OpenEvidence": {
@@ -57560,8 +57590,8 @@
    "last_ok": "2026-09-16"
   },
   "Stripe": {
-   "best": 649,
-   "last": 649,
+   "best": 650,
+   "last": 650,
    "last_ok": "2026-09-16"
   },
   "Suno": {
@@ -57639,6 +57669,6 @@
    "last_ok": "2026-09-16"
   }
  },
- "updated": "2026-09-16T18:16:31Z",
+ "updated": "2026-09-16T19:00:54Z",
  "version": 1
 }
