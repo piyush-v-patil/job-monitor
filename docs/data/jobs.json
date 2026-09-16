@@ -11342,6 +11342,18 @@
    "title": "People Research Scientist, Recruiting",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5362838008"
   },
+  "anthropic:4e583985eb7e": {
+   "company": "Anthropic",
+   "first_seen": "2026-09-16",
+   "location": "San Francisco, CA | New York City, NY",
+   "posted_at": "2026-09-16",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Tokens and Prompt Structures",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5421263008"
+  },
   "anthropic:56221c657a98": {
    "company": "Anthropic",
    "first_seen": "2026-08-22",
@@ -23896,6 +23908,17 @@
    "title": "Research Engineer, Gemini Multi-turn",
    "url": "https://www.google.com/about/careers/applications/jobs/results/143337312107799238-research-engineer-gemini-multiturn"
   },
+  "google:2260e4b46b3a": {
+   "company": "Google",
+   "first_seen": "2026-09-16",
+   "location": "Kirkland, WA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, AI and Data Protection",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/122135917941924550-software-engineer-ai-and-data-protection"
+  },
   "google:22d830049500": {
    "company": "Google",
    "first_seen": "2026-08-27",
@@ -25263,6 +25286,17 @@
    "tier": "experienced",
    "title": "Research Engineer, Winslow, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/113810496427041478-research-engineer-winslow-deepmind"
+  },
+  "google:9a0e951a3ac1": {
+   "company": "Google",
+   "first_seen": "2026-09-16",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Spanner",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/117919290849403590-software-engineer-iii-infrastructure-spanner"
   },
   "google:9b4ff161e719": {
    "company": "Google",
@@ -56645,7 +56679,7 @@
   },
   "Anthropic": {
    "best": 600,
-   "last": 595,
+   "last": 596,
    "last_ok": "2026-09-16"
   },
   "Apple": {
@@ -56873,7 +56907,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 191,
+   "last": 188,
    "last_ok": "2026-09-16"
   },
   "Okta": {
@@ -57066,6 +57100,6 @@
    "last_ok": "2026-09-16"
   }
  },
- "updated": "2026-09-16T13:36:46Z",
+ "updated": "2026-09-16T14:17:38Z",
  "version": 1
 }
