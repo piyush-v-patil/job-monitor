@@ -645,6 +645,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10489410/sr-software-development-engineer-fulfillment-planning-and-execution",
    "yoe": 5
   },
+  "amazon:e864cc6c50f9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Palo Alto, California, USA",
+   "posted_at": "2026-09-15",
+   "role": "demand-planning",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Amazon Ads Demand Tech, Forecasting and Guidance",
+   "url": "https://www.amazon.jobs/en/jobs/10544074/software-development-engineer-amazon-ads-demand-tech-forecasting-and-guidance",
+   "yoe": 1
+  },
   "amazon:fe9b2f900efe": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3682,6 +3697,18 @@
    "title": "Experienced or Senior Supply Chain Compliance Analyst - Self Governance & Compliance",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---St-Louis-City-MO/Experienced-or-Senior-Supply-Chain-Compliance-Analyst---Self-Governance---Compliance_JR2026524001-1"
   },
+  "boeing:2afa3629dbd4": {
+   "company": "Boeing",
+   "first_seen": "2026-09-16",
+   "location": "2 Locations",
+   "posted_at": "2026-09-16",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Senior Manager, Proprietary Programs Integrated Planning and Scheduling",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Senior-Manager--Proprietary-Programs-Integrated-Planning-and-Scheduling_JR2026515706-2"
+  },
   "boeing:316884831498": {
    "company": "Boeing",
    "first_seen": "2026-09-11",
@@ -4174,6 +4201,18 @@
    "title": "Production Control Manufacturing Manager",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Production-Control-Manufacturing-Manager_JR2026516868"
   },
+  "carvana:02f628bf0d15": {
+   "company": "Carvana",
+   "first_seen": "2026-09-16",
+   "location": "Tempe, AZ",
+   "posted_at": "2026-09-15",
+   "role": "inventory",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "manager",
+   "title": "Manager, Inventory Operations",
+   "url": "https://www.carvana.com/careers/apply?gh_jid=8205529"
+  },
   "carvana:0420409b2086": {
    "company": "Carvana",
    "first_seen": "2026-09-08",
@@ -4341,6 +4380,18 @@
    "tier": "manager",
    "title": "Inventory Manager",
    "url": "https://www.carvana.com/careers/apply?gh_jid=8122629"
+  },
+  "carvana:34cabffa15e5": {
+   "company": "Carvana",
+   "first_seen": "2026-09-16",
+   "location": "Fort Worth, TX",
+   "posted_at": "2026-09-15",
+   "role": "logistics",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "entry",
+   "title": "Logistics Associate",
+   "url": "https://www.carvana.com/careers/apply?gh_jid=8205675"
   },
   "carvana:386f602fee23": {
    "company": "Carvana",
@@ -4521,6 +4572,18 @@
    "tier": "manager",
    "title": "Logistics Manager",
    "url": "https://www.carvana.com/careers/apply?gh_jid=8120518"
+  },
+  "carvana:794927c7b8e1": {
+   "company": "Carvana",
+   "first_seen": "2026-09-16",
+   "location": "Oklahoma City, OK",
+   "posted_at": "2026-08-20",
+   "role": "logistics",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "entry",
+   "title": "Logistics Associate",
+   "url": "https://www.carvana.com/careers/apply?gh_jid=8144697"
   },
   "carvana:8d9fdc07c3a5": {
    "company": "Carvana",
@@ -4953,6 +5016,18 @@
    "tier": "mid",
    "title": "Analyst, Inventory",
    "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/IL---Northbrook/Analyst--Inventory_R1021723"
+  },
+  "cvs-health:89390c35d443": {
+   "company": "CVS Health",
+   "first_seen": "2026-09-16",
+   "location": "RI - Woonsocket",
+   "posted_at": "2026-09-16",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Senior Manager, Strategy Planning & Governance",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/RI---Woonsocket/Senior-Manager--Strategy-Planning---Governance_R1032790"
   },
   "cvs-health:a0aa8301602d": {
    "company": "CVS Health",
@@ -5969,6 +6044,18 @@
    "tier": "manager",
    "title": "Sr. Manager, Planning Process Improvement & Digitalization",
    "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/US---California---San-Diego/Sr-Manager--Planning-Process-Improvement---Digitalization_42606-JOB-1"
+  },
+  "illumina:7cb7af264448": {
+   "company": "Illumina",
+   "first_seen": "2026-09-16",
+   "location": "US - California - San Diego",
+   "posted_at": "2026-09-16",
+   "role": "inventory",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Senior Manager, Distribution / Inventory Control",
+   "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/US---California---San-Diego/Senior-Manager--Distribution---Inventory-Control_43188-JOB-1"
   },
   "illumina:a79375eaa601": {
    "company": "Illumina",
@@ -7038,6 +7125,18 @@
    "title": "Lead, Planning Insights - Converse",
    "url": "https://nike.wd1.myworkdayjobs.com/en-US/nke/job/Boston-Massachusetts/Lead--Planning-Insights---Converse_R-90708"
   },
+  "nike:7a53c196f763": {
+   "company": "Nike",
+   "first_seen": "2026-09-16",
+   "location": "Beaverton, Oregon",
+   "posted_at": "2026-09-16",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Supply Chain Specialist II, NA",
+   "url": "https://nike.wd1.myworkdayjobs.com/en-US/nke/job/Beaverton-Oregon/Supply-Chain-Specialist-II--NA_R-91765-1"
+  },
   "nike:8a01c4cf63f2": {
    "company": "Nike",
    "first_seen": "2026-09-15",
@@ -7606,6 +7705,23 @@
    "tier": "manager",
    "title": "Strategic Sourcing Manager, Data Center Infrastructure, Owner Furnished Equipment",
    "url": "https://jobs.ashbyhq.com/openai/831e2f91-c213-4208-9eb3-4ce2cc6b9acf",
+   "yoe": 8
+  },
+  "openai:65abef3eab80": {
+   "comp": "$225K – $285K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Scaling",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "US - Remote",
+   "posted_at": "2026-09-15",
+   "role": "supply-chain",
+   "source": "ashby",
+   "status": "new",
+   "tier": "manager",
+   "title": "Data Center Shell Planning Lead, Industrial Compute",
+   "url": "https://jobs.ashbyhq.com/openai/5a647e2b-5d6c-4c71-aeea-b16e3fda4b3f",
+   "workplace": "Remote",
    "yoe": 8
   },
   "openai:764142683f82": {
@@ -8417,6 +8533,18 @@
    "tier": "mid",
    "title": "Supplier Development Engineer, Automation & Controls (Starlink)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8533957002?gh_jid=8533957002"
+  },
+  "spacex:153721e5a8ac": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-16",
+   "location": "Starbase, TX",
+   "posted_at": "2026-09-15",
+   "role": "supply-planning",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sr. Scheduler (Starship)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8788235002?gh_jid=8788235002"
   },
   "spacex:181d6e5a798b": {
    "company": "SpaceX",
@@ -12194,274 +12322,274 @@
   "AMD": {
    "best": 600,
    "last": 600,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Abbott": {
    "best": 533,
-   "last": 522,
-   "last_ok": "2026-09-15"
+   "last": 524,
+   "last_ok": "2026-09-16"
   },
   "Airbnb": {
    "best": 172,
-   "last": 162,
-   "last_ok": "2026-09-15"
+   "last": 158,
+   "last_ok": "2026-09-16"
   },
   "Amazon": {
-   "best": 48,
-   "last": 48,
-   "last_ok": "2026-09-15"
+   "best": 50,
+   "last": 50,
+   "last_ok": "2026-09-16"
   },
   "Anduril": {
-   "best": 2307,
-   "last": 2307,
-   "last_ok": "2026-09-15"
+   "best": 2319,
+   "last": 2319,
+   "last_ok": "2026-09-16"
   },
   "Applied Materials": {
    "best": 466,
-   "last": 462,
-   "last_ok": "2026-09-15"
+   "last": 463,
+   "last_ok": "2026-09-16"
   },
   "Astranis": {
    "best": 89,
    "last": 87,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Becton Dickinson": {
    "best": 325,
    "last": 321,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Boeing": {
    "best": 318,
-   "last": 280,
-   "last_ok": "2026-09-15"
+   "last": 279,
+   "last_ok": "2026-09-16"
   },
   "CVS Health": {
    "best": 344,
-   "last": 338,
-   "last_ok": "2026-09-15"
+   "last": 339,
+   "last_ok": "2026-09-16"
   },
   "Carvana": {
    "best": 1744,
-   "last": 1719,
-   "last_ok": "2026-09-15"
+   "last": 1721,
+   "last_ok": "2026-09-16"
   },
   "Coinbase": {
    "best": 221,
-   "last": 215,
-   "last_ok": "2026-09-15"
+   "last": 214,
+   "last_ok": "2026-09-16"
   },
   "Databricks": {
    "best": 893,
-   "last": 884,
-   "last_ok": "2026-09-15"
+   "last": 883,
+   "last_ok": "2026-09-16"
   },
   "DoorDash": {
-   "best": 463,
-   "last": 463,
-   "last_ok": "2026-09-15"
+   "best": 465,
+   "last": 465,
+   "last_ok": "2026-09-16"
   },
   "Duolingo": {
    "best": 89,
    "last": 83,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Faire": {
    "best": 68,
    "last": 68,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Flexport": {
    "best": 181,
    "last": 181,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Formlabs": {
    "best": 205,
    "last": 200,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "General Mills": {
    "best": 221,
    "last": 220,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Glossier": {
    "best": 26,
    "last": 25,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Google": {
    "best": 202,
-   "last": 196,
-   "last_ok": "2026-09-15"
+   "last": 195,
+   "last_ok": "2026-09-16"
   },
   "Gusto": {
    "best": 99,
-   "last": 99,
-   "last_ok": "2026-09-15"
+   "last": 96,
+   "last_ok": "2026-09-16"
   },
   "Illumina": {
    "best": 111,
    "last": 110,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Instacart": {
    "best": 109,
    "last": 107,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Land O'Lakes": {
-   "best": 137,
-   "last": 137,
-   "last_ok": "2026-09-15"
+   "best": 138,
+   "last": 138,
+   "last_ok": "2026-09-16"
   },
   "Liquid Death": {
    "best": 3,
-   "last": 1,
-   "last_ok": "2026-09-15"
+   "last": 2,
+   "last_ok": "2026-09-16"
   },
   "Lucid Motors": {
-   "best": 382,
-   "last": 382,
-   "last_ok": "2026-09-15"
+   "best": 383,
+   "last": 383,
+   "last_ok": "2026-09-16"
   },
   "Lyft": {
    "best": 183,
    "last": 180,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Medtronic": {
    "best": 451,
-   "last": 434,
-   "last_ok": "2026-09-15"
+   "last": 437,
+   "last_ok": "2026-09-16"
   },
   "Micron": {
    "best": 292,
    "last": 292,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Misfits Market": {
    "best": 96,
    "last": 86,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Mondelez": {
    "best": 452,
-   "last": 442,
-   "last_ok": "2026-09-15"
+   "last": 443,
+   "last_ok": "2026-09-16"
   },
   "Nike": {
    "best": 178,
-   "last": 154,
-   "last_ok": "2026-09-15"
+   "last": 153,
+   "last_ok": "2026-09-16"
   },
   "Nuro": {
    "best": 111,
-   "last": 105,
-   "last_ok": "2026-09-15"
+   "last": 108,
+   "last_ok": "2026-09-16"
   },
   "Nvidia": {
    "best": 282,
-   "last": 281,
-   "last_ok": "2026-09-15"
+   "last": 275,
+   "last_ok": "2026-09-16"
   },
   "Olipop": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "OpenAI": {
    "best": 809,
-   "last": 808,
-   "last_ok": "2026-09-15"
+   "last": 809,
+   "last_ok": "2026-09-16"
   },
   "Oura": {
    "best": 111,
    "last": 95,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Peloton": {
-   "best": 56,
-   "last": 56,
-   "last_ok": "2026-09-15"
+   "best": 57,
+   "last": 57,
+   "last_ok": "2026-09-16"
   },
   "PepsiCo": {
    "best": 301,
    "last": 280,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Pinterest": {
    "best": 188,
-   "last": 175,
-   "last_ok": "2026-09-15"
+   "last": 168,
+   "last_ok": "2026-09-16"
   },
   "Samsara": {
-   "best": 270,
-   "last": 270,
-   "last_ok": "2026-09-15"
+   "best": 273,
+   "last": 273,
+   "last_ok": "2026-09-16"
   },
   "Saronic": {
    "best": 209,
    "last": 209,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "SpaceX": {
-   "best": 2452,
-   "last": 2452,
-   "last_ok": "2026-09-15"
+   "best": 2455,
+   "last": 2455,
+   "last_ok": "2026-09-16"
   },
   "Stripe": {
-   "best": 640,
-   "last": 640,
-   "last_ok": "2026-09-15"
+   "best": 644,
+   "last": 644,
+   "last_ok": "2026-09-16"
   },
   "Stryker": {
    "best": 411,
    "last": 409,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Target": {
    "best": 374,
-   "last": 365,
-   "last_ok": "2026-09-15"
+   "last": 364,
+   "last_ok": "2026-09-16"
   },
   "Thrive Market": {
    "best": 18,
    "last": 18,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Tyson Foods": {
    "best": 122,
    "last": 118,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Unilever": {
    "best": 199,
-   "last": 193,
-   "last_ok": "2026-09-15"
+   "last": 192,
+   "last_ok": "2026-09-16"
   },
   "Verkada": {
    "best": 296,
    "last": 292,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   },
   "Walmart Global Tech": {
    "best": 244,
-   "last": 210,
-   "last_ok": "2026-09-15"
+   "last": 216,
+   "last_ok": "2026-09-16"
   },
   "Waymo": {
    "best": 344,
-   "last": 329,
-   "last_ok": "2026-09-15"
+   "last": 328,
+   "last_ok": "2026-09-16"
   },
   "Zebra Technologies": {
    "best": 123,
    "last": 123,
-   "last_ok": "2026-09-15"
+   "last_ok": "2026-09-16"
   }
  },
- "updated": "2026-09-15T21:10:37Z",
+ "updated": "2026-09-16T00:01:13Z",
  "version": 1
 }
