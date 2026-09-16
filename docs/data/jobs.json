@@ -3097,6 +3097,21 @@
    "title": "Software Development Engineer II, Assisted Repair and Guided Equipment Solutions",
    "url": "https://www.amazon.jobs/en/jobs/10503745/software-development-engineer-ii-assisted-repair-and-guided-equipment-solutions"
   },
+  "amazon:57cbf28e7ee8": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-16",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10550409/software-development-engineer",
+   "yoe": 2
+  },
   "amazon:586042e9e460": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5535,6 +5550,21 @@
    "title": "Software Development Engineer III, Android",
    "url": "https://www.amazon.jobs/en/jobs/10523727/software-development-engineer-iii-android",
    "yoe": 5
+  },
+  "amazon:d9457c66a7c4": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-16",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Region Authority",
+   "url": "https://www.amazon.jobs/en/jobs/10550291/software-dev-engineer-ii-region-authority",
+   "yoe": 1
   },
   "amazon:d969eb857a26": {
    "company": "Amazon",
@@ -32186,6 +32216,18 @@
    "title": "Machine Learning Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer_JR2025036"
   },
+  "nvidia:7b96492c4d99": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-16",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-16",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ECAD PCB Tools Developer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ECAD-PCB-Tools-Developer_JR2021476"
+  },
   "nvidia:7d086a5e3e8e": {
    "company": "Nvidia",
    "first_seen": "2026-08-24",
@@ -57541,7 +57583,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 164,
+   "last": 163,
    "last_ok": "2026-09-16"
   },
   "Airtable": {
@@ -57713,7 +57755,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 100,
+   "last": 99,
    "last_ok": "2026-09-16"
   },
   "Gusto": {
@@ -57904,7 +57946,7 @@
   },
   "Stripe": {
    "best": 653,
-   "last": 653,
+   "last": 651,
    "last_ok": "2026-09-16"
   },
   "Suno": {
@@ -57982,6 +58024,6 @@
    "last_ok": "2026-09-16"
   }
  },
- "updated": "2026-09-16T21:29:27Z",
+ "updated": "2026-09-16T22:15:52Z",
  "version": 1
 }
