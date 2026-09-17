@@ -3577,6 +3577,18 @@
    "title": "Procurement & Strategic Sourcing Junior Associate - Spring 2027",
    "url": "https://bdx.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREER_SITE_USA/job/USA-RI---Warwick/Procurement---Strategic-Sourcing-Junior-Associate---Spring-2027_R-554697"
   },
+  "becton-dickinson:9c2e9e1ff418": {
+   "company": "Becton Dickinson",
+   "first_seen": "2026-09-17",
+   "location": "USA CA - San Diego (BDB)",
+   "posted_at": "2026-09-16",
+   "role": "supply-planning",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sr. Global Supply Planner",
+   "url": "https://bdx.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREER_SITE_USA/job/USA-CA---San-Diego-BDB/Sr-Global-Supply-Planner_R-554846-1"
+  },
   "becton-dickinson:a1fe671564d3": {
    "company": "Becton Dickinson",
    "first_seen": "2026-09-08",
@@ -5329,6 +5341,18 @@
    "title": "Senior Associate, Dasher & Logistics Strategy & Operations",
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7913604"
   },
+  "doordash:a2d5cb2f4ed6": {
+   "company": "DoorDash",
+   "first_seen": "2026-09-17",
+   "location": "San Francisco, CA; Seattle, WA; New York, NY",
+   "posted_at": "2026-09-16",
+   "role": "logistics",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "manager",
+   "title": "Design Program Manager, Logistics",
+   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8209943"
+  },
   "doordash:b8c6e65ceb63": {
    "company": "DoorDash",
    "first_seen": "2026-09-08",
@@ -5713,6 +5737,17 @@
    "title": "Senior Staff Business Systems Analyst, Supply Chain Business Systems",
    "url": "https://www.google.com/about/careers/applications/jobs/results/78127071686992582-senior-staff-business-systems-analyst-supply-chain-business-systems"
   },
+  "google:3e1860972fc0": {
+   "company": "Google",
+   "first_seen": "2026-09-17",
+   "location": "Atlanta, GA, USA",
+   "role": "program-mgmt",
+   "source": "google careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Program Manager II, Supply Chain Operations, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/89390176744153798-program-manager-ii-supply-chain-operations-google-cloud"
+  },
   "google:42c5254e6119": {
    "company": "Google",
    "first_seen": "2026-09-11",
@@ -5976,6 +6011,17 @@
    "tier": "manager",
    "title": "Technical Program Manager III, Long Haul Planning, Cloud Networking",
    "url": "https://www.google.com/about/careers/applications/jobs/results/78781919981904582-technical-program-manager-iii-long-haul-planning-cloud-networking"
+  },
+  "google:b0a008b4df04": {
+   "company": "Google",
+   "first_seen": "2026-09-17",
+   "location": "Atlanta, GA, USA; Austin, TX, USA; +4 more; +3 more",
+   "role": "procurement",
+   "source": "google careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Global Category Manager",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/73909053025067718-global-category-manager"
   },
   "google:b2246c2c0aed": {
    "company": "Google",
@@ -6716,6 +6762,18 @@
    "title": "Supply Chain/Supply Management Intern- Summer 2027",
    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/Supply-Chain-Supply-Management-Intern--Summer-2027_R73693-2"
   },
+  "medtronic:e321c4589b62": {
+   "company": "Medtronic",
+   "first_seen": "2026-09-17",
+   "location": "Tempe, Arizona, United States of America",
+   "posted_at": "2026-09-16",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Senior Supplier Quality Engineer",
+   "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Tempe-Arizona-United-States-of-America/Senior-Supplier-Quality-Engineer_R77807-1"
+  },
   "medtronic:fd49ceb7d5f7": {
    "company": "Medtronic",
    "first_seen": "2026-09-08",
@@ -6811,6 +6869,18 @@
    "tier": "mid",
    "title": "Sr Engineer, FE US Expansion Planning SIC",
    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Sr-Engineer--FE-US-Expansion-Planning-SIC_JR112061"
+  },
+  "micron:63b9ff2d03fb": {
+   "company": "Micron",
+   "first_seen": "2026-09-17",
+   "location": "Boise, ID - ID1",
+   "posted_at": "2026-09-16",
+   "role": "procurement",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Program Manager, Indirect Procurement Programs",
+   "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---ID1/Program-Manager--Indirect-Procurement-Programs_JR112176"
   },
   "micron:72868fa7db7e": {
    "company": "Micron",
@@ -12659,12 +12729,12 @@
   },
   "Abbott": {
    "best": 533,
-   "last": 516,
+   "last": 522,
    "last_ok": "2026-09-17"
   },
   "Airbnb": {
    "best": 172,
-   "last": 164,
+   "last": 163,
    "last_ok": "2026-09-17"
   },
   "Amazon": {
@@ -12673,13 +12743,13 @@
    "last_ok": "2026-09-17"
   },
   "Anduril": {
-   "best": 2330,
-   "last": 2330,
+   "best": 2332,
+   "last": 2332,
    "last_ok": "2026-09-17"
   },
   "Applied Materials": {
    "best": 466,
-   "last": 463,
+   "last": 464,
    "last_ok": "2026-09-17"
   },
   "Astranis": {
@@ -12694,17 +12764,17 @@
   },
   "Boeing": {
    "best": 318,
-   "last": 295,
+   "last": 288,
    "last_ok": "2026-09-17"
   },
   "CVS Health": {
    "best": 344,
-   "last": 339,
+   "last": 325,
    "last_ok": "2026-09-17"
   },
   "Carvana": {
    "best": 1747,
-   "last": 1747,
+   "last": 1744,
    "last_ok": "2026-09-17"
   },
   "Coinbase": {
@@ -12719,7 +12789,7 @@
   },
   "DoorDash": {
    "best": 467,
-   "last": 465,
+   "last": 466,
    "last_ok": "2026-09-17"
   },
   "Duolingo": {
@@ -12734,7 +12804,7 @@
   },
   "Flexport": {
    "best": 186,
-   "last": 185,
+   "last": 186,
    "last_ok": "2026-09-17"
   },
   "Formlabs": {
@@ -12794,12 +12864,12 @@
   },
   "Medtronic": {
    "best": 451,
-   "last": 439,
+   "last": 436,
    "last_ok": "2026-09-17"
   },
   "Micron": {
    "best": 292,
-   "last": 291,
+   "last": 292,
    "last_ok": "2026-09-17"
   },
   "Misfits Market": {
@@ -12814,7 +12884,7 @@
   },
   "Nike": {
    "best": 178,
-   "last": 153,
+   "last": 150,
    "last_ok": "2026-09-17"
   },
   "Nuro": {
@@ -12823,8 +12893,8 @@
    "last_ok": "2026-09-17"
   },
   "Nvidia": {
-   "best": 285,
-   "last": 285,
+   "best": 287,
+   "last": 287,
    "last_ok": "2026-09-17"
   },
   "Olipop": {
@@ -12849,12 +12919,12 @@
   },
   "PepsiCo": {
    "best": 301,
-   "last": 278,
+   "last": 277,
    "last_ok": "2026-09-17"
   },
   "Pinterest": {
    "best": 188,
-   "last": 163,
+   "last": 162,
    "last_ok": "2026-09-17"
   },
   "Samsara": {
@@ -12868,8 +12938,8 @@
    "last_ok": "2026-09-17"
   },
   "SpaceX": {
-   "best": 2463,
-   "last": 2462,
+   "best": 2465,
+   "last": 2465,
    "last_ok": "2026-09-17"
   },
   "Stripe": {
@@ -12879,12 +12949,12 @@
   },
   "Stryker": {
    "best": 411,
-   "last": 409,
+   "last": 408,
    "last_ok": "2026-09-17"
   },
   "Target": {
    "best": 374,
-   "last": 369,
+   "last": 368,
    "last_ok": "2026-09-17"
   },
   "Thrive Market": {
@@ -12899,22 +12969,22 @@
   },
   "Unilever": {
    "best": 199,
-   "last": 187,
+   "last": 185,
    "last_ok": "2026-09-17"
   },
   "Verkada": {
    "best": 296,
-   "last": 293,
+   "last": 294,
    "last_ok": "2026-09-17"
   },
   "Walmart Global Tech": {
    "best": 244,
-   "last": 189,
+   "last": 193,
    "last_ok": "2026-09-17"
   },
   "Waymo": {
    "best": 344,
-   "last": 327,
+   "last": 326,
    "last_ok": "2026-09-17"
   },
   "Zebra Technologies": {
@@ -12923,6 +12993,6 @@
    "last_ok": "2026-09-17"
   }
  },
- "updated": "2026-09-17T00:11:43Z",
+ "updated": "2026-09-17T07:16:43Z",
  "version": 1
 }
