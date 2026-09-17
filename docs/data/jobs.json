@@ -1386,6 +1386,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10539035/software-development-engineer-s3-request-processing-s3-simple-storage-service",
    "yoe": 1
   },
+  "amazon:04b12ba6f702": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II , AWS IoT Fleet Management",
+   "url": "https://www.amazon.jobs/en/jobs/10552294/sde-ii-aws-iot-fleet-management",
+   "yoe": 3
+  },
   "amazon:055016d79b47": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3021,6 +3036,21 @@
    "title": "Software Development Engineer , Leo Customer Terminals Applications & Networking Team",
    "url": "https://www.amazon.jobs/en/jobs/10507324/software-development-engineer-leo-customer-terminals-applications-networking-team"
   },
+  "amazon:4fe4eeba1f5b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Amazon Leo Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10552346/software-development-engineer-amazon-leo-commerce",
+   "yoe": 1
+  },
   "amazon:504a33063139": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3468,6 +3498,21 @@
    "title": "Software Development Engineer, Amazon Optics",
    "url": "https://www.amazon.jobs/en/jobs/10511479/software-development-engineer-amazon-optics",
    "yoe": 1
+  },
+  "amazon:661c02177d0a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II , AWS IoT Fleet Management",
+   "url": "https://www.amazon.jobs/en/jobs/10552293/sde-ii-aws-iot-fleet-management",
+   "yoe": 3
   },
   "amazon:66501158c5b5": {
    "company": "Amazon",
@@ -32394,6 +32439,18 @@
    "title": "Software DevOps Engineer, Networking",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-DevOps-Engineer--Networking_JR2025882"
   },
+  "nvidia:2daa969137f4": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-17",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-17",
+   "role": "qa-test",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software QA Engineer- New College Grad 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-QA-Engineer--New-College-Grad-2026_JR2025900"
+  },
   "nvidia:3000c8c5da69": {
    "company": "Nvidia",
    "first_seen": "2026-08-26",
@@ -32549,6 +32606,18 @@
    "tier": "experienced",
    "title": "Software Engineer, CUDA-Q",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Software-Engineer--CUDA-Q_JR2011649"
+  },
+  "nvidia:58740f574f8f": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-17",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-17",
+   "role": "qa-test",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Optical Package Test Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Optical-Package-Test-Engineer_JR2025483"
   },
   "nvidia:5af15a3ca0ae": {
    "company": "NVIDIA",
@@ -32729,6 +32798,18 @@
    "tier": "experienced",
    "title": "Software Engineer, OpenShell",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-Remote/Software-Engineer--OpenShell_JR2020825"
+  },
+  "nvidia:9806c3f40ef3": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-17",
+   "location": "3 Locations",
+   "posted_at": "2026-09-17",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "AI Compiler Engineer- New College Grad 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Compiler-Engineer--New-College-Grad-2027_JR2026011"
   },
   "nvidia:983131a247dc": {
    "company": "Nvidia",
@@ -45326,6 +45407,18 @@
    "title": "Expert Agent Builder, Forward Deployed Engineering",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Expert-Agent-Builder--Forward-Deployed-Engineering_JR360234"
   },
+  "salesforce:f1353fa99533": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-17",
+   "location": "4 Locations",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer- GovCloud",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Bellevue/Software-Engineer--GovCloud_JR360200"
+  },
   "salesforce:f5800efd834a": {
    "company": "Salesforce",
    "first_seen": "2026-09-11",
@@ -48318,6 +48411,18 @@
    "tier": "experienced",
    "title": "Development Test Engineer, Satellites (Starlink)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8532641002?gh_jid=8532641002"
+  },
+  "spacex:6083d37aaa03": {
+   "company": "SpaceX",
+   "first_seen": "2026-09-17",
+   "location": "Hawthorne, CA",
+   "posted_at": "2026-09-17",
+   "role": "qa-test",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Avionics Test Engineer (Starshield)",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8815132002?gh_jid=8815132002"
   },
   "spacex:609b86e7e30e": {
    "company": "SpaceX",
@@ -58281,7 +58386,7 @@
  "sources": {
   "Abridge": {
    "best": 48,
-   "last": 42,
+   "last": 43,
    "last_ok": "2026-09-17"
   },
   "Adobe": {
@@ -58296,7 +58401,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 166,
+   "last": 167,
    "last_ok": "2026-09-17"
   },
   "Airtable": {
@@ -58310,8 +58415,8 @@
    "last_ok": "2026-09-17"
   },
   "Anduril": {
-   "best": 2342,
-   "last": 2342,
+   "best": 2345,
+   "last": 2345,
    "last_ok": "2026-09-17"
   },
   "Anthropic": {
@@ -58332,7 +58437,7 @@
   },
   "Attentive": {
    "best": 39,
-   "last": 33,
+   "last": 32,
    "last_ok": "2026-09-17"
   },
   "Betterment": {
@@ -58352,22 +58457,22 @@
   },
   "Brex": {
    "best": 299,
-   "last": 262,
+   "last": 259,
    "last_ok": "2026-09-17"
   },
   "CVS Health": {
    "best": 200,
-   "last": 200,
+   "last": 198,
    "last_ok": "2026-09-17"
   },
   "Capital One": {
    "best": 171,
-   "last": 167,
+   "last": 164,
    "last_ok": "2026-09-17"
   },
   "Carta": {
    "best": 66,
-   "last": 66,
+   "last": 65,
    "last_ok": "2026-09-17"
   },
   "Checkr": {
@@ -58438,7 +58543,7 @@
   },
   "Elastic": {
    "best": 368,
-   "last": 364,
+   "last": 365,
    "last_ok": "2026-09-17"
   },
   "ElevenLabs": {
@@ -58453,7 +58558,7 @@
   },
   "Figma": {
    "best": 163,
-   "last": 153,
+   "last": 154,
    "last_ok": "2026-09-17"
   },
   "Flexport": {
@@ -58473,12 +58578,12 @@
   },
   "Gusto": {
    "best": 99,
-   "last": 93,
+   "last": 94,
    "last_ok": "2026-09-17"
   },
   "Harvey": {
    "best": 362,
-   "last": 300,
+   "last": 299,
    "last_ok": "2026-09-17"
   },
   "Instacart": {
@@ -58524,7 +58629,7 @@
   },
   "MongoDB": {
    "best": 415,
-   "last": 411,
+   "last": 412,
    "last_ok": "2026-09-17"
   },
   "Netflix": {
@@ -58544,12 +58649,12 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 186,
+   "last": 188,
    "last_ok": "2026-09-17"
   },
   "Okta": {
    "best": 350,
-   "last": 325,
+   "last": 326,
    "last_ok": "2026-09-17"
   },
   "OpenAI": {
@@ -58589,7 +58694,7 @@
   },
   "Plaid": {
    "best": 112,
-   "last": 110,
+   "last": 111,
    "last_ok": "2026-09-17"
   },
   "Ramp": {
@@ -58613,28 +58718,28 @@
    "last_ok": "2026-09-17"
   },
   "Roblox": {
-   "best": 241,
-   "last": 241,
+   "best": 242,
+   "last": 242,
    "last_ok": "2026-09-17"
   },
   "Salesforce": {
    "best": 172,
-   "last": 172,
+   "last": 171,
    "last_ok": "2026-09-17"
   },
   "Samsara": {
    "best": 273,
-   "last": 269,
+   "last": 268,
    "last_ok": "2026-09-17"
   },
   "Scale AI": {
    "best": 228,
-   "last": 221,
+   "last": 222,
    "last_ok": "2026-09-17"
   },
   "Simplify Aggregator": {
    "best": 2234,
-   "last": 2234,
+   "last": 2233,
    "last_ok": "2026-09-17"
   },
   "Snowflake": {
@@ -58648,13 +58753,13 @@
    "last_ok": "2026-09-17"
   },
   "SpaceX": {
-   "best": 2476,
-   "last": 2476,
+   "best": 2478,
+   "last": 2478,
    "last_ok": "2026-09-17"
   },
   "Spotify": {
    "best": 95,
-   "last": 70,
+   "last": 73,
    "last_ok": "2026-09-17"
   },
   "Stripe": {
@@ -58702,7 +58807,7 @@
   },
   "Vanta": {
    "best": 112,
-   "last": 95,
+   "last": 94,
    "last_ok": "2026-09-17"
   },
   "Verizon": {
@@ -58723,12 +58828,12 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 89,
+   "last": 96,
    "last_ok": "2026-09-17"
   },
   "Waymo": {
    "best": 367,
-   "last": 328,
+   "last": 329,
    "last_ok": "2026-09-17"
   },
   "Webflow": {
@@ -58737,6 +58842,6 @@
    "last_ok": "2026-09-17"
   }
  },
- "updated": "2026-09-17T17:15:59Z",
+ "updated": "2026-09-17T18:23:29Z",
  "version": 1
 }
