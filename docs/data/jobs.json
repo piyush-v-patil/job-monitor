@@ -2354,6 +2354,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10545581/software-dev-engineer-ii-prime-air",
    "yoe": 1
   },
+  "amazon:2ba455682495": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon WorkSpaces Applications",
+   "url": "https://www.amazon.jobs/en/jobs/10552157/software-development-engineer-amazon-workspaces-applications",
+   "yoe": 1
+  },
   "amazon:2ca98ae41d89": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2515,6 +2530,21 @@
    "title": "Software Development Engineer, S3 Glacier",
    "url": "https://www.amazon.jobs/en/jobs/10512552/software-development-engineer-s3-glacier",
    "yoe": 1
+  },
+  "amazon:32d043574e3a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-09-17",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Software Engineer, Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10552155/embedded-software-engineer-amazon-leo",
+   "yoe": 2
   },
   "amazon:32d76f4989a3": {
    "company": "Amazon",
@@ -3768,6 +3798,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10524157/software-dev-engineer-iii-amazon-interactive-video-service-ivs-stream-management",
    "yoe": 5
   },
+  "amazon:78d01a40552e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-09-17",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Software Engineer, Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10552156/embedded-software-engineer-amazon-leo",
+   "yoe": 2
+  },
   "amazon:7b4292d15140": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4417,6 +4462,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Amazon Publisher Services",
    "url": "https://www.amazon.jobs/en/jobs/10506328/software-development-engineer-amazon-publisher-services"
+  },
+  "amazon:978aa7934ded": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-09-17",
+   "role": "security",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Enterprise Security Products",
+   "url": "https://www.amazon.jobs/en/jobs/10552158/software-dev-engineer-ii-enterprise-security-products",
+   "yoe": 1
   },
   "amazon:9873a7c5c843": {
    "company": "Amazon",
@@ -6451,6 +6511,21 @@
    "title": "Software Development Engineer II, AWS Lambda",
    "url": "https://www.amazon.jobs/en/jobs/10521244/software-development-engineer-ii-aws-lambda",
    "yoe": 1
+  },
+  "amazon:f9c7fa20f616": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-17",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Foundational Services, AWS Applied AI Solution – Core Services",
+   "url": "https://www.amazon.jobs/en/jobs/10552014/software-dev-engineer-ii-foundational-services-aws-applied-ai-solution-core-services",
+   "yoe": 3
   },
   "amazon:fc7252d4ac34": {
    "company": "Amazon",
@@ -34012,6 +34087,7 @@
    "tier": "experienced",
    "title": "Capacity Systems Software Engineer",
    "url": "https://jobs.ashbyhq.com/openai/11c51b12-3ba0-4a7a-a0d2-ed0661324dc3",
+   "workplace": "Hybrid",
    "yoe": 5
   },
   "openai:31c98d509e76": {
@@ -41887,6 +41963,18 @@
    "title": "Software Engineer, Consumer Engineering",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8172457"
   },
+  "reddit:f9f6651c4487": {
+   "company": "Reddit",
+   "first_seen": "2026-09-17",
+   "location": "Remote - United States",
+   "posted_at": "2026-09-17",
+   "role": "frontend",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Front End Software Engineer, Consumer Engineering",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8147559"
+  },
   "relay:6f8728df4f8a": {
    "company": "Relay",
    "first_seen": "2026-09-17",
@@ -44698,6 +44786,18 @@
    "tier": "experienced",
    "title": "Software Engineering MTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS_JR353585"
+  },
+  "salesforce:172d53f2f73d": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-17",
+   "location": "2 Locations",
+   "posted_at": "2026-09-17",
+   "role": "devops-sre",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, DNS & Cloud Infrastructure",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Bellevue/Software-Engineer--DNS---Cloud-Infrastructure_JR357256"
   },
   "salesforce:1bb22db26f5f": {
    "company": "Salesforce",
@@ -55803,6 +55903,114 @@
    "title": "Software Engineer Intern - Software Engineer",
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002"
   },
+  "visa:127a25eddd6b": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Austin, TX",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1"
+  },
+  "visa:214a3a97e8f4": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Foster City, CA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1"
+  },
+  "visa:5666866ac1d5": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Denver, CO",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W"
+  },
+  "visa:733be561cd69": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Austin, TX",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Sophomore Internship Program",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1"
+  },
+  "visa:a7b673972aa2": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Bellevue, WA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer New Grad",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/Software-Engineer--New-College-Grad--Bellevue---2027_REF088530W-3"
+  },
+  "visa:aae576bdfe55": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Austin, TX",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer New Grad - 2027",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W"
+  },
+  "visa:c860114adc94": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Bellevue, WA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1"
+  },
+  "visa:f18987e19b04": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Denver, CO",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1"
+  },
+  "visa:f1923d37a196": {
+   "company": "Visa",
+   "first_seen": "2026-09-17",
+   "location": "Foster City, CA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer New Grad",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--New-College-Grad---2027-Foster-City--CA_REF088543W-1"
+  },
   "w-w-grainger:2df1d1a224da": {
    "company": "W.W. Grainger",
    "first_seen": "2026-08-20",
@@ -58073,7 +58281,7 @@
  "sources": {
   "Abridge": {
    "best": 48,
-   "last": 41,
+   "last": 42,
    "last_ok": "2026-09-17"
   },
   "Adobe": {
@@ -58088,7 +58296,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 163,
+   "last": 166,
    "last_ok": "2026-09-17"
   },
   "Airtable": {
@@ -58102,13 +58310,13 @@
    "last_ok": "2026-09-17"
   },
   "Anduril": {
-   "best": 2335,
-   "last": 2335,
+   "best": 2342,
+   "last": 2342,
    "last_ok": "2026-09-17"
   },
   "Anthropic": {
    "best": 608,
-   "last": 605,
+   "last": 606,
    "last_ok": "2026-09-17"
   },
   "Apple": {
@@ -58119,7 +58327,7 @@
   },
   "Asana": {
    "best": 126,
-   "last": 99,
+   "last": 101,
    "last_ok": "2026-09-17"
   },
   "Attentive": {
@@ -58129,32 +58337,32 @@
   },
   "Betterment": {
    "best": 32,
-   "last": 26,
+   "last": 25,
    "last_ok": "2026-09-17"
   },
   "Block": {
    "best": 219,
-   "last": 219,
+   "last": 218,
    "last_ok": "2026-09-17"
   },
   "Boeing": {
    "best": 195,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-09-17"
   },
   "Brex": {
    "best": 299,
-   "last": 261,
+   "last": 262,
    "last_ok": "2026-09-17"
   },
   "CVS Health": {
    "best": 200,
-   "last": 196,
+   "last": 200,
    "last_ok": "2026-09-17"
   },
   "Capital One": {
    "best": 171,
-   "last": 160,
+   "last": 167,
    "last_ok": "2026-09-17"
   },
   "Carta": {
@@ -58164,12 +58372,12 @@
   },
   "Checkr": {
    "best": 50,
-   "last": 48,
+   "last": 49,
    "last_ok": "2026-09-17"
   },
   "Chime": {
    "best": 72,
-   "last": 70,
+   "last": 71,
    "last_ok": "2026-09-17"
   },
   "Citadel": {
@@ -58179,8 +58387,8 @@
    "reported_dead": "2026-08-24"
   },
   "Cloudflare": {
-   "best": 367,
-   "last": 367,
+   "best": 373,
+   "last": 373,
    "last_ok": "2026-09-17"
   },
   "Cognition": {
@@ -58195,12 +58403,12 @@
   },
   "Databricks": {
    "best": 893,
-   "last": 879,
+   "last": 882,
    "last_ok": "2026-09-17"
   },
   "Datadog": {
    "best": 456,
-   "last": 451,
+   "last": 447,
    "last_ok": "2026-09-17"
   },
   "Decagon": {
@@ -58215,27 +58423,27 @@
   },
   "DoorDash": {
    "best": 475,
-   "last": 466,
+   "last": 465,
    "last_ok": "2026-09-17"
   },
   "Dropbox": {
    "best": 45,
-   "last": 39,
+   "last": 40,
    "last_ok": "2026-09-17"
   },
   "Duolingo": {
    "best": 92,
-   "last": 83,
+   "last": 84,
    "last_ok": "2026-09-17"
   },
   "Elastic": {
    "best": 368,
-   "last": 360,
+   "last": 364,
    "last_ok": "2026-09-17"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 239,
+   "last": 238,
    "last_ok": "2026-09-17"
   },
   "Faire": {
@@ -58249,13 +58457,13 @@
    "last_ok": "2026-09-17"
   },
   "Flexport": {
-   "best": 187,
-   "last": 187,
+   "best": 188,
+   "last": 188,
    "last_ok": "2026-09-17"
   },
   "GitLab": {
    "best": 234,
-   "last": 221,
+   "last": 222,
    "last_ok": "2026-09-17"
   },
   "Google": {
@@ -58270,17 +58478,17 @@
   },
   "Harvey": {
    "best": 362,
-   "last": 299,
+   "last": 300,
    "last_ok": "2026-09-17"
   },
   "Instacart": {
    "best": 125,
-   "last": 108,
+   "last": 107,
    "last_ok": "2026-09-17"
   },
   "Komodo Health": {
    "best": 37,
-   "last": 29,
+   "last": 27,
    "last_ok": "2026-09-17"
   },
   "Linear": {
@@ -58290,7 +58498,7 @@
   },
   "Lyft": {
    "best": 183,
-   "last": 183,
+   "last": 181,
    "last_ok": "2026-09-17"
   },
   "Marqeta": {
@@ -58305,7 +58513,7 @@
   },
   "Mercury": {
    "best": 65,
-   "last": 64,
+   "last": 65,
    "last_ok": "2026-09-17"
   },
   "Microsoft": {
@@ -58326,7 +58534,7 @@
   },
   "Notion": {
    "best": 135,
-   "last": 128,
+   "last": 127,
    "last_ok": "2026-09-17"
   },
   "Nuro": {
@@ -58341,12 +58549,12 @@
   },
   "Okta": {
    "best": 350,
-   "last": 322,
+   "last": 325,
    "last_ok": "2026-09-17"
   },
   "OpenAI": {
    "best": 819,
-   "last": 818,
+   "last": 819,
    "last_ok": "2026-09-17"
   },
   "OpenEvidence": {
@@ -58376,7 +58584,7 @@
   },
   "Pinterest": {
    "best": 225,
-   "last": 162,
+   "last": 161,
    "last_ok": "2026-09-17"
   },
   "Plaid": {
@@ -58386,12 +58594,12 @@
   },
   "Ramp": {
    "best": 148,
-   "last": 148,
+   "last": 147,
    "last_ok": "2026-09-17"
   },
   "Reddit": {
    "best": 156,
-   "last": 153,
+   "last": 154,
    "last_ok": "2026-09-17"
   },
   "Replit": {
@@ -58405,53 +58613,53 @@
    "last_ok": "2026-09-17"
   },
   "Roblox": {
-   "best": 240,
-   "last": 240,
+   "best": 241,
+   "last": 241,
    "last_ok": "2026-09-17"
   },
   "Salesforce": {
-   "best": 170,
-   "last": 167,
+   "best": 172,
+   "last": 172,
    "last_ok": "2026-09-17"
   },
   "Samsara": {
    "best": 273,
-   "last": 268,
+   "last": 269,
    "last_ok": "2026-09-17"
   },
   "Scale AI": {
    "best": 228,
-   "last": 222,
+   "last": 221,
    "last_ok": "2026-09-17"
   },
   "Simplify Aggregator": {
-   "best": 2203,
-   "last": 2202,
+   "best": 2234,
+   "last": 2234,
    "last_ok": "2026-09-17"
   },
   "Snowflake": {
    "best": 393,
-   "last": 347,
+   "last": 345,
    "last_ok": "2026-09-17"
   },
   "SoFi": {
    "best": 63,
-   "last": 58,
+   "last": 59,
    "last_ok": "2026-09-17"
   },
   "SpaceX": {
-   "best": 2467,
-   "last": 2467,
+   "best": 2476,
+   "last": 2476,
    "last_ok": "2026-09-17"
   },
   "Spotify": {
    "best": 95,
-   "last": 68,
+   "last": 70,
    "last_ok": "2026-09-17"
   },
   "Stripe": {
-   "best": 654,
-   "last": 654,
+   "best": 655,
+   "last": 655,
    "last_ok": "2026-09-17"
   },
   "Suno": {
@@ -58461,7 +58669,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 196,
+   "last": 198,
    "last_ok": "2026-09-17"
   },
   "Tesla": {
@@ -58472,7 +58680,7 @@
   },
   "Twilio": {
    "best": 154,
-   "last": 146,
+   "last": 145,
    "last_ok": "2026-09-17"
   },
   "Two Sigma": {
@@ -58499,7 +58707,7 @@
   },
   "Verizon": {
    "best": 139,
-   "last": 136,
+   "last": 137,
    "last_ok": "2026-09-17"
   },
   "Verkada": {
@@ -58515,12 +58723,12 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 110,
+   "last": 89,
    "last_ok": "2026-09-17"
   },
   "Waymo": {
    "best": 367,
-   "last": 326,
+   "last": 328,
    "last_ok": "2026-09-17"
   },
   "Webflow": {
@@ -58529,6 +58737,6 @@
    "last_ok": "2026-09-17"
   }
  },
- "updated": "2026-09-17T14:24:26Z",
+ "updated": "2026-09-17T17:15:59Z",
  "version": 1
 }
