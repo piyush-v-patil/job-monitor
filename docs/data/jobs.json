@@ -2991,6 +2991,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10522267/software-development-engineer-aws-opensearch-service",
    "yoe": 1
   },
+  "amazon:50f8116a6432": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Ground Control Console (GC2)",
+   "url": "https://www.amazon.jobs/en/jobs/10551480/software-development-engineer-ground-control-console-gc2",
+   "yoe": 1
+  },
   "amazon:516680adf273": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3287,6 +3302,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, Infra Supply Chain",
    "url": "https://www.amazon.jobs/en/jobs/10528874/software-dev-engineer-ii-infra-supply-chain",
+   "yoe": 1
+  },
+  "amazon:5ea33829733e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10551443/software-development-engineer",
    "yoe": 1
   },
   "amazon:5ecac351364c": {
@@ -19450,6 +19480,18 @@
    "title": "Software Engineer 0 - Multiple Teams",
    "url": "https://job-boards.greenhouse.io/captivation/jobs/5384983008"
   },
+  "captivation:ae4fea279b21": {
+   "company": "Captivation",
+   "first_seen": "2026-09-17",
+   "location": "Annapolis Junction, MD",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 0 - Multiple Teams",
+   "url": "https://job-boards.greenhouse.io/captivation/jobs/5426523008"
+  },
   "castleton-commodities-international:32c9800721d3": {
    "company": "Castleton Commodities International",
    "first_seen": "2026-08-22",
@@ -26386,6 +26428,17 @@
    "title": "Software Engineer, AI/ML, Computer Vision, XR",
    "url": "https://www.google.com/about/careers/applications/jobs/results/85594105333064390-software-engineer-aiml-computer-vision-xr"
   },
+  "google:b62090659a08": {
+   "company": "Google",
+   "first_seen": "2026-09-17",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Embedded Systems/Firmware, Platforms Infrastructure Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/80032402176385734-software-engineer-iii-embedded-systemsfirmware-platforms-infrastructure-engineering"
+  },
   "google:b6d261ae826b": {
    "company": "Google",
    "first_seen": "2026-08-25",
@@ -29053,6 +29106,18 @@
    "tier": "intern",
    "title": "Software Engineer Intern",
    "url": "https://relx.wd3.myworkdayjobs.com/en-US/LexisNexisLegal/job/Raleigh-NC/Software-Engineer-Internship_R118692"
+  },
+  "lexisnexis-risk-solutions:89c0130710d8": {
+   "company": "LexisNexis Risk Solutions",
+   "first_seen": "2026-09-17",
+   "location": "Alpharetta, GA",
+   "posted_at": "2026-09-16",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Alpharetta-GA/Software-Engineer-1_R117973"
   },
   "lexisnexis-risk-solutions:8b2f2f0f91d6": {
    "company": "LexisNexis Risk Solutions",
@@ -41796,6 +41861,18 @@
    "title": "Software Engineer New Grad",
    "url": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Alpharetta-GA/Tech-Accelerate-Graduate-Program---Software-Engineer--Alpharetta---June-_R117626-2"
   },
+  "relx:f952baaa4a85": {
+   "company": "RELX",
+   "first_seen": "2026-09-17",
+   "location": "Alpharetta, GA",
+   "posted_at": "2026-09-16",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Alpharetta-GA/Software-Engineer-1_R117973-1"
+  },
   "replit:195e28bbaf8f": {
    "comp": "$180K – $300K • Offers Equity",
    "company": "Replit",
@@ -46203,6 +46280,18 @@
    "tier": "newgrad",
    "title": "Junior Data Engineer - Multiple Teams",
    "url": "https://jobs.smartrecruiters.com/SmarterAgent/743999706496509"
+  },
+  "smith-nephew:992fd1749aed": {
+   "company": "Smith+Nephew",
+   "first_seen": "2026-09-17",
+   "location": "Pittsburgh, PA",
+   "posted_at": "2026-09-17",
+   "role": "embedded",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Robotics Software Engineer Intern",
+   "url": "https://smithnephew.wd5.myworkdayjobs.com/External/job/US---Pittsburgh-PA/Intern-Robotics-Software-Engineering_R92482"
   },
   "snowflake:0f20af4168c0": {
    "comp": "$165,000 – $216,562",
@@ -56946,6 +57035,18 @@
    "title": "Machine Learning Engineer / Applied Scientist, Prediction & Planning ",
    "url": "https://careers.withwaymo.com/jobs?gh_jid=7309064"
   },
+  "waymo:597c401746e5": {
+   "company": "Waymo",
+   "first_seen": "2026-09-17",
+   "location": "San Francisco, California",
+   "posted_at": "2026-09-16",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "intern",
+   "title": "2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8203200"
+  },
   "waymo:5c5e58edc111": {
    "company": "Waymo",
    "first_seen": "2026-08-30",
@@ -57913,7 +58014,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 164,
+   "last": 163,
    "last_ok": "2026-09-17"
   },
   "Airtable": {
@@ -57927,13 +58028,13 @@
    "last_ok": "2026-09-17"
   },
   "Anduril": {
-   "best": 2331,
-   "last": 2330,
+   "best": 2332,
+   "last": 2332,
    "last_ok": "2026-09-17"
   },
   "Anthropic": {
-   "best": 607,
-   "last": 607,
+   "best": 608,
+   "last": 608,
    "last_ok": "2026-09-17"
   },
   "Apple": {
@@ -57964,7 +58065,7 @@
   },
   "Boeing": {
    "best": 195,
-   "last": 191,
+   "last": 190,
    "last_ok": "2026-09-17"
   },
   "Brex": {
@@ -57979,7 +58080,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 161,
+   "last": 160,
    "last_ok": "2026-09-17"
   },
   "Carta": {
@@ -58004,8 +58105,8 @@
    "reported_dead": "2026-08-24"
   },
   "Cloudflare": {
-   "best": 360,
-   "last": 360,
+   "best": 361,
+   "last": 361,
    "last_ok": "2026-09-17"
   },
   "Cognition": {
@@ -58025,7 +58126,7 @@
   },
   "Datadog": {
    "best": 456,
-   "last": 453,
+   "last": 450,
    "last_ok": "2026-09-17"
   },
   "Decagon": {
@@ -58040,7 +58141,7 @@
   },
   "DoorDash": {
    "best": 475,
-   "last": 465,
+   "last": 466,
    "last_ok": "2026-09-17"
   },
   "Dropbox": {
@@ -58055,7 +58156,7 @@
   },
   "Elastic": {
    "best": 368,
-   "last": 359,
+   "last": 360,
    "last_ok": "2026-09-17"
   },
   "ElevenLabs": {
@@ -58070,17 +58171,17 @@
   },
   "Figma": {
    "best": 163,
-   "last": 154,
+   "last": 153,
    "last_ok": "2026-09-17"
   },
   "Flexport": {
    "best": 186,
-   "last": 185,
+   "last": 186,
    "last_ok": "2026-09-17"
   },
   "GitLab": {
    "best": 234,
-   "last": 222,
+   "last": 220,
    "last_ok": "2026-09-17"
   },
   "Google": {
@@ -58095,7 +58196,7 @@
   },
   "Harvey": {
    "best": 362,
-   "last": 301,
+   "last": 300,
    "last_ok": "2026-09-17"
   },
   "Instacart": {
@@ -58125,7 +58226,7 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 72,
+   "last": 73,
    "last_ok": "2026-09-17"
   },
   "Mercury": {
@@ -58161,7 +58262,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 188,
+   "last": 187,
    "last_ok": "2026-09-17"
   },
   "Okta": {
@@ -58171,7 +58272,7 @@
   },
   "OpenAI": {
    "best": 819,
-   "last": 819,
+   "last": 818,
    "last_ok": "2026-09-17"
   },
   "OpenEvidence": {
@@ -58201,7 +58302,7 @@
   },
   "Pinterest": {
    "best": 225,
-   "last": 163,
+   "last": 162,
    "last_ok": "2026-09-17"
   },
   "Plaid": {
@@ -58211,12 +58312,12 @@
   },
   "Ramp": {
    "best": 148,
-   "last": 145,
+   "last": 147,
    "last_ok": "2026-09-17"
   },
   "Reddit": {
    "best": 156,
-   "last": 154,
+   "last": 153,
    "last_ok": "2026-09-17"
   },
   "Replit": {
@@ -58236,7 +58337,7 @@
   },
   "Salesforce": {
    "best": 170,
-   "last": 169,
+   "last": 168,
    "last_ok": "2026-09-17"
   },
   "Samsara": {
@@ -58250,8 +58351,8 @@
    "last_ok": "2026-09-17"
   },
   "Simplify Aggregator": {
-   "best": 2200,
-   "last": 2200,
+   "best": 2203,
+   "last": 2203,
    "last_ok": "2026-09-17"
   },
   "Snowflake": {
@@ -58265,8 +58366,8 @@
    "last_ok": "2026-09-17"
   },
   "SpaceX": {
-   "best": 2463,
-   "last": 2463,
+   "best": 2465,
+   "last": 2465,
    "last_ok": "2026-09-17"
   },
   "Spotify": {
@@ -58276,17 +58377,17 @@
   },
   "Stripe": {
    "best": 653,
-   "last": 652,
+   "last": 651,
    "last_ok": "2026-09-17"
   },
   "Suno": {
    "best": 69,
-   "last": 69,
+   "last": 68,
    "last_ok": "2026-09-17"
   },
   "Target": {
    "best": 200,
-   "last": 195,
+   "last": 194,
    "last_ok": "2026-09-17"
   },
   "Tesla": {
@@ -58324,7 +58425,7 @@
   },
   "Verizon": {
    "best": 139,
-   "last": 138,
+   "last": 137,
    "last_ok": "2026-09-17"
   },
   "Verkada": {
@@ -58340,12 +58441,12 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 107,
+   "last": 94,
    "last_ok": "2026-09-17"
   },
   "Waymo": {
    "best": 367,
-   "last": 327,
+   "last": 326,
    "last_ok": "2026-09-17"
   },
   "Webflow": {
@@ -58354,6 +58455,6 @@
    "last_ok": "2026-09-17"
   }
  },
- "updated": "2026-09-17T01:37:52Z",
+ "updated": "2026-09-17T07:51:36Z",
  "version": 1
 }
