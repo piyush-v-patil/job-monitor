@@ -2101,6 +2101,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10533184/robotics-sde-safe-autonomy-compass",
    "yoe": 3
   },
+  "amazon:21f98c9ee7bd": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Denver, Colorado, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Commerce Platform ADC, Team Mercury",
+   "url": "https://www.amazon.jobs/en/jobs/10551902/software-development-engineer-commerce-platform-adc-team-mercury",
+   "yoe": 2
+  },
   "amazon:22183a1b0fb9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3976,6 +3991,21 @@
    "tier": "experienced",
    "title": "Software Engineer, Browser Client",
    "url": "https://www.amazon.jobs/en/jobs/10514569/software-engineer-browser-client"
+  },
+  "amazon:8400e8af5b4d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Vulnerability Management Service (AVMS)",
+   "url": "https://www.amazon.jobs/en/jobs/10551950/software-development-engineer-amazon-vulnerability-management-service-avms",
+   "yoe": 2
   },
   "amazon:84096be6a124": {
    "company": "Amazon",
@@ -25268,6 +25298,17 @@
    "tier": "intern",
    "title": "Security Engineering Intern, BS/MS, Summer 2027",
    "url": "https://www.google.com/about/careers/applications/jobs/results/136826798817059526-security-engineering-intern-bsms-summer-2027"
+  },
+  "google:4bff0b2e517b": {
+   "company": "Google",
+   "first_seen": "2026-09-17",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, GDC AI Applications and Agents",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/95424090398958278-software-engineer-gdc-ai-applications-and-agents"
   },
   "google:4c0a5985dfe6": {
    "company": "Google",
@@ -58067,7 +58108,7 @@
   },
   "Anthropic": {
    "best": 608,
-   "last": 604,
+   "last": 605,
    "last_ok": "2026-09-17"
   },
   "Apple": {
@@ -58410,7 +58451,7 @@
   },
   "Stripe": {
    "best": 654,
-   "last": 652,
+   "last": 654,
    "last_ok": "2026-09-17"
   },
   "Suno": {
@@ -58488,6 +58529,6 @@
    "last_ok": "2026-09-17"
   }
  },
- "updated": "2026-09-17T13:38:35Z",
+ "updated": "2026-09-17T14:24:26Z",
  "version": 1
 }
