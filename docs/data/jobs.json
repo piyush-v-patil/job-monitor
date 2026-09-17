@@ -2490,6 +2490,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10541530/software-development-engineer-ai-studios-engineering",
    "yoe": 1
   },
+  "amazon:2d6afcde0ef9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III",
+   "url": "https://www.amazon.jobs/en/jobs/10552774/software-development-engineer-iii",
+   "yoe": 5
+  },
   "amazon:2e27e1adc157": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4083,6 +4098,21 @@
    "title": "Software Dev Engineer, Publisher Ad Server",
    "url": "https://www.amazon.jobs/en/jobs/10528085/software-dev-engineer-publisher-ad-server",
    "yoe": 1
+  },
+  "amazon:7f7954b9ddb6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Santa Clara, California, USA",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, AWS Sagemaker Unified Studio",
+   "url": "https://www.amazon.jobs/en/jobs/10552752/software-development-engineer-iii-aws-sagemaker-unified-studio",
+   "yoe": 5
   },
   "amazon:7fb623a3000c": {
    "company": "Amazon",
@@ -25465,6 +25495,17 @@
    "tier": "experienced",
    "title": "Software Engineer, AI/ML, Search Personalization",
    "url": "https://www.google.com/about/careers/applications/jobs/results/80894066786476742-software-engineer-aiml-search-personalization"
+  },
+  "google:43318d8283ff": {
+   "company": "Google",
+   "first_seen": "2026-09-17",
+   "location": "New York, NY, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Geo",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/143697701739864774-software-engineer-iii-infrastructure-geo"
   },
   "google:442d27c3ee7b": {
    "company": "Google",
@@ -58865,7 +58906,7 @@
   },
   "OpenAI": {
    "best": 819,
-   "last": 817,
+   "last": 816,
    "last_ok": "2026-09-17"
   },
   "OpenEvidence": {
@@ -58969,8 +59010,8 @@
    "last_ok": "2026-09-17"
   },
   "Stripe": {
-   "best": 659,
-   "last": 659,
+   "best": 663,
+   "last": 663,
    "last_ok": "2026-09-17"
   },
   "Suno": {
@@ -59048,6 +59089,6 @@
    "last_ok": "2026-09-17"
   }
  },
- "updated": "2026-09-17T21:32:50Z",
+ "updated": "2026-09-17T22:21:31Z",
  "version": 1
 }
