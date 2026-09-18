@@ -2265,6 +2265,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10537511/software-development-engineer-amazon-customer-service",
    "yoe": 3
   },
+  "amazon:255ae369eb06": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 2, Prime Video Personalization and Discovery",
+   "url": "https://www.amazon.jobs/en/jobs/10553194/software-development-engineer-2-prime-video-personalization-and-discovery",
+   "yoe": 1
+  },
   "amazon:256b79e30dc3": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2786,6 +2801,18 @@
    "title": "Software Development Engineer - Kinesis Data Streams, Kinesis Data Streams",
    "url": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams",
    "yoe": 2
+  },
+  "amazon:399f8a1215ea": {
+   "company": "Amazon",
+   "first_seen": "2026-09-18",
+   "location": "Seattle, WA; Arlington County, Arlington, VA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Development Engineer Intern - Summer",
+   "url": "https://amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa"
   },
   "amazon:3a1f25528cc0": {
    "company": "Amazon",
@@ -5983,6 +6010,21 @@
    "title": "Software Development Engineer II, Amazon Vulnerability Management Services",
    "url": "https://www.amazon.jobs/en/jobs/10538772/software-development-engineer-ii-amazon-vulnerability-management-services",
    "yoe": 2
+  },
+  "amazon:d9aa72e7007c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Prime Video ML Infrastructure",
+   "url": "https://www.amazon.jobs/en/jobs/10553195/software-development-engineer-prime-video-ml-infrastructure",
+   "yoe": 1
   },
   "amazon:db45cf421d4d": {
    "company": "Amazon",
@@ -9840,6 +9882,18 @@
    "tier": "experienced",
    "title": "AD&S, Air Vehicle Software Systems Engineer",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5131822007?gh_jid=5131822007"
+  },
+  "anduril:83ef50bbbb90": {
+   "company": "Anduril",
+   "first_seen": "2026-09-18",
+   "location": "Costa Mesa, California, United States",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Systems Engineer, EW",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5241726007?gh_jid=5241726007"
   },
   "anduril:84a83cb14298": {
    "company": "Anduril",
@@ -25377,6 +25431,17 @@
    "title": "Embedded Systems Engineer, High Speed DSP",
    "url": "https://www.google.com/about/careers/applications/jobs/results/88073437481706182-embedded-systems-engineer-high-speed-dsp"
   },
+  "google:336941bdd85b": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "Sunnyvale, CA, USA",
+   "role": "qa-test",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Supplier Quality Engineer, OEM Networking",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/73700386333958854-supplier-quality-engineer-oem-networking"
+  },
   "google:344531078bbd": {
    "company": "Google",
    "first_seen": "2026-09-14",
@@ -31610,6 +31675,18 @@
    "title": "Software Engineer 3- Ink",
    "url": "https://explore.jobs.netflix.net/careers/job/790317144081",
    "workplace": "On-site"
+  },
+  "netsmart:9ab6988696c4": {
+   "company": "Netsmart",
+   "first_seen": "2026-09-18",
+   "location": "Overland Park, KS",
+   "posted_at": "2026-08-19",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667"
   },
   "newrez:a5d81e8c5633": {
    "company": "Newrez",
@@ -44417,6 +44494,18 @@
    "title": "Software Engineer Intern - Summer 2027",
    "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136"
   },
+  "rtx:9a72462499c5": {
+   "company": "RTX",
+   "first_seen": "2026-09-18",
+   "location": "Colorado Springs, CO",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131"
+  },
   "rtx:9ad4d4d81e77": {
    "company": "RTX",
    "first_seen": "2026-08-20",
@@ -53285,6 +53374,18 @@
    "title": "Software Engineer Intern - Vehicle Software - Summer 2027",
    "url": "https://www.tesla.com/careers/search/job/281097"
   },
+  "tesla:ec686645728a": {
+   "company": "Tesla",
+   "first_seen": "2026-09-18",
+   "location": "Palo Alto, CA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Internship - Software Engineering - People Products - Summer 2027",
+   "url": "https://www.tesla.com/careers/search/job/284004"
+  },
   "texas-sports-academy:37488dff1e10": {
    "company": "Texas Sports Academy",
    "first_seen": "2026-08-22",
@@ -54268,6 +54369,18 @@
    "tier": "intern",
    "title": "Data Scientist Intern - VOD Data",
    "url": "https://lifeattiktok.com/search/7670287013157095733"
+  },
+  "tiktok:5a1b1ef17682": {
+   "company": "TikTok",
+   "first_seen": "2026-09-18",
+   "location": "San Jose, CA",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Mall 🎓",
+   "url": "https://lifeattiktok.com/search/7686283601340369205"
   },
   "tiktok:5b4968db9576": {
    "company": "TikTok",
@@ -58968,8 +59081,8 @@
    "last_ok": "2026-09-18"
   },
   "Anduril": {
-   "best": 2346,
-   "last": 2346,
+   "best": 2347,
+   "last": 2347,
    "last_ok": "2026-09-18"
   },
   "Anthropic": {
@@ -59005,12 +59118,12 @@
   },
   "Boeing": {
    "best": 195,
-   "last": 192,
+   "last": 190,
    "last_ok": "2026-09-18"
   },
   "Brex": {
    "best": 299,
-   "last": 251,
+   "last": 260,
    "last_ok": "2026-09-18"
   },
   "CVS Health": {
@@ -59020,7 +59133,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 165,
+   "last": 166,
    "last_ok": "2026-09-18"
   },
   "Carta": {
@@ -59046,7 +59159,7 @@
   },
   "Cloudflare": {
    "best": 373,
-   "last": 373,
+   "last": 370,
    "last_ok": "2026-09-18"
   },
   "Cognition": {
@@ -59096,12 +59209,12 @@
   },
   "Elastic": {
    "best": 368,
-   "last": 358,
+   "last": 356,
    "last_ok": "2026-09-18"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 238,
+   "last": 237,
    "last_ok": "2026-09-18"
   },
   "Faire": {
@@ -59115,13 +59228,13 @@
    "last_ok": "2026-09-18"
   },
   "Flexport": {
-   "best": 189,
-   "last": 189,
+   "best": 191,
+   "last": 191,
    "last_ok": "2026-09-18"
   },
   "GitLab": {
    "best": 234,
-   "last": 220,
+   "last": 218,
    "last_ok": "2026-09-18"
   },
   "Google": {
@@ -59131,7 +59244,7 @@
   },
   "Gusto": {
    "best": 99,
-   "last": 95,
+   "last": 96,
    "last_ok": "2026-09-18"
   },
   "Harvey": {
@@ -59182,7 +59295,7 @@
   },
   "MongoDB": {
    "best": 415,
-   "last": 412,
+   "last": 403,
    "last_ok": "2026-09-18"
   },
   "Netflix": {
@@ -59202,17 +59315,17 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 193,
+   "last": 194,
    "last_ok": "2026-09-18"
   },
   "Okta": {
    "best": 350,
-   "last": 325,
+   "last": 324,
    "last_ok": "2026-09-18"
   },
   "OpenAI": {
    "best": 819,
-   "last": 817,
+   "last": 816,
    "last_ok": "2026-09-18"
   },
   "OpenEvidence": {
@@ -59237,7 +59350,7 @@
   },
   "Perplexity": {
    "best": 117,
-   "last": 113,
+   "last": 114,
    "last_ok": "2026-09-18"
   },
   "Pinterest": {
@@ -59262,12 +59375,12 @@
   },
   "Replit": {
    "best": 79,
-   "last": 74,
+   "last": 76,
    "last_ok": "2026-09-18"
   },
   "Robinhood": {
    "best": 155,
-   "last": 152,
+   "last": 153,
    "last_ok": "2026-09-18"
   },
   "Roblox": {
@@ -59282,7 +59395,7 @@
   },
   "Samsara": {
    "best": 273,
-   "last": 271,
+   "last": 270,
    "last_ok": "2026-09-18"
   },
   "Scale AI": {
@@ -59291,8 +59404,8 @@
    "last_ok": "2026-09-18"
   },
   "Simplify Aggregator": {
-   "best": 2279,
-   "last": 2279,
+   "best": 2283,
+   "last": 2283,
    "last_ok": "2026-09-18"
   },
   "Snowflake": {
@@ -59306,8 +59419,8 @@
    "last_ok": "2026-09-18"
   },
   "SpaceX": {
-   "best": 2493,
-   "last": 2493,
+   "best": 2501,
+   "last": 2501,
    "last_ok": "2026-09-18"
   },
   "Spotify": {
@@ -59317,7 +59430,7 @@
   },
   "Stripe": {
    "best": 669,
-   "last": 669,
+   "last": 668,
    "last_ok": "2026-09-18"
   },
   "Suno": {
@@ -59327,7 +59440,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 194,
+   "last": 192,
    "last_ok": "2026-09-18"
   },
   "Tesla": {
@@ -59338,7 +59451,7 @@
   },
   "Twilio": {
    "best": 154,
-   "last": 147,
+   "last": 148,
    "last_ok": "2026-09-18"
   },
   "Two Sigma": {
@@ -59355,17 +59468,17 @@
   },
   "Upstart": {
    "best": 101,
-   "last": 89,
+   "last": 88,
    "last_ok": "2026-09-18"
   },
   "Vanta": {
    "best": 112,
-   "last": 93,
+   "last": 92,
    "last_ok": "2026-09-18"
   },
   "Verizon": {
    "best": 139,
-   "last": 137,
+   "last": 133,
    "last_ok": "2026-09-18"
   },
   "Verkada": {
@@ -59381,7 +59494,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 81,
+   "last": 78,
    "last_ok": "2026-09-18"
   },
   "Waymo": {
@@ -59395,6 +59508,6 @@
    "last_ok": "2026-09-18"
   }
  },
- "updated": "2026-09-18T06:24:15Z",
+ "updated": "2026-09-18T07:30:11Z",
  "version": 1
 }
