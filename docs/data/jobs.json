@@ -1462,6 +1462,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10535019/software-development-engineer-control-plane-aws-scalable-intent-driven-routing-sidr",
    "yoe": 1
   },
+  "amazon:074451802271": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Devices & Services Trust CX Innovations",
+   "url": "https://www.amazon.jobs/en/jobs/10553155/software-development-engineer-devices-services-trust-cx-innovations",
+   "yoe": 1
+  },
   "amazon:075f708d51cd": {
    "company": "Amazon",
    "department": "Software Development",
@@ -58939,7 +58954,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 166,
+   "last": 165,
    "last_ok": "2026-09-18"
   },
   "Airtable": {
@@ -58959,7 +58974,7 @@
   },
   "Anthropic": {
    "best": 609,
-   "last": 609,
+   "last": 608,
    "last_ok": "2026-09-18"
   },
   "Apple": {
@@ -59187,7 +59202,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 191,
+   "last": 193,
    "last_ok": "2026-09-18"
   },
   "Okta": {
@@ -59301,8 +59316,8 @@
    "last_ok": "2026-09-18"
   },
   "Stripe": {
-   "best": 667,
-   "last": 667,
+   "best": 669,
+   "last": 669,
    "last_ok": "2026-09-18"
   },
   "Suno": {
@@ -59380,6 +59395,6 @@
    "last_ok": "2026-09-18"
   }
  },
- "updated": "2026-09-18T01:24:07Z",
+ "updated": "2026-09-18T06:24:15Z",
  "version": 1
 }
