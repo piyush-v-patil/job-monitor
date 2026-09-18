@@ -4036,6 +4036,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10552156/embedded-software-engineer-amazon-leo",
    "yoe": 2
   },
+  "amazon:7a0169c42f91": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, S3 Storage Control Plane - Durability",
+   "url": "https://www.amazon.jobs/en/jobs/10553307/software-development-engineer-ii-s3-storage-control-plane-durability",
+   "yoe": 1
+  },
   "amazon:7b4292d15140": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4392,6 +4407,21 @@
    "title": "Software Engineer II - AI/ML, AWS Neuron ",
    "url": "https://www.amazon.jobs/en/jobs/10522799/software-engineer-ii-ai-ml-aws-neuron",
    "yoe": 3
+  },
+  "amazon:894d2429c36c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, SageMaker Unified Studio",
+   "url": "https://www.amazon.jobs/en/jobs/10553306/software-development-engineer-sagemaker-unified-studio",
+   "yoe": 2
   },
   "amazon:8a08836a9bd3": {
    "company": "Amazon",
@@ -25013,6 +25043,17 @@
    "title": "Supportability Technical Lead, AI/ML, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84482894214374086-supportability-technical-lead-aiml-google-cloud"
   },
+  "google:14dca3ac595a": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "Madison, WI, USA; Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Cloud NetInfra",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/79221717653693126-software-engineer-iii-infrastructure-google-cloud-netinfra"
+  },
   "google:154f85a66744": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -25177,6 +25218,17 @@
    "tier": "experienced",
    "title": "Forward Deployed Engineer, GenAI, Google Public Sector",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84255299602391750-forward-deployed-engineer-genai-google-public-sector"
+  },
+  "google:1fe805cd44ab": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "San Diego, CA, USA; Seattle, WA, USA; +5 more; +4 more",
+   "role": "solutions",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "GenAI Forward Deployed Engineer IV, GenMedia, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/119382345688982214-genai-forward-deployed-engineer-iv-genmedia-google-cloud"
   },
   "google:205aa22bc849": {
    "company": "Google",
@@ -25672,6 +25724,17 @@
    "tier": "experienced",
    "title": "Forward Deployed Engineer III, Generative AI, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127965694384841414-forward-deployed-engineer-iii-generative-ai-google-cloud"
+  },
+  "google:44cf385c3cb9": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "Pittsburgh, PA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Cloud Observability Analytics Integrations",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/112852895887434438-software-engineer-cloud-observability-analytics-integrations"
   },
   "google:44d6e692d747": {
    "company": "Google",
@@ -26700,6 +26763,17 @@
    "title": "AI/ML Accelerator Modeling Engineer, Silicon",
    "url": "https://www.google.com/about/careers/applications/jobs/results/123815554023596742-aiml-accelerator-modeling-engineer-silicon"
   },
+  "google:9c148e9d7389": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "Sunnyvale, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "GPU System Software Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/115384521410388678-gpu-system-software-engineer"
+  },
   "google:9c91dbc6f68f": {
    "company": "Google",
    "first_seen": "2026-09-01",
@@ -27183,6 +27257,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Mobile (Android), YouTube",
    "url": "https://www.google.com/about/careers/applications/jobs/results/83912025851208390-software-engineer-iii-mobile-android-youtube"
+  },
+  "google:c8bf8e63e33c": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "San Francisco, CA, USA; Sunnyvale, CA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Cloud Security, Identity and Access Management",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/88974939305976518-software-engineer-iii-cloud-security-identity-and-access-management"
   },
   "google:c8c4ccb1399d": {
    "company": "Google",
@@ -59087,7 +59172,7 @@
   },
   "Anthropic": {
    "best": 609,
-   "last": 608,
+   "last": 609,
    "last_ok": "2026-09-18"
   },
   "Apple": {
@@ -59325,7 +59410,7 @@
   },
   "OpenAI": {
    "best": 819,
-   "last": 816,
+   "last": 818,
    "last_ok": "2026-09-18"
   },
   "OpenEvidence": {
@@ -59430,7 +59515,7 @@
   },
   "Stripe": {
    "best": 669,
-   "last": 668,
+   "last": 666,
    "last_ok": "2026-09-18"
   },
   "Suno": {
@@ -59508,6 +59593,6 @@
    "last_ok": "2026-09-18"
   }
  },
- "updated": "2026-09-18T07:30:11Z",
+ "updated": "2026-09-18T12:19:26Z",
  "version": 1
 }
