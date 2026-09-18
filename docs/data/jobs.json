@@ -3388,6 +3388,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10534632/software-development-engineer-aws-cloudwatch-opentelemetry",
    "yoe": 2
   },
+  "amazon:56af631025ae": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Denver, Colorado, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Devices, DS2 (Device Software & Services)",
+   "url": "https://www.amazon.jobs/en/jobs/10553819/software-development-engineer-amazon-devices-ds2-device-software-services",
+   "yoe": 2
+  },
   "amazon:5736bd9e15d6": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5219,6 +5234,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10527581/software-dev-engineer-ii-aws-healthcare-ai",
    "yoe": 1
   },
+  "amazon:b13dc961db6d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Advengers - Amazon Ads Brand & Video",
+   "url": "https://www.amazon.jobs/en/jobs/10553871/software-development-engineer-advengers-amazon-ads-brand-video",
+   "yoe": 1
+  },
   "amazon:b207d9403a17": {
    "company": "Amazon",
    "department": "Software Development",
@@ -6047,6 +6077,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, Agentic WorkSpaces Client",
    "url": "https://www.amazon.jobs/en/jobs/10529792/software-development-engineer-ii-agentic-workspaces-client",
+   "yoe": 1
+  },
+  "amazon:d75bd069fbc0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Builder Foundations GRID, OrcaLabs",
+   "url": "https://www.amazon.jobs/en/jobs/10553852/software-development-engineer-ii-builder-foundations-grid-orcalabs",
    "yoe": 1
   },
   "amazon:d7a74bce9e78": {
@@ -59546,7 +59591,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 167,
+   "last": 168,
    "last_ok": "2026-09-18"
   },
   "Airtable": {
@@ -59566,7 +59611,7 @@
   },
   "Anthropic": {
    "best": 609,
-   "last": 609,
+   "last": 607,
    "last_ok": "2026-09-18"
   },
   "Apple": {
@@ -59794,7 +59839,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 196,
+   "last": 195,
    "last_ok": "2026-09-18"
   },
   "Okta": {
@@ -59804,7 +59849,7 @@
   },
   "OpenAI": {
    "best": 819,
-   "last": 816,
+   "last": 814,
    "last_ok": "2026-09-18"
   },
   "OpenEvidence": {
@@ -59909,7 +59954,7 @@
   },
   "Stripe": {
    "best": 669,
-   "last": 668,
+   "last": 665,
    "last_ok": "2026-09-18"
   },
   "Suno": {
@@ -59987,6 +60032,6 @@
    "last_ok": "2026-09-18"
   }
  },
- "updated": "2026-09-18T17:45:01Z",
+ "updated": "2026-09-18T19:52:47Z",
  "version": 1
 }
