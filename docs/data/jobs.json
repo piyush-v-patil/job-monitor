@@ -5160,6 +5160,20 @@
    "url": "https://www.amazon.jobs/en/jobs/10513110/software-development-engineer-amazon-leo-early-career-2026",
    "yoe": 18
   },
+  "amazon:ace9a091c498": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "San Francisco, California, USA",
+   "posted_at": "2026-09-18",
+   "role": "data",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Data Platform",
+   "url": "https://www.amazon.jobs/en/jobs/10553687/software-engineer-data-platform"
+  },
   "amazon:ad1c06e758ee": {
    "company": "Amazon",
    "department": "Software Development",
@@ -6034,6 +6048,21 @@
    "title": "Software Development Engineer III, Android",
    "url": "https://www.amazon.jobs/en/jobs/10523727/software-development-engineer-iii-android",
    "yoe": 5
+  },
+  "amazon:d7dad2a67b6a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "backend",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AWS WorkSpaces, AWS WorkSpaces Control Plane Backend",
+   "url": "https://www.amazon.jobs/en/jobs/10553627/software-development-engineer-ii-aws-workspaces-aws-workspaces-control-plane-backend",
+   "yoe": 2
   },
   "amazon:d9457c66a7c4": {
    "company": "Amazon",
@@ -25101,6 +25130,17 @@
    "title": "Software Engineer III, Access Transparency",
    "url": "https://www.google.com/about/careers/applications/jobs/results/90936073986679494-software-engineer-iii-access-transparency"
   },
+  "google:1579939f28eb": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "New York, NY, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Responsible Frontier AI Research, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/130253079713850054-research-engineer-responsible-frontier-ai-research-deepmind"
+  },
   "google:157ab89d8489": {
    "company": "Google",
    "first_seen": "2026-08-28",
@@ -25562,6 +25602,17 @@
    "tier": "experienced",
    "title": "Research Engineer, Cyber Gemini, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/117070313253937862-research-engineer-cyber-gemini-deepmind"
+  },
+  "google:35c0fa1803bc": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Search Data and ML Platform",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/116667514041049798-software-engineer-iii-search-data-and-ml-platform"
   },
   "google:3775bb627000": {
    "company": "Google",
@@ -26168,6 +26219,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Mobile (iOS), Google Maps Platform",
    "url": "https://www.google.com/about/careers/applications/jobs/results/124642289057178310-software-engineer-mobile-ios-google-maps-platform"
+  },
+  "google:60ecea967720": {
+   "company": "Google",
+   "first_seen": "2026-09-18",
+   "location": "Kirkland, WA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Core Runtime, BigQuery",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/86584875905098438-software-engineer-core-runtime-bigquery"
   },
   "google:612c6c8659ee": {
    "company": "Google",
@@ -36761,6 +36823,23 @@
    "tier": "experienced",
    "title": "Software Engineer, Localization",
    "url": "https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3"
+  },
+  "openai:a33884da804c": {
+   "comp": "$185K – $300K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Forward Deployed Engineering",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "New York City",
+   "posted_at": "2026-09-18",
+   "role": "solutions",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer (FDE), Financial Services- NYC ",
+   "url": "https://jobs.ashbyhq.com/openai/7f76be3a-38d0-4ff4-b997-9f1672e78bc0",
+   "workplace": "Hybrid",
+   "yoe": 5
   },
   "openai:a5e1bebc6517": {
    "comp": "$250K – $445K • Offers Equity",
@@ -59188,7 +59267,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 165,
+   "last": 166,
    "last_ok": "2026-09-18"
   },
   "Airtable": {
@@ -59436,7 +59515,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 194,
+   "last": 196,
    "last_ok": "2026-09-18"
   },
   "Okta": {
@@ -59446,7 +59525,7 @@
   },
   "OpenAI": {
    "best": 819,
-   "last": 818,
+   "last": 816,
    "last_ok": "2026-09-18"
   },
   "OpenEvidence": {
@@ -59551,7 +59630,7 @@
   },
   "Stripe": {
    "best": 669,
-   "last": 665,
+   "last": 667,
    "last_ok": "2026-09-18"
   },
   "Suno": {
@@ -59629,6 +59708,6 @@
    "last_ok": "2026-09-18"
   }
  },
- "updated": "2026-09-18T13:02:41Z",
+ "updated": "2026-09-18T17:11:16Z",
  "version": 1
 }
