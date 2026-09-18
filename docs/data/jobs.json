@@ -3075,6 +3075,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10538987/software-development-engineer-inventory-genealogy",
    "yoe": 2
   },
+  "amazon:483124e55031": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, PACMAN",
+   "url": "https://www.amazon.jobs/en/jobs/10554069/software-development-engineer-ii-pacman",
+   "yoe": 1
+  },
   "amazon:49582503b129": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3117,6 +3132,21 @@
    "tier": "experienced",
    "title": "SDE II, AWS Field Experience ",
    "url": "https://www.amazon.jobs/en/jobs/10503183/sde-ii-aws-field-experience"
+  },
+  "amazon:4b92d938aeba": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS OpenSearch Service",
+   "url": "https://www.amazon.jobs/en/jobs/10554084/software-development-engineer-aws-opensearch-service",
+   "yoe": 1
   },
   "amazon:4c707f8895d1": {
    "company": "Amazon",
@@ -3847,6 +3877,21 @@
    "title": "Software Development Engineer, DevX LIFT",
    "url": "https://www.amazon.jobs/en/jobs/10530565/software-development-engineer-devx-lift",
    "yoe": 2
+  },
+  "amazon:6d96c6db490f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "data",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Analytics Engineering",
+   "url": "https://www.amazon.jobs/en/jobs/10553986/software-development-engineer-aws-analytics-engineering",
+   "yoe": 1
   },
   "amazon:6ec4166fe989": {
    "company": "Amazon",
@@ -33947,6 +33992,18 @@
    "title": "Machine Learning Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer_JR2025036"
   },
+  "nvidia:7a738eb430be": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-18",
+   "location": "2 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Developer Advocate – Agentic AI",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Advocate---Agentic-AI_JR2017689"
+  },
   "nvidia:7b96492c4d99": {
    "company": "Nvidia",
    "first_seen": "2026-09-16",
@@ -59921,8 +59978,8 @@
    "last_ok": "2026-09-18"
   },
   "Anthropic": {
-   "best": 609,
-   "last": 609,
+   "best": 610,
+   "last": 610,
    "last_ok": "2026-09-18"
   },
   "Apple": {
@@ -60150,7 +60207,7 @@
   },
   "Nvidia": {
    "best": 196,
-   "last": 194,
+   "last": 195,
    "last_ok": "2026-09-18"
   },
   "Okta": {
@@ -60160,7 +60217,7 @@
   },
   "OpenAI": {
    "best": 819,
-   "last": 816,
+   "last": 817,
    "last_ok": "2026-09-18"
   },
   "OpenEvidence": {
@@ -60265,7 +60322,7 @@
   },
   "Stripe": {
    "best": 669,
-   "last": 668,
+   "last": 667,
    "last_ok": "2026-09-18"
   },
   "Suno": {
@@ -60343,6 +60400,6 @@
    "last_ok": "2026-09-18"
   }
  },
- "updated": "2026-09-18T21:03:19Z",
+ "updated": "2026-09-18T23:29:50Z",
  "version": 1
 }
