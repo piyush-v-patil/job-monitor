@@ -3078,6 +3078,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10528281/software-development-engineer-amazon-leo-for-government",
    "yoe": 1
   },
+  "amazon:4a2995601597": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Customer Service",
+   "url": "https://www.amazon.jobs/en/jobs/10553745/software-development-engineer-amazon-customer-service",
+   "yoe": 1
+  },
   "amazon:4b1041ce7b15": {
    "company": "Amazon",
    "department": "Software Development",
@@ -11753,6 +11768,18 @@
    "title": "Software Engineer (C#)",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5211022007?gh_jid=5211022007"
   },
+  "anduril:e77c4f0cd0d2": {
+   "company": "Anduril",
+   "first_seen": "2026-09-18",
+   "location": "Costa Mesa, California, United States; Washington, District of Columbia, United States",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Systems Engineer, Mission Autonomy, Active Clearance",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242181007?gh_jid=5242181007"
+  },
   "anduril:e918c220a004": {
    "company": "Anduril",
    "first_seen": "2026-08-20",
@@ -14273,6 +14300,18 @@
    "title": "Lead Software Engineer, Phantom Works",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Lead-Software-Engineer-Developer_JR2026506929-1"
   },
+  "boeing:18030394c253": {
+   "company": "Boeing",
+   "first_seen": "2026-09-18",
+   "location": "3 Locations",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Associate Software Development Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Associate-Software-Development-Engineer_JR2026515830-1"
+  },
   "boeing:1a8ec8a9196d": {
    "company": "Boeing",
    "first_seen": "2026-08-22",
@@ -15505,6 +15544,18 @@
    "title": "Software Engineer (Experienced or Lead)",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Software-Engineer--Experienced-or-Lead-_JR2026519492-1"
   },
+  "boeing:c1a001459a85": {
+   "company": "Boeing",
+   "first_seen": "2026-09-18",
+   "location": "3 Locations",
+   "posted_at": "2026-09-18",
+   "role": "embedded",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Associate Embedded Software Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Associate-Embedded-Software-Engineer_JR2026500069"
+  },
   "boeing:c595ac77d623": {
    "company": "Boeing",
    "first_seen": "2026-09-01",
@@ -15648,6 +15699,18 @@
    "tier": "experienced",
    "title": "Associate Space Communications Systems Engineer Analyst",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Associate-Space-Communications-Systems-Engineer-Analyst_JR2026506515-2"
+  },
+  "boeing:dd1f2a5e3b5a": {
+   "company": "Boeing",
+   "first_seen": "2026-09-18",
+   "location": "USA - North Charleston, SC",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Mid-Level Propulsion Fuels Systems Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---North-Charleston-SC/Mid-Level-Propulsion-Fuels-Systems-Engineer_JR2026504403-1"
   },
   "boeing:dd9e079cf830": {
    "company": "Boeing",
@@ -17964,6 +18027,18 @@
    "title": "Lead Software Engineer, DevOps",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Riverwoods-IL/Lead-Software-Engineer--DevOps_R999396-2"
   },
+  "capital-one:2f87dd7335b5": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 4 (Gen AI Platform Services: Agentic AI, Agent Guardrails, Agent Evaluation, Agent Memory)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Francisco--CA/AI-Engineer-4--Gen-AI-Platform-Services--Agentic-AI--Agent-Guardrails--Agent-Evaluation--Agent-Memory-_R1001053-1"
+  },
   "capital-one:2fe98d751748": {
    "company": "Capital One",
    "first_seen": "2026-09-03",
@@ -18023,6 +18098,18 @@
    "tier": "experienced",
    "title": "Lead Software Engineer, Full Stack (Enterprise Platforms Technology)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Full-Stack--Enterprise-Platforms-Technology-_R248630-1"
+  },
+  "capital-one:34b2428b9aac": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 4 (AI Foundations: LLM Customization, Finetuning, Reinforcement Learning)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/AI-Engineer-4--AI-Foundations--LLM-Customization--Finetuning--Reinforcement-Learning-_R1001036-1"
   },
   "capital-one:3973f827866f": {
    "company": "Capital One",
@@ -18383,6 +18470,18 @@
    "title": "Lead Machine Learning Engineer (Python, GoLang, AWS)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Machine-Learning-Engineer--Python--GoLang--AWS-_R999977-2"
   },
+  "capital-one:545e9c2645ca": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "4 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 4 (AI Foundations, LLM Core and Agentic AI)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Jose-CA/AI-Engineer-4--AI-Foundations--LLM-Core-and-Agentic-AI-_R1001070-1"
+  },
   "capital-one:5565086b441b": {
    "company": "Capital One",
    "first_seen": "2026-08-25",
@@ -18503,6 +18602,18 @@
    "title": "Lead Software Engineer",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer_R244834-1"
   },
+  "capital-one:6390edb0478e": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "4 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 5 (AI Foundations, LLM Core and Agentic AI)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Cambridge-MA/AI-Engineer-5--AI-Foundations--LLM-Core-and-Agentic-AI-_R1001071-1"
+  },
   "capital-one:672e7be27498": {
    "company": "Capital One",
    "first_seen": "2026-09-08",
@@ -18514,6 +18625,18 @@
    "tier": "intern",
    "title": "Current Master's, AI Engineering Internship Program - Summer 2027",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Current-Master-s--AI-Engineering-Internship-Program---Summer-2027_R249109-1"
+  },
+  "capital-one:69c5a97936b1": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Jose-CA/AI-Engineer-5--MLX--Agentic-AI--Gen-AI-platform-Services-_R1001088-1"
   },
   "capital-one:6b8cae6c7254": {
    "company": "Capital One",
@@ -18538,6 +18661,18 @@
    "tier": "experienced",
    "title": "Lead Software Engineer, Full Stack",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Chicago-IL/Lead-Software-Engineer--Full-Stack_R999194-1"
+  },
+  "capital-one:6d86680ab400": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 5 (SDK's: Gen AI Evaluation and MCP)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/AI-Engineer-5--SDK-s--Gen-AI-Evaluation-and-MCP-_R1001043-1"
   },
   "capital-one:6fe4b4134475": {
    "company": "Capital One",
@@ -18764,6 +18899,18 @@
    "title": "Lead Data Engineer",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Lead-Data-Engineer_R247610-1"
   },
+  "capital-one:8b8b942ba266": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "4 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 3 (AI Foundations)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/AI-Engineer-3--AI-Foundations-_R1001048-1"
+  },
   "capital-one:8c26bf97571c": {
    "company": "Capital One",
    "first_seen": "2026-08-20",
@@ -18907,6 +19054,18 @@
    "tier": "experienced",
    "title": "Lead Software Engineer, Front End",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Lead-Software-Engineer--Front-End_R245975-1"
+  },
+  "capital-one:9a37b10bb1fa": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "4 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 5",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Jose-CA/AI-Engineer-5_R1001051"
   },
   "capital-one:9ab6c4810437": {
    "company": "Capital One",
@@ -19205,6 +19364,18 @@
    "title": "Lead AI Engineer (Gen AI Platform Services: Agentic AI, Agent Guardrails, Agent Evaluation, Agent Memory)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Francisco--CA/Lead-AI-Engineer--Gen-AI-Platform-Services--Agentic-AI--Agent-Guardrails--Agent-Evaluation--Agent-Memory-_R999460-1"
   },
+  "capital-one:b0af91187b3f": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 5 (AI Foundations: LLM Customization, Finetuning, Reinforcement Learning)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/AI-Engineer-5--AI-Foundations--LLM-Customization--Finetuning--Reinforcement-Learning-_R1001032-1"
+  },
   "capital-one:b201228ebbd3": {
    "company": "Capital One",
    "first_seen": "2026-08-20",
@@ -19397,6 +19568,18 @@
    "title": "Lead Software Engineer, Full Stack (Python, Java, PySpark/Spark, AWS)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Plano-TX/Lead-Software-Engineer--Full-Stack--Python--Java--PySpark-Spark--AWS-_R248352-1"
   },
+  "capital-one:c2e9930615e4": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Jose-CA/AI-Engineer-5--MLX--Agentic-AI--Gen-AI-platform-Services-_R1001094-1"
+  },
   "capital-one:c35c50a2d083": {
    "company": "Capital One",
    "first_seen": "2026-08-21",
@@ -19444,6 +19627,18 @@
    "tier": "experienced",
    "title": "Lead Software Engineer",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer_R999077-1"
+  },
+  "capital-one:c6293d6a68ed": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer, Full Stack",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Full-Stack_R248978-1"
   },
   "capital-one:c732ddb7ddcb": {
    "company": "Capital One",
@@ -19553,6 +19748,18 @@
    "title": "Lead Software Engineer, Back End (Python, AWS)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Back-End--Python--AWS-_R249686"
   },
+  "capital-one:d01eaf80d193": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Jose-CA/AI-Engineer-5--MLX--Agentic-AI--Gen-AI-platform-Services-_R1001081-1"
+  },
   "capital-one:d31ab4dd6e3b": {
    "company": "Capital One",
    "first_seen": "2026-09-11",
@@ -19599,6 +19806,18 @@
    "tier": "experienced",
    "title": "Applied Researcher II (AI Foundations, LLM Core and Agentic AI)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Applied-Researcher-II--AI-Foundations--LLM-Core-and-Agentic-AI-_R249452-1"
+  },
+  "capital-one:d80f26a0b70a": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "5 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 5 (Gen AI Platform Services: Agentic AI, Guardrails, Evaluation)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/AI-Engineer-5--Gen-AI-Platform-Services--Agentic-AI--Guardrails--Evaluation-_R1001055-1"
   },
   "capital-one:db6394837679": {
    "company": "Capital One",
@@ -19671,6 +19890,18 @@
    "tier": "experienced",
    "title": "Lead AI Engineer (AI Foundations, VLM Customization)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Lead-AI-Engineer--AI-Foundations--VLM-Customization-_R999192-1"
+  },
+  "capital-one:e3ef4692b180": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "4 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied Researcher 4 (AI Foundations, LLM Core and Agentic AI)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Applied-Researcher-4--AI-Foundations--LLM-Core-and-Agentic-AI-_R1001063"
   },
   "capital-one:e5a1ee642b24": {
    "company": "Capital One",
@@ -19887,6 +20118,18 @@
    "tier": "experienced",
    "title": "Lead Front End Engineer",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Lead-Front-End-Engineer_R1000137-1"
+  },
+  "capital-one:f7bc57ff9a54": {
+   "company": "Capital One",
+   "first_seen": "2026-09-18",
+   "location": "4 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied Researcher 5 (AI Foundations, LLM Core and Agentic AI)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/New-York-NY/Applied-Researcher-5--AI-Foundations--LLM-Core-and-Agentic-AI-_R1001066-1"
   },
   "capital-one:f865c78456b9": {
    "company": "Capital One",
@@ -43678,6 +43921,18 @@
    "title": "Software Engineer, Discovery UX",
    "url": "https://careers.roblox.com/jobs/8168383?gh_jid=8168383"
   },
+  "roblox:f89ff508e92b": {
+   "company": "Roblox",
+   "first_seen": "2026-09-18",
+   "location": "Remote",
+   "posted_at": "2026-09-18",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Developer Engagement Team  (Contract)",
+   "url": "https://careers.roblox.com/jobs/8213384?gh_jid=8213384"
+  },
   "rocket-lab-usa:2b6439ee1b69": {
    "company": "Rocket Lab USA",
    "first_seen": "2026-09-14",
@@ -45948,6 +46203,18 @@
    "tier": "experienced",
    "title": "Software Engineering MTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Bellevue/Software-Engineering-MTS_JR357973"
+  },
+  "salesforce:ac5e4b8b0bcc": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-18",
+   "location": "2 Locations",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff — Machine Learning & Agent Security Engineering",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Bellevue/Member-of-Technical-Staff---Machine-Learning---Agent-Security-Engineering_JR358244"
   },
   "salesforce:b56b1f12612a": {
    "company": "Salesforce",
@@ -58228,6 +58495,18 @@
    "title": "2027 Summer Intern, MS, Software Engineering, Behavior Test ",
    "url": "https://careers.withwaymo.com/jobs?gh_jid=8174504"
   },
+  "waymo:332a6b0c6532": {
+   "company": "Waymo",
+   "first_seen": "2026-09-18",
+   "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Perception",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8212478"
+  },
   "waymo:3e7c23a04670": {
    "company": "Waymo",
    "first_seen": "2026-08-22",
@@ -59267,7 +59546,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 166,
+   "last": 167,
    "last_ok": "2026-09-18"
   },
   "Airtable": {
@@ -59281,8 +59560,8 @@
    "last_ok": "2026-09-18"
   },
   "Anduril": {
-   "best": 2347,
-   "last": 2345,
+   "best": 2351,
+   "last": 2351,
    "last_ok": "2026-09-18"
   },
   "Anthropic": {
@@ -59298,7 +59577,7 @@
   },
   "Asana": {
    "best": 126,
-   "last": 101,
+   "last": 106,
    "last_ok": "2026-09-18"
   },
   "Attentive": {
@@ -59318,27 +59597,27 @@
   },
   "Boeing": {
    "best": 195,
-   "last": 190,
+   "last": 189,
    "last_ok": "2026-09-18"
   },
   "Brex": {
    "best": 299,
-   "last": 260,
+   "last": 255,
    "last_ok": "2026-09-18"
   },
   "CVS Health": {
    "best": 200,
-   "last": 196,
+   "last": 198,
    "last_ok": "2026-09-18"
   },
   "Capital One": {
    "best": 171,
-   "last": 162,
+   "last": 158,
    "last_ok": "2026-09-18"
   },
   "Carta": {
-   "best": 68,
-   "last": 68,
+   "best": 69,
+   "last": 69,
    "last_ok": "2026-09-18"
   },
   "Checkr": {
@@ -59348,7 +59627,7 @@
   },
   "Chime": {
    "best": 72,
-   "last": 69,
+   "last": 66,
    "last_ok": "2026-09-18"
   },
   "Citadel": {
@@ -59358,8 +59637,8 @@
    "reported_dead": "2026-08-24"
   },
   "Cloudflare": {
-   "best": 377,
-   "last": 377,
+   "best": 380,
+   "last": 380,
    "last_ok": "2026-09-18"
   },
   "Cognition": {
@@ -59374,17 +59653,17 @@
   },
   "Databricks": {
    "best": 893,
-   "last": 878,
+   "last": 875,
    "last_ok": "2026-09-18"
   },
   "Datadog": {
    "best": 456,
-   "last": 449,
+   "last": 453,
    "last_ok": "2026-09-18"
   },
   "Decagon": {
-   "best": 144,
-   "last": 144,
+   "best": 145,
+   "last": 145,
    "last_ok": "2026-09-18"
   },
   "Discord": {
@@ -59394,12 +59673,12 @@
   },
   "DoorDash": {
    "best": 475,
-   "last": 467,
+   "last": 463,
    "last_ok": "2026-09-18"
   },
   "Dropbox": {
    "best": 45,
-   "last": 40,
+   "last": 42,
    "last_ok": "2026-09-18"
   },
   "Duolingo": {
@@ -59409,17 +59688,17 @@
   },
   "Elastic": {
    "best": 368,
-   "last": 360,
+   "last": 356,
    "last_ok": "2026-09-18"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 237,
+   "last": 236,
    "last_ok": "2026-09-18"
   },
   "Faire": {
-   "best": 69,
-   "last": 68,
+   "best": 72,
+   "last": 72,
    "last_ok": "2026-09-18"
   },
   "Figma": {
@@ -59428,13 +59707,13 @@
    "last_ok": "2026-09-18"
   },
   "Flexport": {
-   "best": 193,
-   "last": 193,
+   "best": 196,
+   "last": 196,
    "last_ok": "2026-09-18"
   },
   "GitLab": {
    "best": 234,
-   "last": 215,
+   "last": 216,
    "last_ok": "2026-09-18"
   },
   "Google": {
@@ -59444,7 +59723,7 @@
   },
   "Gusto": {
    "best": 99,
-   "last": 96,
+   "last": 99,
    "last_ok": "2026-09-18"
   },
   "Harvey": {
@@ -59454,12 +59733,12 @@
   },
   "Instacart": {
    "best": 125,
-   "last": 111,
+   "last": 109,
    "last_ok": "2026-09-18"
   },
   "Komodo Health": {
    "best": 37,
-   "last": 27,
+   "last": 28,
    "last_ok": "2026-09-18"
   },
   "Linear": {
@@ -59469,7 +59748,7 @@
   },
   "Lyft": {
    "best": 183,
-   "last": 179,
+   "last": 180,
    "last_ok": "2026-09-18"
   },
   "Marqeta": {
@@ -59479,12 +59758,12 @@
   },
   "Match Group": {
    "best": 81,
-   "last": 71,
+   "last": 72,
    "last_ok": "2026-09-18"
   },
   "Mercury": {
    "best": 65,
-   "last": 63,
+   "last": 64,
    "last_ok": "2026-09-18"
   },
   "Microsoft": {
@@ -59495,7 +59774,7 @@
   },
   "MongoDB": {
    "best": 415,
-   "last": 404,
+   "last": 402,
    "last_ok": "2026-09-18"
   },
   "Netflix": {
@@ -59520,7 +59799,7 @@
   },
   "Okta": {
    "best": 350,
-   "last": 321,
+   "last": 324,
    "last_ok": "2026-09-18"
   },
   "OpenAI": {
@@ -59555,7 +59834,7 @@
   },
   "Pinterest": {
    "best": 225,
-   "last": 164,
+   "last": 162,
    "last_ok": "2026-09-18"
   },
   "Plaid": {
@@ -59580,7 +59859,7 @@
   },
   "Robinhood": {
    "best": 155,
-   "last": 153,
+   "last": 154,
    "last_ok": "2026-09-18"
   },
   "Roblox": {
@@ -59590,17 +59869,17 @@
   },
   "Salesforce": {
    "best": 172,
-   "last": 164,
+   "last": 170,
    "last_ok": "2026-09-18"
   },
   "Samsara": {
    "best": 273,
-   "last": 270,
+   "last": 267,
    "last_ok": "2026-09-18"
   },
   "Scale AI": {
    "best": 228,
-   "last": 224,
+   "last": 223,
    "last_ok": "2026-09-18"
   },
   "Simplify Aggregator": {
@@ -59610,7 +59889,7 @@
   },
   "Snowflake": {
    "best": 393,
-   "last": 346,
+   "last": 343,
    "last_ok": "2026-09-18"
   },
   "SoFi": {
@@ -59620,17 +59899,17 @@
   },
   "SpaceX": {
    "best": 2501,
-   "last": 2501,
+   "last": 2498,
    "last_ok": "2026-09-18"
   },
   "Spotify": {
    "best": 95,
-   "last": 73,
+   "last": 71,
    "last_ok": "2026-09-18"
   },
   "Stripe": {
    "best": 669,
-   "last": 667,
+   "last": 668,
    "last_ok": "2026-09-18"
   },
   "Suno": {
@@ -59640,7 +59919,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 185,
+   "last": 193,
    "last_ok": "2026-09-18"
   },
   "Tesla": {
@@ -59651,7 +59930,7 @@
   },
   "Twilio": {
    "best": 154,
-   "last": 148,
+   "last": 145,
    "last_ok": "2026-09-18"
   },
   "Two Sigma": {
@@ -59673,7 +59952,7 @@
   },
   "Vanta": {
    "best": 112,
-   "last": 92,
+   "last": 95,
    "last_ok": "2026-09-18"
   },
   "Verizon": {
@@ -59682,8 +59961,8 @@
    "last_ok": "2026-09-18"
   },
   "Verkada": {
-   "best": 295,
-   "last": 295,
+   "best": 296,
+   "last": 296,
    "last_ok": "2026-09-18"
   },
   "Visa": {
@@ -59694,20 +59973,20 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 63,
+   "last": 64,
    "last_ok": "2026-09-18"
   },
   "Waymo": {
    "best": 367,
-   "last": 332,
+   "last": 333,
    "last_ok": "2026-09-18"
   },
   "Webflow": {
    "best": 31,
-   "last": 27,
+   "last": 28,
    "last_ok": "2026-09-18"
   }
  },
- "updated": "2026-09-18T17:11:16Z",
+ "updated": "2026-09-18T17:45:01Z",
  "version": 1
 }
