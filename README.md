@@ -171,7 +171,9 @@ job-monitor/
 │   │                                back through the GitHub API (your token
 │   │                                stays in your browser's localStorage
 │   │                                only). Reads window.TRACKER for
-│   │                                everything page-specific.
+│   │                                everything page-specific, and on a
+│   │                                narrow screen moves the filter bank
+│   │                                into a panel behind a Filters toggle.
 │   ├── index.html                 ← SOFTWARE DASHBOARD. Markup plus a
 │   │                                TRACKER object naming jobs.json, its
 │   │                                tiers and its role labels.
