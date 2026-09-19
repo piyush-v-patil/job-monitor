@@ -13757,6 +13757,18 @@
    "title": "Back-End Software Engineer Intern",
    "url": "https://award.co/position?gh_jid=4322220004"
   },
+  "axiom-space:d15d8463f24b": {
+   "company": "Axiom Space",
+   "first_seen": "2026-09-19",
+   "location": "Houston, TX",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Software-Engineering-Intern--Summer-2026-_JR100691"
+  },
   "axon:e7b60fbb5582": {
    "company": "Axon",
    "first_seen": "2026-08-22",
@@ -39202,6 +39214,21 @@
    "url": "https://jobs.ashbyhq.com/openevidence/4c577aae-1ad0-444b-9e15-2ad994333de4",
    "workplace": "On-site"
   },
+  "openevidence:ca9828e86b03": {
+   "company": "OpenEvidence",
+   "department": "Beneficial Deployments",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Miami",
+   "posted_at": "2026-09-19",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff, Beneficial Deployments",
+   "url": "https://jobs.ashbyhq.com/openevidence/ef077fba-d269-40e8-9610-35f8246262cc",
+   "workplace": "On-site"
+  },
   "openevidence:f3da51c50a34": {
    "company": "OpenEvidence",
    "department": "Engineering",
@@ -42145,6 +42172,18 @@
    "title": "Member of Technical Staff (AI Inference Engineer)",
    "url": "https://jobs.ashbyhq.com/perplexity/8a976851-9bef-4b07-8d36-567fa9540aef",
    "yoe": 3
+  },
+  "perseus-group:a5e30d8d68d3": {
+   "company": "Perseus Group",
+   "first_seen": "2026-09-19",
+   "location": "Sharon, PA; Jacksonville, FL",
+   "posted_at": "2026-09-19",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://talentmanagementsolution.wd3.myworkdayjobs.com/en-US/perseus-careers/job/Sharon-Pennsylvania---USA/Software-Engineer-I_R54341"
   },
   "persona-ai:270a6207e36b": {
    "company": "Persona AI",
@@ -60326,7 +60365,7 @@
   },
   "Anthropic": {
    "best": 610,
-   "last": 609,
+   "last": 610,
    "last_ok": "2026-09-19"
   },
   "Apple": {
@@ -60398,7 +60437,7 @@
   },
   "Cloudflare": {
    "best": 380,
-   "last": 380,
+   "last": 379,
    "last_ok": "2026-09-19"
   },
   "Cognition": {
@@ -60568,8 +60607,8 @@
    "last_ok": "2026-09-19"
   },
   "OpenEvidence": {
-   "best": 8,
-   "last": 8,
+   "best": 11,
+   "last": 11,
    "last_ok": "2026-09-19"
   },
   "PagerDuty": {
@@ -60634,7 +60673,7 @@
   },
   "Samsara": {
    "best": 273,
-   "last": 269,
+   "last": 271,
    "last_ok": "2026-09-19"
   },
   "Scale AI": {
@@ -60644,7 +60683,7 @@
   },
   "Simplify Aggregator": {
    "best": 2351,
-   "last": 2310,
+   "last": 2323,
    "last_ok": "2026-09-19"
   },
   "Snowflake": {
@@ -60669,7 +60708,7 @@
   },
   "Stripe": {
    "best": 669,
-   "last": 667,
+   "last": 666,
    "last_ok": "2026-09-19"
   },
   "Suno": {
@@ -60690,7 +60729,7 @@
   },
   "Twilio": {
    "best": 154,
-   "last": 144,
+   "last": 143,
    "last_ok": "2026-09-19"
   },
   "Two Sigma": {
@@ -60733,7 +60772,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 71,
+   "last": 91,
    "last_ok": "2026-09-19"
   },
   "Waymo": {
@@ -60747,6 +60786,6 @@
    "last_ok": "2026-09-19"
   }
  },
- "updated": "2026-09-19T13:18:28Z",
+ "updated": "2026-09-19T15:58:30Z",
  "version": 1
 }
