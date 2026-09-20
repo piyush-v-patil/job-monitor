@@ -58343,6 +58343,21 @@
    "url": "https://careers.walmart.com/us/en/job/R-2589738",
    "yoe": 2
   },
+  "walmart-global-tech:4240f6d132af": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Technology",
+   "employment_type": "Full time",
+   "first_seen": "2026-09-20",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-08-10",
+   "role": "software",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III",
+   "url": "https://careers.walmart.com/us/en/job/R-2560902"
+  },
   "walmart-global-tech:46af259cff37": {
    "comp": "$90,000 - $180,000 Annual",
    "company": "Walmart Global Tech",
@@ -60365,7 +60380,7 @@
   },
   "Anthropic": {
    "best": 612,
-   "last": 612,
+   "last": 611,
    "last_ok": "2026-09-20"
   },
   "Apple": {
@@ -60573,7 +60588,7 @@
   },
   "MongoDB": {
    "best": 415,
-   "last": 402,
+   "last": 401,
    "last_ok": "2026-09-20"
   },
   "Netflix": {
@@ -60657,8 +60672,8 @@
    "last_ok": "2026-09-20"
   },
   "Robinhood": {
-   "best": 156,
-   "last": 156,
+   "best": 157,
+   "last": 157,
    "last_ok": "2026-09-20"
   },
   "Roblox": {
@@ -60683,7 +60698,7 @@
   },
   "Simplify Aggregator": {
    "best": 2351,
-   "last": 2301,
+   "last": 2314,
    "last_ok": "2026-09-20"
   },
   "Snowflake": {
@@ -60756,7 +60771,7 @@
   },
   "Verizon": {
    "best": 139,
-   "last": 133,
+   "last": 131,
    "last_ok": "2026-09-20"
   },
   "Verkada": {
@@ -60772,7 +60787,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 64,
+   "last": 74,
    "last_ok": "2026-09-20"
   },
   "Waymo": {
@@ -60786,6 +60801,6 @@
    "last_ok": "2026-09-20"
   }
  },
- "updated": "2026-09-20T01:26:23Z",
+ "updated": "2026-09-20T05:05:29Z",
  "version": 1
 }
