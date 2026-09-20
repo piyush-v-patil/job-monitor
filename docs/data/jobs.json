@@ -60433,7 +60433,7 @@
   },
   "CVS Health": {
    "best": 200,
-   "last": 200,
+   "last": 199,
    "last_ok": "2026-09-20"
   },
   "Capital One": {
@@ -60479,12 +60479,12 @@
   },
   "Databricks": {
    "best": 893,
-   "last": 877,
+   "last": 875,
    "last_ok": "2026-09-20"
   },
   "Datadog": {
    "best": 456,
-   "last": 453,
+   "last": 454,
    "last_ok": "2026-09-20"
   },
   "Decagon": {
@@ -60574,7 +60574,7 @@
   },
   "Lyft": {
    "best": 183,
-   "last": 178,
+   "last": 176,
    "last_ok": "2026-09-20"
   },
   "Marqeta": {
@@ -60710,7 +60710,7 @@
   },
   "Simplify Aggregator": {
    "best": 2351,
-   "last": 2292,
+   "last": 2320,
    "last_ok": "2026-09-20"
   },
   "Snowflake": {
@@ -60756,7 +60756,7 @@
   },
   "Twilio": {
    "best": 154,
-   "last": 143,
+   "last": 142,
    "last_ok": "2026-09-20"
   },
   "Two Sigma": {
@@ -60799,7 +60799,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 76,
+   "last": 67,
    "last_ok": "2026-09-20"
   },
   "Waymo": {
@@ -60813,6 +60813,6 @@
    "last_ok": "2026-09-20"
   }
  },
- "updated": "2026-09-20T12:33:59Z",
+ "updated": "2026-09-20T16:19:49Z",
  "version": 1
 }
