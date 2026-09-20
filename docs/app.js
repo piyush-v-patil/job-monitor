@@ -121,6 +121,7 @@ function render() {
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
   renderActivity();
+  syncFilterCount();
   const rows = base
     .filter(([id, j]) => (!tier || j.tier === tier))
     .sort((a, b) => {
@@ -407,7 +408,8 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany","fSort","fRole","fYoe"].forEach(id => $(id).onchange = render);
+const FILTERS = ["fTier","fStatus","fRole","fYoe","fCompany","fSort"];
+FILTERS.forEach(id => $(id).onchange = render);
 $("tiles").addEventListener("click", e => {
   const t = e.target.closest(".tile");
   if (!t) return;
@@ -422,6 +424,48 @@ $("list").addEventListener("click", e => {
   const b = e.target.closest("button[data-act]");
   if (b) mark(b.dataset.id, b.dataset.act);
 });
+// ---- the filter bank on a phone -----------------------------------------
+// Six dropdowns wrapped one per row stood ~300px tall in a sticky header, so
+// nothing was left of a phone screen for the jobs. They move into a panel
+// that opens on demand; app.css decides when that panel is a panel and when
+// it is just the header row it has always been on a desktop. Built here, not
+// in the page markup, so both trackers pick it up from one place.
+function buildFilterPanel() {
+  const header = document.querySelector("header");
+  const panel = document.createElement("div");
+  panel.id = "filters";
+  const toggle = document.createElement("button");
+  toggle.id = "fToggle";
+  toggle.type = "button";
+  toggle.setAttribute("aria-controls", "filters");
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.innerHTML = '<span aria-hidden="true">\u2630</span><span id="fToggleTxt">Filters</span>';
+  // moving a select keeps the change listener already bound to it
+  header.insertBefore(toggle, $("fSearch"));
+  header.insertBefore(panel, $("fSearch"));
+  for (const id of FILTERS) panel.appendChild($(id));
+  toggle.onclick = () => {
+    const open = document.body.classList.toggle("filters-open");
+    toggle.setAttribute("aria-expanded", String(open));
+  };
+  // the gear's label is the widest thing in the header; on a phone the icon
+  // carries it alone, so the name has to be readable to a screen reader
+  const gear = $("settings");
+  gear.innerHTML = '<span aria-hidden="true">\u2699</span><span class="s-txt"> GitHub token</span>';
+  gear.setAttribute("aria-label", "GitHub token settings");
+  gear.title = "GitHub token";
+}
+
+// A closed panel must still say that it is filtering something out.
+function syncFilterCount() {
+  const txt = $("fToggleTxt");
+  if (!txt) return;
+  const dflt = { fStatus:"open", fSort:"posted" };
+  const n = FILTERS.filter(id => $(id).value !== (dflt[id] || "")).length;
+  txt.textContent = n ? `Filters \u00b7 ${n}` : "Filters";
+  $("fToggle").classList.toggle("on", n > 0);
+}
+
 // ---- page identity ------------------------------------------------------
 // Tier keys differ per tracker, so their hues are written onto :root here
 // rather than being hard-coded in app.css, and the tier filter is built from
@@ -436,6 +480,7 @@ function boot() {
   $("nav").innerHTML = (T.siblings || [])
     .map(s => `<a href="${esc(s.href)}">${esc(s.label)}</a>`).join("");
   $("ghRepo").placeholder = T.repo || "job-monitor";
+  buildFilterPanel();
 }
 
 boot();

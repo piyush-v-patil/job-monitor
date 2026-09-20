@@ -31,13 +31,21 @@ h1 { font-size:15px; font-weight:650; letter-spacing:-.01em; margin:0 4px 0 0; }
 border:1px solid var(--line); border-radius:999px; padding:5px 11px;
 transition:color .15s, border-color .15s; }
 #nav a:hover { color:var(--text); border-color:var(--line-2); }
-select,input[type=text] { background:var(--raised); color:var(--text); border:1px solid var(--line);
+/* every input, not just [type=text]: the settings dialog's fields name no
+   type and were falling through to the browser's white default */
+select,input { background:var(--raised); color:var(--text); border:1px solid var(--line);
          border-radius:9px; padding:7px 11px; font:inherit; font-size:12.5px;
-         transition:border-color .15s, box-shadow .15s; }
-select:hover,input[type=text]:hover { border-color:var(--line-2); }
-select:focus,input[type=text]:focus { outline:none; border-color:var(--accent);
+         transition:border-color .15s, box-shadow .15s;
+         /* a select is as wide as its longest option - 543 company names
+            would otherwise push the header past the viewport */
+         min-width:0; max-width:100%; }
+select:hover,input:hover { border-color:var(--line-2); }
+select:focus,input:focus { outline:none; border-color:var(--accent);
          box-shadow:0 0 0 3px rgba(91,140,255,.16); }
-input[type=text] { min-width:210px; }
+#fSearch { min-width:210px; }
+/* the filter bank is a plain part of the header until a phone collapses it */
+#filters { display:contents; }
+#fToggle { display:none; }
 main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
 
 /* ---- KPI band ---- */
@@ -143,6 +151,7 @@ button.active { background:var(--accent); border-color:transparent; color:#fff; 
 .newdot { width:6px; height:6px; border-radius:50%; background:var(--green); flex:none;
           box-shadow:0 0 0 3px rgba(46,204,113,.16); }
 #settings { margin-left:auto; }
+#fToggle.on { border-color:color-mix(in oklab,var(--accent) 60%,transparent); color:var(--text); }
 
 dialog { background:var(--surface); color:var(--text); border:1px solid var(--line);
          border-radius:16px; max-width:420px; box-shadow:0 24px 64px -20px rgba(0,0,0,.8); }
@@ -153,7 +162,50 @@ dialog input { width:100%; margin:4px 0 10px; }
          font-size:12.5px; box-shadow:0 16px 40px -14px rgba(0,0,0,.8); }
 @media (max-width:1040px){ #kpi { grid-template-columns:minmax(148px,172px) 1fr; }
   .actile { grid-column:1 / -1; } }
+
+/* ---- the filter bank, once the header can no longer hold it in a row -----
+   Six dropdowns wrapped one per row stood ~300px tall on a phone, and the
+   header is sticky, so they held a third of every screen and pushed the
+   first posting below the fold. They move into a panel opened by a toggle;
+   the panel scrolls itself rather than growing the header without limit. */
+@media (max-width:900px){
+  header { gap:8px; }
+  #fSearch { order:2; flex:1 1 auto; min-width:0; }
+  #fToggle { order:3; display:inline-flex; align-items:center; gap:6px; flex:none; }
+  #filters { display:none; }
+  body.filters-open #filters { display:grid; order:4; flex:1 0 100%;
+        grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:8px;
+        max-height:min(44vh,340px); overflow-y:auto; }
+  #filters select { width:100%; }
+  /* an open panel is a surface, not a pane over scrolling job titles */
+  body.filters-open header { background:rgba(10,12,17,.96); }
+}
+
+/* ---- phones -------------------------------------------------------------
+   · a job row stacks: its buttons were a fixed 244px beside the posting,
+     leaving the title ~100px to wrap one word per line (500px-tall rows).
+   · controls go to 16px, below which iOS Safari zooms the page on focus. */
 @media (max-width:720px){
+  main { padding:14px 16px 32px; }
+  header { padding:10px 16px; }
+  h1 { font-size:14px; margin-right:0; }
+  #nav { margin-right:0; }
+  #nav a { padding:5px 10px; }
+  .s-txt { display:none; }            /* the gear alone; label lives on aria-label */
+  select,input { font-size:16px; padding:9px 11px; }
+
   #kpi { grid-template-columns:1fr; } .hero-val { font-size:34px; }
-  main { padding:14px 16px 32px; } header { padding:11px 16px; }
+  /* an odd number of tiers left a hole where the last tile's pair would be */
+  .tiles > .tile:last-child:nth-child(odd) { grid-column:1 / -1; }
+
+  .job { padding:12px 14px; gap:10px; flex-wrap:wrap; }
+  .job .info { flex:1 1 60%; }
+  .btns { flex:1 0 100%; }
+  /* one line each, and tall enough to hit with a thumb */
+  .btns button { flex:1; min-height:40px; padding:7px 4px; white-space:nowrap; }
+
+  /* a phone in landscape is shorter than the settings form is tall */
+  dialog { width:calc(100% - 32px); max-height:calc(100dvh - 32px); overflow-y:auto; }
+  dialog button { min-height:40px; padding:9px 14px; }
+  #toast { left:16px; right:16px; bottom:16px; text-align:center; }
 }
