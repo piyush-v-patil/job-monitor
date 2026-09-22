@@ -2041,6 +2041,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10505873/software-development-engineer-aws-central-sde-team",
    "yoe": 2
   },
+  "amazon:1842cfa2d2f9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-22",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Managed AWS Global Expansion",
+   "url": "https://www.amazon.jobs/en/jobs/10557064/software-dev-engineer-ii-managed-aws-global-expansion",
+   "yoe": 1
+  },
   "amazon:189c077ccbc5": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3494,6 +3509,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Amazon Customer Service",
    "url": "https://www.amazon.jobs/en/jobs/10505495/software-development-engineer-amazon-customer-service",
+   "yoe": 2
+  },
+  "amazon:529a4cdace33": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-22",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10557066/software-development-engineer",
    "yoe": 2
   },
   "amazon:530fc4b0a88d": {
@@ -37689,6 +37719,18 @@
    "title": "System Software Engineer, NPI Data Center Diagnostics",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--NPI-Data-Center-Diagnostics_JR2025370"
   },
+  "nvidia:f3a04a11d595": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-22",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-22",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied Machine Learning Engineer - AI for VLSI Design",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Machine-Learning-Engineer---AI-for-VLSI-Design_JR2025689"
+  },
   "nvidia:f3f88ba6c4a4": {
    "company": "NVIDIA",
    "first_seen": "2026-09-03",
@@ -64241,7 +64283,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 158,
+   "last": 157,
    "last_ok": "2026-09-22"
   },
   "Airtable": {
@@ -64499,7 +64541,7 @@
   },
   "OpenAI": {
    "best": 820,
-   "last": 814,
+   "last": 817,
    "last_ok": "2026-09-22"
   },
   "OpenEvidence": {
@@ -64682,6 +64724,6 @@
    "last_ok": "2026-09-22"
   }
  },
- "updated": "2026-09-22T21:31:34Z",
+ "updated": "2026-09-22T22:22:18Z",
  "version": 1
 }
