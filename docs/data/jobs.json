@@ -1552,6 +1552,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10535019/software-development-engineer-control-plane-aws-scalable-intent-driven-routing-sidr",
    "yoe": 1
   },
+  "amazon:073ff4e27e9e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Cupertino, California, USA",
+   "posted_at": "2026-09-22",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer- AI/ML, Amazon Neuron Training",
+   "url": "https://www.amazon.jobs/en/jobs/10555767/software-engineer-ai-ml-amazon-neuron-training",
+   "yoe": 2
+  },
   "amazon:074451802271": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3333,6 +3348,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer , Leo Customer Terminals Applications & Networking Team",
    "url": "https://www.amazon.jobs/en/jobs/10507324/software-development-engineer-leo-customer-terminals-applications-networking-team"
+  },
+  "amazon:4f383e06e4f8": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-22",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Measurement, Ad Tech, and Data Science (MADS) - Tax & Promotions",
+   "url": "https://www.amazon.jobs/en/jobs/10555776/software-development-engineer-measurement-ad-tech-and-data-science-mads-tax-promotions",
+   "yoe": 1
   },
   "amazon:4fe4eeba1f5b": {
    "company": "Amazon",
@@ -62678,7 +62708,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 158,
+   "last": 157,
    "last_ok": "2026-09-22"
   },
   "Airtable": {
@@ -62698,7 +62728,7 @@
   },
   "Anthropic": {
    "best": 620,
-   "last": 620,
+   "last": 618,
    "last_ok": "2026-09-22"
   },
   "Apple": {
@@ -63119,6 +63149,6 @@
    "last_ok": "2026-09-22"
   }
  },
- "updated": "2026-09-22T05:11:45Z",
+ "updated": "2026-09-22T06:38:06Z",
  "version": 1
 }
