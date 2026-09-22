@@ -168,7 +168,9 @@ job-monitor/
 │   │                                trackers name different tiers.
 │   ├── app.js                     ← all dashboard behaviour, shared by both
 │   │                                pages: filtering, the KPI band, the
-│   │                                activity heatmap, and your Applied/Skip
+│   │                                activity heatmap, the folding of
+│   │                                duplicate requisitions into one row,
+│   │                                and your Applied/Skip
 │   │                                marks — written to this browser's
 │   │                                localStorage the moment you click, then
 │   │                                synced back through the GitHub API (your
@@ -359,6 +361,20 @@ committed or sent anywhere except api.github.com.
 - Open the dashboard (default filter shows **Open (new)**), apply on the
   company site, click **✓ Applied**. Clicking the same button again undoes it.
 - **✗ Skip** hides roles you don't want; **★ Interview** tracks progress.
+- **Duplicate requisitions fold into one row.** Big employers post the same
+  role many times over — 22 separate "Software Engineer III" reqs in
+  Bentonville, 16 "Lead Software Engineer" in McLean — and shown in full they
+  bury everything else. Postings that match on company, title *and* location
+  collapse into a single row carrying a **`N openings`** badge; click it to
+  open the full list, each req with its own apply link and buttons. The row
+  shows the freshest of them. Nothing is dropped and nothing about the stored
+  data changes — these are genuinely distinct reqs, and the scanner still
+  tracks each one separately. Switch the header's **Group duplicate reqs** to
+  **Show every posting** to see them all inline; the choice is remembered.
+- **On a folded row, ✓ Applied marks one req and ✗ Skip clears them all.**
+  You apply to a single requisition — marking 22 would log 22 applications on
+  the activity heatmap — but dismissing the cluster is the whole point of
+  folding it. Expand the row to act on one req at a time.
 - Applied/skipped roles never re-alert. The scanner only ever *adds* new job
   IDs — it cannot overwrite your statuses.
 - **The page keeps itself current.** An open tab checks for a new scan every
@@ -383,6 +399,7 @@ committed or sent anywhere except api.github.com.
 | Narrow the supply-chain feed | procurement and logistics are the highest-volume families in it. Drop those alternatives from `ROLE_INCLUDE` in `filters_scm.py`, or just filter to *Demand planning & forecasting* on the dashboard |
 | Add a third tracker | a `Profile` entry in `monitor/profiles.py`, a `companies-*.yaml`, a dashboard page (copy `docs/supplychain.html` and edit its `TRACKER`), and a workflow. The engine needs no changes |
 | Wider/narrower aggregator window | `max_age_days` under `aggregators:` in the config |
+| Change what counts as a duplicate req | `groupKey` in `docs/app.js` — postings are folded when company, title and location all match once whitespace and case are normalized. Folding is a view-only concern; nothing in `monitor/` or the JSON is involved |
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run`, or `python -m monitor.main --profile supplychain --tier all --dry-run` |
 | Run the unit tests | `pip install -r requirements-dev.txt` then `python -m pytest tests -q`. Covers the filter/tier rules, the id scheme, jobs.json reconciliation, and Discord delivery. CI runs them on every push to `monitor/`. |
 | Drop tracked postings that are not US | `python -m monitor.prune --dry-run` to review, then without the flag to save. Add `--profile supplychain` for the other tracker. Re-applies the current location rules to that tracker's database; anything you have already marked (status past `new`) is reported and kept. |

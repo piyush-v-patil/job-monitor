@@ -173,6 +173,71 @@ function startAutoRefresh() {
 const TIERS = T.tiers.map(t => [t[0], t[1]]);
 const STATUS_WORD = { open:"open", applied:"applied", skip:"skipped", interview:"in interview", "":"tracked" };
 
+// ---- duplicate requisitions ---------------------------------------------
+// Big employers post one role as many separate reqs: 22 "Software Engineer III"
+// in Bentonville, 16 "Lead Software Engineer, Full Stack" in McLean. Each is a
+// real requisition with its own id and its own apply link, so the scanner is
+// right to keep them apart - it is the *view* that drowns, one company's hiring
+// push crowding everything else off the screen. They fold into a single row
+// here, and the "N openings" badge opens the full list: nothing is hidden, and
+// nothing about the stored data changes.
+const groupKey = j => [j.company, j.title, j.location]
+  .map(s => (s || "").replace(/\s+/g, " ").trim().toLowerCase()).join("\u0000");
+
+// Short printable token, so a group can be named in a data attribute without
+// carrying a company name's punctuation into the markup. Groups are keyed by
+// the full string and never by the token, so a collision could only ever open
+// two rows at once - it can never fold two different roles together.
+function keyToken(s) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193); }
+  return (h >>> 0).toString(36);
+}
+
+const grouping = () => !$("fGroup") || $("fGroup").value === "1";
+const expanded = new Set();   // group tokens the reader has opened
+
+function groupRows(rows, cmp) {
+  const on = grouping();
+  const by = new Map();
+  for (const row of rows) {
+    // with grouping off every posting is its own group of one, so a single
+    // code path renders both modes
+    const k = on ? groupKey(row[1]) : row[0];
+    const g = by.get(k);
+    if (g) g.members.push(row);
+    else by.set(k, { token: keyToken(k), members: [row] });
+  }
+  const out = [];
+  for (const g of by.values()) {
+    // the representative is whichever member the active sort puts first, so a
+    // folded row answers "newest posted" - or any other sort - honestly, and
+    // the date on its face is the freshest of the reqs it stands for
+    if (g.members.length > 1) g.members.sort(cmp);
+    g.rep = g.members[0];
+    out.push(g);
+  }
+  return out;
+}
+
+function comparator(mode) {
+  return (a, b) => {
+    if (mode === "comp" && (!!a[1].comp !== !!b[1].comp)) return a[1].comp ? -1 : 1;
+    if (mode === "yoe") {
+      // postings that state no bar sort last rather than pretending to be 0
+      const ya = a[1].yoe == null ? 99 : a[1].yoe, yb = b[1].yoe == null ? 99 : b[1].yoe;
+      if (ya !== yb) return ya - yb;
+    }
+    if (mode === "posted") {
+      // fall back to first_seen so entries with no posted_at still order sanely
+      const pa = a[1].posted_at || a[1].first_seen || "";
+      const pb = b[1].posted_at || b[1].first_seen || "";
+      if (pa !== pb) return pb.localeCompare(pa);
+    }
+    return (b[1].first_seen || "").localeCompare(a[1].first_seen || "");
+  };
+}
+
 function render() {
   const tier = $("fTier").value, status = $("fStatus").value,
         comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
@@ -187,54 +252,82 @@ function render() {
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
   renderActivity();
-  const rows = base
-    .filter(([id, j]) => (!tier || j.tier === tier))
-    .sort((a, b) => {
-      const mode = $("fSort") ? $("fSort").value : "posted";
-      if (mode === "comp" && (!!a[1].comp !== !!b[1].comp)) return a[1].comp ? -1 : 1;
-      if (mode === "yoe") {
-        // postings that state no bar sort last rather than pretending to be 0
-        const ya = a[1].yoe == null ? 99 : a[1].yoe, yb = b[1].yoe == null ? 99 : b[1].yoe;
-        if (ya !== yb) return ya - yb;
-      }
-      if (mode === "posted") {
-        // fall back to first_seen so entries with no posted_at still order sanely
-        const pa = a[1].posted_at || a[1].first_seen || "";
-        const pb = b[1].posted_at || b[1].first_seen || "";
-        if (pa !== pb) return pb.localeCompare(pa);
-      }
-      return (b[1].first_seen || "").localeCompare(a[1].first_seen || "");
-    });
+  // grouped AFTER filtering, so a row only ever stands for postings you can
+  // currently see: skip half a cluster and the badge drops to what is left
+  const rows = base.filter(([id, j]) => (!tier || j.tier === tier));
+  const cmp = comparator($("fSort") ? $("fSort").value : "posted");
+  const groups = groupRows(rows, cmp);
+  groups.sort((a, b) => cmp(a.rep, b.rep));
 
-  $("stats").textContent = `${rows.length} shown`
+  const folded = rows.length - groups.length;
+  $("stats").textContent = `${groups.length.toLocaleString()} shown`
+    + (folded ? ` · ${rows.length.toLocaleString()} postings` : "")
     + (tier ? ` · filtered to ${TIERS.find(t=>t[0]===tier)[1]}` : "");
 
-  $("list").innerHTML = rows.map(([id, j]) => {
-    const href = safeUrl(j.url);
+  $("list").innerHTML = groups.map(jobRow).join("")
+    || "<p style='color:var(--muted)'>Nothing matches.</p>";
+}
+
+function jobRow(g) {
+  const [id, j] = g.rep;
+  const n = g.members.length;
+  const open = n > 1 && expanded.has(g.token);
+  const ids = g.members.map(m => m[0]);
+  // A cluster is one role to apply to and many reqs to dismiss, so the two
+  // buttons cover different ground. Applied/Interview mark the one req this
+  // row links to - you applied once, and marking all 22 would log 22
+  // applications on the activity heatmap. Skip clears the whole cluster,
+  // which is the reason for folding it in the first place.
+  const btn = (act, label) =>
+    `<button class="${j.status === act ? "active" : ""}" data-act="${act}"
+             data-ids="${esc((act === "skip" ? ids : [id]).join(" "))}"${
+      n > 1 ? ` title="${act === "skip" ? `Skip all ${n} openings` : `Mark the posting this row links to (1 of ${n})`}"` : ""
+    }>${label}</button>`;
+  const dupes = n > 1
+    ? `<button class="badge dupes${open ? " open" : ""}" data-group="${esc(g.token)}"
+               aria-expanded="${open}" title="${esc(
+        `${n} separate requisitions for this role at the same location. ` +
+        (open ? "Hide them." : "Show them all."))}">${
+        open ? "\u25be" : "\u25b8"} ${n} openings</button>`
+    : "";
+  return `<div class="grp${open ? " open" : ""}">${row(id, j, dupes)}${
+    open ? `<div class="members">${g.members.map(m => row(m[0], m[1], "", true)).join("")}</div>` : ""
+  }</div>`;
+
+  function row(rid, rj, lead, member = false) {
+    const href = safeUrl(rj.url);
     // a posting whose url will not pass as http(s) still shows, just not as a link
     const title = href
-      ? `<a class="title" href="${href}" target="_blank" rel="noopener">${esc(j.title)}</a>`
-      : `<span class="title">${esc(j.title)}</span>`;
-    // the id rides in a data attribute and is read back by one delegated
-    // listener, so it never has to survive being parsed as JavaScript
-    const btn = (act, label) =>
-      `<button class="${j.status === act ? "active" : ""}" data-act="${act}"
-               data-id="${esc(id)}">${label}</button>`;
+      ? `<a class="title" href="${href}" target="_blank" rel="noopener">${esc(rj.title)}</a>`
+      : `<span class="title">${esc(rj.title)}</span>`;
+    // the ids ride in a data attribute and are read back by one delegated
+    // listener, so they never have to survive being parsed as JavaScript
+    const mbtn = (act, label) =>
+      `<button class="${rj.status === act ? "active" : ""}" data-act="${act}"
+               data-ids="${esc(rid)}">${label}</button>`;
+    const mk = member ? mbtn : btn;
+    // an expanded member repeats none of company, title or location - those are
+    // what it was grouped ON, and are already on the row above it - so its meta
+    // line carries only what actually tells one req from another
+    const meta = member
+      ? [rj.posted_at ? "posted " + esc(rj.posted_at) : "first seen " + esc(rj.first_seen),
+         esc(rj.source || "")].filter(Boolean).join(" \u00b7 ")
+      : `${esc(rj.company)} \u00b7 ${esc(rj.location)} \u00b7 ${
+          rj.posted_at ? "posted " + esc(rj.posted_at) : "first seen " + esc(rj.first_seen)}`;
     return `
-    <div class="job ${j.status === "applied" ? "applied" : j.status === "skip" ? "skip" : ""}">
-      ${j.status === "new" ? '<span class="newdot"></span>' : ""}
+    <div class="job${member ? " member" : ""} ${rj.status === "applied" ? "applied" : rj.status === "skip" ? "skip" : ""}">
+      ${rj.status === "new" ? '<span class="newdot"></span>' : ""}
       <div class="info">
         ${title}
-        <span class="pill" style="--tint:var(--t-${esc(j.tier)})">${esc(j.tier)}</span>
-        <div class="meta">${esc(j.company)} · ${esc(j.location)} · ${
-          j.posted_at ? "posted " + esc(j.posted_at) : "first seen " + esc(j.first_seen)}</div>
-        ${badges(j)}
+        ${member ? "" : `<span class="pill" style="--tint:var(--t-${esc(rj.tier)})">${esc(rj.tier)}</span>`}
+        <div class="meta">${meta}</div>
+        ${badges(rj, lead)}
       </div>
       <div class="btns">
-        ${btn("applied", "✓ Applied")}${btn("skip", "✗ Skip")}${btn("interview", "★ Interview")}
+        ${mk("applied", "\u2713 Applied")}${mk("skip", "\u2717 Skip")}${mk("interview", "\u2605 Interview")}
       </div>
     </div>`;
-  }).join("") || "<p style='color:var(--muted)'>Nothing matches.</p>";
+  }
 }
 
 function ago(iso){
@@ -363,8 +456,8 @@ function daysOld(d){
   return isNaN(ms) ? null : Math.floor(ms / 86400000);
 }
 
-function badges(j){
-  const b = [];
+function badges(j, lead = ""){
+  const b = lead ? [lead] : [];
   if (j.comp) b.push(`<span class="badge comp">💰 ${esc(j.comp)}</span>`);
   const age = daysOld(j.posted_at);
   if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);
@@ -406,18 +499,27 @@ function isoDay(d){  // local calendar day, not UTC - streaks follow your clock
   return `${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,"0")}-${String(x.getDate()).padStart(2,"0")}`;
 }
 
-function mark(id, status) {
-  const j = data.jobs[id];
-  j.status = j.status === status ? "new" : status;
-  // record WHEN, so the activity heatmap and streak have a date to plot.
-  // interview implies you applied earlier, so it keeps an existing stamp.
-  if (j.status === "applied" || j.status === "interview") {
-    if (!j.applied_on) j.applied_on = isoDay(new Date());
-  } else {
-    delete j.applied_on;
+function mark(ids, status) {
+  const list = (Array.isArray(ids) ? ids : [ids]).filter(id => data.jobs[id]);
+  if (!list.length) return;
+  // The toggle is decided ONCE, from the row you clicked, and then applied to
+  // every id it covers. Toggling each member on its own would leave a cluster
+  // half skipped whenever its members did not already agree.
+  const target = data.jobs[list[0]].status === status ? "new" : status;
+  const today = isoDay(new Date());
+  for (const id of list) {
+    const j = data.jobs[id];
+    j.status = target;
+    // record WHEN, so the activity heatmap and streak have a date to plot.
+    // interview implies you applied earlier, so it keeps an existing stamp.
+    if (target === "applied" || target === "interview") {
+      if (!j.applied_on) j.applied_on = today;
+    } else {
+      delete j.applied_on;
+    }
+    marks[id] = { status: j.status, applied_on: j.applied_on || null,
+                  ts: Date.now(), synced: 0 };
   }
-  marks[id] = { status: j.status, applied_on: j.applied_on || null,
-                ts: Date.now(), synced: 0 };
   writeMarks();          // before the render, so a crash mid-paint costs nothing
   render();
   scheduleSave();
@@ -507,9 +609,26 @@ $("fSearch").oninput = render;
 // #list is replaced wholesale on every render, so the handler lives on the
 // container instead of on each button
 $("list").addEventListener("click", e => {
+  // checked first: the "N openings" control is a button inside the same row
+  const g = e.target.closest("button[data-group]");
+  if (g) {
+    const token = g.dataset.group;
+    if (expanded.has(token)) expanded.delete(token); else expanded.add(token);
+    render();
+    return;
+  }
   const b = e.target.closest("button[data-act]");
-  if (b) mark(b.dataset.id, b.dataset.act);
+  if (b) mark(b.dataset.ids.split(" "), b.dataset.act);
 });
+// Folding is a reading preference, so it outlives the tab. Guarded like the
+// fSort read above, because adding a tracker is documented as copying a
+// dashboard page - one copied before this control existed should lose the
+// fold, not the whole page to a throw at load.
+if ($("fGroup")) $("fGroup").onchange = () => {
+  try { localStorage.group_dupes = $("fGroup").value; } catch (e) { /* private mode */ }
+  expanded.clear();
+  render();
+};
 // ---- page identity ------------------------------------------------------
 // Tier keys differ per tracker, so their hues are written onto :root here
 // rather than being hard-coded in app.css, and the tier filter is built from
@@ -524,6 +643,9 @@ function boot() {
   $("nav").innerHTML = (T.siblings || [])
     .map(s => `<a href="${esc(s.href)}">${esc(s.label)}</a>`).join("");
   $("ghRepo").placeholder = T.repo || "job-monitor";
+  try {
+    if ($("fGroup") && localStorage.group_dupes === "0") $("fGroup").value = "0";
+  } catch (e) { /* private mode: fall back to the default */ }
 }
 
 boot();

@@ -138,6 +138,26 @@ main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
 .badge.yoe { color:#c3b6ff; border-color:rgba(195,182,255,.22); background:rgba(195,182,255,.06); }
 .badge.urgent { color:#ff9b8a; border-color:rgba(255,155,138,.3); background:rgba(255,155,138,.08); }
 .snip { color:var(--dim); font-size:11.5px; margin-top:6px; line-height:1.45; }
+
+/* ---- folded duplicate requisitions ---- */
+/* The badge is the only control in a row that changes what you SEE rather than
+   what you have done, so it is tinted like the accent instead of sitting in the
+   neutral badge palette with compensation and workplace. */
+.badge.dupes { cursor:pointer; font-weight:550; color:#a9c2ff; font-size:10.5px;
+               padding:2px 9px; border-color:rgba(138,180,255,.26);
+               background:rgba(138,180,255,.08); }
+.badge.dupes:hover { color:#cfdcff; border-color:rgba(138,180,255,.45);
+                     background:rgba(138,180,255,.13); }
+.badge.dupes.open { color:var(--text); }
+/* an open cluster reads as one object: the header loses its bottom corners and
+   the members sit in an attached well under it */
+.grp.open > .job { margin-bottom:0; border-bottom-left-radius:0; border-bottom-right-radius:0; }
+.members { margin:0 0 7px; padding:7px 9px 2px; border:1px solid var(--line);
+           border-top:0; border-radius:0 0 13px 13px; background:rgba(255,255,255,.014); }
+.job.member { background:var(--surface); border-radius:10px; padding:9px 12px;
+              margin-bottom:6px; box-shadow:none; }
+.job.member .title { font-weight:550; font-size:13px; }
+.job.member .meta { font-size:11px; }
 .btns { display:flex; gap:5px; }
 button { background:var(--raised); color:var(--muted); border:1px solid var(--line);
          border-radius:9px; padding:6px 11px; cursor:pointer; font:inherit; font-size:11.5px;
