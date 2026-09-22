@@ -61,8 +61,9 @@ offset from the software crons.
 
 The dashboards are static pages sharing `docs/app.js` + `docs/app.css`; each
 declares a small `TRACKER` object saying which database it reads and what its
-tiers and role buckets are called, and writes your Applied/Skip status back
-through the GitHub API.
+tiers and role buckets are called. Your Applied/Skip marks are stored in the
+browser as you make them and synced back through the GitHub API when a token
+is set.
 
 ---
 
@@ -167,10 +168,14 @@ job-monitor/
 │   │                                trackers name different tiers.
 │   ├── app.js                     ← all dashboard behaviour, shared by both
 │   │                                pages: filtering, the KPI band, the
-│   │                                activity heatmap, and saving statuses
-│   │                                back through the GitHub API (your token
-│   │                                stays in your browser's localStorage
-│   │                                only). Reads window.TRACKER for
+│   │                                activity heatmap, and your Applied/Skip
+│   │                                marks — written to this browser's
+│   │                                localStorage the moment you click, then
+│   │                                synced back through the GitHub API (your
+│   │                                token stays in localStorage too, and is
+│   │                                never sent anywhere else). A mark is only
+│   │                                forgotten once the published JSON is seen
+│   │                                carrying it. Reads window.TRACKER for
 │   │                                everything page-specific.
 │   ├── index.html                 ← SOFTWARE DASHBOARD. Markup plus a
 │   │                                TRACKER object naming jobs.json, its
@@ -308,7 +313,14 @@ same (statuses still save via the API; only the job list needs a
 
 ### Step 7 — Enable "mark as Applied" saving
 
-The dashboard needs permission to write statuses back to the repo:
+**Optional.** Applied/Skip/Interview is remembered by your browser as soon as
+you click it, with or without a token: it survives a refresh, a new scan
+landing, and a closed tab. A token is what carries those marks *into the
+repo*, so they show up on your other devices and in the JSON itself. Until
+one is set, the status bar shows a `THIS BROWSER n` chip counting the marks
+that live only here.
+
+To let the dashboard write statuses back to the repo:
 
 1. GitHub → click your avatar → **Settings** → **Developer settings** →
    **Personal access tokens** → **Fine-grained tokens** → **Generate new
@@ -329,7 +341,10 @@ committed or sent anywhere except api.github.com.
 ### Step 8 — Verify end-to-end
 
 1. In the dashboard, click **✓ Applied** on any job → you should see
-   "Saved ✓" and, on GitHub, a commit `dashboard: update statuses`.
+   "Saved ✓" and, on GitHub, a commit `dashboard: update statuses`. (The mark
+   itself shows up immediately either way; the `SYNCING n` chip clears once
+   the published file comes back carrying it, a minute or two later after
+   Pages redeploys.)
 2. Actions tab → run **Scan big tech (every 3h)** manually once → since the
    seed already happened, any *genuinely new* posting now produces a Discord
    message. (If nothing new was posted in the last 3 hours, no message —

@@ -4,9 +4,76 @@ const T = window.TRACKER;
 const PATH = T.path;                 // path inside the repo, for saving back
 const DATA = T.data;                 // path the browser fetches
 const DEFAULT_ROLE = T.defaultRole;  // role bucket for "no discipline named"
-let data = null, dirty = {};
+let data = null;
 
 const $ = id => document.getElementById(id);
+
+// ---- your marks live in this browser first ------------------------------
+// Applied/Skip used to exist only inside the tab: the buttons wrote into
+// `data` and a copy in `dirty`, and both died with the page. Anything marked
+// before a GitHub token was set - or while a save was failing - was gone on
+// the next refresh. Even a save that worked could look like forgetting,
+// because Pages republishes the JSON a minute or two later and the poll in
+// between pulled the pre-save copy back over the marks.
+//
+// So a click now lands in localStorage immediately, is re-applied over every
+// copy of the data we fetch, and is only forgotten once the fetched file
+// itself carries it. Writing back to GitHub became a sync step on top of
+// that, instead of the only place the mark exists.
+//
+// Keyed by the tracker's own path, so the two trackers never share marks.
+const MARKS_KEY = "marks:" + PATH;
+const MARK_TTL_DAYS = 30;   // for a mark whose posting has left the feed
+let marks = readMarks();
+
+function readMarks() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(MARKS_KEY) || "{}");
+    const out = {};
+    // ignore anything that is not shaped like a mark, so a half-written or
+    // hand-edited key can never take the dashboard down at boot
+    for (const [id, m] of Object.entries(raw))
+      if (m && typeof m.status === "string")
+        out[id] = { status: m.status, applied_on: m.applied_on || null,
+                    ts: +m.ts || Date.now(), synced: +m.synced || 0 };
+    return out;
+  } catch (e) { return {}; }
+}
+
+let storageWarned = false;
+function writeMarks() {
+  try {
+    localStorage.setItem(MARKS_KEY, JSON.stringify(marks));
+  } catch (e) {
+    // private mode or a full quota: the marks still work for this tab
+    if (!storageWarned) { storageWarned = true; toast("This browser will not store marks: " + e.message); }
+  }
+}
+
+// Overlay the marks onto a freshly fetched copy, and drop the ones that copy
+// has caught up with - that round trip, not the PUT's status code, is what
+// proves a mark is safely in the repo.
+function applyMarks(target) {
+  let changed = false;
+  for (const [id, m] of Object.entries(marks)) {
+    const j = target.jobs[id];
+    if (!j) {
+      // the posting is no longer tracked (pruned, or re-keyed): nothing left
+      // to apply the mark to, so let it go rather than keep it forever
+      if (Date.now() - m.ts > MARK_TTL_DAYS * 86400000) { delete marks[id]; changed = true; }
+      continue;
+    }
+    if (j.status === m.status && (j.applied_on || null) === m.applied_on) {
+      delete marks[id]; changed = true;      // confirmed by the file itself
+      continue;
+    }
+    j.status = m.status;
+    if (m.applied_on) j.applied_on = m.applied_on; else delete j.applied_on;
+  }
+  if (changed) writeMarks();
+}
+
+const unsynced = () => Object.values(marks).filter(m => !m.synced).length;
 const cfg = () => ({
   owner: localStorage.gh_owner || "", repo: localStorage.gh_repo || "",
   branch: localStorage.gh_branch || "main", token: localStorage.gh_token || "",
@@ -18,6 +85,7 @@ async function load() {
     r = await fetch(DATA + "?" + Date.now());
     if (!r.ok) throw new Error("HTTP " + r.status);
     data = await r.json();
+    applyMarks(data);
   } catch (e) {
     $("list").innerHTML = "<p style='color:var(--muted)'>Could not load " + esc(DATA) +
       " (" + esc(e.message) + "). Run a scan workflow first, then refresh.</p>";
@@ -27,6 +95,9 @@ async function load() {
   fillRoles();
   render();
   startAutoRefresh();
+  // marks left over from a previous visit (token missing then, save failed,
+  // tab closed inside the debounce) get one more try now
+  if (unsynced() && cfg().token) scheduleSave();
 }
 
 const ROLE_LABEL = T.roles;
@@ -73,14 +144,9 @@ async function checkForUpdates(force = false) {
     const fresh = await r.json();
     if (!force && data && fresh.updated === data.updated) { lastTag = tag; touchAgo(); return; }
     const before = data ? Object.keys(data.jobs).length : 0;
-    // re-apply marks that have not been persisted yet, so a scan landing
-    // mid-edit never silently discards them
-    for (const [id, d] of Object.entries(dirty)) {
-      const t = fresh.jobs[id];
-      if (!t) continue;
-      t.status = d.status;
-      if (d.applied_on) t.applied_on = d.applied_on; else delete t.applied_on;
-    }
+    // re-apply your marks, so neither a scan landing mid-edit nor a Pages
+    // deploy still serving the pre-save file can undo them on screen
+    applyMarks(fresh);
     data = fresh;
     lastTag = tag;
     fillCompanies();
@@ -235,7 +301,14 @@ function renderKpi(base, tier, status) {
   const health = `<span class="schip health${cls}" title="${esc(detail)}">` +
     `<span class="hdot"></span>Sources <b>${live}/${names.length}</b></span>`;
 
-  $("statusbar").innerHTML = health + [
+  // marks this browser holds that the repo has not acknowledged yet
+  const waiting = unsynced();
+  const local = waiting ? `<span class="schip local" title="${esc(cfg().token
+      ? "Saved in this browser and queued for the repo. They survive a refresh either way."
+      : "Saved in this browser only. They survive a refresh, and sync to the repo once you add a GitHub token (⚙).")
+    }">${cfg().token ? "Syncing" : "This browser"} <b>${waiting}</b></span>` : "";
+
+  $("statusbar").innerHTML = health + local + [
     ["Open", count("new")], ["Applied", count("applied")],
     ["Interview", count("interview")], ["Skipped", count("skip")],
     ["With pay range", withComp], ["Companies", new Set(all.map(j => j.company)).size],
@@ -343,7 +416,9 @@ function mark(id, status) {
   } else {
     delete j.applied_on;
   }
-  dirty[id] = { status: j.status, applied_on: j.applied_on || null };
+  marks[id] = { status: j.status, applied_on: j.applied_on || null,
+                ts: Date.now(), synced: 0 };
+  writeMarks();          // before the render, so a crash mid-paint costs nothing
   render();
   scheduleSave();
 }
@@ -353,7 +428,12 @@ function scheduleSave(){ clearTimeout(saveTimer); saveTimer = setTimeout(persist
 
 async function persist(attempt = 0) {
   const c = cfg();
-  if (!c.token || !c.owner || !c.repo) { toast("Set GitHub token (⚙) to save status"); return; }
+  const pending = Object.entries(marks).filter(([, m]) => !m.synced);
+  if (!pending.length) return;
+  if (!c.token || !c.owner || !c.repo) {
+    toast("Marks kept in this browser ✓ · add a GitHub token (⚙) to sync them to the repo");
+    return;
+  }
   const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${PATH}`;
   const h = { Authorization: `Bearer ${c.token}`, Accept: "application/vnd.github+json" };
   try {
@@ -374,7 +454,7 @@ async function persist(attempt = 0) {
     if (!rawRes.ok) throw new Error("read HTTP " + rawRes.status);
     const remote = JSON.parse(await rawRes.text());
     const cur = { sha: entry.sha };
-    for (const [id, d] of Object.entries(dirty)) {
+    for (const [id, d] of pending) {
       const t = remote.jobs[id];
       if (!t) continue;
       t.status = d.status;
@@ -388,9 +468,17 @@ async function persist(attempt = 0) {
     const r = await fetch(api, { method: "PUT", headers: h, body: JSON.stringify(body) });
     if (r.status === 409 && attempt < 2) return persist(attempt + 1);
     if (!r.ok) throw new Error("HTTP " + r.status);
-    dirty = {};
+    // the mark stays in the store until a later fetch shows the repo serving
+    // it (see applyMarks); all this records is that it no longer needs sending
+    for (const [id, d] of pending) {
+      const held = marks[id];      // may have been re-clicked while this ran
+      if (held && held.status === d.status && held.applied_on === d.applied_on)
+        held.synced = Date.now();
+    }
+    writeMarks();
+    render();
     toast("Saved ✓");
-  } catch (e) { toast("Save failed: " + e.message); }
+  } catch (e) { toast("Save failed (kept in this browser): " + e.message); }
 }
 
 function toast(msg){ const t=$("toast"); t.textContent=msg; t.style.display="block";
