@@ -1489,6 +1489,18 @@
    "title": "Planning Analyst",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/4657698007?gh_jid=4657698007"
   },
+  "anduril:4029edf55311": {
+   "company": "Anduril",
+   "first_seen": "2026-09-22",
+   "location": "Quonset, Rhode Island, United States",
+   "posted_at": "2026-09-22",
+   "role": "procurement",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "mid",
+   "title": "Buyer, Dive-XL",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5245718007?gh_jid=5245718007"
+  },
   "anduril:40fbd32b06d2": {
    "company": "Anduril",
    "first_seen": "2026-09-11",
@@ -6636,6 +6648,17 @@
    "tier": "manager",
    "title": "Global Commodity Manager, SSD/NAND",
    "url": "https://www.google.com/about/careers/applications/jobs/results/131167402015498950-global-commodity-manager-ssdnand"
+  },
+  "google:c55f93344db2": {
+   "company": "Google",
+   "first_seen": "2026-09-22",
+   "location": "Mountain View, CA, USA",
+   "role": "program-mgmt",
+   "source": "google careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Senior Technical Program Manager, Supply Chain, Google Beam",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/110937705545638598-senior-technical-program-manager-supply-chain-google-beam"
   },
   "google:c90e4eeb0c98": {
    "company": "Google",
@@ -14307,7 +14330,7 @@
   },
   "Abbott": {
    "best": 533,
-   "last": 516,
+   "last": 271,
    "last_ok": "2026-09-22"
   },
   "Airbnb": {
@@ -14322,12 +14345,12 @@
   },
   "Anduril": {
    "best": 2376,
-   "last": 2358,
+   "last": 2357,
    "last_ok": "2026-09-22"
   },
   "Applied Materials": {
    "best": 468,
-   "last": 464,
+   "last": 461,
    "last_ok": "2026-09-22"
   },
   "Astranis": {
@@ -14337,22 +14360,22 @@
   },
   "Becton Dickinson": {
    "best": 325,
-   "last": 318,
+   "last": 320,
    "last_ok": "2026-09-22"
   },
   "Boeing": {
    "best": 318,
-   "last": 280,
+   "last": 281,
    "last_ok": "2026-09-22"
   },
   "CVS Health": {
    "best": 344,
-   "last": 332,
+   "last": 333,
    "last_ok": "2026-09-22"
   },
   "Carvana": {
    "best": 1753,
-   "last": 1747,
+   "last": 1746,
    "last_ok": "2026-09-22"
   },
   "Coinbase": {
@@ -14362,7 +14385,7 @@
   },
   "Databricks": {
    "best": 893,
-   "last": 885,
+   "last": 884,
    "last_ok": "2026-09-22"
   },
   "DoorDash": {
@@ -14382,17 +14405,17 @@
   },
   "Flexport": {
    "best": 199,
-   "last": 196,
+   "last": 195,
    "last_ok": "2026-09-22"
   },
   "Formlabs": {
    "best": 212,
-   "last": 210,
+   "last": 211,
    "last_ok": "2026-09-22"
   },
   "General Mills": {
    "best": 224,
-   "last": 222,
+   "last": 221,
    "last_ok": "2026-09-22"
   },
   "Glossier": {
@@ -14402,7 +14425,7 @@
   },
   "Google": {
    "best": 202,
-   "last": 199,
+   "last": 200,
    "last_ok": "2026-09-22"
   },
   "Gusto": {
@@ -14432,7 +14455,7 @@
   },
   "Lucid Motors": {
    "best": 401,
-   "last": 399,
+   "last": 400,
    "last_ok": "2026-09-22"
   },
   "Lyft": {
@@ -14442,7 +14465,7 @@
   },
   "Medtronic": {
    "best": 451,
-   "last": 430,
+   "last": 431,
    "last_ok": "2026-09-22"
   },
   "Micron": {
@@ -14462,7 +14485,7 @@
   },
   "Nike": {
    "best": 178,
-   "last": 164,
+   "last": 163,
    "last_ok": "2026-09-22"
   },
   "Nuro": {
@@ -14472,7 +14495,7 @@
   },
   "Nvidia": {
    "best": 293,
-   "last": 293,
+   "last": 252,
    "last_ok": "2026-09-22"
   },
   "Olipop": {
@@ -14482,12 +14505,12 @@
   },
   "OpenAI": {
    "best": 819,
-   "last": 810,
+   "last": 811,
    "last_ok": "2026-09-22"
   },
   "Oura": {
    "best": 111,
-   "last": 95,
+   "last": 96,
    "last_ok": "2026-09-22"
   },
   "Peloton": {
@@ -14502,7 +14525,7 @@
   },
   "Pinterest": {
    "best": 188,
-   "last": 159,
+   "last": 160,
    "last_ok": "2026-09-22"
   },
   "Samsara": {
@@ -14522,17 +14545,17 @@
   },
   "Stripe": {
    "best": 672,
-   "last": 672,
+   "last": 671,
    "last_ok": "2026-09-22"
   },
   "Stryker": {
    "best": 411,
-   "last": 393,
+   "last": 396,
    "last_ok": "2026-09-22"
   },
   "Target": {
    "best": 445,
-   "last": 356,
+   "last": 0,
    "last_ok": "2026-09-22"
   },
   "Thrive Market": {
@@ -14557,7 +14580,7 @@
   },
   "Walmart Global Tech": {
    "best": 244,
-   "last": 204,
+   "last": 207,
    "last_ok": "2026-09-22"
   },
   "Waymo": {
@@ -14567,10 +14590,10 @@
   },
   "Zebra Technologies": {
    "best": 125,
-   "last": 121,
+   "last": 120,
    "last_ok": "2026-09-22"
   }
  },
- "updated": "2026-09-22T07:25:21Z",
+ "updated": "2026-09-22T13:20:51Z",
  "version": 1
 }
