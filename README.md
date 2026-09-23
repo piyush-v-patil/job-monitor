@@ -41,7 +41,8 @@ defense/space, logistics and the DTC brands** that run real planning teams.
              fetchers pull JSON from public careers APIs
              (Greenhouse, Lever, Ashby, Workday, Eightfold,
               SmartRecruiters + Amazon/Microsoft/Google/Apple/
-              Tesla/Uber + SimplifyJobs GitHub aggregator)
+              Tesla/Uber + SimplifyJobs GitHub aggregator
+              + LinkedIn and friends via JobSpy)
                                          │
              filters: US-only · the profile's role rules · tier
              detection (software: staff/principal/senior excluded;
@@ -87,7 +88,8 @@ job-monitor/
 │                                    · bigtech:     every 2h, offset 1h (so
 │                                    ·                these get hourly cover)
 │                                    · other:       every 2h (full sweep)
-│                                    · aggregators: SimplifyJobs repos, ditto
+│                                    · aggregators: SimplifyJobs repos and
+│                                    ·                LinkedIn (JobSpy), ditto
 │                                    Each entry names a fetcher + its
 │                                    parameters (ATS token, Workday tenant…).
 │                                    This is the file you'll edit most.
@@ -154,12 +156,20 @@ job-monitor/
 │       │                            board is paged and filtered locally).
 │       │                            These endpoints are unofficial and may
 │       │                            change — see Troubleshooting.
-│       └── simplify.py            ← parses the SimplifyJobs GitHub repos
-│                                    (New-Grad-Positions, Summer2027-
-│                                    Internships). Catches Meta, LinkedIn,
-│                                    and hundreds of companies with no
-│                                    public API. Only rows newer than
-│                                    `max_age_days` are considered.
+│       ├── simplify.py            ← parses the SimplifyJobs GitHub repos
+│       │                            (New-Grad-Positions, Summer2027-
+│       │                            Internships). Catches Meta, LinkedIn,
+│       │                            and hundreds of companies with no
+│       │                            public API. Only rows newer than
+│       │                            `max_age_days` are considered.
+│       └── jobspy_board.py        ← searches the job boards themselves
+│                                    (LinkedIn, and optionally Indeed,
+│                                    Glassdoor, Google, ZipRecruiter) through
+│                                    the `python-jobspy` library. One search
+│                                    per term under `searches:`; rows are
+│                                    marked so a posting the employer's own
+│                                    ATS also gave us is merged, not tracked
+│                                    twice. See §5 for the knobs.
 │
 ├── docs/                          ← served by GitHub Pages
 │   ├── app.css                    ← all dashboard styling, shared by both
@@ -200,10 +210,15 @@ job-monitor/
     │                                :30): full sweep including
     │                                Fortune 500, fintech, startups, and
     │                                the Simplify aggregator
-    └── scan-supplychain.yml       ← cron "0 */2 * * *": the supply-chain
-                                     sweep. Its own concurrency group, so it
-                                     can run alongside a software scan —
-                                     they write different files
+    ├── scan-supplychain.yml       ← cron "0 */2 * * *": the supply-chain
+    │                                sweep. Its own concurrency group, so it
+    │                                can run alongside a software scan —
+    │                                they write different files
+    └── linkedin-smoke.yml         ← manual only. Asks LinkedIn for postings
+                                     from a runner and fails loudly if it
+                                     gets none, which is how you tell
+                                     "throttled" from "broken" without
+                                     waiting for a scan
 ```
 
 ---
@@ -399,6 +414,11 @@ committed or sent anywhere except api.github.com.
 | Narrow the supply-chain feed | procurement and logistics are the highest-volume families in it. Drop those alternatives from `ROLE_INCLUDE` in `filters_scm.py`, or just filter to *Demand planning & forecasting* on the dashboard |
 | Add a third tracker | a `Profile` entry in `monitor/profiles.py`, a `companies-*.yaml`, a dashboard page (copy `docs/supplychain.html` and edit its `TRACKER`), and a workflow. The engine needs no changes |
 | Wider/narrower aggregator window | `max_age_days` under `aggregators:` in the config |
+| Which LinkedIn searches run | `searches:` under the `LinkedIn (JobSpy)` entry — one term per job family; the boards rank by relevance, so more terms beat a bigger `results_wanted` |
+| How far back LinkedIn looks | `hours_old:` on the same entry (default 72) |
+| Read each LinkedIn posting's body | `fetch_description: true` — lets `parse_yoe` correct a tier the title got wrong, at +1 request per job |
+| Other boards (Indeed, Glassdoor…) | add to `sites:` on the same entry — `[linkedin, indeed]`. Indeed is the least rate-limited of the set |
+| Route LinkedIn through proxies | set the `JOBSPY_PROXIES` repo secret (comma-separated URLs); the config only names the variable, never holds a credential |
 | Change what counts as a duplicate req | `groupKey` in `docs/app.js` — postings are folded when company, title and location all match once whitespace and case are normalized. Folding is a view-only concern; nothing in `monitor/` or the JSON is involved |
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run`, or `python -m monitor.main --profile supplychain --tier all --dry-run` |
 | Run the unit tests | `pip install -r requirements-dev.txt` then `python -m pytest tests -q`. Covers the filter/tier rules, the id scheme, jobs.json reconciliation, and Discord delivery. CI runs them on every push to `monitor/`. |
@@ -444,8 +464,18 @@ normal, occasionally more during peak load.
 - **Unofficial APIs**: the big-tech fetchers use the same JSON endpoints
   the careers sites themselves use — they can change without notice. A
   failing fetcher is logged and skipped, never fatal.
-- **Meta & LinkedIn** have no stable public careers API; they arrive via the
-  SimplifyJobs aggregator, typically within a day of posting.
+- **Meta & LinkedIn** have no stable public careers API. LinkedIn postings
+  arrive two ways: the SimplifyJobs aggregator, and the `jobspy` fetcher,
+  which drives LinkedIn's own search endpoints.
+- **A board search is a sample, not a listing.** LinkedIn ranks by relevance
+  and rate-limits around the 10th page, so the `jobspy` source returns the
+  top N for each term in `searches:` rather than everything posted. Widening
+  coverage means adding terms, not raising `results_wanted`.
+- **LinkedIn rate-limits datacenter IPs**, which is what GitHub's runners
+  are. If the source starts reporting 0 postings (the source-health alert
+  says so), it is being throttled, not broken: add a `JOBSPY_PROXIES` secret
+  and it resumes. `Actions → LinkedIn reachability → Run workflow` answers
+  "is it being throttled right now?" without waiting for a scan.
 - **"Experienced ≤5 yrs" is title-based** (SWE II/III, Engineer 2…). Plain
   "Software Engineer" titles are included too — verify the years requirement
   in the actual posting.

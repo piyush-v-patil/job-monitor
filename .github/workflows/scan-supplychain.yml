@@ -35,6 +35,7 @@ jobs:
       - name: Run supply chain sweep
         env:
           DISCORD_WEBHOOK_URL_SUPPLYCHAIN: ${{ secrets.DISCORD_WEBHOOK_URL_SUPPLYCHAIN }}
+          JOBSPY_PROXIES: ${{ secrets.JOBSPY_PROXIES }}
         run: python -m monitor.main --profile supplychain --tier all ${{ inputs.no_notify && '--no-notify' || '' }}
       - name: Commit state
         run: |

@@ -12,7 +12,7 @@
 #
 # fetcher types: greenhouse | lever | ashby | workday | eightfold |
 #                smartrecruiters | phenom | amazon | microsoft | google |
-#                apple | tesla | uber | walmart
+#                apple | tesla | uber | walmart | jobspy
 #
 # `searches:` (a list) runs a keyword-search board once per term and merges
 # the results. It matters here: one phrase never covers a planning org, so
@@ -297,3 +297,28 @@ other:
   - name: Pinterest
     fetcher: greenhouse
     token: pinterest
+
+aggregators:
+  # LinkedIn, via JobSpy. The planning family is spread across employers this
+  # registry will never list - 3PLs, CPG, retail, regional manufacturers - and
+  # a board search reaches all of them at once. See config/companies.yaml for
+  # the full notes on sampling, de-duplication and rate limiting.
+  - name: LinkedIn (JobSpy)
+    fetcher: jobspy
+    sites: [linkedin]
+    location: United States
+    results_wanted: 100
+    hours_old: 72
+    fetch_description: false
+    proxies_env: JOBSPY_PROXIES
+    searches:
+      - demand planner
+      - supply chain planner
+      - supply planning analyst
+      - inventory planner
+      - s&op analyst
+      - forecasting analyst
+      - production planner
+      - materials planner
+      - supply chain analyst
+      - supply chain intern

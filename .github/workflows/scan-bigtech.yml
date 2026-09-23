@@ -28,6 +28,7 @@ jobs:
       - name: Run scan
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          JOBSPY_PROXIES: ${{ secrets.JOBSPY_PROXIES }}
         run: python -m monitor.main --tier bigtech
       - name: Commit state
         run: |

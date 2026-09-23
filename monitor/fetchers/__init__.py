@@ -1,4 +1,4 @@
-from . import custom, generic, simplify
+from . import custom, generic, jobspy_board, simplify
 
 FETCHERS = {
     "greenhouse": generic.greenhouse,
@@ -16,4 +16,5 @@ FETCHERS = {
     "walmart": custom.walmart,
     "phenom": custom.phenom,
     "simplify": simplify.simplify,
+    "jobspy": jobspy_board.jobspy,
 }

@@ -1,0 +1,60 @@
+name: LinkedIn reachability
+
+# LinkedIn has no public API, so the `jobspy` fetcher drives its search
+# endpoints - and LinkedIn throttles datacenter IPs, which is exactly what a
+# GitHub runner is. When it throttles, the scan does not fail: it returns zero
+# postings and the source quietly stops contributing.
+#
+# This answers "is LinkedIn answering us from a runner right now?" on demand,
+# without waiting for a scan or touching jobs.json. If it reports 0 postings,
+# set the JOBSPY_PROXIES secret (comma-separated proxy URLs) and run it again.
+
+on:
+  workflow_dispatch:
+    inputs:
+      search:
+        description: "Search term to probe with"
+        default: "software engineer"
+      location:
+        description: "Location to probe with"
+        default: "United States"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Probe LinkedIn
+        env:
+          JOBSPY_PROXIES: ${{ secrets.JOBSPY_PROXIES }}
+          SEARCH: ${{ inputs.search }}
+          LOCATION: ${{ inputs.location }}
+        run: |
+          python - <<'PY'
+          import os, sys
+          from monitor.fetchers import jobspy_board
+
+          cfg = {"name": "LinkedIn probe", "sites": ["linkedin"],
+                 "search": os.environ["SEARCH"], "location": os.environ["LOCATION"],
+                 "results_wanted": 25, "hours_old": 168, "delay_seconds": 0}
+          proxied = bool(os.environ.get("JOBSPY_PROXIES"))
+          print(f"probing LinkedIn for {cfg['search']!r} in {cfg['location']!r} "
+                f"({'via proxies' if proxied else 'direct from the runner IP'})")
+          try:
+              jobs = jobspy_board.jobspy(cfg)
+          except Exception as e:
+              print(f"::error::LinkedIn probe raised {type(e).__name__}: {e}")
+              sys.exit(1)
+          for j in jobs[:10]:
+              print(f"  {j['company']}: {j['title']} ({j['location']}) {j['posted_at']}")
+          if not jobs:
+              print("::error::LinkedIn returned 0 postings - the runner IP is being "
+                    "throttled. Set the JOBSPY_PROXIES secret and re-run.")
+              sys.exit(1)
+          print(f"OK: {len(jobs)} postings")
+          PY
