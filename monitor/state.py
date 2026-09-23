@@ -81,6 +81,44 @@ def canonical_key(company: str, url: str) -> str:
     return ""
 
 
+# Board aggregators (JobSpy/LinkedIn) surface postings this repo also reaches
+# through the employer's own ATS, under a different id and a different URL, so
+# canonical_key finds nothing to match on and the job would be tracked - and
+# notified - twice. These rows carry `soft_dedupe`, and are matched on what the
+# two copies do agree about: who is hiring, for what, and where.
+SOFT_STRIP = re.compile(
+    r"\b(inc|llc|ltd|corp|corporation|co|company|plc|gmbh|sa|nv|ag|holdings"
+    r"|group|technologies|technology)\b", re.I)
+SOFT_NOISE = re.compile(r"[^a-z0-9 ]+")
+# Req numbers and campus-cycle years differ between the two listings of one job
+# ("Software Engineer (R12345)" vs "Software Engineer"), so they are dropped.
+SOFT_TITLE_NOISE = re.compile(r"\(?\b[a-z]{0,3}[-_]?\d{4,}\b\)?", re.I)
+
+
+def _soft_norm(text: str, strip_suffixes: bool = False) -> str:
+    s = SOFT_NOISE.sub(" ", (text or "").lower())
+    if strip_suffixes:
+        s = SOFT_STRIP.sub(" ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def soft_key(company: str, title: str, location: str) -> str:
+    """Identity of a posting by description rather than by id.
+
+    Only the city is taken from the location: the same job reads "New York,
+    NY" on LinkedIn and "New York, New York, United States" on Greenhouse, and
+    matching the whole string would never fire. Empty when any part is missing,
+    which leaves the posting to be tracked on its own - a missed merge costs a
+    duplicate row, whereas a loose match would hide a real posting.
+    """
+    co = _soft_norm(company, strip_suffixes=True)
+    ti = _soft_norm(SOFT_TITLE_NOISE.sub(" ", title or ""))
+    city = _soft_norm((location or "").split(",")[0])
+    if not co or not ti or not city:
+        return ""
+    return f"{co}#{ti}#{city}"
+
+
 # A job id is read back out of the dashboard's markup, so it has to survive
 # being written into an HTML attribute. Ids used to keep every character of the
 # company name, which put an apostrophe inside "Steven's Capital Management"
@@ -202,10 +240,19 @@ def add_new(state: dict, jobs: list) -> list:
     # index the postings already held by their source-independent identity, so
     # the same job arriving from a second source does not alert a second time
     seen = {}
+    soft_seen = {}
     for k, e in state["jobs"].items():
         ck = canonical_key(e.get("company", ""), e.get("url", ""))
         if ck:
             seen.setdefault(ck, k)
+        sk = soft_key(e.get("company", ""), e.get("title", ""), e.get("location", ""))
+        if sk:
+            soft_seen.setdefault(sk, k)
+    # An aggregator row is the weaker copy of a posting: it carries the board's
+    # URL rather than the employer's. Holding them back means that when both
+    # copies arrive in one scan, the ATS row is the one that gets tracked and
+    # the aggregator row folds into it, not the other way round.
+    jobs = sorted(jobs, key=lambda j: bool(j.get("soft_dedupe")))
     for j in jobs:
         jid = job_id(j["company"], j.get("external_id", ""), j.get("url", ""))
         # not truthiness: yoe == 0 is a real answer ("0-2 years of experience")
@@ -223,6 +270,20 @@ def add_new(state: dict, jobs: list) -> list:
             for k, v in extra.items():          # backfill only what is absent
                 entry.setdefault(k, v)
             continue
+        sk = soft_key(j["company"], j["title"], j.get("location", ""))
+        other = state["jobs"].get(soft_seen.get(sk, "")) if sk else None
+        if other is not None and (j.get("soft_dedupe") or other.get("soft_dedupe")):
+            # same posting, two listings. Enrich the tracked copy and stop.
+            for k, v in extra.items():
+                other.setdefault(k, v)
+            if other.get("soft_dedupe") and not j.get("soft_dedupe"):
+                # the employer's own listing has now turned up: take its link
+                # over the board's, and stop treating the entry as the weaker
+                # copy, so a later aggregator row folds into it as usual
+                other["url"] = j.get("url") or other.get("url", "")
+                other["source"] = j.get("source") or other.get("source", "")
+                other.pop("soft_dedupe", None)
+            continue
         entry = {
             "company": j["company"],
             "title": j["title"],
@@ -233,10 +294,14 @@ def add_new(state: dict, jobs: list) -> list:
             "first_seen": today,
             "status": "new",
         }
+        if j.get("soft_dedupe"):
+            entry["soft_dedupe"] = True
         entry.update(extra)
         state["jobs"][jid] = entry
         if ck:
             seen[ck] = jid
+        if sk:
+            soft_seen.setdefault(sk, jid)
         # the notification copy also carries the (unstored) description snippet
         new.append(dict(entry, id=jid, snippet=j.get("snippet", "")))
     return new

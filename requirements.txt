@@ -1,2 +1,6 @@
 requests>=2.31
 PyYAML>=6.0
+# LinkedIn (and the other job boards) via the `jobspy` fetcher. Pulls pandas
+# in with it; drop this line and the jobspy source skips itself with a clear
+# message while every ATS fetcher carries on.
+python-jobspy>=1.1.80

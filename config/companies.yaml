@@ -3,7 +3,7 @@
 #
 # fetcher types: greenhouse | lever | ashby | workday | eightfold |
 #                smartrecruiters | amazon | microsoft | google | apple |
-#                tesla | uber | simplify
+#                tesla | uber | simplify | jobspy
 #
 # NOTE: ATS tokens/tenants are best-effort and may need verification.
 # To find a token: open the company's careers page, check the URL or the
@@ -331,3 +331,37 @@ aggregators:
     # 30d roughly triples company coverage (90 -> ~293) and lets the
     # scanner catch up after an outage instead of ageing rows out
     max_age_days: 30
+
+  # LinkedIn, via JobSpy. LinkedIn has no public API and no queryable ATS, so
+  # this is the only way it is reachable - and it reaches the employers no
+  # company registry covers, because a search hits every employer at once.
+  #
+  # A search is a relevance-ranked sample, not a listing, so one term per job
+  # family is what widens it. Postings here also arrive from the employers'
+  # own boards; the fetcher marks its rows so the two copies are merged rather
+  # than tracked twice (monitor/state.py, soft_key).
+  #
+  # If LinkedIn starts returning nothing, it is rate limiting the runner's IP,
+  # not breaking: set the JOBSPY_PROXIES secret (comma-separated proxy URLs)
+  # and the fetcher picks it up. The source-health alert reports the outage.
+  - name: LinkedIn (JobSpy)
+    fetcher: jobspy
+    sites: [linkedin]
+    location: United States
+    results_wanted: 100      # per term; LinkedIn rate limits around page 10
+    hours_old: 72            # the sweep runs 12x/day - 3 days is ample overlap
+    fetch_description: false # true costs +1 request per job (see the module)
+    proxies_env: JOBSPY_PROXIES
+    searches:
+      - software engineer intern
+      - new grad software engineer
+      - entry level software engineer
+      - junior software engineer
+      - machine learning engineer
+      - data engineer
+      - data scientist entry level
+      - devops engineer
+      - site reliability engineer
+      - security engineer
+      - frontend engineer
+      - backend engineer

@@ -32,6 +32,9 @@ jobs:
       - name: Run full sweep
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          # Optional. LinkedIn throttles datacenter IPs, which is what this
+          # runner is; set the secret and the jobspy fetcher routes through it.
+          JOBSPY_PROXIES: ${{ secrets.JOBSPY_PROXIES }}
         run: python -m monitor.main --tier all ${{ inputs.no_notify && '--no-notify' || '' }}
       - name: Commit state
         run: |
