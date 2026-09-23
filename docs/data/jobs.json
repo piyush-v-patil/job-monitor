@@ -5367,6 +5367,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10557188/software-dev-engineer-ii-aws-infra-supply-chain-automation-aws-infra-supply-chain-automation",
    "yoe": 3
   },
+  "amazon:9d23daec41f5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Boulder, Colorado, USA",
+   "posted_at": "2026-09-23",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Amazon Digital Advertising",
+   "url": "https://www.amazon.jobs/en/jobs/10558200/software-development-engineer-ii-amazon-digital-advertising",
+   "yoe": 1
+  },
   "amazon:9d696f158b6b": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5709,6 +5724,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, AWS Healthcare AI",
    "url": "https://www.amazon.jobs/en/jobs/10527581/software-dev-engineer-ii-aws-healthcare-ai",
+   "yoe": 1
+  },
+  "amazon:aea497d3879a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-23",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, ZeroTouch GSG at Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10558223/software-development-engineer-zerotouch-gsg-at-amazon-leo",
    "yoe": 1
   },
   "amazon:b13dc961db6d": {
@@ -6869,6 +6899,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, AWS CloudWatch OpenTelemetry",
    "url": "https://www.amazon.jobs/en/jobs/10534633/software-development-engineer-aws-cloudwatch-opentelemetry",
+   "yoe": 2
+  },
+  "amazon:e0ec7482953f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-23",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Ads Experience Framework",
+   "url": "https://www.amazon.jobs/en/jobs/10558206/software-development-engineer-ads-experience-framework",
    "yoe": 2
   },
   "amazon:e0f016c69ef9": {
@@ -65927,7 +65972,7 @@
   },
   "OpenAI": {
    "best": 826,
-   "last": 826,
+   "last": 825,
    "last_ok": "2026-09-23"
   },
   "OpenEvidence": {
@@ -66110,6 +66155,6 @@
    "last_ok": "2026-09-23"
   }
  },
- "updated": "2026-09-23T18:28:53Z",
+ "updated": "2026-09-23T19:09:56Z",
  "version": 1
 }
