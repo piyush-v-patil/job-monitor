@@ -2182,6 +2182,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10552294/sde-ii-aws-iot-fleet-management",
    "yoe": 3
   },
+  "amazon:04b348ae72fe": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Customer Service",
+   "url": "https://www.amazon.jobs/en/jobs/10559387/software-development-engineer-amazon-customer-service",
+   "yoe": 2
+  },
   "amazon:050f69fea281": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3617,6 +3632,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10523003/software-development-engineer-iii-aws-core-networking-network-fabric-engineering-core-networking-edge-capacity",
    "yoe": 5
   },
+  "amazon:34a5c8439a8a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Customer Service Technologies",
+   "url": "https://www.amazon.jobs/en/jobs/10559392/software-development-engineer-customer-service-technologies",
+   "yoe": 2
+  },
   "amazon:34e21d3d2271": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4502,6 +4532,21 @@
    "tier": "experienced",
    "title": "Software Engineer, XR , Fauna",
    "url": "https://www.amazon.jobs/en/jobs/10514583/software-engineer-xr-fauna",
+   "yoe": 2
+  },
+  "amazon:59d01b3831bd": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Customer Service Technologies",
+   "url": "https://www.amazon.jobs/en/jobs/10559396/software-development-engineer-customer-service-technologies",
    "yoe": 2
   },
   "amazon:5a22ee61dbb2": {
@@ -39821,6 +39866,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, AI/ML, Google Cloud Storage",
    "url": "https://www.google.com/about/careers/applications/jobs/results/141212660505944774-software-engineer-iii-aiml-google-cloud-storage"
+  },
+  "google:cdbfeec72de1": {
+   "company": "Google",
+   "first_seen": "2026-09-24",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML GenAI, Google Cloud Compute Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/91655260891685574-software-engineer-iii-aiml-genai-google-cloud-compute-infrastructure"
   },
   "google:ce756b065aeb": {
    "company": "Google",
@@ -82212,7 +82268,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 159,
+   "last": 158,
    "last_ok": "2026-09-24"
   },
   "Airtable": {
@@ -82475,7 +82531,7 @@
   },
   "OpenAI": {
    "best": 828,
-   "last": 826,
+   "last": 827,
    "last_ok": "2026-09-24"
   },
   "OpenEvidence": {
@@ -82580,7 +82636,7 @@
   },
   "Stripe": {
    "best": 694,
-   "last": 691,
+   "last": 690,
    "last_ok": "2026-09-24"
   },
   "Suno": {
@@ -82658,6 +82714,6 @@
    "last_ok": "2026-09-24"
   }
  },
- "updated": "2026-09-24T18:40:15Z",
+ "updated": "2026-09-24T19:25:28Z",
  "version": 1
 }
