@@ -93,6 +93,7 @@ async function load() {
   }
   fillCompanies();
   fillRoles();
+  fillSources();
   render();
   startAutoRefresh();
   // marks left over from a previous visit (token missing then, save failed,
@@ -101,6 +102,26 @@ async function load() {
 }
 
 const ROLE_LABEL = T.roles;
+
+// LinkedIn arrives through the jobspy fetcher and is the one source that is
+// a search rather than a listing: it reaches employers no registry covers,
+// but it samples them, and its rows carry the board's URL rather than the
+// employer's. Worth being able to isolate, or to set aside.
+const LINKEDIN_SOURCE = "jobspy-linkedin";
+const isLinkedIn = j => (j.source || "") === LINKEDIN_SOURCE;
+
+function fillSources() {
+  const sel = $("fSource");
+  if (!sel) return;
+  const keep = sel.value;
+  let li = 0, rest = 0;
+  for (const j of Object.values(data.jobs)) (isLinkedIn(j) ? li++ : rest++);
+  sel.innerHTML =
+    '<option value="">Any source</option>' +
+    `<option value="linkedin">LinkedIn only (${li.toLocaleString()})</option>` +
+    `<option value="direct">Excluding LinkedIn (${rest.toLocaleString()})</option>`;
+  sel.value = keep;   // survive a refresh
+}
 
 function fillRoles() {
   const keep = $("fRole").value;
@@ -151,6 +172,7 @@ async function checkForUpdates(force = false) {
     lastTag = tag;
     fillCompanies();
     fillRoles();
+    fillSources();
     render();
     const added = Object.keys(data.jobs).length - before;
     if (added > 0) toast(`${added} new role${added === 1 ? "" : "s"} from the latest scan`);
@@ -241,7 +263,8 @@ function comparator(mode) {
 function render() {
   const tier = $("fTier").value, status = $("fStatus").value,
         comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
-        role = $("fRole").value, yoe = $("fYoe").value;
+        role = $("fRole").value, yoe = $("fYoe").value,
+        src = $("fSource") ? $("fSource").value : "";
   // "base" applies every filter EXCEPT tier, so each tile answers
   // "how many would I see if I picked this tier?"
   const base = Object.entries(data.jobs).filter(([id, j]) =>
@@ -249,6 +272,7 @@ function render() {
       (!comp || j.company === comp) &&
       (!role || (j.role || DEFAULT_ROLE) === role) &&
       (!yoe || (yoe === "unstated" ? j.yoe == null : j.yoe != null && j.yoe <= +yoe)) &&
+      (!src || (src === "linkedin") === isLinkedIn(j)) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
   renderActivity();
@@ -597,7 +621,8 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany","fSort","fRole","fYoe"].forEach(id => $(id).onchange = render);
+["fTier","fStatus","fCompany","fSort","fRole","fYoe","fSource"]
+  .forEach(id => { if ($(id)) $(id).onchange = render; });
 $("tiles").addEventListener("click", e => {
   const t = e.target.closest(".tile");
   if (!t) return;
