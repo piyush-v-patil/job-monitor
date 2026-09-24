@@ -3267,6 +3267,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10503878/software-dev-engineer-ii-ecr-private",
    "yoe": 2
   },
+  "amazon:248145f20562": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Boston, Massachusetts, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Programming Foundations",
+   "url": "https://www.amazon.jobs/en/jobs/10559749/software-dev-engineer-ii-programming-foundations",
+   "yoe": 1
+  },
   "amazon:2494f9adcf9c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4025,6 +4040,20 @@
    "title": "Software Development Engineer II, AWS Lambda",
    "url": "https://www.amazon.jobs/en/jobs/10521245/software-development-engineer-ii-aws-lambda",
    "yoe": 1
+  },
+  "amazon:4233c7857017": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Development Engineer Intern - Summer 2027 (USA) , Amazon Dedicated Cloud (ADC)",
+   "url": "https://www.amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc"
   },
   "amazon:43e38c551c68": {
    "company": "Amazon",
@@ -5199,6 +5228,20 @@
    "url": "https://www.amazon.jobs/en/jobs/10504429/software-dev-engineer-amazon-leo-ai-foundations",
    "yoe": 2
   },
+  "amazon:70d77bdb5703": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)",
+   "url": "https://www.amazon.jobs/en/jobs/10559762/software-development-engineer-intern-amazon-leo-summer-2027-usa"
+  },
   "amazon:713f69ff1a70": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5509,6 +5552,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10516097/software-development-engineer-amazon-leo",
    "yoe": 2
   },
+  "amazon:7c080c2960bc": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Boston, Massachusetts, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer III, Programming Foundations",
+   "url": "https://www.amazon.jobs/en/jobs/10559750/software-dev-engineer-iii-programming-foundations",
+   "yoe": 5
+  },
   "amazon:7dac57f4e411": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5760,6 +5818,21 @@
    "tier": "experienced",
    "title": "Software Engineer- AI/ML, Amazon Neuron Training",
    "url": "https://www.amazon.jobs/en/jobs/10501454/software-engineer-ai-ml-amazon-neuron-training"
+  },
+  "amazon:84a79f4610f9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Automated Reasoning Group",
+   "url": "https://www.amazon.jobs/en/jobs/10559739/software-development-engineer-automated-reasoning-group",
+   "yoe": 2
   },
   "amazon:86ba12e2d1b0": {
    "company": "Amazon",
@@ -6486,6 +6559,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Transit Gateway",
    "url": "https://www.amazon.jobs/en/jobs/10515153/software-development-engineer-transit-gateway",
+   "yoe": 1
+  },
+  "amazon:a1115c4376b0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Arlington, Virginia, USA",
+   "posted_at": "2026-09-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Programming Foundations",
+   "url": "https://www.amazon.jobs/en/jobs/10559747/software-dev-engineer-ii-programming-foundations",
    "yoe": 1
   },
   "amazon:a1d25c0f9f33": {
@@ -84604,7 +84692,7 @@
   },
   "Anthropic": {
    "best": 631,
-   "last": 627,
+   "last": 624,
    "last_ok": "2026-09-24"
   },
   "Apple": {
@@ -84952,7 +85040,7 @@
   },
   "Stripe": {
    "best": 694,
-   "last": 690,
+   "last": 691,
    "last_ok": "2026-09-24"
   },
   "Suno": {
@@ -85030,6 +85118,6 @@
    "last_ok": "2026-09-24"
   }
  },
- "updated": "2026-09-24T21:52:18Z",
+ "updated": "2026-09-24T22:39:41Z",
  "version": 1
 }
