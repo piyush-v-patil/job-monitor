@@ -171,6 +171,16 @@ job-monitor/
 │                                    ATS also gave us is merged, not tracked
 │                                    twice. See §5 for the knobs.
 │
+├── monitor/h1b.py                 ← builds docs/data/h1b.json: for every
+│                                    company either tracker has seen, how many
+│                                    H-1B petitions that employer has filed,
+│                                    how recently, and whether it files as a
+│                                    staffing agency. Run by its own weekly
+│                                    workflow; see §7 for what the signal does
+│                                    and does not mean.
+├── monitor/names.py               ← company-name normalization shared by the
+│                                    posting de-duplicator and the visa matcher
+│
 ├── docs/                          ← served by GitHub Pages
 │   ├── app.css                    ← all dashboard styling, shared by both
 │   │                                pages. Tier hues are NOT here: each
@@ -214,6 +224,11 @@ job-monitor/
     │                                sweep. Its own concurrency group, so it
     │                                can run alongside a software scan —
     │                                they write different files
+    ├── h1b-refresh.yml            ← cron "45 4 * * 1" (Mondays): rebuilds
+    │                                docs/data/h1b.json. Weekly, not quarterly:
+    │                                the DOL data moves each quarter but the
+    │                                company list grows daily, and a company
+    │                                with no entry gets no badge
     └── linkedin-smoke.yml         ← manual only. Asks LinkedIn for postings
                                      from a runner and fails loudly if it
                                      gets none, which is how you tell
@@ -418,6 +433,7 @@ committed or sent anywhere except api.github.com.
 | How far back LinkedIn looks | `hours_old:` on the same entry (default 72) |
 | Read each LinkedIn posting's body | `fetch_description: true` — lets `parse_yoe` correct a tier the title got wrong, at +1 request per job |
 | Other boards (Indeed, Glassdoor…) | add to `sites:` on the same entry — `[linkedin, indeed]`. Indeed is the least rate-limited of the set |
+| Fix a wrongly matched employer | add the company to `ALIASES` in `monitor/h1b.py`, then re-run the H-1B refresh workflow |
 | Route LinkedIn through proxies | set the `JOBSPY_PROXIES` repo secret (comma-separated URLs); the config only names the variable, never holds a credential |
 | Change what counts as a duplicate req | `groupKey` in `docs/app.js` — postings are folded when company, title and location all match once whitespace and case are normalized. Folding is a view-only concern; nothing in `monitor/` or the JSON is involved |
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run`, or `python -m monitor.main --profile supplychain --tier all --dry-run` |
@@ -476,6 +492,30 @@ normal, occasionally more during peak load.
   says so), it is being throttled, not broken: add a `JOBSPY_PROXIES` secret
   and it resumes. `Actions → LinkedIn reachability → Run workflow` answers
   "is it being throttled right now?" without waiting for a scan.
+- **H-1B sponsorship is a company's filing history, not a promise about the
+  role.** The badge counts petitions the employer has filed with the Department
+  of Labor. A company with 400 filings still posts citizenship-only and
+  clearance-only reqs, so it narrows the field rather than settling it.
+- **No filings found is not "does not sponsor".** Northrop Grumman has zero
+  records across 2009–2026 — a hole in the disclosure data, not a fact about
+  the employer. The dashboard says "no H-1B filings found" and styles it
+  neutrally for exactly that reason, and nothing is ever filtered out by
+  default.
+- **~16% of companies do not match a filer.** Matching is by normalized name:
+  exact, then de-spaced (`WAL-MART` → `Walmart`), then a hand-written alias
+  table, then a first-token prefix. The last tier is loose by design — it is
+  what lets short names like Uber, Okta and CGI match at all, and it costs a
+  few wrong guesses ("Flex" lands on *Flex Consulting Group*, not the
+  manufacturer). Loose matches are badged with a `~` and name the matched
+  employer on hover, so a bad guess is visible rather than asserted. Widening
+  `ALIASES` in `monitor/h1b.py` is the fix for any that matter to you.
+- **The visa data is a third-party mirror.** USCIS and DOL both serve their
+  bulk files behind bot protection that refuses automated download (403), so
+  the index is built from a community mirror of the same public-domain DOL
+  disclosures. Every build verifies the download against the sha256 in the
+  mirror's own manifest, and `version`/`built_at` are written into
+  `docs/data/h1b.json` — so if the mirror stops updating, the badge ages
+  visibly rather than breaking.
 - **"Experienced ≤5 yrs" is title-based** (SWE II/III, Engineer 2…). Plain
   "Software Engineer" titles are included too — verify the years requirement
   in the actual posting.

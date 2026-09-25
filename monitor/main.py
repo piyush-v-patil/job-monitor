@@ -19,7 +19,7 @@ import sys
 
 import yaml
 
-from . import notify, profiles, state
+from . import h1b, notify, profiles, state
 from .fetchers import FETCHERS
 
 
@@ -149,6 +149,15 @@ def main():
         return
 
     state.save(st, profile.state_path)
+    # Sponsorship rides along on the notification copy only. It is per-company
+    # rather than per-posting, and h1b.json already holds it for the dashboard,
+    # so writing it into every job entry would duplicate a whole file across
+    # thousands of rows and make each weekly refresh rewrite the tracker.
+    sponsors = h1b.load()
+    if sponsors:
+        for j in new:
+            if j["company"] in sponsors:
+                j["h1b"] = sponsors[j["company"]]
     if new and not seeding and not args.no_notify:
         notify.send(new, run_label=f"(scan: {profile.key}/{args.tier})",
                     webhook_env=profile.webhook_env,

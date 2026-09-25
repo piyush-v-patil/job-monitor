@@ -91,9 +91,11 @@ async function load() {
       " (" + esc(e.message) + "). Run a scan workflow first, then refresh.</p>";
     return;
   }
+  await loadH1b();
   fillCompanies();
   fillRoles();
   fillSources();
+  fillH1b();
   render();
   startAutoRefresh();
   // marks left over from a previous visit (token missing then, save failed,
@@ -102,6 +104,61 @@ async function load() {
 }
 
 const ROLE_LABEL = T.roles;
+
+// ---- H-1B sponsorship ---------------------------------------------------
+// Built by its own workflow into data/h1b.json, keyed by the same company
+// string every posting already carries - which is what makes the signal cover
+// the whole backlog the moment the file lands, with no re-scan and no
+// migration of jobs.json.
+//
+// Three states, and they are not the same thing:
+//   a record   this employer has filed, and here is how much
+//   null       we looked it up and found nothing. NOT "does not sponsor" -
+//              Northrop Grumman has no records at all, which is a hole in the
+//              disclosure data rather than a fact about the employer
+//   undefined  not looked up (file missing, or a company added since the last
+//              refresh). Shows nothing at all.
+let h1b = {};
+
+async function loadH1b() {
+  try {
+    const r = await fetch("data/h1b.json?" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    h1b = (await r.json()).companies || {};
+  } catch (e) {
+    h1b = {};   // never fatal: no badges beats no dashboard
+  }
+}
+
+// undefined (not looked up) and null (looked up, nothing found) are different
+// answers, so this returns the raw value rather than coercing either away.
+const h1bOf = j => h1b[j.company];
+
+function fillH1b() {
+  const sel = $("fH1b");
+  if (!sel) return;
+  const keep = sel.value;
+  let yes = 0, none = 0, staffing = 0;
+  for (const j of Object.values(data.jobs)) {
+    const h = h1bOf(j);
+    if (h) { yes++; if (h.staffing) staffing++; }
+    else if (h === null) none++;
+  }
+  sel.innerHTML =
+    '<option value="">Any sponsorship</option>' +
+    `<option value="yes">Sponsors H-1B (${yes.toLocaleString()})</option>` +
+    `<option value="none">No filings found (${none.toLocaleString()})</option>` +
+    `<option value="staffing">Staffing agency (${staffing.toLocaleString()})</option>`;
+  sel.value = keep;   // survive a refresh
+}
+
+function h1bMatches(j, want) {
+  if (!want) return true;
+  const h = h1bOf(j);
+  if (want === "yes") return !!h;
+  if (want === "staffing") return !!h && h.staffing;
+  return h === null;            // "none" is the looked-up-and-absent case only
+}
 
 // LinkedIn arrives through the jobspy fetcher and is the one source that is
 // a search rather than a listing: it reaches employers no registry covers,
@@ -173,6 +230,7 @@ async function checkForUpdates(force = false) {
     fillCompanies();
     fillRoles();
     fillSources();
+    fillH1b();   // a scan adds companies, which moves the sponsorship counts
     render();
     const added = Object.keys(data.jobs).length - before;
     if (added > 0) toast(`${added} new role${added === 1 ? "" : "s"} from the latest scan`);
@@ -264,7 +322,8 @@ function render() {
   const tier = $("fTier").value, status = $("fStatus").value,
         comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
         role = $("fRole").value, yoe = $("fYoe").value,
-        src = $("fSource") ? $("fSource").value : "";
+        src = $("fSource") ? $("fSource").value : "",
+        spon = $("fH1b") ? $("fH1b").value : "";
   // "base" applies every filter EXCEPT tier, so each tile answers
   // "how many would I see if I picked this tier?"
   const base = Object.entries(data.jobs).filter(([id, j]) =>
@@ -273,6 +332,7 @@ function render() {
       (!role || (j.role || DEFAULT_ROLE) === role) &&
       (!yoe || (yoe === "unstated" ? j.yoe == null : j.yoe != null && j.yoe <= +yoe)) &&
       (!src || (src === "linkedin") === isLinkedIn(j)) &&
+      h1bMatches(j, spon) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
   renderActivity();
@@ -480,6 +540,35 @@ function daysOld(d){
   return isNaN(ms) ? null : Math.floor(ms / 86400000);
 }
 
+// The sponsorship badges say what the filing record says and stop there. No
+// red, no "does not sponsor", nothing hidden: a company's filing history is
+// evidence about the company, never a ruling on the requisition in front of
+// you, and a company missing from the data is missing, not disqualified.
+function h1bBadges(j){
+  const h = h1bOf(j);
+  if (h === undefined) return [];          // never looked up - say nothing
+  if (h === null)
+    return [`<span class="badge" title="No H-1B filings on record for this employer.
+Absence is not proof: some sponsors are simply missing from the disclosure data.">🛂 no H-1B filings found</span>`];
+
+  const out = [];
+  // a loose match is one token deep ("Flex" -> "Flex Consulting Group"), so it
+  // is marked with a ~ and always names who it matched
+  const fuzzy = h.confidence === "loose" || h.confidence === "prefix";
+  const since = h.last ? `, most recently ${h.last}` : "";
+  const tip = `${h.filed.toLocaleString()} H-1B filings by "${h.matched}"${since}.` +
+    (fuzzy ? `\nMatched approximately on the company name - check it is the same employer.`
+           : "") +
+    `\nCompany history, not a guarantee for this role.`;
+  out.push(`<span class="badge h1b" title="${esc(tip)}">🛂 H-1B ${
+    fuzzy ? "~" : ""}${h.filed.toLocaleString()}</span>`);
+  if (h.staffing)
+    out.push(`<span class="badge staffing" title="${esc(
+      `"${h.matched}" files as a staffing or consulting agency, so the role is likely to be at a client site.`)
+    }">🏢 staffing agency</span>`);
+  return out;
+}
+
 function badges(j, lead = ""){
   const b = lead ? [lead] : [];
   if (j.comp) b.push(`<span class="badge comp">💰 ${esc(j.comp)}</span>`);
@@ -498,6 +587,7 @@ function badges(j, lead = ""){
   if (j.role && j.role !== DEFAULT_ROLE)
     b.push(`<span class="badge">${esc(ROLE_LABEL[j.role] || j.role)}</span>`);
   if (j.department) b.push(`<span class="badge">🗂 ${esc(j.department)}</span>`);
+  b.push(...h1bBadges(j));
   return b.length ? `<div class="badges">${b.join("")}</div>` : "";
 }
 
@@ -621,7 +711,7 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany","fSort","fRole","fYoe","fSource"]
+["fTier","fStatus","fCompany","fSort","fRole","fYoe","fSource","fH1b"]
   .forEach(id => { if ($(id)) $(id).onchange = render; });
 $("tiles").addEventListener("click", e => {
   const t = e.target.closest(".tile");

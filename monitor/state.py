@@ -45,6 +45,8 @@ import os
 import re
 from datetime import datetime, timezone
 
+from . import names
+
 # Default tracker file. Callers that run a non-default profile pass the path
 # explicitly (see monitor/profiles.py); nothing else about the state layer
 # differs between trackers, so the rest of this module never asks which one
@@ -86,20 +88,18 @@ def canonical_key(company: str, url: str) -> str:
 # canonical_key finds nothing to match on and the job would be tracked - and
 # notified - twice. These rows carry `soft_dedupe`, and are matched on what the
 # two copies do agree about: who is hiring, for what, and where.
-SOFT_STRIP = re.compile(
-    r"\b(inc|llc|ltd|corp|corporation|co|company|plc|gmbh|sa|nv|ag|holdings"
-    r"|group|technologies|technology)\b", re.I)
-SOFT_NOISE = re.compile(r"[^a-z0-9 ]+")
+# Two listings of one job also disagree about the employer's suffix, so the
+# shared vocabulary in names.py does that part. "Technologies" is dropped here
+# and nowhere else: two postings differing only by it are the same employer,
+# whereas two visa filers differing only by it need not be.
+SOFT_STRIP = names.suffix_pattern("technologies", "technology")
 # Req numbers and campus-cycle years differ between the two listings of one job
 # ("Software Engineer (R12345)" vs "Software Engineer"), so they are dropped.
 SOFT_TITLE_NOISE = re.compile(r"\(?\b[a-z]{0,3}[-_]?\d{4,}\b\)?", re.I)
 
 
 def _soft_norm(text: str, strip_suffixes: bool = False) -> str:
-    s = SOFT_NOISE.sub(" ", (text or "").lower())
-    if strip_suffixes:
-        s = SOFT_STRIP.sub(" ", s)
-    return re.sub(r"\s+", " ", s).strip()
+    return names.normalize(text, SOFT_STRIP if strip_suffixes else None)
 
 
 def soft_key(company: str, title: str, location: str) -> str:

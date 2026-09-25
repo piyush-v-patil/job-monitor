@@ -137,6 +137,13 @@ main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
 .badge.fresh { color:#ffd479; border-color:rgba(255,212,121,.22); background:rgba(255,212,121,.06); }
 .badge.yoe { color:#c3b6ff; border-color:rgba(195,182,255,.22); background:rgba(195,182,255,.06); }
 .badge.urgent { color:#ff9b8a; border-color:rgba(255,155,138,.3); background:rgba(255,155,138,.08); }
+/* Sponsorship history. Teal reads as its own category next to the green of
+   compensation, and it is the only colour the pair gets: "no filings found"
+   deliberately keeps the neutral default badge, because it reports a gap in
+   the public data rather than a verdict on the employer, and red here would
+   say something the data does not support. */
+.badge.h1b { color:#6fd3d0; border-color:rgba(111,211,208,.22); background:rgba(111,211,208,.06); }
+.badge.staffing { color:#d5b78f; border-color:rgba(213,183,143,.22); background:rgba(213,183,143,.06); }
 .snip { color:var(--dim); font-size:11.5px; margin-top:6px; line-height:1.45; }
 
 /* ---- folded duplicate requisitions ---- */
