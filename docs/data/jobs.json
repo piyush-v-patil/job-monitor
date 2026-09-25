@@ -5233,6 +5233,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10538318/software-development-engineer-aws-transform",
    "yoe": 1
   },
+  "amazon:61c7200ebbd2": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Irvine, California, USA",
+   "posted_at": "2026-09-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Devices Software & Services",
+   "url": "https://www.amazon.jobs/en/jobs/10560849/software-development-engineer-devices-software-services",
+   "yoe": 2
+  },
   "amazon:624391c56d81": {
    "company": "Amazon",
    "department": "Software Development",
@@ -6981,6 +6996,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10536359/software-development-engineer-amazon-leo-amazon-leo-commerce",
    "yoe": 1
   },
+  "amazon:a27731544ce0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Irvine, California, USA",
+   "posted_at": "2026-09-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Devices Software & Services",
+   "url": "https://www.amazon.jobs/en/jobs/10560848/software-development-engineer-devices-software-services",
+   "yoe": 2
+  },
   "amazon:a2b03f2c86f6": {
    "company": "Amazon",
    "department": "Software Development",
@@ -8305,6 +8335,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10553852/software-development-engineer-ii-builder-foundations-grid-orcalabs",
    "yoe": 1
   },
+  "amazon:d79e3de1ddfa": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Measurement, Ad Tech, and Data Science ",
+   "url": "https://www.amazon.jobs/en/jobs/10560889/software-development-engineer-measurement-ad-tech-and-data-science",
+   "yoe": 2
+  },
   "amazon:d7a74bce9e78": {
    "company": "Amazon",
    "department": "Software Development",
@@ -8348,6 +8393,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, Region Authority",
    "url": "https://www.amazon.jobs/en/jobs/10550291/software-dev-engineer-ii-region-authority",
+   "yoe": 1
+  },
+  "amazon:d95f5f7fe654": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-09-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Device OS",
+   "url": "https://www.amazon.jobs/en/jobs/10560873/software-development-engineer-ii-device-os",
    "yoe": 1
   },
   "amazon:d969eb857a26": {
@@ -41573,6 +41633,17 @@
    "title": "EMC Test Engineer, Platforms Infrastructure Engineering",
    "url": "https://www.google.com/about/careers/applications/jobs/results/121101450372620998-emc-test-engineer-platforms-infrastructure-engineering"
   },
+  "google:31584470c734": {
+   "company": "Google",
+   "first_seen": "2026-09-25",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Cloud Networking",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/100310324367762118-software-engineer-iii-infrastructure-google-cloud-networking"
+  },
   "google:325268175d2c": {
    "company": "Google",
    "first_seen": "2026-09-11",
@@ -43625,6 +43696,17 @@
    "title": "Software Engineer III, Multimodal Agentic AI, XR",
    "url": "https://www.google.com/about/careers/applications/jobs/results/125069061166899910-software-engineer-iii-multimodal-agentic-ai-xr"
   },
+  "google:c8e2314bbdeb": {
+   "company": "Google",
+   "first_seen": "2026-09-25",
+   "location": "Redmond, WA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML Computer Vision, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/117058085482046150-software-engineer-iii-aiml-computer-vision-google-cloud"
+  },
   "google:ca37422885dd": {
    "company": "Google",
    "first_seen": "2026-08-27",
@@ -43690,6 +43772,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, AI/ML GenAI, Google Cloud Compute Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91655260891685574-software-engineer-iii-aiml-genai-google-cloud-compute-infrastructure"
+  },
+  "google:ce740cfbe994": {
+   "company": "Google",
+   "first_seen": "2026-09-25",
+   "location": "San Francisco, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Optimization Research Engineer, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/120898404719960774-optimization-research-engineer-deepmind"
   },
   "google:ce756b065aeb": {
    "company": "Google",
@@ -53628,6 +53721,20 @@
    "tier": "experienced",
    "title": "Software Engineer 4 - TV Product UI",
    "url": "https://explore.jobs.netflix.net/careers/job/790317849415",
+   "workplace": "On-site"
+  },
+  "netflix:d815544a95d3": {
+   "company": "Netflix",
+   "department": "Engineering",
+   "first_seen": "2026-09-25",
+   "location": "Remote, United States",
+   "posted_at": "2026-09-25",
+   "role": "software",
+   "source": "eightfold",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (L6) - Compute Runtime",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317912743",
    "workplace": "On-site"
   },
   "netflix:d90f5239aa4b": {
@@ -90814,7 +90921,7 @@
   },
   "Anthropic": {
    "best": 631,
-   "last": 625,
+   "last": 620,
    "last_ok": "2026-09-25"
   },
   "Apple": {
@@ -91057,7 +91164,7 @@
   },
   "OpenAI": {
    "best": 832,
-   "last": 831,
+   "last": 830,
    "last_ok": "2026-09-25"
   },
   "OpenEvidence": {
@@ -91161,8 +91268,8 @@
    "last_ok": "2026-09-25"
   },
   "Stripe": {
-   "best": 700,
-   "last": 700,
+   "best": 702,
+   "last": 702,
    "last_ok": "2026-09-25"
   },
   "Suno": {
@@ -91240,6 +91347,6 @@
    "last_ok": "2026-09-25"
   }
  },
- "updated": "2026-09-25T19:27:09Z",
+ "updated": "2026-09-25T22:43:02Z",
  "version": 1
 }
