@@ -29,6 +29,18 @@ def _fields(j: dict) -> list:
                     "inline": True})
     if j.get("department"):
         out.append({"name": "🗂 Team", "value": j["department"][:1024], "inline": True})
+    # Sponsorship history, when h1b.json has an answer for this employer. An
+    # employer it has never looked up says nothing at all - only a lookup that
+    # came back empty is worth printing, and even that is phrased as a gap in
+    # the record rather than a verdict (see monitor/h1b.py).
+    h = j.get("h1b", "missing")
+    if h is not None and h != "missing":
+        fuzzy = h.get("confidence") in ("loose", "prefix")
+        out.append({"name": "🛂 H-1B", "inline": True,
+                    "value": f"{h['filed']:,} filings{' (approx. match)' if fuzzy else ''}"
+                             + (" · staffing agency" if h.get("staffing") else "")})
+    elif h is None:
+        out.append({"name": "🛂 H-1B", "value": "no filings found", "inline": True})
     return out
 
 

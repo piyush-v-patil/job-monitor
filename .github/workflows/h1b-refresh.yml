@@ -1,0 +1,63 @@
+name: H-1B index refresh
+
+# Rebuilds docs/data/h1b.json: for every company either tracker has seen, how
+# many H-1B petitions that employer has filed, how recently, and whether it
+# files as a staffing agency.
+#
+# Weekly rather than quarterly. The underlying DOL disclosure data only moves
+# each quarter, but the *company list* grows every day - the LinkedIn source
+# alone brought in ~1,000 employers nobody registered by hand - and a company
+# with no entry gets no badge at all. Weekly keeps new arrivals covered without
+# waiting a quarter.
+#
+# This never touches jobs.json, so it can run alongside any scan.
+
+on:
+  schedule:
+    - cron: "45 4 * * 1"     # Mondays 04:45 UTC, away from the scan crons
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: h1b-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # The build verifies the download against the sha256 in its own manifest
+      # and exits non-zero on a mismatch, so a truncated or swapped file fails
+      # here and leaves the previous index in place rather than replacing it
+      # with something wrong.
+      - name: Rebuild the employer index
+        run: python -m monitor.h1b
+      - name: Commit the index
+        run: |
+          git config user.name "job-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          # A scan commits jobs.json on its own schedule and may land first.
+          # This file is rebuilt from scratch every run and shares no lines
+          # with theirs, so rebasing onto whatever arrived is always safe.
+          for attempt in 1 2 3; do
+            git add docs/data/h1b.json
+            if git diff --cached --quiet; then
+              echo "index unchanged"; exit 0
+            fi
+            git commit -m "h1b: refresh sponsorship index"
+            if git push origin HEAD:"${GITHUB_REF_NAME}"; then
+              echo "pushed (attempt $attempt)"; exit 0
+            fi
+            echo "push rejected - rebasing onto the branch (attempt $attempt)"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}" || git rebase --abort
+          done
+          echo "still could not push after 3 attempts"; exit 1
