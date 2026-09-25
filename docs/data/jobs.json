@@ -6330,6 +6330,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515713/software-development-engineer-amazon-shopping-videos-ads",
    "yoe": 1
   },
+  "amazon:8c962e222ff3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Newark, New Jersey, USA",
+   "posted_at": "2026-09-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Consumer Domains",
+   "url": "https://www.amazon.jobs/en/jobs/10560727/software-development-engineer-consumer-domains",
+   "yoe": 1
+  },
   "amazon:8d19a8db2962": {
    "company": "Amazon",
    "department": "Software Development",
@@ -79879,6 +79894,18 @@
    "title": "Software Engineer, Intern (Summer or Winter)",
    "url": "https://www.linkedin.com/jobs/view/4462047454"
   },
+  "stripe:82954e5ad20c": {
+   "company": "Stripe",
+   "first_seen": "2026-09-25",
+   "location": "US - Remote",
+   "posted_at": "2026-09-25",
+   "role": "security",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Offensive Security Engineer",
+   "url": "https://stripe.com/jobs/search?gh_jid=8233889"
+  },
   "stripe:831b93b378db": {
    "company": "Stripe",
    "first_seen": "2026-09-11",
@@ -90767,7 +90794,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 157,
+   "last": 158,
    "last_ok": "2026-09-25"
   },
   "Airtable": {
@@ -91030,7 +91057,7 @@
   },
   "OpenAI": {
    "best": 832,
-   "last": 832,
+   "last": 831,
    "last_ok": "2026-09-25"
   },
   "OpenEvidence": {
@@ -91134,8 +91161,8 @@
    "last_ok": "2026-09-25"
   },
   "Stripe": {
-   "best": 698,
-   "last": 698,
+   "best": 700,
+   "last": 700,
    "last_ok": "2026-09-25"
   },
   "Suno": {
@@ -91213,6 +91240,6 @@
    "last_ok": "2026-09-25"
   }
  },
- "updated": "2026-09-25T18:56:02Z",
+ "updated": "2026-09-25T19:27:09Z",
  "version": 1
 }
