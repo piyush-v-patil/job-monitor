@@ -6881,6 +6881,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10510280/software-development-engineer-ec2-trainium-ai-infra",
    "yoe": 1
   },
+  "amazon:77624381e6da": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-28",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , DynamoDB Index, Search and Storage",
+   "url": "https://www.amazon.jobs/en/jobs/10561388/software-development-engineer-dynamodb-index-search-and-storage",
+   "yoe": 1
+  },
   "amazon:7762d1fb8515": {
    "company": "Amazon",
    "first_seen": "2026-09-27",
@@ -50871,6 +50886,17 @@
    "title": "Software Engineer III, Full Stack",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100318765052240582-software-engineer-iii-full-stack"
   },
+  "google:16462473cfdb": {
+   "company": "Google",
+   "first_seen": "2026-09-28",
+   "location": "Mountain View, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Play and Developer Ecosystem Strategy Lead",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/83285202855436998-play-and-developer-ecosystem-strategy-lead"
+  },
   "google:19b2d7f1daa6": {
    "company": "Google",
    "first_seen": "2026-09-15",
@@ -51790,6 +51816,17 @@
    "title": "Software Engineer III",
    "url": "https://www.google.com/about/careers/applications/jobs/results/126567268703183558-software-engineer-iii"
   },
+  "google:4d47ace900b3": {
+   "company": "Google",
+   "first_seen": "2026-09-28",
+   "location": "Kirkland, WA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML, Core",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/118249122862899910-software-engineer-iii-aiml-core"
+  },
   "google:4f64e7cace03": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -52352,6 +52389,17 @@
    "tier": "experienced",
    "title": "Software Engineer, UX, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/81974532381778630-software-engineer-ux-deepmind"
+  },
+  "google:75472608872b": {
+   "company": "Google",
+   "first_seen": "2026-09-28",
+   "location": "Austin, TX, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Customer Quality Engineer, Cloud AI Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/78418764390900422-customer-quality-engineer-cloud-ai-infrastructure"
   },
   "google:75c42e4a2fca": {
    "company": "Google",
@@ -71329,6 +71377,30 @@
    "tier": "experienced",
    "title": "Systems Software Engineer - AI and Cloud",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer---AI-and-Cloud_JR2024087"
+  },
+  "nvidia:d10e3e81df5a": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-28",
+   "location": "2 Locations",
+   "posted_at": "2026-09-28",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Software Engineer, Lightspeed Studios",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/AI-Software-Engineer--Lightspeed-Studios_JR2026538"
+  },
+  "nvidia:d26c01985529": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-28",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-28",
+   "role": "security",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "GPU SW Security Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-SW-Security-Engineer_JR2026536"
   },
   "nvidia:d3f793b45736": {
    "company": "Nvidia",
@@ -112759,7 +112831,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 159,
+   "last": 160,
    "last_ok": "2026-09-28"
   },
   "Airtable": {
@@ -112779,7 +112851,7 @@
   },
   "Anthropic": {
    "best": 631,
-   "last": 618,
+   "last": 617,
    "last_ok": "2026-09-28"
   },
   "Apple": {
@@ -113012,7 +113084,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 193,
+   "last": 192,
    "last_ok": "2026-09-28"
   },
   "Okta": {
@@ -113022,7 +113094,7 @@
   },
   "OpenAI": {
    "best": 832,
-   "last": 829,
+   "last": 830,
    "last_ok": "2026-09-28"
   },
   "OpenEvidence": {
@@ -113127,7 +113199,7 @@
   },
   "Stripe": {
    "best": 703,
-   "last": 701,
+   "last": 702,
    "last_ok": "2026-09-28"
   },
   "Suno": {
@@ -113205,6 +113277,6 @@
    "last_ok": "2026-09-28"
   }
  },
- "updated": "2026-09-28T05:48:15Z",
+ "updated": "2026-09-28T10:05:29Z",
  "version": 1
 }
