@@ -6113,6 +6113,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10557066/software-development-engineer",
    "yoe": 2
   },
+  "amazon:530a2eb25c57": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-28",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Items and Offers Platform, Identity Performance and Defect Detection",
+   "url": "https://www.amazon.jobs/en/jobs/10562270/software-development-engineer-items-and-offers-platform-identity-performance-and-defect-detection",
+   "yoe": 1
+  },
   "amazon:530fc4b0a88d": {
    "company": "Amazon",
    "department": "Software Development",
@@ -8955,6 +8970,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10534875/hpc-platform-engineer-software-center-for-quantum-computing",
    "yoe": 6
   },
+  "amazon:ba192043f249": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-28",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Items and Offers Platform, Identity Performance and Defect Detection",
+   "url": "https://www.amazon.jobs/en/jobs/10562274/software-development-engineer-items-and-offers-platform-identity-performance-and-defect-detection",
+   "yoe": 1
+  },
   "amazon:badbd3a757e6": {
    "company": "Amazon",
    "first_seen": "2026-09-25",
@@ -9685,6 +9715,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10539128/software-dev-engineer-iii-prime-air",
    "yoe": 5
   },
+  "amazon:d2f0cabde9b9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-28",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Payments & Fraud Prevention",
+   "url": "https://www.amazon.jobs/en/jobs/10562259/software-development-engineer-aws-payments-fraud-prevention",
+   "yoe": 5
+  },
   "amazon:d3e73d74c53c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -9923,6 +9968,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Specialist AI Tooling, Specialist Technology Team",
    "url": "https://www.amazon.jobs/en/jobs/10506811/software-development-engineer-specialist-ai-tooling-specialist-technology-team",
+   "yoe": 1
+  },
+  "amazon:dd40ad681add": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-28",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Quick ",
+   "url": "https://www.amazon.jobs/en/jobs/10561978/software-development-engineer-amazon-quick",
    "yoe": 1
   },
   "amazon:dd771f6f5ed9": {
@@ -52480,6 +52540,17 @@
    "title": "Research Engineer, Gemini Multi-turn",
    "url": "https://www.google.com/about/careers/applications/jobs/results/143337312107799238-research-engineer-gemini-multiturn"
   },
+  "google:21ee12e47d1c": {
+   "company": "Google",
+   "first_seen": "2026-09-28",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, ML, Search Ads Creatives",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/92803434498925254-software-engineer-ml-search-ads-creatives"
+  },
   "google:2260e4b46b3a": {
    "company": "Google",
    "first_seen": "2026-09-16",
@@ -53355,6 +53426,17 @@
    "title": "Software Engineer, Health and Home Infrastructure, Health Research Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/118407586755027654-software-engineer-health-and-home-infrastructure-health-research-infrastructure"
   },
+  "google:565e62b23aae": {
+   "company": "Google",
+   "first_seen": "2026-09-28",
+   "location": "Mountain View, CA, USA; New York, NY, USA; +2 more; +1 more",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Scientist/Engineer, Autonomous Security, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/136766307423920838-research-scientistengineer-autonomous-security-deepmind"
+  },
   "google:57335a925ef1": {
    "company": "Google",
    "first_seen": "2026-09-04",
@@ -53897,6 +53979,17 @@
    "title": "Software Engineer, Google Beam, Full Stack",
    "url": "https://www.google.com/about/careers/applications/jobs/results/114584494630937286-software-engineer-google-beam-full-stack"
   },
+  "google:80e9ab584267": {
+   "company": "Google",
+   "first_seen": "2026-09-28",
+   "location": "Fremont, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer, Raxium",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/111719432543183558-site-reliability-engineer-raxium"
+  },
   "google:81c2140461fd": {
    "company": "Google",
    "first_seen": "2026-09-16",
@@ -54184,6 +54277,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Spanner",
    "url": "https://www.google.com/about/careers/applications/jobs/results/117919290849403590-software-engineer-iii-infrastructure-spanner"
+  },
+  "google:9a4431c57317": {
+   "company": "Google",
+   "first_seen": "2026-09-28",
+   "location": "Mountain View, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Platforms and Devices",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/76658205756662470-software-engineer-iii-infrastructure-platforms-and-devices"
   },
   "google:9b4ff161e719": {
    "company": "Google",
@@ -72469,6 +72573,18 @@
    "title": "System Software Engineer - GPU and SOC",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---GPU-and-SOC_JR2015886"
   },
+  "nvidia:173718402483": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-28",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System Software Engineer - GeForce NOW Low Latency Streaming",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---GeForce-NOW-Low-Latency-Streaming_JR2021605"
+  },
   "nvidia:17a47cfcb719": {
    "company": "Nvidia",
    "first_seen": "2026-09-21",
@@ -72972,6 +73088,18 @@
    "tier": "experienced",
    "title": "Software Engineer, CUDA Deep Learning Systems",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CUDA-Deep-Learning-Systems_JR2022831"
+  },
+  "nvidia:8bdb735a35dc": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-28",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-09-28",
+   "role": "qa-test",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Platform Software Validation Engineer - SDET",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Development-Engineer-in-Test---Datacenter-Server-OS_JR2011122"
   },
   "nvidia:8be68f962c15": {
    "company": "Nvidia",
@@ -76927,6 +77055,22 @@
    "url": "https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e",
    "workplace": "Hybrid",
    "yoe": 4
+  },
+  "openai:a7f0136480c1": {
+   "comp": "$177K – $327K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Scaling",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-28",
+   "location": "San Francisco",
+   "posted_at": "2026-09-28",
+   "role": "devops-sre",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, DevOps",
+   "url": "https://jobs.ashbyhq.com/openai/a5dd77a2-9ab1-4165-98aa-c7bb0260985b",
+   "workplace": "Hybrid"
   },
   "openai:a91ffb0f1050": {
    "comp": "$230K – $385K • Offers Equity",
@@ -101364,6 +101508,18 @@
    "title": "Forward Deployed AI Accelerator, Marketing",
    "url": "https://stripe.com/jobs/search?gh_jid=7747640"
   },
+  "stripe:f35b1b0d65b0": {
+   "company": "Stripe",
+   "first_seen": "2026-09-28",
+   "location": "San Francisco",
+   "posted_at": "2026-09-28",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Growth Platform",
+   "url": "https://stripe.com/jobs/search?gh_jid=8224915"
+  },
   "stripe:f53703087f46": {
    "company": "Stripe",
    "first_seen": "2026-08-26",
@@ -115506,7 +115662,7 @@
   },
   "Anthropic": {
    "best": 631,
-   "last": 624,
+   "last": 626,
    "last_ok": "2026-09-28"
   },
   "Apple": {
@@ -115749,7 +115905,7 @@
   },
   "OpenAI": {
    "best": 832,
-   "last": 830,
+   "last": 831,
    "last_ok": "2026-09-28"
   },
   "OpenEvidence": {
@@ -115932,6 +116088,6 @@
    "last_ok": "2026-09-28"
   }
  },
- "updated": "2026-09-28T14:25:33Z",
+ "updated": "2026-09-28T18:41:02Z",
  "version": 1
 }
