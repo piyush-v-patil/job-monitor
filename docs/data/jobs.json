@@ -10147,6 +10147,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10554903/software-development-engineer-kiro",
    "yoe": 1
   },
+  "amazon:d099d5210776": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-29",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Advertising Services",
+   "url": "https://www.amazon.jobs/en/jobs/10563738/software-development-engineer-advertising-services",
+   "yoe": 1
+  },
   "amazon:d0b800272be0": {
    "company": "Amazon",
    "department": "Software Development",
@@ -55630,6 +55645,17 @@
    "title": "Software Engineer III, Infrastructure, API Proxy, One Platform",
    "url": "https://www.google.com/about/careers/applications/jobs/results/75227853871817414-software-engineer-iii-infrastructure-api-proxy-one-platform"
   },
+  "google:0a4aaf18346c": {
+   "company": "Google",
+   "first_seen": "2026-09-29",
+   "location": "San Francisco, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Audio Machine Learning Engineer, Google Beam",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/106471308924986054-audio-machine-learning-engineer-google-beam"
+  },
   "google:0a5fe01fdebe": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -57354,6 +57380,17 @@
    "title": "Software Engineer III, Storage Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/131238947580715718-software-engineer-iii-storage-infrastructure"
   },
+  "google:7796fd711c56": {
+   "company": "Google",
+   "first_seen": "2026-09-29",
+   "location": "Kirkland, WA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Foundation Services, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/124531131008590534-software-engineer-iii-foundation-services-google-cloud"
+  },
   "google:77a22eecf0fa": {
    "company": "Google",
    "first_seen": "2026-09-22",
@@ -57552,6 +57589,17 @@
    "tier": "experienced",
    "title": "Technical Lead, YouTube Posts Discovery, Machine Learning and Recommendation",
    "url": "https://www.google.com/about/careers/applications/jobs/results/72482495743828678-technical-lead-youtube-posts-discovery-machine-learning-and-recommendation"
+  },
+  "google:88b75022cb76": {
+   "company": "Google",
+   "first_seen": "2026-09-29",
+   "location": "Mountain View, CA, USA; New York, NY, USA; +3 more; +2 more",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer, Generative AI, Geo",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/134016342943507142-forward-deployed-engineer-generative-ai-geo"
   },
   "google:88f2ee15ee97": {
    "company": "Google",
@@ -57906,6 +57954,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Cloud Security, Identity and Access Management",
    "url": "https://www.google.com/about/careers/applications/jobs/results/141965593505866438-software-engineer-iii-cloud-security-identity-and-access-management"
+  },
+  "google:a2627409ecbb": {
+   "company": "Google",
+   "first_seen": "2026-09-29",
+   "location": "Seattle, WA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Google Distributed Cloud, Connected",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/136651047681565382-software-engineer-iii-google-distributed-cloud-connected"
   },
   "google:a3304dab65c9": {
    "company": "Google",
@@ -123201,7 +123260,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 156,
+   "last": 155,
    "last_ok": "2026-09-29"
   },
   "Airtable": {
@@ -123221,7 +123280,7 @@
   },
   "Anthropic": {
    "best": 631,
-   "last": 629,
+   "last": 627,
    "last_ok": "2026-09-29"
   },
   "Apple": {
@@ -123464,7 +123523,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 842,
+   "last": 834,
    "last_ok": "2026-09-29"
   },
   "OpenEvidence": {
@@ -123568,8 +123627,8 @@
    "last_ok": "2026-09-29"
   },
   "Stripe": {
-   "best": 704,
-   "last": 704,
+   "best": 709,
+   "last": 709,
    "last_ok": "2026-09-29"
   },
   "Suno": {
@@ -123647,6 +123706,6 @@
    "last_ok": "2026-09-29"
   }
  },
- "updated": "2026-09-29T08:56:35Z",
+ "updated": "2026-09-29T14:15:09Z",
  "version": 1
 }
