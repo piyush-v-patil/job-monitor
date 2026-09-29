@@ -120,6 +120,13 @@ main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
        align-items:center; transition:border-color .16s, opacity .2s; }
 .job:hover { border-color:var(--line-2); }
 .job.applied { opacity:.4; } .job.skip { opacity:.26; }
+/* A closed posting is spent, not dismissed: dimmed enough to stop drawing the
+   eye, still legible, and struck through on the title so the reason is obvious
+   at a glance rather than only in the badge. It only ever shows outside the
+   open feed, so this never competes with a live row for attention. */
+.job.closed { opacity:.5; }
+.job.closed .title { text-decoration:line-through; text-decoration-thickness:1px;
+                     text-decoration-color:rgba(255,155,138,.5); }
 .job .info { flex:1; min-width:0; }
 .job .title { color:var(--text); font-weight:600; text-decoration:none; letter-spacing:-.005em; }
 .job a.title:hover { color:var(--accent); }
@@ -137,6 +144,10 @@ main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
 .badge.fresh { color:#ffd479; border-color:rgba(255,212,121,.22); background:rgba(255,212,121,.06); }
 .badge.yoe { color:#c3b6ff; border-color:rgba(195,182,255,.22); background:rgba(195,182,255,.06); }
 .badge.urgent { color:#ff9b8a; border-color:rgba(255,155,138,.3); background:rgba(255,155,138,.08); }
+/* The one badge that reports a dead end, so it borrows the urgency palette at
+   full strength rather than the muted default. */
+.badge.closed { color:#ff9b8a; border-color:rgba(255,155,138,.4); background:rgba(255,155,138,.12);
+                font-weight:550; }
 /* Sponsorship history. Teal reads as its own category next to the green of
    compensation, and it is the only colour the pair gets: "no filings found"
    deliberately keeps the neutral default badge, because it reports a gap in

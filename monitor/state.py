@@ -27,6 +27,11 @@ Structure:
                         program-mgmt|workforce|supply-chain",
       "yoe": int,            # lowest stated years-of-experience, when the posting says
       "deadline": "YYYY-MM-DD",  # application close date; very rarely published
+      # written by monitor/expire.py, which asks the posting's own page whether
+      # it still takes applications. A fact about the posting, deliberately not
+      # a "status": your mark on a job you applied to outlives its closing.
+      "closed_at": "YYYY-MM-DD",   # the day it was seen to stop accepting
+      "checked_at": "YYYY-MM-DD",  # the day it was last asked
       # written by the dashboard when you mark Applied/Interview; the scanner
       # only ever reads past it, so the activity history is never rewritten
       "applied_on": "YYYY-MM-DD"

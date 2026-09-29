@@ -251,7 +251,27 @@ function startAutoRefresh() {
 }
 
 const TIERS = T.tiers.map(t => [t[0], t[1]]);
-const STATUS_WORD = { open:"open", applied:"applied", skip:"skipped", interview:"in interview", "":"tracked" };
+const STATUS_WORD = { open:"open", applied:"applied", skip:"skipped",
+                     interview:"in interview", closed:"closed", "":"tracked" };
+
+// `closed_at` is written by monitor/expire.py when the employer's own page says
+// the posting stopped accepting applications (or 404s). It is a fact about the
+// posting, not one of your marks, so it lives beside `status` rather than in
+// it: a job you applied to keeps reading "applied" after it closes.
+//
+// The open feed is the one place it has to win. A closed posting is not
+// something to apply to, so "Open (new)" drops it, "Closed" is where it goes,
+// and every other view still shows it with the badge on the row.
+// `status: "closed"` is the other spelling the database allows (see
+// monitor/state.py); nothing writes it today, and reading both means a hand-set
+// one still leaves the open feed rather than sitting in it unmarked.
+const isClosed = j => !!j.closed_at || j.status === "closed";
+function statusMatches(j, status) {
+  if (status === "") return true;                       // Everything
+  if (status === "closed") return isClosed(j);
+  if (status === "open") return j.status === "new" && !isClosed(j);
+  return j.status === status;
+}
 
 // ---- duplicate requisitions ---------------------------------------------
 // Big employers post one role as many separate reqs: 22 "Software Engineer III"
@@ -313,6 +333,12 @@ function comparator(mode) {
       const pa = a[1].posted_at || a[1].first_seen || "";
       const pb = b[1].posted_at || b[1].first_seen || "";
       if (pa !== pb) return pb.localeCompare(pa);
+      // ...but a posting that STATES today's date outranks one that was merely
+      // found today, which covers anything the board had up for a week. Letting
+      // the two tie is what buried today's postings under the rest of the
+      // sweep: on a full day that is hundreds of rows ahead of them.
+      const ra = a[1].posted_at ? 0 : 1, rb = b[1].posted_at ? 0 : 1;
+      if (ra !== rb) return ra - rb;
     }
     return (b[1].first_seen || "").localeCompare(a[1].first_seen || "");
   };
@@ -327,7 +353,7 @@ function render() {
   // "base" applies every filter EXCEPT tier, so each tile answers
   // "how many would I see if I picked this tier?"
   const base = Object.entries(data.jobs).filter(([id, j]) =>
-      (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
+      statusMatches(j, status) &&
       (!comp || j.company === comp) &&
       (!role || (j.role || DEFAULT_ROLE) === role) &&
       (!yoe || (yoe === "unstated" ? j.yoe == null : j.yoe != null && j.yoe <= +yoe)) &&
@@ -399,8 +425,9 @@ function jobRow(g) {
       : `${esc(rj.company)} \u00b7 ${esc(rj.location)} \u00b7 ${
           rj.posted_at ? "posted " + esc(rj.posted_at) : "first seen " + esc(rj.first_seen)}`;
     return `
-    <div class="job${member ? " member" : ""} ${rj.status === "applied" ? "applied" : rj.status === "skip" ? "skip" : ""}">
-      ${rj.status === "new" ? '<span class="newdot"></span>' : ""}
+    <div class="job${member ? " member" : ""} ${isClosed(rj) ? "closed " : ""}${
+      rj.status === "applied" ? "applied" : rj.status === "skip" ? "skip" : ""}">
+      ${rj.status === "new" && !isClosed(rj) ? '<span class="newdot"></span>' : ""}
       <div class="info">
         ${title}
         ${member ? "" : `<span class="pill" style="--tint:var(--t-${esc(rj.tier)})">${esc(rj.tier)}</span>`}
@@ -461,6 +488,9 @@ function renderKpi(base, tier, status) {
 
   // whole-database standing totals, independent of the filters above
   const count = st => all.filter(j => j.status === st).length;
+  // the same rule the feed uses, so the chip and the list never disagree
+  const openNow = all.filter(j => j.status === "new" && !isClosed(j)).length;
+  const closedNow = all.filter(isClosed).length;
   const withComp = all.filter(j => j.comp).length;
   // ---- source health, straight from the sources block the scanner writes ----
   const src = data.sources || {};
@@ -486,8 +516,9 @@ function renderKpi(base, tier, status) {
     }">${cfg().token ? "Syncing" : "This browser"} <b>${waiting}</b></span>` : "";
 
   $("statusbar").innerHTML = health + local + [
-    ["Open", count("new")], ["Applied", count("applied")],
+    ["Open", openNow], ["Applied", count("applied")],
     ["Interview", count("interview")], ["Skipped", count("skip")],
+    ["Closed", closedNow],
     ["With pay range", withComp], ["Companies", new Set(all.map(j => j.company)).size],
   ].map(([k, v]) => `<span class="schip">${k} <b>${v.toLocaleString()}</b></span>`).join("");
 }
@@ -571,6 +602,11 @@ Absence is not proof: some sponsors are simply missing from the disclosure data.
 
 function badges(j, lead = ""){
   const b = lead ? [lead] : [];
+  // first, and loudest: it decides whether the rest of the row is worth reading
+  if (isClosed(j))
+    b.push(`<span class="badge closed" title="${esc(
+      `The employer's own page stopped accepting applications, as of ${j.closed_at}.`)
+    }">✖ no longer accepting</span>`);
   if (j.comp) b.push(`<span class="badge comp">💰 ${esc(j.comp)}</span>`);
   const age = daysOld(j.posted_at);
   if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);

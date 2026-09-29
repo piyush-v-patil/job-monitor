@@ -54,6 +54,11 @@ defense/space, logistics and the DTC brands** that run real planning teams.
               new jobs only → that profile's Discord webhook
 ```
 
+A daily pass (`monitor/expire.py`) then asks the postings already tracked
+whether they still accept applications, so the feed stops offering roles that
+have closed. It only ever adds a `closed_at` date — your own marks are never
+touched.
+
 Add `--profile supplychain` and the same pipeline runs over
 `config/companies-supplychain.yaml`, `monitor/filters_scm.py` and
 `docs/data/supplychain.json` instead. Its own cron
@@ -169,8 +174,30 @@ job-monitor/
 │                                    per term under `searches:`; rows are
 │                                    marked so a posting the employer's own
 │                                    ATS also gave us is merged, not tracked
-│                                    twice. See §5 for the knobs.
+│                                    twice. Also puts back the posting date
+│                                    JobSpy drops on everything less than a day
+│                                    old — LinkedIn tags fresh cards with a
+│                                    different `<time>` class, and without it
+│                                    today's postings arrive undated and never
+│                                    sort to the top. See §5 for the knobs.
 │
+├── monitor/expire.py              ← asks tracked postings whether they still
+│                                    accept applications, and stamps
+│                                    `closed_at` on the ones that do not.
+│                                    LinkedIn's own page says so in its markup
+│                                    (a closed posting loses its apply button);
+│                                    a deleted one 404s. Anything else — a
+│                                    throttled reply, a sign-in wall, an
+│                                    unfamiliar layout — is no verdict, and the
+│                                    posting is left exactly as it was. Never
+│                                    writes `status`: that is yours, and a job
+│                                    you applied to is still one after it
+│                                    closes. Run by its own daily workflow.
+├── monitor/prune.py               ← re-applies the CURRENT location rules to
+│                                    postings already stored, since a filter
+│                                    fix only changes what future scans admit.
+│                                    Anything you have marked is reported and
+│                                    kept, never dropped.
 ├── monitor/h1b.py                 ← builds docs/data/h1b.json: for every
 │                                    company either tracker has seen, how many
 │                                    H-1B petitions that employer has filed,
@@ -229,6 +256,13 @@ job-monitor/
     │                                the DOL data moves each quarter but the
     │                                company list grows daily, and a company
     │                                with no entry gets no badge
+    ├── expire.yml                 ← cron "10 3 * * *": runs
+    │                                `python -m monitor.expire` over both
+    │                                trackers, marking postings that no longer
+    │                                accept applications. Paced at ~1.2s per
+    │                                posting, so each run takes the ones whose
+    │                                information is oldest and the rotation
+    │                                comes round over several days
     └── linkedin-smoke.yml         ← manual only. Asks LinkedIn for postings
                                      from a runner and fails loudly if it
                                      gets none, which is how you tell
@@ -405,6 +439,16 @@ committed or sent anywhere except api.github.com.
   You apply to a single requisition — marking 22 would log 22 applications on
   the activity heatmap — but dismissing the cluster is the whole point of
   folding it. Expand the row to act on one req at a time.
+- **Closed postings leave the feed on their own.** A daily pass asks each
+  tracked posting whether it still accepts applications and marks the ones that
+  don't, so **Open (new)** stops offering roles that closed days ago. They are
+  not deleted: pick **Closed (no longer accepting)** in the status filter to see
+  them, struck through and badged with the date. A job you had already marked
+  keeps its mark — "applied, and it has since closed" is worth knowing.
+- **Sort: newest posted puts today's postings first**, and a posting that states
+  today's date outranks one that was merely *found* today (which covers anything
+  the board had up for a week). The 🔥 badge marks anything posted in the last
+  three days.
 - Applied/skipped roles never re-alert. The scanner only ever *adds* new job
   IDs — it cannot overwrite your statuses.
 - **The page keeps itself current.** An open tab checks for a new scan every
@@ -438,6 +482,7 @@ committed or sent anywhere except api.github.com.
 | Change what counts as a duplicate req | `groupKey` in `docs/app.js` — postings are folded when company, title and location all match once whitespace and case are normalized. Folding is a view-only concern; nothing in `monitor/` or the JSON is involved |
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run`, or `python -m monitor.main --profile supplychain --tier all --dry-run` |
 | Run the unit tests | `pip install -r requirements-dev.txt` then `python -m pytest tests -q`. Covers the filter/tier rules, the id scheme, jobs.json reconciliation, and Discord delivery. CI runs them on every push to `monitor/`. |
+| Mark postings that stopped accepting applications | `python -m monitor.expire --dry-run` to review, then without the flag to save. `--limit N` caps the requests (default 500, `0` = every posting), `--delay` paces them, `--profile supplychain` for the other tracker. Runs daily on its own; this is for when you want it now. |
 | Drop tracked postings that are not US | `python -m monitor.prune --dry-run` to review, then without the flag to save. Add `--profile supplychain` for the other tracker. Re-applies the current location rules to that tracker's database; anything you have already marked (status past `new`) is reported and kept. |
 
 ---
@@ -492,6 +537,17 @@ normal, occasionally more during peak load.
   says so), it is being throttled, not broken: add a `JOBSPY_PROXIES` secret
   and it resumes. `Actions → LinkedIn reachability → Run workflow` answers
   "is it being throttled right now?" without waiting for a scan.
+- **Closure is only detected where the board says so out loud.** LinkedIn
+  renders "No longer accepting applications" into its public page, so that is
+  what `monitor/expire.py` reads; every other board words it differently, and
+  postings on them are left alone rather than guessed at. Absence from a scan is
+  never taken as closure either — the LinkedIn source only ever asks for the
+  last 72 hours, so every posting it finds leaves that window while still open.
+- **A closed posting can sit in the feed for a day or two before it is marked.**
+  The check costs one request per posting and LinkedIn throttles bursts, so a
+  run rotates through the oldest-known part of the tracker rather than sweeping
+  all of it. Raise `--limit` in `expire.yml` to shorten the cycle, at the cost
+  of a longer run.
 - **H-1B sponsorship is a company's filing history, not a promise about the
   role.** The badge counts petitions the employer has filed with the Department
   of Labor. A company with 400 filings still posts citizenship-only and

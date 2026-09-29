@@ -253,3 +253,88 @@ def test_two_ats_listings_are_never_merged_by_the_soft_key():
     a = ats_job()
     b = ats_job(url="https://boards.greenhouse.io/whatnot/jobs/4055999", external_id="4055999")
     assert len(state.add_new(st, [a, b])) == 2
+
+
+# ---- the date LinkedIn gives and JobSpy drops -------------------------------
+# LinkedIn stamps a card with "job-search-card__listdate" once a posting is a
+# day old, and "job-search-card__listdate--new" while it is fresher than that.
+# JobSpy matches only the first class token, so the postings that arrive with no
+# date are exactly the ones posted today - the half of a sweep worth reading
+# first. The markup below is copied from a live search response.
+
+FRESH_CARD = """
+<div class="base-search-card job-search-card">
+  <div class="base-search-card__metadata">
+    <span class="job-search-card__location">New York, NY</span>
+    <time class="job-search-card__listdate--new" datetime="2026-09-29">3 hours ago</time>
+  </div>
+</div>"""
+
+OLDER_CARD = FRESH_CARD.replace('listdate--new" datetime="2026-09-29"',
+                                'listdate" datetime="2026-09-24"')
+
+
+def card(markup):
+    bs4 = pytest.importorskip("bs4")        # ships with jobspy, not with the ATS path
+    return bs4.BeautifulSoup(markup, "html.parser").find("div", class_="job-search-card")
+
+
+def test_a_posting_from_today_keeps_its_date():
+    assert str(jobspy_board._card_date(card(FRESH_CARD))) == "2026-09-29"
+
+
+def test_an_older_posting_is_read_the_same_way():
+    assert str(jobspy_board._card_date(card(OLDER_CARD))) == "2026-09-24"
+
+
+def test_a_renamed_class_still_yields_the_date():
+    """Any <time datetime> on a search card is the posting's date."""
+    renamed = FRESH_CARD.replace("job-search-card__listdate--new", "posted-date_v2")
+    assert str(jobspy_board._card_date(card(renamed))) == "2026-09-29"
+
+
+def test_a_card_with_no_date_yields_none():
+    bare = FRESH_CARD.replace(
+        '<time class="job-search-card__listdate--new" datetime="2026-09-29">3 hours ago</time>',
+        '<time class="job-search-card__listdate--new">3 hours ago</time>')
+    assert jobspy_board._card_date(card(bare)) is None
+    assert jobspy_board._card_date(None) is None
+
+
+def test_the_date_is_a_date_not_a_datetime():
+    """JobSpy's own rows are dates. Mixing the two types in one DataFrame column
+    makes scrape_jobs die sorting it, which would cost every LinkedIn search."""
+    import datetime as dt
+    got = jobspy_board._card_date(card(FRESH_CARD))
+    assert isinstance(got, dt.date) and not isinstance(got, dt.datetime)
+
+
+def test_the_patch_only_fills_a_date_jobspy_left_empty():
+    """It corrects an omission; it never overrules a date JobSpy did read."""
+    linkedin = pytest.importorskip("jobspy.linkedin")
+
+    class Post:
+        def __init__(self, date_posted):
+            self.date_posted = date_posted
+
+    original = linkedin.LinkedIn._process_job
+    try:
+        linkedin.LinkedIn._process_job = lambda self, job_card, *a, **k: self._answer
+        linkedin.LinkedIn._fresh_date_patch = False
+        jobspy_board._patch_linkedin_dates()
+        scraper = linkedin.LinkedIn.__new__(linkedin.LinkedIn)
+
+        scraper._answer = Post(None)        # the bug: fresh posting, no date
+        assert str(linkedin.LinkedIn._process_job(scraper, card(FRESH_CARD))
+                   .date_posted) == "2026-09-29"
+
+        import datetime as dt
+        scraper._answer = Post(dt.date(2026, 9, 20))   # already dated: untouched
+        assert str(linkedin.LinkedIn._process_job(scraper, card(FRESH_CARD))
+                   .date_posted) == "2026-09-20"
+
+        scraper._answer = None              # a card JobSpy rejected stays rejected
+        assert linkedin.LinkedIn._process_job(scraper, card(FRESH_CARD)) is None
+    finally:
+        linkedin.LinkedIn._process_job = original
+        linkedin.LinkedIn._fresh_date_patch = False

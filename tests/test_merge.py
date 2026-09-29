@@ -101,3 +101,33 @@ def test_updated_takes_the_later_stamp():
     ours = base(updated="2026-08-26T12:00:00Z")
     theirs = base(updated="2026-08-26T14:00:00Z")
     assert merge.merge(ours, theirs)["updated"] == "2026-08-26T14:00:00Z"
+
+
+# ---- the closed-posting sweep's own fields ---------------------------------
+
+def test_a_closure_survives_a_lost_push_race():
+    """closed_at is not user-owned, so it reaches the branch like any fact."""
+    ours = base()
+    ours["jobs"]["stripe:aaa"]["closed_at"] = "2026-09-29"
+    out = merge.merge(ours, base())
+    assert out["jobs"]["stripe:aaa"]["closed_at"] == "2026-09-29"
+
+
+def test_a_closure_never_rewrites_the_mark_the_user_made():
+    ours = base()
+    ours["jobs"]["stripe:aaa"].update(status="new", closed_at="2026-09-29")
+    theirs = base()
+    theirs["jobs"]["stripe:aaa"]["status"] = "applied"
+    out = merge.merge(ours, theirs)
+    assert out["jobs"]["stripe:aaa"]["status"] == "applied"
+    assert out["jobs"]["stripe:aaa"]["closed_at"] == "2026-09-29"
+
+
+def test_the_later_check_wins_so_the_rotation_moves_on():
+    """Backfill semantics would freeze checked_at and re-probe the same rows."""
+    ours, theirs = base(), base()
+    ours["jobs"]["stripe:aaa"]["checked_at"] = "2026-09-29"
+    theirs["jobs"]["stripe:aaa"]["checked_at"] = "2026-09-22"
+    assert merge.merge(ours, theirs)["jobs"]["stripe:aaa"]["checked_at"] == "2026-09-29"
+    # and an older local check never walks the branch's back
+    assert merge.merge(theirs, ours)["jobs"]["stripe:aaa"]["checked_at"] == "2026-09-29"

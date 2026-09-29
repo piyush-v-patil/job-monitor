@@ -29,6 +29,13 @@ import sys
 
 USER_OWNED = ("status", "applied_on")
 
+# Fields where the LATER value is the true one, rather than the first one
+# written. "checked_at" is the day monitor/expire.py last asked a posting
+# whether it still accepts applications, and it is how the next run decides
+# what to ask about; backfill semantics would freeze it at whichever run wrote
+# it first, and the rotation would keep re-probing the same postings.
+NEWER_WINS = ("checked_at",)
+
 
 def merge_source(mine: dict, current: dict) -> dict:
     """Reconcile one fetcher's health record across the two copies.
@@ -68,6 +75,10 @@ def merge(ours: dict, theirs: dict) -> dict:
         for key, value in mine.items():
             if key in USER_OWNED:
                 continue                     # never overwrite the user's own marks
+            if key in NEWER_WINS:
+                if value and value > (merged.get(key) or ""):
+                    merged[key] = value
+                continue
             if value and not merged.get(key):
                 merged[key] = value          # backfill only what is missing
         out["jobs"][jid] = merged
