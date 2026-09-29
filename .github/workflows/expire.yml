@@ -6,10 +6,12 @@ name: Closed-posting sweep (daily)
 # one and reading "No longer accepting applications".
 #
 # One request per posting, ~1.2s apart, so this is paced rather than parallel:
-# 900 postings is about 18 minutes. Each tracker holds a few thousand LinkedIn
+# 1200 postings is about 24 minutes. Each tracker holds a few thousand LinkedIn
 # rows, so a run takes the ones whose information is oldest and the rotation
-# comes round over several days - postings that went stale weeks ago are asked
-# about first, and nothing already known closed is asked twice.
+# comes round every few days; nothing already known closed is asked twice.
+# Raise the limit to shorten that cycle - postings close within days of going
+# up, so a stale row is the cost of a slow rotation - at the price of a longer
+# run against an endpoint that throttles bursts.
 #
 # Both trackers are swept, in their own concurrency groups and against their own
 # files, exactly as the two scan workflows are. 03:10 UTC sits between the :00
@@ -23,7 +25,7 @@ on:
       limit:
         description: "Postings to probe per tracker (0 = every one; hours, not minutes)"
         type: string
-        default: "900"
+        default: "1200"
       dry_run:
         description: "Report only, write nothing"
         type: boolean
@@ -63,7 +65,7 @@ jobs:
       - name: Probe tracked postings
         run: |
           python -m monitor.expire --profile "${{ matrix.profile }}" \
-            --limit "${{ inputs.limit || '900' }}" \
+            --limit "${{ inputs.limit || '1200' }}" \
             ${{ inputs.dry_run && '--dry-run' || '' }}
       - name: Commit closures
         if: ${{ !inputs.dry_run }}

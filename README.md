@@ -543,6 +543,11 @@ normal, occasionally more during peak load.
   postings on them are left alone rather than guessed at. Absence from a scan is
   never taken as closure either — the LinkedIn source only ever asks for the
   last 72 hours, so every posting it finds leaves that window while still open.
+- **Roughly a tenth of the LinkedIn feed is already closed at any time.** A
+  random sample of 200 tracked postings found 21 closed or deleted, spread
+  across every posting date rather than piling up at the old end — the accounts
+  that close fastest are the high-volume reposters (`Jobright.ai`,
+  `RemoteHunter`, `BeaconFire`), some within a day of posting.
 - **A closed posting can sit in the feed for a day or two before it is marked.**
   The check costs one request per posting and LinkedIn throttles bursts, so a
   run rotates through the oldest-known part of the tracker rather than sweeping
