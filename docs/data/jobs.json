@@ -8819,6 +8819,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10514554/software-engineer-ii-fintech",
    "yoe": 3
   },
+  "amazon:9b80f96227a1": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-29",
+   "location": "East Palo Alto, California, USA",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, AWS CX - Cloudscape",
+   "url": "https://www.amazon.jobs/en/jobs/10564067/software-dev-engineer-aws-cx-cloudscape",
+   "yoe": 1
+  },
   "amazon:9d208b507dbc": {
    "company": "Amazon",
    "department": "Software Development",
@@ -9975,6 +9990,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, AWS Discounts",
    "url": "https://www.amazon.jobs/en/jobs/10506771/software-dev-engineer-ii-aws-discounts"
+  },
+  "amazon:c5f28815fd09": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-29",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Display Advertising, Entertainment, Devices & Grocery Ad Experiences",
+   "url": "https://www.amazon.jobs/en/jobs/10564013/software-development-engineer-display-advertising-entertainment-devices-grocery-ad-experiences",
+   "yoe": 1
   },
   "amazon:c728572f4680": {
    "company": "Amazon",
@@ -11590,6 +11620,21 @@
    "tier": "intern",
    "title": "Software Development Engineer Intern/Co-Op, ROBOTICS - 2027",
    "url": "https://www.linkedin.com/jobs/view/4463343570"
+  },
+  "amazon:fb81a87e6a37": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-29",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Global Accelerator",
+   "url": "https://www.amazon.jobs/en/jobs/10564228/software-development-engineer-aws-global-accelerator",
+   "yoe": 2
   },
   "amazon:fb94eab5ff6c": {
    "company": "Amazon",
@@ -18992,6 +19037,18 @@
    "title": "Platform Security Engineer, OpenBMC",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5271346008"
   },
+  "anthropic:5b6b31777b7f": {
+   "company": "Anthropic",
+   "first_seen": "2026-09-29",
+   "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+   "posted_at": "2026-09-29",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer / Research Scientist, RL Frontiers",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5438044008"
+  },
   "anthropic:60bd8f4caf24": {
    "company": "Anthropic",
    "first_seen": "2026-08-22",
@@ -19699,6 +19756,18 @@
    "tier": "experienced",
    "title": "Research Engineer, Discovery",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4669581008"
+  },
+  "anthropic:fbedce1bd8d4": {
+   "company": "Anthropic",
+   "first_seen": "2026-09-29",
+   "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+   "posted_at": "2026-09-29",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer / Performance Engineer, RL Distributed Systems",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5438030008"
   },
   "anthropic:fd79e8954ddf": {
    "company": "Anthropic",
@@ -80273,6 +80342,18 @@
    "title": "GPU Development Tools System Software Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Development-Tools-System-Software-Engineer_JR2015871-1"
   },
+  "nvidia:6e98234f9a02": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-29",
+   "location": "2 Locations",
+   "posted_at": "2026-09-29",
+   "role": "security",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer, GPU Kernel Driver",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Security-Engineer--GPU-Kernel-Driver_JR2026525"
+  },
   "nvidia:6ed1022e6d25": {
    "company": "NVIDIA",
    "first_seen": "2026-08-20",
@@ -80948,6 +81029,18 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer, AI Safety",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer--AI-Safety_JR2021784-1"
+  },
+  "nvidia:fa35aa5bfc75": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-29",
+   "location": "5 Locations",
+   "posted_at": "2026-09-29",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, DGX Cloud AI Infrastructure",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DGX-Cloud-AI-Infrastructure_JR2019248"
   },
   "nvidia:fb38de7ac839": {
    "company": "Nvidia",
@@ -126752,8 +126845,8 @@
    "last_ok": "2026-09-29"
   },
   "Anthropic": {
-   "best": 631,
-   "last": 631,
+   "best": 634,
+   "last": 634,
    "last_ok": "2026-09-29"
   },
   "Apple": {
@@ -126986,7 +127079,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 194,
+   "last": 195,
    "last_ok": "2026-09-29"
   },
   "Okta": {
@@ -126996,7 +127089,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 831,
+   "last": 834,
    "last_ok": "2026-09-29"
   },
   "OpenEvidence": {
@@ -127100,8 +127193,8 @@
    "last_ok": "2026-09-29"
   },
   "Stripe": {
-   "best": 711,
-   "last": 711,
+   "best": 712,
+   "last": 712,
    "last_ok": "2026-09-29"
   },
   "Suno": {
@@ -127179,6 +127272,6 @@
    "last_ok": "2026-09-29"
   }
  },
- "updated": "2026-09-29T16:44:18Z",
+ "updated": "2026-09-29T20:09:03Z",
  "version": 1
 }
