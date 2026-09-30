@@ -281,8 +281,25 @@ function statusMatches(j, status) {
 // push crowding everything else off the screen. They fold into a single row
 // here, and the "N openings" badge opens the full list: nothing is hidden, and
 // nothing about the stored data changes.
-const groupKey = j => [j.company, j.title, j.location]
-  .map(s => (s || "").replace(/\s+/g, " ").trim().toLowerCase()).join("\u0000");
+const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase();
+const groupKey = j => [j.company, j.title, j.location].map(norm).join("\u0000");
+
+// One role can also be filed under several locations, and then the two copies
+// of it never meet: the employer's own board says "3 Locations" or "Remote US"
+// while LinkedIn names a metro, so company and title match and the location
+// never does. 247 rows in the software tracker are that exact pair, and they
+// read as two unrelated openings.
+//
+// `roleKey` is the weaker key those copies do share. It is only ever used to
+// fold a family the location already split, and only when one side declines to
+// name a city - two named cities are treated as two openings, because they
+// often are. Nothing is dropped either way: this is the view, the stored rows
+// are untouched, and the folded row opens to the full list.
+const roleKey = j => [j.company, j.title].map(norm).join("\u0000");
+// Mirrors NON_CITY in monitor/state.py. Judged on the first comma-field only:
+// "Costa Mesa, California, United States" names a city, "2 Locations" does not.
+const NON_CITY = /^(|\d+ locations?|multiple locations|remote.*|united states|us|usa|anywhere)$/;
+const vagueCity = j => NON_CITY.test(norm((j.location || "").split(",")[0]));
 
 // Short printable token, so a group can be named in a data attribute without
 // carrying a company name's punctuation into the markup. Groups are keyed by
@@ -306,16 +323,41 @@ function groupRows(rows, cmp) {
     const k = on ? groupKey(row[1]) : row[0];
     const g = by.get(k);
     if (g) g.members.push(row);
-    else by.set(k, { token: keyToken(k), members: [row] });
+    else by.set(k, { token: keyToken(k), members: [row], key: k });
   }
   const out = [];
-  for (const g of by.values()) {
+  for (const g of (on ? foldRoles(by) : by).values()) {
     // the representative is whichever member the active sort puts first, so a
     // folded row answers "newest posted" - or any other sort - honestly, and
     // the date on its face is the freshest of the reqs it stands for
     if (g.members.length > 1) g.members.sort(cmp);
     g.rep = g.members[0];
+    // a group that spans locations has to say so on its members, since
+    // location is no longer what they were grouped on
+    g.spans = g.members.some(m => norm(m[1].location) !== norm(g.rep[1].location));
     out.push(g);
+  }
+  return out;
+}
+
+// Second pass: join the location-split groups of one role back together, where
+// some copy of it declined to name a city. Keyed on the role, so which groups
+// merge never depends on the order they arrived in.
+function foldRoles(by) {
+  const families = new Map();
+  for (const g of by.values()) {
+    const rk = roleKey(g.members[0][1]);
+    (families.get(rk) || families.set(rk, []).get(rk)).push(g);
+  }
+  const out = new Map();
+  for (const [rk, groups] of families) {
+    const fold = groups.length > 1 && groups.some(g => g.members.some(m => vagueCity(m[1])));
+    if (!fold) {
+      for (const g of groups) out.set(g.key, g);
+      continue;
+    }
+    out.set(rk, { token: keyToken(rk), key: rk,
+                  members: groups.flatMap(g => g.members) });
   }
   return out;
 }
@@ -333,11 +375,13 @@ function comparator(mode) {
       const pa = a[1].posted_at || a[1].first_seen || "";
       const pb = b[1].posted_at || b[1].first_seen || "";
       if (pa !== pb) return pb.localeCompare(pa);
-      // ...but a posting that STATES today's date outranks one that was merely
-      // found today, which covers anything the board had up for a week. Letting
-      // the two tie is what buried today's postings under the rest of the
-      // sweep: on a full day that is hundreds of rows ahead of them.
-      const ra = a[1].posted_at ? 0 : 1, rb = b[1].posted_at ? 0 : 1;
+      // ...and on the same day, confidence breaks the tie: a date the board
+      // stated outranks one worked out from when we first saw the posting,
+      // which outranks a row that only has a discovery date - "first seen
+      // today" covers a job posted last week, and letting those tie is what
+      // buried today's real postings under the rest of the day's sweep.
+      const rank = j => (!j.posted_at ? 2 : approx(j) ? 1 : 0);
+      const ra = rank(a[1]), rb = rank(b[1]);
       if (ra !== rb) return ra - rb;
     }
     return (b[1].first_seen || "").localeCompare(a[1].first_seen || "");
@@ -396,7 +440,8 @@ function jobRow(g) {
   const dupes = n > 1
     ? `<button class="badge dupes${open ? " open" : ""}" data-group="${esc(g.token)}"
                aria-expanded="${open}" title="${esc(
-        `${n} separate requisitions for this role at the same location. ` +
+        `${n} separate requisitions for this role${
+          g.spans ? ", across the locations it is listed under" : " at the same location"}. ` +
         (open ? "Hide them." : "Show them all."))}">${
         open ? "\u25be" : "\u25b8"} ${n} openings</button>`
     : "";
@@ -405,11 +450,21 @@ function jobRow(g) {
   }</div>`;
 
   function row(rid, rj, lead, member = false) {
-    const href = safeUrl(rj.url);
+    // A LinkedIn row's own link goes to LinkedIn, which is a search result and
+    // not an application. Where the scanner recognised the employer's own
+    // posting for the same role it stored that link too (state.employer_link),
+    // and that is the one worth opening. The board link stays on the row: the
+    // match is a judgement, and a wrong one has to be one click from recovery.
+    const href = safeUrl(rj.employer_url) || safeUrl(rj.url);
+    const board = safeUrl(rj.employer_url) && safeUrl(rj.url);
     // a posting whose url will not pass as http(s) still shows, just not as a link
     const title = href
       ? `<a class="title" href="${href}" target="_blank" rel="noopener">${esc(rj.title)}</a>`
       : `<span class="title">${esc(rj.title)}</span>`;
+    const alt = board
+      ? ` <a class="alt" href="${board}" target="_blank" rel="noopener"
+             title="The board listing this was found on">\u2197 LinkedIn</a>`
+      : "";
     // the ids ride in a data attribute and are read back by one delegated
     // listener, so they never have to survive being parsed as JavaScript
     const mbtn = (act, label) =>
@@ -420,16 +475,15 @@ function jobRow(g) {
     // what it was grouped ON, and are already on the row above it - so its meta
     // line carries only what actually tells one req from another
     const meta = member
-      ? [rj.posted_at ? "posted " + esc(rj.posted_at) : "first seen " + esc(rj.first_seen),
+      ? [g.spans ? esc(rj.location) : "", postedLabel(rj),
          esc(rj.source || "")].filter(Boolean).join(" \u00b7 ")
-      : `${esc(rj.company)} \u00b7 ${esc(rj.location)} \u00b7 ${
-          rj.posted_at ? "posted " + esc(rj.posted_at) : "first seen " + esc(rj.first_seen)}`;
+      : `${esc(rj.company)} \u00b7 ${esc(rj.location)} \u00b7 ${postedLabel(rj)}`;
     return `
     <div class="job${member ? " member" : ""} ${isClosed(rj) ? "closed " : ""}${
       rj.status === "applied" ? "applied" : rj.status === "skip" ? "skip" : ""}">
       ${rj.status === "new" && !isClosed(rj) ? '<span class="newdot"></span>' : ""}
       <div class="info">
-        ${title}
+        ${title}${alt}
         ${member ? "" : `<span class="pill" style="--tint:var(--t-${esc(rj.tier)})">${esc(rj.tier)}</span>`}
         <div class="meta">${meta}</div>
         ${badges(rj, lead)}
@@ -600,6 +654,15 @@ Absence is not proof: some sponsors are simply missing from the disclosure data.
   return out;
 }
 
+// `posted_approx` marks a date this repo worked out rather than read off a
+// board (monitor/backfill.py, monitor/expire.py). It is good to about a day,
+// which is enough to sort by and not enough to quote, so it is never printed
+// as though the employer had stated it.
+const approx = j => !!j.posted_approx;
+const postedLabel = j =>
+  j.posted_at ? `${approx(j) ? "\u2248 " : ""}posted ${esc(j.posted_at)}`
+              : `first seen ${esc(j.first_seen)}`;
+
 function badges(j, lead = ""){
   const b = lead ? [lead] : [];
   // first, and loudest: it decides whether the rest of the row is worth reading
@@ -609,7 +672,10 @@ function badges(j, lead = ""){
     }">✖ no longer accepting</span>`);
   if (j.comp) b.push(`<span class="badge comp">💰 ${esc(j.comp)}</span>`);
   const age = daysOld(j.posted_at);
-  if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);
+  if (age !== null && age <= 3)
+    b.push(`<span class="badge fresh"${approx(j)
+      ? ' title="Worked out from when this posting was first seen, not stated by the board"' : ""
+    }>🔥 ${approx(j) ? "\u2248" : ""}${age <= 0 ? "today" : age + "d ago"}</span>`);
   if (j.workplace) b.push(`<span class="badge${j.workplace === "Remote" ? " remote" : ""}">${esc(j.workplace)}</span>`);
   if (j.employment_type) b.push(`<span class="badge">${esc(j.employment_type)}</span>`);
   if (j.yoe != null)
@@ -637,6 +703,11 @@ function esc(s){ return (s == null ? "" : String(s)).replace(/[&<>"']/g, c => ES
 // A url only becomes an href if it is really http(s) - never javascript:,
 // data:, or anything else a board could put in that field.
 function safeUrl(u){
+  // No url at all is not a relative one: `new URL(undefined, page)` resolves to
+  // the dashboard's own address plus "/undefined", which would pass every test
+  // below and put a dead link on the row. Callers now pass fields that are
+  // often absent (employer_url), so this has to be the first thing checked.
+  if (!u) return "";
   try {
     const p = new URL(u, location.href);
     if (p.protocol === "http:" || p.protocol === "https:") return esc(p.href);

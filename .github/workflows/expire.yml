@@ -5,6 +5,10 @@ name: Closed-posting sweep (daily)
 # keeps offering roles that closed days ago, and you only find out by opening
 # one and reading "No longer accepting applications".
 #
+# It also runs monitor/backfill.py first, which needs no network at all: it
+# recovers the posting dates and employer links derivable from the tracker's
+# own contents, for the rows no future scan will look at again.
+#
 # One request per posting, ~1.2s apart, so this is paced rather than parallel:
 # 1200 postings is about 24 minutes. Each tracker holds a few thousand LinkedIn
 # rows, so a run takes the ones whose information is oldest and the rotation
@@ -62,6 +66,14 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      # Offline and instant: fills in the posting dates and employer links that
+      # can be worked out from the file itself. It runs here rather than as a
+      # one-off because a LinkedIn sweep only asks for the last 72 hours, so a
+      # posting found last week never passes through a scan again and would
+      # never pick either of them up. Re-running changes nothing already set.
+      - name: Recover dates and employer links
+        run: python -m monitor.backfill --profile "${{ matrix.profile }}" ${{
+              inputs.dry_run && '--dry-run' || '' }}
       - name: Probe tracked postings
         run: |
           python -m monitor.expire --profile "${{ matrix.profile }}" \

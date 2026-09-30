@@ -19,6 +19,8 @@ What gets written:
 
     "closed_at":  "YYYY-MM-DD"   the day the closure was observed
     "checked_at": "YYYY-MM-DD"   the day the posting was last probed
+    "posted_at":  "YYYY-MM-DD"   only when the row had no date at all, read off
+    "posted_approx": true        the page's own "6 days ago" and marked derived
 
 `status` is never touched. It belongs to the dashboard - it is what you marked,
 and a job you applied to before it closed is still a job you applied to - and
@@ -53,7 +55,7 @@ from datetime import datetime, timezone
 import requests
 
 from . import profiles, state
-from .fetchers.http import UA
+from .fetchers.http import UA, rel_date
 
 # A closed LinkedIn posting renders this in place of the apply button:
 #
@@ -122,20 +124,39 @@ def session() -> requests.Session:
     return s
 
 
-def probe(s: requests.Session, url: str, timeout: int = 20) -> str:
-    """-> OPEN | GONE | CLOSED_STATE | UNKNOWN. Never raises."""
+# The same page states the posting's age, as a phrase rather than a date:
+#   <span class="posted-time-ago__text topcard__flavor--metadata">6 days ago</span>
+# It is read off the response this run already has, so a date costs nothing
+# here, and it is the standing answer to a row that reached the tracker undated
+# for any reason - a card with no age on it, a board that stopped stating one.
+AGE = re.compile(r"posted-time-ago__text[^>]*>\s*(.*?)\s*</span>", re.S)
+
+
+def read(s: requests.Session, url: str, timeout: int = 20) -> tuple:
+    """-> (OPEN | GONE | CLOSED_STATE | UNKNOWN, page body). Never raises."""
     try:
         r = s.get(url, timeout=timeout, allow_redirects=True)
     except requests.RequestException:
-        return UNKNOWN
+        return UNKNOWN, ""
     if r.status_code in (404, 410):
-        return GONE                      # the posting has been taken down
+        return GONE, ""                  # the posting has been taken down
     if r.status_code != 200:
-        return UNKNOWN                   # 429/999/5xx: throttled, not an answer
+        return UNKNOWN, ""               # 429/999/5xx: throttled, not an answer
     body = r.text
     if not JOB_PAGE.search(body):
-        return UNKNOWN                   # sign-in wall, or a layout change
-    return CLOSED_STATE if any(p.search(body) for p in CLOSED) else OPEN
+        return UNKNOWN, body             # sign-in wall, or a layout change
+    return (CLOSED_STATE if any(p.search(body) for p in CLOSED) else OPEN), body
+
+
+def probe(s: requests.Session, url: str, timeout: int = 20) -> str:
+    """The verdict alone, for callers with no use for the page."""
+    return read(s, url, timeout)[0]
+
+
+def page_date(body: str) -> str:
+    """'6 days ago' on the page -> 'YYYY-MM-DD', or "" if it says nothing."""
+    m = AGE.search(body or "")
+    return rel_date(re.sub(r"\s+", " ", m.group(1))) if m else ""
 
 
 def run(jobs: dict, limit: int, delay: float, s=None, today=None) -> dict:
@@ -148,10 +169,10 @@ def run(jobs: dict, limit: int, delay: float, s=None, today=None) -> dict:
     s = s or session()
     today = today or datetime.now(timezone.utc).strftime("%Y-%m-%d")
     tally = {OPEN: 0, GONE: 0, CLOSED_STATE: 0, UNKNOWN: 0}
-    closed, blind = [], 0
+    closed, blind, dated = [], 0, 0
     picked = candidates(jobs, limit)
     for i, (jid, j) in enumerate(picked):
-        verdict = probe(s, j["url"])
+        verdict, body = read(s, j["url"])
         tally[verdict] += 1
         if verdict == UNKNOWN:
             blind += 1
@@ -165,6 +186,14 @@ def run(jobs: dict, limit: int, delay: float, s=None, today=None) -> dict:
             # checked_at records the probe, so the next run rotates past this
             # posting instead of asking about it again
             j["checked_at"] = today
+            # a row that arrived with no date gets one from the page's own
+            # "N days ago", marked derived: a phrase is not a stated date
+            if not j.get("posted_at"):
+                stated = page_date(body)
+                if stated:
+                    j["posted_at"] = stated
+                    j["posted_approx"] = True
+                    dated += 1
             if verdict in (GONE, CLOSED_STATE):
                 j["closed_at"] = today
                 closed.append((jid, j, verdict))
@@ -172,6 +201,7 @@ def run(jobs: dict, limit: int, delay: float, s=None, today=None) -> dict:
             time.sleep(delay)
     tally["picked"] = len(picked)
     tally["closed_rows"] = closed
+    tally["dated"] = dated
     return tally
 
 
@@ -207,7 +237,8 @@ def main(argv=None):
         print(f"  {mark}{acted}: {j['company']} - {j['title'][:60]}")
 
     print(f"\n{t['picked']} probed -> {t[CLOSED_STATE]} no longer accepting, "
-          f"{t[GONE]} taken down, {t[OPEN]} still open, {t[UNKNOWN]} no answer")
+          f"{t[GONE]} taken down, {t[OPEN]} still open, {t[UNKNOWN]} no answer"
+          + (f"; {t['dated']} undated posting(s) picked up a date" if t["dated"] else ""))
     if args.dry_run:
         print("Dry run: nothing saved.")
         return 0

@@ -72,22 +72,28 @@ def iso_date(value) -> str:
         return ""
 
 
+# "3 days" -> 3, "2 weeks" -> 14. Hours and minutes land on today, which is
+# what LinkedIn says about anything posted in the last day ("21 hours ago").
+# Weeks were missing and cost more than LinkedIn: Workday writes "Posted 3
+# Weeks Ago" in the same field this reads "Posted 3 Days Ago" from, so those
+# postings have always come back with no date at all.
+_REL_UNITS = ((r"minute|min\b|hour", 0), (r"day", 1), (r"week", 7), (r"month", 30))
+
+
 def rel_date(text: str) -> str:
     """Workday-style 'Posted 3 Days Ago' / 'Posted Today' -> 'YYYY-MM-DD'."""
     if not text:
         return ""
     t = text.lower()
     today = datetime.now(timezone.utc)
-    if "today" in t:
+    if "today" in t or "just posted" in t:
         return today.strftime("%Y-%m-%d")
     if "yesterday" in t:
         return (today - timedelta(days=1)).strftime("%Y-%m-%d")
-    m = re.search(r"(\d+)\+?\s*day", t)
-    if m:
-        return (today - timedelta(days=int(m.group(1)))).strftime("%Y-%m-%d")
-    m = re.search(r"(\d+)\+?\s*month", t)
-    if m:
-        return (today - timedelta(days=30 * int(m.group(1)))).strftime("%Y-%m-%d")
+    for unit, days in _REL_UNITS:
+        m = re.search(rf"(\d+)\+?\s*(?:{unit})", t)
+        if m:
+            return (today - timedelta(days=int(m.group(1)) * days)).strftime("%Y-%m-%d")
     return ""
 
 

@@ -131,3 +131,50 @@ def test_the_later_check_wins_so_the_rotation_moves_on():
     assert merge.merge(ours, theirs)["jobs"]["stripe:aaa"]["checked_at"] == "2026-09-29"
     # and an older local check never walks the branch's back
     assert merge.merge(theirs, ours)["jobs"]["stripe:aaa"]["checked_at"] == "2026-09-29"
+
+
+# ---- a stated date must survive a push race with a derived one -------------
+
+def test_a_stated_date_beats_a_derived_one_whichever_landed_first():
+    """monitor/backfill.py writes a placeholder date flagged `posted_approx`.
+    Backfill-only semantics would keep whichever copy reached the branch
+    first, so a run holding the board's own date would lose to the guess."""
+    ours = base()
+    ours["jobs"]["stripe:aaa"]["posted_at"] = "2026-09-24"
+    theirs = base()
+    theirs["jobs"]["stripe:aaa"].update(posted_at="2026-09-28", posted_approx=True)
+    out = merge.merge(ours, theirs)["jobs"]["stripe:aaa"]
+    assert out["posted_at"] == "2026-09-24"
+    assert "posted_approx" not in out
+
+
+def test_a_derived_date_never_overwrites_a_stated_one():
+    ours = base()
+    ours["jobs"]["stripe:aaa"].update(posted_at="2026-09-28", posted_approx=True)
+    theirs = base()
+    theirs["jobs"]["stripe:aaa"]["posted_at"] = "2026-09-24"
+    out = merge.merge(ours, theirs)["jobs"]["stripe:aaa"]
+    assert out["posted_at"] == "2026-09-24"
+    assert "posted_approx" not in out
+
+
+def test_a_derived_date_still_reaches_a_branch_that_has_none():
+    ours = base()
+    ours["jobs"]["stripe:aaa"].update(posted_at="2026-09-28", posted_approx=True)
+    out = merge.merge(ours, base())["jobs"]["stripe:aaa"]
+    assert out["posted_at"] == "2026-09-28" and out["posted_approx"] is True
+
+
+def test_two_derived_dates_leave_the_branchs_copy_alone():
+    ours, theirs = base(), base()
+    ours["jobs"]["stripe:aaa"].update(posted_at="2026-09-28", posted_approx=True)
+    theirs["jobs"]["stripe:aaa"].update(posted_at="2026-09-27", posted_approx=True)
+    out = merge.merge(ours, theirs)["jobs"]["stripe:aaa"]
+    assert out["posted_at"] == "2026-09-27" and out["posted_approx"] is True
+
+
+def test_the_employers_link_merges_like_any_other_enrichment():
+    ours = base()
+    ours["jobs"]["stripe:aaa"]["employer_url"] = "https://boards.greenhouse.io/stripe/jobs/1"
+    out = merge.merge(ours, base())["jobs"]["stripe:aaa"]
+    assert out["employer_url"] == "https://boards.greenhouse.io/stripe/jobs/1"

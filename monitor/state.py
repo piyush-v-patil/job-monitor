@@ -32,6 +32,14 @@ Structure:
       # a "status": your mark on a job you applied to outlives its closing.
       "closed_at": "YYYY-MM-DD",   # the day it was seen to stop accepting
       "checked_at": "YYYY-MM-DD",  # the day it was last asked
+      # the employer's own listing of this role, where a board row is what we
+      # have. Never replaces "url": that is the link the closure sweep probes
+      # and the id de-duplication reads (see add_new).
+      "employer_url": str,
+      # set when "posted_at" was derived rather than stated by the board (see
+      # monitor/backfill.py). The dashboard renders those dates as "≈", and an
+      # exact date arriving later replaces the derived one.
+      "posted_approx": True,
       # written by the dashboard when you mark Applied/Interview; the scanner
       # only ever reads past it, so the activity history is never rewritten
       "applied_on": "YYYY-MM-DD"
@@ -103,8 +111,21 @@ SOFT_STRIP = names.suffix_pattern("technologies", "technology")
 SOFT_TITLE_NOISE = re.compile(r"\(?\b[a-z]{0,3}[-_]?\d{4,}\b\)?", re.I)
 
 
+# A location that names no city. Judged on the FIRST comma-field only, because
+# the tail is almost always a country: "Costa Mesa, California, United States"
+# (151 rows) is perfectly specific, and a rule reading the whole string would
+# call it vague. What is actually vague is a board that will not commit to one
+# place - Workday's "2 Locations", a remote req, a bare "US".
+NON_CITY = re.compile(
+    r"^(|\d+ locations?|multiple locations|remote.*|united states|us|usa|anywhere)$")
+
+
 def _soft_norm(text: str, strip_suffixes: bool = False) -> str:
     return names.normalize(text, SOFT_STRIP if strip_suffixes else None)
+
+
+def _city(location: str) -> str:
+    return _soft_norm((location or "").split(",")[0])
 
 
 def soft_key(company: str, title: str, location: str) -> str:
@@ -118,10 +139,25 @@ def soft_key(company: str, title: str, location: str) -> str:
     """
     co = _soft_norm(company, strip_suffixes=True)
     ti = _soft_norm(SOFT_TITLE_NOISE.sub(" ", title or ""))
-    city = _soft_norm((location or "").split(",")[0])
+    city = _city(location)
     if not co or not ti or not city:
         return ""
     return f"{co}#{ti}#{city}"
+
+
+def role_key(company: str, title: str) -> str:
+    """Company and title alone - one role, wherever the board chose to file it.
+
+    Weaker than soft_key on purpose: it is what the employer's own listing and
+    a board listing of the same job agree on even when they disagree about
+    where the job is, which they routinely do (Workday says "7 Locations" and
+    LinkedIn names one metro; the employer says "Remote US" and LinkedIn lists
+    three cities). Too weak to merge postings on - two offices can advertise
+    the same title - so nothing here is ever used to drop a row.
+    """
+    co = _soft_norm(company, strip_suffixes=True)
+    ti = _soft_norm(SOFT_TITLE_NOISE.sub(" ", title or ""))
+    return f"{co}#{ti}" if co and ti else ""
 
 
 # A job id is read back out of the dashboard's markup, so it has to survive
@@ -196,7 +232,69 @@ def save(state: dict, path: str | None = None) -> None:
 
 
 ENRICH = ("posted_at", "comp", "employment_type", "workplace", "department",
-          "role", "yoe", "deadline")
+          "role", "yoe", "deadline", "employer_url")
+
+
+def ats_index(state_jobs: dict, incoming: list) -> dict:
+    """{role_key: [postings]} over everything that came from an employer's own board.
+
+    Both sides are indexed - what is already tracked and what this scan just
+    fetched - because the LinkedIn copy of a role and the employer's copy
+    rarely arrive in the same run.
+    """
+    index = {}
+    for row in list(state_jobs.values()) + list(incoming):
+        if row.get("soft_dedupe") or not row.get("url"):
+            continue
+        rk = role_key(row.get("company", ""), row.get("title", ""))
+        if rk:
+            index.setdefault(rk, []).append(row)
+    return index
+
+
+def employer_link(row: dict, index: dict) -> str:
+    """The employer's own link for a board row, or "" when we cannot be sure.
+
+    A board row links to the board; the employer's own posting for the same
+    role is often already in the tracker, and that is the link worth opening.
+    It is only taken when the match cannot be the wrong requisition:
+
+      * one candidate URL for that company and title - nothing to confuse, or
+      * a candidate filed under the same city, or under no city at all
+        ("3 Locations", "Remote US"), which is the case this exists for.
+
+    Several candidates in several named cities means the employer really does
+    run separate reqs for this title, and picking one would send you to the
+    wrong office. Those get nothing; the board link is still on the row.
+    """
+    candidates = index.get(role_key(row.get("company", ""), row.get("title", "")))
+    if not candidates:
+        return ""
+    urls = {c["url"] for c in candidates}
+    if len(urls) == 1:
+        return next(iter(urls))
+    city = _city(row.get("location", ""))
+    for c in candidates:
+        other = _city(c.get("location", ""))
+        if other == city or NON_CITY.match(other):
+            return c["url"]
+    return ""
+
+
+def enrich(entry: dict, extra: dict) -> None:
+    """Fill in what an entry is missing, and nothing it already answers.
+
+    One exception, and it is the reason this is a function rather than three
+    copies of a setdefault loop: a date derived from when we first saw a
+    posting (monitor/backfill.py marks those `posted_approx`) is a placeholder
+    for the real one, so a board that later states the date overrules it. Every
+    other field keeps the value it was first given.
+    """
+    if extra.get("posted_at") and entry.get("posted_approx"):
+        entry["posted_at"] = extra["posted_at"]
+        entry.pop("posted_approx", None)
+    for key, value in extra.items():
+        entry.setdefault(key, value)
 
 
 def source_health(state: dict, counts: dict) -> list:
@@ -258,29 +356,35 @@ def add_new(state: dict, jobs: list) -> list:
     # copies arrive in one scan, the ATS row is the one that gets tracked and
     # the aggregator row folds into it, not the other way round.
     jobs = sorted(jobs, key=lambda j: bool(j.get("soft_dedupe")))
+    ats = ats_index(state["jobs"], jobs)
     for j in jobs:
         jid = job_id(j["company"], j.get("external_id", ""), j.get("url", ""))
+        # An aggregator row's own link goes to the board. Where the employer's
+        # listing of the same role is known, hand the row that link too - as a
+        # field of its own, never as `url`: the stored url is what the closure
+        # sweep probes (monitor/expire.py asks LinkedIn about LinkedIn ids) and
+        # what canonical_key reads, and rewriting it would let dedupe() delete
+        # one of the two rows.
+        if j.get("soft_dedupe") and not j.get("employer_url"):
+            link = employer_link(j, ats)
+            if link:
+                j["employer_url"] = link
         # not truthiness: yoe == 0 is a real answer ("0-2 years of experience")
         extra = {k: j[k] for k in ENRICH if j.get(k) not in ("", None)}
         ck = canonical_key(j["company"], j.get("url", ""))
         if ck and ck in seen and seen[ck] != jid:
             # already tracked under another source's id - enrich it, do not
             # add a second copy and do not notify
-            entry = state["jobs"][seen[ck]]
-            for k, v in extra.items():
-                entry.setdefault(k, v)
+            enrich(state["jobs"][seen[ck]], extra)
             continue
         if jid in state["jobs"]:
-            entry = state["jobs"][jid]
-            for k, v in extra.items():          # backfill only what is absent
-                entry.setdefault(k, v)
+            enrich(state["jobs"][jid], extra)
             continue
         sk = soft_key(j["company"], j["title"], j.get("location", ""))
         other = state["jobs"].get(soft_seen.get(sk, "")) if sk else None
         if other is not None and (j.get("soft_dedupe") or other.get("soft_dedupe")):
             # same posting, two listings. Enrich the tracked copy and stop.
-            for k, v in extra.items():
-                other.setdefault(k, v)
+            enrich(other, extra)
             if other.get("soft_dedupe") and not j.get("soft_dedupe"):
                 # the employer's own listing has now turned up: take its link
                 # over the board's, and stop treating the entry as the weaker

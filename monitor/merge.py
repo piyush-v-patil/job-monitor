@@ -37,6 +37,29 @@ USER_OWNED = ("status", "applied_on")
 NEWER_WINS = ("checked_at",)
 
 
+def reconcile_date(mine: dict, merged: dict) -> None:
+    """A stated posting date outranks a derived one, whichever landed first.
+
+    monitor/backfill.py fills `posted_at` from `first_seen` for postings whose
+    board never stated a date, and flags them `posted_approx`. Plain backfill
+    semantics would then freeze whichever copy reached the branch first - so a
+    run that has the board's own date would lose to a placeholder, and the
+    dashboard would keep showing "≈" for a posting we know the real date of.
+    """
+    if not mine.get("posted_at"):
+        return
+    if not merged.get("posted_at"):
+        # nothing on the branch: contribute ours, precision and all
+        merged["posted_at"] = mine["posted_at"]
+        if mine.get("posted_approx"):
+            merged["posted_approx"] = True
+        return
+    if mine.get("posted_approx") or not merged.get("posted_approx"):
+        return                                # ours is no better than theirs
+    merged["posted_at"] = mine["posted_at"]   # stated beats derived
+    merged.pop("posted_approx", None)
+
+
 def merge_source(mine: dict, current: dict) -> dict:
     """Reconcile one fetcher's health record across the two copies.
 
@@ -72,9 +95,12 @@ def merge(ours: dict, theirs: dict) -> dict:
             out["jobs"][jid] = mine          # a posting only this run found
             continue
         merged = dict(current)
+        reconcile_date(mine, merged)
         for key, value in mine.items():
             if key in USER_OWNED:
                 continue                     # never overwrite the user's own marks
+            if key in ("posted_at", "posted_approx"):
+                continue                     # settled by reconcile_date above
             if key in NEWER_WINS:
                 if value and value > (merged.get(key) or ""):
                     merged[key] = value

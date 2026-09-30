@@ -184,3 +184,62 @@ def test_the_limit_is_a_budget_not_a_filter():
         jobs.update(job(f"co{i:02d}:aaa"))
     assert len(expire.candidates(jobs, limit=3)) == 3
     assert len(expire.candidates(jobs, limit=0)) == 10
+
+
+# ---- the date the page states, off the request we already made -------------
+
+AGED = TOPCARD + ('<span class="posted-time-ago__text topcard__flavor--metadata">'
+                  '\n            6 days ago\n          </span>')
+
+
+def test_the_pages_own_age_dates_a_row_that_arrived_undated():
+    """The closure sweep already holds this page, so a date costs no request."""
+    import datetime
+    jobs = job()
+    s = FakeSession({}, default=FakeResponse(200, AGED))
+    t = expire.run(jobs, limit=10, delay=0, s=s, today="2026-09-30")
+    entry = jobs["brightway:aaa"]
+    want = (datetime.datetime.now(datetime.timezone.utc).date()
+            - datetime.timedelta(days=6)).isoformat()
+    assert entry["posted_at"] == want
+    # "6 days ago" is a phrase, not a date the employer published
+    assert entry["posted_approx"] is True
+    assert t["dated"] == 1
+
+
+def test_a_row_that_already_has_a_date_keeps_it():
+    jobs = job(posted_at="2026-09-21")
+    s = FakeSession({}, default=FakeResponse(200, AGED))
+    t = expire.run(jobs, limit=10, delay=0, s=s)
+    assert jobs["brightway:aaa"]["posted_at"] == "2026-09-21"
+    assert "posted_approx" not in jobs["brightway:aaa"]
+    assert t["dated"] == 0
+
+
+def test_a_page_that_states_no_age_leaves_the_row_undated():
+    jobs = job()
+    s = FakeSession({}, default=FakeResponse(200, TOPCARD))
+    expire.run(jobs, limit=10, delay=0, s=s)
+    assert "posted_at" not in jobs["brightway:aaa"]
+
+
+def test_no_answer_never_dates_a_row():
+    """A sign-in wall carries no age, and a throttled reply carries no page."""
+    for answer in (FakeResponse(200, "<html>Sign in</html>"), FakeResponse(429, "")):
+        jobs = job()
+        expire.run(jobs, limit=10, delay=0, s=FakeSession({}, default=answer))
+        assert "posted_at" not in jobs["brightway:aaa"]
+
+
+def test_page_date_reads_the_phrase_and_nothing_else():
+    assert expire.page_date(AGED)
+    assert expire.page_date(TOPCARD) == ""
+    assert expire.page_date("") == ""
+
+
+def test_a_row_carrying_an_employer_link_is_still_probed():
+    """The employer's link lives in its own field precisely so the board url
+    stays put - if it ever replaced `url`, these rows would silently drop out
+    of the sweep and never be checked again."""
+    jobs = job(employer_url="https://adobe.wd5.myworkdayjobs.com/jobs/job/12345")
+    assert [jid for jid, _ in expire.candidates(jobs, limit=10)] == ["brightway:aaa"]

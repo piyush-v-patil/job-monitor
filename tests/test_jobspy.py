@@ -338,3 +338,33 @@ def test_the_patch_only_fills_a_date_jobspy_left_empty():
     finally:
         linkedin.LinkedIn._process_job = original
         linkedin.LinkedIn._fresh_date_patch = False
+
+
+# ---- the shared relative-date parser ---------------------------------------
+# LinkedIn's job page and Workday's board both state an age rather than a date,
+# in the same two phrasings this parses.
+
+def test_rel_date_reads_hours_as_today():
+    """LinkedIn says "21 hours ago" for everything posted in the last day."""
+    from monitor.fetchers import http
+    import datetime
+    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    assert http.rel_date("21 hours ago") == today
+    assert http.rel_date("3 minutes ago") == today
+    assert http.rel_date("Posted Today") == today
+
+
+def test_rel_date_reads_weeks():
+    """Workday writes "Posted 3 Weeks Ago" into the same field it writes
+    "Posted 3 Days Ago"; those postings used to come back with no date."""
+    from monitor.fetchers import http
+    import datetime
+    now = datetime.datetime.now(datetime.timezone.utc)
+    want = (now - datetime.timedelta(days=14)).strftime("%Y-%m-%d")
+    assert http.rel_date("2 weeks ago") == want
+    assert http.rel_date("Posted 2 Weeks Ago") == want
+
+
+def test_rel_date_still_refuses_what_it_cannot_read():
+    from monitor.fetchers import http
+    assert http.rel_date("") == "" and http.rel_date("a while back") == ""
