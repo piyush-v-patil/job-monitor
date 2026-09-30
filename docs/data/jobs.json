@@ -10235,6 +10235,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10509566/software-development-engineer-advertiser-1p-data",
    "yoe": 2
   },
+  "amazon:ca99f00419e3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-30",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, S3 Storage Cells",
+   "url": "https://www.amazon.jobs/en/jobs/10564562/software-development-engineer-s3-storage-cells",
+   "yoe": 1
+  },
   "amazon:caa2198b4c22": {
    "company": "Amazon",
    "department": "Software Development",
@@ -82994,6 +83009,18 @@
    "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2026739"
   },
+  "nvidia:5f12c8023b50": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-30",
+   "location": "5 Locations",
+   "posted_at": "2026-09-30",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer, DGX Cloud AI Infrastructure - New College Grad 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DGX-Cloud-AI-Infrastructure---New-College-Grad-2026_JR2026477"
+  },
   "nvidia:65770d6d2d54": {
    "company": "Nvidia",
    "first_seen": "2026-08-22",
@@ -88232,6 +88259,22 @@
    "tier": "experienced",
    "title": "Full Stack Software Engineer, ChatGPT ImageGen",
    "url": "https://jobs.ashbyhq.com/openai/6b47238e-025a-4350-b270-2f3564002fcc",
+   "workplace": "Hybrid"
+  },
+  "openai:e33981921ef0": {
+   "comp": "$347K – $445K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Applied AI",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-30",
+   "location": "San Francisco",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Implicit Signals",
+   "url": "https://jobs.ashbyhq.com/openai/c7bcdaec-9714-44b0-8ba8-adc824594b54",
    "workplace": "Hybrid"
   },
   "openai:e39d4ed69755": {
@@ -130713,8 +130756,8 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 158,
-   "last_ok": "2026-09-29"
+   "last": 159,
+   "last_ok": "2026-09-30"
   },
   "Airtable": {
    "best": 16,
@@ -130724,7 +130767,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-09-29"
+   "last_ok": "2026-09-30"
   },
   "Anduril": {
    "best": 2401,
@@ -130732,9 +130775,9 @@
    "last_ok": "2026-09-29"
   },
   "Anthropic": {
-   "best": 635,
-   "last": 635,
-   "last_ok": "2026-09-29"
+   "best": 636,
+   "last": 636,
+   "last_ok": "2026-09-30"
   },
   "Apple": {
    "best": 0,
@@ -130886,7 +130929,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-09-29"
+   "last_ok": "2026-09-30"
   },
   "Gusto": {
    "best": 100,
@@ -130952,7 +130995,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-09-29"
+   "last_ok": "2026-09-30"
   },
   "Notion": {
    "best": 135,
@@ -130967,7 +131010,7 @@
   "Nvidia": {
    "best": 197,
    "last": 195,
-   "last_ok": "2026-09-29"
+   "last_ok": "2026-09-30"
   },
   "Okta": {
    "best": 350,
@@ -130976,8 +131019,8 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 831,
-   "last_ok": "2026-09-29"
+   "last": 832,
+   "last_ok": "2026-09-30"
   },
   "OpenEvidence": {
    "best": 11,
@@ -131082,7 +131125,7 @@
   "Stripe": {
    "best": 712,
    "last": 710,
-   "last_ok": "2026-09-29"
+   "last_ok": "2026-09-30"
   },
   "Suno": {
    "best": 69,
@@ -131159,6 +131202,6 @@
    "last_ok": "2026-09-29"
   }
  },
- "updated": "2026-09-29T22:37:47Z",
+ "updated": "2026-09-30T00:41:04Z",
  "version": 1
 }
