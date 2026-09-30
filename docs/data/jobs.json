@@ -10911,6 +10911,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10564323/software-development-engineer-fintech-customer-service-tech",
    "yoe": 1
   },
+  "amazon:dcd11d13443f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-30",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II,  Intelligent Cloud Hosting (ICON)",
+   "url": "https://www.amazon.jobs/en/jobs/10564758/software-development-engineer-ii-intelligent-cloud-hosting-icon",
+   "yoe": 2
+  },
   "amazon:dcda3ee2844a": {
    "company": "Amazon",
    "department": "Software Development",
@@ -87979,6 +87994,22 @@
    "title": "Camera Software Engineer, Consumer Devices",
    "url": "https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0"
   },
+  "openai:89424800049e": {
+   "comp": "$347K – $445K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Data Science",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-30",
+   "location": "San Francisco",
+   "posted_at": "2026-09-30",
+   "role": "data",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist, B2B Generalist ",
+   "url": "https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5",
+   "workplace": "Hybrid"
+  },
   "openai:8a2389ca9ea9": {
    "comp": "$293K – $385K • Offers Equity",
    "company": "OpenAI",
@@ -132530,7 +132561,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 159,
+   "last": 158,
    "last_ok": "2026-09-30"
   },
   "Airtable": {
@@ -132549,8 +132580,8 @@
    "last_ok": "2026-09-30"
   },
   "Anthropic": {
-   "best": 636,
-   "last": 635,
+   "best": 637,
+   "last": 637,
    "last_ok": "2026-09-30"
   },
   "Apple": {
@@ -132783,7 +132814,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 194,
+   "last": 195,
    "last_ok": "2026-09-30"
   },
   "Okta": {
@@ -132793,7 +132824,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 833,
+   "last": 839,
    "last_ok": "2026-09-30"
   },
   "OpenEvidence": {
@@ -132898,7 +132929,7 @@
   },
   "Stripe": {
    "best": 712,
-   "last": 709,
+   "last": 710,
    "last_ok": "2026-09-30"
   },
   "Suno": {
@@ -132976,6 +133007,6 @@
    "last_ok": "2026-09-30"
   }
  },
- "updated": "2026-09-30T01:33:39Z",
+ "updated": "2026-09-30T07:10:40Z",
  "version": 1
 }
