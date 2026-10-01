@@ -8991,6 +8991,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10564327/software-development-engineer-ii-amazon-workspaces-applications",
    "yoe": 1
   },
+  "amazon:8a870c04e1d6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-01",
+   "location": "Jersey City, New Jersey, USA",
+   "posted_at": "2026-10-01",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Agentic AI",
+   "url": "https://www.amazon.jobs/en/jobs/10566213/software-development-engineer-agentic-ai",
+   "yoe": 1
+  },
   "amazon:8abc2490b5e5": {
    "company": "Amazon",
    "department": "Software Development",
@@ -10133,6 +10148,21 @@
    "tier": "experienced",
    "title": "Security Engineer, CS Security",
    "url": "https://www.linkedin.com/jobs/view/4473556982"
+  },
+  "amazon:b0f0ea1ba1db": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-01",
+   "location": "Jersey City, New Jersey, USA",
+   "posted_at": "2026-10-01",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Agentic AI",
+   "url": "https://www.amazon.jobs/en/jobs/10566212/software-development-engineer-agentic-ai",
+   "yoe": 1
   },
   "amazon:b13dc961db6d": {
    "company": "Amazon",
@@ -66876,6 +66906,17 @@
    "tier": "experienced",
    "title": "Photos Mission Tech Lead, Applied AI, Full Stack",
    "url": "https://www.google.com/about/careers/applications/jobs/results/77031606992151238-photos-mission-tech-lead-applied-ai-full-stack"
+  },
+  "google:be41da1419be": {
+   "company": "Google",
+   "first_seen": "2026-10-01",
+   "location": "Austin, TX, USA; Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Supportability Technical Lead, AI/ML, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/116254941630079686-supportability-technical-lead-aiml-google-cloud"
   },
   "google:c102605416bd": {
    "company": "Google",
@@ -142913,7 +142954,7 @@
   },
   "Anthropic": {
    "best": 637,
-   "last": 636,
+   "last": 635,
    "last_ok": "2026-10-01"
   },
   "Apple": {
@@ -143156,7 +143197,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 836,
+   "last": 835,
    "last_ok": "2026-10-01"
   },
   "OpenEvidence": {
@@ -143261,7 +143302,7 @@
   },
   "Stripe": {
    "best": 717,
-   "last": 717,
+   "last": 714,
    "last_ok": "2026-10-01"
   },
   "Suno": {
@@ -143339,6 +143380,6 @@
    "last_ok": "2026-10-01"
   }
  },
- "updated": "2026-10-01T01:33:17Z",
+ "updated": "2026-10-01T07:35:24Z",
  "version": 1
 }
