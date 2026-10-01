@@ -6301,6 +6301,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10522805/machine-learning-engineer-ii-ai-studios",
    "yoe": 1
   },
+  "amazon:2d2b49786789": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-01",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AWS EKS",
+   "url": "https://www.amazon.jobs/en/jobs/10566715/software-development-engineer-ii-aws-eks",
+   "yoe": 2
+  },
   "amazon:2d525e756c99": {
    "company": "Amazon",
    "department": "Software Development",
@@ -8674,6 +8689,21 @@
    "tier": "experienced",
    "title": "Data Engineer, WW Ops Finance S&A",
    "url": "https://www.linkedin.com/jobs/view/4472729191"
+  },
+  "amazon:7e81958698b6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-01",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-01",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics Software Engineer, Fauna",
+   "url": "https://www.amazon.jobs/en/jobs/10566655/robotics-software-engineer-fauna",
+   "yoe": 1
   },
   "amazon:7e82fae6a33e": {
    "company": "Amazon",
@@ -11304,6 +11334,21 @@
    "tier": "experienced",
    "title": "Software Engineer, Flex Offer Journey ",
    "url": "https://www.amazon.jobs/en/jobs/10512986/software-engineer-flex-offer-journey",
+   "yoe": 2
+  },
+  "amazon:d0b83bd227e8": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-01",
+   "location": "Arlington, Virginia, USA",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Device Software Engineer, Amazon Leo Government",
+   "url": "https://www.amazon.jobs/en/jobs/10566727/device-software-engineer-amazon-leo-government",
    "yoe": 2
   },
   "amazon:d0ed71d39c47": {
@@ -20174,6 +20219,18 @@
    "tier": "experienced",
    "title": "Data Engineer, Safeguards",
    "url": "https://www.linkedin.com/jobs/view/4435005926"
+  },
+  "anthropic:35cb3adb6e98": {
+   "company": "Anthropic",
+   "first_seen": "2026-10-01",
+   "location": "San Francisco, CA | New York City, NY",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Sandboxing",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440427008"
   },
   "anthropic:36072af763fd": {
    "company": "Anthropic",
@@ -65313,6 +65370,17 @@
    "title": "Software Engineer, Infrastructure, PhD, Early Career, 2027 Start",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84680705375642310-software-engineer-infrastructure-phd-early-career-2027-start"
   },
+  "google:38834f6d6610": {
+   "company": "Google",
+   "first_seen": "2026-10-01",
+   "location": "Boulder, CO, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Scientist, Optical Engineering Neutral Atoms, Quantum AI",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/138087256828060358-research-scientist-optical-engineering-neutral-atoms-quantum-ai"
+  },
   "google:38d0a6a036ff": {
    "company": "Google",
    "first_seen": "2026-09-03",
@@ -95970,6 +96038,21 @@
    "workplace": "Hybrid",
    "yoe": 5
   },
+  "openai:a72433636c06": {
+   "comp": "$295K – $445K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Consumer Devices",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-01",
+   "location": "San Francisco",
+   "posted_at": "2026-10-01",
+   "role": "data",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer, Hardware & Consumer Devices",
+   "url": "https://jobs.ashbyhq.com/openai/c25fd30e-056e-4a26-af80-7ea1074fc56e"
+  },
   "openai:a7d5d655c2a5": {
    "comp": "$153K – $385K • Offers Equity",
    "company": "OpenAI",
@@ -125038,6 +125121,18 @@
    "title": "Data Scientist",
    "url": "https://stripe.com/jobs/search?gh_jid=8222149"
   },
+  "stripe:e957a624b9fd": {
+   "company": "Stripe",
+   "first_seen": "2026-10-01",
+   "location": "New York, Seattle, South San Francisco HQ",
+   "posted_at": "2026-10-01",
+   "role": "data",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "intern",
+   "title": "PhD Data Scientist, Intern",
+   "url": "https://stripe.com/jobs/search?gh_jid=8194283"
+  },
   "stripe:ed2238c2b288": {
    "company": "Stripe",
    "first_seen": "2026-08-20",
@@ -144271,7 +144366,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 157,
+   "last": 154,
    "last_ok": "2026-10-01"
   },
   "Airtable": {
@@ -144290,8 +144385,8 @@
    "last_ok": "2026-10-01"
   },
   "Anthropic": {
-   "best": 637,
-   "last": 636,
+   "best": 638,
+   "last": 638,
    "last_ok": "2026-10-01"
   },
   "Apple": {
@@ -144524,7 +144619,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 194,
+   "last": 193,
    "last_ok": "2026-10-01"
   },
   "Okta": {
@@ -144534,7 +144629,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 835,
+   "last": 834,
    "last_ok": "2026-10-01"
   },
   "OpenEvidence": {
@@ -144639,7 +144734,7 @@
   },
   "Stripe": {
    "best": 717,
-   "last": 713,
+   "last": 716,
    "last_ok": "2026-10-01"
   },
   "Suno": {
@@ -144717,6 +144812,6 @@
    "last_ok": "2026-10-01"
   }
  },
- "updated": "2026-10-01T09:20:00Z",
+ "updated": "2026-10-01T16:39:23Z",
  "version": 1
 }
