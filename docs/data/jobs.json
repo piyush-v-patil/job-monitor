@@ -7400,6 +7400,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10537085/software-development-engineer-sponsored-products-and-brands",
    "yoe": 1
   },
+  "amazon:3d514d5524e4": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-02",
+   "location": "Santa Clara, California, USA",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE, AWS OpenSearch Service, Opensearch",
+   "url": "https://www.amazon.jobs/en/jobs/10567881/sde-aws-opensearch-service-opensearch",
+   "yoe": 2
+  },
   "amazon:3e154aaa8036": {
    "company": "Amazon",
    "first_seen": "2026-10-01",
@@ -7963,6 +7978,20 @@
    "url": "https://www.amazon.jobs/en/jobs/10557066/software-development-engineer",
    "yoe": 2
   },
+  "amazon:52e53866be9d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-02",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-02",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Development Engineer Intern (Embedded Systems) - Summer 2027 (USA)",
+   "url": "https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa"
+  },
   "amazon:530a2eb25c57": {
    "company": "Amazon",
    "department": "Software Development",
@@ -8108,6 +8137,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, AWS CloudWatch OpenTelemetry",
    "url": "https://www.amazon.jobs/en/jobs/10534632/software-development-engineer-aws-cloudwatch-opentelemetry",
+   "yoe": 2
+  },
+  "amazon:565880427324": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-02",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Conversational Ads Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10567987/software-development-engineer-conversational-ads-experience",
    "yoe": 2
   },
   "amazon:56af631025ae": {
@@ -8561,6 +8605,21 @@
    "title": "Software Dev Engineer II, AWS Applied AI Solutions",
    "url": "https://www.amazon.jobs/en/jobs/10507206/software-dev-engineer-ii-aws-applied-ai-solutions",
    "yoe": 1
+  },
+  "amazon:63f00a113bbb": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-02",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-02",
+   "role": "security",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AGI Security",
+   "url": "https://www.amazon.jobs/en/jobs/10567888/software-development-engineer-ii-agi-security",
+   "yoe": 2
   },
   "amazon:642c6b30319d": {
    "company": "Amazon",
@@ -97584,6 +97643,18 @@
    "title": "Software Engineer, DGX Cloud AI Infrastructure - New College Grad 2026",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DGX-Cloud-AI-Infrastructure---New-College-Grad-2026_JR2026477"
   },
+  "nvidia:6301866c32e1": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-02",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-02",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698"
+  },
   "nvidia:65770d6d2d54": {
    "company": "Nvidia",
    "first_seen": "2026-08-22",
@@ -153370,7 +153441,7 @@
   },
   "Anthropic": {
    "best": 638,
-   "last": 638,
+   "last": 637,
    "last_ok": "2026-10-02"
   },
   "Apple": {
@@ -153613,7 +153684,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 833,
+   "last": 829,
    "last_ok": "2026-10-02"
   },
   "OpenEvidence": {
@@ -153796,6 +153867,6 @@
    "last_ok": "2026-10-02"
   }
  },
- "updated": "2026-10-02T13:06:23Z",
+ "updated": "2026-10-02T16:46:27Z",
  "version": 1
 }
