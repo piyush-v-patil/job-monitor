@@ -198,6 +198,31 @@ dialog input { width:100%; margin:4px 0 10px; }
 #toast { position:fixed; bottom:22px; right:22px; background:var(--raised);
          border:1px solid var(--line-2); padding:10px 16px; border-radius:11px; display:none;
          font-size:12.5px; box-shadow:0 16px 40px -14px rgba(0,0,0,.8); }
+
+/* ---- the company directory ----
+   Wider than the settings dialog it shares chrome with - this one is a list to
+   scan, not a form to fill - and the rows are job rows (.job.co), so the card,
+   the badges and the buttons are all styling the feed already carries. */
+#codlg { max-width:none; width:min(860px,94vw); padding:14px 16px 16px; }
+.co-top { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:12px; }
+.co-top h3 { margin:0 4px 0 0; }
+.co-top label { display:inline-flex; align-items:center; gap:5px; color:var(--muted);
+                font-size:11.5px; white-space:nowrap; }
+.co-top label input { width:auto; margin:0; }       /* undo `dialog input { width:100% }` */
+.co-top button { margin-left:auto; }
+#coSearch { width:200px; margin:0; }
+/* a caption for the list rather than another control: inline it would push the
+   Close button onto a line of its own at this width */
+#coStats { color:var(--dim); font-size:10.5px; margin:0 0 8px 2px; }
+#coList { max-height:62vh; overflow:auto; padding-right:4px; }
+/* tighter than a feed row: no tier pill, and a company says less than a req */
+.job.co { padding:10px 14px; margin-bottom:6px; }
+.job.co .title { font-size:13.5px; }
+.job.co .btns { display:flex; align-items:center; gap:8px; white-space:nowrap; }
+.colink { color:var(--muted); font-size:11px; text-decoration:none; max-width:190px;
+          overflow:hidden; text-overflow:ellipsis; }
+.colink:hover { color:var(--accent); }
+@media (max-width:720px){ .colink { display:none; } #coSearch { width:140px; } }
 @media (max-width:1040px){ #kpi { grid-template-columns:minmax(148px,172px) 1fr; }
   .actile { grid-column:1 / -1; } }
 @media (max-width:720px){

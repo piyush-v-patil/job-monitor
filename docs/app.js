@@ -201,6 +201,183 @@ function fillCompanies() {
   if (companies.includes(keep)) $("fCompany").value = keep;   // survive a refresh
 }
 
+// ---- the company directory ----------------------------------------------
+// The feed answers "what has been posted"; this answers "who is hiring, and do
+// they sponsor" - which is the order you actually work in when sponsorship
+// decides where it is worth applying at all. Every employer with a posting
+// here, its filing history, and a way through to its own job board, where the
+// listing is complete and current in a way a scan's sample never is.
+//
+// It is built from what the page already holds. The config that names each
+// company's ATS token is server-side only and never published to docs/, so the
+// board comes out of the posting URLs themselves.
+
+// Boards that put the employer's token in the first path segment
+// (.../<token>/<job id>): that path root is the page a human browses.
+const TOKEN_BOARD = /(^|\.)(greenhouse\.io|lever\.co|ashbyhq\.com|smartrecruiters\.com|jobvite\.com)$/i;
+// Workday posts at <host>/en-US/<site>/job/<path>; everything before /job/ is
+// the site's own search page.
+const WORKDAY_BOARD = /(^|\.)(myworkdayjobs\.com|myworkdaysite\.com)$/i;
+// A hostname that is itself a careers site. The separator has to be a dot:
+// "careers-amd.icims.com" starts with the right word and answers 405, while
+// "careers.amd.com" is the real thing.
+const CAREERS_HOST = /^(careers?|jobs?|apply|talent|recruiting)\.|\.jobs$|(^|\.)applytojob\.com$/i;
+// ...and on a company's own domain, the path segment that opens its listing:
+// "stripe.com/jobs/search?gh_jid=..." -> "stripe.com/jobs". Matched whole, so
+// "nuro.ai/careersitem" and "award.co/position" are left alone.
+const CAREERS_PATH = new Set(["careers", "career", "jobs", "open-positions",
+                              "open-roles", "openings", "positions", "all-jobs"]);
+// Boards that list every employer rather than one. Their URLs name no employer,
+// and must be skipped before any rule below: "linkedin.com/jobs/view/123"
+// carries a "jobs" segment, and would otherwise hand 1,428 companies a link to
+// LinkedIn's generic job search. Only LinkedIn appears today; the rest are
+// here because the jobspy fetcher's `sites:` can be widened to them.
+const AGGREGATOR = /(^|\.)(linkedin\.com|indeed\.com|glassdoor\.com|ziprecruiter\.com|dice\.com|simplify\.jobs)$/i;
+// Hosted ATSes that expose no browsable root we can work out. Their paths look
+// inviting - "careers-amd.icims.com/jobs/1234/x" - but the root of that path
+// answers 405, and the hostname is an opaque tenant id as often as a company
+// name ("egug.fa.us2.oraclecloud.com"). 57 of them are in the tracker today.
+// Skipped outright, so neither of the weaker rules can guess a dead link.
+const OPAQUE_ATS = /(^|\.)(icims\.com|oraclecloud\.com|taleo\.net|workable\.com|rippling\.com)$/i;
+
+// Does this host look like it belongs to this employer? Any word of the
+// company's name, three letters or more, appearing in the hostname: "stripe"
+// in stripe.com, "amd" in careers.amd.com, "netflix" in explore.jobs.netflix.net.
+// Three letters, not four, because AMD and IBM are companies; two would let
+// "EY" match "yello.co", which is how the rule was wrong before it existed.
+function ownDomain(company, host) {
+  const h = host.toLowerCase();
+  return (company || "").toLowerCase().split(/[^a-z0-9]+/)
+    .some(w => w.length >= 3 && h.includes(w));
+}
+
+function boardLink(company, urls) {
+  let site = "", page = "";        // weaker answers: a careers host, a careers path
+  for (const u of urls) {
+    let p;
+    try { p = new URL(u); } catch (e) { continue; }
+    const host = p.hostname;
+    if (!host || AGGREGATOR.test(host) || OPAQUE_ATS.test(host)) continue;
+    const seg = p.pathname.split("/").filter(Boolean);
+    if (TOKEN_BOARD.test(host)) {
+      // a bare "jobs.smartrecruiters.com" names no company, so it is not an
+      // answer - and must not fall through to the weaker rules either
+      if (seg.length) return { url: `https://${host}/${seg[0]}`, label: host };
+      continue;
+    }
+    if (WORKDAY_BOARD.test(host)) {
+      const i = seg.findIndex(s => s.toLowerCase() === "job");
+      if (i > 0) return { url: `https://${host}/${seg.slice(0, i).join("/")}`, label: host };
+      continue;
+    }
+    // Both weaker rules only fire on a host that is plainly the employer's own.
+    // Without that test they guess at third-party ATSes we have no list of:
+    // "eyglobal.yello.co/jobs" reads like a careers path, is Ernst & Young's
+    // posting host, and answers 404. A company's own domain carries its name.
+    if (!ownDomain(company, host)) continue;
+    if (!site && CAREERS_HOST.test(host)) { site = `https://${host}`; continue; }
+    if (!page) {
+      const i = seg.findIndex(s => CAREERS_PATH.has(s.toLowerCase()));
+      if (i >= 0) page = `https://${host}/${seg.slice(0, i + 1).join("/")}`;
+    }
+  }
+  // the host on its own beats a path within it: "www.amazon.jobs" is the board,
+  // "www.amazon.jobs/en/jobs" is a guess at a page inside it
+  const best = site || page;
+  if (best) return { url: best, label: best.replace("https://", "") };
+  // Everything else: the 1,428 companies seen only through LinkedIn, and the
+  // hosts that are a homepage rather than a job list ("stripe.com") or mean
+  // nothing to a human ("egug.fa.us2.oraclecloud.com"). A search lands on the
+  // real careers page in one click, which beats a confident wrong link.
+  return { url: "https://www.google.com/search?q=" + encodeURIComponent(company + " careers"),
+           label: "search", search: true };
+}
+
+// Rebuilt only when the numbers behind it move, so reopening the panel costs
+// nothing. Two things move them: a scan (the poll replaces `data` wholesale and
+// `updated` moves with it) and your own marks, which is what `markRev` counts -
+// without it, applying to a job and reopening the panel would show the old
+// "applied" count.
+let coCache = null, coCacheTag = "";
+let markRev = 0;
+
+function companyIndex() {
+  const tag = data.updated + "|" + markRev;
+  if (coCache && coCacheTag === tag) return coCache;
+  const by = new Map();
+  for (const j of Object.values(data.jobs)) {
+    let c = by.get(j.company);
+    if (!c) by.set(j.company, c = { company: j.company, postings: 0, open: 0,
+                                    applied: 0, closed: 0, urls: [] });
+    c.postings++;
+    if (isClosed(j)) c.closed++;
+    else if (j.status === "new") c.open++;
+    if (j.status === "applied" || j.status === "interview") c.applied++;
+    // employer_url first: on a board row that is the employer's own posting,
+    // which is exactly what the board rules above read. A handful is plenty -
+    // every posting of one company resolves to the same board.
+    for (const u of [j.employer_url, isLinkedIn(j) ? "" : j.url])
+      if (u && c.urls.length < 8) c.urls.push(u);
+  }
+  for (const c of by.values()) {
+    c.h1b = h1b[c.company];
+    c.link = boardLink(c.company, c.urls);
+    // -1, not 0: "no record" and "looked up, filed nothing" are different
+    // answers, and neither should sort as though the employer filed zero
+    c.filed = c.h1b ? c.h1b.filed : -1;
+  }
+  coCache = [...by.values()];
+  coCacheTag = tag;
+  return coCache;
+}
+
+function renderCompanies() {
+  const all = companyIndex();
+  const q = $("coSearch").value.trim().toLowerCase();
+  const sponsors = $("coSponsors").checked, noStaffing = $("coStaffing").checked;
+  const rows = all.filter(c =>
+    (!q || c.company.toLowerCase().includes(q)) &&
+    (!sponsors || !!c.h1b) &&
+    (!noStaffing || !(c.h1b && c.h1b.staffing)));
+  const sort = $("coSort").value;
+  rows.sort(sort === "roles" ? (a, b) => b.open - a.open || b.postings - a.postings
+          : sort === "name"  ? (a, b) => a.company.localeCompare(b.company)
+          : (a, b) => b.filed - a.filed || b.open - a.open);
+  $("coStats").textContent = rows.length === all.length
+    ? `${all.length.toLocaleString()} companies`
+    : `${rows.length.toLocaleString()} of ${all.length.toLocaleString()} companies`;
+  $("coList").innerHTML = rows.map(coRow).join("")
+    || "<p style='color:var(--muted);padding:8px 2px'>No company matches.</p>";
+}
+
+function coRow(c) {
+  // "3 open · 3 tracked" says one thing twice, which is most companies here
+  const counts = [c.open ? `${c.open} open` : "", c.applied ? `${c.applied} applied` : "",
+                  c.closed ? `${c.closed} closed` : "",
+                  c.postings === c.open ? "" : `${c.postings} tracked`
+                 ].filter(Boolean).join(" · ");
+  const link = safeUrl(c.link.url);
+  const to = c.link.search
+    ? `Search the web for this employer's careers page - we have only ever seen them through LinkedIn, which names no board`
+    : `Open this employer's own job board (${c.link.label}), where the listing is complete`;
+  return `
+    <div class="job co">
+      <div class="info">
+        <span class="title">${esc(c.company)}</span>
+        <div class="meta">${counts}</div>
+        ${h1bBadges(c.h1b).length ? `<div class="badges">${h1bBadges(c.h1b).join("")}</div>` : ""}
+      </div>
+      <div class="btns">
+        <button data-company="${esc(c.company)}" title="${esc(c.open
+          ? `Show the ${c.open} open role${c.open === 1 ? "" : "s"} this tracker holds from them`
+          : "Nothing open from them right now - this shows everything we have tracked")
+        }">${c.open ? `${c.open} open` : "in feed"} →</button>
+        ${link ? `<a class="colink" href="${link}" target="_blank" rel="noopener"
+             title="${esc(to)}">↗ ${esc(c.link.label)}</a>` : ""}
+      </div>
+    </div>`;
+}
+
 // ---- live updates -------------------------------------------------------
 // A scan commits jobs.json every hour and Pages redeploys it, so an open tab
 // goes stale. Poll cheaply with HEAD and only pull the ~500KB body when the
@@ -232,6 +409,9 @@ async function checkForUpdates(force = false) {
     fillSources();
     fillH1b();   // a scan adds companies, which moves the sponsorship counts
     render();
+    // a scan landing while the company panel is open should move its numbers
+    // rather than leave it showing the counts from before
+    if ($("codlg") && $("codlg").open) renderCompanies();
     const added = Object.keys(data.jobs).length - before;
     if (added > 0) toast(`${added} new role${added === 1 ? "" : "s"} from the latest scan`);
   } catch (e) { /* transient - the next tick retries */ }
@@ -629,8 +809,10 @@ function daysOld(d){
 // red, no "does not sponsor", nothing hidden: a company's filing history is
 // evidence about the company, never a ruling on the requisition in front of
 // you, and a company missing from the data is missing, not disqualified.
-function h1bBadges(j){
-  const h = h1bOf(j);
+//
+// Takes the record rather than the posting, so the feed and the company
+// directory cannot drift into saying different things about one employer.
+function h1bBadges(h){
   if (h === undefined) return [];          // never looked up - say nothing
   if (h === null)
     return [`<span class="badge" title="No H-1B filings on record for this employer.
@@ -689,7 +871,7 @@ function badges(j, lead = ""){
   if (j.role && j.role !== DEFAULT_ROLE)
     b.push(`<span class="badge">${esc(ROLE_LABEL[j.role] || j.role)}</span>`);
   if (j.department) b.push(`<span class="badge">🗂 ${esc(j.department)}</span>`);
-  b.push(...h1bBadges(j));
+  b.push(...h1bBadges(h1bOf(j)));
   return b.length ? `<div class="badges">${b.join("")}</div>` : "";
 }
 
@@ -742,6 +924,7 @@ function mark(ids, status) {
                   ts: Date.now(), synced: 0 };
   }
   writeMarks();          // before the render, so a crash mid-paint costs nothing
+  markRev++;             // the company directory counts these; let its cache go
   render();
   scheduleSave();
 }
@@ -817,6 +1000,56 @@ function saveSettings(){
   localStorage.gh_owner=$("ghOwner").value.trim(); localStorage.gh_repo=$("ghRepo").value.trim();
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
+}
+
+// ---- the company directory's controls -----------------------------------
+// Guarded throughout, like the fGroup and fSort reads: adding a tracker is
+// documented as copying a dashboard page, and one copied before this existed
+// should lose the panel rather than the whole script to a throw at load.
+if ($("companies")) {
+  $("companies").onclick = () => {
+    // the button is live from the first paint, the data arrives a moment later
+    if (!data) { toast("Still loading the tracker..."); return; }
+    renderCompanies();
+    $("codlg").showModal();
+    $("coSearch").select();
+  };
+  // the index is built on first open, so none of these pay for the feed
+  $("coSearch").oninput = renderCompanies;
+  ["coSort", "coSponsors", "coStaffing"].forEach(id => { $(id).onchange = renderCompanies; });
+  // clicking the backdrop closes it, which is what the dimmed page implies
+  $("codlg").addEventListener("click", e => { if (e.target === $("codlg")) $("codlg").close(); });
+  // #coList is replaced wholesale on every keystroke, so the handler lives on
+  // the container rather than on each row's button
+  $("coList").addEventListener("click", e => {
+    const b = e.target.closest("button[data-company]");
+    if (!b) return;
+    showCompany(b.dataset.company);
+  });
+}
+
+// "Show me what I already have from them" - the company filter doing the work.
+function showCompany(name) {
+  if (![...$("fCompany").options].some(o => o.value === name)) fillCompanies();
+  if (![...$("fCompany").options].some(o => o.value === name)) {
+    toast(`${name} is no longer in this tracker`);
+    return;
+  }
+  $("fCompany").value = name;
+  // a search term or a tier left over from before can hide every row of the
+  // company you just asked for, and landing on "Nothing matches" would break
+  // the one click this promises. Role, experience and sponsorship are standing
+  // preferences you set deliberately, so they stay.
+  $("fSearch").value = "";
+  $("fTier").value = "";
+  const row = companyIndex().find(c => c.company === name);
+  if (row && !row.open) {
+    $("fStatus").value = "";          // nothing open: show what there is
+    toast(`Nothing open at ${name} - showing everything tracked`);
+  }
+  $("codlg").close();
+  render();
+  $("list").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 ["fTier","fStatus","fCompany","fSort","fRole","fYoe","fSource","fH1b"]
   .forEach(id => { if ($(id)) $(id).onchange = render; });

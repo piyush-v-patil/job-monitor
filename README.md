@@ -234,6 +234,11 @@ job-monitor/
 │   │                                pages: filtering, the KPI band, the
 │   │                                activity heatmap, the folding of
 │   │                                duplicate requisitions into one row,
+│   │                                the 🏢 Companies panel (every employer
+│   │                                with its H-1B history and a link to its
+│   │                                own job board, worked out from the
+│   │                                posting URLs the tracker already holds —
+│   │                                no new file, no workflow),
 │   │                                and your Applied/Skip
 │   │                                marks — written to this browser's
 │   │                                localStorage the moment you click, then
@@ -456,6 +461,15 @@ committed or sent anywhere except api.github.com.
   You apply to a single requisition — marking 22 would log 22 applications on
   the activity heatmap — but dismissing the cluster is the whole point of
   folding it. Expand the row to act on one req at a time.
+- **🏢 Companies lists every employer in this tracker**, biggest H-1B sponsor
+  first, with staffing agencies badged — several of the heaviest filers are
+  consultancies that would place you at a client site. Search it, or narrow it
+  to sponsors only. Each row carries two things: **↗ their job board**, which is
+  the complete and current listing a scan only samples, and **N open →**, which
+  filters the feed to what this tracker already holds from them. A number means
+  filings on record; *no H-1B filings found* means a gap in the public data
+  rather than a verdict; and a row that says nothing about sponsorship is one
+  the index has not looked up yet.
 - **Closed postings leave the feed on their own.** A daily pass asks each
   tracked posting whether it still accepts applications and marks the ones that
   don't, so **Open (new)** stops offering roles that closed days ago. They are
@@ -515,6 +529,9 @@ committed or sent anywhere except api.github.com.
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run`, or `python -m monitor.main --profile supplychain --tier all --dry-run` |
 | Run the unit tests | `pip install -r requirements-dev.txt` then `python -m pytest tests -q`. Covers the filter/tier rules, the id scheme, jobs.json reconciliation, and Discord delivery. CI runs them on every push to `monitor/`. |
 | Recover missing dates and employer links | `python -m monitor.backfill --dry-run` to review, then without the flag. `--dates` / `--links` to do one only, `--profile supplychain` for the other tracker. Offline — it only reads the tracker's own contents. Runs daily with the closure sweep, so this is for when you want it now. |
+| Change how a company's job board is guessed | the rules in `boardLink` in `docs/app.js`, in the order they are tried: token-in-path boards (Greenhouse/Lever/Ashby/SmartRecruiters/Jobvite), Workday, a careers-looking hostname, a careers path on the employer's own domain, then a Google search |
+| Never guess a careers page, always search | drop the `CAREERS_HOST` and `CAREERS_PATH` branches from `boardLink`; every company whose ATS this does not recognise then falls through to the search link |
+| Change the companies panel's default sort | the first `<option>` of `#coSort` in `docs/index.html` and `docs/supplychain.html` |
 | Change what counts as the same role across locations | `roleKey` and `NON_CITY` in `docs/app.js` (the fold) and `NON_CITY` in `monitor/state.py` (the employer-link match). Both judge the first comma-field of the location only — `Costa Mesa, California, United States` names a city, `2 Locations` does not |
 | Mark postings that stopped accepting applications | `python -m monitor.expire --dry-run` to review, then without the flag to save. `--limit N` caps the requests (default 500, `0` = every posting), `--delay` paces them, `--profile supplychain` for the other tracker. Runs daily on its own; this is for when you want it now. |
 | Drop tracked postings that are not US | `python -m monitor.prune --dry-run` to review, then without the flag to save. Add `--profile supplychain` for the other tracker. Re-applies the current location rules to that tracker's database; anything you have already marked (status past `new`) is reported and kept. |
@@ -577,6 +594,20 @@ normal, occasionally more during peak load.
   postings on them are left alone rather than guessed at. Absence from a scan is
   never taken as closure either — the LinkedIn source only ever asks for the
   last 72 hours, so every posting it finds leaves that window while still open.
+- **The company panel's board links are worked out from posting URLs, not
+  looked up.** The config files that hold each company's real ATS token are
+  server-side only and never published to `docs/`, so the browser has nothing
+  else to go on: 516 of 2,039 companies in the software tracker get a direct
+  link, and the rest get a Google search for "<company> careers" — mostly the
+  1,428 known only through LinkedIn, which names no employer board. A derived
+  root can also point at a board the company has since moved off. The weaker
+  rules only fire on a host carrying the company's own name, because
+  `eyglobal.yello.co/jobs` reads like a careers page, is where Ernst & Young's
+  postings live, and answers 404.
+- **The panel counts company strings, not employers.** It lists exactly the
+  names the tracker holds, so "Walmart" and "Walmart Global Tech" are two rows,
+  and the H-1B index's own approximate matches carry their `~` into this view
+  unchanged.
 - **LinkedIn will not tell us where to apply.** JobSpy reads the employer's
   apply link from a `<code id="applyUrl">` element on the public job page, and
   LinkedIn no longer serves it to logged-out clients — 20 tracked postings

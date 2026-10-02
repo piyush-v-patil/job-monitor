@@ -47,6 +47,7 @@
     <option value="yoe">Sort: lowest experience bar</option>
   </select>
   <input type="text" id="fSearch" placeholder="Search title/location...">
+  <button id="companies" title="Every employer in this tracker, with its H-1B filing history and a way through to its own job board">🏢 Companies</button>
   <button id="settings">⚙ GitHub token</button>
 </header>
 <main>
@@ -90,6 +91,22 @@
   <label>Token</label><input id="ghToken" type="password" placeholder="github_pat_...">
   <button onclick="saveSettings()">Save</button>
   <button onclick="document.getElementById('dlg').close()">Close</button>
+</dialog>
+<dialog id="codlg" aria-labelledby="coTitle">
+  <div class="co-top">
+    <h3 id="coTitle">Companies</h3>
+    <input type="text" id="coSearch" placeholder="Search company...">
+    <select id="coSort">
+      <option value="filed">Sort: most H-1B filings</option>
+      <option value="roles">Sort: most open roles</option>
+      <option value="name">Sort: A–Z</option>
+    </select>
+    <label><input type="checkbox" id="coSponsors"> Sponsors only</label>
+    <label><input type="checkbox" id="coStaffing"> Hide staffing</label>
+    <button onclick="document.getElementById('codlg').close()">Close</button>
+  </div>
+  <p id="coStats"></p>
+  <div id="coList"></div>
 </dialog>
 <div id="toast"></div>
 
