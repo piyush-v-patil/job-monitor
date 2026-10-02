@@ -10417,6 +10417,21 @@
    "title": "Software Development Engineer, Amazon Publisher Services",
    "url": "https://www.amazon.jobs/en/jobs/10506328/software-development-engineer-amazon-publisher-services"
   },
+  "amazon:97592af86738": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-02",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-10-02",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Embedded, Flight Computer Software",
+   "url": "https://www.amazon.jobs/en/jobs/10568209/software-development-engineer-embedded-flight-computer-software",
+   "yoe": 2
+  },
   "amazon:978aa7934ded": {
    "company": "Amazon",
    "department": "Software Development",
@@ -154784,7 +154799,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 152,
+   "last": 154,
    "last_ok": "2026-10-02"
   },
   "Airtable": {
@@ -154803,8 +154818,8 @@
    "last_ok": "2026-10-02"
   },
   "Anthropic": {
-   "best": 638,
-   "last": 637,
+   "best": 639,
+   "last": 639,
    "last_ok": "2026-10-02"
   },
   "Apple": {
@@ -155037,7 +155052,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 190,
+   "last": 191,
    "last_ok": "2026-10-02"
   },
   "Okta": {
@@ -155152,7 +155167,7 @@
   },
   "Stripe": {
    "best": 717,
-   "last": 712,
+   "last": 713,
    "last_ok": "2026-10-02"
   },
   "Suno": {
@@ -155230,6 +155245,6 @@
    "last_ok": "2026-10-02"
   }
  },
- "updated": "2026-10-02T19:35:37Z",
+ "updated": "2026-10-02T21:25:09Z",
  "version": 1
 }
