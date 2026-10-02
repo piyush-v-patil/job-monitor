@@ -130,6 +130,13 @@ def main():
 
     print(f"\n{len(raw)} raw -> {len(in_scope)} in scope -> {len(new)} new"
           + (" (seed run: notifications suppressed)" if seeding else ""))
+    # Board rows link to the board; this counts the ones now carrying the
+    # employer's own link as well, which is the only visible sign that the
+    # match in state.employer_link is still finding anything.
+    board = [e for e in st["jobs"].values() if e.get("soft_dedupe")]
+    linked = sum(1 for e in board if e.get("employer_url"))
+    if board:
+        print(f"{linked} of {len(board)} board postings carry the employer's own link")
 
     by_source = {c.get("name", "?"): n for c, n in zip(companies, counts)}
     empty = [name for name, n in by_source.items() if n == 0]

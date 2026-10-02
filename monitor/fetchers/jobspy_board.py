@@ -22,6 +22,9 @@ What that buys, and what it costs:
     residential ones. `proxies_env` names an environment variable holding a
     comma-separated proxy list, so a blocked runner is a secret away from
     working rather than a code change.
+  - JobSpy loses the posting date on everything posted in the last 24 hours,
+    which is the half of a LinkedIn sweep worth reading first. It is put back
+    here; see _patch_linkedin_dates.
 
 Config (config/companies*.yaml):
 
@@ -44,7 +47,9 @@ exposure, so it is off by default and worth turning on only for the narrow,
 high-value searches.
 """
 import os
+import re
 import time
+from datetime import datetime
 
 # Boards that take a country hint, and the JobSpy argument carrying it.
 _DEFAULT_SITES = ("linkedin",)
@@ -71,7 +76,87 @@ def _scrape_jobs():
         raise RuntimeError(
             "python-jobspy is not installed (pip install -r requirements.txt)"
         ) from e
+    _patch_linkedin_dates()
     return scrape_jobs
+
+
+# LinkedIn stamps a search card's age with one of two <time> classes:
+#
+#   <time class="job-search-card__listdate"      datetime="2026-09-24">4 days ago</time>
+#   <time class="job-search-card__listdate--new" datetime="2026-09-29">3 hours ago</time>
+#
+# Both carry the same machine-readable datetime, but JobSpy reads the date off
+# `find("time", class_="job-search-card__listdate")`, and BeautifulSoup matches
+# class *tokens* - "job-search-card__listdate--new" is a different token, so it
+# never matches. The postings that lose their date are therefore exactly the
+# ones posted in the last 24 hours.
+#
+# Nothing about that is visible in a scan: the row still arrives, still passes
+# the filters, still gets tracked. It only shows up on the dashboard, where
+# "newest posted" has nothing to sort today's postings BY - they fall back to
+# their discovery date, tie with every older posting found in the same sweep,
+# and never reach the top of the list. 471 of the 565 LinkedIn rows found on
+# 2026-09-29 arrived with no date, and not one row in the tracker was stamped
+# as posted that day.
+#
+# So the date is re-read here, off the same card JobSpy has already parsed, and
+# only where JobSpy left the field empty. A JobSpy release that fixes this
+# upstream fills the field first and this never fires.
+_LISTDATE = re.compile(r"job-search-card__listdate")
+
+
+def _card_date(job_card):
+    """The <time datetime> on a search card, whichever listdate class it wears."""
+    tag = job_card.find("time", class_=_LISTDATE) if job_card else None
+    if tag is None and job_card is not None:
+        # Class renamed upstream: any <time datetime> on a search card is the
+        # posting's date, so fall back to that rather than to nothing.
+        tag = job_card.find("time", attrs={"datetime": True})
+    if tag is None or not tag.get("datetime"):
+        return None
+    try:
+        # .date(), not the datetime: JobSpy's model field is a `date`, and its
+        # own rows are coerced to one on the way in. Assigning a datetime
+        # instead leaves one column holding both types, which pandas cannot
+        # sort - scrape_jobs then dies on every LinkedIn search.
+        return datetime.strptime(tag["datetime"].strip()[:10], "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+
+def _patch_linkedin_dates() -> None:
+    """Fill in the date JobSpy drops on postings less than a day old.
+
+    Wraps one JobSpy method rather than reimplementing the scraper: the
+    original parses the card as usual, and only the empty date field is
+    filled. A JobSpy that renames its internals makes this a no-op with a
+    warning instead of a failed scan, which is the same behaviour as today.
+    """
+    try:
+        from jobspy.linkedin import LinkedIn
+    except ImportError:
+        return
+    if getattr(LinkedIn, "_fresh_date_patch", False):
+        return
+    original = getattr(LinkedIn, "_process_job", None)
+    if original is None:
+        print("  ! jobspy: LinkedIn._process_job is gone - postings from today "
+              "will arrive without a date")
+        return
+
+    def _process_job(self, job_card, *a, **kw):
+        post = original(self, job_card, *a, **kw)
+        if post is not None and getattr(post, "date_posted", None) is None:
+            fresh = _card_date(job_card)
+            if fresh is not None:
+                try:
+                    post.date_posted = fresh
+                except Exception:  # noqa: BLE001
+                    pass          # model went read-only: undated, as before
+        return post
+
+    LinkedIn._process_job = _process_job
+    LinkedIn._fresh_date_patch = True
 
 
 def _s(value) -> str:

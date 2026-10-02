@@ -54,6 +54,12 @@ defense/space, logistics and the DTC brands** that run real planning teams.
               new jobs only → that profile's Discord webhook
 ```
 
+A daily pass then works over the postings already tracked, rather than the ones
+arriving: `monitor/backfill.py` recovers the dates and employer links derivable
+from the file itself, and `monitor/expire.py` asks each posting whether it still
+accepts applications, so the feed stops offering roles that have closed. Both
+only ever add fields — your own marks are never touched.
+
 Add `--profile supplychain` and the same pipeline runs over
 `config/companies-supplychain.yaml`, `monitor/filters_scm.py` and
 `docs/data/supplychain.json` instead. Its own cron
@@ -169,8 +175,46 @@ job-monitor/
 │                                    per term under `searches:`; rows are
 │                                    marked so a posting the employer's own
 │                                    ATS also gave us is merged, not tracked
-│                                    twice. See §5 for the knobs.
+│                                    twice. Also puts back the posting date
+│                                    JobSpy drops on everything less than a day
+│                                    old — LinkedIn tags fresh cards with a
+│                                    different `<time>` class, and without it
+│                                    today's postings arrive undated and never
+│                                    sort to the top. See §5 for the knobs.
 │
+├── monitor/expire.py              ← asks tracked postings whether they still
+│                                    accept applications, and stamps
+│                                    `closed_at` on the ones that do not.
+│                                    LinkedIn's own page says so in its markup
+│                                    (a closed posting loses its apply button);
+│                                    a deleted one 404s. Anything else — a
+│                                    throttled reply, a sign-in wall, an
+│                                    unfamiliar layout — is no verdict, and the
+│                                    posting is left exactly as it was. Never
+│                                    writes `status`: that is yours, and a job
+│                                    you applied to is still one after it
+│                                    closes. Run by its own daily workflow.
+├── monitor/backfill.py            ← the offline pass: recovers what the tracker
+│                                    can work out from its own contents, for
+│                                    the rows no future scan will see again.
+│                                    Two things: a posting date for LinkedIn
+│                                    rows that have none (an undated row is
+│                                    undated *because* LinkedIn called it under
+│                                    a day old when we found it, so its date is
+│                                    its first_seen ± a day — checked against
+│                                    LinkedIn's own "N days ago" on 18 rows, 17
+│                                    agreed), marked `posted_approx` so a
+│                                    derived date never reads as a stated one;
+│                                    and the employer's own link for a board
+│                                    row, where this repo already holds that
+│                                    employer's posting for the same role.
+│                                    Contacts nothing. Runs daily ahead of the
+│                                    closure sweep; re-running is a no-op.
+├── monitor/prune.py               ← re-applies the CURRENT location rules to
+│                                    postings already stored, since a filter
+│                                    fix only changes what future scans admit.
+│                                    Anything you have marked is reported and
+│                                    kept, never dropped.
 ├── monitor/h1b.py                 ← builds docs/data/h1b.json: for every
 │                                    company either tracker has seen, how many
 │                                    H-1B petitions that employer has filed,
@@ -190,6 +234,11 @@ job-monitor/
 │   │                                pages: filtering, the KPI band, the
 │   │                                activity heatmap, the folding of
 │   │                                duplicate requisitions into one row,
+│   │                                the 🏢 Companies panel (every employer
+│   │                                with its H-1B history and a link to its
+│   │                                own job board, worked out from the
+│   │                                posting URLs the tracker already holds —
+│   │                                no new file, no workflow),
 │   │                                and your Applied/Skip
 │   │                                marks — written to this browser's
 │   │                                localStorage the moment you click, then
@@ -229,6 +278,13 @@ job-monitor/
     │                                the DOL data moves each quarter but the
     │                                company list grows daily, and a company
     │                                with no entry gets no badge
+    ├── expire.yml                 ← cron "10 3 * * *": runs
+    │                                `python -m monitor.expire` over both
+    │                                trackers, marking postings that no longer
+    │                                accept applications. Paced at ~1.2s per
+    │                                posting, so each run takes the ones whose
+    │                                information is oldest and the rotation
+    │                                comes round over several days
     └── linkedin-smoke.yml         ← manual only. Asks LinkedIn for postings
                                      from a runner and fails loudly if it
                                      gets none, which is how you tell
@@ -405,6 +461,40 @@ committed or sent anywhere except api.github.com.
   You apply to a single requisition — marking 22 would log 22 applications on
   the activity heatmap — but dismissing the cluster is the whole point of
   folding it. Expand the row to act on one req at a time.
+- **🏢 Companies lists every employer in this tracker**, biggest H-1B sponsor
+  first, with staffing agencies badged — several of the heaviest filers are
+  consultancies that would place you at a client site. Search it, or narrow it
+  to sponsors only. Each row carries two things: **↗ their job board**, which is
+  the complete and current listing a scan only samples, and **N open →**, which
+  filters the feed to what this tracker already holds from them. A number means
+  filings on record; *no H-1B filings found* means a gap in the public data
+  rather than a verdict; and a row that says nothing about sponsorship is one
+  the index has not looked up yet.
+- **Closed postings leave the feed on their own.** A daily pass asks each
+  tracked posting whether it still accepts applications and marks the ones that
+  don't, so **Open (new)** stops offering roles that closed days ago. They are
+  not deleted: pick **Closed (no longer accepting)** in the status filter to see
+  them, struck through and badged with the date. A job you had already marked
+  keeps its mark — "applied, and it has since closed" is worth knowing.
+- **Sort: newest posted puts today's postings first.** On the same day,
+  confidence breaks the tie: a date the board stated outranks one this repo
+  worked out, which outranks a row that only has a discovery date ("first seen
+  today" covers a job posted last week). The 🔥 badge marks anything posted in
+  the last three days.
+- **A date shown as `≈ posted 24 Sep` was derived, not published.** It comes
+  either from when the posting was first seen or from LinkedIn's own "5 days
+  ago", and it is good to about a day — enough to sort by, not enough to quote.
+  A board that later states the real date replaces it.
+- **LinkedIn rows link to the employer where we know it.** When this repo also
+  holds the employer's own posting for that role, the title opens *that*, and a
+  small `↗ LinkedIn` beside it keeps the board listing one click away. About 240
+  rows today: the match needs the employer's board to be one we scan, so most
+  LinkedIn rows still link to LinkedIn.
+- **One role listed under several locations folds into one row.** Employers'
+  boards often decline to name a place ("3 Locations", "Remote US") while
+  LinkedIn names a metro, which used to read as two unrelated openings. Same
+  company and title, with either side vague about the city, now fold — 497 rows
+  fewer in the software view — and the expanded list shows each location.
 - Applied/skipped roles never re-alert. The scanner only ever *adds* new job
   IDs — it cannot overwrite your statuses.
 - **The page keeps itself current.** An open tab checks for a new scan every
@@ -438,6 +528,12 @@ committed or sent anywhere except api.github.com.
 | Change what counts as a duplicate req | `groupKey` in `docs/app.js` — postings are folded when company, title and location all match once whitespace and case are normalized. Folding is a view-only concern; nothing in `monitor/` or the JSON is involved |
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run`, or `python -m monitor.main --profile supplychain --tier all --dry-run` |
 | Run the unit tests | `pip install -r requirements-dev.txt` then `python -m pytest tests -q`. Covers the filter/tier rules, the id scheme, jobs.json reconciliation, and Discord delivery. CI runs them on every push to `monitor/`. |
+| Recover missing dates and employer links | `python -m monitor.backfill --dry-run` to review, then without the flag. `--dates` / `--links` to do one only, `--profile supplychain` for the other tracker. Offline — it only reads the tracker's own contents. Runs daily with the closure sweep, so this is for when you want it now. |
+| Change how a company's job board is guessed | the rules in `boardLink` in `docs/app.js`, in the order they are tried: token-in-path boards (Greenhouse/Lever/Ashby/SmartRecruiters/Jobvite), Workday, a careers-looking hostname, a careers path on the employer's own domain, then a Google search |
+| Never guess a careers page, always search | drop the `CAREERS_HOST` and `CAREERS_PATH` branches from `boardLink`; every company whose ATS this does not recognise then falls through to the search link |
+| Change the companies panel's default sort | the first `<option>` of `#coSort` in `docs/index.html` and `docs/supplychain.html` |
+| Change what counts as the same role across locations | `roleKey` and `NON_CITY` in `docs/app.js` (the fold) and `NON_CITY` in `monitor/state.py` (the employer-link match). Both judge the first comma-field of the location only — `Costa Mesa, California, United States` names a city, `2 Locations` does not |
+| Mark postings that stopped accepting applications | `python -m monitor.expire --dry-run` to review, then without the flag to save. `--limit N` caps the requests (default 500, `0` = every posting), `--delay` paces them, `--profile supplychain` for the other tracker. Runs daily on its own; this is for when you want it now. |
 | Drop tracked postings that are not US | `python -m monitor.prune --dry-run` to review, then without the flag to save. Add `--profile supplychain` for the other tracker. Re-applies the current location rules to that tracker's database; anything you have already marked (status past `new`) is reported and kept. |
 
 ---
@@ -492,6 +588,57 @@ normal, occasionally more during peak load.
   says so), it is being throttled, not broken: add a `JOBSPY_PROXIES` secret
   and it resumes. `Actions → LinkedIn reachability → Run workflow` answers
   "is it being throttled right now?" without waiting for a scan.
+- **Closure is only detected where the board says so out loud.** LinkedIn
+  renders "No longer accepting applications" into its public page, so that is
+  what `monitor/expire.py` reads; every other board words it differently, and
+  postings on them are left alone rather than guessed at. Absence from a scan is
+  never taken as closure either — the LinkedIn source only ever asks for the
+  last 72 hours, so every posting it finds leaves that window while still open.
+- **The company panel's board links are worked out from posting URLs, not
+  looked up.** The config files that hold each company's real ATS token are
+  server-side only and never published to `docs/`, so the browser has nothing
+  else to go on: 516 of 2,039 companies in the software tracker get a direct
+  link, and the rest get a Google search for "<company> careers" — mostly the
+  1,428 known only through LinkedIn, which names no employer board. A derived
+  root can also point at a board the company has since moved off. The weaker
+  rules only fire on a host carrying the company's own name, because
+  `eyglobal.yello.co/jobs` reads like a careers page, is where Ernst & Young's
+  postings live, and answers 404.
+- **The panel counts company strings, not employers.** It lists exactly the
+  names the tracker holds, so "Walmart" and "Walmart Global Tech" are two rows,
+  and the H-1B index's own approximate matches carry their `~` into this view
+  unchanged.
+- **LinkedIn will not tell us where to apply.** JobSpy reads the employer's
+  apply link from a `<code id="applyUrl">` element on the public job page, and
+  LinkedIn no longer serves it to logged-out clients — 20 tracked postings
+  fetched, none carried it, no JSON-LD either, and the authenticated API answers
+  403. So `fetch_description: true` would buy ~2,000 extra requests per scan and
+  no link. The employer URLs the dashboard shows are matched against postings
+  this repo fetched itself, which caps them at the employers we scan: 236 of
+  4,252 LinkedIn rows today.
+- **That match is by company and title, so it can point at a sibling req.** It
+  is only taken when there is one candidate posting, or one filed under the same
+  city or under no city at all; two candidates in two named cities get nothing,
+  because two offices advertising one title are two jobs. The board link stays on
+  the row so a wrong guess is one click from recovery.
+- **A derived date can be a day out, and says so.** `≈` means the date came from
+  when the posting was first seen, or from a phrase like "5 days ago", not from
+  the board. Checked against LinkedIn's own age on 18 undated postings: 17 were
+  within a day, one page stated no age at all.
+- **The cross-location fold can put two real openings under one row.** Adobe
+  advertises "Software Development Engineer" in six cities; those now read as one
+  row with an openings badge. Nothing is dropped — expand it, or switch to *Show
+  every posting* — but the row's own location is then the representative's.
+- **Roughly a tenth of the LinkedIn feed is already closed at any time.** A
+  random sample of 200 tracked postings found 21 closed or deleted, spread
+  across every posting date rather than piling up at the old end — the accounts
+  that close fastest are the high-volume reposters (`Jobright.ai`,
+  `RemoteHunter`, `BeaconFire`), some within a day of posting.
+- **A closed posting can sit in the feed for a day or two before it is marked.**
+  The check costs one request per posting and LinkedIn throttles bursts, so a
+  run rotates through the oldest-known part of the tracker rather than sweeping
+  all of it. Raise `--limit` in `expire.yml` to shorten the cycle, at the cost
+  of a longer run.
 - **H-1B sponsorship is a company's filing history, not a promise about the
   role.** The badge counts petitions the employer has filed with the Department
   of Labor. A company with 400 filings still posts citizenship-only and

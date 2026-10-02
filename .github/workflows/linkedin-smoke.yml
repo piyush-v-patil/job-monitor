@@ -51,10 +51,21 @@ jobs:
               print(f"::error::LinkedIn probe raised {type(e).__name__}: {e}")
               sys.exit(1)
           for j in jobs[:10]:
-              print(f"  {j['company']}: {j['title']} ({j['location']}) {j['posted_at']}")
+              print(f"  {j['company']}: {j['title']} ({j['location']}) "
+                    f"{j['posted_at'] or 'NO DATE'}")
           if not jobs:
               print("::error::LinkedIn returned 0 postings - the runner IP is being "
                     "throttled. Set the JOBSPY_PROXIES secret and re-run.")
               sys.exit(1)
-          print(f"OK: {len(jobs)} postings")
+          # The other way this source fails is silent: rows arrive, but the ones
+          # posted in the last 24 hours arrive with no date, and the dashboard
+          # loses its "newest posted" ordering without anything looking broken.
+          # See jobspy_board._patch_linkedin_dates - this is that patch's canary.
+          undated = [j for j in jobs if not j["posted_at"]]
+          if undated:
+              print(f"::warning::{len(undated)} of {len(jobs)} postings arrived with "
+                    "no date. LinkedIn marks fresh postings with a different <time> "
+                    "class; if that share is large, check whether a jobspy upgrade "
+                    "renamed what _patch_linkedin_dates hooks.")
+          print(f"OK: {len(jobs)} postings, {len(jobs) - len(undated)} dated")
           PY

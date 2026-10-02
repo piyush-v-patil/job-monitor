@@ -120,9 +120,21 @@ main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
        align-items:center; transition:border-color .16s, opacity .2s; }
 .job:hover { border-color:var(--line-2); }
 .job.applied { opacity:.4; } .job.skip { opacity:.26; }
+/* A closed posting is spent, not dismissed: dimmed enough to stop drawing the
+   eye, still legible, and struck through on the title so the reason is obvious
+   at a glance rather than only in the badge. It only ever shows outside the
+   open feed, so this never competes with a live row for attention. */
+.job.closed { opacity:.5; }
+.job.closed .title { text-decoration:line-through; text-decoration-thickness:1px;
+                     text-decoration-color:rgba(255,155,138,.5); }
 .job .info { flex:1; min-width:0; }
 .job .title { color:var(--text); font-weight:600; text-decoration:none; letter-spacing:-.005em; }
 .job a.title:hover { color:var(--accent); }
+/* The board listing, kept beside a title that now points at the employer. It
+   is a fallback, not a destination, so it reads at the weight of a footnote. */
+.job a.alt { color:var(--muted); font-size:10.5px; text-decoration:none; white-space:nowrap;
+             margin-left:6px; }
+.job a.alt:hover { color:var(--text); }
 .meta { color:var(--muted); font-size:11.5px; margin-top:3px; }
 /* identity rides the dot; the label stays in ink (never the series colour) */
 .pill { font-size:10px; padding:2px 9px 2px 7px; border-radius:999px; font-weight:600;
@@ -137,6 +149,10 @@ main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
 .badge.fresh { color:#ffd479; border-color:rgba(255,212,121,.22); background:rgba(255,212,121,.06); }
 .badge.yoe { color:#c3b6ff; border-color:rgba(195,182,255,.22); background:rgba(195,182,255,.06); }
 .badge.urgent { color:#ff9b8a; border-color:rgba(255,155,138,.3); background:rgba(255,155,138,.08); }
+/* The one badge that reports a dead end, so it borrows the urgency palette at
+   full strength rather than the muted default. */
+.badge.closed { color:#ff9b8a; border-color:rgba(255,155,138,.4); background:rgba(255,155,138,.12);
+                font-weight:550; }
 /* Sponsorship history. Teal reads as its own category next to the green of
    compensation, and it is the only colour the pair gets: "no filings found"
    deliberately keeps the neutral default badge, because it reports a gap in
@@ -182,6 +198,31 @@ dialog input { width:100%; margin:4px 0 10px; }
 #toast { position:fixed; bottom:22px; right:22px; background:var(--raised);
          border:1px solid var(--line-2); padding:10px 16px; border-radius:11px; display:none;
          font-size:12.5px; box-shadow:0 16px 40px -14px rgba(0,0,0,.8); }
+
+/* ---- the company directory ----
+   Wider than the settings dialog it shares chrome with - this one is a list to
+   scan, not a form to fill - and the rows are job rows (.job.co), so the card,
+   the badges and the buttons are all styling the feed already carries. */
+#codlg { max-width:none; width:min(860px,94vw); padding:14px 16px 16px; }
+.co-top { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:12px; }
+.co-top h3 { margin:0 4px 0 0; }
+.co-top label { display:inline-flex; align-items:center; gap:5px; color:var(--muted);
+                font-size:11.5px; white-space:nowrap; }
+.co-top label input { width:auto; margin:0; }       /* undo `dialog input { width:100% }` */
+.co-top button { margin-left:auto; }
+#coSearch { width:200px; margin:0; }
+/* a caption for the list rather than another control: inline it would push the
+   Close button onto a line of its own at this width */
+#coStats { color:var(--dim); font-size:10.5px; margin:0 0 8px 2px; }
+#coList { max-height:62vh; overflow:auto; padding-right:4px; }
+/* tighter than a feed row: no tier pill, and a company says less than a req */
+.job.co { padding:10px 14px; margin-bottom:6px; }
+.job.co .title { font-size:13.5px; }
+.job.co .btns { display:flex; align-items:center; gap:8px; white-space:nowrap; }
+.colink { color:var(--muted); font-size:11px; text-decoration:none; max-width:190px;
+          overflow:hidden; text-overflow:ellipsis; }
+.colink:hover { color:var(--accent); }
+@media (max-width:720px){ .colink { display:none; } #coSearch { width:140px; } }
 @media (max-width:1040px){ #kpi { grid-template-columns:minmax(148px,172px) 1fr; }
   .actile { grid-column:1 / -1; } }
 @media (max-width:720px){

@@ -1,0 +1,109 @@
+name: Closed-posting sweep (daily)
+
+# Asks tracked postings whether they still accept applications, and stamps
+# closed_at on the ones that do not (monitor/expire.py). Without this the feed
+# keeps offering roles that closed days ago, and you only find out by opening
+# one and reading "No longer accepting applications".
+#
+# It also runs monitor/backfill.py first, which needs no network at all: it
+# recovers the posting dates and employer links derivable from the tracker's
+# own contents, for the rows no future scan will look at again.
+#
+# One request per posting, ~1.2s apart, so this is paced rather than parallel:
+# 1200 postings is about 24 minutes. Each tracker holds a few thousand LinkedIn
+# rows, so a run takes the ones whose information is oldest and the rotation
+# comes round every few days; nothing already known closed is asked twice.
+# Raise the limit to shorten that cycle - postings close within days of going
+# up, so a stale row is the cost of a slow rotation - at the price of a longer
+# run against an endpoint that throttles bursts.
+#
+# Both trackers are swept, in their own concurrency groups and against their own
+# files, exactly as the two scan workflows are. 03:10 UTC sits between the :00
+# and :30 scan crons, so neither leg is writing its file while a sweep is.
+
+on:
+  schedule:
+    - cron: "10 3 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Postings to probe per tracker (0 = every one; hours, not minutes)"
+        type: string
+        default: "1200"
+      dry_run:
+        description: "Report only, write nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  expire:
+    runs-on: ubuntu-latest
+    # A full pass at 1.2s per posting can outlast the 360-minute default; cap it
+    # so a stuck run cannot hold its group all day.
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false        # one tracker's outage must not cancel the other
+      matrix:
+        include:
+          - profile: tech
+            file: docs/data/jobs.json
+            group: job-scan
+          - profile: supplychain
+            file: docs/data/supplychain.json
+            group: job-scan-supplychain
+    concurrency:
+      # the same group the tracker's own scans use: both write this file, and
+      # serialising them is cheaper than reconciling two copies of it
+      group: ${{ matrix.group }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # Offline and instant: fills in the posting dates and employer links that
+      # can be worked out from the file itself. It runs here rather than as a
+      # one-off because a LinkedIn sweep only asks for the last 72 hours, so a
+      # posting found last week never passes through a scan again and would
+      # never pick either of them up. Re-running changes nothing already set.
+      - name: Recover dates and employer links
+        run: python -m monitor.backfill --profile "${{ matrix.profile }}" ${{
+              inputs.dry_run && '--dry-run' || '' }}
+      - name: Probe tracked postings
+        run: |
+          python -m monitor.expire --profile "${{ matrix.profile }}" \
+            --limit "${{ inputs.limit || '1200' }}" \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Commit closures
+        if: ${{ !inputs.dry_run }}
+        env:
+          FILE: ${{ matrix.file }}
+        run: |
+          git config user.name "job-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          # Same reconcile-and-retry as the scans: a sweep or a dashboard write
+          # can land first, and git cannot merge these files on its own. This
+          # run only writes closed_at/checked_at, neither of which the merge
+          # treats as user-owned, so no mark of yours is at risk either way.
+          for attempt in 1 2 3; do
+            git add "$FILE"
+            if git diff --cached --quiet; then
+              echo "no closures to commit"; exit 0
+            fi
+            git commit -m "expire(${{ matrix.profile }}): mark postings no longer accepting applications"
+            if git push origin HEAD:"${GITHUB_REF_NAME}"; then
+              echo "pushed (attempt $attempt)"; exit 0
+            fi
+            echo "push rejected - reconciling with the branch (attempt $attempt)"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git show "origin/${GITHUB_REF_NAME}:$FILE" > /tmp/theirs.json
+            python -m monitor.merge "$FILE" /tmp/theirs.json /tmp/merged.json
+            git reset --hard "origin/${GITHUB_REF_NAME}"
+            cp /tmp/merged.json "$FILE"
+          done
+          echo "still could not push after 3 attempts"; exit 1
