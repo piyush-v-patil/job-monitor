@@ -814,6 +814,20 @@
    "workplace": "Hybrid",
    "yoe": 5
   },
+  "abridge:7bed8ae3e7d1": {
+   "company": "Abridge",
+   "employer_url": "https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883",
+   "first_seen": "2026-10-04",
+   "location": "San Francisco, CA",
+   "posted_at": "2026-10-04",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Member of Technical Staff, Intern (Fall 2026)",
+   "url": "https://www.linkedin.com/jobs/view/4454831386"
+  },
   "abridge:9567fefb6a03": {
    "comp": "$205K – $300K • Offers Equity",
    "company": "Abridge",
@@ -2626,6 +2640,19 @@
    "title": "Intern - Firmware Engineer - Fall 2026",
    "url": "https://www.linkedin.com/jobs/view/4469048992"
   },
+  "advanced-tech-placement:b49bc73abfab": {
+   "company": "Advanced Tech Placement",
+   "first_seen": "2026-10-04",
+   "location": "Alpharetta, GA",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "UI Developer",
+   "url": "https://www.linkedin.com/jobs/view/4473147949"
+  },
   "advisorey:852efd4e9900": {
    "company": "advisorey.",
    "first_seen": "2026-09-27",
@@ -3829,6 +3856,19 @@
    "tier": "experienced",
    "title": "Azure DevOps Engineer",
    "url": "https://www.linkedin.com/jobs/view/4473944131"
+  },
+  "agilegrid-solutions:0da3b8452bbc": {
+   "company": "AgileGrid Solutions",
+   "first_seen": "2026-10-04",
+   "location": "United States",
+   "posted_at": "2026-10-04",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Front End Developer",
+   "url": "https://www.linkedin.com/jobs/view/4475515081"
   },
   "agilegrid-solutions:239783ee6c1d": {
    "company": "AgileGrid Solutions",
@@ -5409,6 +5449,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Aurora Control Plane",
    "url": "https://www.linkedin.com/jobs/view/4455777906"
+  },
+  "amazon-web-services-aws:b32fc2072bab": {
+   "company": "Amazon Web Services (AWS)",
+   "first_seen": "2026-10-04",
+   "location": "Seattle, WA",
+   "posted_at": "2026-10-04",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Front-End Engineer, Amazon Connect (AWS)",
+   "url": "https://www.linkedin.com/jobs/view/4457538533"
   },
   "amazon-web-services-aws:b55e21d98708": {
    "company": "Amazon Web Services (AWS)",
@@ -8427,6 +8480,20 @@
    "title": "Software Development Engineer, Measurement, Ad Tech, and Data Science (MADS) - Tax & Promotions",
    "url": "https://www.amazon.jobs/en/jobs/10555776/software-development-engineer-measurement-ad-tech-and-data-science-mads-tax-promotions",
    "yoe": 1
+  },
+  "amazon:4fd5641f30c1": {
+   "company": "Amazon",
+   "employer_url": "https://www.amazon.jobs/en/jobs/10567489/software-development-engineer-robotics-early-career-2027",
+   "first_seen": "2026-10-04",
+   "location": "Austin, TX",
+   "posted_at": "2026-10-02",
+   "role": "embedded",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Development Engineer, ROBOTICS, Early Career - 2027",
+   "url": "https://www.linkedin.com/jobs/view/4474745093"
   },
   "amazon:4fdcab713488": {
    "company": "Amazon",
@@ -12235,7 +12302,6 @@
    "company": "Amazon",
    "first_seen": "2026-10-01",
    "location": "Seattle, WA",
-   "posted_approx": true,
    "posted_at": "2026-10-01",
    "role": "embedded",
    "soft_dedupe": true,
@@ -15046,6 +15112,19 @@
    "title": "Front--End Developer (Mid) TS/SCI",
    "url": "https://www.linkedin.com/jobs/view/4444985079"
   },
+  "amentum:722bf2587dc7": {
+   "company": "Amentum",
+   "first_seen": "2026-10-04",
+   "location": "Colorado Springs, CO",
+   "posted_at": "2026-10-02",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Mid Cybersecurity Engineer IRES - SSFB/HSV",
+   "url": "https://www.linkedin.com/jobs/view/4474586152"
+  },
   "amentum:8962029476fd": {
    "company": "Amentum",
    "first_seen": "2026-09-27",
@@ -16202,6 +16281,19 @@
    "tier": "experienced",
    "title": "Cybersecurity Engineer",
    "url": "https://www.linkedin.com/jobs/view/4462431840"
+  },
+  "amerigas:61b9da83bac2": {
+   "company": "AmeriGas",
+   "first_seen": "2026-10-04",
+   "location": "Greater Philadelphia",
+   "posted_at": "2026-10-02",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cyber Security Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4463953883"
   },
   "amerisure-insurance:802ae2c2c7ac": {
    "company": "Amerisure Insurance",
@@ -24143,6 +24235,19 @@
    "title": "Data Engineer",
    "url": "https://www.linkedin.com/jobs/view/4470295466"
   },
+  "argo-cyber-systems:25e22860dbf3": {
+   "company": "ARGO Cyber Systems",
+   "first_seen": "2026-10-04",
+   "location": "Arlington, VA",
+   "posted_at": "2026-10-04",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4475508606"
+  },
   "argonne-national-laboratory:33768c0f1375": {
    "company": "Argonne National Laboratory",
    "first_seen": "2026-10-02",
@@ -24169,6 +24274,19 @@
    "tier": "experienced",
    "title": "FedRAMP Site Reliability Engineer (FedSRE) - CloudVision",
    "url": "https://www.linkedin.com/jobs/view/4467803524"
+  },
+  "aristocrat:7c785fd4f906": {
+   "company": "Aristocrat",
+   "first_seen": "2026-10-04",
+   "location": "Austin, TX",
+   "posted_at": "2026-10-04",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4444329366"
   },
   "arkansas-children-s:b9de63c89056": {
    "company": "Arkansas Children's",
@@ -25903,6 +26021,19 @@
    "tier": "newgrad",
    "title": "Software Engineer I (On-Site)",
    "url": "https://www.linkedin.com/jobs/view/4461418014"
+  },
+  "bae-systems-inc:30161bb4da99": {
+   "company": "BAE Systems, Inc.",
+   "first_seen": "2026-10-04",
+   "location": "Greenlawn, NY",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Junior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4454670030"
   },
   "bae-systems-inc:3b54690903ba": {
    "company": "BAE Systems, Inc.",
@@ -28185,6 +28316,19 @@
    "title": "Security Engineer, Detect & Respond",
    "url": "https://www.linkedin.com/jobs/view/4469342555"
   },
+  "big-impact-tech-bit:19693f847b46": {
+   "company": "Big Impact Tech (BIT)",
+   "first_seen": "2026-10-04",
+   "location": "Washington DC-Baltimore Area",
+   "posted_at": "2026-10-02",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4474764620"
+  },
   "bigbear-ai:42201e3a423f": {
    "checked_at": "2026-10-02",
    "company": "BigBear.ai",
@@ -29783,6 +29927,19 @@
    "tier": "experienced",
    "title": "Developer - Integrations & AI",
    "url": "https://www.linkedin.com/jobs/view/4470727254"
+  },
+  "bma:048929c5700f": {
+   "company": "BMA",
+   "first_seen": "2026-10-04",
+   "location": "Huntsville, AL",
+   "posted_at": "2026-10-04",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cybersecurity Engineer (59943)",
+   "url": "https://www.linkedin.com/jobs/view/4384892967"
   },
   "bny:b5b476fbb499": {
    "company": "BNY",
@@ -32677,8 +32834,7 @@
    "company": "Booz Allen Hamilton",
    "first_seen": "2026-10-01",
    "location": "San Diego, CA",
-   "posted_approx": true,
-   "posted_at": "2026-10-01",
+   "posted_at": "2026-10-03",
    "role": "ml-ai",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
@@ -34036,6 +34192,19 @@
    "tier": "experienced",
    "title": "DevOps Engineer",
    "url": "https://www.linkedin.com/jobs/view/4474330381"
+  },
+  "booz-allen-hamilton:b1b90c118dc4": {
+   "company": "Booz Allen Hamilton",
+   "first_seen": "2026-10-04",
+   "location": "San Antonio, TX",
+   "posted_at": "2026-10-03",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI/ML Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4475087001"
   },
   "booz-allen-hamilton:b780b01e6809": {
    "company": "Booz Allen Hamilton",
@@ -54405,6 +54574,19 @@
    "title": "Full Stack Engineer",
    "url": "https://www.linkedin.com/jobs/view/4471390415"
   },
+  "crane-aerospace-electronics:d803fa4882e5": {
+   "company": "Crane Aerospace & Electronics",
+   "first_seen": "2026-10-04",
+   "location": "Lynnwood, WA",
+   "posted_at": "2026-10-02",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II",
+   "url": "https://www.linkedin.com/jobs/view/4464814952"
+  },
   "crawford-thomas-recruiting:a27b95d538f3": {
    "company": "Crawford Thomas Recruiting",
    "first_seen": "2026-09-30",
@@ -61045,6 +61227,19 @@
    "title": "Software Engineer Intern",
    "url": "https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Technology---Software-Engineer_2026-9022"
   },
+  "direct-supply:0b9eaa7781b8": {
+   "company": "Direct Supply",
+   "first_seen": "2026-10-04",
+   "location": "Milwaukee, WI",
+   "posted_at": "2026-10-03",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "AI Engineer Intern",
+   "url": "https://www.linkedin.com/jobs/view/4466498952"
+  },
   "direct-supply:844bf6981902": {
    "company": "Direct Supply",
    "first_seen": "2026-10-03",
@@ -64885,6 +65080,32 @@
    "title": "Entry-Level Software Developer",
    "url": "https://www.linkedin.com/jobs/view/4470025801"
   },
+  "epic:a7c547345c39": {
+   "company": "Epic",
+   "first_seen": "2026-10-04",
+   "location": "Dubuque, IA",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Entry-Level Software Developer",
+   "url": "https://www.linkedin.com/jobs/view/4321375719"
+  },
+  "epic:c61d3de9c31b": {
+   "company": "Epic",
+   "first_seen": "2026-10-04",
+   "location": "River Falls, WI",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Entry-Level Software Developer",
+   "url": "https://www.linkedin.com/jobs/view/4363427443"
+  },
   "epicor:14538e8f1377": {
    "company": "Epicor",
    "first_seen": "2026-10-02",
@@ -64897,6 +65118,19 @@
    "tier": "experienced",
    "title": "IT Security Engineer",
    "url": "https://www.linkedin.com/jobs/view/4474529603"
+  },
+  "epicor:9d7d51ab656c": {
+   "company": "Epicor",
+   "first_seen": "2026-10-04",
+   "location": "Austin, TX",
+   "posted_at": "2026-10-01",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "IT Security Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4474544144"
   },
   "epiq:3d82c9bc68e8": {
    "company": "Epiq",
@@ -66653,6 +66887,19 @@
    "title": "AI Engineer III",
    "url": "https://www.linkedin.com/jobs/view/4470659094"
   },
+  "federal-reserve-bank-of-kansas-city:9043e179297c": {
+   "company": "Federal Reserve Bank of Kansas City",
+   "first_seen": "2026-10-04",
+   "location": "Kansas City, MO",
+   "posted_at": "2026-10-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "CADRE Data/Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4475057465"
+  },
   "fedstack:e0b099e8fd7f": {
    "company": "Fedstack",
    "first_seen": "2026-09-24",
@@ -68355,6 +68602,19 @@
    "title": "Member of Technical Staff (Frontend)",
    "url": "https://www.linkedin.com/jobs/view/4463861999"
   },
+  "footprint:b95a65d7c888": {
+   "company": "Footprint",
+   "first_seen": "2026-10-04",
+   "location": "New York, NY",
+   "posted_at": "2026-10-04",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff (Frontend)",
+   "url": "https://www.linkedin.com/jobs/view/4465062361"
+  },
   "ford-motor-company:0687c22e0609": {
    "company": "Ford Motor Company",
    "first_seen": "2026-10-01",
@@ -68445,6 +68705,19 @@
    "tier": "experienced",
    "title": "Data Engineering - Associate",
    "url": "https://www.linkedin.com/jobs/view/4472079848"
+  },
+  "formfactor-inc:44ecbc1192b3": {
+   "company": "FormFactor Inc.",
+   "first_seen": "2026-10-04",
+   "location": "Farmers Branch, TX",
+   "posted_at": "2026-10-02",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Supply Chain Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4445784381"
   },
   "forsyth-barnes:0a2290151ea4": {
    "company": "Forsyth Barnes",
@@ -70563,6 +70836,19 @@
    "tier": "experienced",
    "title": "Associate Data Scientist",
    "url": "https://www.linkedin.com/jobs/view/4455617981"
+  },
+  "gas-south:215104b045be": {
+   "company": "Gas South",
+   "first_seen": "2026-10-04",
+   "location": "Atlanta, GA",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Intern",
+   "url": "https://www.linkedin.com/jobs/view/4474523340"
   },
   "gbu-life:a333f13c141e": {
    "company": "GBU Life",
@@ -77237,6 +77523,19 @@
    "title": "Front-End Developer & UI/UX Consultant",
    "url": "https://www.linkedin.com/jobs/view/4473940302"
   },
+  "grainger:a7cb02e45708": {
+   "company": "Grainger",
+   "first_seen": "2026-10-04",
+   "location": "Chicago, IL",
+   "posted_at": "2026-10-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III (Java)",
+   "url": "https://www.linkedin.com/jobs/view/4466391798"
+  },
   "grainger:d50f6f326742": {
    "company": "Grainger",
    "first_seen": "2026-09-28",
@@ -79012,6 +79311,19 @@
    "title": "DevOps Engineer",
    "url": "https://www.linkedin.com/jobs/view/4469031067"
   },
+  "haystack:165b857b2933": {
+   "company": "Haystack",
+   "first_seen": "2026-10-04",
+   "location": "United States",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "UI Developer",
+   "url": "https://www.linkedin.com/jobs/view/4473192495"
+  },
   "haystack:1825145bca3d": {
    "company": "Haystack",
    "first_seen": "2026-09-25",
@@ -79184,6 +79496,19 @@
    "tier": "experienced",
    "title": "UI/UX & Frontend Developer",
    "url": "https://www.linkedin.com/jobs/view/4470810077"
+  },
+  "haystack:3dcb0a2cc971": {
+   "company": "Haystack",
+   "first_seen": "2026-10-04",
+   "location": "Boston, KY",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4473478989"
   },
   "haystack:48da02e32e19": {
    "company": "Haystack",
@@ -80066,6 +80391,19 @@
    "tier": "intern",
    "title": "Machine Learning Co-Op (Spring 2027)",
    "url": "https://www.linkedin.com/jobs/view/4471673979"
+  },
+  "hendrickson:8aebcb8b1841": {
+   "company": "Hendrickson",
+   "first_seen": "2026-10-04",
+   "location": "Canton, OH",
+   "posted_at": "2026-10-02",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Machine Learning Co-Op (Fall 2027)",
+   "url": "https://www.linkedin.com/jobs/view/4475019864"
   },
   "hendrickson:9c4992bdc6be": {
    "company": "Hendrickson",
@@ -82066,6 +82404,19 @@
    "tier": "newgrad",
    "title": "Associate Data Scientist 2027 - AI & Data Analytics",
    "url": "https://www.linkedin.com/jobs/view/4451279691"
+  },
+  "ibm:45829e69eeca": {
+   "company": "IBM",
+   "first_seen": "2026-10-04",
+   "location": "Austin, TX",
+   "posted_at": "2026-10-02",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Cloud Infrastructure Network Monitoring and Automation Software Engineer Intern - Austin, TX - 2027",
+   "url": "https://www.linkedin.com/jobs/view/4472994343"
   },
   "ibm:491ee2094e29": {
    "company": "IBM",
@@ -84646,6 +84997,19 @@
    "tier": "experienced",
    "title": "QML/Java Frontend Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4466386789"
+  },
+  "interclypse:242956ee5085": {
+   "company": "Interclypse",
+   "first_seen": "2026-10-04",
+   "location": "Annapolis Junction, MD",
+   "posted_at": "2026-10-04",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4475348836"
   },
   "interclypse:27d25be64688": {
    "checked_at": "2026-10-02",
@@ -91843,7 +92207,6 @@
    "company": "LG Energy Solution",
    "first_seen": "2026-10-01",
    "location": "Westborough, MA",
-   "posted_approx": true,
    "posted_at": "2026-10-01",
    "role": "software",
    "soft_dedupe": true,
@@ -93126,6 +93489,19 @@
    "title": "Spring 2027 - Software Engineering Co-Op - Philadelphia, PA",
    "url": "https://www.linkedin.com/jobs/view/4470186634"
   },
+  "lutron-electronics:abc43d975b78": {
+   "company": "Lutron Electronics",
+   "first_seen": "2026-10-04",
+   "location": "Philadelphia, PA",
+   "posted_at": "2026-10-02",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4426435262"
+  },
   "lutron-electronics:cdf01a8f7b18": {
    "company": "Lutron Electronics",
    "first_seen": "2026-09-28",
@@ -93853,6 +94229,19 @@
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://mantech.avature.net/en_US/careers/JobDetail/61501"
+  },
+  "mantech:b7c696145ab1": {
+   "company": "MANTECH",
+   "first_seen": "2026-10-04",
+   "location": "Saint Inigoes, MD",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Developer",
+   "url": "https://www.linkedin.com/jobs/view/4428202908"
   },
   "mantech:bfd69b44eaa9": {
    "company": "MANTECH",
@@ -95972,6 +96361,19 @@
    "title": "Global Production Systems Engineer",
    "url": "https://www.linkedin.com/jobs/view/4470179238"
   },
+  "meta:bb10f3ba4f22": {
+   "company": "Meta",
+   "first_seen": "2026-10-04",
+   "location": "Bellevue, WA",
+   "posted_at": "2026-10-02",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4473150845"
+  },
   "meta:bcc7fd57880a": {
    "company": "Meta",
    "first_seen": "2026-09-28",
@@ -96608,6 +97010,19 @@
    "tier": "intern",
    "title": "Software Engineer: Intern Opportunity for University Students",
    "url": "https://www.linkedin.com/jobs/view/4471461601"
+  },
+  "microsoft:57b966d32c09": {
+   "company": "Microsoft",
+   "first_seen": "2026-10-04",
+   "location": "Reston, VA",
+   "posted_at": "2026-10-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Intern - CTJ - TS",
+   "url": "https://www.linkedin.com/jobs/view/4466487289"
   },
   "microsoft:626a81ec39b1": {
    "company": "Microsoft",
@@ -97976,6 +98391,7 @@
   },
   "mongodb:30b9f1deea12": {
    "company": "MongoDB",
+   "employer_url": "https://www.mongodb.com/careers/job/?gh_jid=7235322",
    "first_seen": "2026-08-22",
    "location": "San Francisco",
    "posted_at": "2025-09-10",
@@ -98957,6 +99373,19 @@
    "title": "Software Engineer – Data Visualization & UI/UX with Security Clearance",
    "url": "https://www.linkedin.com/jobs/view/4471475518"
   },
+  "natera:89f9fec6c569": {
+   "company": "Natera",
+   "first_seen": "2026-10-04",
+   "location": "United States",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Intern",
+   "url": "https://www.linkedin.com/jobs/view/4473178670"
+  },
   "national-information-solutions-cooperative:18613fe7565e": {
    "company": "National Information Solutions Cooperative",
    "first_seen": "2026-09-03",
@@ -99497,6 +99926,19 @@
    "tier": "intern",
    "title": "Data Scientist Intern - Current PhD 🎓",
    "url": "https://jobs.lever.co/neighbor/b5f73774-1d5a-4edc-a184-d1734731cd9c/apply"
+  },
+  "nelnet-campus-commerce:7447708a3351": {
+   "company": "Nelnet Campus Commerce",
+   "first_seen": "2026-10-04",
+   "location": "Lincoln, NE",
+   "posted_at": "2026-10-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Intern - IT Software Engineer .NET (Summer 2027)",
+   "url": "https://www.linkedin.com/jobs/view/4475394434"
   },
   "nelnet-campus-commerce:8f6671c275b6": {
    "company": "Nelnet Campus Commerce",
@@ -101494,6 +101936,19 @@
    "tier": "newgrad",
    "title": "Data Engineer 1 - Insights Delivery Finance",
    "url": "https://nordstrom.wd501.myworkdayjobs.com/nordstrom_careers/job/Seattle-WA/Data-Engineer-1--Insights-Delivery-Finance--Hybrid---Seattle--WA-_R-867723"
+  },
+  "nordstrom:546a755d6d09": {
+   "company": "Nordstrom",
+   "first_seen": "2026-10-04",
+   "location": "Seattle, WA",
+   "posted_at": "2026-10-01",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Junior SRE (Seattle,WA)",
+   "url": "https://www.linkedin.com/jobs/view/4474525387"
   },
   "north-atlantic-industries:125b7c7ead68": {
    "company": "North Atlantic Industries",
@@ -104843,6 +105298,20 @@
    "title": "Research Scientist, Physical AI - Foundation Models - PhD New College Grad 2026",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Generative-AI-for-Physical-AI---PhD-New-College-Grad-2026_JR2016032"
   },
+  "nvidia:bf86e69d625b": {
+   "company": "NVIDIA",
+   "employer_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+   "first_seen": "2026-10-04",
+   "location": "Santa Clara, CA",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
+   "url": "https://www.linkedin.com/jobs/view/4455474236"
+  },
   "nvidia:c35d0add287a": {
    "company": "Nvidia",
    "first_seen": "2026-09-08",
@@ -104866,6 +105335,19 @@
    "tier": "experienced",
    "title": "Applied AI Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Applied-AI-Engineer_JR2018179-3"
+  },
+  "nvidia:c838d4062f49": {
+   "company": "NVIDIA",
+   "first_seen": "2026-10-04",
+   "location": "Santa Clara, CA",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
+   "url": "https://www.linkedin.com/jobs/view/4455486157"
   },
   "nvidia:c92b08d52349": {
    "company": "NVIDIA",
@@ -112572,6 +113054,7 @@
   "palantir:662ba225dc3c": {
    "company": "Palantir",
    "department": "Dev",
+   "employer_url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
    "employment_type": "Full-time",
    "first_seen": "2026-08-20",
    "location": "Seattle, WA",
@@ -113886,6 +114369,19 @@
    "tier": "experienced",
    "title": "Lead Software Engineer - Web",
    "url": "https://www.linkedin.com/jobs/view/4418056712"
+  },
+  "paramount:77dc419fa487": {
+   "company": "Paramount",
+   "first_seen": "2026-10-04",
+   "location": "New York, NY",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Content Engineering",
+   "url": "https://www.linkedin.com/jobs/view/4410599079"
   },
   "parasail:1550221d268b": {
    "company": "Parasail",
@@ -119461,6 +119957,19 @@
    "title": "Software Engineering Intern",
    "url": "https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05/application?embed=true"
   },
+  "qualcomm:034d598abe07": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-04",
+   "location": "San Diego, CA",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Modem",
+   "url": "https://www.linkedin.com/jobs/view/4446767992"
+  },
   "qualcomm:0facdbcf9c07": {
    "company": "Qualcomm",
    "first_seen": "2026-09-28",
@@ -120231,6 +120740,19 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer - Fraud Risk",
    "url": "https://www.linkedin.com/jobs/view/4463914596"
+  },
+  "ralph-lauren:eaaa22487ddf": {
+   "company": "Ralph Lauren",
+   "first_seen": "2026-10-04",
+   "location": "New York, NY",
+   "posted_at": "2026-10-02",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Developer",
+   "url": "https://www.linkedin.com/jobs/view/4473175916"
   },
   "ramp:05e6d4c72c54": {
    "comp": "$168K – $275K • Offers Equity",
@@ -125454,6 +125976,18 @@
    "title": "Software Engineer Co-op - Spring/Summer 2027",
    "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384"
   },
+  "rtx:3e9f8d46eb73": {
+   "company": "RTX",
+   "first_seen": "2026-10-04",
+   "location": "Fort Wayne, IN",
+   "posted_at": "2026-09-14",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineer-I---Onsite-_01868599"
+  },
   "rtx:3f1171dfa5fd": {
    "company": "RTX",
    "first_seen": "2026-08-24",
@@ -127564,6 +128098,19 @@
    "tier": "experienced",
    "title": "Cloud Engineer",
    "url": "https://www.linkedin.com/jobs/view/4466302897"
+  },
+  "saic:ea756ec7488b": {
+   "company": "SAIC",
+   "first_seen": "2026-10-04",
+   "location": "Beale Air Force Base, CA",
+   "posted_at": "2026-10-02",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cloud Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4466303862"
   },
   "saildrone:6c01e2d05423": {
    "checked_at": "2026-10-02",
@@ -130434,6 +130981,19 @@
    "title": "Software Engineer Intern",
    "url": "https://www.linkedin.com/jobs/view/4464697585"
   },
+  "seminole-hard-rock-support-services:ec39a1364b91": {
+   "company": "Seminole Hard Rock Support Services",
+   "first_seen": "2026-10-04",
+   "location": "Davie, FL",
+   "posted_at": "2026-10-04",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cybersecurity Network Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4447538410"
+  },
   "sendbird:e1569f3c1f63": {
    "company": "Sendbird",
    "first_seen": "2026-09-28",
@@ -130813,6 +131373,19 @@
    "title": "Software Engineer Intern",
    "url": "https://www.linkedin.com/jobs/view/4473144547"
   },
+  "shopback:738565719efc": {
+   "company": "ShopBack",
+   "first_seen": "2026-10-04",
+   "location": "San Francisco, CA",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://www.linkedin.com/jobs/view/4473140603"
+  },
   "shopbop:3291243f0ba0": {
    "company": "Shopbop",
    "first_seen": "2026-09-27",
@@ -131049,6 +131622,19 @@
    "tier": "experienced",
    "title": "DevOps Engineer",
    "url": "https://www.linkedin.com/jobs/view/4471934244"
+  },
+  "siemens-digital-industries-software:874aed8b10c1": {
+   "company": "Siemens Digital Industries Software",
+   "first_seen": "2026-10-04",
+   "location": "Mason, MI",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Associate",
+   "url": "https://www.linkedin.com/jobs/view/4456625945"
   },
   "siemens-digital-industries-software:ca503ba33d65": {
    "company": "Siemens Digital Industries Software",
@@ -137796,6 +138382,7 @@
   },
   "spacex:de9377e7603c": {
    "company": "SpaceX",
+   "employer_url": "https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002",
    "first_seen": "2026-09-12",
    "location": "Hawthorne, CA",
    "posted_at": "2026-09-11",
@@ -138468,6 +139055,19 @@
    "title": "Site Reliability Engineer - Memphis",
    "url": "https://www.linkedin.com/jobs/view/4470459025"
   },
+  "spacexai:3cb98d23fba4": {
+   "company": "SpaceXAI",
+   "first_seen": "2026-10-04",
+   "location": "Palo Alto, CA",
+   "posted_at": "2026-10-03",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4289118505"
+  },
   "spacexai:6c7340343a05": {
    "checked_at": "2026-10-02",
    "company": "SpaceXAI",
@@ -138494,6 +139094,19 @@
    "tier": "intern",
    "title": "Summer 2027 Software Engineering Internship/Co-op",
    "url": "https://www.linkedin.com/jobs/view/4475005767"
+  },
+  "spacexai:8e4a74116636": {
+   "company": "SpaceXAI",
+   "first_seen": "2026-10-04",
+   "location": "Palo Alto, CA",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Spring 2027 Software Engineering Internship/Co-op",
+   "url": "https://www.linkedin.com/jobs/view/4475011534"
   },
   "spacexai:922db615244e": {
    "company": "SpaceXAI",
@@ -142267,6 +142880,19 @@
    "title": "Software Engineer, Real-Time Systems (Early Career)",
    "url": "https://www.linkedin.com/jobs/view/4471207084"
   },
+  "swarm-aero:73c2ea47ad0c": {
+   "company": "Swarm Aero",
+   "first_seen": "2026-10-04",
+   "location": "United States",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern (Summer 2027)",
+   "url": "https://www.linkedin.com/jobs/view/4463940031"
+  },
   "swarm-defense:c0d63882a28d": {
    "company": "Swarm Defense",
    "first_seen": "2026-09-27",
@@ -142455,6 +143081,19 @@
    "tier": "experienced",
    "title": "Full Stack Engineer",
    "url": "https://www.linkedin.com/jobs/view/4404858188"
+  },
+  "syndesus-inc:e147c9135dd7": {
+   "company": "Syndesus, Inc.",
+   "first_seen": "2026-10-04",
+   "location": "New York, United States",
+   "posted_at": "2026-10-02",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Developer",
+   "url": "https://www.linkedin.com/jobs/view/4474765772"
   },
   "synechron:13230473a991": {
    "company": "Synechron",
@@ -142671,6 +143310,19 @@
    "title": "junior software developer/data scientist",
    "url": "https://www.linkedin.com/jobs/view/4469063935"
   },
+  "synergisticit:879163c81f6f": {
+   "company": "SynergisticIT",
+   "first_seen": "2026-10-04",
+   "location": "Houston, TX",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "junior Bi Analyst/data analyst/Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4473878909"
+  },
   "synergisticit:897b8b9a011f": {
    "company": "SynergisticIT",
    "first_seen": "2026-10-04",
@@ -142805,6 +143457,19 @@
    "tier": "experienced",
    "title": "AI Engineer",
    "url": "https://www.linkedin.com/jobs/view/4473291183"
+  },
+  "t2-systems:dfa3d187be72": {
+   "company": "T2 Systems",
+   "first_seen": "2026-10-04",
+   "location": "Indianapolis, IN",
+   "posted_at": "2026-10-04",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4466789240"
   },
   "tacit:fb6efc187915": {
    "company": "Tacit",
@@ -147548,6 +148213,19 @@
    "title": "Software Engineer, Emerging Product - USDS",
    "url": "https://www.linkedin.com/jobs/view/4473937055"
   },
+  "tiktok-usds-joint-venture:b9e8f01da295": {
+   "company": "TikTok USDS Joint Venture",
+   "first_seen": "2026-10-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-10-04",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Recommendations - USDS E-commerce Alliance",
+   "url": "https://www.linkedin.com/jobs/view/4475395812"
+  },
   "tiktok-usds-joint-venture:bf7555172cad": {
    "company": "TikTok USDS Joint Venture",
    "first_seen": "2026-10-03",
@@ -148332,6 +149010,19 @@
    "title": "Frontend Engineer Intern - Ads Interface",
    "url": "https://lifeattiktok.com/search/7671211313289398581"
   },
+  "tiktok:354a499b0a41": {
+   "company": "TikTok",
+   "first_seen": "2026-10-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-10-04",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer - Data Infrastructure",
+   "url": "https://www.linkedin.com/jobs/view/4474221279"
+  },
   "tiktok:355f1adf759a": {
    "company": "TikTok",
    "first_seen": "2026-09-29",
@@ -149010,6 +149701,19 @@
    "tier": "intern",
    "title": "Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer",
    "url": "https://lifeattiktok.com/search/7670738362521520437"
+  },
+  "tiktok:5ca174f9dec6": {
+   "company": "TikTok",
+   "first_seen": "2026-10-04",
+   "location": "San Jose, CA",
+   "posted_at": "2026-10-04",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer,  Ads Creative",
+   "url": "https://www.linkedin.com/jobs/view/4474211754"
   },
   "tiktok:5d667184b599": {
    "company": "TikTok",
@@ -151429,6 +152133,19 @@
    "title": "Software Engineer II - Fleet Enablement & Insights (Annotation Platform)",
    "url": "https://www.linkedin.com/jobs/view/4453709483"
   },
+  "torch-technologies-inc:00c0e828163c": {
+   "company": "Torch Technologies, Inc.",
+   "first_seen": "2026-10-04",
+   "location": "Colorado Springs, CO",
+   "posted_at": "2026-10-02",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Junior Level Data Scientist",
+   "url": "https://www.linkedin.com/jobs/view/4465806654"
+  },
   "torch-technologies-inc:b79a6583220c": {
    "company": "Torch Technologies, Inc.",
    "first_seen": "2026-09-25",
@@ -151997,6 +152714,19 @@
    "tier": "newgrad",
    "title": "Software Engineer New Grad",
    "url": "https://jobs.ashbyhq.com/traba/90d6307c-1bb1-4abf-8e73-7afa6a7e0a70/application?embed=true"
+  },
+  "trace3:194ecbf86889": {
+   "company": "Trace3",
+   "first_seen": "2026-10-04",
+   "location": "Colorado Springs, CO",
+   "posted_at": "2026-10-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4465155384"
   },
   "tracelink:23eeb4519551": {
    "company": "TraceLink",
@@ -153311,6 +154041,19 @@
    "title": "AI Research Scientist Intern - 2027 Summer",
    "url": "https://twosigma.avature.net/careers/JobDetail/14096"
   },
+  "two-six-technologies:2445623b1a32": {
+   "company": "Two Six Technologies",
+   "first_seen": "2026-10-04",
+   "location": "Arlington, VA",
+   "posted_at": "2026-10-03",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Front End Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4466432462"
+  },
   "two-six-technologies:2d51b046fb63": {
    "company": "Two Six Technologies",
    "first_seen": "2026-09-29",
@@ -154182,6 +154925,19 @@
    "tier": "intern",
    "title": "Research Internship in Embedded Systems and Software Development",
    "url": "https://www.linkedin.com/jobs/view/4471993805"
+  },
+  "unknown:32415c080d08": {
+   "company": "凯斯纽荷兰(中国)管理有限公司",
+   "first_seen": "2026-10-04",
+   "location": "Sioux Falls, SD",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "SOFTWARE ENGINEER INTERN",
+   "url": "https://www.linkedin.com/jobs/view/4475369377"
   },
   "unlearn-ai:238f1ddf047f": {
    "company": "Unlearn.AI",
@@ -155850,6 +156606,20 @@
    "tier": "experienced",
    "title": "Security Engineer IDS & Vulnerability Infrastructure",
    "url": "https://www.linkedin.com/jobs/view/4463613652"
+  },
+  "verizon:a3ca36cf69b7": {
+   "company": "Verizon",
+   "employer_url": "https://verizon.wd12.myworkdayjobs.com/en-US/verizon-careers/job/Southlake-Texas/Network-Cyber-Security-Engineer_R-1099736-1",
+   "first_seen": "2026-10-04",
+   "location": "Branchburg, NJ",
+   "posted_at": "2026-10-04",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Network Cyber Security Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4457394371"
   },
   "verizon:a966a2b5afb1": {
    "company": "Verizon",
@@ -158803,6 +159573,19 @@
    "title": "Software Engineer 2 Intern",
    "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Software-Engineer-II_R-2630029-1"
   },
+  "walmart:7ab71b81e26f": {
+   "company": "Walmart",
+   "first_seen": "2026-10-04",
+   "location": "Herndon, VA",
+   "posted_at": "2026-10-02",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "(USA) Software Engineer III, Information Security",
+   "url": "https://www.linkedin.com/jobs/view/4427814121"
+  },
   "walmart:b10b29a6ade5": {
    "company": "Walmart",
    "first_seen": "2026-10-02",
@@ -160872,6 +161655,19 @@
    "title": "Machine Learning Engineer, Growth",
    "url": "https://www.linkedin.com/jobs/view/4406930228"
   },
+  "whatnot:3fca7e7b9fcf": {
+   "company": "Whatnot",
+   "first_seen": "2026-10-04",
+   "location": "Los Angeles, CA",
+   "posted_at": "2026-10-04",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Growth",
+   "url": "https://www.linkedin.com/jobs/view/4437582799"
+  },
   "whatnot:6079f9a37489": {
    "checked_at": "2026-10-02",
    "company": "Whatnot",
@@ -161059,6 +161855,19 @@
    "tier": "experienced",
    "title": "Data Engineer, Payments",
    "url": "https://www.linkedin.com/jobs/view/4443421993"
+  },
+  "whatnot:e8a33843f419": {
+   "company": "Whatnot",
+   "first_seen": "2026-10-04",
+   "location": "Seattle, WA",
+   "posted_at": "2026-10-04",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Growth",
+   "url": "https://www.linkedin.com/jobs/view/4437595451"
   },
   "white-glove-insurance:f40a205e57e7": {
    "company": "White Glove Insurance",
@@ -161353,6 +162162,19 @@
    "title": "Software Developer Intern",
    "url": "https://www.linkedin.com/jobs/view/4462403505"
   },
+  "wiraa:05a72e42dc7a": {
+   "company": "Wiraa",
+   "first_seen": "2026-10-04",
+   "location": "United States",
+   "posted_at": "2026-10-03",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Software Engineer (TypeScript, React)",
+   "url": "https://www.linkedin.com/jobs/view/4475317196"
+  },
   "wiraa:0aaad620b5fc": {
    "company": "Wiraa",
    "first_seen": "2026-09-28",
@@ -161534,6 +162356,19 @@
    "title": "JavaScript Developer (Remote)",
    "url": "https://www.linkedin.com/jobs/view/4473759219",
    "workplace": "Remote"
+  },
+  "wiraa:80ac45a4f056": {
+   "company": "Wiraa",
+   "first_seen": "2026-10-04",
+   "location": "United States",
+   "posted_at": "2026-10-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DotNet Developer, Jr.",
+   "url": "https://www.linkedin.com/jobs/view/4475307566"
   },
   "wiraa:91392136c6f2": {
    "company": "Wiraa",
@@ -163525,12 +164360,12 @@
   },
   "Anduril": {
    "best": 2435,
-   "last": 2432,
+   "last": 2430,
    "last_ok": "2026-10-04"
   },
   "Anthropic": {
    "best": 641,
-   "last": 639,
+   "last": 638,
    "last_ok": "2026-10-04"
   },
   "Apple": {
@@ -163576,7 +164411,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 148,
+   "last": 149,
    "last_ok": "2026-10-04"
   },
   "Carta": {
@@ -163651,13 +164486,13 @@
    "last_ok": "2026-10-04"
   },
   "Elastic": {
-   "best": 395,
-   "last": 392,
+   "best": 396,
+   "last": 396,
    "last_ok": "2026-10-04"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 171,
+   "last": 172,
    "last_ok": "2026-10-04"
   },
   "Faire": {
@@ -163712,7 +164547,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 1119,
-   "last": 1024,
+   "last": 1017,
    "last_ok": "2026-10-04"
   },
   "Lyft": {
@@ -163743,7 +164578,7 @@
   },
   "MongoDB": {
    "best": 415,
-   "last": 390,
+   "last": 389,
    "last_ok": "2026-10-04"
   },
   "Netflix": {
@@ -163763,7 +164598,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-10-04"
   },
   "Okta": {
@@ -163853,12 +164688,12 @@
   },
   "Simplify Aggregator": {
    "best": 2489,
-   "last": 2162,
+   "last": 2165,
    "last_ok": "2026-10-04"
   },
   "Snowflake": {
    "best": 393,
-   "last": 348,
+   "last": 347,
    "last_ok": "2026-10-04"
   },
   "SoFi": {
@@ -163888,7 +164723,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 195,
+   "last": 193,
    "last_ok": "2026-10-04"
   },
   "Tesla": {
@@ -163916,7 +164751,7 @@
   },
   "Upstart": {
    "best": 101,
-   "last": 88,
+   "last": 87,
    "last_ok": "2026-10-04"
   },
   "Vanta": {
@@ -163942,7 +164777,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 73,
+   "last": 80,
    "last_ok": "2026-10-04"
   },
   "Waymo": {
@@ -163956,6 +164791,6 @@
    "last_ok": "2026-10-04"
   }
  },
- "updated": "2026-10-04T15:55:12Z",
+ "updated": "2026-10-04T19:54:15Z",
  "version": 1
 }
