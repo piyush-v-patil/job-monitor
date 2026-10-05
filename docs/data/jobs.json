@@ -5893,6 +5893,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10511665/software-development-engineer-ads-console-frameworks",
    "yoe": 1
   },
+  "amazon:03e2436a7888": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-05",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Bot Management, Amazon Traffic Engineering",
+   "url": "https://www.amazon.jobs/en/jobs/10569408/software-development-engineer-ii-bot-management-amazon-traffic-engineering",
+   "yoe": 1
+  },
   "amazon:0428aea28613": {
    "company": "Amazon",
    "department": "Software Development",
@@ -10396,6 +10411,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515150/software-development-engineer-leo-customer-terminals-applications-networking-team",
    "yoe": 1
   },
+  "amazon:8248af5b8b5c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-05",
+   "location": "Minneapolis, Minnesota, USA",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS",
+   "url": "https://www.amazon.jobs/en/jobs/10569486/software-development-engineer-aws",
+   "yoe": 1
+  },
   "amazon:82f70c1a4520": {
    "company": "Amazon",
    "department": "Software Development",
@@ -10630,6 +10660,21 @@
    "title": "Software Development Engineer, Brand Measurement",
    "url": "https://www.amazon.jobs/en/jobs/10512044/software-development-engineer-brand-measurement",
    "yoe": 2
+  },
+  "amazon:889513e00fd4": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-05",
+   "location": "Herndon, Virginia, USA",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Network Firewall",
+   "url": "https://www.amazon.jobs/en/jobs/10569344/software-development-engineer-aws-network-firewall",
+   "yoe": 1
   },
   "amazon:88f61ed1d28d": {
    "company": "Amazon",
@@ -74759,6 +74804,17 @@
    "title": "Software Engineer III, AI/ML, Search Ads Bidding",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91638267853578950-software-engineer-iii-aiml-search-ads-bidding"
   },
+  "google:13c51b3cdb42": {
+   "company": "Google",
+   "first_seen": "2026-10-05",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, AI/ML, Shopping Relevance Models",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/137322632390288070-software-engineer-aiml-shopping-relevance-models"
+  },
   "google:143e5f5e9b1d": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -75187,6 +75243,17 @@
    "tier": "experienced",
    "title": "Software Test Engineer",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127670839075054278-software-test-engineer"
+  },
+  "google:26b296537097": {
+   "company": "Google",
+   "first_seen": "2026-10-05",
+   "location": "Cambridge, MA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics Engineer, Health and Calibration, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/93340518011806406-robotics-engineer-health-and-calibration-deepmind"
   },
   "google:27e0f23d2d63": {
    "company": "Google",
@@ -166732,7 +166799,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 149,
+   "last": 150,
    "last_ok": "2026-10-05"
   },
   "Airtable": {
@@ -166752,7 +166819,7 @@
   },
   "Anthropic": {
    "best": 641,
-   "last": 637,
+   "last": 640,
    "last_ok": "2026-10-05"
   },
   "Apple": {
@@ -166985,7 +167052,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 194,
+   "last": 197,
    "last_ok": "2026-10-05"
   },
   "Okta": {
@@ -166995,7 +167062,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 829,
+   "last": 831,
    "last_ok": "2026-10-05"
   },
   "OpenEvidence": {
@@ -167100,7 +167167,7 @@
   },
   "Stripe": {
    "best": 719,
-   "last": 719,
+   "last": 717,
    "last_ok": "2026-10-05"
   },
   "Suno": {
@@ -167178,6 +167245,6 @@
    "last_ok": "2026-10-05"
   }
  },
- "updated": "2026-10-05T15:14:05Z",
+ "updated": "2026-10-05T18:44:56Z",
  "version": 1
 }
