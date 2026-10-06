@@ -15496,6 +15496,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10543901/software-dev-engineer-ii-technical-content-experience-tcx-engineering",
    "yoe": 2
   },
+  "amazon:fce73835e665": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-06",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Fauna",
+   "url": "https://www.amazon.jobs/en/jobs/10571270/software-engineer-fauna",
+   "yoe": 2
+  },
   "amazon:fd0a2aa92eab": {
    "company": "Amazon",
    "first_seen": "2026-09-30",
@@ -78858,6 +78873,17 @@
    "tier": "experienced",
    "title": "Software Engineer, AI and Data Protection",
    "url": "https://www.google.com/about/careers/applications/jobs/results/122135917941924550-software-engineer-ai-and-data-protection"
+  },
+  "google:22bf2cbaf98b": {
+   "company": "Google",
+   "first_seen": "2026-10-06",
+   "location": "Mountain View, CA, USA; Seattle, WA, USA",
+   "role": "solutions",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer, Geo Auto",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/111089831139779270-forward-deployed-engineer-geo-auto"
   },
   "google:22d830049500": {
    "company": "Google",
@@ -174930,7 +174956,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 160,
+   "last": 161,
    "last_ok": "2026-10-06"
   },
   "Airtable": {
@@ -174950,7 +174976,7 @@
   },
   "Anthropic": {
    "best": 645,
-   "last": 642,
+   "last": 641,
    "last_ok": "2026-10-06"
   },
   "Apple": {
@@ -175183,7 +175209,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 195,
+   "last": 194,
    "last_ok": "2026-10-06"
   },
   "Okta": {
@@ -175297,8 +175323,8 @@
    "last_ok": "2026-10-06"
   },
   "Stripe": {
-   "best": 727,
-   "last": 727,
+   "best": 728,
+   "last": 728,
    "last_ok": "2026-10-06"
   },
   "Suno": {
@@ -175376,6 +175402,6 @@
    "last_ok": "2026-10-06"
   }
  },
- "updated": "2026-10-06T21:15:51Z",
+ "updated": "2026-10-06T21:48:58Z",
  "version": 1
 }
