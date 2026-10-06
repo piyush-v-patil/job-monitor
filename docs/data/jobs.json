@@ -7080,6 +7080,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10547170/software-development-engineer-specialist-ai-tooling-specialist-technology-team",
    "yoe": 1
   },
+  "amazon:1ba49cb8f2b4": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-06",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Graviton Software, Annapurna Labs",
+   "url": "https://www.amazon.jobs/en/jobs/10570125/software-engineer-graviton-software-annapurna-labs",
+   "yoe": 2
+  },
   "amazon:1c27e27ae3c1": {
    "company": "Amazon",
    "employer_url": "https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa",
@@ -171009,7 +171024,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 823,
+   "last": 824,
    "last_ok": "2026-10-06"
   },
   "OpenEvidence": {
@@ -171113,8 +171128,8 @@
    "last_ok": "2026-10-06"
   },
   "Stripe": {
-   "best": 719,
-   "last": 719,
+   "best": 720,
+   "last": 720,
    "last_ok": "2026-10-06"
   },
   "Suno": {
@@ -171192,6 +171207,6 @@
    "last_ok": "2026-10-06"
   }
  },
- "updated": "2026-10-06T06:47:02Z",
+ "updated": "2026-10-06T07:56:57Z",
  "version": 1
 }
