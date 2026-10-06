@@ -8171,6 +8171,21 @@
    "title": "Robotics - Software Development Engineer",
    "url": "https://www.linkedin.com/jobs/view/4455923649"
   },
+  "amazon:3b8567bda7a6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-06",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-06",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer-AI/ML, Inference Team - AWS Neuron",
+   "url": "https://www.amazon.jobs/en/jobs/10569950/software-engineer-ai-ml-inference-team-aws-neuron",
+   "yoe": 2
+  },
   "amazon:3b88c87b61d0": {
    "company": "Amazon",
    "department": "Software Development",
@@ -9885,6 +9900,21 @@
    "tier": "newgrad",
    "title": "Software Development Engineer – Embedded Systems 2026 (US)",
    "url": "https://www.linkedin.com/jobs/view/4473560828"
+  },
+  "amazon:6e12374013f4": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-06",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Leo for Government",
+   "url": "https://www.amazon.jobs/en/jobs/10569946/software-development-engineer-amazon-leo-for-government",
+   "yoe": 1
   },
   "amazon:6ec4166fe989": {
    "company": "Amazon",
@@ -110665,6 +110695,22 @@
    "workplace": "Hybrid",
    "yoe": 5
   },
+  "openai:2eaebd173bdb": {
+   "comp": "$185K – $385K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Applied AI",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-06",
+   "location": "San Francisco",
+   "posted_at": "2026-10-05",
+   "role": "mobile",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Android Engineer, Plugin Developer Platform",
+   "url": "https://jobs.ashbyhq.com/openai/e6e5e4b6-a1d9-4a4e-beef-8d3befef08c0",
+   "workplace": "Hybrid"
+  },
   "openai:31c98d509e76": {
    "comp": "$197K – $278K • Offers Equity",
    "company": "OpenAI",
@@ -169264,7 +169310,7 @@
   "Airbnb": {
    "best": 195,
    "last": 151,
-   "last_ok": "2026-10-05"
+   "last_ok": "2026-10-06"
   },
   "Airtable": {
    "best": 16,
@@ -169274,7 +169320,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-05"
+   "last_ok": "2026-10-06"
   },
   "Anduril": {
    "best": 2451,
@@ -169284,7 +169330,7 @@
   "Anthropic": {
    "best": 645,
    "last": 645,
-   "last_ok": "2026-10-05"
+   "last_ok": "2026-10-06"
   },
   "Apple": {
    "best": 0,
@@ -169436,7 +169482,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-05"
+   "last_ok": "2026-10-06"
   },
   "Gusto": {
    "best": 102,
@@ -169502,7 +169548,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-10-05"
+   "last_ok": "2026-10-06"
   },
   "Notion": {
    "best": 138,
@@ -169516,8 +169562,8 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 195,
-   "last_ok": "2026-10-05"
+   "last": 197,
+   "last_ok": "2026-10-06"
   },
   "Okta": {
    "best": 370,
@@ -169526,8 +169572,8 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 822,
-   "last_ok": "2026-10-05"
+   "last": 821,
+   "last_ok": "2026-10-06"
   },
   "OpenEvidence": {
    "best": 11,
@@ -169631,8 +169677,8 @@
   },
   "Stripe": {
    "best": 719,
-   "last": 719,
-   "last_ok": "2026-10-05"
+   "last": 718,
+   "last_ok": "2026-10-06"
   },
   "Suno": {
    "best": 69,
@@ -169709,6 +169755,6 @@
    "last_ok": "2026-10-05"
   }
  },
- "updated": "2026-10-05T22:58:06Z",
+ "updated": "2026-10-06T00:55:08Z",
  "version": 1
 }
