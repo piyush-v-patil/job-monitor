@@ -167,17 +167,78 @@ function h1bMatches(j, want) {
 const LINKEDIN_SOURCE = "jobspy-linkedin";
 const isLinkedIn = j => (j.source || "") === LINKEDIN_SOURCE;
 
+// A posting's `source` is the scanner's own word for where it came from, and
+// it reads like one: "amazon.jobs", "google careers", "jobspy-linkedin". These
+// are the names to show instead.
+const SOURCE_LABEL = {
+  "jobspy-linkedin": "LinkedIn", "jobspy-indeed": "Indeed",
+  "jobspy-glassdoor": "Glassdoor", "jobspy-zip_recruiter": "ZipRecruiter",
+  "jobspy-google": "Google Jobs", "simplify-github": "Simplify",
+  greenhouse: "Greenhouse", lever: "Lever", ashby: "Ashby", workday: "Workday",
+  eightfold: "Eightfold", smartrecruiters: "SmartRecruiters", phenom: "Phenom",
+  "amazon.jobs": "Amazon", "google careers": "Google",
+  "walmart careers": "Walmart", "microsoft careers": "Microsoft",
+  "jobs.apple.com": "Apple", "tesla.com": "Tesla", "uber.com": "Uber",
+};
+
+// The vocabulary is open-ended - jobspy_board.py builds its source as
+// `jobspy-<site>`, so widening `sites:` in the config to [linkedin, indeed]
+// invents a value no map here knows. Tidy whatever arrives rather than
+// printing it raw, so the config can move without the dashboard following.
+function sourceLabel(src) {
+  if (SOURCE_LABEL[src]) return SOURCE_LABEL[src];
+  const bare = (src || "").replace(/^jobspy-/, "")
+                          .replace(/(\.com|\.jobs|-github|\s+careers)$/i, "")
+                          .replace(/[-_.]+/g, " ").trim();
+  return bare ? bare.replace(/\b[a-z]/g, c => c.toUpperCase()) : "Unknown";
+}
+
+// Three kinds of answer, and they must stay distinguishable: nothing selected,
+// one of the two LinkedIn groupings, or one named source. The per-source values
+// are prefixed so a source can never be read as a grouping keyword - which is
+// how this went wrong before it was written out: the old predicate was
+// `(src === "linkedin") === isLinkedIn(j)`, so ANY other value, including a
+// source name, quietly meant "everything except LinkedIn".
+function sourceMatches(j, want) {
+  if (!want) return true;
+  if (want === "linkedin") return isLinkedIn(j);
+  if (want === "direct") return !isLinkedIn(j);
+  return (j.source || "") === want.replace(/^src:/, "");
+}
+
 function fillSources() {
   const sel = $("fSource");
   if (!sel) return;
   const keep = sel.value;
-  let li = 0, rest = 0;
-  for (const j of Object.values(data.jobs)) (isLinkedIn(j) ? li++ : rest++);
+  const counts = {};
+  let li = 0;
+  for (const j of Object.values(data.jobs)) {
+    const s = j.source || "";
+    counts[s] = (counts[s] || 0) + 1;
+    if (isLinkedIn(j)) li++;
+  }
+  // LinkedIn is left out of the per-source list: "LinkedIn only" above is the
+  // same set by definition, and offering it twice invites the reader to look
+  // for a difference that is not there.
+  const order = Object.keys(counts).filter(s => s !== LINKEDIN_SOURCE)
+                      .sort((a, b) => counts[b] - counts[a]);
+  const rest = Object.values(data.jobs).length - li;
+  // The two groupings stay above the individual boards: LinkedIn is a search
+  // rather than a listing, so "everything except the sampled board" is a way
+  // of reading the feed, not just another source.
   sel.innerHTML =
     '<option value="">Any source</option>' +
     `<option value="linkedin">LinkedIn only (${li.toLocaleString()})</option>` +
-    `<option value="direct">Excluding LinkedIn (${rest.toLocaleString()})</option>`;
-  sel.value = keep;   // survive a refresh
+    `<option value="direct">Excluding LinkedIn (${rest.toLocaleString()})</option>` +
+    order.map(s => `<option value="src:${esc(s)}">${esc(sourceLabel(s))} (${
+      counts[s].toLocaleString()})</option>`).join("");
+  // Only restore a selection that still exists. A source really can disappear:
+  // state.py rewrites an aggregator row's source to the employer's when the
+  // employer's own listing turns up, so the last simplify-github row can become
+  // a greenhouse one. Falling back to "Any source" shows too much; leaving the
+  // dead value selected would show an empty feed and no reason why.
+  if (!keep || keep === "linkedin" || keep === "direct"
+      || order.includes(keep.replace(/^src:/, ""))) sel.value = keep;
 }
 
 function fillRoles() {
@@ -581,7 +642,7 @@ function render() {
       (!comp || j.company === comp) &&
       (!role || (j.role || DEFAULT_ROLE) === role) &&
       (!yoe || (yoe === "unstated" ? j.yoe == null : j.yoe != null && j.yoe <= +yoe)) &&
-      (!src || (src === "linkedin") === isLinkedIn(j)) &&
+      sourceMatches(j, src) &&
       h1bMatches(j, spon) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
@@ -656,7 +717,7 @@ function jobRow(g) {
     // line carries only what actually tells one req from another
     const meta = member
       ? [g.spans ? esc(rj.location) : "", postedLabel(rj),
-         esc(rj.source || "")].filter(Boolean).join(" \u00b7 ")
+         rj.source ? esc(sourceLabel(rj.source)) : ""].filter(Boolean).join(" \u00b7 ")
       : `${esc(rj.company)} \u00b7 ${esc(rj.location)} \u00b7 ${postedLabel(rj)}`;
     return `
     <div class="job${member ? " member" : ""} ${isClosed(rj) ? "closed " : ""}${
