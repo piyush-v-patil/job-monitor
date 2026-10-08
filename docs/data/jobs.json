@@ -10783,6 +10783,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10539081/software-development-engineer-cloudfront-console-and-agentic-experience",
    "yoe": 1
   },
+  "amazon:7530d37e8b7a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-08",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Central SDE Team",
+   "url": "https://www.amazon.jobs/en/jobs/10573324/software-development-engineer-aws-central-sde-team",
+   "yoe": 2
+  },
   "amazon:755e1c0b5c30": {
    "company": "Amazon",
    "department": "Software Development",
@@ -11003,6 +11018,21 @@
    "tier": "experienced",
    "title": "Data Engineer, Amazon Ads",
    "url": "https://www.linkedin.com/jobs/view/4455931125"
+  },
+  "amazon:7b1196b6fdc7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-08",
+   "location": "Herndon, Virginia, USA",
+   "posted_at": "2026-10-08",
+   "role": "security",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Leo Security",
+   "url": "https://www.amazon.jobs/en/jobs/10573250/software-development-engineer-leo-security",
+   "yoe": 1
   },
   "amazon:7b4292d15140": {
    "company": "Amazon",
@@ -12707,6 +12737,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Agent Platforms & Services",
    "url": "https://www.amazon.jobs/en/jobs/10530139/software-development-engineer-agent-platforms-services",
+   "yoe": 1
+  },
+  "amazon:a36e911f6f04": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-08",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Developer Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10573518/software-development-engineer-developer-experience",
    "yoe": 1
   },
   "amazon:a45f4f30b002": {
@@ -15275,6 +15320,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, ECS Developer Platforms",
    "url": "https://www.amazon.jobs/en/jobs/10534326/software-development-engineer-ii-ecs-developer-platforms",
+   "yoe": 1
+  },
+  "amazon:eb0b05b64bc1": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-08",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Developer Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10573523/software-development-engineer-developer-experience",
    "yoe": 1
   },
   "amazon:ebf3792ebc68": {
@@ -84103,6 +84163,17 @@
    "title": "Software Engineer III, Hardware/Software Co-Design",
    "url": "https://www.google.com/about/careers/applications/jobs/results/122897924597129926-software-engineer-iii-hardwaresoftware-codesign"
   },
+  "google:aaf67073db4d": {
+   "company": "Google",
+   "first_seen": "2026-10-08",
+   "location": "Mountain View, CA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer, Platforms and Devices",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/87326868012704454-security-engineer-platforms-and-devices"
+  },
   "google:aaf702037e7b": {
    "company": "Google",
    "first_seen": "2026-09-24",
@@ -84631,6 +84702,17 @@
    "tier": "experienced",
    "title": "Cloud Technical Solutions Developer, Storage and Databases",
    "url": "https://www.google.com/about/careers/applications/jobs/results/106785017631253190-cloud-technical-solutions-developer-storage-and-databases"
+  },
+  "google:cabbaee56400": {
+   "company": "Google",
+   "first_seen": "2026-10-08",
+   "location": "Sunnyvale, CA, USA; Fremont, CA, USA; +5 more; +4 more",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Site Reliability Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/98198838988153542-software-engineer-iii-site-reliability-engineering"
   },
   "google:cb0ea9cff0ed": {
    "company": "Google",
@@ -181730,7 +181812,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 163,
+   "last": 162,
    "last_ok": "2026-10-08"
   },
   "Airtable": {
@@ -182098,7 +182180,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 726,
+   "last": 728,
    "last_ok": "2026-10-08"
   },
   "Suno": {
@@ -182176,6 +182258,6 @@
    "last_ok": "2026-10-08"
   }
  },
- "updated": "2026-10-08T13:57:10Z",
+ "updated": "2026-10-08T16:48:35Z",
  "version": 1
 }
