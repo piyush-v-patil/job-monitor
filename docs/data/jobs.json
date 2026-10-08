@@ -82654,6 +82654,17 @@
    "title": "Forward Deployed Engineer IV, GenAI, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/129988979490464454-forward-deployed-engineer-iv-genai-google-cloud"
   },
+  "google:6416737b5c92": {
+   "company": "Google",
+   "first_seen": "2026-10-08",
+   "location": "Sunnyvale, CA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering Tech Lead, Platform Security",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/93080150651871942-software-engineering-tech-lead-platform-security"
+  },
   "google:64726305dc53": {
    "company": "Google",
    "first_seen": "2026-08-27",
@@ -83351,6 +83362,17 @@
    "title": "Software Engineer, Infrastructure, Public Sector",
    "url": "https://www.google.com/about/careers/applications/jobs/results/95972217346499270-software-engineer-infrastructure-public-sector"
   },
+  "google:92946d29fcb4": {
+   "company": "Google",
+   "first_seen": "2026-10-08",
+   "location": "Sunnyvale, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Technical Lead, Hardware/Software Codesign, TPU Inference",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/133016891168826054-technical-lead-hardwaresoftware-codesign-tpu-inference"
+  },
   "google:9315939770c8": {
    "company": "Google",
    "first_seen": "2026-09-09",
@@ -83902,6 +83924,17 @@
    "tier": "experienced",
    "title": "Robotics Engineer, Controls and Autonomy, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/113074604246737606-robotics-engineer-controls-and-autonomy-deepmind"
+  },
+  "google:b3cc160eb6cf": {
+   "company": "Google",
+   "first_seen": "2026-10-08",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Cloud AI",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/93417679548752582-software-engineer-iii-infrastructure-google-cloud-ai"
   },
   "google:b41698285a3c": {
    "company": "Google",
@@ -84905,6 +84938,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Android AI",
    "url": "https://www.google.com/about/careers/applications/jobs/results/141767845158494918-software-engineer-android-ai"
+  },
+  "google:f6272cf13f28": {
+   "company": "Google",
+   "first_seen": "2026-10-08",
+   "location": "Sunnyvale, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Hardware/Software Co-Design Engineer, Inference",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/78591866605314758-hardwaresoftware-codesign-engineer-inference"
   },
   "google:f6f169bb8556": {
    "company": "Google",
@@ -180773,7 +180817,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 163,
+   "last": 164,
    "last_ok": "2026-10-08"
   },
   "Airtable": {
@@ -181036,7 +181080,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 815,
+   "last": 816,
    "last_ok": "2026-10-08"
   },
   "OpenEvidence": {
@@ -181141,7 +181185,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 724,
+   "last": 725,
    "last_ok": "2026-10-08"
   },
   "Suno": {
@@ -181219,6 +181263,6 @@
    "last_ok": "2026-10-08"
   }
  },
- "updated": "2026-10-08T06:32:24Z",
+ "updated": "2026-10-08T07:51:52Z",
  "version": 1
 }
