@@ -15423,6 +15423,19 @@
    "url": "https://www.amazon.jobs/en/jobs/10554995/software-development-engineer-amazon-leo-for-government",
    "yoe": 1
   },
+  "amazon:d617e2bd71d4": {
+   "company": "Amazon",
+   "first_seen": "2026-10-09",
+   "location": "Seattle, WA",
+   "posted_at": "2026-10-08",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer , Amazon Customer Service",
+   "url": "https://www.linkedin.com/jobs/view/4468308815"
+  },
   "amazon:d66d431ce3d1": {
    "company": "Amazon",
    "department": "Software Development",
@@ -17663,6 +17676,7 @@
   },
   "amd:a80c34651e98": {
    "company": "AMD",
+   "department": "Student / Intern / Temp",
    "first_seen": "2026-08-21",
    "location": "6 locationsRochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA",
    "posted_at": "2026-08-21",
@@ -18531,7 +18545,8 @@
    "status": "new",
    "tier": "newgrad",
    "title": "Software Engineer 1 - Enterprise Technology Services",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012796"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012796",
+   "workplace": "Hybrid"
   },
   "american-express:063205f1b5aa": {
    "company": "American Express",
@@ -18554,12 +18569,12 @@
    "location": "Sunrise, FL",
    "posted_at": "2026-09-23",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Undergraduate Full-Time Engineer - 2027 Software Engineer I, Enterprise Technology Services- Sunrise, FL",
-   "url": "https://www.linkedin.com/jobs/view/4460922959"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012801",
+   "workplace": "Hybrid"
   },
   "american-express:0d9102f38878": {
    "company": "American Express",
@@ -18571,7 +18586,8 @@
    "status": "new",
    "tier": "newgrad",
    "title": "Data Engineer 1 - Enterprise Technology Services",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013286"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013286",
+   "workplace": "Hybrid"
   },
   "american-express:0ff63234ef48": {
    "company": "American Express",
@@ -18585,6 +18601,19 @@
    "tier": "intern",
    "title": "Campus Graduate Masters Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Sunrise, FL",
    "url": "https://www.linkedin.com/jobs/view/4454448234"
+  },
+  "american-express:157a9a86ae9e": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Phoenix, AZ, United States",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009007",
+   "workplace": "Hybrid"
   },
   "american-express:1ee5e792e5d3": {
    "checked_at": "2026-10-02",
@@ -18600,6 +18629,32 @@
    "title": "Campus Undergraduate Full-Time Engineer - 2027 Software Engineer I, Enterprise Technology Services- Phoenix, AZ",
    "url": "https://www.linkedin.com/jobs/view/4460674213"
   },
+  "american-express:1f2a3c9ddfa7": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "New York, NY, United States; Phoenix, AZ, United States; Sunrise, FL, United States",
+   "posted_at": "2026-10-05",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Agentic AI Engineer - Global Infrastructure",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013774",
+   "workplace": "Hybrid"
+  },
+  "american-express:236de738aef1": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Phoenix, AZ, United States; New York, NY, United States",
+   "posted_at": "2026-06-29",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer III",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009446",
+   "workplace": "Hybrid"
+  },
   "american-express:25e839e59fe9": {
    "checked_at": "2026-10-02",
    "company": "American Express",
@@ -18607,12 +18662,12 @@
    "location": "New York, NY",
    "posted_at": "2026-09-23",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Graduate Masters Full-Time Engineer - 2027 Software Engineer II, Enterprise Technology Services- New York, NY",
-   "url": "https://www.linkedin.com/jobs/view/4460931848"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012940",
+   "workplace": "Hybrid"
   },
   "american-express:268f38d7c04c": {
    "checked_at": "2026-10-02",
@@ -18621,12 +18676,12 @@
    "location": "Phoenix, AZ",
    "posted_at": "2026-09-23",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Undergraduate Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- Phoenix, AZ",
-   "url": "https://www.linkedin.com/jobs/view/4460672265"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013254",
+   "workplace": "Hybrid"
   },
   "american-express:28f75ac7f288": {
    "company": "American Express",
@@ -18647,12 +18702,12 @@
    "location": "Charlotte, NC",
    "posted_at": "2026-09-23",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Graduate Masters Full-Time Engineer - 2027 Software Engineer II, Enterprise Technology Services- Charlotte, NC",
-   "url": "https://www.linkedin.com/jobs/view/4460939913"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012945",
+   "workplace": "Hybrid"
   },
   "american-express:2f2140dcf892": {
    "checked_at": "2026-10-02",
@@ -18661,12 +18716,12 @@
    "location": "Sunrise, FL",
    "posted_at": "2026-09-23",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Undergraduate Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- Sunrise, FL",
-   "url": "https://www.linkedin.com/jobs/view/4460933944"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012985",
+   "workplace": "Hybrid"
   },
   "american-express:305415e5bde2": {
    "company": "American Express",
@@ -18681,6 +18736,19 @@
    "title": "AI Engineer III - Agentic AI",
    "url": "https://www.linkedin.com/jobs/view/4427200112"
   },
+  "american-express:351db0d742c2": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Phoenix, AZ, United States",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineers",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014632",
+   "workplace": "Hybrid"
+  },
   "american-express:35cf33d2abc2": {
    "company": "American Express",
    "first_seen": "2026-09-01",
@@ -18693,6 +18761,19 @@
    "title": "Data Engineer Intern - Enterprise Technology Services",
    "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333"
   },
+  "american-express:381a70285f75": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Phoenix, AZ, United States; Sunrise, FL, United States",
+   "posted_at": "2026-10-06",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java / JavaScript / RESTful API / Cyber Security Engineer",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014729",
+   "workplace": "Hybrid"
+  },
   "american-express:39a02006d388": {
    "company": "American Express",
    "first_seen": "2026-08-20",
@@ -18703,7 +18784,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Software Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987",
+   "workplace": "Hybrid"
   },
   "american-express:4057d260b4d2": {
    "checked_at": "2026-10-02",
@@ -18712,12 +18794,12 @@
    "location": "Palo Alto, CA",
    "posted_at": "2026-09-23",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Graduate Masters Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- Palo Alto, CA",
-   "url": "https://www.linkedin.com/jobs/view/4460630299"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013256",
+   "workplace": "Hybrid"
   },
   "american-express:4154b69bb9dd": {
    "checked_at": "2026-10-02",
@@ -18733,6 +18815,19 @@
    "title": "Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Salt Lake City, UT",
    "url": "https://www.linkedin.com/jobs/view/4469088015"
   },
+  "american-express:430131acc55a": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Phoenix, AZ, United States",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineers",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014904",
+   "workplace": "Hybrid"
+  },
   "american-express:43a131656ac2": {
    "checked_at": "2026-10-02",
    "company": "American Express",
@@ -18740,12 +18835,12 @@
    "location": "Sunrise, FL",
    "posted_at": "2026-09-23",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Graduate Masters Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- Sunrise, FL",
-   "url": "https://www.linkedin.com/jobs/view/4460691181"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012988",
+   "workplace": "Hybrid"
   },
   "american-express:480344ace199": {
    "company": "American Express",
@@ -18761,16 +18856,17 @@
   },
   "american-express:4a6c4aecc6f8": {
    "company": "American Express",
+   "employer_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014736",
    "first_seen": "2026-10-06",
    "location": "Phoenix, AZ",
    "posted_at": "2026-10-06",
    "role": "backend",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "experienced",
    "title": "Software Engineer III - backend, Java - Digital Pyts",
-   "url": "https://www.linkedin.com/jobs/view/4474994213"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014736",
+   "workplace": "Hybrid"
   },
   "american-express:4daa3cbbf3df": {
    "company": "American Express",
@@ -18797,6 +18893,19 @@
    "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014891",
    "workplace": "Hybrid"
   },
+  "american-express:58bada9428ee": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Phoenix, AZ, United States",
+   "posted_at": "2026-10-05",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Agentic AI Cybersecurity Engineer - Identity Access Lifecycle Managementgmt",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013455",
+   "workplace": "Hybrid"
+  },
   "american-express:5b6cfada596b": {
    "checked_at": "2026-10-02",
    "company": "American Express",
@@ -18804,12 +18913,25 @@
    "location": "New York, NY",
    "posted_at": "2026-09-23",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Graduate Masters Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- New York, NY",
-   "url": "https://www.linkedin.com/jobs/view/4460926933"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012987",
+   "workplace": "Hybrid"
+  },
+  "american-express:5bbcff273478": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Phoenix, AZ, United States",
+   "posted_at": "2026-09-01",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Campus Graduate Masters Full-Time Engineer - 2027 Software Engineer II, Enterprise Technology Services- Phoenix, AZ",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013264",
+   "workplace": "Hybrid"
   },
   "american-express:62389643b5a7": {
    "company": "American Express",
@@ -18835,7 +18957,8 @@
    "status": "new",
    "tier": "newgrad",
    "title": "Software Engineer 1 - Enterprise Technology Services",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012869"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012869",
+   "workplace": "Hybrid"
   },
   "american-express:7174473aa2d6": {
    "company": "American Express",
@@ -18859,7 +18982,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Software Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082",
+   "workplace": "Hybrid"
   },
   "american-express:75dc0a6dcbab": {
    "company": "American Express",
@@ -18871,7 +18995,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Software Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084",
+   "workplace": "Hybrid"
   },
   "american-express:7e05e2cfe56a": {
    "checked_at": "2026-10-02",
@@ -18897,7 +19022,8 @@
    "status": "new",
    "tier": "intern",
    "title": "AI Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011999"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011999",
+   "workplace": "Hybrid"
   },
   "american-express:8351eb98d203": {
    "company": "American Express",
@@ -18909,7 +19035,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Software Engineer Intern - Enterprise Technology Services",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784",
+   "workplace": "Hybrid"
   },
   "american-express:89de7c88606f": {
    "company": "American Express",
@@ -18923,6 +19050,19 @@
    "title": "Software Engineer Intern - Enterprise Technology Services",
    "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011015"
   },
+  "american-express:8fa46c00d617": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Sunrise, FL, United States",
+   "posted_at": "2026-10-01",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer III",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014523",
+   "workplace": "Hybrid"
+  },
   "american-express:90bfe252b02e": {
    "checked_at": "2026-10-02",
    "company": "American Express",
@@ -18930,12 +19070,12 @@
    "location": "Phoenix, AZ",
    "posted_at": "2026-09-24",
    "role": "devops-sre",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "experienced",
    "title": "Infrastructure Engineer III",
-   "url": "https://www.linkedin.com/jobs/view/4451974252"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011320",
+   "workplace": "Hybrid"
   },
   "american-express:920da3d99b4c": {
    "company": "American Express",
@@ -18960,7 +19100,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764",
+   "workplace": "Hybrid"
   },
   "american-express:97f1e9515f37": {
    "checked_at": "2026-10-02",
@@ -18969,12 +19110,12 @@
    "location": "Atlanta, GA",
    "posted_at": "2026-09-22",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Graduate Masters Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- Atlanta, GA",
-   "url": "https://www.linkedin.com/jobs/view/4460630267"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013258",
+   "workplace": "Hybrid"
   },
   "american-express:991ef209c187": {
    "company": "American Express",
@@ -18986,7 +19127,8 @@
    "status": "new",
    "tier": "intern",
    "title": "AI Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012392"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012392",
+   "workplace": "Hybrid"
   },
   "american-express:9e0034cfbf26": {
    "checked_at": "2026-10-02",
@@ -19009,12 +19151,12 @@
    "location": "Palo Alto, CA",
    "posted_at": "2026-09-22",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Undergraduate Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- Palo Alto, CA",
-   "url": "https://www.linkedin.com/jobs/view/4460613687"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013253",
+   "workplace": "Hybrid"
   },
   "american-express:a2e6b97ae45c": {
    "company": "American Express",
@@ -19026,7 +19168,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781",
+   "workplace": "Hybrid"
   },
   "american-express:a52b2088c31e": {
    "company": "American Express",
@@ -19047,12 +19190,12 @@
    "location": "Phoenix, AZ",
    "posted_at": "2026-09-24",
    "role": "security",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "experienced",
    "title": "Cybersecurity Engineer III",
-   "url": "https://www.linkedin.com/jobs/view/4442900920"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011304",
+   "workplace": "Hybrid"
   },
   "american-express:a7ad3f054a5f": {
    "company": "American Express",
@@ -19110,12 +19253,12 @@
    "location": "Phoenix, AZ",
    "posted_at": "2026-10-06",
    "role": "security",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "experienced",
    "title": "Software Engineer-Python/ GO/ Java/ JavaScript (Cyber Security)",
-   "url": "https://www.linkedin.com/jobs/view/4474960060"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014353",
+   "workplace": "Hybrid"
   },
   "american-express:b8d3b4b7c3c1": {
    "checked_at": "2026-10-02",
@@ -19124,12 +19267,12 @@
    "location": "Atlanta, GA",
    "posted_at": "2026-09-22",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Undergraduate Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- Atlanta, GA",
-   "url": "https://www.linkedin.com/jobs/view/4460624438"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013252",
+   "workplace": "Hybrid"
   },
   "american-express:c42a02f84415": {
    "company": "American Express",
@@ -19141,7 +19284,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Software Engineer 1 Intern - Enterprise Technology Services",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013259"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013259",
+   "workplace": "Hybrid"
   },
   "american-express:ca5caeb34373": {
    "company": "American Express",
@@ -19166,7 +19310,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Engineer Intern - Enterprise Technology Services",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831",
+   "workplace": "Hybrid"
   },
   "american-express:d4f5a476cb9d": {
    "company": "American Express",
@@ -19213,12 +19358,12 @@
    "location": "New York, NY",
    "posted_at": "2026-09-23",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Undergraduate Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- New York, NY",
-   "url": "https://www.linkedin.com/jobs/view/4460934903"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012982",
+   "workplace": "Hybrid"
   },
   "american-express:d808bae39253": {
    "company": "American Express",
@@ -19282,7 +19427,8 @@
    "status": "new",
    "tier": "intern",
    "title": "AI Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011991"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011991",
+   "workplace": "Hybrid"
   },
   "american-express:eac109e98037": {
    "company": "American Express",
@@ -19294,7 +19440,21 @@
    "status": "new",
    "tier": "intern",
    "title": "AI Engineer Intern - Enterprise Technology Services 🎓",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000",
+   "workplace": "Hybrid"
+  },
+  "american-express:f49dd4fc8551": {
+   "company": "American Express",
+   "first_seen": "2026-10-09",
+   "location": "Sunrise, FL, United States",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Campus Graduate Masters Full-Time Engineer - 2027 Software Engineer II, Enterprise Technology Services- Sunrise, FL",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012944",
+   "workplace": "Hybrid"
   },
   "american-express:ff52c1b5d97c": {
    "checked_at": "2026-10-02",
@@ -19303,12 +19463,12 @@
    "location": "Phoenix, AZ",
    "posted_at": "2026-09-23",
    "role": "ml-ai",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Campus Graduate Masters Full-Time Engineer - 2027 AI Engineer I, Enterprise Technology Services- Phoenix, AZ",
-   "url": "https://www.linkedin.com/jobs/view/4460683232"
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013255",
+   "workplace": "Hybrid"
   },
   "american-family-insurance-group:f8c6e30367c5": {
    "company": "American Family Insurance Group",
@@ -27988,6 +28148,19 @@
    "title": "CPU Verification ML Tool Engineer",
    "url": "https://jobs.apple.com/en-us/details/200687964/cpu-verification-ml-tool-engineer"
   },
+  "apple:32e0ef50826d": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-09",
+   "location": "Cary",
+   "posted_at": "2026-10-09",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Creator Studio",
+   "url": "https://jobs.apple.com/en-us/details/200678201/software-engineer-creator-studio"
+  },
   "apple:3fe593d6a046": {
    "company": "Apple",
    "department": "Software and Services",
@@ -28324,6 +28497,19 @@
    "tier": "experienced",
    "title": "Gate-level IR/EM CAD/NLP Engineer",
    "url": "https://jobs.apple.com/en-us/details/200687478/gate-level-ir-em-cad-nlp-engineer"
+  },
+  "apple:db094079aacd": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-09",
+   "location": "Cary",
+   "posted_at": "2026-10-09",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Creator Studio",
+   "url": "https://jobs.apple.com/en-us/details/200678205/software-engineer-creator-studio"
   },
   "apple:eb2255288078": {
    "company": "Apple",
@@ -30127,6 +30313,30 @@
    "title": "Software Engineer 1",
    "url": "https://amat.wd1.myworkdayjobs.com/External/job/KalispellMT/Software-Engineer-I---New-College-Grad--Bachelors---Kalispell--MT-_R2626859"
   },
+  "applied-materials:3a74ae3a9679": {
+   "company": "Applied Materials",
+   "first_seen": "2026-10-09",
+   "location": "Santa Clara,CA",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "New College Grad Software Engineer I (Bachelors - Santa Clara, CA)",
+   "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/New-College-Grad-Software-Engineer-I--Bachelors---Santa-Clara--CA-_R2628998"
+  },
+  "applied-materials:3f920f60bdb0": {
+   "company": "Applied Materials",
+   "first_seen": "2026-10-09",
+   "location": "Santa Clara,CA",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "New College Grad Software Development Engineer (Bachelors - Santa Clara, CA)",
+   "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/New-College-Grad-Software-Development-Engineer--Bachelors---Santa-Clara--CA-_R2628997"
+  },
   "applied-materials:3fdf0b013120": {
    "company": "Applied Materials",
    "employer_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/New-College-Grad-Software-Development-Engineer--Bachelors---Santa-Clara--CA-_R2628997",
@@ -30797,6 +31007,19 @@
    "tier": "experienced",
    "title": "DevOps Engineer",
    "url": "https://www.linkedin.com/jobs/view/4445443516"
+  },
+  "argonne-national-laboratory:57ba61341ba1": {
+   "company": "Argonne National Laboratory",
+   "first_seen": "2026-10-09",
+   "location": "Lemont, IL",
+   "posted_at": "2026-10-08",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4475974795"
   },
   "arista-networks:9e6d06e0161a": {
    "checked_at": "2026-10-02",
@@ -32417,6 +32640,18 @@
    "tier": "experienced",
    "title": "Analytics Web Developer",
    "url": "https://aoins.wd5.myworkdayjobs.com/en-US/AutoOwners/job/Lansing-MI/Analytics-Web-Developer_R_13293-1"
+  },
+  "auto-owners-insurance:2ac574242320": {
+   "company": "Auto-Owners Insurance",
+   "first_seen": "2026-10-09",
+   "location": "Lansing, MI",
+   "posted_at": "2026-09-24",
+   "role": "devops-sre",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Application Infrastructure Developer",
+   "url": "https://aoins.wd5.myworkdayjobs.com/en-US/AutoOwners/job/Lansing-MI/Application-Infrastructure-Developer_R_14080"
   },
   "auto-owners-insurance:3e033e3769d6": {
    "company": "Auto-Owners Insurance",
@@ -35264,6 +35499,19 @@
    "title": "Junior AI Engineer",
    "url": "https://www.linkedin.com/jobs/view/4470197875"
   },
+  "beaconfire-inc:cbac0cc7e45a": {
+   "company": "BeaconFire Inc.",
+   "first_seen": "2026-10-09",
+   "location": "",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4474847637"
+  },
   "beaconfire-inc:cea8e5fc39ba": {
    "company": "BeaconFire Inc.",
    "first_seen": "2026-09-24",
@@ -35795,6 +36043,18 @@
    "title": "Network Engineer 3",
    "url": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10004576"
   },
+  "berkshire-hathaway-energy:ae8b672de5cb": {
+   "company": "Berkshire Hathaway Energy",
+   "first_seen": "2026-10-09",
+   "location": "Des Moines, IA, United States; Las Vegas, NV, United States; Reno, NV, United States",
+   "posted_at": "2026-06-19",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Network Engineer 2 or 3",
+   "url": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005270"
+  },
   "berkshire-hathaway-energy:eaf64bfe5d67": {
    "company": "Berkshire Hathaway Energy",
    "first_seen": "2026-08-26",
@@ -35806,6 +36066,18 @@
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005702"
+  },
+  "berkshire-hathaway-energy:f519c8b85828": {
+   "company": "Berkshire Hathaway Energy",
+   "first_seen": "2026-10-09",
+   "location": "Des Moines, IA, United States; Las Vegas, NV, United States; Reno, NV, United States",
+   "posted_at": "2026-05-27",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer 2 or 3 - Infrastructure",
+   "url": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10004813"
   },
   "bespoke-technologies-inc:0ea6b787461a": {
    "checked_at": "2026-10-02",
@@ -44162,6 +44434,19 @@
    "title": "Software Engineer Intern",
    "url": "https://www.linkedin.com/jobs/view/4470221222"
   },
+  "boston-scientific:e051159ab0d2": {
+   "company": "Boston Scientific",
+   "first_seen": "2026-10-09",
+   "location": "Arden Hills, MN",
+   "posted_at": "2026-10-07",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployment AI Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4475887932"
+  },
   "boston-scientific:e32a6705c6f6": {
    "company": "Boston Scientific",
    "first_seen": "2026-09-24",
@@ -44875,6 +45160,19 @@
    "tier": "experienced",
    "title": "Mid-Level Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4468157010"
+  },
+  "brio-water-technology:d8418ccd305b": {
+   "company": "Brio Water Technology",
+   "first_seen": "2026-10-09",
+   "location": "Glendale, CA",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4476911230"
   },
   "brivo:0e3b0d3f3120": {
    "company": "Brivo",
@@ -52987,6 +53285,18 @@
    "title": "Lead Software Engineer, Full Stack (Python, Java, AWS, API, UI) (Enterprise Platforms Technology)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Lead-Software-Engineer--Full-Stack--Python--Java--AWS--API--UI---Enterprise-Platforms-Technology-_R999821-2"
   },
+  "capital-one:72cbbb406520": {
+   "company": "Capital One",
+   "first_seen": "2026-10-09",
+   "location": "McLean, VA",
+   "posted_at": "2026-10-09",
+   "role": "frontend",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Front-end Engineer 5",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Front-end-Engineer-5_R1003156-1"
+  },
   "capital-one:733fcdcb2001": {
    "company": "Capital One",
    "first_seen": "2026-09-24",
@@ -53022,6 +53332,18 @@
    "tier": "experienced",
    "title": "Full-stack Engineer 5 (Go, TypeScript and Angular)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Chicago-IL/Full-stack-Engineer-5--Go--TypeScript-and-Angular-_R1001271-1"
+  },
+  "capital-one:74255f1026c3": {
+   "company": "Capital One",
+   "first_seen": "2026-10-09",
+   "location": "4 Locations",
+   "posted_at": "2026-10-09",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied Researcher 4 (AI Foundations, LLM Core and Agentic AI)",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Jose-CA/Applied-Researcher-4--AI-Foundations--LLM-Core-and-Agentic-AI_R1003483-1"
   },
   "capital-one:74578d7516ef": {
    "company": "Capital One",
@@ -60847,6 +61169,19 @@
    "title": "Software Engineer III",
    "url": "https://www.linkedin.com/jobs/view/4457572313"
   },
+  "chewy:d17721589fea": {
+   "company": "Chewy",
+   "first_seen": "2026-10-09",
+   "location": "Plantation, FL",
+   "posted_at": "2026-10-08",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II, Financial Intelligence",
+   "url": "https://www.linkedin.com/jobs/view/4459029458"
+  },
   "chewy:e79435aad41a": {
    "company": "Chewy",
    "first_seen": "2026-09-25",
@@ -62170,6 +62505,18 @@
    "tier": "intern",
    "title": "Software Engineer Full Stack / Backend I (Intern) – United States",
    "url": "https://www.linkedin.com/jobs/view/4470234932"
+  },
+  "cisco:b3f2863a124d": {
+   "company": "Cisco",
+   "first_seen": "2026-10-09",
+   "location": "Milpitas, California, US",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Milpitas-California-US/Software-Engineer_2024896"
   },
   "cisco:b6a09a0a713a": {
    "company": "Cisco",
@@ -66422,6 +66769,19 @@
    "tier": "experienced",
    "title": "Data Engineer - AI",
    "url": "https://www.linkedin.com/jobs/view/4470007813"
+  },
+  "council-on-pharmacy-standards:6ac6c38f3507": {
+   "company": "Council on Pharmacy Standards",
+   "first_seen": "2026-10-09",
+   "location": "Los Angeles County, CA",
+   "posted_at": "2026-10-09",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "JavaScript Developer",
+   "url": "https://www.linkedin.com/jobs/view/4475232848"
   },
   "country-financial:baa3028acd2d": {
    "company": "COUNTRY Financial",
@@ -70847,6 +71207,31 @@
    "title": "Software Engineer Intern - Client Solutions Group Engineering",
    "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298217"
   },
+  "dell-technologies:128a76e2c534": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "Mclean, VA, United States",
+   "posted_at": "2026-09-21",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Systems Engineer – Research Infrastructure & Lab Platforms - Government Customer",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299107",
+   "workplace": "Remote"
+  },
+  "dell-technologies:23cb24b7ca0e": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "Round Rock, TX, United States",
+   "posted_at": "2026-09-23",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Messaging and Streaming Platform Engineer",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297384"
+  },
   "dell-technologies:4efa43bf7384": {
    "company": "Dell Technologies",
    "first_seen": "2026-10-09",
@@ -70871,6 +71256,19 @@
    "title": "AI Development & Agent Ops-Software Engineer 2",
    "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299278"
   },
+  "dell-technologies:59f727e2fe5b": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "Mclean, VA, United States",
+   "posted_at": "2026-08-19",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Engineer - Federal Customer",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/296672",
+   "workplace": "Remote"
+  },
   "dell-technologies:62389558a082": {
    "company": "Dell Technologies",
    "first_seen": "2026-10-09",
@@ -70883,6 +71281,30 @@
    "title": "Global Operations Supplier Quality Engineer Co-Op",
    "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298592"
   },
+  "dell-technologies:696e3df3559b": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "TX, United States",
+   "posted_at": "2026-10-05",
+   "role": "data",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Consultant, Data Engineering",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300056"
+  },
+  "dell-technologies:8b38722f3f41": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "Santa Clara, CA, United States",
+   "posted_at": "2026-09-23",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Data Protection Software Engineering",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/294076"
+  },
   "dell-technologies:a69bab21114a": {
    "company": "Dell Technologies",
    "first_seen": "2026-09-14",
@@ -70894,6 +71316,55 @@
    "tier": "intern",
    "title": "Software Engineering Intern",
    "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297773"
+  },
+  "dell-technologies:b96a3f7f8092": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "TX, United States",
+   "posted_at": "2026-10-05",
+   "role": "data",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Consultant, Data Engineering",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300054"
+  },
+  "dell-technologies:bd43b4691fe3": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "Austin, TX, United States",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Postgres Database Engineer",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297513"
+  },
+  "dell-technologies:ee5985a7951f": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "Round Rock, TX, United States",
+   "posted_at": "2026-09-15",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Consultant Machine Learning & Knowledge Graph Engineer",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/293104"
+  },
+  "dell-technologies:fbed12144755": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-09",
+   "location": "Mclean, VA, United States",
+   "posted_at": "2026-09-22",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Systems Engineer – Research Infrastructure & Lab Platforms - Federal Customer",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/293524",
+   "workplace": "Remote"
   },
   "deloitte:0062679a5dc0": {
    "company": "Deloitte",
@@ -71726,6 +72197,19 @@
    "title": "Data Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4475762359"
   },
+  "deloitte:3fdb4b387e1f": {
+   "company": "Deloitte",
+   "first_seen": "2026-10-09",
+   "location": "Wichita, KS",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer III",
+   "url": "https://www.linkedin.com/jobs/view/4475184081"
+  },
   "deloitte:403e27d6ae47": {
    "company": "Deloitte",
    "first_seen": "2026-09-27",
@@ -72418,6 +72902,19 @@
    "title": "Databricks Data Engineer",
    "url": "https://www.linkedin.com/jobs/view/4473915983"
   },
+  "deloitte:6efece957ba0": {
+   "company": "Deloitte",
+   "first_seen": "2026-10-09",
+   "location": "",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer III",
+   "url": "https://www.linkedin.com/jobs/view/4475178471"
+  },
   "deloitte:7115a484dc10": {
    "company": "Deloitte",
    "first_seen": "2026-09-29",
@@ -72640,6 +73137,19 @@
    "tier": "experienced",
    "title": "PROJECT - Data Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4471162197"
+  },
+  "deloitte:80f8b2133909": {
+   "company": "Deloitte",
+   "first_seen": "2026-10-09",
+   "location": "",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer III",
+   "url": "https://www.linkedin.com/jobs/view/4475185115"
   },
   "deloitte:820021b924d7": {
    "company": "Deloitte",
@@ -73408,6 +73918,19 @@
    "title": "Agentic AI Engineer — Healthcare AI",
    "url": "https://www.linkedin.com/jobs/view/4426724829"
   },
+  "deloitte:cca2708d42d4": {
+   "company": "Deloitte",
+   "first_seen": "2026-10-09",
+   "location": "Miami, FL",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer III",
+   "url": "https://www.linkedin.com/jobs/view/4475179447"
+  },
   "deloitte:ccb580accfcf": {
    "company": "Deloitte",
    "first_seen": "2026-09-27",
@@ -73474,6 +73997,19 @@
    "tier": "experienced",
    "title": "DevOps Engineer III",
    "url": "https://www.linkedin.com/jobs/view/4462779222"
+  },
+  "deloitte:d1b2f0841f14": {
+   "company": "Deloitte",
+   "first_seen": "2026-10-09",
+   "location": "Cincinnati, OH",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer III",
+   "url": "https://www.linkedin.com/jobs/view/4475183236"
   },
   "deloitte:d63794a3b18b": {
    "company": "Deloitte",
@@ -73673,6 +74209,19 @@
    "tier": "experienced",
    "title": "PROJECT - Data Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4473086704"
+  },
+  "deloitte:eb099b3eca02": {
+   "company": "Deloitte",
+   "first_seen": "2026-10-09",
+   "location": "New Orleans, LA",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer III",
+   "url": "https://www.linkedin.com/jobs/view/4475175564"
   },
   "deloitte:eb16c4220423": {
    "company": "Deloitte",
@@ -76282,6 +76831,30 @@
    "title": "Full-Stack/API Developer",
    "url": "https://www.linkedin.com/jobs/view/4473073712"
   },
+  "dtcc:01342defd927": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States",
+   "posted_at": "2026-08-25",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "intern",
+   "title": "Infrastructure Engineer Intern [2027 Intern Program]",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214473"
+  },
+  "dtcc:0e330596eab0": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Tampa, FL, United States; Dallas, TX, United States; Boston, MA, United States",
+   "posted_at": "2026-03-18",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Systems Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/212033"
+  },
   "dtcc:1b5062a0160e": {
    "company": "DTCC",
    "first_seen": "2026-10-09",
@@ -76293,6 +76866,78 @@
    "tier": "experienced",
    "title": "Lead Systems Engineer",
    "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214217"
+  },
+  "dtcc:327bf4c58f48": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Dallas, TX, United States; Tampa, FL, United States",
+   "posted_at": "2026-08-14",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Automation Endpoint Test Engineer (Laptop and VDI)",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214252"
+  },
+  "dtcc:3583966c9df4": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "TX, United States",
+   "posted_at": "2026-03-27",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead PKI Security Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213043"
+  },
+  "dtcc:36bb935bc21f": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Tampa, FL, United States; Dallas, TX, United States",
+   "posted_at": "2026-07-14",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Systems Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214168"
+  },
+  "dtcc:3a267ecbdf99": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Dallas, TX, United States; Jersey City, NJ, United States",
+   "posted_at": "2026-08-24",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Database Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/212066"
+  },
+  "dtcc:3f8191e5588f": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Tampa, FL, United States; Dallas, TX, United States",
+   "posted_at": "2026-03-02",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Development Engineer in Test",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/212235"
+  },
+  "dtcc:4fe54cf7de06": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Dallas, TX, United States; Tampa, FL, United States",
+   "posted_at": "2026-07-07",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Platform Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214105"
   },
   "dtcc:5ca8eded2036": {
    "company": "DTCC",
@@ -76306,6 +76951,54 @@
    "title": "Lead Systems Engineer",
    "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214216"
   },
+  "dtcc:6d687a7f9f50": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Tampa, FL, United States",
+   "posted_at": "2026-04-09",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Test Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213246"
+  },
+  "dtcc:6ea765ca4874": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-07-29",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Test Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214189"
+  },
+  "dtcc:73639c3a156b": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States; Tampa, FL, United States",
+   "posted_at": "2026-09-17",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Associate",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214670"
+  },
+  "dtcc:747f842ca2dc": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States; Tampa, FL, United States",
+   "posted_at": "2026-05-20",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Test Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213464"
+  },
   "dtcc:752f49b4313d": {
    "company": "DTCC",
    "first_seen": "2026-10-09",
@@ -76318,6 +77011,18 @@
    "title": "Lead Software Engineer",
    "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214899"
   },
+  "dtcc:7afce4054ee2": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "TX, United States; Tampa, FL, United States; Jersey City, NJ, United States",
+   "posted_at": "2026-09-04",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cyber Security Endpoint Security Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214574"
+  },
   "dtcc:8276330e4c24": {
    "company": "DTCC",
    "first_seen": "2026-10-09",
@@ -76329,6 +77034,78 @@
    "tier": "experienced",
    "title": "Digital Assets Lead DevOps Engineer",
    "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213745"
+  },
+  "dtcc:9df6e6ad1c26": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States",
+   "posted_at": "2026-08-25",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Infrastructure Engineer [2027 EDGE Program]",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214457"
+  },
+  "dtcc:a9351ff313a8": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States",
+   "posted_at": "2026-08-25",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Application Developer Analyst [2027 EDGE Program]",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214463"
+  },
+  "dtcc:a98fdc1f4476": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Dallas, TX, United States; Tampa, FL, United States",
+   "posted_at": "2026-07-14",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Systems Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214166"
+  },
+  "dtcc:b165e050d1ba": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Tampa, FL, United States; Jersey City, NJ, United States",
+   "posted_at": "2026-09-17",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Cloud Security Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214604"
+  },
+  "dtcc:b93a77be54db": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Dallas, TX, United States; Tampa, FL, United States",
+   "posted_at": "2026-08-10",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Performance Test Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214325"
+  },
+  "dtcc:ba5b076a800a": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States; Dallas, TX, United States; Tampa, FL, United States",
+   "posted_at": "2026-09-24",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead IT Security Engineer",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214677"
   },
   "dtcc:c1cb21eb9c0b": {
    "company": "DTCC",
@@ -76377,6 +77154,54 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213243"
+  },
+  "dtcc:d9328daf2696": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Dallas, TX, United States; Jersey City, NJ, United States",
+   "posted_at": "2025-11-28",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer in Test (Infrastructure Testing - IaC)",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/211967"
+  },
+  "dtcc:dcbd45c7ef28": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Tampa, FL, United States; Jersey City, NJ, United States",
+   "posted_at": "2026-09-02",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Development Engineer in Test",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214346"
+  },
+  "dtcc:ddb12eb9e005": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States; Dallas, TX, United States",
+   "posted_at": "2026-09-24",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Engineering Associate (Digital Assets)",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213738"
+  },
+  "dtcc:ea8e445769cf": {
+   "company": "DTCC",
+   "first_seen": "2026-10-09",
+   "location": "Dallas, TX, United States; Jersey City, NJ, United States; Tampa, FL, United States",
+   "posted_at": "2025-07-16",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Platform Engineer*",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210992"
   },
   "dtcc:ff1630bb60e6": {
    "company": "DTCC",
@@ -77980,6 +78805,45 @@
    "title": "Associate Cloud Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4469698613"
   },
+  "emerson-electric:07316cab1a75": {
+   "company": "Emerson Electric",
+   "first_seen": "2026-10-09",
+   "location": "Austin, TX, United States",
+   "posted_at": "2026-09-24",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cloud Platform Infrastructure Engineer",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010353",
+   "workplace": "Hybrid"
+  },
+  "emerson-electric:2964701bf01d": {
+   "company": "Emerson Electric",
+   "first_seen": "2026-10-09",
+   "location": "Marshalltown, IA, United States",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Business Applications & Systems Developer",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011404",
+   "workplace": "Hybrid"
+  },
+  "emerson-electric:5480d9e77ff5": {
+   "company": "Emerson Electric",
+   "first_seen": "2026-10-09",
+   "location": "Shakopee, MN, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012163",
+   "workplace": "Hybrid"
+  },
   "emerson-electric:5f1f57d33011": {
    "company": "Emerson Electric",
    "first_seen": "2026-09-14",
@@ -77992,6 +78856,45 @@
    "title": "Software Engineer Co-op",
    "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010048"
   },
+  "emerson-electric:7383583c5424": {
+   "company": "Emerson Electric",
+   "first_seen": "2026-10-09",
+   "location": "Elyria, OH, United States",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Solutions Development Program (SDP)",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010904",
+   "workplace": "Hybrid"
+  },
+  "emerson-electric:86f2890c58f1": {
+   "company": "Emerson Electric",
+   "first_seen": "2026-10-09",
+   "location": "Austin, TX, United States",
+   "posted_at": "2026-09-21",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010450",
+   "workplace": "Hybrid"
+  },
+  "emerson-electric:91a39cb1560d": {
+   "company": "Emerson Electric",
+   "first_seen": "2026-10-09",
+   "location": "Austin, TX, United States",
+   "posted_at": "2026-10-01",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - AI Enablement & Engineering Productivity",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010922",
+   "workplace": "Hybrid"
+  },
   "emerson-electric:a08903d36b85": {
    "company": "Emerson Electric",
    "first_seen": "2026-09-23",
@@ -78002,7 +78905,20 @@
    "status": "new",
    "tier": "intern",
    "title": "Software Engineer Intern - Process Systems and Solutions 🎓",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011295"
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011295",
+   "workplace": "Hybrid"
+  },
+  "emerson-electric:c37de534ee5d": {
+   "company": "Emerson Electric",
+   "first_seen": "2026-10-09",
+   "location": "Stafford, TX, United States",
+   "posted_at": "2026-10-07",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Quality Engineer",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011662"
   },
   "emerson-electric:e4e1a76ab40f": {
    "company": "Emerson Electric",
@@ -78027,6 +78943,18 @@
    "tier": "intern",
    "title": "Software Engineer Co-op - January 2027 - May 2027",
    "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454"
+  },
+  "emerson-electric:ee1608b064b7": {
+   "company": "Emerson Electric",
+   "first_seen": "2026-10-09",
+   "location": "Ash Flat, AR, United States",
+   "posted_at": "2026-10-06",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Quality Engineer",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011846"
   },
   "emerson:11f1d18431e7": {
    "checked_at": "2026-10-02",
@@ -79558,6 +80486,19 @@
    "title": "Spatial Data Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4463112365"
   },
+  "esri:1a3c8465de17": {
+   "company": "Esri",
+   "first_seen": "2026-10-09",
+   "location": "St Louis, MO",
+   "posted_at": "2026-10-09",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Development Engineer I",
+   "url": "https://www.linkedin.com/jobs/view/4431898401"
+  },
   "esri:2384c8732744": {
    "company": "Esri",
    "first_seen": "2026-10-07",
@@ -80059,6 +81000,19 @@
    "tier": "experienced",
    "title": "Backend Engineer",
    "url": "https://www.linkedin.com/jobs/view/4471303292"
+  },
+  "evlo-ai:3074ff8e4eb1": {
+   "company": "Evlo AI",
+   "first_seen": "2026-10-09",
+   "location": "Washington, DC",
+   "posted_at": "2026-10-09",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4476826622"
   },
   "evlo-ai:34684e61fb74": {
    "checked_at": "2026-10-02",
@@ -83456,6 +84410,19 @@
    "title": "IT Intern - Software Developer",
    "url": "https://firstcitizens.jibeapply.com/jobs/35709?icims=1"
   },
+  "first-citizens-bank:09e6b50dac71": {
+   "company": "First Citizens Bank",
+   "first_seen": "2026-10-09",
+   "location": "Phoenix, AZ",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II - ETL/ELT",
+   "url": "https://www.linkedin.com/jobs/view/4466654135"
+  },
   "first-citizens-bank:0deb9e1627e2": {
    "company": "First Citizens Bank",
    "first_seen": "2026-09-28",
@@ -83521,6 +84488,19 @@
    "title": "Data Engineer II - Data Platform",
    "url": "https://www.linkedin.com/jobs/view/4444733703"
   },
+  "first-citizens-bank:543d91fed7d1": {
+   "company": "First Citizens Bank",
+   "first_seen": "2026-10-09",
+   "location": "Tallahassee, FL",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II - ETL/ELT",
+   "url": "https://www.linkedin.com/jobs/view/4466642444"
+  },
   "first-citizens-bank:5ff85dcbbde7": {
    "checked_at": "2026-10-02",
    "company": "First Citizens Bank",
@@ -83562,6 +84542,19 @@
    "tier": "experienced",
    "title": "Lead Data Engineer - Data Platform",
    "url": "https://www.linkedin.com/jobs/view/4446195085"
+  },
+  "first-citizens-bank:6f6a3aea5c39": {
+   "company": "First Citizens Bank",
+   "first_seen": "2026-10-09",
+   "location": "North Carolina, United States",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4444740229"
   },
   "first-citizens-bank:8466d7855c95": {
    "company": "First Citizens Bank",
@@ -88955,6 +89948,18 @@
    "title": "2027 Summer Intern - Digital Product: Embedded and Systems Engineering",
    "url": "https://www.linkedin.com/jobs/view/4468170611"
   },
+  "general-motors:72a0bdc9fffa": {
+   "company": "General Motors",
+   "first_seen": "2026-10-09",
+   "location": "Warren, Michigan, United States of America",
+   "posted_at": "2026-10-09",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "NX Open Developer",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/NX-Open-Developer_JR-202619614"
+  },
   "general-motors:736b232544eb": {
    "company": "General Motors",
    "first_seen": "2026-10-06",
@@ -89120,6 +90125,18 @@
    "tier": "intern",
    "title": "2027 Summer Intern - Digital Product: Embedded and Systems Engineering",
    "url": "https://www.linkedin.com/jobs/view/4468168706"
+  },
+  "general-motors:cea0b9283a03": {
+   "company": "General Motors",
+   "first_seen": "2026-10-09",
+   "location": "Sunnyvale, California, United States of America",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "intern",
+   "title": "2027 Summer Intern – Autonomous Driving Software Engineer (Bachelor's & Master's)",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064"
   },
   "general-motors:ced9346ee434": {
    "company": "General Motors",
@@ -89732,6 +90749,19 @@
    "tier": "experienced",
    "title": "Data Scientist, M-Powering Teacher Coaching",
    "url": "https://www.linkedin.com/jobs/view/4473887918"
+  },
+  "gilbane-building:851a722516f8": {
+   "company": "Gilbane Building",
+   "first_seen": "2026-10-09",
+   "location": "Atlanta, GA",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II",
+   "url": "https://www.linkedin.com/jobs/view/4476355257"
   },
   "gilbane-building:91f4d3a403b3": {
    "company": "Gilbane Building",
@@ -90489,12 +91519,12 @@
    "location": "Arlington, TX",
    "posted_at": "2026-09-29",
    "role": "devops-sre",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Site Reliability Engineer I",
-   "url": "https://www.linkedin.com/jobs/view/4439440712"
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260235",
+   "workplace": "Hybrid"
   },
   "gm-financial:24ac691021a5": {
    "company": "GM Financial",
@@ -90508,6 +91538,18 @@
    "tier": "newgrad",
    "title": "Site Reliability Engineer I",
    "url": "https://www.linkedin.com/jobs/view/4439444631"
+  },
+  "gm-financial:271a77093bf0": {
+   "company": "GM Financial",
+   "first_seen": "2026-10-09",
+   "location": "Arlington, TX, United States; Irving, TX, United States",
+   "posted_at": "2026-03-19",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1993"
   },
   "gm-financial:2ef5b7870212": {
    "company": "GM Financial",
@@ -90535,6 +91577,19 @@
    "title": "Site Reliability Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4439452144"
   },
+  "gm-financial:47aa341c801d": {
+   "company": "GM Financial",
+   "first_seen": "2026-10-09",
+   "location": "Irving, TX, United States; Arlington, TX, United States",
+   "posted_at": "2026-07-30",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II - Gen AI and Innovation Team",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260639",
+   "workplace": "Hybrid"
+  },
   "gm-financial:5a37096683c4": {
    "company": "GM Financial",
    "first_seen": "2026-10-09",
@@ -90546,6 +91601,32 @@
    "tier": "experienced",
    "title": "Software Development Engineer II -.NET",
    "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260938",
+   "workplace": "Hybrid"
+  },
+  "gm-financial:5a478022f339": {
+   "company": "GM Financial",
+   "first_seen": "2026-10-09",
+   "location": "Arlington, TX, United States; Irving, TX, United States",
+   "posted_at": "2026-03-19",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Development Engineer",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1994",
+   "workplace": "Hybrid"
+  },
+  "gm-financial:6a3729601c61": {
+   "company": "GM Financial",
+   "first_seen": "2026-10-09",
+   "location": "Arlington, TX, United States",
+   "posted_at": "2026-07-23",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260605",
    "workplace": "Hybrid"
   },
   "gm-financial:7ac191bd0d40": {
@@ -90574,6 +91655,19 @@
    "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261028",
    "workplace": "Hybrid"
   },
+  "gm-financial:801b560d372e": {
+   "company": "GM Financial",
+   "first_seen": "2026-10-09",
+   "location": "Irving, TX, United States",
+   "posted_at": "2026-08-10",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III - GenAI",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260666",
+   "workplace": "Hybrid"
+  },
   "gm-financial:81dead99a9b8": {
    "company": "GM financial",
    "first_seen": "2026-09-18",
@@ -90585,6 +91679,19 @@
    "tier": "intern",
    "title": "Software Development Engineer Intern",
    "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260795",
+   "workplace": "Hybrid"
+  },
+  "gm-financial:84d16fe6fa83": {
+   "company": "GM Financial",
+   "first_seen": "2026-10-09",
+   "location": "Arlington, TX, United States",
+   "posted_at": "2026-07-07",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Systems Engineer III",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260262",
    "workplace": "Hybrid"
   },
   "gm-financial:88eed2a17cc2": {
@@ -90645,12 +91752,12 @@
    "location": "Arlington, TX",
    "posted_at": "2026-09-29",
    "role": "devops-sre",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "experienced",
    "title": "Site Reliability Engineer II",
-   "url": "https://www.linkedin.com/jobs/view/4439452145"
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1947",
+   "workplace": "Hybrid"
   },
   "gm-financial:c011160f3e42": {
    "checked_at": "2026-10-02",
@@ -90677,6 +91784,19 @@
    "tier": "experienced",
    "title": "AVP SRE and Cloud Solutions",
    "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260871",
+   "workplace": "Hybrid"
+  },
+  "gm-financial:ca2914c0f4cd": {
+   "company": "GM Financial",
+   "first_seen": "2026-10-09",
+   "location": "Arlington, TX, United States",
+   "posted_at": "2026-06-22",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AVP Software Engineering- Servicing Tech",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260411",
    "workplace": "Hybrid"
   },
   "gm-financial:cbde13354e0d": {
@@ -90711,12 +91831,11 @@
    "location": "Arlington, TX",
    "posted_at": "2026-09-29",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Software Development Engineer I",
-   "url": "https://www.linkedin.com/jobs/view/4439442692"
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1991"
   },
   "gm-financial:ea08d9de6b8d": {
    "company": "GM Financial",
@@ -94317,6 +95436,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Search, AI/ML",
    "url": "https://www.google.com/about/careers/applications/jobs/results/130737570278449862-software-engineer-search-aiml"
+  },
+  "google:c17946094d32": {
+   "company": "Google",
+   "first_seen": "2026-10-09",
+   "location": "Sunnyvale, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Google Cloud Platform, Fault Management",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/96301597314687686-software-engineer-google-cloud-platform-fault-management"
   },
   "google:c188d18234af": {
    "company": "Google",
@@ -98908,6 +100038,18 @@
    "title": "Manageability Firmware Engineer",
    "url": "https://www.linkedin.com/jobs/view/4473086204"
   },
+  "hewlett-packard-enterprise:1209d9035304": {
+   "company": "Hewlett Packard Enterprise",
+   "first_seen": "2026-10-09",
+   "location": "Bloomington, Minnesota, United States of America",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "intern",
+   "title": "Systems Software Engineer Intern",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Bloomington-Minnesota-United-States-of-America/Systems-Software-Engineer-Intern_1213401"
+  },
   "hewlett-packard-enterprise:1a9db681175d": {
    "company": "Hewlett Packard Enterprise",
    "first_seen": "2026-10-09",
@@ -99053,6 +100195,30 @@
    "tier": "experienced",
    "title": "HPC & AI Performance Engineer",
    "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Bloomington-Minnesota-United-States-of-America/HPC---AI-Performance-Engineer_1206826-3"
+  },
+  "hewlett-packard-enterprise:48c51349085d": {
+   "company": "Hewlett Packard Enterprise",
+   "first_seen": "2026-10-09",
+   "location": "Andover, Massachusetts, United States of America",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Storage Systems/Software Engineer",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Andover-Massachusetts-United-States-of-America/Storage-Systems-Software-Engineer_1215476-2"
+  },
+  "hewlett-packard-enterprise:4ce9d55e3bd3": {
+   "company": "Hewlett Packard Enterprise",
+   "first_seen": "2026-10-09",
+   "location": "Houston, Texas, United States of America",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Systems/Software Engineer I - Graduate",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Houston-Texas-United-States-of-America/Systems-Software-Engineer-I---Graduate_1213648"
   },
   "hewlett-packard-enterprise:5064b1ac12bb": {
    "company": "Hewlett Packard Enterprise",
@@ -99295,6 +100461,18 @@
    "tier": "experienced",
    "title": "Software Engineer 3 - Embedded (RIS)",
    "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineer-III---Embedded--RIS-_1204900-2"
+  },
+  "hewlett-packard-enterprise:d18102073fc7": {
+   "company": "Hewlett Packard Enterprise",
+   "first_seen": "2026-10-09",
+   "location": "Bloomington, Minnesota, United States of America",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Graduate Systems/Software Engineer I",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Bloomington-Minnesota-United-States-of-America/Graduate-Systems-Software-Engineer-I_1213439"
   },
   "hewlett-packard-enterprise:d20760d55ad5": {
    "company": "Hewlett Packard Enterprise",
@@ -100167,12 +101345,12 @@
    "location": "Duluth, GA",
    "posted_at": "2026-09-23",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Software Engineer I",
-   "url": "https://www.linkedin.com/jobs/view/4470983762"
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/157925",
+   "workplace": "Hybrid"
   },
   "honeywell-technologies:907d17000b2a": {
    "company": "Honeywell Technologies",
@@ -100239,6 +101417,43 @@
    "title": "Artificial Intelligence/Machine Learning Intern",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155522"
   },
+  "honeywell:13a42a1ed5bf": {
+   "company": "Honeywell",
+   "first_seen": "2026-10-09",
+   "location": "Duluth, GA, United States",
+   "posted_at": "2026-09-25",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Advanced Software Engineer",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/156941",
+   "workplace": "Hybrid"
+  },
+  "honeywell:13f6979c3fc0": {
+   "company": "Honeywell",
+   "first_seen": "2026-10-09",
+   "location": "Northford, CT, United States",
+   "posted_at": "2026-09-22",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Quality Engineer II",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/157200"
+  },
+  "honeywell:1ba2de95f3fd": {
+   "company": "Honeywell",
+   "first_seen": "2026-10-09",
+   "location": "Atlanta, GA, United States",
+   "posted_at": "2026-09-28",
+   "role": "data",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Advanced Data Scientist",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158753"
+  },
   "honeywell:3c1e4b59cc1c": {
    "company": "Honeywell",
    "first_seen": "2026-08-26",
@@ -100250,6 +101465,18 @@
    "tier": "intern",
    "title": "Software Engineer Intern - Computer Science",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155557"
+  },
+  "honeywell:3fe1dee72234": {
+   "company": "Honeywell",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-09-29",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "intern",
+   "title": "Spring 2027 Artificial Intelligence/Machine Learning Co-Op",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158958"
   },
   "honeywell:482ab4f2bfa6": {
    "company": "Honeywell",
@@ -100286,6 +101513,18 @@
    "tier": "intern",
    "title": "Software Engineer Intern - Computer Science",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155558"
+  },
+  "honeywell:a988f548a865": {
+   "company": "Honeywell",
+   "first_seen": "2026-10-09",
+   "location": "Framingham, MA, United States",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/157870"
   },
   "honeywell:b4f405c68fdb": {
    "company": "Honeywell",
@@ -100334,6 +101573,31 @@
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155551"
+  },
+  "honeywell:f8a6d7a41737": {
+   "company": "Honeywell",
+   "first_seen": "2026-10-09",
+   "location": "Northford, CT, United States",
+   "posted_at": "2026-09-22",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Quality Engineer I",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/157378"
+  },
+  "honeywell:f9eca5486abd": {
+   "company": "Honeywell",
+   "first_seen": "2026-10-09",
+   "location": "Houston, TX, United States",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Instrumentation and Controls Engineer - Lead Systems Engineer",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158032",
+   "workplace": "Hybrid"
   },
   "horizon-media:e7be2681c04e": {
    "company": "Horizon Media",
@@ -108737,6 +110001,97 @@
    "title": "Software Engineer Co-op",
    "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743"
   },
+  "jp-morgan-chase:128f16a4bae2": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "New York, NY, United States",
+   "posted_at": "2026-10-06",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering III - .Net Core, AI, React, (Multiple roles)",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210722115"
+  },
+  "jp-morgan-chase:170d448d1d3e": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Wilmington, DE, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III - Python/Databricks/AWS",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210782788"
+  },
+  "jp-morgan-chase:1be9f876e831": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Python - GenAI",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786802"
+  },
+  "jp-morgan-chase:1c08d606c46b": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Chicago, IL, United States",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Java Spring Boot",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794513"
+  },
+  "jp-morgan-chase:1eead04f7246": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Irvine, CA, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer .Net",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210798311"
+  },
+  "jp-morgan-chase:2a4c2b168264": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "New York, NY, United States",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II (Java/AWS)",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210760311"
+  },
+  "jp-morgan-chase:3470cabc048f": {
+   "company": "JP Morgan Chase",
+   "department": "Security Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Lead Security Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210772657"
+  },
   "jp-morgan-chase:38d1f25a57ea": {
    "company": "JP Morgan Chase",
    "first_seen": "2026-08-22",
@@ -108762,6 +110117,19 @@
    "title": "Lead Software Engineer - Python/Django",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210766236"
   },
+  "jp-morgan-chase:3d73c28cff36": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Chicago, IL, United States",
+   "posted_at": "2026-10-08",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer III",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792529"
+  },
   "jp-morgan-chase:405984e60402": {
    "company": "JP Morgan Chase",
    "first_seen": "2026-09-18",
@@ -108773,6 +110141,45 @@
    "tier": "intern",
    "title": "Machine Learning Engineer Summer Associate Intern - Asset and Wealth Management 🎓",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210790885"
+  },
+  "jp-morgan-chase:4a71049b9f67": {
+   "company": "JP Morgan Chase",
+   "department": "Predictive Science",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-08",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI/ML Lead",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210791699"
+  },
+  "jp-morgan-chase:50ecf3b17b70": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-06",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Data and Payments Business Observability Platform",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788539"
+  },
+  "jp-morgan-chase:58ba070d2236": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210767085"
   },
   "jp-morgan-chase:590203823872": {
    "company": "JP Morgan Chase",
@@ -108786,6 +110193,84 @@
    "title": "Software Engineer 1",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210795475"
   },
+  "jp-morgan-chase:59ef02b6f97d": {
+   "company": "JP Morgan Chase",
+   "department": "Data Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "data",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Data Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210769358"
+  },
+  "jp-morgan-chase:640cef5ba3eb": {
+   "company": "JP Morgan Chase",
+   "department": "Security Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Columbus, OH, United States; Seattle, WA, United States",
+   "posted_at": "2026-10-08",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Security Engineer - Python or Java, AWS",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788158"
+  },
+  "jp-morgan-chase:6a7893d7e7f2": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "frontend",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer-  React/UI Lead",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768952"
+  },
+  "jp-morgan-chase:7131c6a003c3": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Post Trade Technology - Equities Settlements",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210791957"
+  },
+  "jp-morgan-chase:74cdfad2e561": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Columbus, OH, United States",
+   "posted_at": "2026-10-08",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Java AWS Lead Software Engineering",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210764726"
+  },
+  "jp-morgan-chase:78ebec359149": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-07",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer-Network Infrastructure Development",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778552"
+  },
   "jp-morgan-chase:7eb7787f5b34": {
    "company": "JP Morgan Chase",
    "first_seen": "2026-10-06",
@@ -108797,6 +110282,19 @@
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794232"
+  },
+  "jp-morgan-chase:8121f6c40bf7": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-06",
+   "role": "fullstack",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Full Stack",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210795715"
   },
   "jp-morgan-chase:81a992ddb345": {
    "company": "JP Morgan Chase",
@@ -108811,6 +110309,45 @@
    "title": "Lead Infrastructure Engineer - Network Connectivity Services Telecom Implementation",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796368"
   },
+  "jp-morgan-chase:832d9d0c4bfa": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States; Jersey City, NJ, United States; Columbus, OH, United States",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java/Python Lead Software Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796923"
+  },
+  "jp-morgan-chase:876c91e43778": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III – MLOps",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210795601"
+  },
+  "jp-morgan-chase:8a24cc4c5a9b": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Chicago, IL, United States",
+   "posted_at": "2026-10-06",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Java, AI, Spring Boot and Kafka",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210791731"
+  },
   "jp-morgan-chase:8ef67e41e8c8": {
    "company": "JP Morgan Chase",
    "department": "Software Engineering",
@@ -108823,6 +110360,84 @@
    "tier": "experienced",
    "title": "AI Engineer - Lead Software Engineer",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210762503"
+  },
+  "jp-morgan-chase:92f747acad63": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "New York, NY, United States",
+   "posted_at": "2026-10-07",
+   "role": "fullstack",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III (Full Stack Java)",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210749510"
+  },
+  "jp-morgan-chase:940761f7c06e": {
+   "company": "JP Morgan Chase",
+   "department": "Data Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Houston, TX, United States",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Corporate Sector - Lead Data Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794950"
+  },
+  "jp-morgan-chase:95899cff184f": {
+   "company": "JP Morgan Chase",
+   "department": "Security Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Wilmington, DE, United States",
+   "posted_at": "2026-10-07",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Security Engineer - Python/Java Developer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786264"
+  },
+  "jp-morgan-chase:9f004f53cf05": {
+   "company": "JP Morgan Chase",
+   "department": "Predictive Science",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-08",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI/ML Lead",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210791679"
+  },
+  "jp-morgan-chase:a2a7eef72531": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Houston, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "fullstack",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer- Java Full Stack - Production support",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784336"
+  },
+  "jp-morgan-chase:a30e6d04754c": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-06",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Site Reliability Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796664"
   },
   "jp-morgan-chase:a4a8dd8e4a83": {
    "company": "JP Morgan Chase",
@@ -108837,6 +110452,58 @@
    "title": "Infrastructure Engineer III - Software Packaging",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794891"
   },
+  "jp-morgan-chase:a5d62390680a": {
+   "company": "JP Morgan Chase",
+   "department": "Associates",
+   "first_seen": "2026-10-09",
+   "location": "NY, United States",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "US Equity Research - Large Cap Software - Associate",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210797771"
+  },
+  "jp-morgan-chase:a7c23fbf71c4": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "New York, NY, United States",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III - Java/AWS",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210767008"
+  },
+  "jp-morgan-chase:b4f60a09766a": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Python Software Engineer III",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793073"
+  },
+  "jp-morgan-chase:b5535fcdeca7": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States; Seattle, WA, United States",
+   "posted_at": "2026-10-08",
+   "role": "fullstack",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III: Full Stack",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210746076"
+  },
   "jp-morgan-chase:b9220ab6b9d7": {
    "company": "JP Morgan Chase",
    "department": "Software Engineering",
@@ -108849,6 +110516,266 @@
    "tier": "experienced",
    "title": "Lead Software Engineer",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210787966"
+  },
+  "jp-morgan-chase:bbecea31f1e3": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer – Python, AIML, Cloud",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793607"
+  },
+  "jp-morgan-chase:c1ad055ae9d7": {
+   "company": "JP Morgan Chase",
+   "department": "Infrastructure Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Columbus, OH, United States",
+   "posted_at": "2026-10-08",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Infrastructure Engineer – Retail Branch Change Execution",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776859"
+  },
+  "jp-morgan-chase:c4136fd1e1a2": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Columbus, OH, United States",
+   "posted_at": "2026-10-08",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - Observability Engineering",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796526"
+  },
+  "jp-morgan-chase:c4e77db866b2": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Software Engineer III",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786111"
+  },
+  "jp-morgan-chase:cf3dac7ee575": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer -  Quant Developer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796051"
+  },
+  "jp-morgan-chase:d4bb837aacd0": {
+   "company": "JP Morgan Chase",
+   "department": "Infrastructure Engineering",
+   "first_seen": "2026-10-09",
+   "location": "OH, United States",
+   "posted_at": "2026-10-08",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Infrastructure Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794287"
+  },
+  "jp-morgan-chase:d5035e4cfeb3": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "New York, NY, United States",
+   "posted_at": "2026-10-07",
+   "role": "fullstack",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III (Java Full Stack)",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781257"
+  },
+  "jp-morgan-chase:d8441df474bf": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Houston, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Site Reliability Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210789440"
+  },
+  "jp-morgan-chase:d8a87efd1c54": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-07",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Java / Python / AWS / AI/ML",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788277"
+  },
+  "jp-morgan-chase:db1dc40675b3": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792386"
+  },
+  "jp-morgan-chase:e6ab9d53991c": {
+   "company": "JP Morgan Chase",
+   "department": "Predictive Science",
+   "first_seen": "2026-10-09",
+   "location": "Jersey City, NJ, United States",
+   "posted_at": "2026-10-08",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Machine Learning Engineer - Agentic Pricing",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210795922"
+  },
+  "jp-morgan-chase:ecf566907885": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Houston, TX, United States; Plano, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer- AWS Infra/Terraform expert  - Data",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777585"
+  },
+  "jp-morgan-chase:ed9ff217498a": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Houston, TX, United States",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer [Multiple Positions Available]",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210797616"
+  },
+  "jp-morgan-chase:ee7bd590612f": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Atlanta, GA, United States",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - Data Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786394"
+  },
+  "jp-morgan-chase:eecc7c9d9623": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Houston, TX, United States",
+   "posted_at": "2026-10-08",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer- Java - JPA",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774370"
+  },
+  "jp-morgan-chase:f14092b7aedb": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-10-07",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - AI/ML Data Scientist",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779875"
+  },
+  "jp-morgan-chase:f246f8c0de78": {
+   "company": "JP Morgan Chase",
+   "department": "Security Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Tampa, FL, United States",
+   "posted_at": "2026-10-06",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Security Engineer - Agentic AI/ML",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210760835"
+  },
+  "jp-morgan-chase:f70658b1edc7": {
+   "company": "JP Morgan Chase",
+   "department": "Security Engineering",
+   "first_seen": "2026-10-09",
+   "location": "Plano, TX, United States; Seattle, WA, United States; Palo Alto, CA, United States",
+   "posted_at": "2026-10-07",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Security Engineer - Confidential Computing",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775576"
+  },
+  "jp-morgan-chase:f7b8a108d439": {
+   "company": "JP Morgan Chase",
+   "department": "Infrastructure Engineering",
+   "first_seen": "2026-10-09",
+   "location": "San Francisco, CA, United States",
+   "posted_at": "2026-10-08",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Infrastructure Engineer - DDI, IPv6",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765748"
+  },
+  "jp-morgan-chase:ff55134d0757": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-09",
+   "location": "OH, United States",
+   "posted_at": "2026-10-06",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Software Engineer - AI & Machine Learning",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793541"
   },
   "jpmorganchase:00c94157daf4": {
    "company": "JPMorganChase",
@@ -110157,6 +112084,19 @@
    "tier": "experienced",
    "title": "DevOps Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4473901642"
+  },
+  "kavaliro:2a08e4838034": {
+   "company": "Kavaliro",
+   "first_seen": "2026-10-09",
+   "location": "Salt Lake City, UT",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4460144456"
   },
   "kaylatek:2b0a99ec95e1": {
    "company": "KaylaTek®",
@@ -112529,6 +114469,19 @@
    "tier": "intern",
    "title": "AI Engineer Intern",
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6606"
+  },
+  "lazard:c3f1d2d4202d": {
+   "company": "Lazard",
+   "first_seen": "2026-10-09",
+   "location": "New York, United States",
+   "posted_at": "2026-10-06",
+   "role": "data",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6714",
+   "workplace": "Hybrid"
   },
   "lazard:c5459db5384e": {
    "company": "Lazard",
@@ -117761,6 +119714,19 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://mckesson.wd3.myworkdayjobs.com/en-US/External_Careers/job/USA-GA-Atlanta/Software-Engineer_JR0153531-1"
+  },
+  "mckinsey-company:ebeafff73fda": {
+   "company": "McKinsey & Company",
+   "first_seen": "2026-10-09",
+   "location": "Washington, DC",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Platform Data Engineer - US Defense Public Sector",
+   "url": "https://www.linkedin.com/jobs/view/4382952536"
   },
   "mclane-company-inc:87b7c41dfee2": {
    "company": "McLane Company, Inc.",
@@ -123111,7 +125077,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Mobile Developer Intern - Summer Associate",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32368"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32368",
+   "workplace": "Hybrid"
   },
   "navy-federal:31696230a42e": {
    "company": "Navy Federal",
@@ -123123,7 +125090,21 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Scientist Intern",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32288"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32288",
+   "workplace": "Hybrid"
+  },
+  "navy-federal:6b391d38c3d4": {
+   "company": "Navy Federal",
+   "first_seen": "2026-10-09",
+   "location": "Vienna, VA, United States",
+   "posted_at": "2026-09-09",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "intern",
+   "title": "Summer Associate Internship (Product Security Engineer)",
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32434",
+   "workplace": "Hybrid"
   },
   "navy-federal:6bb95e4b4244": {
    "company": "Navy Federal",
@@ -123148,7 +125129,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Payments AI Engineer Intern 🎓",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32400"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32400",
+   "workplace": "Hybrid"
   },
   "navy-federal:7d693cd7bae2": {
    "company": "Navy Federal",
@@ -123161,6 +125143,18 @@
    "tier": "intern",
    "title": "Summer Associate Internship (Product Security Engineer)",
    "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32619"
+  },
+  "navy-federal:814514d144b9": {
+   "company": "Navy Federal",
+   "first_seen": "2026-10-09",
+   "location": "Vienna, VA, United States; United States",
+   "posted_at": "2026-09-09",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "intern",
+   "title": "Summer Associate Internship (Product Security Engineer)",
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32334"
   },
   "navy-federal:817ee4000c2c": {
    "company": "Navy Federal",
@@ -123197,7 +125191,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Engineer Intern",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32265"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32265",
+   "workplace": "Hybrid"
   },
   "navy-federal:c589d6731cd7": {
    "company": "Navy Federal",
@@ -123209,7 +125204,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Associate Data Engineer Intern",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32292"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32292",
+   "workplace": "Hybrid"
   },
   "navy-federal:d989769a962c": {
    "company": "Navy Federal",
@@ -123221,7 +125217,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Scientist Intern",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32337"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32337",
+   "workplace": "Hybrid"
   },
   "navy-federal:e5cac289ee60": {
    "company": "Navy Federal",
@@ -123233,7 +125230,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Scientist Intern",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32460"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32460",
+   "workplace": "Hybrid"
   },
   "navy-federal:e720db2225fc": {
    "company": "Navy Federal",
@@ -123245,7 +125243,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Scientist Intern 🎓",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32081"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32081",
+   "workplace": "Hybrid"
   },
   "navy-federal:f51ed93215a3": {
    "company": "Navy Federal",
@@ -123257,7 +125256,8 @@
    "status": "new",
    "tier": "intern",
    "title": "Data Scientist Intern",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32291"
+   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32291",
+   "workplace": "Hybrid"
   },
   "nbme:34e793e86d4f": {
    "company": "NBME",
@@ -125578,6 +127578,117 @@
    "title": "Frontend Engineer",
    "url": "https://www.linkedin.com/jobs/view/4468131827"
   },
+  "nokia:23ff3a2ed3ad": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "5G gNB PHY Developer",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37765"
+  },
+  "nokia:26339be16468": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-09-29",
+   "role": "embedded",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Systems Platform Software Engineer 37823",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41000"
+  },
+  "nokia:2a180d4357ac": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-08-13",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Quality Engineer",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/35121"
+  },
+  "nokia:37c1dbaffab5": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-09-15",
+   "role": "embedded",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "intern",
+   "title": "Embedded Software Development Coop",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40172",
+   "workplace": "Hybrid"
+  },
+  "nokia:3d5d1ea1d1a1": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-09-18",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "intern",
+   "title": "AI Assisted Software Development Co-op",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535"
+  },
+  "nokia:45c25ca6e417": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-08-12",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Photonic Test Engineer",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38642",
+   "workplace": "Hybrid"
+  },
+  "nokia:471951cb8c33": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-09-17",
+   "role": "qa-test",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "IP Lab Test Engineer",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39276"
+  },
+  "nokia:4d62188e61b7": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-09-15",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Developer",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40564",
+   "workplace": "Hybrid"
+  },
+  "nokia:5b1e2b84ed8d": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-10-06",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Radio Systems Research Engineer",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40656"
+  },
   "nokia:5c880b3a22f4": {
    "company": "Nokia",
    "first_seen": "2026-10-09",
@@ -125589,6 +127700,43 @@
    "tier": "experienced",
    "title": "Software Engineer - Platform Services",
    "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39204"
+  },
+  "nokia:92d0aac5f52c": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SQL Developer & Database Administator",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40412"
+  },
+  "nokia:c5c9fb33c4a1": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "5G gNB Layer 2 and Layer 3 Developer",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/30607",
+   "workplace": "Hybrid"
+  },
+  "nokia:e258b607ddd8": {
+   "company": "Nokia",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-10-06",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "intern",
+   "title": "AI Engineering Co-op",
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40566"
   },
   "nokia:e601a792d3b3": {
    "company": "Nokia",
@@ -127416,16 +129564,17 @@
   },
   "nov:1083969bd18e": {
    "company": "NOV",
+   "employer_url": "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44448",
    "first_seen": "2026-10-07",
    "location": "Houston, TX",
    "posted_at": "2026-10-07",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "Associate Software Engineer - Pathway (June 2027 & January 2027)",
-   "url": "https://www.linkedin.com/jobs/view/4465927340"
+   "url": "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44448",
+   "workplace": "Hybrid"
   },
   "nov:1be2e0998148": {
    "company": "NOV",
@@ -127438,6 +129587,18 @@
    "tier": "intern",
    "title": "Software Engineer Intern - Rig Technologies",
    "url": "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44449"
+  },
+  "nov:2be830f3bd72": {
+   "company": "NOV",
+   "first_seen": "2026-10-09",
+   "location": "Houston, TX, United States",
+   "posted_at": "2026-09-25",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "NDT Physicist / NDT Research Engineer",
+   "url": "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44696"
   },
   "nov:59648b284a9d": {
    "checked_at": "2026-10-02",
@@ -127452,6 +129613,18 @@
    "tier": "experienced",
    "title": "Software Engineer - Front End",
    "url": "https://www.linkedin.com/jobs/view/4451946956"
+  },
+  "nov:b81d933c5711": {
+   "company": "NOV",
+   "first_seen": "2026-10-09",
+   "location": "Conroe, TX, United States",
+   "posted_at": "2026-09-24",
+   "role": "embedded",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics Engineer - Bilingual Chinese",
+   "url": "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44083"
   },
   "nova-tech:384ebae52b59": {
    "company": "Nova-Tech",
@@ -130135,6 +132308,19 @@
    "tier": "experienced",
    "title": "Applied AI Engineer",
    "url": "https://www.linkedin.com/jobs/view/4429630004"
+  },
+  "nyu-langone-health:6e5e3b6990a4": {
+   "company": "NYU Langone Health",
+   "first_seen": "2026-10-09",
+   "location": "New York, NY",
+   "posted_at": "2026-10-09",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4476258276"
   },
   "oak-ridge-national-laboratory:795eb36a9e15": {
    "company": "Oak Ridge National Laboratory",
@@ -136512,6 +138698,18 @@
    "title": "Application Software Engineer 2",
    "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/340958"
   },
+  "oracle:d6956f2b9e3f": {
+   "company": "Oracle",
+   "first_seen": "2026-10-09",
+   "location": "United States",
+   "posted_at": "2026-09-29",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Analytic Developer- Federal Projects",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/344982"
+  },
   "oracle:e136d0682e05": {
    "company": "Oracle",
    "first_seen": "2026-09-27",
@@ -136552,6 +138750,18 @@
    "title": "AI Systems Engineer (OCI/AI Infrastructure)",
    "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/343962"
   },
+  "oracle:e785eda45618": {
+   "company": "Oracle",
+   "first_seen": "2026-10-09",
+   "location": "Nashville, TN, United States",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Developer 3",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/346684"
+  },
   "oracle:e9a91a748478": {
    "company": "Oracle",
    "employer_url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/336301",
@@ -136571,12 +138781,11 @@
    "location": "Nashville, TN",
    "posted_at": "2026-09-30",
    "role": "devops-sre",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "oraclecloud",
    "status": "new",
    "tier": "newgrad",
    "title": "February 2027 - Undergrad Software Engineer - Oracle Cloud Infrastructure (OCI) - Nashville, TN",
-   "url": "https://www.linkedin.com/jobs/view/4472634974"
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/346357"
   },
   "oracle:f278e993a35c": {
    "company": "Oracle",
@@ -136602,6 +138811,18 @@
    "tier": "newgrad",
    "title": "Systems Software Engineer 1",
    "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/340728"
+  },
+  "oracle:fb873f4a8250": {
+   "company": "Oracle",
+   "first_seen": "2026-10-09",
+   "location": "Nashville, TN, United States",
+   "posted_at": "2026-09-30",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Core Infrastructure Engineer",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/341865"
   },
   "orb:3c653974efc2": {
    "company": "Orb",
@@ -140838,6 +143059,19 @@
    "title": "Information Security Systems Engineer (ISSE)",
    "url": "https://www.linkedin.com/jobs/view/4469945370"
   },
+  "percepta:f1b8b937e181": {
+   "company": "Percepta",
+   "first_seen": "2026-10-09",
+   "location": "New York, NY",
+   "posted_at": "2026-10-07",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Founding Applied AI Engineer - Data",
+   "url": "https://www.linkedin.com/jobs/view/4448663938"
+  },
   "perchwell:0c534b66ff8f": {
    "company": "Perchwell",
    "first_seen": "2026-09-29",
@@ -143373,6 +145607,19 @@
    "tier": "newgrad",
    "title": "Graduate Leadership Program - AI & Software Engineering (June Start)",
    "url": "https://www.linkedin.com/jobs/view/4440171542"
+  },
+  "pmtbox:e67b4810b8e2": {
+   "company": "pmtbox",
+   "first_seen": "2026-10-09",
+   "location": "Orem, UT",
+   "posted_at": "2026-10-08",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Front-End Integrations Developer",
+   "url": "https://www.linkedin.com/jobs/view/4475779114"
   },
   "pnc:7231984eab7d": {
    "company": "PNC",
@@ -158645,6 +160892,19 @@
    "title": "Data Scientist - US Remote",
    "url": "https://www.linkedin.com/jobs/view/4469356063",
    "workplace": "Remote"
+  },
+  "selby-jennings:7ca7c47aa658": {
+   "company": "Selby Jennings",
+   "first_seen": "2026-10-09",
+   "location": "Boston, MA",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Enterprise Data Engineer - Trading Systems",
+   "url": "https://www.linkedin.com/jobs/view/4477801907"
   },
   "selby-jennings:c6e6c0b8c9f5": {
    "company": "Selby Jennings",
@@ -175532,6 +177792,19 @@
    "title": "Snowflake Data Engineer",
    "url": "https://www.linkedin.com/jobs/view/4472372101"
   },
+  "tata-consultancy-services:c59ec0750a4c": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-09",
+   "location": "Owings Mills, MD",
+   "posted_at": "2026-10-07",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead AWS Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4466598090"
+  },
   "tata-consultancy-services:c9557ca2444c": {
    "checked_at": "2026-10-02",
    "company": "Tata Consultancy Services",
@@ -184242,6 +186515,20 @@
    "url": "https://www.linkedin.com/jobs/view/4472723652",
    "workplace": "Remote"
   },
+  "torentify:8b7099c6e1f6": {
+   "company": "Torentify",
+   "first_seen": "2026-10-09",
+   "location": "",
+   "posted_at": "2026-10-09",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Engineer, AWS - Remote Opportunity",
+   "url": "https://www.linkedin.com/jobs/view/4477699914",
+   "workplace": "Remote"
+  },
   "torentify:8dbaeeb7d923": {
    "company": "Torentify",
    "first_seen": "2026-09-27",
@@ -184270,6 +186557,20 @@
    "tier": "experienced",
    "title": "Software Engineer - Backend (Remote)",
    "url": "https://www.linkedin.com/jobs/view/4472455658",
+   "workplace": "Remote"
+  },
+  "torentify:abbec5f5ca02": {
+   "company": "Torentify",
+   "first_seen": "2026-10-09",
+   "location": "",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II - WFH",
+   "url": "https://www.linkedin.com/jobs/view/4477694981",
    "workplace": "Remote"
   },
   "torentify:b64df3759d6b": {
@@ -185107,6 +187408,19 @@
    "tier": "experienced",
    "title": "Data Engineer II (Databricks, AWS)",
    "url": "https://www.linkedin.com/jobs/view/4460081445"
+  },
+  "travelers:2ba6832fc791": {
+   "company": "Travelers",
+   "first_seen": "2026-10-09",
+   "location": "Hartford, CT",
+   "posted_at": "2026-10-09",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II, GenAI",
+   "url": "https://www.linkedin.com/jobs/view/4467592888"
   },
   "travelers:66612ce964e0": {
    "company": "Travelers",
@@ -199268,7 +201582,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 160,
+   "last": 161,
    "last_ok": "2026-10-09"
   },
   "Airtable": {
@@ -199282,8 +201596,8 @@
    "last_ok": "2026-10-09"
   },
   "American Express": {
-   "best": 100,
-   "last": 100,
+   "best": 455,
+   "last": 455,
    "last_ok": "2026-10-09"
   },
   "Anduril": {
@@ -199303,7 +201617,7 @@
   },
   "Apple": {
    "best": 142,
-   "last": 135,
+   "last": 127,
    "last_ok": "2026-10-09"
   },
   "Applied Intuition": {
@@ -199332,8 +201646,8 @@
    "last_ok": "2026-10-09"
   },
   "Berkshire Hathaway Energy": {
-   "best": 100,
-   "last": 100,
+   "best": 113,
+   "last": 113,
    "last_ok": "2026-10-09"
   },
   "Betterment": {
@@ -199353,7 +201667,7 @@
   },
   "Brex": {
    "best": 299,
-   "last": 287,
+   "last": 282,
    "last_ok": "2026-10-09"
   },
   "CVS Health": {
@@ -199363,7 +201677,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 140,
+   "last": 139,
    "last_ok": "2026-10-09"
   },
   "Carta": {
@@ -199388,7 +201702,7 @@
   },
   "Cisco": {
    "best": 139,
-   "last": 139,
+   "last": 138,
    "last_ok": "2026-10-09"
   },
   "Citadel": {
@@ -199413,13 +201727,13 @@
    "last_ok": "2026-10-09"
   },
   "DTCC": {
-   "best": 100,
-   "last": 100,
+   "best": 435,
+   "last": 435,
    "last_ok": "2026-10-09"
   },
   "Databricks": {
    "best": 896,
-   "last": 889,
+   "last": 891,
    "last_ok": "2026-10-09"
   },
   "Datadog": {
@@ -199433,8 +201747,8 @@
    "last_ok": "2026-10-09"
   },
   "Dell Technologies": {
-   "best": 100,
-   "last": 100,
+   "best": 437,
+   "last": 437,
    "last_ok": "2026-10-09"
   },
   "Discord": {
@@ -199464,12 +201778,12 @@
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 122,
+   "last": 123,
    "last_ok": "2026-10-09"
   },
   "Emerson Electric": {
-   "best": 100,
-   "last": 100,
+   "best": 500,
+   "last": 500,
    "last_ok": "2026-10-09"
   },
   "Expedia Group": {
@@ -199498,8 +201812,8 @@
    "last_ok": "2026-10-09"
   },
   "GM Financial": {
-   "best": 100,
-   "last": 100,
+   "best": 131,
+   "last": 131,
    "last_ok": "2026-10-09"
   },
   "General Motors": {
@@ -199509,7 +201823,7 @@
   },
   "GitLab": {
    "best": 234,
-   "last": 218,
+   "last": 217,
    "last_ok": "2026-10-09"
   },
   "Glean": {
@@ -199538,8 +201852,8 @@
    "last_ok": "2026-10-09"
   },
   "Honeywell": {
-   "best": 100,
-   "last": 100,
+   "best": 500,
+   "last": 500,
    "last_ok": "2026-10-09"
   },
   "IMC Trading": {
@@ -199549,17 +201863,17 @@
   },
   "Instacart": {
    "best": 131,
-   "last": 120,
+   "last": 118,
    "last_ok": "2026-10-09"
   },
   "Intel": {
    "best": 159,
-   "last": 159,
+   "last": 158,
    "last_ok": "2026-10-09"
   },
   "JP Morgan Chase": {
-   "best": 100,
-   "last": 100,
+   "best": 420,
+   "last": 420,
    "last_ok": "2026-10-09"
   },
   "Komodo Health": {
@@ -199568,8 +201882,8 @@
    "last_ok": "2026-10-09"
   },
   "Lazard": {
-   "best": 100,
-   "last": 100,
+   "best": 125,
+   "last": 125,
    "last_ok": "2026-10-09"
   },
   "Linear": {
@@ -199579,12 +201893,12 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 1119,
-   "last": 1099,
+   "last": 1101,
    "last_ok": "2026-10-09"
   },
   "Lyft": {
    "best": 195,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-10-09"
   },
   "Marqeta": {
@@ -199624,13 +201938,13 @@
    "last_ok": "2026-10-09"
   },
   "NOV": {
-   "best": 100,
-   "last": 100,
+   "best": 500,
+   "last": 500,
    "last_ok": "2026-10-09"
   },
   "Navy Federal": {
-   "best": 100,
-   "last": 100,
+   "best": 171,
+   "last": 171,
    "last_ok": "2026-10-09"
   },
   "Netflix": {
@@ -199639,8 +201953,8 @@
    "last_ok": "2026-10-09"
   },
   "Nokia": {
-   "best": 100,
-   "last": 100,
+   "best": 500,
+   "last": 500,
    "last_ok": "2026-10-09"
   },
   "Notion": {
@@ -199665,7 +201979,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 817,
+   "last": 818,
    "last_ok": "2026-10-09"
   },
   "OpenEvidence": {
@@ -199674,8 +201988,8 @@
    "last_ok": "2026-10-09"
   },
   "Oracle": {
-   "best": 100,
-   "last": 100,
+   "best": 500,
+   "last": 500,
    "last_ok": "2026-10-09"
   },
   "PagerDuty": {
@@ -199685,7 +201999,7 @@
   },
   "Palantir": {
    "best": 324,
-   "last": 312,
+   "last": 309,
    "last_ok": "2026-10-09"
   },
   "Peloton": {
@@ -199720,7 +202034,7 @@
   },
   "Reddit": {
    "best": 156,
-   "last": 155,
+   "last": 153,
    "last_ok": "2026-10-09"
   },
   "Replit": {
@@ -199735,12 +202049,12 @@
   },
   "Roblox": {
    "best": 262,
-   "last": 262,
+   "last": 261,
    "last_ok": "2026-10-09"
   },
   "Salesforce": {
    "best": 175,
-   "last": 167,
+   "last": 168,
    "last_ok": "2026-10-09"
   },
   "Samsara": {
@@ -199774,8 +202088,8 @@
    "last_ok": "2026-10-09"
   },
   "SpaceX": {
-   "best": 2708,
-   "last": 2708,
+   "best": 2712,
+   "last": 2712,
    "last_ok": "2026-10-09"
   },
   "Spotify": {
@@ -199784,8 +202098,8 @@
    "last_ok": "2026-10-09"
   },
   "Stripe": {
-   "best": 733,
-   "last": 733,
+   "best": 736,
+   "last": 736,
    "last_ok": "2026-10-09"
   },
   "Suno": {
@@ -199795,7 +202109,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 191,
+   "last": 193,
    "last_ok": "2026-10-09"
   },
   "Tesla": {
@@ -199811,7 +202125,7 @@
   },
   "The Walt Disney Company": {
    "best": 167,
-   "last": 167,
+   "last": 166,
    "last_ok": "2026-10-09"
   },
   "Trimble": {
@@ -199821,7 +202135,7 @@
   },
   "Twilio": {
    "best": 154,
-   "last": 144,
+   "last": 145,
    "last_ok": "2026-10-09"
   },
   "Two Sigma": {
@@ -199888,6 +202202,6 @@
    "last_ok": "2026-10-09"
   }
  },
- "updated": "2026-10-09T18:15:13Z",
+ "updated": "2026-10-09T18:35:54Z",
  "version": 1
 }
