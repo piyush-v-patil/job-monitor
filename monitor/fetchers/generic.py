@@ -315,6 +315,65 @@ def eightfold(c):
     return out
 
 
+# Oracle Recruiting Cloud returns its workplace vocabulary as ORA_ codes.
+ORACLE_WORKPLACE = {"ORA_REMOTE": "Remote", "ORA_ONSITE": "On-site",
+                    "ORA_HYBRID": "Hybrid"}
+
+
+def oraclecloud(c):
+    """c: {name, host, site, search?, max_results?}  ->  Oracle Recruiting Cloud
+
+    host and site are both in any posting URL the board hands out:
+    https://<host>/hcmUI/CandidateExperience/en/sites/<site>/job/<id>
+    The tenant host is usually opaque ("egug.fa.us2.oraclecloud.com"), which
+    is why it is configured rather than derived from the company name.
+
+    The API is one REST resource with everything packed into a `finder`
+    string. `facetsList` is required even though nothing here reads the
+    facets: without it the endpoint answers with the requisition list omitted.
+    """
+    s = session()
+    url = f"https://{c['host']}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    want, out, offset = int(c.get("max_results", 100)), [], 0
+    while len(out) < want:
+        finder = (f"findReqs;siteNumber={c['site']},facetsList=LOCATIONS;CATEGORIES,"
+                  f"limit={min(100, want - len(out))},offset={offset},"
+                  "sortBy=POSTING_DATES_DESC")
+        if c.get("search"):
+            finder += f",keyword={c['search']}"
+        data = get_json(s, url, params={
+            "onlyData": "true",
+            "expand": "requisitionList.secondaryLocations",
+            "finder": finder,
+        })
+        items = (data.get("items") or [{}])[0]
+        rows = items.get("requisitionList") or []
+        for j in rows:
+            extra = [l.get("Name", "") for l in (j.get("secondaryLocations") or [])]
+            body = j.get("ShortDescriptionStr", "") or ""
+            out.append({
+                "company": c["name"],
+                "title": j.get("Title", ""),
+                "location": "; ".join(filter(None, [j.get("PrimaryLocation", "")] + extra[:2])),
+                "country": j.get("PrimaryLocationCountry", ""),
+                "url": (f"https://{c['host']}/hcmUI/CandidateExperience/en/sites/"
+                        f"{c['site']}/job/{j.get('Id','')}"),
+                "external_id": str(j.get("Id", "")),
+                "source": "oraclecloud",
+                "posted_at": iso_date(j.get("PostedDate")),
+                "deadline": iso_date(j.get("PostingEndDate")),
+                "employment_type": _norm(EMPLOYMENT, j.get("WorkerType", "")),
+                "workplace": ORACLE_WORKPLACE.get(j.get("WorkplaceTypeCode", ""), ""),
+                "department": j.get("JobFamily", "") or j.get("JobFunction", ""),
+                "snippet": clean_text(body),
+                "yoe": filters.parse_yoe(clean_text(body, 6000), j.get("Title", "")),
+            })
+        if len(rows) < 100:
+            break
+        offset += len(rows)
+    return out
+
+
 def smartrecruiters(c):
     """c: {name, token}  ->  public postings API (e.g. Visa)"""
     s = session()
