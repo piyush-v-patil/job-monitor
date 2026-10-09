@@ -388,59 +388,74 @@ other:
   # carried a note asking for it ("Ford uses Oracle Cloud HCM (no fetcher
   # yet)"). host and site both come straight out of a posting URL:
   # https://<host>/hcmUI/CandidateExperience/en/sites/<site>/job/<id>.
-  # Each board was run before being added (2026-10-09).
+  # Each board was run before being added (2026-10-09) and the counts below
+  # re-measured a week later, after one page per board turned out to be far
+  # too little: these are whole corporations on a single requisition list, so
+  # the newest 100 are whichever functions posted this week. Amex read 32
+  # software roles the day it was added and 2 a week later off the same
+  # unchanged board. The fetcher now reads out to 500, which reaches the end
+  # of most of these lists; see its docstring.
   - name: American Express
     fetcher: oraclecloud
     host: egug.fa.us2.oraclecloud.com
-    site: CX_1          # verified: 100 raw -> 32 in scope
+    site: CX_1              # verified: 455 raw -> 44 in scope
   - name: JP Morgan Chase
     fetcher: oraclecloud
     host: jpmc.fa.oraclecloud.com
-    site: CX_1001          # verified: 100 raw -> 25 in scope
+    site: CX_1001
+    # The one board here holding more than 500 open requisitions, so reading
+    # newest-first never reaches the rest of it. Read by keyword instead:
+    # 56 in scope against 33 for the newest 500.
+    searches:
+      - software
+      - engineer
+      - data
+      - developer
+    max_results: 200        # verified: 421 raw -> 56 in scope
   - name: GM Financial
     fetcher: oraclecloud
     host: fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com
-    site: CX_1          # verified: 40 raw -> 22 in scope
+    site: CX_1              # verified: 131 raw -> 25 in scope
   - name: DTCC
     fetcher: oraclecloud
     host: ebxr.fa.us2.oraclecloud.com
-    site: CX_1          # verified: 100 raw -> 14 in scope
+    site: CX_1              # verified: 435 raw -> 32 in scope
   - name: Dell Technologies
     fetcher: oraclecloud
     host: iawmqy.fa.ocs.oraclecloud.com
-    site: careers          # verified: 100 raw -> 8 in scope
+    site: careers           # verified: 436 raw -> 12 in scope
   - name: NOV
     fetcher: oraclecloud
     host: egay.fa.us6.oraclecloud.com
-    site: CX_4001          # verified: 100 raw -> 7 in scope
+    site: CX_4001           # verified: 500 raw -> 4 in scope
   - name: Oracle
     fetcher: oraclecloud
     host: eeho.fa.us2.oraclecloud.com
-    site: CX_45001          # verified: 100 raw -> 6 in scope
+    site: CX_45001          # verified: 500 raw -> 9 in scope
   - name: Nokia
     fetcher: oraclecloud
     host: fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com
-    site: CX_1          # verified: 100 raw -> 5 in scope
+    site: CX_1              # verified: 500 raw -> 13 in scope
   - name: Berkshire Hathaway Energy
     fetcher: oraclecloud
     host: fa-essf-saasfaprod1.fa.ocs.oraclecloud.com
-    site: CX_1          # verified: 43 raw -> 5 in scope
+    site: CX_1              # verified: 113 raw -> 8 in scope
   - name: Emerson Electric
     fetcher: oraclecloud
     host: hdjq.fa.us2.oraclecloud.com
-    site: CX_1          # verified: 100 raw -> 4 in scope
+    site: CX_1              # verified: 500 raw -> 9 in scope
   - name: Navy Federal
     fetcher: oraclecloud
     host: fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com
-    site: nfcu          # verified: 14 raw -> 4 in scope
+    site: nfcu              # verified: 171 raw -> 15 in scope
   - name: Honeywell
     fetcher: oraclecloud
     host: ibqbjb.fa.ocs.oraclecloud.com
-    site: Honeywell          # verified: 100 raw -> 3 in scope
+    site: Honeywell         # verified: 500 raw -> 9 in scope
   - name: Lazard
     fetcher: oraclecloud
     host: icbpjb.fa.ocs.oraclecloud.com
-    site: LazardProfessionalCareers          # verified: 7 raw -> 3 in scope
+    site: LazardProfessionalCareers   # verified: 125 raw -> 3 in scope
 
   # --- commercial employers the trackers were only sampling ---
   # Found by recovering ATS coordinates from posting URLs already stored, then

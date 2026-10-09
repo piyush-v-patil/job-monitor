@@ -1,4 +1,5 @@
-"""Generic ATS fetchers: Greenhouse, Lever, Ashby, Workday, Eightfold, SmartRecruiters.
+"""Generic ATS fetchers: Greenhouse, Lever, Ashby, Workday, Eightfold,
+SmartRecruiters, Oracle Recruiting Cloud.
 
 Every fetcher takes (company: dict from companies.yaml) and returns a list of
 raw job dicts: {company, title, location, url, external_id, source, country?}
@@ -331,10 +332,19 @@ def oraclecloud(c):
     The API is one REST resource with everything packed into a `finder`
     string. `facetsList` is required even though nothing here reads the
     facets: without it the endpoint answers with the requisition list omitted.
+
+    max_results defaults high because the page size is 100 and these tenants
+    are whole corporations on one requisition list - American Express carries
+    tellers and risk analysts beside engineers. Reading newest-first, the
+    first page is whichever functions posted that week, which made the
+    in-scope count swing from 32 to 2 on an unchanged board. 500 reaches the
+    end of most of these lists; a board with more open requisitions than that
+    wants a `searches:` list instead, so the keyword does the narrowing
+    server-side rather than the page limit cutting it off by date.
     """
     s = session()
     url = f"https://{c['host']}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
-    want, out, offset = int(c.get("max_results", 100)), [], 0
+    want, out, offset = int(c.get("max_results", 500)), [], 0
     while len(out) < want:
         finder = (f"findReqs;siteNumber={c['site']},facetsList=LOCATIONS;CATEGORIES,"
                   f"limit={min(100, want - len(out))},offset={offset},"
