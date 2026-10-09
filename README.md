@@ -470,6 +470,14 @@ committed or sent anywhere except api.github.com.
   filings on record; *no H-1B filings found* means a gap in the public data
   rather than a verdict; and a row that says nothing about sponsorship is one
   the index has not looked up yet.
+- **The source filter lists every board the feed came from**, each with its
+  count — Simplify, Greenhouse, Workday, Amazon, Ashby, Google, Lever, Walmart,
+  Eightfold — so you can read one at a time. **LinkedIn only** and **Excluding
+  LinkedIn** stay above them as groupings, because LinkedIn is a relevance-ranked
+  search rather than a listing and setting it aside is a way of reading the whole
+  feed. The names are labels over the scanner's own values (`amazon.jobs`,
+  `jobspy-linkedin`), and a board added to the config later appears on its own
+  with a tidied name.
 - **Closed postings leave the feed on their own.** A daily pass asks each
   tracked posting whether it still accepts applications and marks the ones that
   don't, so **Open (new)** stops offering roles that closed days ago. They are
