@@ -84,6 +84,19 @@ ALIASES = {
 # avoid a handful of glances - the wrong trade for a signal that only informs.
 MIN_PREFIX_TOKEN = 3
 
+# ...but length alone is a bad test of whether one word identifies an employer.
+# "The" is three characters, so every company whose name began with it matched
+# the busiest filer starting with "The" - the Aerospace Corporation, the Walt
+# Disney Company and the Voleon Group all reported the same 4,396 petitions,
+# which belong to a health insurer. The honest measure is how many filers share
+# the word at all, counted from the source itself: across its 321,465
+# employers, "the" opens 4,946 names, "american" 1,235, "national" 482,
+# "general" 148, while "intel" opens 14, "adobe" 9, "google" 7, "stripe" 5 and
+# "cisco" 4. 25 sits in the empty space between the two kinds of word. It also
+# drops "flex" (32), which is the mismatch the comment above cites - a word
+# that common was never identifying anything.
+AMBIGUOUS_PREFIX = 25
+
 
 def _norm(text: str) -> str:
     return names.normalize(text, STRIP)
@@ -131,6 +144,9 @@ class Index:
     def __init__(self, records):
         self.exact, self.squashed = {}, {}
         prefix = collections.defaultdict(list)
+        # how many distinct filers open with each single word, which is what
+        # decides whether that word identifies anybody (see AMBIGUOUS_PREFIX)
+        self.spread = collections.Counter()
         for r in records:
             key = _norm(r.get("n", ""))
             if not key:
@@ -138,6 +154,7 @@ class Index:
             self._keep(self.exact, key, r)
             self._keep(self.squashed, _squash(r.get("n", "")), r)
             toks = key.split()
+            self.spread[toks[0]] += 1
             for i in (1, 2):            # indexed by first one and first two words
                 if len(toks) >= i:
                     prefix[" ".join(toks[:i])].append(r)
@@ -186,7 +203,8 @@ class Index:
         for i in (2, 1):                # the longer prefix is the safer one
             if len(toks) < i:
                 continue
-            if i == 1 and len(toks[0]) < MIN_PREFIX_TOKEN:
+            if i == 1 and (len(toks[0]) < MIN_PREFIX_TOKEN
+                           or self.spread[toks[0]] > AMBIGUOUS_PREFIX):
                 continue
             hit = self.prefix.get(" ".join(toks[:i]))
             # a prefix candidate that never filed anything is not worth the risk

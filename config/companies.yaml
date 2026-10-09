@@ -2,13 +2,19 @@
 # bigtech: scanned every 3 hours. other + aggregators: scanned once daily.
 #
 # fetcher types: greenhouse | lever | ashby | workday | eightfold |
-#                smartrecruiters | amazon | microsoft | google | apple |
-#                tesla | uber | simplify | jobspy
+#                smartrecruiters | oraclecloud | phenom | amazon | microsoft |
+#                google | apple | tesla | uber | walmart | simplify | jobspy
 #
 # NOTE: ATS tokens/tenants are best-effort and may need verification.
 # To find a token: open the company's careers page, check the URL or the
 # network tab for boards.greenhouse.io/<token>, jobs.lever.co/<token>,
 # jobs.ashbyhq.com/<token>, or <tenant>.wdX.myworkdayjobs.com/<site>.
+# Oracle Recruiting Cloud puts both of its keys in the posting URL:
+# https://<host>/hcmUI/CandidateExperience/en/sites/<site>/job/<id>.
+#
+# Quicker than reading a careers page: most of these were recovered from the
+# posting URLs the trackers already held, because a company reached only
+# through LinkedIn or Simplify still arrives carrying a link to its own board.
 
 bigtech:
   - name: Amazon
@@ -343,6 +349,198 @@ other:
   - name: OpenEvidence
     fetcher: ashby
     token: openevidence
+
+  # --- employers the trackers were only sampling through LinkedIn ---
+  # Each of these was already supplying postings via the aggregators, which
+  # means their board was never read directly and we only ever saw whatever
+  # LinkedIn's relevance ranking surfaced. The Workday coordinates were
+  # recovered from the posting URLs already stored, then each board was run
+  # through the fetcher before being added (2026-10-09); the in-scope counts
+  # from that run are noted so a future zero is obviously a regression.
+  - name: Intel
+    fetcher: workday
+    host: intel.wd1.myworkdayjobs.com
+    tenant: intel
+    site: external          # verified: 158 raw -> 27 in scope
+  - name: Cisco
+    fetcher: workday
+    host: cisco.wd5.myworkdayjobs.com
+    tenant: cisco
+    site: cisco_careers     # verified: 139 raw -> 16 in scope
+  - name: General Motors
+    fetcher: workday
+    host: generalmotors.wd5.myworkdayjobs.com
+    tenant: generalmotors
+    site: Careers_GM        # verified: 197 raw -> 17 in scope
+  - name: Mastercard
+    fetcher: workday
+    host: mastercard.wd1.myworkdayjobs.com
+    tenant: mastercard
+    # their Campus board is narrower (80 raw -> 2) than the main one
+    site: CorporateCareers  # verified: 172 raw -> 3 in scope
+  - name: AMD
+    fetcher: phenom         # the same board the supply-chain tracker reads
+    host: careers.amd.com
+    max_pages: 4            # verified: 200 raw -> 20 in scope
+
+  # --- Oracle Recruiting Cloud ---
+  # The fetcher this needs did not exist until now; config/companies.yaml
+  # carried a note asking for it ("Ford uses Oracle Cloud HCM (no fetcher
+  # yet)"). host and site both come straight out of a posting URL:
+  # https://<host>/hcmUI/CandidateExperience/en/sites/<site>/job/<id>.
+  # Each board was run before being added (2026-10-09).
+  - name: American Express
+    fetcher: oraclecloud
+    host: egug.fa.us2.oraclecloud.com
+    site: CX_1          # verified: 100 raw -> 32 in scope
+  - name: JP Morgan Chase
+    fetcher: oraclecloud
+    host: jpmc.fa.oraclecloud.com
+    site: CX_1001          # verified: 100 raw -> 25 in scope
+  - name: GM Financial
+    fetcher: oraclecloud
+    host: fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com
+    site: CX_1          # verified: 40 raw -> 22 in scope
+  - name: DTCC
+    fetcher: oraclecloud
+    host: ebxr.fa.us2.oraclecloud.com
+    site: CX_1          # verified: 100 raw -> 14 in scope
+  - name: Dell Technologies
+    fetcher: oraclecloud
+    host: iawmqy.fa.ocs.oraclecloud.com
+    site: careers          # verified: 100 raw -> 8 in scope
+  - name: NOV
+    fetcher: oraclecloud
+    host: egay.fa.us6.oraclecloud.com
+    site: CX_4001          # verified: 100 raw -> 7 in scope
+  - name: Oracle
+    fetcher: oraclecloud
+    host: eeho.fa.us2.oraclecloud.com
+    site: CX_45001          # verified: 100 raw -> 6 in scope
+  - name: Nokia
+    fetcher: oraclecloud
+    host: fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com
+    site: CX_1          # verified: 100 raw -> 5 in scope
+  - name: Berkshire Hathaway Energy
+    fetcher: oraclecloud
+    host: fa-essf-saasfaprod1.fa.ocs.oraclecloud.com
+    site: CX_1          # verified: 43 raw -> 5 in scope
+  - name: Emerson Electric
+    fetcher: oraclecloud
+    host: hdjq.fa.us2.oraclecloud.com
+    site: CX_1          # verified: 100 raw -> 4 in scope
+  - name: Navy Federal
+    fetcher: oraclecloud
+    host: fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com
+    site: nfcu          # verified: 14 raw -> 4 in scope
+  - name: Honeywell
+    fetcher: oraclecloud
+    host: ibqbjb.fa.ocs.oraclecloud.com
+    site: Honeywell          # verified: 100 raw -> 3 in scope
+  - name: Lazard
+    fetcher: oraclecloud
+    host: icbpjb.fa.ocs.oraclecloud.com
+    site: LazardProfessionalCareers          # verified: 7 raw -> 3 in scope
+
+  # --- commercial employers the trackers were only sampling ---
+  # Found by recovering ATS coordinates from posting URLs already stored, then
+  # running each board through its fetcher (2026-10-09); the in-scope count
+  # from that run is recorded so a later zero reads as a regression.
+  # Defence, intelligence and ITAR-gated space boards turned up in the same
+  # sweep and are deliberately left out: their roles need clearances or US
+  # citizenship, and those employers barely file H-1B.
+  - name: Applied Intuition
+    fetcher: ashby
+    token: applied
+    # verified: 92 in scope, H-1B 343
+  - name: xAI
+    fetcher: greenhouse
+    token: xai
+    # verified: 56 in scope, H-1B 1
+  - name: Hewlett Packard Enterprise
+    fetcher: workday
+    host: hpe.wd5.myworkdayjobs.com
+    tenant: hpe
+    site: jobsathpe
+    # verified: 35 in scope, H-1B 3,713
+  - name: Cerebras
+    fetcher: ashby
+    token: cerebras
+    # verified: 32 in scope
+  - name: Sierra
+    fetcher: ashby
+    token: Sierra
+    # verified: 32 in scope
+  - name: Anysphere
+    fetcher: ashby
+    token: cursor
+    # verified: 30 in scope, H-1B 51
+  - name: Applied Materials
+    fetcher: workday
+    host: amat.wd1.myworkdayjobs.com
+    tenant: amat
+    site: External
+    # verified: 24 in scope, H-1B 3,057
+  - name: Glean
+    fetcher: greenhouse
+    token: gleanwork
+    # verified: 22 in scope
+  - name: Expedia Group
+    fetcher: workday
+    host: expedia.wd108.myworkdayjobs.com
+    tenant: expedia
+    site: search
+    # verified: 20 in scope, H-1B 3,205
+  - name: Whoop
+    fetcher: ashby
+    token: whoop
+    # verified: 20 in scope, H-1B 126
+  - name: McKesson
+    fetcher: workday
+    host: mckesson.wd3.myworkdayjobs.com
+    tenant: mckesson
+    site: External_Careers
+    # verified: 19 in scope, H-1B 895
+  - name: RELX
+    fetcher: workday
+    host: relx.wd3.myworkdayjobs.com
+    tenant: relx
+    site: relx
+    # verified: 19 in scope, H-1B 1,155
+  - name: The Walt Disney Company
+    fetcher: workday
+    host: disney.wd5.myworkdayjobs.com
+    tenant: disney
+    site: disneycareerdc
+    # verified: 19 in scope
+  - name: The Toro Company
+    fetcher: workday
+    host: ttc.wd1.myworkdayjobs.com
+    tenant: ttc
+    site: Toro_External_Careers
+    # verified: 18 in scope, H-1B 38
+  - name: IMC Trading
+    fetcher: greenhouse
+    token: imc
+    # verified: 17 in scope
+  - name: Trimble
+    fetcher: workday
+    host: trimble.wd1.myworkdayjobs.com
+    tenant: trimble
+    site: TrimbleCareers
+    # verified: 17 in scope, H-1B 362
+  - name: Auto-Owners Insurance
+    fetcher: workday
+    host: aoins.wd5.myworkdayjobs.com
+    tenant: aoins
+    site: AutoOwners
+    # verified: 16 in scope
+  - name: Fidelity National Information Services
+    fetcher: workday
+    host: fis.wd5.myworkdayjobs.com
+    tenant: fis
+    site: searchjobs
+    # verified: 16 in scope
 
 aggregators:
   # Catches Meta, LinkedIn, Goldman/JPMorgan campus roles, and hundreds of

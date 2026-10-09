@@ -691,6 +691,21 @@ normal, occasionally more during peak load.
   in the actual posting.
 - **Some ATS tokens in the config are best-effort** (see comments). A
   `--dry-run` shows you immediately which ones need fixing.
+- **The roster is biased toward employers that sponsor, on purpose.** Widening
+  it turned up plenty of defence, intelligence and ITAR-gated space boards —
+  large, and closed to anyone who needs an H-1B (CACI has 19 petitions on
+  record, Northrop none). Those were left out. Nothing filters clearance
+  automatically: the fetchers carry only the first 180 characters of a
+  posting, which is marketing copy, so "needs TS/SCI" is not visible to the
+  scanner. It is a judgement about the employer, made once, in the config.
+- **A common word is not a company name.** The H-1B index used to fall back to
+  matching on a single first word of three or more letters, which made "The"
+  identifying: the Aerospace Corporation, the Walt Disney Company and the
+  Voleon Group all reported the same 4,396 petitions, belonging to a health
+  insurer. A word is now only allowed to identify an employer if few filers
+  share it — "the" opens 4,946 names in the source, "intel" 14 — which dropped
+  305 wrong matches. Some employers lost their badge entirely as a result;
+  no figure is better than another company's.
 - **The supply-chain tracker is title-based too, and the job family shares
   its vocabulary with half the company.** "Planning", "forecast", "buyer"
   and "sourcing" all belong to other professions, so `filters_scm.py` runs a

@@ -221,3 +221,43 @@ def test_load_returns_the_companies_map(tmp_path):
     p = tmp_path / "h1b.json"
     p.write_text(json.dumps({"companies": {"Stripe": {"filed": 1819}}}), encoding="utf-8")
     assert h1b.load(str(p))["Stripe"]["filed"] == 1819
+
+
+# ---- a common word is not a name --------------------------------------------
+
+def test_a_word_many_filers_share_identifies_nobody():
+    """The bug this pins: "The" is three letters, so every company starting
+    with it matched the busiest filer starting with "The". In the live index
+    that gave the Aerospace Corporation, the Walt Disney Company and the
+    Voleon Group the same 4,396 petitions - a health insurer's."""
+    filers = [rec(f"The Company Number {i}", filed=10) for i in range(h1b.AMBIGUOUS_PREFIX + 1)]
+    filers.append(rec("The Elevance Health Companies", filed=4396))
+    index = h1b.Index(filers)
+    assert index.lookup("The Aerospace Corporation") == (None, "")
+    assert index.lookup("The Walt Disney Company") == (None, "")
+    # the filer's own full name still resolves, exactly
+    assert index.lookup("The Elevance Health Companies")[1] == "exact"
+
+
+def test_a_distinctive_word_still_matches_loosely():
+    """The tier is not being removed: "Cisco" opens 4 names in the real source
+    and "Intel" 14, both well inside the threshold. (Intel resolves earlier
+    still, because stripping "Corporation" makes it an exact match.)"""
+    index = h1b.Index([rec("Intel Corporation", filed=21227),
+                       rec("Cisco Systems, Inc.", filed=10328)])
+    hit, how = index.lookup("Cisco")
+    assert how == "loose" and hit["n"] == "Cisco Systems, Inc."
+    assert index.lookup("Intel")[1] == "exact"
+
+
+def test_a_crowded_word_does_not_block_a_real_match():
+    """Only the one-word guess is gated. "General Motors LLC" still answers
+    "General Motors" exactly, however many filers open with "General"."""
+    filers = [rec(f"General Thing {i}", filed=5) for i in range(h1b.AMBIGUOUS_PREFIX + 1)]
+    filers.append(rec("General Motors LLC", filed=4670))
+    index = h1b.Index(filers)
+    hit, how = index.lookup("General Motors")
+    assert how == "exact" and hit["n"] == "General Motors LLC"
+    # ...while a different company sharing only that crowded word gets nothing,
+    # where it used to inherit General Motors' 4,670 petitions
+    assert index.lookup("General Matter") == (None, "")
