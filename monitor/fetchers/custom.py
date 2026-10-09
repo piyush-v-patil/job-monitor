@@ -123,32 +123,71 @@ def google(c):
     return out
 
 
+APPLE_API = "https://jobs.apple.com/api/v1"
+# The dates the search response is asked to render. Apple's own site sends
+# these and the endpoint answers an empty result set without them.
+APPLE_FORMAT = {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"}
+
+
 def apple(c):
+    """c: {name, search?, max_pages?}  ->  jobs.apple.com role search
+
+    Two things about this endpoint cost a while to find, and both make it
+    answer `{"res":{"searchResults":[],"totalRecords":0}}` rather than an
+    error, which is why the source sat at zero without ever looking broken:
+
+      - the API moved from /api/role/search to /api/v1/search, and the old
+        path now redirects into apple.com's 404 page;
+      - `filters` must carry only the filters you are actually using. Apple's
+        own code builds the object by merging in each filter *if truthy*, so
+        sending the full set with empty arrays - the obvious reading of their
+        UI state - matches nothing at all. `format` is likewise required.
+
+    A CSRF token comes from /api/v1/CSRFToken as a response header, against
+    the cookies the search page sets, so the warm-up request is load-bearing.
+    """
     s = session()
-    # Warm up to get cookies/CSRF, then query the role search API.
-    s.get("https://jobs.apple.com/en-us/search", timeout=30)
-    body = {
-        "query": c.get("search", "software engineer"),
-        "filters": {"postingpostLocation": ["postLocation-USA"]},
-        "page": 1, "locale": "en-us", "sort": "newest",
-    }
-    headers = {"Content-Type": "application/json"}
-    csrf = s.cookies.get("csrf") or s.headers.get("X-Apple-CSRF-Token")
-    if csrf:
-        headers["X-Apple-CSRF-Token"] = csrf
-    data = post_json(s, "https://jobs.apple.com/api/role/search", json=body, headers=headers)
-    out = []
-    for j in (data.get("searchResults") or []):
-        out.append({
-            "company": "Apple",
-            "title": j.get("postingTitle", ""),
-            "location": "; ".join(
-                loc.get("name", "") for loc in (j.get("locations") or [])),
-            "url": ("https://jobs.apple.com/en-us/details/"
-                    f"{j.get('positionId','')}/{j.get('transformedPostingTitle','')}"),
-            "external_id": str(j.get("positionId", "")),
-            "source": "jobs.apple.com",
+    s.headers.update({
+        "Accept": "application/json", "Content-Type": "application/json",
+        "Referer": "https://jobs.apple.com/en-us/search",
+        "Origin": "https://jobs.apple.com",
+    })
+    s.get("https://jobs.apple.com/en-us/search", timeout=30)   # cookies
+    token = s.get(f"{APPLE_API}/CSRFToken", timeout=30).headers.get("X-Apple-CSRF-Token")
+    if token:
+        s.headers["X-Apple-CSRF-Token"] = token
+
+    out, pages = [], int(c.get("max_pages", 8))
+    for page in range(1, pages + 1):
+        data = post_json(s, f"{APPLE_API}/search", json={
+            "query": c.get("search", "software engineer"),
+            # postLocation-USA is Apple's own id for the whole country; their
+            # board is global and the rest of the pipeline is US-only
+            "filters": {"locations": ["postLocation-USA"]},
+            "page": page, "locale": "en-us", "sort": "newest",
+            "format": APPLE_FORMAT,
         })
+        rows = ((data.get("res") or {}).get("searchResults")) or []
+        for j in rows:
+            locs = j.get("locations") or []
+            team = j.get("team") or {}
+            out.append({
+                "company": "Apple",
+                "title": j.get("postingTitle", ""),
+                "location": "; ".join(filter(None, (l.get("name", "") for l in locs[:3]))),
+                "country": (locs[0].get("countryName", "") if locs else ""),
+                "url": ("https://jobs.apple.com/en-us/details/"
+                        f"{j.get('positionId','')}/{j.get('transformedPostingTitle','')}"),
+                "external_id": str(j.get("positionId", "")),
+                "source": "jobs.apple.com",
+                "posted_at": iso_date(j.get("postDateInGMT") or j.get("postingDate")),
+                "department": team.get("teamName", ""),
+                "snippet": clean_text(j.get("jobSummary", "")),
+                "yoe": filters.parse_yoe(clean_text(j.get("jobSummary", ""), 6000),
+                                         j.get("postingTitle", "")),
+            })
+        if not rows:
+            break
     return out
 
 

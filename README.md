@@ -584,6 +584,21 @@ normal, occasionally more during peak load.
 - **Unofficial APIs**: the big-tech fetchers use the same JSON endpoints
   the careers sites themselves use — they can change without notice. A
   failing fetcher is logged and skipped, never fatal.
+- **Three of those are dark, and not for want of a fix** (checked 2026-10-09,
+  with browser headers and a referer, from two different IPs). **Microsoft**:
+  their careers site is a SPA that talks only to
+  `gcsservices.careers.microsoft.com`, and that host serves a TLS certificate
+  for `*.azureedge.net` which does not match its own name, so any client that
+  verifies TLS fails the handshake — theirs to fix, and not worth disabling
+  verification for. **Tesla**: 403 "Access Denied" at the edge, on the careers
+  page itself and not merely the API. **Uber**: 406 on the careers page, and
+  every `loadSearchJobsResults`-style RPC answers "Missing RPC handler". All
+  three still reach the trackers through LinkedIn and Simplify, thinly — a few
+  dozen Microsoft postings, a handful each for Tesla and Uber. **Apple** was in
+  the same state until its endpoint was tracked down: it had moved to
+  `/api/v1/search`, and it answers an empty result set rather than an error
+  when the request shape is wrong, which is why it looked blocked rather than
+  broken.
 - **Meta & LinkedIn** have no stable public careers API. LinkedIn postings
   arrive two ways: the SimplifyJobs aggregator, and the `jobspy` fetcher,
   which drives LinkedIn's own search endpoints.

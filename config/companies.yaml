@@ -13,12 +13,27 @@
 bigtech:
   - name: Amazon
     fetcher: amazon
+  # Microsoft's careers SPA talks only to gcsservices.careers.microsoft.com,
+  # and that host currently serves a TLS certificate for *.azureedge.net which
+  # does not match its own name, so every client that verifies TLS fails the
+  # handshake (checked 2026-10-09). Nothing in the page carries the jobs, and
+  # every other path on jobs.careers.microsoft.com answers with the SPA shell.
+  # Left in place because the fix is theirs to make, not ours.
   - name: Microsoft
     fetcher: microsoft
   - name: Google
     fetcher: google
   - name: Apple
     fetcher: apple
+    max_pages: 8            # 20 roles a page; their US board runs to ~4,100
+    searches:
+      - software engineer
+      - machine learning engineer
+      - data engineer
+      - security engineer
+      - site reliability engineer
+      - new grad engineer
+      - software engineering intern
   - name: Netflix
     fetcher: eightfold
     host: explore.jobs.netflix.net
@@ -37,6 +52,12 @@ bigtech:
     facets:
       locationHierarchy1:
         - 2fcb99c455831013ea52fb338f2932d8   # United States
+  # Tesla and Uber both block this kind of client at the edge rather than at
+  # the API: tesla.com answers 403 "Access Denied" to the careers page itself,
+  # and uber.com answers 406, with every loadSearchJobsResults-style RPC now
+  # reporting "Missing RPC handler" (checked 2026-10-09, browser headers and a
+  # referer, from two different IPs). Both reach the trackers through LinkedIn
+  # and Simplify instead.
   - name: Tesla
     fetcher: tesla
   - name: Uber
