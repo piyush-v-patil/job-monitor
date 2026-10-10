@@ -10223,6 +10223,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10522267/software-development-engineer-aws-opensearch-service",
    "yoe": 1
   },
+  "amazon:50c26e2592ff": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-10",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-09",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10575303/software-development-engineer",
+   "yoe": 1
+  },
   "amazon:50f8116a6432": {
    "company": "Amazon",
    "department": "Software Development",
@@ -11718,6 +11733,21 @@
    "title": "Software Dev Engineer, AWS Billing",
    "url": "https://www.amazon.jobs/en/jobs/10542874/software-dev-engineer-aws-billing",
    "yoe": 2
+  },
+  "amazon:762ddbd93947": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-10",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-10-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Global From Day1",
+   "url": "https://www.amazon.jobs/en/jobs/10575314/software-development-engineer-global-from-day1",
+   "yoe": 1
   },
   "amazon:76396551cf36": {
    "company": "Amazon",
@@ -14752,6 +14782,21 @@
    "tier": "newgrad",
    "title": "Software Development Engineer, Amazon Dedicated Cloud, Early Career - 2026",
    "url": "https://www.linkedin.com/jobs/view/4463351090"
+  },
+  "amazon:c03b036b230b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-10",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-10-09",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Antenna System Validation, Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10575302/software-dev-engineer-antenna-system-validation-amazon-leo",
+   "yoe": 1
   },
   "amazon:c06dbfd0c3b7": {
    "company": "Amazon",
@@ -132771,6 +132816,18 @@
    "title": "AI Software Engineer, Lightspeed Studios",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/AI-Software-Engineer--Lightspeed-Studios_JR2026538"
   },
+  "nvidia:d22c2e4f5443": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-10",
+   "location": "6 Locations",
+   "posted_at": "2026-10-10",
+   "role": "devops-sre",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, SRE and Production Engineering - DGX Cloud",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--SRE-and-Production-Engineering---DGX-Cloud_JR2026802"
+  },
   "nvidia:d26c01985529": {
    "company": "Nvidia",
    "first_seen": "2026-09-28",
@@ -132846,6 +132903,18 @@
    "tier": "newgrad",
    "title": "Software R&D Engineer, VLSI Physical Design - New College Grad 2026",
    "url": "https://www.linkedin.com/jobs/view/4443439618"
+  },
+  "nvidia:dd4988ec995f": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-10",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-10",
+   "role": "devops-sre",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "C++ Software Engineer, Infrastructure Tools - New College Grad 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/C---Software-Engineer--Infrastructure-Tools---New-College-Grad-2027_JR2027431"
   },
   "nvidia:dfb2c4c49afd": {
    "company": "Nvidia",
@@ -202889,7 +202958,7 @@
   "Airbnb": {
    "best": 195,
    "last": 161,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Airtable": {
    "best": 16,
@@ -202899,7 +202968,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "American Express": {
    "best": 468,
@@ -202914,7 +202983,7 @@
   "Anthropic": {
    "best": 648,
    "last": 645,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Anysphere": {
    "best": 137,
@@ -202923,8 +202992,8 @@
   },
   "Apple": {
    "best": 142,
-   "last": 136,
-   "last_ok": "2026-10-09"
+   "last": 135,
+   "last_ok": "2026-10-10"
   },
   "Applied Intuition": {
    "best": 326,
@@ -203140,7 +203209,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Gusto": {
    "best": 102,
@@ -203256,7 +203325,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Nokia": {
    "best": 500,
@@ -203275,8 +203344,8 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 192,
-   "last_ok": "2026-10-09"
+   "last": 194,
+   "last_ok": "2026-10-10"
   },
   "Okta": {
    "best": 380,
@@ -203286,7 +203355,7 @@
   "OpenAI": {
    "best": 842,
    "last": 815,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "OpenEvidence": {
    "best": 11,
@@ -203405,8 +203474,8 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 731,
-   "last_ok": "2026-10-09"
+   "last": 729,
+   "last_ok": "2026-10-10"
   },
   "Suno": {
    "best": 73,
@@ -203508,6 +203577,6 @@
    "last_ok": "2026-10-09"
   }
  },
- "updated": "2026-10-09T23:25:15Z",
+ "updated": "2026-10-10T02:35:50Z",
  "version": 1
 }
