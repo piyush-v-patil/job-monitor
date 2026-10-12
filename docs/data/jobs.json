@@ -7493,6 +7493,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10575340/software-development-engineer",
    "yoe": 3
   },
+  "amazon:02ce22be6fe3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-12",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-10-12",
+   "role": "devops-sre",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Fulfillment Technologies (AFT)  - Platform Engineering & Services",
+   "url": "https://www.amazon.jobs/en/jobs/10576206/software-development-engineer-amazon-fulfillment-technologies-aft-platform-engineering-services",
+   "yoe": 1
+  },
   "amazon:03121fb81f1e": {
    "company": "Amazon",
    "first_seen": "2026-10-01",
@@ -10269,6 +10284,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10559294/software-dev-engineer-utr-delivery-operations",
    "yoe": 1
   },
+  "amazon:457e8f5b9125": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-12",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Agentic Workspaces",
+   "url": "https://www.amazon.jobs/en/jobs/10576141/software-development-engineer-agentic-workspaces",
+   "yoe": 1
+  },
   "amazon:45b1df096c2f": {
    "company": "Amazon",
    "department": "Software Development",
@@ -12499,6 +12529,21 @@
    "title": "Software Development Engineer (SDE2), AWS",
    "url": "https://www.amazon.jobs/en/jobs/10568432/software-development-engineer-sde2-aws",
    "yoe": 2
+  },
+  "amazon:7d0c007de729": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-12",
+   "location": "Jersey City, New Jersey, USA",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer III, AWS Elastic Beanstalk",
+   "url": "https://www.amazon.jobs/en/jobs/10576271/software-dev-engineer-iii-aws-elastic-beanstalk",
+   "yoe": 5
   },
   "amazon:7dac57f4e411": {
    "company": "Amazon",
@@ -16282,6 +16327,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, FinTech/Customer Service Tech ",
    "url": "https://www.amazon.jobs/en/jobs/10564323/software-development-engineer-fintech-customer-service-tech",
+   "yoe": 1
+  },
+  "amazon:dc7904d1cbdb": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-12",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Prime Video Personalization & Discovery ",
+   "url": "https://www.amazon.jobs/en/jobs/10576161/software-dev-engineer-prime-video-personalization-discovery",
    "yoe": 1
   },
   "amazon:dcd11d13443f": {
@@ -27330,6 +27390,18 @@
    "title": "Research Engineer, Model Evaluations",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198255008"
   },
+  "anthropic:854e4ac3f69d": {
+   "company": "Anthropic",
+   "first_seen": "2026-10-12",
+   "location": "San Francisco, CA | New York City, NY",
+   "posted_at": "2026-10-12",
+   "role": "data",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer, Billing & Payments",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450099008"
+  },
   "anthropic:86d2dbf37805": {
    "company": "Anthropic",
    "first_seen": "2026-08-20",
@@ -29017,6 +29089,19 @@
    "title": "SDET(Fitness) - Watch Software",
    "url": "https://jobs.apple.com/en-us/details/200685479/sdet-fitness-watch-software"
   },
+  "apple:7dbfcb9ff614": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-12",
+   "location": "Austin",
+   "posted_at": "2026-10-12",
+   "role": "qa-test",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer in Test (SDET) — Enterprise Technology Services",
+   "url": "https://jobs.apple.com/en-us/details/200686881/software-development-engineer-in-test-sdet-enterprise-technology-services"
+  },
   "apple:7f6668a7c0a3": {
    "company": "Apple",
    "department": "Software and Services",
@@ -29081,6 +29166,19 @@
    "tier": "experienced",
    "title": "Software Tools and Automation Engineer - Apple Services Engineering",
    "url": "https://jobs.apple.com/en-us/details/200687780/software-tools-and-automation-engineer-apple-services-engineering"
+  },
+  "apple:961641944ef8": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-12",
+   "location": "Santa Clara",
+   "posted_at": "2026-10-12",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Scientist/ Engineer - Photorealism",
+   "url": "https://jobs.apple.com/en-us/details/200631299/research-scientist-engineer-photorealism"
   },
   "apple:9730f32b918e": {
    "company": "Apple",
@@ -29212,6 +29310,32 @@
    "title": "Reliability Test Engineer",
    "url": "https://jobs.apple.com/en-us/details/200687564/reliability-test-engineer"
   },
+  "apple:b478bb59d255": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-12",
+   "location": "Santa Clara",
+   "posted_at": "2026-10-12",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Scientist/Engineer - LLM Efficiency",
+   "url": "https://jobs.apple.com/en-us/details/200631342/research-scientist-engineer-llm-efficiency"
+  },
+  "apple:b9651a28bb1f": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-12",
+   "location": "Seattle",
+   "posted_at": "2026-10-12",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Scientist/Engineer - Agentic Workflows",
+   "url": "https://jobs.apple.com/en-us/details/200631338/research-scientist-engineer-agentic-workflows"
+  },
   "apple:b9a2dee9f072": {
    "company": "Apple",
    "department": "Software and Services",
@@ -29315,6 +29439,19 @@
    "tier": "experienced",
    "title": "Applied Data Scientist - Operations Decision Intelligence",
    "url": "https://jobs.apple.com/en-us/details/200686918/applied-data-scientist-operations-decision-intelligence"
+  },
+  "apple:ef4f0dbae9f9": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-12",
+   "location": "Santa Clara",
+   "posted_at": "2026-10-12",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Special Projects - Research Scientist/Engineer (Robotics)",
+   "url": "https://jobs.apple.com/en-us/details/200663675/special-projects-research-scientist-engineer-robotics"
   },
   "apple:f3122c492343": {
    "company": "Apple",
@@ -96841,6 +96978,17 @@
    "title": "Research Engineer, GenAI, Info Task, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/97490121065931462-research-engineer-genai-info-task-deepmind"
   },
+  "google:495a1c76391d": {
+   "company": "Google",
+   "first_seen": "2026-10-12",
+   "location": "Mountain View, CA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Security, Silicon",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/107940907147240134-software-engineer-security-silicon"
+  },
   "google:4a338e11ea24": {
    "company": "Google",
    "first_seen": "2026-09-01",
@@ -96931,6 +97079,17 @@
    "tier": "experienced",
    "title": "Software Engineer III",
    "url": "https://www.google.com/about/careers/applications/jobs/results/126567268703183558-software-engineer-iii"
+  },
+  "google:4cbc9180347b": {
+   "company": "Google",
+   "first_seen": "2026-10-12",
+   "location": "Atlanta, GA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Platforms and Devices- Play (multiple openings)",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/76978659709067974-software-engineer-iii-platforms-and-devices-play-multiple-openings"
   },
   "google:4d47ace900b3": {
    "company": "Google",
@@ -97622,6 +97781,17 @@
    "title": "Software Engineer, UX, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/81974532381778630-software-engineer-ux-deepmind"
   },
+  "google:7514c3d598a3": {
+   "company": "Google",
+   "first_seen": "2026-10-12",
+   "location": "Mountain View, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/137359440260014790-software-engineer"
+  },
   "google:75472608872b": {
    "company": "Google",
    "first_seen": "2026-09-28",
@@ -98106,6 +98276,17 @@
    "tier": "experienced",
    "title": "Photonic Engineer, Machine Learning",
    "url": "https://www.google.com/about/careers/applications/jobs/results/110583662801494726-photonic-engineer-machine-learning"
+  },
+  "google:91ee98c38115": {
+   "company": "Google",
+   "first_seen": "2026-10-12",
+   "location": "Atlanta, GA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/80291213365650118-software-engineer"
   },
   "google:91fd36c71053": {
    "company": "Google",
@@ -98627,6 +98808,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Rapid Innovation, Google Public Sector",
    "url": "https://www.google.com/about/careers/applications/jobs/results/116982173008831174-software-engineer-rapid-innovation-google-public-sector"
+  },
+  "google:abba1331b525": {
+   "company": "Google",
+   "first_seen": "2026-10-12",
+   "location": "Mountain View, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer- SWE- Cloud (Multiple Openings)",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/109464830263337670-site-reliability-engineer-swe-cloud-multiple-openings"
   },
   "google:abedbda6323b": {
    "company": "Google",
@@ -99234,6 +99426,17 @@
    "title": "Software Engineer III, AI/ML GenAI, Google Cloud Compute Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91655260891685574-software-engineer-iii-aiml-genai-google-cloud-compute-infrastructure"
   },
+  "google:cde5306f326e": {
+   "company": "Google",
+   "first_seen": "2026-10-12",
+   "location": "Sunnyvale, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Network Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/141163750492119750-network-engineer"
+  },
   "google:ce740cfbe994": {
    "company": "Google",
    "first_seen": "2026-09-25",
@@ -99313,6 +99516,17 @@
    "tier": "experienced",
    "title": "Software Engineer, PDEIO Laptops and Tablets",
    "url": "https://www.google.com/about/careers/applications/jobs/results/120861011660939974-software-engineer-pdeio-laptops-and-tablets"
+  },
+  "google:d9665cd06a1d": {
+   "company": "Google",
+   "first_seen": "2026-10-12",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer- SWE- Cloud (multiple openings)",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/138838008521466566-site-reliability-engineer-swe-cloud-multiple-openings"
   },
   "google:d98ecf17cd03": {
    "company": "Google",
@@ -99467,6 +99681,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Internet Egress Traffic Engineering",
    "url": "https://www.google.com/about/careers/applications/jobs/results/83336424635409094-software-engineer-iii-infrastructure-internet-egress-traffic-engineering"
+  },
+  "google:dfc881ce5949": {
+   "company": "Google",
+   "first_seen": "2026-10-12",
+   "location": "Madison, WI, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III- Cloud ISG (multiple openings)",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/89442723521536710-software-engineer-iii-cloud-isg-multiple-openings"
   },
   "google:e0b5756ff5dd": {
    "company": "Google",
@@ -137149,6 +137374,18 @@
    "tier": "experienced",
    "title": "Data and Platform Engineer",
    "url": "https://www.linkedin.com/jobs/view/4471977315"
+  },
+  "nvidia:db9a00bb9927": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-12",
+   "location": "2 Locations",
+   "posted_at": "2026-10-12",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Deep Learning Software Engineer, TensorRT Performance - New College Grad 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Software-Engineer--TensorRT-Performance---New-College-Grad-2027_JR2027083"
   },
   "nvidia:dc52b1ba9a2a": {
    "company": "Nvidia",
@@ -209800,7 +210037,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 159,
+   "last": 158,
    "last_ok": "2026-10-12"
   },
   "Airtable": {
@@ -209835,7 +210072,7 @@
   },
   "Apple": {
    "best": 142,
-   "last": 139,
+   "last": 138,
    "last_ok": "2026-10-12"
   },
   "Applied Intuition": {
@@ -210187,7 +210424,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 190,
+   "last": 188,
    "last_ok": "2026-10-12"
   },
   "Okta": {
@@ -210197,7 +210434,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 811,
+   "last": 809,
    "last_ok": "2026-10-12"
   },
   "OpenEvidence": {
@@ -210317,7 +210554,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 724,
+   "last": 721,
    "last_ok": "2026-10-12"
   },
   "Suno": {
@@ -210420,6 +210657,6 @@
    "last_ok": "2026-10-12"
   }
  },
- "updated": "2026-10-12T15:57:21Z",
+ "updated": "2026-10-12T19:14:03Z",
  "version": 1
 }
