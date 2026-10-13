@@ -10743,6 +10743,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10552346/software-development-engineer-amazon-leo-commerce",
    "yoe": 1
   },
+  "amazon:503498d79c89": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-13",
+   "location": "Cupertino, California, USA",
+   "posted_at": "2026-10-13",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - AI/ML, Neuron Inference, Inference",
+   "url": "https://www.amazon.jobs/en/jobs/10577933/software-engineer-ii-ai-ml-neuron-inference-inference",
+   "yoe": 1
+  },
   "amazon:504a33063139": {
    "company": "Amazon",
    "department": "Software Development",
@@ -16198,6 +16213,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10526436/software-development-engineer-ai-studios-engineering",
    "yoe": 1
   },
+  "amazon:d406df07256d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-13",
+   "location": "Arlington, Virginia, USA",
+   "posted_at": "2026-10-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, S3",
+   "url": "https://www.amazon.jobs/en/jobs/10578021/software-development-engineer-s3",
+   "yoe": 2
+  },
   "amazon:d42feea352f7": {
    "company": "Amazon",
    "department": "Software Development",
@@ -17728,6 +17758,21 @@
    "title": "Software Development Engineer II, AWS Lambda",
    "url": "https://www.amazon.jobs/en/jobs/10521244/software-development-engineer-ii-aws-lambda",
    "yoe": 1
+  },
+  "amazon:f97bd940edff": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-13",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon, APM Twitch",
+   "url": "https://www.amazon.jobs/en/jobs/10578078/software-development-engineer-amazon-apm-twitch",
+   "yoe": 2
   },
   "amazon:f9c7fa20f616": {
    "company": "Amazon",
@@ -98839,6 +98884,17 @@
    "title": "Developer Relations Engineer, Chrome AI",
    "url": "https://www.google.com/about/careers/applications/jobs/results/128592966406021830-developer-relations-engineer-chrome-ai"
   },
+  "google:2ffe61a68925": {
+   "company": "Google",
+   "first_seen": "2026-10-13",
+   "location": "Cambridge, MA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Distributed Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/81332051445195462-software-engineer-iii-infrastructure-google-distributed-cloud"
+  },
   "google:306ca8995b7f": {
    "company": "Google",
    "first_seen": "2026-09-30",
@@ -100781,6 +100837,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Infrastructure, Public Sector",
    "url": "https://www.google.com/about/careers/applications/jobs/results/95972217346499270-software-engineer-infrastructure-public-sector"
+  },
+  "google:920007d36398": {
+   "company": "Google",
+   "first_seen": "2026-10-13",
+   "location": "San Jose, CA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer II, Enterprise Detection Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/139808477856834246-security-engineer-ii-enterprise-detection-engineering"
   },
   "google:92946d29fcb4": {
    "company": "Google",
@@ -139648,6 +139715,18 @@
    "title": "Compiler Engineer, Agentic Compilation Systems - New College Grad 2027",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Agentic-Compilation-Systems---New-College-Grad-2027_JR2026218"
   },
+  "nvidia:18b0263a185f": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-13",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-13",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "SoC Software Engineer – New College Graduate 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1"
+  },
   "nvidia:18ca1738bfff": {
    "company": "Nvidia",
    "first_seen": "2026-09-17",
@@ -140827,6 +140906,18 @@
    "tier": "experienced",
    "title": "ML and Agentic Systems Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ML-and-Agentic-Systems-Engineer_JR2023952"
+  },
+  "nvidia:bafffddd1a3d": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-13",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-13",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "SoC Software Engineer - New College Grad 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Grad-2027_JR2026744"
   },
   "nvidia:bb2acd61001e": {
    "company": "Nvidia",
@@ -214632,7 +214723,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 167,
+   "last": 164,
    "last_ok": "2026-10-13"
   },
   "Airtable": {
@@ -214657,7 +214748,7 @@
   },
   "Anthropic": {
    "best": 648,
-   "last": 647,
+   "last": 644,
    "last_ok": "2026-10-13"
   },
   "Anysphere": {
@@ -214667,7 +214758,7 @@
   },
   "Apple": {
    "best": 155,
-   "last": 155,
+   "last": 154,
    "last_ok": "2026-10-13"
   },
   "Applied Intuition": {
@@ -215019,7 +215110,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-10-13"
   },
   "Okta": {
@@ -215029,7 +215120,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 805,
+   "last": 806,
    "last_ok": "2026-10-13"
   },
   "OpenEvidence": {
@@ -215149,7 +215240,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 724,
+   "last": 725,
    "last_ok": "2026-10-13"
   },
   "Suno": {
@@ -215252,6 +215343,6 @@
    "last_ok": "2026-10-13"
   }
  },
- "updated": "2026-10-13T21:25:16Z",
+ "updated": "2026-10-13T23:23:02Z",
  "version": 1
 }
