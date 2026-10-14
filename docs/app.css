@@ -223,6 +223,49 @@ dialog input { width:100%; margin:4px 0 10px; }
           overflow:hidden; text-overflow:ellipsis; }
 .colink:hover { color:var(--accent); }
 @media (max-width:720px){ .colink { display:none; } #coSearch { width:140px; } }
+
+/* ---- the Reach out panel (outreach.js) ----
+   A form you read down, wider than settings and narrower than the company
+   list; its header reuses .co-top so Close sits where it does there. */
+#ordlg { max-width:none; width:min(720px,94vw); padding:14px 18px 18px; }
+#orBody { max-height:76vh; overflow:auto; padding-right:4px; }
+.or-job { margin:0 0 12px; font-weight:600; font-size:14.5px; }
+.or-job a { color:var(--text); text-decoration:none; }
+.or-job a:hover { color:var(--accent); }
+.or-job span { display:block; color:var(--muted); font-weight:400; font-size:12px; }
+.or-sec { border-top:1px solid var(--line); padding:10px 0 4px; }
+.or-sec h4 { margin:0 0 8px; font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+             color:var(--muted); display:inline; }
+.or-sec h5 { margin:12px 0 4px; font-size:12px; font-weight:600; }
+.or-sec summary { cursor:pointer; color:var(--muted); font-size:12px; margin-bottom:6px; }
+.or-sec ul { margin:4px 0; padding-left:18px; font-size:12.5px; }
+.or-sec li { margin-bottom:4px; }
+.or-links { list-style:none; padding:0 !important; }
+.or-links li { display:flex; flex-wrap:wrap; gap:2px 10px; align-items:baseline; }
+.or-links a { color:var(--accent); text-decoration:none; font-weight:550; white-space:nowrap; }
+.or-links a:hover { text-decoration:underline; }
+.or-links span, .or-dim { color:var(--muted); font-size:11.5px; }
+.or-act { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:6px 0; }
+.or-act input[type=file] { width:auto; margin:0; color:var(--muted); font-size:11.5px; }
+.or-two { display:grid; grid-template-columns:1fr 1fr; gap:4px 18px; }
+.or-warn { color:#f0b35a; font-size:12px; margin:6px 0; }
+#orCount.over { color:#ff7a6b; font-weight:600; }
+#ordlg textarea, #ordlg input[type=text], #ordlg input[type=password] {
+  width:100%; background:var(--raised); color:var(--text); border:1px solid var(--line);
+  border-radius:9px; padding:8px 10px; font:inherit; font-size:12.5px; line-height:1.5;
+  margin:2px 0 4px; resize:vertical; }
+#ordlg textarea:focus, #ordlg input:focus { outline:none; border-color:var(--accent); }
+#ordlg label { display:block; color:var(--muted); font-size:11.5px; margin-top:8px; }
+button:disabled { opacity:.5; cursor:progress; }
+button.reach { color:var(--accent); }
+@media (max-width:720px){ .or-two { grid-template-columns:1fr; } }
+/* At phone width the buttons beside a row left the title ~60px, one word per
+   line. They go under it instead, and wrap if they still don't fit. */
+@media (max-width:720px){
+  .job { flex-wrap:wrap; }
+  .job .info { flex-basis:calc(100% - 24px); }
+  .job .btns { flex-wrap:wrap; margin-left:auto; }
+}
 @media (max-width:1040px){ #kpi { grid-template-columns:minmax(148px,172px) 1fr; }
   .actile { grid-column:1 / -1; } }
 @media (max-width:720px){

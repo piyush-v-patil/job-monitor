@@ -248,6 +248,11 @@ job-monitor/
 │   │                                forgotten once the published JSON is seen
 │   │                                carrying it. Reads window.TRACKER for
 │   │                                everything page-specific.
+│   ├── outreach.js                ← the ✉ Reach out panel (software page only): who to contact
+│   │                                about a posting, and a message drafted
+│   │                                by Gemini from your resume. Your Gemini
+│   │                                key and resume stay in localStorage and
+│   │                                go only to Google, never into this repo.
 │   ├── index.html                 ← SOFTWARE DASHBOARD. Markup plus a
 │   │                                TRACKER object naming jobs.json, its
 │   │                                tiers and its role labels.
@@ -503,6 +508,34 @@ committed or sent anywhere except api.github.com.
   LinkedIn names a metro, which used to read as two unrelated openings. Same
   company and title, with either side vague about the city, now fold — 497 rows
   fewer in the software view — and the expanded list shows each location.
+- **✉ Reach out drafts a message to the people hiring for a role** (software
+  tracker only; the supply-chain page leaves it out). Set it up
+  once from the panel's *Gemini key & resume* section: paste a Gemini API key
+  (free from Google AI Studio) and upload your resume PDF. Both stay in your
+  browser and are sent only to Google, when you click **Draft**. The repo and
+  the dashboard are public, so neither is ever written here.
+  - **Draft with Gemini** reads the posting itself and returns why you fit,
+    the gaps to be ready for, a LinkedIn note (counted against the 300-character
+    limit) and an email, all editable before you copy or open them in your
+    mail app. A draft is cached per posting, so reopening one costs nothing.
+    It takes from a few seconds to a couple of minutes; when Google's main
+    model is busy it falls back to two others on its own.
+  - **Check the claims before sending.** The draft is told to use only facts
+    from your resume and to keep each one with the job it belongs to, but a
+    model can still attach a skill to the wrong employer.
+  - **When a page can't be read** (LinkedIn pages often can't), the panel says
+    so and opens a box for you to paste the description; redraft from that.
+  - **Who to contact can't be automated**, so the panel gives you the
+    searches instead: the posting on LinkedIn (signed in, its *Meet the hiring
+    team* panel names the poster when they chose to show it), a people search
+    for the manager, one for the recruiter (university recruiting for intern
+    and new-grad roles), and a Google search of LinkedIn profiles. After a
+    draft, the searches use the team and the title the role reports to, as
+    the posting names them.
+  - **No key?** **Copy as a prompt** puts the same instructions on your
+    clipboard to paste into any chat assistant with your resume attached.
+  - In Google AI Studio you can restrict the key to your Pages address, so a
+    copy of it is useless anywhere else.
 - Applied/skipped roles never re-alert. The scanner only ever *adds* new job
   IDs — it cannot overwrite your statuses.
 - **The page keeps itself current.** An open tab checks for a new scan every

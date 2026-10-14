@@ -730,7 +730,11 @@ function jobRow(g) {
         ${badges(rj, lead)}
       </div>
       <div class="btns">
-        ${mk("applied", "\u2713 Applied")}${mk("skip", "\u2717 Skip")}${mk("interview", "\u2605 Interview")}
+        ${mk("applied", "\u2713 Applied")}${mk("skip", "\u2717 Skip")}${mk("interview", "\u2605 Interview")}${
+          // one per role, not per req: the people to contact are the same for
+          // every opening in a cluster. Absent on a page without outreach.js.
+          member || !window.openOutreach ? "" : `<button class="reach" data-reach="${esc(rid)}"
+            title="Who to contact about this role, and a message to send them">\u2709 Reach out</button>`}
       </div>
     </div>`;
   }
@@ -1133,6 +1137,8 @@ $("list").addEventListener("click", e => {
     render();
     return;
   }
+  const r = e.target.closest("button[data-reach]");
+  if (r) { window.openOutreach(r.dataset.reach); return; }
   const b = e.target.closest("button[data-act]");
   if (b) mark(b.dataset.ids.split(" "), b.dataset.act);
 });

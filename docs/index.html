@@ -108,6 +108,15 @@
   <p id="coStats"></p>
   <div id="coList"></div>
 </dialog>
+<!-- Software tracker only: supplychain.html leaves out this dialog and
+     outreach.js, and app.js then draws no Reach out button there. -->
+<dialog id="ordlg" aria-labelledby="orTitle">
+  <div class="co-top">
+    <h3 id="orTitle">Reach out</h3>
+    <button data-or="close">Close</button>
+  </div>
+  <div id="orBody"></div>
+</dialog>
 <div id="toast"></div>
 
 <script>
@@ -118,6 +127,7 @@
 //   data        what the browser fetches, relative to this page
 //   path        the same file's path inside the repo, for writing status back
 //   defaultRole role bucket for a posting whose title names no discipline
+//   managerTitle / recruiterTitle   the people Reach out searches for
 //   tiers       [key, label, hue] in display order; the hues are a
 //               categorical set - keep any replacement >=3:1 on the card
 //               surface and separated in CVD space
@@ -137,9 +147,13 @@ window.TRACKER = {
     "devops-sre":"DevOps / SRE", "security":"Security", "embedded":"Embedded / Systems",
     "qa-test":"QA / Test", "solutions":"Solutions / Forward-deployed",
   },
+  // who the Reach out panel searches for until a draft names the team
+  managerTitle: "engineering manager",
+  recruiterTitle: "technical recruiter",
   siblings: [{ href: "supplychain.html", label: "Supply chain \u2192" }],
 };
 </script>
 <script src="app.js"></script>
+<script src="outreach.js"></script>
 </body>
 </html>
