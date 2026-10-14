@@ -10,7 +10,7 @@ Filtering happens later in filters.py.
 import re
 
 from .. import filters
-from .http import session, get_json, post_json, iso_date, rel_date, clean_text
+from .http import session, get_json, get_text, post_json, iso_date, rel_date, clean_text
 
 # Ashby/SmartRecruiters use their own vocabulary; normalize to one set.
 EMPLOYMENT = {
@@ -90,6 +90,34 @@ def lever(c):
     return out
 
 
+US_COUNTRY = {"us", "usa", "united states", "united states of america"}
+
+
+def _ashby_country(postal, location, secondary):
+    """'United States' when Ashby can place the posting in the US, else ''.
+
+    The `location` label is free text the employer types, and plenty of US
+    postings say nothing filters.is_us can read - Vanta's "Remote U.S.",
+    Linear's "North America", Abridge's "CHI Office". The structured address
+    beside it does say "USA". A posting whose primary site is abroad but
+    lists a US office among its secondaryLocations (ElevenLabs "London" +
+    "New York") is open in the US too. Only a US answer is returned: a
+    foreign addressCountry is left to the location heuristics, which already
+    keep a posting that names a US site anywhere in its label.
+    """
+    if str(postal.get("addressCountry") or "").strip().lower() in US_COUNTRY:
+        return "United States"
+    for extra in secondary or []:
+        site = extra.get("location", "")
+        sub = ((extra.get("address") or {}).get("postalAddress") or {})
+        if str(sub.get("addressCountry") or "").strip().lower() in US_COUNTRY:
+            return "United States"
+        # a bare "Remote" secondary says nothing about which country
+        if site and not filters.AMBIGUOUS_LOC.match(site) and filters.is_us(site):
+            return "United States"
+    return ""
+
+
 def ashby(c):
     """c: {name, token}  ->  Ashby posting API (GET; POST returns 401)"""
     s = session()
@@ -104,11 +132,13 @@ def ashby(c):
         workplace = j.get("workplaceType", "")
         if not workplace and j.get("isRemote"):
             workplace = "Remote"
+        postal = (j.get("address") or {}).get("postalAddress") or {}
+        location = j.get("location", "") or postal.get("addressLocality", "")
         out.append({
             "company": c["name"],
             "title": j.get("title", ""),
-            "location": j.get("location", "") or (j.get("address") or {}).get(
-                "postalAddress", {}).get("addressLocality", ""),
+            "location": location,
+            "country": _ashby_country(postal, location, j.get("secondaryLocations")),
             "url": j.get("jobUrl", "") or j.get("applyUrl", ""),
             "external_id": j.get("id", ""),
             "source": "ashby",
@@ -406,4 +436,39 @@ def smartrecruiters(c):
             "workplace": "Remote" if (loc.get("remote")) else "",
             "department": (j.get("department") or {}).get("label", ""),
         })
+    return out
+
+
+# Avature portals have no public JSON. The listing page is server-rendered, ten
+# postings a page stepped by `jobOffset`, and each card is an <article> holding
+# the JobDetail link (posting id last in the path), the title as its text, and
+# the location as the first inner span. The RSS feed beside it is capped at
+# twenty postings, oldest first, so it misses everything new.
+AVATURE_CARD = re.compile(
+    r'<article class="article article--result".*?'
+    r'<a class="link" href="([^"]*/JobDetail/[^"]*?/(\d+))"\s*>(.*?)</a>'
+    r'(?:.*?<span class="paragraph_inner-span">(.*?)</span>)?', re.S)
+
+
+def avature(c):
+    """c: {name, host, path?, pages?}  e.g. Two Sigma: careers.twosigma.com"""
+    s = session()
+    base = f"https://{c['host']}/careers/{c.get('path', 'OpenRoles')}"
+    out, seen = [], set()
+    for page in range(int(c.get("pages", 30))):
+        markup = get_text(s, base, params={"jobOffset": page * 10})
+        cards = AVATURE_CARD.findall(markup)
+        fresh = [card for card in cards if card[1] not in seen]
+        if not fresh:
+            break
+        for url, jid, title, location in fresh:
+            seen.add(jid)
+            out.append({
+                "company": c["name"],
+                "title": clean_text(title, 200),
+                "location": clean_text(location or "", 200),
+                "url": url,
+                "external_id": jid,
+                "source": "avature",
+            })
     return out

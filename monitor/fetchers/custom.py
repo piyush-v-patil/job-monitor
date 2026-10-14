@@ -6,6 +6,7 @@ the network tab of the careers page and update the endpoint.
 """
 import html
 import re
+import time
 
 from .. import filters
 from .http import session, get_json, get_text, post_json, iso_date, clean_text
@@ -44,33 +45,48 @@ def amazon(c):
     return out
 
 
+# Microsoft moved careers onto Eightfold's PCS (apply.careers.microsoft.com).
+# The old gcsservices.careers.microsoft.com host serves a certificate for
+# another name, so it fails TLS for every client. The PCS search answers
+# without a token, ten postings a page, and rate-limits a fast crawl with 429 -
+# hence the pause between pages (get_json already backs off on a 429).
+MS_WORKPLACE = {"onsite": "On-site", "remote": "Remote", "hybrid": "Hybrid"}
+
+
 def microsoft(c):
     s = session()
-    out = []
-    for pg in (1, 2):
-        url = ("https://gcsservices.careers.microsoft.com/search/api/v1/search"
-               f"?q={c.get('search', 'software engineer').replace(' ', '%20')}"
-               f"&lc=United%20States&l=en_us&pg={pg}&pgSz=100&o=Relevance&flt=true")
-        data = get_json(s, url)
-        jobs = (((data.get("operationResult") or {}).get("result") or {}).get("jobs")) or []
+    out, seen = [], set()
+    for page in range(int(c.get("pages", 15))):
+        if page:
+            time.sleep(0.5)
+        data = get_json(s, "https://apply.careers.microsoft.com/api/pcsx/search", params={
+            "domain": "microsoft.com",
+            "query": c.get("search", "software engineer"),
+            "location": "United States",
+            "start": page * 10,
+            "sort_by": "timestamp",
+        })
+        jobs = (data.get("data") or {}).get("positions") or []
         if not jobs:
             break
         for j in jobs:
-            props = j.get("properties") or {}
+            jid = str(j.get("displayJobId") or j.get("id", ""))
+            if jid in seen:
+                continue
+            seen.add(jid)
             out.append({
                 "company": "Microsoft",
-                "title": j.get("title", ""),
-                "location": props.get("primaryLocation", "") or ", ".join(
-                    props.get("locations", []) or []),
-                "url": f"https://jobs.careers.microsoft.com/global/en/job/{j.get('jobId','')}",
-                "external_id": str(j.get("jobId", "")),
+                "title": j.get("name", ""),
+                # "Redmond, WA, US"; the long form ("United States, Washington,
+                # Redmond") is the fallback when the standardized one is absent
+                "location": "; ".join(j.get("standardizedLocations") or j.get("locations") or []),
+                "url": "https://apply.careers.microsoft.com"
+                       + (j.get("positionUrl") or f"/careers/job/{j.get('id', '')}"),
+                "external_id": jid,
                 "source": "microsoft careers",
-                "posted_at": iso_date(props.get("postingDate")),
-                "employment_type": props.get("employmentType", ""),
-                "workplace": ("Remote" if str(props.get("workSiteFlexibility", "")).lower()
-                              .startswith("up to 100") else ""),
-                "department": props.get("discipline", "") or props.get("profession", ""),
-                "snippet": clean_text(props.get("description", "")),
+                "posted_at": iso_date(j.get("postedTs") or j.get("creationTs")),
+                "workplace": MS_WORKPLACE.get(str(j.get("workLocationOption") or "").lower(), ""),
+                "department": j.get("department", ""),
             })
     return out
 

@@ -17,6 +17,7 @@ from monitor.fetchers.generic import workday_country
     "Sunnyvale, CA", "Cambridge, MA", "New York, NY", "Vancouver, WA",
     "Paris, TX", "Austin", "Lehi", "Boise, ID", "Wilmington, DE",
     "San Francisco, CA, USA", "Remote - US", "Anywhere in the US",
+    "Remote U.S.", "Remote, U.S.",       # Vanta, Saronic: periods and all
     "New York, NY; London, UK",          # one US site carries the posting
 ])
 def test_us_locations_are_kept(loc):

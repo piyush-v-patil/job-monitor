@@ -62,6 +62,8 @@ US_HINT = re.compile(
     r"|bellevue|redmond|mountain view|sunnyvale|palo alto|menlo park|cupertino"
     r"|san jose|santa clara|irvine|san diego|cambridge|pittsburgh|raleigh"
     r"|nashville|salt lake|remote.*(us|america)|us.*remote"
+    # "U.S." with its periods: Vanta prints every US role as "Remote U.S."
+    r"|\bu\.s\.(a\.?)?"
     # shorthand the boards actually print - "SF" and "NYC" were being dropped
     r"|\bsf\b|\bnyc\b|\bd\.?c\.?\b|bay area|silicon valley"
     r"|brooklyn|manhattan|oakland|berkeley|san mateo|foster city|burlingame"

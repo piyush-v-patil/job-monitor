@@ -7,6 +7,7 @@ FETCHERS = {
     "workday": generic.workday,
     "eightfold": generic.eightfold,
     "smartrecruiters": generic.smartrecruiters,
+    "avature": generic.avature,
     "oraclecloud": generic.oraclecloud,
     "amazon": custom.amazon,
     "microsoft": custom.microsoft,

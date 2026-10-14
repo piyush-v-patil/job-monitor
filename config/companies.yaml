@@ -2,8 +2,9 @@
 # bigtech: scanned every 3 hours. other + aggregators: scanned once daily.
 #
 # fetcher types: greenhouse | lever | ashby | workday | eightfold |
-#                smartrecruiters | oraclecloud | phenom | amazon | microsoft |
-#                google | apple | tesla | uber | walmart | simplify | jobspy
+#                smartrecruiters | oraclecloud | phenom | avature | amazon |
+#                microsoft | google | apple | tesla | uber | walmart |
+#                simplify | jobspy
 #
 # NOTE: ATS tokens/tenants are best-effort and may need verification.
 # To find a token: open the company's careers page, check the URL or the
@@ -19,14 +20,12 @@
 bigtech:
   - name: Amazon
     fetcher: amazon
-  # Microsoft's careers SPA talks only to gcsservices.careers.microsoft.com,
-  # and that host currently serves a TLS certificate for *.azureedge.net which
-  # does not match its own name, so every client that verifies TLS fails the
-  # handshake (checked 2026-10-09). Nothing in the page carries the jobs, and
-  # every other path on jobs.careers.microsoft.com answers with the SPA shell.
-  # Left in place because the fix is theirs to make, not ours.
+  # Microsoft's careers moved to Eightfold PCS at apply.careers.microsoft.com,
+  # whose search answers without a token (the old gcsservices host fails TLS).
+  # Ten postings a page, newest first; 15 pages reach back about a week.
   - name: Microsoft
     fetcher: microsoft
+    pages: 15
   - name: Google
     fetcher: google
   - name: Apple
@@ -84,11 +83,7 @@ bigtech:
   # covered by the Simplify aggregator, but it currently carries 0 postings
   # for either, so neither company is actually being monitored.
   #
-  # Microsoft, Apple, Tesla and Uber are configured below but return nothing:
-  #   Microsoft - careers moved to Eightfold; its API answers
-  #               403 "Not authorized for PCSX" without a tenant token
-  #   Apple     - /api/role/search no longer exists (404) and the search page
-  #               renders results client-side, so there is nothing to read
+  # Tesla and Uber are configured above but return nothing:
   #   Tesla     - Akamai "Access Denied" to non-browser clients
   #   Uber      - the loadSearchJobsResults RPC handler was removed, and the
   #               careers page no longer server-renders
@@ -113,21 +108,27 @@ other:
     host: capitalone.wd12.myworkdayjobs.com
     tenant: capitalone
     site: Capital_One
+  # Visa left SmartRecruiters (its board there now lists nothing) for Workday.
   - name: Visa
-    fetcher: smartrecruiters
-    token: Visa
+    fetcher: workday
+    host: visa.wd5.myworkdayjobs.com
+    tenant: visa
+    site: Visa
   - name: Coinbase
     fetcher: greenhouse
     token: coinbase
   - name: Robinhood
     fetcher: greenhouse
     token: robinhood
+  # Citadel's Greenhouse board is gone (404) and citadel.com/careers sits
+  # behind a Cloudflare challenge; kept so source health keeps reporting it.
   - name: Citadel
     fetcher: greenhouse
     token: citadelcampus
+  # Two Sigma left Greenhouse for an Avature portal.
   - name: Two Sigma
-    fetcher: greenhouse
-    token: twosigma
+    fetcher: avature
+    host: careers.twosigma.com
   - name: Affirm
     fetcher: greenhouse
     token: affirm
