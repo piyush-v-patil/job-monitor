@@ -8725,6 +8725,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10547170/software-development-engineer-specialist-ai-tooling-specialist-technology-team",
    "yoe": 1
   },
+  "amazon:1b83dad01b4a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-14",
+   "location": "San Francisco, California, USA",
+   "posted_at": "2026-10-14",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer I",
+   "url": "https://www.amazon.jobs/en/jobs/10578558/software-engineer-i",
+   "yoe": 1
+  },
   "amazon:1ba49cb8f2b4": {
    "company": "Amazon",
    "department": "Software Development",
@@ -216357,8 +216372,8 @@
    "last_ok": "2026-10-14"
   },
   "Apple": {
-   "best": 156,
-   "last": 156,
+   "best": 157,
+   "last": 157,
    "last_ok": "2026-10-14"
   },
   "Applied Intuition": {
@@ -216720,7 +216735,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 806,
+   "last": 805,
    "last_ok": "2026-10-14"
   },
   "OpenEvidence": {
@@ -216840,7 +216855,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 725,
+   "last": 724,
    "last_ok": "2026-10-14"
   },
   "Suno": {
@@ -216943,6 +216958,6 @@
    "last_ok": "2026-10-14"
   }
  },
- "updated": "2026-10-14T13:55:26Z",
+ "updated": "2026-10-14T14:37:28Z",
  "version": 1
 }
