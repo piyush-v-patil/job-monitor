@@ -587,6 +587,13 @@ aggregators:
     hours_old: 72            # the sweep runs 12x/day - 3 days is ample overlap
     fetch_description: false # true costs +1 request per job (see the module)
     proxies_env: JOBSPY_PROXIES
+    # LinkedIn 429s a runner a page or two into each search. A throttled
+    # search is resumed after backoff_seconds (then 2x, 3x), at most
+    # resume_after_429 times, with backoff_budget_seconds of waiting per run.
+    delay_seconds: 10          # pause between terms
+    backoff_seconds: 20
+    resume_after_429: 3
+    backoff_budget_seconds: 300
     searches:
       - software engineer intern
       - new grad software engineer

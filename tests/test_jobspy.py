@@ -5,6 +5,8 @@ this module is the translation: a NaN reaching the dashboard as the string
 "nan", a proxy URL read out of a committed config, a LinkedIn row tracked as
 a second copy of a job the employer's own board already gave us.
 """
+import logging
+
 import pytest
 
 from monitor import state
@@ -368,3 +370,78 @@ def test_rel_date_reads_weeks():
 def test_rel_date_still_refuses_what_it_cannot_read():
     from monitor.fetchers import http
     assert http.rel_date("") == "" and http.rel_date("a while back") == ""
+
+
+# ---- LinkedIn's rate limit ---------------------------------------------------
+# From a runner, LinkedIn answers 429 a page or two into each search and JobSpy
+# stops there. The fetcher resumes from the offset it reached once the window
+# has passed, within a per-search and a per-run limit.
+
+
+def throttled_scraper(pages, calls):
+    """Each call serves the next entry of `pages`: (rows, logs_a_429)."""
+    def scrape_jobs(**kwargs):
+        calls.append(kwargs.get("offset", 0))
+        rows, limited = pages[min(len(calls), len(pages)) - 1]
+        if limited:
+            logging.getLogger("JobSpy:LinkedIn").error(
+                "LinkedIn response status code 429")
+        return FakeFrame(rows)
+    return lambda: scrape_jobs
+
+
+def rows(start, n):
+    return [dict(ROW, id=f"li-{i}", job_url=f"https://www.linkedin.com/jobs/view/{i}")
+            for i in range(start, start + n)]
+
+
+@pytest.fixture
+def no_sleep(monkeypatch):
+    slept = []
+    monkeypatch.setattr(jobspy_board.time, "sleep", slept.append)
+    monkeypatch.setattr(jobspy_board, "_backoff_left", None)
+    return slept
+
+
+def scan(monkeypatch, pages, **cfg):
+    calls = []
+    monkeypatch.setattr(jobspy_board, "_scrape_jobs", throttled_scraper(pages, calls))
+    jobs = jobspy_board.jobspy(dict({"name": "LinkedIn (JobSpy)", "sites": ["linkedin"],
+                                     "search": "data engineer", "delay_seconds": 0}, **cfg))
+    return jobs, calls
+
+
+def test_a_throttled_search_is_resumed_where_it_stopped(monkeypatch, no_sleep):
+    jobs, calls = scan(monkeypatch, [(rows(0, 10), True), (rows(10, 10), True),
+                                     (rows(20, 30), False)])
+    assert calls == [0, 10, 20]
+    assert len(jobs) == 50
+    assert no_sleep == [20, 40]               # the window, then twice it
+
+
+def test_an_unthrottled_search_runs_once(monkeypatch, no_sleep):
+    jobs, calls = scan(monkeypatch, [(rows(0, 40), False)])
+    assert calls == [0] and len(jobs) == 40 and no_sleep == []
+
+
+def test_a_resume_that_gets_nothing_stops_the_waiting_for_the_whole_run(
+        monkeypatch, no_sleep):
+    scan(monkeypatch, [(rows(0, 10), True), ([], True)])
+    assert no_sleep == [20]
+    jobs, calls = scan(monkeypatch, [(rows(0, 10), True), (rows(10, 10), False)])
+    assert calls == [0] and len(jobs) == 10     # the next term no longer waits
+    assert no_sleep == [20]
+
+
+def test_the_per_run_budget_caps_the_waiting(monkeypatch, no_sleep):
+    always = [(rows(0, 10), True), (rows(10, 10), True), (rows(20, 10), True),
+              (rows(30, 10), True)]
+    scan(monkeypatch, always, backoff_budget_seconds=50)
+    assert sum(no_sleep) == 50
+
+
+def test_a_mixed_board_search_is_not_resumed(monkeypatch, no_sleep):
+    """`offset` counts one board's results; it cannot resume two at once."""
+    jobs, calls = scan(monkeypatch, [(rows(0, 10), True), (rows(10, 10), False)],
+                       sites=["linkedin", "indeed"])
+    assert calls == [0] and no_sleep == []

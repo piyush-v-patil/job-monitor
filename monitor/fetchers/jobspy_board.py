@@ -46,6 +46,7 @@ extra request per job (~1.2s each on LinkedIn) and multiplies the rate-limit
 exposure, so it is off by default and worth turning on only for the narrow,
 high-value searches.
 """
+import logging
 import os
 import re
 import time
@@ -248,17 +249,19 @@ def jobspy(c):
     if c.get("google_search_term"):
         kwargs["google_search_term"] = c["google_search_term"]
 
-    df = scrape_jobs(**kwargs)
-    # A board that matched nothing returns an empty frame, not an error.
-    if df is None or not len(df):
-        return []
+    rows = _scrape_resuming(scrape_jobs, kwargs, c, sites)
 
     # Politeness between terms: main.run_fetcher calls this once per search,
     # back to back, and LinkedIn counts the whole burst against one IP.
     delay = float(c.get("delay_seconds", 2))
+    # A board that matched nothing returns an empty frame, not an error.
+    if not rows:
+        if delay:
+            time.sleep(delay)
+        return []
 
     out = []
-    for row in df.to_dict("records"):
+    for row in rows:
         company, title = _s(row.get("company")), _s(row.get("title"))
         url = _s(row.get("job_url"))
         if not company or not title or not url:
@@ -290,6 +293,82 @@ def jobspy(c):
     if delay:
         time.sleep(delay)
     return out
+
+
+# ---- riding out LinkedIn's rate limit ---------------------------------------
+#
+# From a GitHub runner LinkedIn answers 429 after a page or two of each search,
+# and JobSpy's response to a 429 is to stop that search where it is. Every term
+# then contributes its first page and nothing more: 140 postings over twelve
+# searches on 2026-10-14, against 1,001 on 2026-10-06 - same code, same terms,
+# different runner IPs. The limit is a short window rather than a ban (the
+# request two seconds after a 429 fails, one fifteen seconds later succeeds),
+# so the search is resumed from where it stopped once the window has passed.
+# JobSpy takes an `offset` for exactly that.
+#
+# Bounded twice: a per-search number of resumes, and a per-run budget of
+# seconds spent waiting, shared by every search in the process. A runner IP
+# LinkedIn has blocked outright would otherwise sit out the backoff on every
+# term; a resume that gets nothing at all spends the rest of the budget, so
+# the remaining terms take their first page and move on, as before.
+
+class _ThrottleWatch(logging.Handler):
+    """Notices JobSpy logging a 429 - the only sign of one it gives."""
+
+    def __init__(self):
+        super().__init__(logging.ERROR)
+        self.hit = False
+
+    def emit(self, record):
+        if "429" in record.getMessage():
+            self.hit = True
+
+
+_backoff_left = None        # seconds of waiting still allowed this run
+
+
+def _scrape_resuming(scrape_jobs, kwargs, c, sites):
+    """scrape_jobs, resumed past LinkedIn 429s. Returns the rows as dicts."""
+    global _backoff_left
+    if _backoff_left is None:
+        _backoff_left = float(c.get("backoff_budget_seconds", 300))
+    # `offset` counts one board's results, so only a LinkedIn-only search can
+    # be resumed by it; a mixed one keeps JobSpy's plain behaviour.
+    resumable = list(sites) == ["linkedin"]
+    tries = int(c.get("resume_after_429", 3)) if resumable else 0
+    wait = float(c.get("backoff_seconds", 20))
+    wanted = int(kwargs["results_wanted"])
+
+    rows, seen, offset = [], set(), int(kwargs.get("offset") or 0)
+    logger = logging.getLogger("JobSpy:LinkedIn")
+    for attempt in range(tries + 1):
+        watch = _ThrottleWatch()
+        logger.addHandler(watch)
+        try:
+            df = scrape_jobs(**(dict(kwargs, offset=offset) if offset else kwargs))
+        finally:
+            logger.removeHandler(watch)
+        batch = df.to_dict("records") if df is not None and len(df) else []
+        for row in batch:
+            key = _s(row.get("id")) or _s(row.get("job_url"))
+            if key not in seen:
+                seen.add(key)
+                rows.append(row)
+        if not watch.hit or len(rows) >= wanted or attempt == tries:
+            break
+        if not batch and attempt:
+            # throttled again before a single row: not a window, a block
+            print(f"  ! {c.get('name', 'jobspy')} [{kwargs.get('search_term')}]: "
+                  "still rate-limited after backing off - not waiting on later terms")
+            _backoff_left = 0
+            break
+        pause = min(wait * (attempt + 1), _backoff_left)
+        if pause <= 0:
+            break
+        _backoff_left -= pause
+        time.sleep(pause)
+        offset += len(batch)
+    return rows
 
 
 def _yoe(description: str, title: str):

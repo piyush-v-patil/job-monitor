@@ -311,6 +311,13 @@ aggregators:
     hours_old: 72
     fetch_description: false
     proxies_env: JOBSPY_PROXIES
+    # LinkedIn 429s a runner a page or two into each search. A throttled
+    # search is resumed after backoff_seconds (then 2x, 3x), at most
+    # resume_after_429 times, with backoff_budget_seconds of waiting per run.
+    delay_seconds: 10          # pause between terms
+    backoff_seconds: 20
+    resume_after_429: 3
+    backoff_budget_seconds: 300
     searches:
       - demand planner
       - supply chain planner
