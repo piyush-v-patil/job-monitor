@@ -248,7 +248,7 @@ job-monitor/
 │   │                                forgotten once the published JSON is seen
 │   │                                carrying it. Reads window.TRACKER for
 │   │                                everything page-specific.
-│   ├── outreach.js                ← the ✉ Reach out panel: who to contact
+│   ├── outreach.js                ← the ✉ Reach out panel (software page only): who to contact
 │   │                                about a posting, and a message drafted
 │   │                                by Gemini from your resume. Your Gemini
 │   │                                key and resume stay in localStorage and
@@ -508,7 +508,8 @@ committed or sent anywhere except api.github.com.
   LinkedIn names a metro, which used to read as two unrelated openings. Same
   company and title, with either side vague about the city, now fold — 497 rows
   fewer in the software view — and the expanded list shows each location.
-- **✉ Reach out drafts a message to the people hiring for a role.** Set it up
+- **✉ Reach out drafts a message to the people hiring for a role** (software
+  tracker only; the supply-chain page leaves it out). Set it up
   once from the panel's *Gemini key & resume* section: paste a Gemini API key
   (free from Google AI Studio) and upload your resume PDF. Both stay in your
   browser and are sent only to Google, when you click **Draft**. The repo and
