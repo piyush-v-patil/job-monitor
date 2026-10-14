@@ -114,6 +114,7 @@ other:
     host: visa.wd5.myworkdayjobs.com
     tenant: visa
     site: Visa
+    slug_country: iso2       # "/job/IN---Bengaluru/" is India, not Indiana
   - name: Coinbase
     fetcher: greenhouse
     token: coinbase

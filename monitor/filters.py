@@ -73,7 +73,16 @@ US_HINT = re.compile(
     r"|san antonio|el segundo|hawthorne|torrance|pasadena|culver city|santa monica"
     r"|long beach|sacramento|san bruno|redwood city|milpitas|fremont|plano|richardson"
     r"|round rock|provo|lehi|boise|omaha|tucson|albuquerque|las vegas|reno|spokane"
-    r"|tacoma|kirkland|renton|everett|hillsboro|beaverton",
+    r"|tacoma|kirkland|renton|everett|hillsboro|beaverton"
+    # Full state names: Databricks writes "Remote - California", Peloton
+    # "Linden, New Jersey". Georgia is left out - it is a country too.
+    r"|alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware"
+    r"|florida|hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana"
+    r"|\bmaine\b|maryland|massachusetts|michigan|minnesota|mississippi|missouri"
+    r"|montana|nebraska|nevada|new hampshire|new jersey|new mexico|north carolina"
+    r"|north dakota|\bohio\b|oklahoma|oregon|pennsylvania|rhode island"
+    r"|south carolina|south dakota|tennessee|texas|\butah\b|vermont|virginia"
+    r"|wisconsin|wyoming",
     re.I,
 )
 

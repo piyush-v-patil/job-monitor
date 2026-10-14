@@ -238,12 +238,26 @@ WD_CITY = re.compile(
     r"^(" + "|".join(sorted(WD_CITIES, key=len, reverse=True)) + r")", re.I)
 
 
-def workday_country(external_path: str) -> str:
-    """Country of a Workday posting, read off its URL slug. '' if unrecognized."""
+# Some tenants lead the slug with an ISO-3166 alpha-2 code ("/job/IN---Bengaluru/"
+# at Visa), which reads exactly like CVS's US state codes ("/job/CT---Hartford/").
+# IN, CO and CA are both, so the format cannot be told apart from the slug; a
+# tenant that uses country codes says so with `slug_country: iso2` in its config.
+WD_ISO2 = re.compile(r"^([A-Z]{2})---")
+
+
+def workday_country(external_path: str, iso2: bool = False) -> str:
+    """Country of a Workday posting, read off its URL slug. '' if unrecognized.
+
+    iso2: the tenant leads its slugs with an alpha-2 country code, not a state.
+    """
     m = re.search(r"/job/([^/]+)/", external_path or "")
     if not m:
         return ""
     slug = m.group(1)
+    if iso2:
+        hit = WD_ISO2.match(slug)
+        if hit:
+            return hit.group(1)       # "US", or a code is_us reads as foreign
     if WD_US_PREFIX.match(slug) or WD_US_STATE.search(slug):
         return "US"
     for pattern, resolve in (
@@ -280,7 +294,7 @@ def _workday_pass(s, url, c, search):
                 "company": c["name"],
                 "title": j.get("title", ""),
                 "location": j.get("locationsText", ""),
-                "country": workday_country(path),
+                "country": workday_country(path, c.get("slug_country") == "iso2"),
                 "url": f"{prefix}{path}" if path else "",
                 "external_id": j.get("bulletFields", [""])[0] if j.get("bulletFields") else path,
                 "source": "workday",

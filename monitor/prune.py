@@ -4,6 +4,10 @@ jobs.json accumulates; a filter fix only changes what future scans admit, so
 postings that a since-fixed hole let in stay on the dashboard forever. This
 re-applies the *current* location rules to what is already stored.
 
+Postings the scan admitted on a signal it does not store are dropped all the
+same - Ashby's structured address ("North America" with a US address) and a
+US secondary location - so read the dry run before running it for real.
+
 Entries the dashboard owns are never touched: anything whose status has moved
 off "new" is reported and kept, because a posting you have already applied to
 is worth more than a tidy feed.
@@ -25,7 +29,9 @@ def find(jobs: dict) -> tuple[dict, dict]:
         # Workday hides the country behind "N Locations"; the URL slug has it.
         if j.get("source") == "workday":
             country = workday_country(j.get("url", ""))
-            if country and country != "US":
+            if country == "US":
+                continue      # the scan admitted it on the slug ("CT - Hartford")
+            if country:
                 reason = country
         if not reason and not is_us(j.get("location", "")):
             reason = j.get("location", "") or "non-US"

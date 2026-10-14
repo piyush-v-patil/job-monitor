@@ -18,6 +18,7 @@ from monitor.fetchers.generic import workday_country
     "Paris, TX", "Austin", "Lehi", "Boise, ID", "Wilmington, DE",
     "San Francisco, CA, USA", "Remote - US", "Anywhere in the US",
     "Remote U.S.", "Remote, U.S.",       # Vanta, Saronic: periods and all
+    "Remote - California", "Linden, New Jersey", "New Mexico",   # state names
     "New York, NY; London, UK",          # one US site carries the posting
 ])
 def test_us_locations_are_kept(loc):
@@ -54,6 +55,15 @@ def test_workday_country_reads_the_url_slug():
     assert workday_country("/job/GBR---Fleet-UK/SWE_R4") == "United Kingdom"
     assert workday_country("/job/BangaloreIndia/SWE_R5") == "India"
     assert workday_country("/job/Somewhere-Odd/SWE_R6") == ""         # leave it to the heuristics
+
+
+def test_workday_iso2_slugs_are_countries_only_where_the_tenant_says_so():
+    """Visa's "IN---" is India; CVS's "CT---" is Connecticut. Same shape."""
+    assert workday_country("/job/IN---Bengaluru-India/SWE_R1", iso2=True) == "IN"
+    assert workday_country("/job/CO---Bogota-Colombia/SWE_R2", iso2=True) == "CO"
+    assert workday_country("/job/US---Austin-TX/SWE_R3", iso2=True) == "US"
+    assert not F.is_us("IN - Bengaluru, India", country="IN")
+    assert workday_country("/job/CT---Hartford/SWE_R4") == "US"      # CVS, no flag
 
 
 # ---- role and tier ---------------------------------------------------------
