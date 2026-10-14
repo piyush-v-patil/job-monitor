@@ -108,6 +108,13 @@
   <p id="coStats"></p>
   <div id="coList"></div>
 </dialog>
+<dialog id="ordlg" aria-labelledby="orTitle">
+  <div class="co-top">
+    <h3 id="orTitle">Reach out</h3>
+    <button data-or="close">Close</button>
+  </div>
+  <div id="orBody"></div>
+</dialog>
 <div id="toast"></div>
 
 <script>
@@ -118,6 +125,7 @@
 //   data        what the browser fetches, relative to this page
 //   path        the same file's path inside the repo, for writing status back
 //   defaultRole role bucket for a posting whose title names no discipline
+//   managerTitle / recruiterTitle   the people Reach out searches for
 //   tiers       [key, label, hue] in display order; the hues are a
 //               categorical set - keep any replacement >=3:1 on the card
 //               surface and separated in CVD space
@@ -139,9 +147,13 @@ window.TRACKER = {
     "analytics":"Analytics & data science", "program-mgmt":"Program & project management",
     "workforce":"Workforce planning", "supply-chain":"Supply chain (general)",
   },
+  // who the Reach out panel searches for until a draft names the team
+  managerTitle: "supply chain manager",
+  recruiterTitle: "recruiter",
   siblings: [{ href: "index.html", label: "\u2190 Software" }],
 };
 </script>
 <script src="app.js"></script>
+<script src="outreach.js"></script>
 </body>
 </html>
