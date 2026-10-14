@@ -14094,6 +14094,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10515912/software-engineer-i-memberships",
    "yoe": 1
   },
+  "amazon:937012bb8872": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-14",
+   "location": "Boston, Massachusetts, USA",
+   "posted_at": "2026-10-14",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, AWS Transfer Family",
+   "url": "https://www.amazon.jobs/en/jobs/10579169/software-dev-engineer-ii-aws-transfer-family",
+   "yoe": 1
+  },
   "amazon:94d2ad95332c": {
    "company": "Amazon",
    "first_seen": "2026-10-01",
@@ -30243,6 +30258,19 @@
    "tier": "experienced",
    "title": "SDET(Fitness) - Watch Software",
    "url": "https://jobs.apple.com/en-us/details/200685479/sdet-fitness-watch-software"
+  },
+  "apple:6747959f9f9b": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-14",
+   "location": "San Diego",
+   "posted_at": "2026-10-14",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Systems Performance, CoreOS",
+   "url": "https://jobs.apple.com/en-us/details/200687817/software-engineer-systems-performance-coreos"
   },
   "apple:7dbfcb9ff614": {
    "company": "Apple",
@@ -221149,8 +221177,8 @@
    "last_ok": "2026-10-14"
   },
   "Apple": {
-   "best": 163,
-   "last": 163,
+   "best": 164,
+   "last": 164,
    "last_ok": "2026-10-14"
   },
   "Applied Intuition": {
@@ -221501,7 +221529,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 190,
+   "last": 192,
    "last_ok": "2026-10-14"
   },
   "Okta": {
@@ -221631,7 +221659,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 725,
+   "last": 724,
    "last_ok": "2026-10-14"
   },
   "Suno": {
@@ -221732,6 +221760,6 @@
    "last_ok": "2026-10-14"
   }
  },
- "updated": "2026-10-14T19:01:12Z",
+ "updated": "2026-10-14T19:36:53Z",
  "version": 1
 }
