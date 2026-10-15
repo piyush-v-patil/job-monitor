@@ -30571,6 +30571,19 @@
    "title": "Platform & Data Engineer",
    "url": "https://jobs.apple.com/en-us/details/200688542/platform-data-engineer"
   },
+  "apple:19ace2ece84c": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-15",
+   "location": "San Francisco",
+   "posted_at": "2026-10-15",
+   "role": "devops-sre",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "UX and UI Software Engineer — Observability",
+   "url": "https://jobs.apple.com/en-us/details/200689252/ux-and-ui-software-engineer-observability"
+  },
   "apple:1a202d1565d0": {
    "company": "Apple",
    "department": "Hardware",
@@ -31363,6 +31376,19 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer, Apple Services Engineering",
    "url": "https://jobs.apple.com/en-us/details/200687765/machine-learning-engineer-apple-services-engineering"
+  },
+  "apple:be16d6a4d7cb": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-15",
+   "location": "Cupertino",
+   "posted_at": "2026-10-15",
+   "role": "qa-test",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software QA Engineer, Fitness+ Team",
+   "url": "https://jobs.apple.com/en-us/details/200689338/software-qa-engineer-fitness-team"
   },
   "apple:c2061b4f0245": {
    "company": "Apple",
@@ -103851,6 +103877,17 @@
    "title": "Software Engineer III, Infrastructure, Google Cloud Storage Efficiency",
    "url": "https://www.google.com/about/careers/applications/jobs/results/118668882901639878-software-engineer-iii-infrastructure-google-cloud-storage-efficiency"
   },
+  "google:4167eb34b80b": {
+   "company": "Google",
+   "first_seen": "2026-10-15",
+   "location": "Los Angeles, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Home Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/108660636291867334-software-engineer-iii-home-infrastructure"
+  },
   "google:41942a8548c5": {
    "company": "Google",
    "first_seen": "2026-09-22",
@@ -106756,6 +106793,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Embedded Systems/Firmware, Pixel Bootloader",
    "url": "https://www.google.com/about/careers/applications/jobs/results/117387923937993414-software-engineer-embedded-systemsfirmware-pixel-bootloader"
+  },
+  "google:d56b6c29af6e": {
+   "company": "Google",
+   "first_seen": "2026-10-15",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "EMC Test Engineer, Platforms Infrastructure Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/93161920386736838-emc-test-engineer-platforms-infrastructure-engineering"
   },
   "google:d5f0b6fd2d67": {
    "company": "Google",
@@ -225122,7 +225170,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 161,
+   "last": 164,
    "last_ok": "2026-10-15"
   },
   "Applied Intuition": {
@@ -225704,6 +225752,6 @@
    "last_ok": "2026-10-15"
   }
  },
- "updated": "2026-10-15T17:26:56Z",
+ "updated": "2026-10-15T17:51:22Z",
  "version": 1
 }
