@@ -104910,6 +104910,17 @@
    "title": "Software Engineer, On-Device Machine Learning",
    "url": "https://www.google.com/about/careers/applications/jobs/results/130704078123475654-software-engineer-ondevice-machine-learning"
   },
+  "google:972829572ba6": {
+   "company": "Google",
+   "first_seen": "2026-10-15",
+   "location": "Mountain View, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Engineering Productivity, Geo",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/141928645512831686-software-engineer-iii-engineering-productivity-geo"
+  },
   "google:9770a56894e3": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -136022,6 +136033,20 @@
    "tier": "experienced",
    "title": "Site Reliability Engineering- CTJ- Poly",
    "url": "https://www.linkedin.com/jobs/view/4387946613"
+  },
+  "microsoft:7646fa0f2cc0": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-15",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-15",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557026652",
+   "workplace": "On-site"
   },
   "microsoft:7769a61e190b": {
    "company": "Microsoft",
@@ -223559,7 +223584,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 163,
+   "last": 164,
    "last_ok": "2026-10-15"
   },
   "Airtable": {
@@ -223594,7 +223619,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 163,
+   "last": 162,
    "last_ok": "2026-10-15"
   },
   "Applied Intuition": {
@@ -223955,7 +223980,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 804,
+   "last": 805,
    "last_ok": "2026-10-15"
   },
   "OpenEvidence": {
@@ -224176,6 +224201,6 @@
    "last_ok": "2026-10-15"
   }
  },
- "updated": "2026-10-15T05:10:44Z",
+ "updated": "2026-10-15T06:16:19Z",
  "version": 1
 }
