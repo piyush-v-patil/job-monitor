@@ -139976,6 +139976,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393556989677",
    "workplace": "On-site"
   },
+  "microsoft:16e6f2b46536": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-16",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-16",
+   "role": "solutions",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Forward Deployed Engineer",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027406",
+   "workplace": "On-site"
+  },
   "microsoft:19707adae95a": {
    "company": "Microsoft",
    "department": "Software Engineering",
@@ -140113,6 +140127,20 @@
    "tier": "experienced",
    "title": "Software Engineer II - Operating Systems (OS) Software/Hardware Optimization",
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557022343",
+   "workplace": "On-site"
+  },
+  "microsoft:367e89202692": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-16",
+   "location": "Redmond, WA, US; Reston, VA, US",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - CTJ - Poly",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556998440",
    "workplace": "On-site"
   },
   "microsoft:3998fc958d0f": {
@@ -140265,6 +140293,20 @@
    "tier": "experienced",
    "title": "Software Engineer II",
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557040900",
+   "workplace": "On-site"
+  },
+  "microsoft:57281f35ff87": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-16",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557037551",
    "workplace": "On-site"
   },
   "microsoft:57b966d32c09": {
@@ -229740,7 +229782,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 172,
+   "last": 173,
    "last_ok": "2026-10-16"
   },
   "Airtable": {
@@ -229765,7 +229807,7 @@
   },
   "Anthropic": {
    "best": 655,
-   "last": 653,
+   "last": 654,
    "last_ok": "2026-10-16"
   },
   "Anysphere": {
@@ -230086,7 +230128,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 149,
+   "last": 150,
    "last_ok": "2026-10-16"
   },
   "MongoDB": {
@@ -230126,7 +230168,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 191,
+   "last": 190,
    "last_ok": "2026-10-16"
   },
   "Okta": {
@@ -230136,7 +230178,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 808,
+   "last": 810,
    "last_ok": "2026-10-16"
   },
   "OpenEvidence": {
@@ -230357,6 +230399,6 @@
    "last_ok": "2026-10-16"
   }
  },
- "updated": "2026-10-16T21:43:17Z",
+ "updated": "2026-10-16T22:10:27Z",
  "version": 1
 }
