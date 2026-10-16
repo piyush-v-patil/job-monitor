@@ -8425,6 +8425,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10538328/software-development-engineer-ads-nova",
    "yoe": 1
   },
+  "amazon:066f694182d8": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-16",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Network Monitoring and Remediation (NMR) ",
+   "url": "https://www.amazon.jobs/en/jobs/10581627/software-development-engineer-network-monitoring-and-remediation-nmr",
+   "yoe": 1
+  },
   "amazon:06a6da696b73": {
    "company": "Amazon",
    "department": "Software Development",
@@ -12096,6 +12111,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10574814/software-dev-engineer-ii-aws-afx-planning-tools",
    "yoe": 3
   },
+  "amazon:597c8bdb5b76": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-16",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Fulfillment Planning and Execution",
+   "url": "https://www.amazon.jobs/en/jobs/10581621/software-development-engineer-fulfillment-planning-and-execution",
+   "yoe": 1
+  },
   "amazon:59b97c44dea8": {
    "company": "Amazon",
    "first_seen": "2026-10-05",
@@ -12973,6 +13003,21 @@
    "title": "Software Development Engineer, AWS Analytics Engineering",
    "url": "https://www.amazon.jobs/en/jobs/10553986/software-development-engineer-aws-analytics-engineering",
    "yoe": 1
+  },
+  "amazon:6dbb0e5d77fb": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-16",
+   "location": "Arlington, Virginia, USA",
+   "posted_at": "2026-10-16",
+   "role": "devops-sre",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Infrastructure Supply Chain Automation",
+   "url": "https://www.amazon.jobs/en/jobs/10581605/software-dev-engineer-ii-infrastructure-supply-chain-automation",
+   "yoe": 2
   },
   "amazon:6dbc517720b4": {
    "company": "Amazon",
@@ -16743,6 +16788,21 @@
    "title": "Software Dev Engineer II, AWS Discounts",
    "url": "https://www.amazon.jobs/en/jobs/10506771/software-dev-engineer-ii-aws-discounts"
   },
+  "amazon:c563023b620c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-16",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Network Monitoring & Remediation",
+   "url": "https://www.amazon.jobs/en/jobs/10581624/software-development-engineer-network-monitoring-remediation",
+   "yoe": 1
+  },
   "amazon:c57f842dd095": {
    "company": "Amazon",
    "first_seen": "2026-10-15",
@@ -17328,6 +17388,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Creative Asset Library, CreativeX",
    "url": "https://www.amazon.jobs/en/jobs/10519943/software-development-engineer-creative-asset-library-creativex",
+   "yoe": 1
+  },
+  "amazon:d0f8258823e1": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-16",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-16",
+   "role": "devops-sre",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Infrastructure Supply Chain Automation",
+   "url": "https://www.amazon.jobs/en/jobs/10581608/software-development-engineer-aws-infrastructure-supply-chain-automation",
    "yoe": 1
   },
   "amazon:d1b76e73df87": {
@@ -229371,7 +229446,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 731,
+   "last": 730,
    "last_ok": "2026-10-16"
   },
   "Suno": {
@@ -229472,6 +229547,6 @@
    "last_ok": "2026-10-16"
   }
  },
- "updated": "2026-10-16T18:26:49Z",
+ "updated": "2026-10-16T18:55:43Z",
  "version": 1
 }
