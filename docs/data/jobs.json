@@ -31306,6 +31306,19 @@
    "title": "Software Engineer - Journal Team",
    "url": "https://jobs.apple.com/en-us/details/200672753/software-engineer-journal-team"
   },
+  "apple:3d1cd9682ae5": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-16",
+   "location": "Seattle",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Apple Streaming Platform and Solutions",
+   "url": "https://jobs.apple.com/en-us/details/200688626/software-engineer-apple-streaming-platform-and-solutions"
+  },
   "apple:3f49c435d6e2": {
    "company": "Apple",
    "department": "Hardware",
@@ -228401,7 +228414,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 801,
+   "last": 802,
    "last_ok": "2026-10-16"
   },
   "OpenEvidence": {
@@ -228521,7 +228534,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 729,
+   "last": 731,
    "last_ok": "2026-10-16"
   },
   "Suno": {
@@ -228622,6 +228635,6 @@
    "last_ok": "2026-10-16"
   }
  },
- "updated": "2026-10-16T13:37:23Z",
+ "updated": "2026-10-16T14:08:16Z",
  "version": 1
 }
