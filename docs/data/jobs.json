@@ -15177,6 +15177,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10574139/software-development-engineer-finance-technology",
    "yoe": 1
   },
+  "amazon:9cb3ba755b72": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-17",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-10-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Amazon LEO Network Services, LEO Pop",
+   "url": "https://www.amazon.jobs/en/jobs/10582047/software-development-engineer-amazon-leo-network-services-leo-pop",
+   "yoe": 2
+  },
   "amazon:9d208b507dbc": {
    "company": "Amazon",
    "department": "Software Development",
@@ -230845,7 +230860,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 149,
+   "last": 150,
    "last_ok": "2026-10-17"
   },
   "MongoDB": {
@@ -231116,6 +231131,6 @@
    "last_ok": "2026-10-17"
   }
  },
- "updated": "2026-10-17T00:43:52Z",
+ "updated": "2026-10-17T01:26:19Z",
  "version": 1
 }
