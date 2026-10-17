@@ -9613,6 +9613,7 @@
   },
   "applied-materials:b710531cb3e3": {
    "company": "Applied Materials",
+   "employer_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/AustinTX/NPC-Production--Planner-II--B2-_R2629665",
    "first_seen": "2026-10-15",
    "location": "Austin,TX",
    "posted_at": "2026-10-15",
@@ -22960,6 +22961,19 @@
    "title": "Production Controller 1",
    "url": "https://www.linkedin.com/jobs/view/4443439200"
   },
+  "cirrus:e98276ab470b": {
+   "company": "Cirrus",
+   "first_seen": "2026-10-17",
+   "location": "Duluth, MN, USA",
+   "posted_at": "2026-10-16",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Supply Chain Intern",
+   "url": "https://www.linkedin.com/jobs/view/4479623932"
+  },
   "cirtec-medical:e91aedd0d6f6": {
    "checked_at": "2026-10-02",
    "company": "Cirtec Medical",
@@ -26293,6 +26307,19 @@
    "tier": "intern",
    "title": "Integrated Supply Chain Summer Internship Positions",
    "url": "https://www.linkedin.com/jobs/view/4470027810"
+  },
+  "cummins-inc:d8bb2192260b": {
+   "company": "Cummins Inc.",
+   "first_seen": "2026-10-17",
+   "location": "Arlington, TX, USA",
+   "posted_at": "2026-10-16",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Master Production Scheduler",
+   "url": "https://www.linkedin.com/jobs/view/4479384643"
   },
   "cure-consulting-solutions-llc:25cc0c6eac8d": {
    "company": "Cure Consulting Solutions, LLC",
@@ -60772,6 +60799,19 @@
    "title": "Production Scheduler",
    "url": "https://www.linkedin.com/jobs/view/4436409585"
   },
+  "nissan-motor-corporation:7a8e3c2637fc": {
+   "company": "Nissan Motor Corporation",
+   "first_seen": "2026-10-17",
+   "location": "Farmington Hills, MI, USA",
+   "posted_at": "2026-10-16",
+   "role": "procurement",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Exterior Trim Purchasing Intern - Summer 2027 - Farmington Hills, MI",
+   "url": "https://www.linkedin.com/jobs/view/4480396016"
+  },
   "nissan-motor-corporation:d249ea992283": {
    "company": "Nissan Motor Corporation",
    "first_seen": "2026-10-14",
@@ -81211,6 +81251,20 @@
    "title": "Analyst, Procurement Systems and Analytics (Fixed term)",
    "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/San-Antonio-de-Belen-Costa-Rica/Analyst--Procurement-Systems-and-Analytics--Fixed-term-_R572675"
   },
+  "stryker:9828e5a80d63": {
+   "company": "Stryker",
+   "employer_url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/San-Jose-California/Summer-2027-Internship---Supply-Chain---California_R572586",
+   "first_seen": "2026-10-17",
+   "location": "Fremont, CA, USA",
+   "posted_at": "2026-10-16",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Summer 2027 Internship - Supply Chain - California",
+   "url": "https://www.linkedin.com/jobs/view/4479336957"
+  },
   "stryker:aafb184d3f39": {
    "company": "Stryker",
    "first_seen": "2026-09-08",
@@ -88610,6 +88664,19 @@
    "title": "Supply Chain & Inventory Manager",
    "url": "https://www.linkedin.com/jobs/view/4472769100"
   },
+  "under-armour:181774f59fa9": {
+   "company": "Under Armour",
+   "first_seen": "2026-10-17",
+   "location": "Baltimore, MD, USA",
+   "posted_at": "2026-10-17",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sr. Professional, Material Planner",
+   "url": "https://www.linkedin.com/jobs/view/4480807948"
+  },
   "under-armour:29eb62d4d876": {
    "company": "Under Armour",
    "first_seen": "2026-10-02",
@@ -88960,6 +89027,19 @@
    "tier": "mid",
    "title": "Material Planner",
    "url": "https://www.linkedin.com/jobs/view/4473156362"
+  },
+  "unknown:c23b3aac9d7e": {
+   "company": "凯斯纽荷兰(中国)管理有限公司",
+   "first_seen": "2026-10-17",
+   "location": "New Holland, PA, USA",
+   "posted_at": "2026-10-17",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "PLANT PRODUCTION PLANNER",
+   "url": "https://www.linkedin.com/jobs/view/4480806753"
   },
   "unknown:dde47577ded3": {
    "company": "凯斯纽荷兰(中国)管理有限公司",
@@ -97546,7 +97626,7 @@
   },
   "Abbott": {
    "best": 535,
-   "last": 515,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Airbnb": {
@@ -97566,7 +97646,7 @@
   },
   "Applied Materials": {
    "best": 470,
-   "last": 443,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Astranis": {
@@ -97576,17 +97656,17 @@
   },
   "Becton Dickinson": {
    "best": 341,
-   "last": 333,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Boeing": {
    "best": 319,
-   "last": 303,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "CVS Health": {
    "best": 346,
-   "last": 344,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Carvana": {
@@ -97606,7 +97686,7 @@
   },
   "DoorDash": {
    "best": 468,
-   "last": 454,
+   "last": 456,
    "last_ok": "2026-10-17"
   },
   "Duolingo": {
@@ -97625,13 +97705,13 @@
    "last_ok": "2026-10-17"
   },
   "Formlabs": {
-   "best": 241,
-   "last": 240,
+   "best": 242,
+   "last": 242,
    "last_ok": "2026-10-17"
   },
   "General Mills": {
    "best": 251,
-   "last": 248,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Glossier": {
@@ -97641,7 +97721,7 @@
   },
   "Google": {
    "best": 204,
-   "last": 202,
+   "last": 203,
    "last_ok": "2026-10-17"
   },
   "Gusto": {
@@ -97651,7 +97731,7 @@
   },
   "Illumina": {
    "best": 127,
-   "last": 122,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Instacart": {
@@ -97661,12 +97741,12 @@
   },
   "Land O'Lakes": {
    "best": 138,
-   "last": 132,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "LinkedIn (JobSpy)": {
    "best": 738,
-   "last": 322,
+   "last": 283,
    "last_ok": "2026-10-17"
   },
   "Liquid Death": {
@@ -97686,12 +97766,12 @@
   },
   "Medtronic": {
    "best": 451,
-   "last": 431,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Micron": {
    "best": 318,
-   "last": 306,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Misfits Market": {
@@ -97701,12 +97781,12 @@
   },
   "Mondelez": {
    "best": 459,
-   "last": 453,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Nike": {
    "best": 182,
-   "last": 158,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Nuro": {
@@ -97716,7 +97796,7 @@
   },
   "Nvidia": {
    "best": 307,
-   "last": 304,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Olipop": {
@@ -97741,12 +97821,12 @@
   },
   "PepsiCo": {
    "best": 319,
-   "last": 279,
+   "last": 278,
    "last_ok": "2026-10-17"
   },
   "Pinterest": {
    "best": 188,
-   "last": 157,
+   "last": 156,
    "last_ok": "2026-10-17"
   },
   "Samsara": {
@@ -97771,12 +97851,12 @@
   },
   "Stryker": {
    "best": 411,
-   "last": 408,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Target": {
    "best": 445,
-   "last": 356,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Thrive Market": {
@@ -97786,12 +97866,12 @@
   },
   "Tyson Foods": {
    "best": 133,
-   "last": 126,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Unilever": {
    "best": 204,
-   "last": 177,
+   "last": 0,
    "last_ok": "2026-10-17"
   },
   "Verkada": {
@@ -97801,7 +97881,7 @@
   },
   "Walmart Global Tech": {
    "best": 268,
-   "last": 219,
+   "last": 217,
    "last_ok": "2026-10-17"
   },
   "Waymo": {
@@ -97811,10 +97891,10 @@
   },
   "Zebra Technologies": {
    "best": 125,
-   "last": 119,
+   "last": 0,
    "last_ok": "2026-10-17"
   }
  },
- "updated": "2026-10-17T03:28:01Z",
+ "updated": "2026-10-17T08:25:33Z",
  "version": 1
 }
