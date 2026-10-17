@@ -12445,6 +12445,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10562411/software-development-engineer-amazon-shopping-videos-ads",
    "yoe": 1
   },
+  "amazon:5f641b2f77d3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-17",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ML Compiler Engineer, Neuron Kernel Interface",
+   "url": "https://www.amazon.jobs/en/jobs/10582059/ml-compiler-engineer-neuron-kernel-interface",
+   "yoe": 1
+  },
   "amazon:5f66df0e0793": {
    "company": "Amazon",
    "department": "Software Development",
@@ -231291,7 +231306,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 0,
+   "last": 190,
    "last_ok": "2026-10-17"
   },
   "Okta": {
@@ -231522,6 +231537,6 @@
    "last_ok": "2026-10-17"
   }
  },
- "updated": "2026-10-17T07:42:16Z",
+ "updated": "2026-10-17T11:42:56Z",
  "version": 1
 }
