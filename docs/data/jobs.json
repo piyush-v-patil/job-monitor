@@ -13194,6 +13194,7 @@
   "amazon:70d77bdb5703": {
    "company": "Amazon",
    "department": "Software Development",
+   "employer_url": "https://www.amazon.jobs/en/jobs/10559762/software-development-engineer-intern-amazon-leo-summer-2027-usa",
    "employment_type": "Full-time",
    "first_seen": "2026-09-24",
    "location": "Redmond, Washington, USA",
@@ -48072,6 +48073,19 @@
    "tier": "experienced",
    "title": "Platform Engineer",
    "url": "https://www.linkedin.com/jobs/view/4454594333"
+  },
+  "booz-allen-hamilton:48ef81110799": {
+   "company": "Booz Allen Hamilton",
+   "first_seen": "2026-10-17",
+   "location": "McLean, VA, USA",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ServiceNow Developer, Junior",
+   "url": "https://www.linkedin.com/jobs/view/4480555507"
   },
   "booz-allen-hamilton:497fc3352d26": {
    "company": "Booz Allen Hamilton",
@@ -92053,6 +92067,19 @@
    "tier": "experienced",
    "title": "Software Engineer, Security Focus",
    "url": "https://www.linkedin.com/jobs/view/4477469799"
+  },
+  "evlo-ai:021b7c34b10c": {
+   "company": "Evlo AI",
+   "first_seen": "2026-10-17",
+   "location": "Atlanta, GA, USA",
+   "posted_at": "2026-10-17",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4479686593"
   },
   "evlo-ai:08bfdde9c817": {
    "company": "Evlo AI",
@@ -163656,6 +163683,19 @@
    "title": "Software Intern - Summer 2027",
    "url": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388"
   },
+  "particle-measuring-systems:24904a357c44": {
+   "company": "Particle Measuring Systems",
+   "first_seen": "2026-10-17",
+   "location": "Niwot, CO, USA",
+   "posted_at": "2026-10-17",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4454340882"
+  },
   "partify:428378e00aba": {
    "company": "Partify",
    "first_seen": "2026-09-29",
@@ -169666,6 +169706,19 @@
    "tier": "newgrad",
    "title": "Software Engineer New Grad",
    "url": "https://job-boards.greenhouse.io/purestorage/jobs/8249851"
+  },
+  "pure:bf02ae9957af": {
+   "company": "Pure",
+   "first_seen": "2026-10-17",
+   "location": "New York, USA",
+   "posted_at": "2026-10-17",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4479633391"
   },
   "purple-wave-auction:f090496e601d": {
    "company": "Purple Wave Auction",
@@ -180808,6 +180861,19 @@
    "tier": "intern",
    "title": "Software Development Intern",
    "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Software-Development_R0020822-1"
+  },
+  "ryan:ae5a79087b01": {
+   "company": "Ryan",
+   "first_seen": "2026-10-17",
+   "location": "Plano, TX, USA",
+   "posted_at": "2026-10-17",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Summer 2027 Intern, Software Development",
+   "url": "https://www.linkedin.com/jobs/view/4479636648"
   },
   "ryan:e793a003ab89": {
    "company": "Ryan",
@@ -224102,6 +224168,7 @@
   },
   "waymo:01aed574fd69": {
    "company": "Waymo",
+   "employer_url": "https://careers.withwaymo.com/jobs?gh_jid=8224900",
    "first_seen": "2026-09-25",
    "location": "Mountain View, CA, USA",
    "posted_at": "2026-09-25",
@@ -231165,7 +231232,7 @@
   },
   "Anthropic": {
    "best": 656,
-   "last": 656,
+   "last": 655,
    "last_ok": "2026-10-17"
   },
   "Anysphere": {
@@ -231185,7 +231252,7 @@
   },
   "Applied Materials": {
    "best": 194,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-10-17"
   },
   "Asana": {
@@ -231286,7 +231353,7 @@
   },
   "DTCC": {
    "best": 456,
-   "last": 452,
+   "last": 451,
    "last_ok": "2026-10-17"
   },
   "Databricks": {
@@ -231451,7 +231518,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 1125,
-   "last": 450,
+   "last": 463,
    "last_ok": "2026-10-17"
   },
   "Lyft": {
@@ -231536,7 +231603,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 815,
+   "last": 814,
    "last_ok": "2026-10-17"
   },
   "OpenEvidence": {
@@ -231606,7 +231673,7 @@
   },
   "Roblox": {
    "best": 267,
-   "last": 262,
+   "last": 263,
    "last_ok": "2026-10-17"
   },
   "Salesforce": {
@@ -231616,7 +231683,7 @@
   },
   "Samsara": {
    "best": 273,
-   "last": 260,
+   "last": 259,
    "last_ok": "2026-10-17"
   },
   "Scale AI": {
@@ -231631,7 +231698,7 @@
   },
   "Simplify Aggregator": {
    "best": 2489,
-   "last": 2189,
+   "last": 2187,
    "last_ok": "2026-10-17"
   },
   "Snowflake": {
@@ -231646,7 +231713,7 @@
   },
   "SpaceX": {
    "best": 2773,
-   "last": 2773,
+   "last": 2772,
    "last_ok": "2026-10-17"
   },
   "Spotify": {
@@ -231656,7 +231723,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 731,
+   "last": 732,
    "last_ok": "2026-10-17"
   },
   "Suno": {
@@ -231687,7 +231754,7 @@
   },
   "Trimble": {
    "best": 145,
-   "last": 141,
+   "last": 139,
    "last_ok": "2026-10-17"
   },
   "Twilio": {
@@ -231728,12 +231795,12 @@
   },
   "Visa": {
    "best": 180,
-   "last": 178,
+   "last": 179,
    "last_ok": "2026-10-17"
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 78,
+   "last": 73,
    "last_ok": "2026-10-17"
   },
   "Waymo": {
@@ -231757,6 +231824,6 @@
    "last_ok": "2026-10-17"
   }
  },
- "updated": "2026-10-17T12:24:22Z",
+ "updated": "2026-10-17T15:54:34Z",
  "version": 1
 }
