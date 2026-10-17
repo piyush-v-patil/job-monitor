@@ -32706,6 +32706,19 @@
    "title": "OS Software Engineer, Evaluation",
    "url": "https://jobs.apple.com/en-us/details/200688625/os-software-engineer-evaluation"
   },
+  "apple:f266898c6a31": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-17",
+   "location": "Cupertino",
+   "posted_at": "2026-10-17",
+   "role": "data",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist - Intelligent Experiences, MLO",
+   "url": "https://jobs.apple.com/en-us/details/200687787/data-scientist-intelligent-experiences-mlo"
+  },
   "apple:f3122c492343": {
    "company": "Apple",
    "department": "Software and Services",
@@ -106138,6 +106151,17 @@
    "title": "Data Engineer",
    "url": "https://www.google.com/about/careers/applications/jobs/results/99826183842996934-data-engineer"
   },
+  "google:2b0eebed26c9": {
+   "company": "Google",
+   "first_seen": "2026-10-17",
+   "location": "Addison, TX, USA; Austin, TX, USA; +3 more; +2 more",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Agentic Data Cloud Database Engineer, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/118659423236170438-agentic-data-cloud-database-engineer-google-cloud"
+  },
   "google:2b8050620398": {
    "company": "Google",
    "first_seen": "2026-10-09",
@@ -141025,6 +141049,20 @@
    "title": "Software Engineer - CTJ - Poly",
    "url": "https://www.linkedin.com/jobs/view/4430456092"
   },
+  "microsoft:9d775222a3ab": {
+   "company": "Microsoft",
+   "department": "Data Engineering",
+   "first_seen": "2026-10-17",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-17",
+   "role": "data",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557022579",
+   "workplace": "On-site"
+  },
   "microsoft:a206b75aacfe": {
    "company": "Microsoft",
    "department": "Software Engineering",
@@ -145418,6 +145456,20 @@
    "tier": "experienced",
    "title": "Software Engineer 5 - Ads Authorization (AuthZ) Platform",
    "url": "https://explore.jobs.netflix.net/careers/job/790318497409",
+   "workplace": "On-site"
+  },
+  "netflix:4989737cc8ad": {
+   "company": "Netflix",
+   "department": "Engineering",
+   "first_seen": "2026-10-17",
+   "location": "Remote, United States",
+   "posted_at": "2026-08-21",
+   "role": "mobile",
+   "source": "eightfold",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer 5 - iOS",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318041034",
    "workplace": "On-site"
   },
   "netflix:4b2528c6aa33": {
@@ -230538,8 +230590,8 @@
    "last_ok": "2026-10-17"
   },
   "Anthropic": {
-   "best": 655,
-   "last": 655,
+   "best": 656,
+   "last": 656,
    "last_ok": "2026-10-17"
   },
   "Anysphere": {
@@ -230900,7 +230952,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 191,
+   "last": 190,
    "last_ok": "2026-10-17"
   },
   "Okta": {
@@ -231131,6 +231183,6 @@
    "last_ok": "2026-10-17"
   }
  },
- "updated": "2026-10-17T01:26:19Z",
+ "updated": "2026-10-17T05:59:20Z",
  "version": 1
 }
