@@ -62109,6 +62109,19 @@
    "title": "Production Controller 3",
    "url": "https://www.linkedin.com/jobs/view/4471841705"
   },
+  "northrop-grumman:88a32decb0d0": {
+   "company": "Northrop Grumman",
+   "first_seen": "2026-10-18",
+   "location": "San Diego, CA, USA",
+   "posted_at": "2026-10-18",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Production Planner - Level 2/3",
+   "url": "https://www.linkedin.com/jobs/view/4480869211"
+  },
   "northrop-grumman:9dd819b81732": {
    "checked_at": "2026-10-02",
    "company": "Northrop Grumman",
@@ -95335,6 +95348,21 @@
    "title": "(USA) Senior Manager, Supply Chain Management",
    "url": "https://careers.walmart.com/us/en/job/R-2638392"
   },
+  "walmart-global-tech:eca8a178d326": {
+   "comp": "$24 - $27 Hourly",
+   "company": "Walmart Global Tech",
+   "department": "Supply Chain and Transportation",
+   "employment_type": "Full time",
+   "first_seen": "2026-10-18",
+   "location": "Lumberton, NC",
+   "posted_at": "2026-09-21",
+   "role": "logistics",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "(USA) Lead, Operations (All Distribution/Fulfillment Centers) - Logistics",
+   "url": "https://careers.walmart.com/us/en/job/R-2653681"
+  },
   "walmart-global-tech:ecc74db8237f": {
    "comp": "$116,000 - $174,000 Annual",
    "company": "Walmart Global Tech",
@@ -98808,7 +98836,7 @@
   },
   "Google": {
    "best": 204,
-   "last": 203,
+   "last": 202,
    "last_ok": "2026-10-18"
   },
   "Gusto": {
@@ -98833,7 +98861,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 738,
-   "last": 614,
+   "last": 218,
    "last_ok": "2026-10-18"
   },
   "Liquid Death": {
@@ -98868,7 +98896,7 @@
   },
   "Mondelez": {
    "best": 459,
-   "last": 455,
+   "last": 454,
    "last_ok": "2026-10-18"
   },
   "Nike": {
@@ -98893,7 +98921,7 @@
   },
   "OpenAI": {
    "best": 840,
-   "last": 814,
+   "last": 813,
    "last_ok": "2026-10-18"
   },
   "Oura": {
@@ -98918,7 +98946,7 @@
   },
   "Samsara": {
    "best": 273,
-   "last": 262,
+   "last": 261,
    "last_ok": "2026-10-18"
   },
   "Saronic": {
@@ -98928,7 +98956,7 @@
   },
   "SpaceX": {
    "best": 2773,
-   "last": 2765,
+   "last": 2764,
    "last_ok": "2026-10-18"
   },
   "Stripe": {
@@ -98968,7 +98996,7 @@
   },
   "Walmart Global Tech": {
    "best": 268,
-   "last": 195,
+   "last": 248,
    "last_ok": "2026-10-18"
   },
   "Waymo": {
@@ -98982,6 +99010,6 @@
    "last_ok": "2026-10-18"
   }
  },
- "updated": "2026-10-18T00:00:29Z",
+ "updated": "2026-10-18T03:28:10Z",
  "version": 1
 }
