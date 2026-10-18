@@ -21838,6 +21838,7 @@
   "american-express:2c4c05f28e31": {
    "checked_at": "2026-10-02",
    "company": "American Express",
+   "employer_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012945",
    "first_seen": "2026-09-25",
    "location": "Charlotte, NC",
    "posted_at": "2026-09-23",
@@ -21945,6 +21946,7 @@
   "american-express:4057d260b4d2": {
    "checked_at": "2026-10-02",
    "company": "American Express",
+   "employer_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013256",
    "first_seen": "2026-09-23",
    "location": "Palo Alto, CA",
    "posted_at": "2026-09-23",
@@ -23184,6 +23186,19 @@
    "tier": "experienced",
    "title": "Cloud Engineer",
    "url": "https://www.linkedin.com/jobs/view/4452181425"
+  },
+  "amoha-recruitment-services-llc:ac6718ca883b": {
+   "company": "Amoha Recruitment Services LLC",
+   "first_seen": "2026-10-18",
+   "location": "Chicago, IL, USA",
+   "posted_at": "2026-10-15",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cloud Security Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4477317808"
   },
   "ampcus-inc:3d1f88c38feb": {
    "checked_at": "2026-10-02",
@@ -39265,8 +39280,7 @@
    "company": "BAE Systems, Inc.",
    "first_seen": "2026-09-27",
    "location": "Fort Walton Beach, FL",
-   "posted_approx": true,
-   "posted_at": "2026-09-27",
+   "posted_at": "2026-10-18",
    "role": "ml-ai",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
@@ -72123,6 +72137,19 @@
    "title": "DevOps Engineer",
    "url": "https://www.linkedin.com/jobs/view/4467595766"
   },
+  "citi:66ea667d3631": {
+   "company": "Citi",
+   "first_seen": "2026-10-18",
+   "location": "Tampa, FL, USA",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Developer, Officer",
+   "url": "https://www.linkedin.com/jobs/view/4479642238"
+  },
   "citi:709728ef557d": {
    "company": "Citi",
    "first_seen": "2026-10-04",
@@ -76283,6 +76310,19 @@
    "tier": "intern",
    "title": "Digital Services Web and Mobile Developer Intern",
    "url": "https://spectrumhealth.wd5.myworkdayjobs.com/CorewellHealthCareers/job/Grand-Rapids-MI/Digital-Services-Web-and-Mobile-Development-Internship-Summer-2027_R224434"
+  },
+  "corewell-health:da026d8f5439": {
+   "company": "Corewell Health",
+   "first_seen": "2026-10-18",
+   "location": "Grand Rapids, MI, USA",
+   "posted_at": "2026-10-18",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4479936553"
   },
   "corewell-health:e0c6fdd6486b": {
    "company": "Corewell Health",
@@ -81206,6 +81246,19 @@
    "tier": "experienced",
    "title": "DevOps Engineer 3 with Security Clearance",
    "url": "https://www.linkedin.com/jobs/view/4474198378"
+  },
+  "dci-solutions:2a0aa12e9caf": {
+   "company": "DCI Solutions",
+   "first_seen": "2026-10-18",
+   "location": "Fort Meade, MD, USA",
+   "posted_at": "2026-10-17",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cybersecurity Engineer (MS Defender) with Security Clearance",
+   "url": "https://www.linkedin.com/jobs/view/4480895886"
   },
   "dcs-corp:cc8146e6a520": {
    "checked_at": "2026-10-02",
@@ -98038,8 +98091,7 @@
    "company": "Flexcompute",
    "first_seen": "2026-09-24",
    "location": "Watertown, MA",
-   "posted_approx": true,
-   "posted_at": "2026-09-24",
+   "posted_at": "2026-10-16",
    "role": "security",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
@@ -98813,6 +98865,19 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4428117191"
+  },
+  "ford-motor-company:ca77018fb7a9": {
+   "company": "Ford Motor Company",
+   "first_seen": "2026-10-18",
+   "location": "Dearborn, MI, USA",
+   "posted_at": "2026-10-16",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Cybersecurity Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4480558960"
   },
   "ford-motor-company:d66d5e064c7b": {
    "company": "Ford Motor Company",
@@ -102829,6 +102894,19 @@
    "title": "Software Development Intern",
    "url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406-1"
   },
+  "general-dynamics-information-technology:92be29eb9a69": {
+   "company": "General Dynamics Information Technology",
+   "first_seen": "2026-10-18",
+   "location": "Springfield, VA, USA",
+   "posted_at": "2026-10-15",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cloud Engineer, Jr.",
+   "url": "https://www.linkedin.com/jobs/view/4480135922"
+  },
   "general-dynamics-information-technology:975b34a20b62": {
    "checked_at": "2026-10-02",
    "company": "General Dynamics Information Technology",
@@ -104970,6 +105048,19 @@
    "tier": "newgrad",
    "title": "Software Engineer I / II",
    "url": "https://www.linkedin.com/jobs/view/4374838577"
+  },
+  "giga:6a66996ded14": {
+   "company": "Giga",
+   "first_seen": "2026-10-18",
+   "location": "San Francisco, CA, USA",
+   "posted_at": "2026-10-17",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4376158393"
   },
   "gigatec-engineering:9b3fc3865e76": {
    "company": "GIGATEC Engineering",
@@ -118876,6 +118967,19 @@
    "title": "20178 - Security Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4394214253"
   },
+  "hyundai-autoever-america:f3774ba47ba0": {
+   "company": "Hyundai AutoEver America",
+   "first_seen": "2026-10-18",
+   "location": "Savannah, GA, USA",
+   "posted_at": "2026-10-16",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer III - ( Infrastructure Operations )",
+   "url": "https://www.linkedin.com/jobs/view/4405988087"
+  },
   "hyve-solutions:f373a48eef41": {
    "company": "Hyve Solutions",
    "first_seen": "2026-08-21",
@@ -129650,8 +129754,7 @@
    "company": "JPMorganChase",
    "first_seen": "2026-09-27",
    "location": "Columbus, OH",
-   "posted_approx": true,
-   "posted_at": "2026-09-27",
+   "posted_at": "2026-10-18",
    "role": "devops-sre",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
@@ -136097,6 +136200,19 @@
    "title": "Software Engineer Intern - Summer 2027",
    "url": "https://www.linkedin.com/jobs/view/4476670295"
   },
+  "lockheed-martin:51cfad82f50f": {
+   "company": "Lockheed Martin",
+   "first_seen": "2026-10-18",
+   "location": "King of Prussia, PA, USA",
+   "posted_at": "2026-10-16",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "A/AI Machine Learning Engineering Asc - Early Career",
+   "url": "https://www.linkedin.com/jobs/view/4477703207"
+  },
   "lockheed-martin:5d17a8ac2539": {
    "company": "Lockheed Martin",
    "first_seen": "2026-09-25",
@@ -137498,6 +137614,7 @@
   },
   "lyft:d55ba426625f": {
    "company": "Lyft",
+   "employer_url": "https://app.careerpuck.com/job-board/lyft/job/8688633002?gh_jid=8688633002",
    "first_seen": "2026-09-26",
    "location": "San Francisco County, CA",
    "posted_at": "2026-09-26",
@@ -193244,6 +193361,7 @@
   },
   "spacex:155daec648ca": {
    "company": "SpaceX",
+   "employer_url": "https://boards.greenhouse.io/spacex/jobs/8784792002?gh_jid=8784792002",
    "first_seen": "2026-09-05",
    "location": "Hawthorne, CA",
    "posted_at": "2026-09-04",
@@ -196540,6 +196658,7 @@
   },
   "spacex:c5b167c7bc12": {
    "company": "SpaceX",
+   "employer_url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
    "first_seen": "2026-08-20",
    "location": "Redmond, WA",
    "posted_at": "2026-08-14",
@@ -196685,6 +196804,7 @@
   },
   "spacex:cbcf329a378c": {
    "company": "SpaceX",
+   "employer_url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
    "first_seen": "2026-08-20",
    "location": "Bastrop, TX",
    "posted_at": "2026-08-14",
@@ -197313,6 +197433,7 @@
   },
   "spacex:e67a05ac02d0": {
    "company": "SpaceX",
+   "employer_url": "https://boards.greenhouse.io/spacex/jobs/8783265002?gh_jid=8783265002",
    "first_seen": "2026-09-04",
    "location": "Redmond, WA",
    "posted_at": "2026-09-04",
@@ -211107,6 +211228,19 @@
    "title": "Software Engineer, Data Foundation – USDS",
    "url": "https://www.linkedin.com/jobs/view/4473927793"
   },
+  "tiktok-usds-joint-venture:b4b3c95083fd": {
+   "company": "TikTok USDS Joint Venture",
+   "first_seen": "2026-10-18",
+   "location": "Seattle, WA, USA",
+   "posted_at": "2026-10-16",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, E-Commerce Risk Control - USDS",
+   "url": "https://www.linkedin.com/jobs/view/4480534118"
+  },
   "tiktok-usds-joint-venture:b53b10de2345": {
    "company": "TikTok USDS Joint Venture",
    "first_seen": "2026-09-26",
@@ -215933,6 +216067,20 @@
    "url": "https://www.linkedin.com/jobs/view/4479759781",
    "workplace": "Remote"
   },
+  "torentify:56b2a6d80050": {
+   "company": "Torentify",
+   "first_seen": "2026-10-18",
+   "location": "USA",
+   "posted_at": "2026-10-18",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (Remote)",
+   "url": "https://www.linkedin.com/jobs/view/4480913148",
+   "workplace": "Remote"
+  },
   "torentify:5919b51f58d3": {
    "company": "Torentify",
    "first_seen": "2026-10-11",
@@ -218054,6 +218202,32 @@
    "tier": "experienced",
    "title": "Application Security Engineer",
    "url": "https://www.linkedin.com/jobs/view/4476121235"
+  },
+  "truist:31d314b205c2": {
+   "company": "Truist",
+   "first_seen": "2026-10-18",
+   "location": "Atlanta, GA, USA",
+   "posted_at": "2026-10-15",
+   "role": "security",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Application Security Engineer (Hands-On Secure Coding)",
+   "url": "https://www.linkedin.com/jobs/view/4479825994"
+  },
+  "truist:32a9315148b3": {
+   "company": "Truist",
+   "first_seen": "2026-10-18",
+   "location": "Charlotte, NC, USA",
+   "posted_at": "2026-10-16",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer (Data Engineering/ Protection)",
+   "url": "https://www.linkedin.com/jobs/view/4480540582"
   },
   "truist:45ad6a2f3cf5": {
    "company": "Truist",
@@ -233731,12 +233905,12 @@
   },
   "American Express": {
    "best": 500,
-   "last": 476,
+   "last": 474,
    "last_ok": "2026-10-18"
   },
   "Anduril": {
    "best": 2539,
-   "last": 2536,
+   "last": 2535,
    "last_ok": "2026-10-18"
   },
   "Anthropic": {
@@ -233761,7 +233935,7 @@
   },
   "Applied Materials": {
    "best": 194,
-   "last": 193,
+   "last": 192,
    "last_ok": "2026-10-18"
   },
   "Asana": {
@@ -233811,7 +233985,7 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 157,
+   "last": 156,
    "last_ok": "2026-10-18"
   },
   "Carta": {
@@ -233847,7 +234021,7 @@
   },
   "Cloudflare": {
    "best": 448,
-   "last": 434,
+   "last": 433,
    "last_ok": "2026-10-18"
   },
   "Cognition": {
@@ -233922,7 +234096,7 @@
   },
   "Expedia Group": {
    "best": 134,
-   "last": 133,
+   "last": 130,
    "last_ok": "2026-10-18"
   },
   "Faire": {
@@ -233932,7 +234106,7 @@
   },
   "Fidelity National Information Services": {
    "best": 183,
-   "last": 171,
+   "last": 172,
    "last_ok": "2026-10-18"
   },
   "Figma": {
@@ -234027,7 +234201,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 1205,
-   "last": 969,
+   "last": 1095,
    "last_ok": "2026-10-18"
   },
   "Lyft": {
@@ -234041,8 +234215,8 @@
    "last_ok": "2026-09-01"
   },
   "Mastercard": {
-   "best": 178,
-   "last": 178,
+   "best": 179,
+   "last": 179,
    "last_ok": "2026-10-18"
   },
   "Match Group": {
@@ -234167,7 +234341,7 @@
   },
   "Reddit": {
    "best": 156,
-   "last": 146,
+   "last": 145,
    "last_ok": "2026-10-18"
   },
   "Replit": {
@@ -234187,7 +234361,7 @@
   },
   "Salesforce": {
    "best": 178,
-   "last": 160,
+   "last": 159,
    "last_ok": "2026-10-18"
   },
   "Samsara": {
@@ -234258,7 +234432,7 @@
   },
   "The Walt Disney Company": {
    "best": 167,
-   "last": 159,
+   "last": 157,
    "last_ok": "2026-10-18"
   },
   "Trimble": {
@@ -234309,7 +234483,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 81,
+   "last": 79,
    "last_ok": "2026-10-18"
   },
   "Waymo": {
@@ -234333,6 +234507,6 @@
    "last_ok": "2026-10-18"
   }
  },
- "updated": "2026-10-18T16:44:17Z",
+ "updated": "2026-10-18T18:58:28Z",
  "version": 1
 }
