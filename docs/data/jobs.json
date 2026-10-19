@@ -31403,6 +31403,18 @@
    "title": "Software Engineer, Beneficial Deployments ",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4942024008"
   },
+  "anthropic:f1ee31e2a88a": {
+   "company": "Anthropic",
+   "first_seen": "2026-10-19",
+   "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
+   "posted_at": "2026-10-19",
+   "role": "devops-sre",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "IT Systems Engineer, Client Platform Engineer, ChromeOS",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456018008"
+  },
   "anthropic:f3e62fb53e42": {
    "company": "Anthropic",
    "first_seen": "2026-09-04",
@@ -237337,8 +237349,8 @@
    "last_ok": "2026-10-19"
   },
   "Anthropic": {
-   "best": 664,
-   "last": 664,
+   "best": 665,
+   "last": 665,
    "last_ok": "2026-10-19"
   },
   "Anysphere": {
@@ -237348,7 +237360,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 156,
+   "last": 158,
    "last_ok": "2026-10-19"
   },
   "Applied Intuition": {
@@ -237709,7 +237721,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 804,
+   "last": 805,
    "last_ok": "2026-10-19"
   },
   "OpenEvidence": {
@@ -237829,7 +237841,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 725,
+   "last": 726,
    "last_ok": "2026-10-19"
   },
   "Suno": {
@@ -237930,6 +237942,6 @@
    "last_ok": "2026-10-19"
   }
  },
- "updated": "2026-10-19T20:08:19Z",
+ "updated": "2026-10-19T20:41:04Z",
  "version": 1
 }
