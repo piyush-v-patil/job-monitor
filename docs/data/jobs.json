@@ -12077,6 +12077,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10530552/software-dev-engineer-aws-elastic-container-service",
    "yoe": 1
   },
+  "amazon:4d76548d2598": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-19",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-19",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, International Seller Growth",
+   "url": "https://www.amazon.jobs/en/jobs/10582292/software-development-engineer-international-seller-growth",
+   "yoe": 1
+  },
   "amazon:4da37cc67920": {
    "company": "Amazon",
    "first_seen": "2026-10-14",
@@ -30933,6 +30948,18 @@
    "tier": "experienced",
    "title": "Platform Security Engineering, Operating Systems ",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5290426008"
+  },
+  "anthropic:c82f3b02310b": {
+   "company": "Anthropic",
+   "first_seen": "2026-10-19",
+   "location": "New York City, NY; New York City, NY | Seattle, WA; Remote-Friendly, United States; San Francisco, CA | New York City, NY | Seattle, WA",
+   "posted_at": "2026-10-19",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Memory & Search",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456453008"
   },
   "anthropic:caeabafb82d3": {
    "company": "Anthropic",
@@ -235221,8 +235248,8 @@
    "last_ok": "2026-10-19"
   },
   "Anthropic": {
-   "best": 656,
-   "last": 656,
+   "best": 657,
+   "last": 657,
    "last_ok": "2026-10-19"
   },
   "Anysphere": {
@@ -235713,7 +235740,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 730,
+   "last": 729,
    "last_ok": "2026-10-19"
   },
   "Suno": {
@@ -235814,6 +235841,6 @@
    "last_ok": "2026-10-19"
   }
  },
- "updated": "2026-10-19T05:16:12Z",
+ "updated": "2026-10-19T06:37:09Z",
  "version": 1
 }
