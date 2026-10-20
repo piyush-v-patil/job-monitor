@@ -33639,6 +33639,19 @@
    "title": "Software Engineer, Siri User Experiences",
    "url": "https://jobs.apple.com/en-us/details/200687375/software-engineer-siri-user-experiences"
   },
+  "apple:548c35c8db59": {
+   "company": "Apple",
+   "department": "Operations and Supply Chain",
+   "first_seen": "2026-10-20",
+   "location": "Sunnyvale",
+   "posted_at": "2026-10-20",
+   "role": "data",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer, Operations Finance ",
+   "url": "https://jobs.apple.com/en-us/details/200688811/data-engineer-operations-finance"
+  },
   "apple:571cf8cb5708": {
    "company": "Apple",
    "department": "Hardware",
@@ -147498,6 +147511,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393556995345",
    "workplace": "On-site"
   },
+  "microsoft:0a24b60f303a": {
+   "company": "Microsoft",
+   "department": "Service Engineering",
+   "first_seen": "2026-10-20",
+   "location": "Quincy, WA, US",
+   "posted_at": "2026-10-20",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Critical Environment Industrial Control Systems Engineer",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041509",
+   "workplace": "On-site"
+  },
   "microsoft:0a72ed5d5cd3": {
    "company": "Microsoft",
    "first_seen": "2026-09-29",
@@ -241564,7 +241591,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 181,
+   "last": 180,
    "last_ok": "2026-10-20"
   },
   "Airtable": {
@@ -241588,8 +241615,8 @@
    "last_ok": "2026-10-20"
   },
   "Anthropic": {
-   "best": 669,
-   "last": 669,
+   "best": 670,
+   "last": 670,
    "last_ok": "2026-10-20"
   },
   "Anysphere": {
@@ -241599,7 +241626,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 156,
+   "last": 157,
    "last_ok": "2026-10-20"
   },
   "Applied Intuition": {
@@ -241815,7 +241842,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 99,
+   "last": 100,
    "last_ok": "2026-10-20"
   },
   "Gusto": {
@@ -241960,7 +241987,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 804,
+   "last": 805,
    "last_ok": "2026-10-20"
   },
   "OpenEvidence": {
@@ -242181,6 +242208,6 @@
    "last_ok": "2026-10-20"
   }
  },
- "updated": "2026-10-20T17:35:00Z",
+ "updated": "2026-10-20T18:04:48Z",
  "version": 1
 }
