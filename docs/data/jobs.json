@@ -32086,6 +32086,18 @@
    "title": "Machine Learning Infrastructure Engineer, Safeguards Research",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5364804008"
   },
+  "anthropic:98c7bd040cfb": {
+   "company": "Anthropic",
+   "first_seen": "2026-10-21",
+   "location": "San Francisco, CA",
+   "posted_at": "2026-10-21",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Chip Design RL",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459098008"
+  },
   "anthropic:9a8284298cb2": {
    "company": "Anthropic",
    "first_seen": "2026-08-22",
@@ -166629,6 +166641,22 @@
    "url": "https://jobs.ashbyhq.com/openai/f5dfd3aa-3bf6-49e2-b780-0da281a21533",
    "yoe": 5
   },
+  "openai:41a77eb90e3a": {
+   "comp": "$207K – $230K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Product Policy",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-21",
+   "location": "San Francisco",
+   "posted_at": "2026-10-21",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied Scientist, Product Policy",
+   "url": "https://jobs.ashbyhq.com/openai/6ef9babb-e210-496f-a004-fed919a9ed2d",
+   "workplace": "Hybrid"
+  },
   "openai:41d7baf53aed": {
    "comp": "$230K – $385K • Offers Equity",
    "company": "OpenAI",
@@ -246690,7 +246718,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 150,
+   "last": 149,
    "last_ok": "2026-10-21"
   },
   "MongoDB": {
@@ -246740,7 +246768,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 807,
+   "last": 808,
    "last_ok": "2026-10-21"
   },
   "OpenEvidence": {
@@ -246860,7 +246888,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 728,
+   "last": 729,
    "last_ok": "2026-10-21"
   },
   "Suno": {
@@ -246961,6 +246989,6 @@
    "last_ok": "2026-10-21"
   }
  },
- "updated": "2026-10-21T18:58:21Z",
+ "updated": "2026-10-21T19:29:20Z",
  "version": 1
 }
