@@ -4402,13 +4402,15 @@
    "url": "https://www.linkedin.com/jobs/view/4449778913"
   },
   "affirm:1e915ace8ee3": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "Affirm",
    "first_seen": "2026-10-09",
    "location": "Remote US",
    "posted_at": "2026-10-09",
    "role": "backend",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer II, Backend (Batch Developer Experience)",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/8003028003"
@@ -90825,13 +90827,15 @@
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8171041"
   },
   "doordash:b81dd74c83df": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "DoorDash",
    "first_seen": "2026-10-13",
    "location": "San Francisco, CA; New York City, NY;  Sunnyvale, CA; Seattle, WA",
    "posted_at": "2026-10-13",
    "role": "backend",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Backend (All Teams)",
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8138486"
@@ -210405,6 +210409,8 @@
    "url": "https://www.linkedin.com/jobs/view/4480418101"
   },
   "stripe:28777e05e245": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "Stripe",
    "employer_url": "https://stripe.com/jobs/search?gh_jid=6176758",
    "first_seen": "2026-10-09",
@@ -210413,7 +210419,7 @@
    "role": "backend",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Backend/API Engineer, Money as a Service",
    "url": "https://www.linkedin.com/jobs/view/4477870315"
@@ -210946,13 +210952,15 @@
    "url": "https://www.linkedin.com/jobs/view/4481259791"
   },
   "stripe:7e4f0f46e984": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "Stripe",
    "first_seen": "2026-08-20",
    "location": "US",
    "posted_at": "2024-08-25",
    "role": "backend",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Backend/API Engineer, Money as a Service",
    "url": "https://stripe.com/jobs/search?gh_jid=6176758"
@@ -211205,6 +211213,8 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8241260"
   },
   "stripe:bbb7867689bd": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "Stripe",
    "employer_url": "https://stripe.com/jobs/search?gh_jid=6176758",
    "first_seen": "2026-10-09",
@@ -211213,7 +211223,7 @@
    "role": "backend",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Backend/API Engineer, Money as a Service",
    "url": "https://www.linkedin.com/jobs/view/4477865570"
