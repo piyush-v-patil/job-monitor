@@ -109954,6 +109954,8 @@
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698330002"
   },
   "gitlab:a1a974dcf88b": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "GitLab",
    "employer_url": "https://job-boards.greenhouse.io/gitlab/jobs/8773006002",
    "first_seen": "2026-09-24",
@@ -109962,19 +109964,21 @@
    "role": "backend",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Intermediate Backend Engineer, AMER",
    "url": "https://www.linkedin.com/jobs/view/4462723152"
   },
   "gitlab:a358d6144151": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "GitLab",
    "first_seen": "2026-09-02",
    "location": "Remote, Canada; Remote, United States",
    "posted_at": "2026-09-02",
    "role": "backend",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Intermediate Backend Engineer, AMER",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8773006002"
@@ -144960,13 +144964,15 @@
    "url": "https://app.careerpuck.com/job-board/lyft/job/8856443002?gh_jid=8856443002"
   },
   "lyft:ea8ea3bd55cd": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "Lyft",
    "first_seen": "2026-10-17",
    "location": "San Francisco, CA",
    "posted_at": "2026-10-16",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://app.careerpuck.com/job-board/lyft/job/8896679002?gh_jid=8896679002"
