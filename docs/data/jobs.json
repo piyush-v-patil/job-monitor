@@ -9950,6 +9950,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10513808/software-development-engineer-conversational-ads-experience",
    "yoe": 1
   },
+  "amazon:12c318a80931": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-21",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-21",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Software Engineer, EC2 Nitro Networking , EC2 Nitro Networking",
+   "url": "https://www.amazon.jobs/en/jobs/10584826/embedded-software-engineer-ec2-nitro-networking-ec2-nitro-networking",
+   "yoe": 2
+  },
   "amazon:12e044a9e783": {
    "company": "Amazon",
    "department": "Software Development",
@@ -34100,6 +34115,19 @@
    "tier": "experienced",
    "title": "Software Engineer - Systems Performance, CoreOS",
    "url": "https://jobs.apple.com/en-us/details/200687817/software-engineer-systems-performance-coreos"
+  },
+  "apple:67966b9bbe31": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-21",
+   "location": "Sunnyvale",
+   "posted_at": "2026-10-21",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ML - Data Scientist",
+   "url": "https://jobs.apple.com/en-us/details/200690294/ml-data-scientist"
   },
   "apple:7461017f49d0": {
    "company": "Apple",
@@ -149293,6 +149321,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393556989677",
    "workplace": "On-site"
   },
+  "microsoft:16848c878a27": {
+   "company": "Microsoft",
+   "department": "Solution Engineering",
+   "first_seen": "2026-10-21",
+   "location": "San Francisco, CA, US; San Jose, CA, US; Mountain View, CA, US",
+   "posted_at": "2026-10-21",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Solution Engineer",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556982470",
+   "workplace": "On-site"
+  },
   "microsoft:16e6f2b46536": {
    "company": "Microsoft",
    "department": "Software Engineering",
@@ -160798,6 +160840,18 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer, GeForce G-Assist",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer--GeForce-G-Assist_JR2027676-1"
+  },
+  "nvidia:219eee7c34e5": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-21",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-21",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer, Agent Performance Modeling - New College Grad 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350"
   },
   "nvidia:226ac6741135": {
    "company": "Nvidia",
@@ -244087,7 +244141,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 146,
+   "last": 147,
    "last_ok": "2026-10-21"
   },
   "Applied Intuition": {
@@ -244669,6 +244723,6 @@
    "last_ok": "2026-10-21"
   }
  },
- "updated": "2026-10-21T00:54:49Z",
+ "updated": "2026-10-21T01:52:02Z",
  "version": 1
 }
