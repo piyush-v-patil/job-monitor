@@ -114193,6 +114193,17 @@
    "title": "ML Engineer, GenAI Ads, Search Personalization",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91235719359406790-ml-engineer-genai-ads-search-personalization"
   },
+  "google:2563aa66cf70": {
+   "company": "Google",
+   "first_seen": "2026-10-22",
+   "location": "New York, NY, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/91604436396188358-software-engineer-iii-aiml"
+  },
   "google:2572bcc4b4f9": {
    "company": "Google",
    "first_seen": "2026-09-24",
@@ -115441,6 +115452,17 @@
    "title": "Software Engineer, Backend, Google Photos",
    "url": "https://www.google.com/about/careers/applications/jobs/results/142459296238445254-software-engineer-backend-google-photos"
   },
+  "google:5bdfd40f1e76": {
+   "company": "Google",
+   "first_seen": "2026-10-22",
+   "location": "Sunnyvale, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Agent Cloud Rate Limiting",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/130189597949731526-software-engineer-agent-cloud-rate-limiting"
+  },
   "google:5c362201e60d": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -116359,6 +116381,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Google Workspace",
    "url": "https://www.google.com/about/careers/applications/jobs/results/103584130976883398-software-engineer-iii-infrastructure-google-workspace"
+  },
+  "google:886e6ae0bc4f": {
+   "company": "Google",
+   "first_seen": "2026-10-22",
+   "location": "Mountain View, CA, USA; New York, NY, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Gemini Cyber Post-Training, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/118396236230206150-research-engineer-gemini-cyber-posttraining-deepmind"
   },
   "google:8882a3495d2f": {
    "company": "Google",
@@ -117918,6 +117951,17 @@
    "tier": "experienced",
    "title": "Optimization Research Engineer, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/120898404719960774-optimization-research-engineer-deepmind"
+  },
+  "google:ce7437a09a17": {
+   "company": "Google",
+   "first_seen": "2026-10-22",
+   "location": "Sunnyvale, CA, USA",
+   "role": "qa-test",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Supplier Quality Engineer, Tape Storage",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/86120072396841670-supplier-quality-engineer-tape-storage"
   },
   "google:ce756b065aeb": {
    "company": "Google",
@@ -249063,7 +249107,7 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 193,
+   "last": 194,
    "last_ok": "2026-10-22"
   },
   "Airtable": {
@@ -249088,7 +249132,7 @@
   },
   "Anthropic": {
    "best": 678,
-   "last": 677,
+   "last": 678,
    "last_ok": "2026-10-22"
   },
   "Anysphere": {
@@ -249409,7 +249453,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 150,
+   "last": 148,
    "last_ok": "2026-10-22"
   },
   "MongoDB": {
@@ -249459,7 +249503,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 813,
+   "last": 812,
    "last_ok": "2026-10-22"
   },
   "OpenEvidence": {
@@ -249579,7 +249623,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 729,
+   "last": 725,
    "last_ok": "2026-10-22"
   },
   "Suno": {
@@ -249680,6 +249724,6 @@
    "last_ok": "2026-10-22"
   }
  },
- "updated": "2026-10-22T12:23:09Z",
+ "updated": "2026-10-22T14:37:00Z",
  "version": 1
 }
