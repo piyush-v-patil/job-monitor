@@ -162725,6 +162725,8 @@
    "url": "https://nuro.ai/careersitem?gh_jid=7978428"
   },
   "nuro:4109bacc0f33": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "Nuro",
    "employer_url": "https://nuro.ai/careersitem?gh_jid=8248317",
    "first_seen": "2026-10-05",
@@ -162732,7 +162734,7 @@
    "posted_at": "2026-10-05",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "newgrad",
    "title": "New Grad Software Engineer, Routing",
    "url": "https://nuro.ai/careersitem?gh_jid=8248317"
@@ -162860,6 +162862,8 @@
    "url": "https://nuro.ai/careersitem?gh_jid=5434059"
   },
   "nuro:6b9fab898e69": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "Nuro",
    "employer_url": "https://nuro.ai/careersitem?gh_jid=8248317",
    "first_seen": "2026-10-06",
@@ -162868,7 +162872,7 @@
    "role": "software",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
-   "status": "new",
+   "status": "applied",
    "tier": "newgrad",
    "title": "New Grad Software Engineer, Product Engineering",
    "url": "https://www.linkedin.com/jobs/view/4474644585"
@@ -179636,13 +179640,15 @@
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7782538"
   },
   "pinterest:c44822965eb8": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "company": "Pinterest",
    "first_seen": "2026-10-05",
    "location": "San Francisco, CA; Palo Alto, CA; Seattle, WA; New York, NY; Remote, US",
    "posted_at": "2026-10-05",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer II, Monetization Engineering ",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8227344"
@@ -232223,8 +232229,10 @@
    "location": "Seattle, WA",
    "posted_at": "2026-10-21",
    "role": "software",
+   "skip_reason": "user_rejected",
+   "skipped_by": "autoapply",
    "source": "simplify-github",
-   "status": "new",
+   "status": "skip",
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://job-boards.greenhouse.io/twitch/jobs/8906750002"
@@ -243550,6 +243558,8 @@
    "yoe": 2
   },
   "whoop:61e62212e9ac": {
+   "applied_on": "2026-10-21",
+   "applied_via": "autoapply",
    "comp": "$125K – $175K • Offers Equity",
    "company": "WHOOP",
    "department": "Software",
@@ -243559,7 +243569,7 @@
    "posted_at": "2026-10-04",
    "role": "backend",
    "source": "ashby",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer II (Backend, Health Records)",
    "url": "https://jobs.ashbyhq.com/whoop/ba9af18a-424b-4744-b73f-d56fbe9b2791",
