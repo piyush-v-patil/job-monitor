@@ -91685,13 +91685,15 @@
    "url": "https://job-boards.greenhouse.io/discord/jobs/8703614002"
   },
   "discord:771c6544dffb": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "Discord",
    "first_seen": "2026-09-11",
    "location": "San Francisco Bay Area",
    "posted_at": "2026-09-11",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Notifications",
    "url": "https://job-boards.greenhouse.io/discord/jobs/8642213002"
@@ -148123,13 +148125,15 @@
    "url": "https://www.linkedin.com/jobs/view/4481700700"
   },
   "lyft:08a68655f10d": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "Lyft",
    "first_seen": "2026-09-19",
    "location": "San Francisco, CA",
    "posted_at": "2026-09-18",
    "role": "backend",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Backend Software Engineer, Airports",
    "url": "https://app.careerpuck.com/job-board/lyft/job/8806570002?gh_jid=8806570002"
@@ -188145,13 +188149,15 @@
    "url": "https://job-boards.greenhouse.io/reddit/jobs/7895468"
   },
   "reddit:8005a65ddb76": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "Reddit",
    "first_seen": "2026-09-19",
    "location": "Remote - United States",
    "posted_at": "2026-09-18",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Ingestion Platform",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8214910"
@@ -205291,6 +205297,8 @@
    "yoe": 3
   },
   "snowflake:17fc577be9c8": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "comp": "$160K – $230K • Offers Equity",
    "company": "Snowflake",
    "department": "Engineering",
@@ -205300,7 +205308,7 @@
    "posted_at": "2026-09-25",
    "role": "software",
    "source": "ashby",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer - Postgres",
    "url": "https://jobs.ashbyhq.com/snowflake/6e96b818-2350-4601-8bdd-7ddd6c4a5f6d",
@@ -205370,6 +205378,8 @@
    "yoe": 2
   },
   "snowflake:33edef108946": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "Snowflake",
    "employer_url": "https://jobs.ashbyhq.com/snowflake/6e96b818-2350-4601-8bdd-7ddd6c4a5f6d",
    "first_seen": "2026-09-27",
@@ -205378,7 +205388,7 @@
    "role": "software",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer - Postgres",
    "url": "https://www.linkedin.com/jobs/view/4472212638"
@@ -205584,6 +205594,8 @@
    "url": "https://jobs.ashbyhq.com/snowflake/267d8514-2580-4ade-b5d1-0ea41d11cf62"
   },
   "snowflake:a20e096ca232": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "Snowflake",
    "employer_url": "https://jobs.ashbyhq.com/snowflake/6e96b818-2350-4601-8bdd-7ddd6c4a5f6d",
    "first_seen": "2026-09-26",
@@ -205592,7 +205604,7 @@
    "role": "software",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer - Postgres",
    "url": "https://www.linkedin.com/jobs/view/4472207791"
@@ -205663,6 +205675,8 @@
    "yoe": 5
   },
   "snowflake:bcad3ddfd3fb": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "comp": "$160K – $230K",
    "company": "Snowflake",
    "department": "Engineering",
@@ -205672,7 +205686,7 @@
    "posted_at": "2026-10-15",
    "role": "software",
    "source": "ashby",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer — Engineering Systems, Continuous Integration",
    "url": "https://jobs.ashbyhq.com/snowflake/37ad5524-1716-4b54-8c3a-a81429592a91",
@@ -236567,8 +236581,10 @@
    "location": "United States | Remote",
    "posted_at": "2026-09-21",
    "role": "software",
+   "skip_reason": "user_rejected",
+   "skipped_by": "autoapply",
    "source": "greenhouse",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer II, Marketplace Optimzation",
    "url": "https://careers.upstart.com/jobs?gh_jid=8220246"
@@ -236605,9 +236621,11 @@
    "location": "USA",
    "posted_at": "2026-10-21",
    "role": "software",
+   "skip_reason": "user_rejected",
+   "skipped_by": "autoapply",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer II, Marketplace Optimization",
    "url": "https://www.linkedin.com/jobs/view/4478955409"
