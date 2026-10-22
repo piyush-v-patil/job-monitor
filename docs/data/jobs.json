@@ -34310,6 +34310,19 @@
    "title": "Software Engineer - Journal Team",
    "url": "https://jobs.apple.com/en-us/details/200672753/software-engineer-journal-team"
   },
+  "apple:37e8f32fcd6a": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-22",
+   "location": "Cupertino",
+   "posted_at": "2026-10-21",
+   "role": "data",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist, Apple Pay",
+   "url": "https://jobs.apple.com/en-us/details/200690854/data-scientist-apple-pay"
+  },
   "apple:3cb4d148f1a5": {
    "company": "Apple",
    "department": "Software and Services",
@@ -35012,6 +35025,19 @@
    "title": "UX and UI Software Engineer — Observability",
    "url": "https://jobs.apple.com/en-us/details/200689875/ux-and-ui-software-engineer-observability"
   },
+  "apple:9acf71c30b72": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-22",
+   "location": "Sunnyvale",
+   "posted_at": "2026-10-22",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - AML - Ai & Data Platforms",
+   "url": "https://jobs.apple.com/en-us/details/200690530/software-engineer-aml-ai-data-platforms"
+  },
   "apple:9b673b6234f7": {
    "company": "Apple",
    "department": "Hardware",
@@ -35193,6 +35219,19 @@
    "tier": "experienced",
    "title": "Applied Research Scientist, Proactive Intelligence, — Agentic Systems and Generative Modeling",
    "url": "https://jobs.apple.com/en-us/details/200651116/applied-research-scientist-proactive-intelligence-agentic-systems-and-generative-modeling"
+  },
+  "apple:ad58a8289eb0": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-22",
+   "location": "Austin",
+   "posted_at": "2026-10-21",
+   "role": "data",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer - Apple Data Platform (ADP)",
+   "url": "https://jobs.apple.com/en-us/details/200690733/site-reliability-engineer-apple-data-platform-adp"
   },
   "apple:af7146ef2f3f": {
    "company": "Apple",
@@ -35661,6 +35700,19 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer - Strategic Data Solutions",
    "url": "https://jobs.apple.com/en-us/details/200687919/machine-learning-engineer-strategic-data-solutions"
+  },
+  "apple:df3aa1f2ab85": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-22",
+   "location": "Cupertino",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Wireless Systems Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200690852/wireless-systems-engineer"
   },
   "apple:e4175f603b0d": {
    "company": "Apple",
@@ -247882,8 +247934,8 @@
   },
   "Airbnb": {
    "best": 195,
-   "last": 194,
-   "last_ok": "2026-10-21"
+   "last": 193,
+   "last_ok": "2026-10-22"
   },
   "Airtable": {
    "best": 16,
@@ -247893,7 +247945,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-21"
+   "last_ok": "2026-10-22"
   },
   "American Express": {
    "best": 500,
@@ -247906,9 +247958,9 @@
    "last_ok": "2026-10-21"
   },
   "Anthropic": {
-   "best": 675,
-   "last": 675,
-   "last_ok": "2026-10-21"
+   "best": 678,
+   "last": 678,
+   "last_ok": "2026-10-22"
   },
   "Anysphere": {
    "best": 137,
@@ -247917,8 +247969,8 @@
   },
   "Apple": {
    "best": 164,
-   "last": 160,
-   "last_ok": "2026-10-21"
+   "last": 164,
+   "last_ok": "2026-10-22"
   },
   "Applied Intuition": {
    "best": 330,
@@ -248134,7 +248186,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-21"
+   "last_ok": "2026-10-22"
   },
   "Gusto": {
    "best": 104,
@@ -248229,7 +248281,7 @@
   "Microsoft": {
    "best": 150,
    "last": 150,
-   "last_ok": "2026-10-21"
+   "last_ok": "2026-10-22"
   },
   "MongoDB": {
    "best": 415,
@@ -248249,7 +248301,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-10-21"
+   "last_ok": "2026-10-22"
   },
   "Nokia": {
    "best": 500,
@@ -248269,7 +248321,7 @@
   "Nvidia": {
    "best": 197,
    "last": 195,
-   "last_ok": "2026-10-21"
+   "last_ok": "2026-10-22"
   },
   "Okta": {
    "best": 400,
@@ -248278,8 +248330,8 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 811,
-   "last_ok": "2026-10-21"
+   "last": 813,
+   "last_ok": "2026-10-22"
   },
   "OpenEvidence": {
    "best": 11,
@@ -248398,8 +248450,8 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 727,
-   "last_ok": "2026-10-21"
+   "last": 726,
+   "last_ok": "2026-10-22"
   },
   "Suno": {
    "best": 73,
@@ -248499,6 +248551,6 @@
    "last_ok": "2026-10-21"
   }
  },
- "updated": "2026-10-21T23:42:04Z",
+ "updated": "2026-10-22T01:42:41Z",
  "version": 1
 }
