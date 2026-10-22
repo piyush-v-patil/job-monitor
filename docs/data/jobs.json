@@ -16481,6 +16481,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10505871/software-development-engineer-aws-central-sde-team",
    "yoe": 2
   },
+  "amazon:98a37d96098a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-22",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Leo Secure Communications Team",
+   "url": "https://www.amazon.jobs/en/jobs/10585856/software-development-engineer-leo-secure-communications-team",
+   "yoe": 1
+  },
   "amazon:9903d6dfdd4c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -116848,6 +116863,17 @@
    "title": "Software Engineer III, Infrastructure, Google Cloud Global Networking",
    "url": "https://www.google.com/about/careers/applications/jobs/results/80928836794884806-software-engineer-iii-infrastructure-google-cloud-global-networking"
   },
+  "google:a53aa4119628": {
+   "company": "Google",
+   "first_seen": "2026-10-22",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML, App Ads Quality",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/86496792568308422-software-engineer-iii-aiml-app-ads-quality"
+  },
   "google:a74f2e4bf65b": {
    "company": "Google",
    "first_seen": "2026-09-11",
@@ -117248,6 +117274,17 @@
    "tier": "experienced",
    "title": "Software Engineer, IT Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/129062335464514246-software-engineer-it-infrastructure"
+  },
+  "google:b955b8f4b442": {
+   "company": "Google",
+   "first_seen": "2026-10-22",
+   "location": "Mountain View, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Performance",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/87774699957691078-software-engineer-iii-performance"
   },
   "google:b9a1097c1d6d": {
    "company": "Google",
@@ -153140,16 +153177,17 @@
   },
   "microsoft:c6cd825c2256": {
    "company": "Microsoft",
+   "department": "Software Engineering",
    "first_seen": "2026-10-01",
    "location": "Redmond, WA",
    "posted_at": "2026-10-01",
    "role": "fullstack",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "microsoft careers",
    "status": "new",
    "tier": "intern",
    "title": "Software Engineer: Fullstack Product (Web + Services)  Intern Opportunities for University Students,",
-   "url": "https://www.linkedin.com/jobs/view/4474181679"
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556922922",
+   "workplace": "On-site"
   },
   "microsoft:c7d42c9c023c": {
    "company": "Microsoft",
@@ -248711,7 +248749,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 164,
+   "last": 161,
    "last_ok": "2026-10-22"
   },
   "Applied Intuition": {
@@ -249072,7 +249110,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 813,
+   "last": 812,
    "last_ok": "2026-10-22"
   },
   "OpenEvidence": {
@@ -249192,7 +249230,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 729,
+   "last": 725,
    "last_ok": "2026-10-22"
   },
   "Suno": {
@@ -249293,6 +249331,6 @@
    "last_ok": "2026-10-22"
   }
  },
- "updated": "2026-10-22T08:30:35Z",
+ "updated": "2026-10-22T08:51:38Z",
  "version": 1
 }
