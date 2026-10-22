@@ -28551,8 +28551,10 @@
    "location": "Chantilly, Virginia, United States",
    "posted_at": "2026-07-30",
    "role": "software",
+   "skip_reason": "us_person_required",
+   "skipped_by": "autoapply",
    "source": "greenhouse",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Ground Software Engineer, Space",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5199990007?gh_jid=5199990007"
