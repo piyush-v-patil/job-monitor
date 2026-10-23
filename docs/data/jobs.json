@@ -10416,6 +10416,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10537393/software-development-engineer-ai-studios-engineering",
    "yoe": 1
   },
+  "amazon:148ffd38badd": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AWS DynamoDB",
+   "url": "https://www.amazon.jobs/en/jobs/10587867/software-development-engineer-ii-aws-dynamodb",
+   "yoe": 1
+  },
   "amazon:153b5de4a254": {
    "company": "Amazon",
    "department": "Software Development",
@@ -32968,6 +32983,18 @@
    "tier": "experienced",
    "title": "Data Scientist, Product",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5182605008"
+  },
+  "anthropic:48ef15670f4f": {
+   "company": "Anthropic",
+   "first_seen": "2026-10-23",
+   "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+   "posted_at": "2025-05-22",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "TPU Performance Engineer",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/4720576008"
   },
   "anthropic:4bc97e9102de": {
    "company": "Anthropic",
@@ -175342,6 +175369,22 @@
    "title": "Software Engineer, Foundations Search",
    "url": "https://jobs.ashbyhq.com/openai/40ed6975-ef61-4807-b748-37c2fa2b76c7"
   },
+  "openai:dbe402dd10fc": {
+   "comp": "$347K – $385K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Research",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "San Francisco",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://jobs.ashbyhq.com/openai/d95a5b8b-35fb-4ae2-9f6c-594ed24e49f7",
+   "workplace": "Hybrid"
+  },
   "openai:dc629e583df5": {
    "comp": "$293K – $441K • Offers Equity",
    "company": "OpenAI",
@@ -254680,7 +254723,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 679,
+   "last": 677,
    "last_ok": "2026-10-23"
   },
   "Anysphere": {
@@ -255041,7 +255084,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 191,
+   "last": 190,
    "last_ok": "2026-10-23"
   },
   "Okta": {
@@ -255051,7 +255094,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 800,
+   "last": 802,
    "last_ok": "2026-10-23"
   },
   "OpenEvidence": {
@@ -255272,6 +255315,6 @@
    "last_ok": "2026-10-23"
   }
  },
- "updated": "2026-10-23T18:37:37Z",
+ "updated": "2026-10-23T19:28:36Z",
  "version": 1
 }
