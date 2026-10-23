@@ -113267,13 +113267,15 @@
    "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4659412005"
   },
   "glean:060ef02a55a6": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "Glean",
    "first_seen": "2026-10-23",
    "location": "Mountain View, CA",
    "posted_at": "2026-10-22",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746910005"
@@ -113551,8 +113553,10 @@
    "location": "Mountain View, CA",
    "posted_at": "2026-10-22",
    "role": "software",
+   "skip_reason": "user_rejected",
+   "skipped_by": "autoapply",
    "source": "greenhouse",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746918005"
@@ -173469,6 +173473,8 @@
    "yoe": 4
   },
   "openai:d2dbcf521128": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "comp": "$347K – $385K • Offers Equity",
    "company": "OpenAI",
    "department": "Security",
@@ -173478,7 +173484,7 @@
    "posted_at": "2026-10-21",
    "role": "software",
    "source": "ashby",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Privacy Engineering (Lawful Access) ",
    "url": "https://jobs.ashbyhq.com/openai/e99105f1-0a15-4f25-9538-60312568f835"
@@ -181008,8 +181014,10 @@
    "location": "San Francisco",
    "posted_at": "2026-10-21",
    "role": "software",
+   "skip_reason": "user_rejected",
+   "skipped_by": "autoapply",
    "source": "ashby",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer, Enterprise Knowledge Platform",
    "url": "https://jobs.ashbyhq.com/perplexity/0113c03a-69d0-489d-bd11-451d11a9f64b",
@@ -187445,8 +187453,10 @@
    "location": "New York, NY (HQ)",
    "posted_at": "2026-10-22",
    "role": "software",
+   "skip_reason": "user_rejected",
+   "skipped_by": "autoapply",
    "source": "ashby",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer, Enterprise Product",
    "url": "https://jobs.ashbyhq.com/ramp/09360e92-fc95-4ba6-9611-dfefd60b13ce",
@@ -188149,6 +188159,8 @@
    "url": "https://www.linkedin.com/jobs/view/4471131009"
   },
   "ramp:e97b7f9cadf3": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "comp": "$168K – $330K • Offers Equity",
    "company": "Ramp",
    "department": "Engineering",
@@ -188158,7 +188170,7 @@
    "posted_at": "2026-06-29",
    "role": "software",
    "source": "ashby",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Developer API",
    "url": "https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138",
@@ -218062,13 +218074,15 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8194283"
   },
   "stripe:ea5c84974db8": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "Stripe",
    "first_seen": "2026-10-22",
    "location": "South San Francisco, CA",
    "posted_at": "2026-10-22",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Resource Automation",
    "url": "https://stripe.com/jobs/search?gh_jid=8314235"
