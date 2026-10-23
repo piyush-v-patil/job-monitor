@@ -93263,6 +93263,8 @@
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8191886"
   },
   "doordash:47e95e162619": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "DoorDash",
    "employer_url": "https://job-boards.greenhouse.io/doordashusa/jobs/8304878",
    "first_seen": "2026-10-21",
@@ -93271,7 +93273,7 @@
    "role": "software",
    "soft_dedupe": true,
    "source": "jobspy-linkedin",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Reliability Platform",
    "url": "https://www.linkedin.com/jobs/view/4479405136"
@@ -93380,6 +93382,8 @@
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8001229"
   },
   "doordash:751640ab4b44": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "DoorDash",
    "employer_url": "https://job-boards.greenhouse.io/doordashusa/jobs/8304878",
    "first_seen": "2026-10-21",
@@ -93387,7 +93391,7 @@
    "posted_at": "2026-10-21",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Reliability Platform",
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8304878"
@@ -217099,13 +217103,15 @@
    "url": "https://www.linkedin.com/jobs/view/4474102622"
   },
   "stripe:45602e6563a7": {
+   "applied_on": "2026-10-22",
+   "applied_via": "autoapply",
    "company": "Stripe",
    "first_seen": "2026-10-22",
    "location": "South San Francisco, CA",
    "posted_at": "2026-10-22",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://stripe.com/jobs/search?gh_jid=8314283"
