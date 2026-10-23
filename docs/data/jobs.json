@@ -15056,6 +15056,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10580586/software-dev-engineer-amazon-leo-customer-terminal-software",
    "yoe": 1
   },
+  "amazon:757ef75103ea": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-10-23",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, SageMaker AI Inference",
+   "url": "https://www.amazon.jobs/en/jobs/10588004/software-development-engineer-ii-sagemaker-ai-inference",
+   "yoe": 1
+  },
   "amazon:75f2ccabaa2d": {
    "company": "Amazon",
    "department": "Software Development",
@@ -15647,6 +15662,20 @@
    "title": "Software Development Engineer, AWS Transform Migrations ",
    "url": "https://www.amazon.jobs/en/jobs/10574795/software-development-engineer-aws-transform-migrations",
    "yoe": 2
+  },
+  "amazon:80e979af2ff1": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)",
+   "url": "https://www.amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa"
   },
   "amazon:81419da23537": {
    "company": "Amazon",
@@ -35425,6 +35454,19 @@
    "title": "Data Scientist, Apple Pay",
    "url": "https://jobs.apple.com/en-us/details/200690854/data-scientist-apple-pay"
   },
+  "apple:3ab43a642756": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-23",
+   "location": "Cupertino",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Generative UI, Input Experience",
+   "url": "https://jobs.apple.com/en-us/details/200689588/software-engineer-generative-ui-input-experience"
+  },
   "apple:3cb4d148f1a5": {
    "company": "Apple",
    "department": "Software and Services",
@@ -35879,6 +35921,19 @@
    "title": "Software Development Engineer in Test (SDET) — Enterprise Technology Services",
    "url": "https://jobs.apple.com/en-us/details/200686881/software-development-engineer-in-test-sdet-enterprise-technology-services"
   },
+  "apple:7e33787064b9": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-23",
+   "location": "Seattle",
+   "posted_at": "2026-10-23",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Security Engineer - Red Team",
+   "url": "https://jobs.apple.com/en-us/details/200690601/ai-security-engineer-red-team"
+  },
   "apple:7f6668a7c0a3": {
    "company": "Apple",
    "department": "Software and Services",
@@ -36035,6 +36090,19 @@
    "tier": "experienced",
    "title": "Tactile Simulation Research Engineer - Special Projects (Robotics)",
    "url": "https://jobs.apple.com/en-us/details/200675548/tactile-simulation-research-engineer-special-projects-robotics"
+  },
+  "apple:8a3878625546": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-23",
+   "location": "Boulder",
+   "posted_at": "2026-10-23",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Acoustics ML & DSP Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200691355/acoustics-ml-dsp-engineer"
   },
   "apple:8abc0a7086ee": {
    "company": "Apple",
@@ -120743,6 +120811,17 @@
    "title": "Software Engineer III, Infrastructure, Google Workspace",
    "url": "https://www.google.com/about/careers/applications/jobs/results/137243138988090054-software-engineer-iii-infrastructure-google-workspace"
   },
+  "google:dbe7a71d2a37": {
+   "company": "Google",
+   "first_seen": "2026-10-23",
+   "location": "Kirkland, WA, USA; Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Scientist, Gemini Post-Training",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/84498362270655174-research-scientist-gemini-posttraining"
+  },
   "google:dbf825fd446b": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -156053,16 +156132,17 @@
   },
   "microsoft:0a72ed5d5cd3": {
    "company": "Microsoft",
+   "department": "Software Engineering",
    "first_seen": "2026-09-29",
    "location": "Redmond, WA",
    "posted_at": "2026-09-27",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "microsoft careers",
    "status": "new",
    "tier": "experienced",
    "title": "Software Engineering II - CTJ - Poly",
-   "url": "https://www.linkedin.com/jobs/view/4398519212"
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557045309",
+   "workplace": "On-site"
   },
   "microsoft:0acb481cdab8": {
    "company": "Microsoft",
@@ -156296,6 +156376,20 @@
    "tier": "experienced",
    "title": "Digital Security Engineer",
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557041395",
+   "workplace": "On-site"
+  },
+  "microsoft:2b59df5ce589": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-23",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557044529",
    "workplace": "On-site"
   },
   "microsoft:2e88274999e2": {
@@ -157292,6 +157386,20 @@
    "tier": "experienced",
    "title": "Software Engineer - User Experience",
    "url": "https://www.linkedin.com/jobs/view/4472275562"
+  },
+  "microsoft:f62dea570490": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-23",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557042246",
+   "workplace": "On-site"
   },
   "microsoft:f7dd452d7d5f": {
    "company": "Microsoft",
@@ -254730,7 +254838,7 @@
   },
   "Airbnb": {
    "best": 196,
-   "last": 196,
+   "last": 194,
    "last_ok": "2026-10-23"
   },
   "Airtable": {
@@ -254765,7 +254873,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 163,
+   "last": 157,
    "last_ok": "2026-10-23"
   },
   "Applied Intuition": {
@@ -255126,7 +255234,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 802,
+   "last": 796,
    "last_ok": "2026-10-23"
   },
   "OpenEvidence": {
@@ -255246,7 +255354,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 725,
+   "last": 721,
    "last_ok": "2026-10-23"
   },
   "Suno": {
@@ -255347,6 +255455,6 @@
    "last_ok": "2026-10-23"
   }
  },
- "updated": "2026-10-23T19:28:36Z",
+ "updated": "2026-10-23T22:33:55Z",
  "version": 1
 }
