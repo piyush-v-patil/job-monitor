@@ -50287,8 +50287,10 @@
    "location": "USA - Albuquerque, NM",
    "posted_at": "2026-10-23",
    "role": "software",
+   "skip_reason": "us_person_required",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Associate Systems Engineer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Albuquerque-NM/Associate-Systems-Engineer_JR2026526042-1"
@@ -195413,8 +195415,10 @@
    "location": "San Mateo, CA, United States",
    "posted_at": "2026-10-23",
    "role": "software",
+   "skip_reason": "no_sponsorship",
+   "skipped_by": "autoapply",
    "source": "greenhouse",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer, Reliability ",
    "url": "https://careers.roblox.com/jobs/8283707?gh_jid=8283707"
