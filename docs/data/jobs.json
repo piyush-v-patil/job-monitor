@@ -150269,6 +150269,19 @@
    "title": "Software Engineer Asc - Early Career",
    "url": "https://www.linkedin.com/jobs/view/4474061661"
   },
+  "lockheed-martin:02339cba343f": {
+   "company": "Lockheed Martin",
+   "first_seen": "2026-10-24",
+   "location": "Marietta, GA, USA",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer Asc - Early Career",
+   "url": "https://www.linkedin.com/jobs/view/4480665255"
+  },
   "lockheed-martin:023d581d9784": {
    "company": "Lockheed Martin",
    "first_seen": "2026-10-02",
@@ -160315,6 +160328,20 @@
    "tier": "experienced",
    "title": "Software Engineer 3, Search Systems Replication & Routing",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7235322"
+  },
+  "mongodb:33c348c41fdb": {
+   "company": "MongoDB",
+   "employer_url": "https://www.mongodb.com/careers/job/?gh_jid=8209134",
+   "first_seen": "2026-10-24",
+   "location": "San Francisco, CA, USA",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "2027 - Software Engineering Intern, AMER",
+   "url": "https://www.linkedin.com/jobs/view/4483138167"
   },
   "mongodb:469bf516924f": {
    "company": "MongoDB",
@@ -197580,6 +197607,19 @@
    "title": "Security Engineer - II",
    "url": "https://www.linkedin.com/jobs/view/4464761344"
   },
+  "rover-com:619181a34017": {
+   "company": "Rover.com",
+   "first_seen": "2026-10-24",
+   "location": "Greater Seattle Area",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Entry Level Software Engineer, Recommendations",
+   "url": "https://www.linkedin.com/jobs/view/4481016714"
+  },
   "rover-com:fe499ced4595": {
    "checked_at": "2026-10-02",
    "company": "Rover.com",
@@ -207358,6 +207398,19 @@
    "tier": "intern",
    "title": "Software Engineer Intern - Summer 2027",
    "url": "https://www.linkedin.com/jobs/view/4480756565"
+  },
+  "siemens:9d6613c53a1c": {
+   "company": "Siemens",
+   "first_seen": "2026-10-24",
+   "location": "Princeton, NJ, USA",
+   "posted_at": "2026-10-24",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Python Backend Developer Intern – Energy Flexibility Platform",
+   "url": "https://www.linkedin.com/jobs/view/4482365970"
   },
   "siemens:a5ae8b6186ef": {
    "company": "Siemens",
@@ -237536,6 +237589,20 @@
    "url": "https://www.linkedin.com/jobs/view/4472723652",
    "workplace": "Remote"
   },
+  "torentify:8784c307e297": {
+   "company": "Torentify",
+   "first_seen": "2026-10-24",
+   "location": "USA",
+   "posted_at": "2026-10-24",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer - Remote Opportunity",
+   "url": "https://www.linkedin.com/jobs/view/4483317045",
+   "workplace": "Remote"
+  },
   "torentify:8845467f3a39": {
    "company": "Torentify",
    "first_seen": "2026-10-10",
@@ -245615,6 +245682,19 @@
    "tier": "experienced",
    "title": "Data Scientist - Cleared (Multiple Levels) - Chantilly, VA",
    "url": "https://www.linkedin.com/jobs/view/4473843639"
+  },
+  "vetjobs:6e4d8d31ee83": {
+   "company": "VetJobs",
+   "first_seen": "2026-10-24",
+   "location": "Fort Worth, TX, USA",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer Acs Early Career - Fort Worth TX",
+   "url": "https://www.linkedin.com/jobs/view/4481935842"
   },
   "vetjobs:86ec3b21c4b9": {
    "company": "VetJobs",
@@ -256714,12 +256794,12 @@
   },
   "American Express": {
    "best": 500,
-   "last": 403,
+   "last": 399,
    "last_ok": "2026-10-24"
   },
   "Anduril": {
    "best": 2539,
-   "last": 2506,
+   "last": 2508,
    "last_ok": "2026-10-24"
   },
   "Anthropic": {
@@ -256739,7 +256819,7 @@
   },
   "Applied Intuition": {
    "best": 330,
-   "last": 327,
+   "last": 328,
    "last_ok": "2026-10-24"
   },
   "Applied Materials": {
@@ -256764,7 +256844,7 @@
   },
   "Berkshire Hathaway Energy": {
    "best": 122,
-   "last": 112,
+   "last": 110,
    "last_ok": "2026-10-24"
   },
   "Betterment": {
@@ -256830,7 +256910,7 @@
   },
   "Cloudflare": {
    "best": 454,
-   "last": 453,
+   "last": 454,
    "last_ok": "2026-10-24"
   },
   "Cognition": {
@@ -256850,7 +256930,7 @@
   },
   "Databricks": {
    "best": 903,
-   "last": 895,
+   "last": 896,
    "last_ok": "2026-10-24"
   },
   "Datadog": {
@@ -256895,7 +256975,7 @@
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 161,
+   "last": 159,
    "last_ok": "2026-10-24"
   },
   "Emerson Electric": {
@@ -256915,7 +256995,7 @@
   },
   "Fidelity National Information Services": {
    "best": 183,
-   "last": 172,
+   "last": 173,
    "last_ok": "2026-10-24"
   },
   "Figma": {
@@ -257010,7 +257090,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 1281,
-   "last": 545,
+   "last": 402,
    "last_ok": "2026-10-24"
   },
   "Lyft": {
@@ -257060,7 +257140,7 @@
   },
   "Navy Federal": {
    "best": 189,
-   "last": 174,
+   "last": 173,
    "last_ok": "2026-10-24"
   },
   "Netflix": {
@@ -257170,12 +257250,12 @@
   },
   "Salesforce": {
    "best": 178,
-   "last": 162,
+   "last": 163,
    "last_ok": "2026-10-24"
   },
   "Samsara": {
    "best": 286,
-   "last": 285,
+   "last": 286,
    "last_ok": "2026-10-24"
   },
   "Scale AI": {
@@ -257190,12 +257270,12 @@
   },
   "Simplify Aggregator": {
    "best": 2489,
-   "last": 2197,
+   "last": 2178,
    "last_ok": "2026-10-24"
   },
   "Snowflake": {
    "best": 393,
-   "last": 354,
+   "last": 355,
    "last_ok": "2026-10-24"
   },
   "SoFi": {
@@ -257215,7 +257295,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 720,
+   "last": 719,
    "last_ok": "2026-10-24"
   },
   "Suno": {
@@ -257292,7 +257372,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 79,
+   "last": 70,
    "last_ok": "2026-10-24"
   },
   "Waymo": {
@@ -257316,6 +257396,6 @@
    "last_ok": "2026-10-24"
   }
  },
- "updated": "2026-10-24T08:21:06Z",
+ "updated": "2026-10-24T11:26:56Z",
  "version": 1
 }
