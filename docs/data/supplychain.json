@@ -15223,6 +15223,19 @@
    "title": "27 New Grad | US | Supply Chain",
    "url": "https://www.linkedin.com/jobs/view/4471680521"
   },
+  "bechtel-corporation:5821961bfb2e": {
+   "company": "Bechtel Corporation",
+   "first_seen": "2026-10-24",
+   "location": "Columbus, OH, USA",
+   "posted_at": "2026-10-23",
+   "role": "inventory",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Inventory Specialist",
+   "url": "https://www.linkedin.com/jobs/view/4483142743"
+  },
   "bechtel-corporation:6ea0c8f83239": {
    "company": "Bechtel Corporation",
    "first_seen": "2026-10-24",
@@ -26911,6 +26924,19 @@
    "tier": "entry",
    "title": "Sr. Production Planner I",
    "url": "https://www.linkedin.com/jobs/view/4446344468"
+  },
+  "commercial-vehicle-group-inc:820cfb74140d": {
+   "company": "Commercial Vehicle Group, Inc.",
+   "first_seen": "2026-10-24",
+   "location": "Vonore, TN, USA",
+   "posted_at": "2026-10-22",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Materials Planner",
+   "url": "https://www.linkedin.com/jobs/view/4481172549"
   },
   "communications-power-industries-cpi:9af39895f389": {
    "checked_at": "2026-10-02",
@@ -44707,6 +44733,19 @@
    "title": "Senior Supply Chain Analyst - Operational Design & Strategy",
    "url": "https://www.linkedin.com/jobs/view/4476110503"
   },
+  "hd-supply:37d17f092949": {
+   "company": "HD Supply",
+   "first_seen": "2026-10-24",
+   "location": "Atlanta, GA, USA",
+   "posted_at": "2026-10-24",
+   "role": "demand-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Senior Demand Planner",
+   "url": "https://www.linkedin.com/jobs/view/4483355083"
+  },
   "hd-supply:409b510b92a9": {
    "company": "HD Supply",
    "first_seen": "2026-09-29",
@@ -57031,6 +57070,19 @@
    "title": "Senior Manager, Supply Chain Planning",
    "url": "https://www.linkedin.com/jobs/view/4471727748"
   },
+  "lhh:0f70b29b3287": {
+   "company": "LHH",
+   "first_seen": "2026-10-24",
+   "location": "Philadelphia, PA, USA",
+   "posted_at": "2026-10-24",
+   "role": "procurement",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Procurement Specialist",
+   "url": "https://www.linkedin.com/jobs/view/4482658227"
+  },
   "lhh:1f608a103e9e": {
    "company": "LHH",
    "first_seen": "2026-10-06",
@@ -58353,6 +58405,19 @@
    "tier": "intern",
    "title": "Supply Chain Intern",
    "url": "https://www.linkedin.com/jobs/view/4462359881"
+  },
+  "lori-s-gifts:794301290745": {
+   "company": "Lori's Gifts",
+   "first_seen": "2026-10-24",
+   "location": "Plano, TX, USA",
+   "posted_at": "2026-10-24",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Planner/Allocator - Dallas/Ft Worth",
+   "url": "https://www.linkedin.com/jobs/view/4483358080"
   },
   "lori-s-gifts:dfa378cbebf1": {
    "company": "Lori's Gifts",
@@ -104823,6 +104888,21 @@
    "title": "(USA) Senior Manager, Data Science - Supply Chain Strategy",
    "url": "https://careers.walmart.com/us/en/job/R-2628539"
   },
+  "walmart-global-tech:b769f7365c83": {
+   "comp": "$90,000 - $180,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Supply Chain and Transportation",
+   "employment_type": "Full time",
+   "first_seen": "2026-10-24",
+   "location": "Bentonville, AR",
+   "posted_at": "2026-10-20",
+   "role": "inventory",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "(USA) Senior Manager, Supply Chain Management – Inventory Flow Optimization – Fresh (Sam’s Club)",
+   "url": "https://careers.walmart.com/us/en/job/R-2670966"
+  },
   "walmart-global-tech:b870a7227749": {
    "comp": "$88,000 - $132,000 Annual",
    "company": "Walmart Global Tech",
@@ -107111,6 +107191,19 @@
    "title": "Wholesale Inventory Analyst, Accessories & Apparel",
    "url": "https://www.linkedin.com/jobs/view/4475016119"
   },
+  "wickeder-group-engineered-materials-solutions:3fbd8e05f8ca": {
+   "company": "Wickeder Group │ Engineered Materials Solutions",
+   "first_seen": "2026-10-24",
+   "location": "Attleboro, MA, USA",
+   "posted_at": "2026-10-24",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Planner - Manufacturing (on-site)",
+   "url": "https://www.linkedin.com/jobs/view/4483186722"
+  },
   "widia:97e1209db513": {
    "company": "WIDIA",
    "first_seen": "2026-10-15",
@@ -109100,7 +109193,7 @@
   },
   "Abbott": {
    "best": 535,
-   "last": 528,
+   "last": 527,
    "last_ok": "2026-10-24"
   },
   "Airbnb": {
@@ -109220,7 +109313,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 738,
-   "last": 616,
+   "last": 613,
    "last_ok": "2026-10-24"
   },
   "Liquid Death": {
@@ -109315,7 +109408,7 @@
   },
   "SpaceX": {
    "best": 2828,
-   "last": 2820,
+   "last": 2821,
    "last_ok": "2026-10-24"
   },
   "Stripe": {
@@ -109345,7 +109438,7 @@
   },
   "Unilever": {
    "best": 204,
-   "last": 193,
+   "last": 192,
    "last_ok": "2026-10-24"
   },
   "Verkada": {
@@ -109355,7 +109448,7 @@
   },
   "Walmart Global Tech": {
    "best": 268,
-   "last": 224,
+   "last": 204,
    "last_ok": "2026-10-24"
   },
   "Waymo": {
@@ -109369,6 +109462,6 @@
    "last_ok": "2026-10-24"
   }
  },
- "updated": "2026-10-24T17:25:15Z",
+ "updated": "2026-10-24T20:31:52Z",
  "version": 1
 }
