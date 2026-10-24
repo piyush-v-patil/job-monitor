@@ -52121,6 +52121,19 @@
    "title": "Associate Software Engineer - Test and Verification",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Tinker-AFB-OK/Associate-Software-Engineer---Test-and-Verification_JR2026523089-1"
   },
+  "boeing:ac11a1235d6f": {
+   "company": "Boeing",
+   "first_seen": "2026-10-24",
+   "location": "Chantilly, VA, USA",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (Associate or Experienced)",
+   "url": "https://www.linkedin.com/jobs/view/4480683200"
+  },
   "boeing:ac4082366951": {
    "company": "Boeing",
    "first_seen": "2026-10-23",
@@ -100229,6 +100242,19 @@
    "title": "Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4472069550"
   },
+  "engradar:51166fd88390": {
+   "company": "EngRadar",
+   "first_seen": "2026-10-24",
+   "location": "Torrance, CA, USA",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern (Summer 2027)",
+   "url": "https://www.linkedin.com/jobs/view/4483336632"
+  },
   "engradar:5cf67430378f": {
    "company": "EngRadar",
    "first_seen": "2026-09-26",
@@ -143916,6 +143942,19 @@
    "tier": "experienced",
    "title": "Data Engineer II - AWS/PySpark/ETL",
    "url": "https://www.linkedin.com/jobs/view/4470696862"
+  },
+  "jpmorganchase:62139799530f": {
+   "company": "JPMorganChase",
+   "first_seen": "2026-10-24",
+   "location": "Columbus, OH, USA",
+   "posted_at": "2026-10-24",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Web Front End Developer",
+   "url": "https://www.linkedin.com/jobs/view/4483325084"
   },
   "jpmorganchase:6289a17ecb80": {
    "company": "JPMorganChase",
@@ -193254,6 +193293,18 @@
    "title": "Software Engineer",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8243443"
   },
+  "reddit:446cf8197297": {
+   "company": "Reddit",
+   "first_seen": "2026-10-24",
+   "location": "Remote - United States",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Ad Signals",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8319655"
+  },
   "reddit:47e25bfe56c7": {
    "company": "Reddit",
    "first_seen": "2026-08-20",
@@ -195646,6 +195697,19 @@
    "tier": "experienced",
    "title": "AI/ML Engineer",
    "url": "https://www.linkedin.com/jobs/view/4471058588"
+  },
+  "rg-t-solutions:b107c651fc22": {
+   "company": "RG&T Solutions",
+   "first_seen": "2026-10-24",
+   "location": "Tampa, FL, USA",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Entry-Level Application Developer",
+   "url": "https://www.linkedin.com/jobs/view/4482649572"
   },
   "rhoda-ai:7295ec49d288": {
    "company": "Rhoda AI",
@@ -257193,7 +257257,7 @@
   },
   "American Express": {
    "best": 500,
-   "last": 399,
+   "last": 395,
    "last_ok": "2026-10-24"
   },
   "Anduril": {
@@ -257228,7 +257292,7 @@
   },
   "Asana": {
    "best": 126,
-   "last": 108,
+   "last": 109,
    "last_ok": "2026-10-24"
   },
   "Attentive": {
@@ -257384,7 +257448,7 @@
   },
   "Expedia Group": {
    "best": 134,
-   "last": 130,
+   "last": 129,
    "last_ok": "2026-10-24"
   },
   "Faire": {
@@ -257469,7 +257533,7 @@
   },
   "JP Morgan Chase": {
    "best": 460,
-   "last": 398,
+   "last": 395,
    "last_ok": "2026-10-24"
   },
   "Komodo Health": {
@@ -257489,7 +257553,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 1281,
-   "last": 1033,
+   "last": 991,
    "last_ok": "2026-10-24"
   },
   "Lyft": {
@@ -257504,7 +257568,7 @@
   },
   "Mastercard": {
    "best": 185,
-   "last": 168,
+   "last": 170,
    "last_ok": "2026-10-24"
   },
   "Match Group": {
@@ -257629,7 +257693,7 @@
   },
   "Reddit": {
    "best": 160,
-   "last": 159,
+   "last": 160,
    "last_ok": "2026-10-24"
   },
   "Replit": {
@@ -257654,7 +257718,7 @@
   },
   "Samsara": {
    "best": 286,
-   "last": 284,
+   "last": 283,
    "last_ok": "2026-10-24"
   },
   "Scale AI": {
@@ -257669,7 +257733,7 @@
   },
   "Simplify Aggregator": {
    "best": 2489,
-   "last": 2178,
+   "last": 2073,
    "last_ok": "2026-10-24"
   },
   "Snowflake": {
@@ -257771,7 +257835,7 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 77,
+   "last": 68,
    "last_ok": "2026-10-24"
   },
   "Waymo": {
@@ -257795,6 +257859,6 @@
    "last_ok": "2026-10-24"
   }
  },
- "updated": "2026-10-24T16:53:09Z",
+ "updated": "2026-10-24T19:05:45Z",
  "version": 1
 }
