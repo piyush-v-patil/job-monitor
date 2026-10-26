@@ -40249,13 +40249,15 @@
    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/AustinTX/Systems-Engineer_R2631327"
   },
   "applied-materials:5096bab5f063": {
+   "applied_on": "2026-10-26",
+   "applied_via": "autoapply",
    "company": "Applied Materials",
    "first_seen": "2026-10-26",
    "location": "Santa Clara,CA",
    "posted_at": "2026-10-26",
    "role": "software",
    "source": "workday",
-   "status": "new",
+   "status": "applied",
    "tier": "newgrad",
    "title": "Algorithm Developer II - New College Grad (Masters - Santa Clara, CA)",
    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Algorithm-Developer-II---New-College-Grad--Masters---Santa-Clara--CA-_R2631924"
@@ -76281,6 +76283,8 @@
    "yoe": 2
   },
   "cerebras:ad4ff8acaf1a": {
+   "applied_on": "2026-10-26",
+   "applied_via": "autoapply",
    "company": "Cerebras",
    "department": "Software Engineering ",
    "employment_type": "Full-time",
@@ -76289,7 +76293,7 @@
    "posted_at": "2026-09-15",
    "role": "software",
    "source": "ashby",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Kernel Reliability",
    "url": "https://jobs.ashbyhq.com/cerebras/8cb78937-ac30-4ab2-98d0-680228ea5e6f"
@@ -162211,8 +162215,10 @@
    "location": "Minneapolis, MN",
    "posted_at": "2026-09-14",
    "role": "software",
+   "skip_reason": "user_rejected",
+   "skipped_by": "autoapply",
    "source": "simplify-github",
-   "status": "new",
+   "status": "skip",
    "tier": "newgrad",
    "title": "Software Engineer 1 - Endpoint Sensor",
    "url": "https://mimecast.wd5.myworkdayjobs.com/Mimecast-Careers/job/United-States-of-America-Minnesota--Minneapolis/Software-Engineer-I_R6708-1"
@@ -187500,13 +187506,15 @@
    "url": "https://job-boards.greenhouse.io/perpay/jobs/4076988007"
   },
   "perpay:f0f9c189d415": {
+   "applied_on": "2026-10-26",
+   "applied_via": "autoapply",
    "company": "Perpay",
    "first_seen": "2026-09-21",
    "location": "Philadelphia, PA",
    "posted_at": "2026-09-11",
    "role": "software",
    "source": "simplify-github",
-   "status": "new",
+   "status": "applied",
    "tier": "newgrad",
    "title": "Software Engineer New Grad",
    "url": "https://job-boards.greenhouse.io/perpay/jobs/4034578007"
@@ -197756,25 +197764,29 @@
    "url": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Philadelphia/Java-API-Back-End-Developer_R110947-1"
   },
   "relx:f952baaa4a85": {
+   "applied_on": "2026-10-26",
+   "applied_via": "autoapply",
    "company": "RELX",
    "first_seen": "2026-09-17",
    "location": "Alpharetta, GA",
    "posted_at": "2026-09-16",
    "role": "software",
    "source": "simplify-github",
-   "status": "new",
+   "status": "applied",
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Alpharetta-GA/Software-Engineer-1_R117973-1"
   },
   "relx:fe2028c97ed6": {
+   "applied_on": "2026-10-26",
+   "applied_via": "autoapply",
    "company": "RELX",
    "first_seen": "2026-10-09",
    "location": "Alpharetta, GA",
    "posted_at": "2026-09-24",
    "role": "software",
    "source": "workday",
-   "status": "new",
+   "status": "applied",
    "tier": "newgrad",
    "title": "Software Engineer 1",
    "url": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Alpharetta-GA/Software-Engineer-1_R117973-1"
