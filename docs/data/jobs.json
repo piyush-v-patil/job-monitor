@@ -115874,8 +115874,10 @@
    "location": "2 Locations",
    "posted_at": "2026-10-26",
    "role": "software",
+   "skip_reason": "no_sponsorship",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Developer/Configurator – OneStream/EPM Development",
    "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/Software-Developer-Configurator---OneStream-EPM-Development_JR-202623038"
@@ -205948,8 +205950,10 @@
    "location": "2 Locations",
    "posted_at": "2026-10-26",
    "role": "software",
+   "skip_reason": "yoe",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer SMTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Indianapolis/Software-Engineer-SMTS_JR362101"
