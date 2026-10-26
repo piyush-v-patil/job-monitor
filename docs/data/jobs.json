@@ -36681,6 +36681,19 @@
    "title": "AI Security Engineer - Red Team",
    "url": "https://jobs.apple.com/en-us/details/200690601/ai-security-engineer-red-team"
   },
+  "apple:7ecb55aa2989": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-26",
+   "location": "Cupertino",
+   "posted_at": "2026-10-26",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied AI Engineer, Apple Ads",
+   "url": "https://jobs.apple.com/en-us/details/200691639/applied-ai-engineer-apple-ads"
+  },
   "apple:7f6668a7c0a3": {
    "company": "Apple",
    "department": "Software and Services",
@@ -36915,6 +36928,19 @@
    "tier": "experienced",
    "title": "Wireless Module Test Engineer",
    "url": "https://jobs.apple.com/en-us/details/200689184/wireless-module-test-engineer"
+  },
+  "apple:8e6ce1d697d2": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-26",
+   "location": "San Jose",
+   "posted_at": "2026-10-26",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Physical Design Engineer, Machine Learning",
+   "url": "https://jobs.apple.com/en-us/details/200607680/physical-design-engineer-machine-learning"
   },
   "apple:8eba801e9e06": {
    "company": "Apple",
@@ -261653,7 +261679,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 142,
+   "last": 141,
    "last_ok": "2026-10-26"
   },
   "Applied Intuition": {
@@ -262014,7 +262040,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 792,
+   "last": 794,
    "last_ok": "2026-10-26"
   },
   "OpenEvidence": {
@@ -262134,7 +262160,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 712,
+   "last": 711,
    "last_ok": "2026-10-26"
   },
   "Suno": {
@@ -262235,6 +262261,6 @@
    "last_ok": "2026-10-26"
   }
  },
- "updated": "2026-10-26T21:15:36Z",
+ "updated": "2026-10-26T21:46:46Z",
  "version": 1
 }
