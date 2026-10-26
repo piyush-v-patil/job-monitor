@@ -35592,6 +35592,19 @@
    "title": "Kubernetes Security Engineer",
    "url": "https://jobs.apple.com/en-us/details/200688257/kubernetes-security-engineer"
   },
+  "apple:2654d144cd02": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-26",
+   "location": "Cupertino",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer – Systems",
+   "url": "https://jobs.apple.com/en-us/details/200689480/software-development-engineer-systems"
+  },
   "apple:27ad8acd7212": {
    "company": "Apple",
    "department": "Hardware",
@@ -35747,6 +35760,19 @@
    "tier": "experienced",
    "title": "Data Scientist, Apple Pay",
    "url": "https://jobs.apple.com/en-us/details/200690854/data-scientist-apple-pay"
+  },
+  "apple:39336258b683": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-26",
+   "location": "Cupertino",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Power and Performance Analytics Platform",
+   "url": "https://jobs.apple.com/en-us/details/200691225/software-engineer-power-and-performance-analytics-platform"
   },
   "apple:3ab43a642756": {
    "company": "Apple",
@@ -37490,6 +37516,19 @@
    "title": "Fitness Tools & Automation Engineer, Watch Software, Sensing & Connectivity ",
    "url": "https://jobs.apple.com/en-us/details/200690563/fitness-tools-automation-engineer-watch-software-sensing-connectivity"
   },
+  "apple:eb0d45f637de": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-26",
+   "location": "Beaverton",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, System Services & Daemons, Core OS",
+   "url": "https://jobs.apple.com/en-us/details/200691490/software-engineer-system-services-daemons-core-os"
+  },
   "apple:eb2255288078": {
    "company": "Apple",
    "department": "Machine Learning and AI",
@@ -37515,6 +37554,19 @@
    "tier": "experienced",
    "title": "Graphics Software Content Engineer",
    "url": "https://jobs.apple.com/en-us/details/200689345/graphics-software-content-engineer"
+  },
+  "apple:ed93a4cbaad0": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-26",
+   "location": "Beaverton",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, System Services & Daemons, Core OS",
+   "url": "https://jobs.apple.com/en-us/details/200690212/software-engineer-system-services-daemons-core-os"
   },
   "apple:ef4f0dbae9f9": {
    "company": "Apple",
@@ -118300,6 +118352,17 @@
    "tier": "experienced",
    "title": "Play and Developer Ecosystem Strategy Lead",
    "url": "https://www.google.com/about/careers/applications/jobs/results/83285202855436998-play-and-developer-ecosystem-strategy-lead"
+  },
+  "google:165056af9523": {
+   "company": "Google",
+   "first_seen": "2026-10-26",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML GenAI, Google Ads",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/109502235938824902-software-engineer-iii-aiml-genai-google-ads"
   },
   "google:19b2d7f1daa6": {
    "company": "Google",
@@ -260149,7 +260212,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 790,
+   "last": 789,
    "last_ok": "2026-10-26"
   },
   "OpenEvidence": {
@@ -260370,6 +260433,6 @@
    "last_ok": "2026-10-26"
   }
  },
- "updated": "2026-10-26T15:27:19Z",
+ "updated": "2026-10-26T16:16:27Z",
  "version": 1
 }
