@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-19T10:19:14Z",
+ "built_at": "2026-10-26T10:32:54Z",
  "companies": {
   "#twiceasnice Recruiting": null,
   "1-800 Contacts": {
@@ -181,6 +181,15 @@
    "staffing": false
   },
   "AARATECH": null,
+  "AARP": {
+   "cert": 57,
+   "confidence": "exact",
+   "filed": 57,
+   "green_card": true,
+   "last": 2026,
+   "matched": "AARP",
+   "staffing": false
+  },
   "ABARTA Coca-Cola Beverages, LLC": null,
   "ABB": {
    "cert": 431,
@@ -446,6 +455,7 @@
    "staffing": false
   },
   "ALEX AND ANI": null,
+  "ALL KNOWN SERVICES": null,
   "ALO": {
    "cert": 48,
    "confidence": "exact",
@@ -602,6 +612,15 @@
    "green_card": false,
    "last": 2026,
    "matched": "Armada Supply Chain Solutions, LLC",
+   "staffing": false
+  },
+  "ARMOR-IIMAK North America": {
+   "cert": 18,
+   "confidence": "loose",
+   "filed": 21,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Armor Defense, Inc.",
    "staffing": false
   },
   "ARQ": {
@@ -777,6 +796,15 @@
    "matched": "ATI HOLDINGS, LLC",
    "staffing": false
   },
+  "AUO Mobility Solutions Corporation America": {
+   "cert": 24,
+   "confidence": "exact",
+   "filed": 26,
+   "green_card": true,
+   "last": 2026,
+   "matched": "AUO Mobility Solutions Corporation America",
+   "staffing": false
+  },
   "AUTAJON GROUP": null,
   "AUTOKINITON": null,
   "AV": null,
@@ -830,6 +858,15 @@
   },
   "AbbaDox": null,
   "Abbott": null,
+  "Abcam": {
+   "cert": 20,
+   "confidence": "exact",
+   "filed": 20,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Abcam, Inc.",
+   "staffing": false
+  },
   "Abercrombie & Fitch Co.": {
    "cert": 231,
    "confidence": "prefix",
@@ -849,6 +886,7 @@
    "matched": "Abnormal AI, Inc.",
    "staffing": false
   },
+  "Aboon": null,
   "Abridge": {
    "cert": 105,
    "confidence": "loose",
@@ -916,6 +954,15 @@
    "staffing": false
   },
   "Accurate Personnel": null,
+  "Accuray": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Accuray, LLC.",
+   "staffing": false
+  },
   "Ace Hardware Corporation": {
    "cert": 13,
    "confidence": "exact",
@@ -933,6 +980,15 @@
    "green_card": true,
    "last": 2025,
    "matched": "Acestack LLC",
+   "staffing": true
+  },
+  "Acer": {
+   "cert": 13,
+   "confidence": "loose",
+   "filed": 13,
+   "green_card": true,
+   "last": 2023,
+   "matched": "ACER DATA LABS INC",
    "staffing": true
   },
   "Acima": {
@@ -1002,6 +1058,15 @@
    "staffing": false
   },
   "Acuity": {
+   "cert": 217,
+   "confidence": "loose",
+   "filed": 221,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Acuity Brands Lighting, Inc.",
+   "staffing": false
+  },
+  "Acuity Insurance": {
    "cert": 217,
    "confidence": "loose",
    "filed": 221,
@@ -1198,6 +1263,7 @@
    "matched": "Adyen, Inc.",
    "staffing": false
   },
+  "Aebi Schmidt USA": null,
   "Aehr Test Systems": {
    "cert": 7,
    "confidence": "exact",
@@ -1235,8 +1301,26 @@
    "matched": "AEROTECH, INC.",
    "staffing": false
   },
+  "Aerotech, Inc.": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": true,
+   "last": 2024,
+   "matched": "AEROTECH, INC.",
+   "staffing": false
+  },
   "Aertssen Group": null,
   "Aethel Defense": null,
+  "Aether Field": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": false,
+   "last": 2024,
+   "matched": "Aether Biomachines, Inc.",
+   "staffing": false
+  },
   "Affirm": {
    "cert": 766,
    "confidence": "exact",
@@ -1329,6 +1413,15 @@
    "green_card": false,
    "last": 2026,
    "matched": "AiPrise Inc.",
+   "staffing": false
+  },
+  "Aicadium": {
+   "cert": 8,
+   "confidence": "exact",
+   "filed": 8,
+   "green_card": false,
+   "last": 2026,
+   "matched": "AIcadium, Inc.",
    "staffing": false
   },
   "Air": {
@@ -1452,6 +1545,7 @@
    "matched": "Akkodis, Inc.",
    "staffing": true
   },
+  "Aklip Technologies LLC": null,
   "Akraya, Inc.": {
    "cert": 71,
    "confidence": "exact",
@@ -1471,6 +1565,7 @@
    "staffing": false
   },
   "AkzoNobel": null,
+  "AlarMax Distributors": null,
   "Alarm.com": {
    "cert": 80,
    "confidence": "exact",
@@ -1478,6 +1573,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Alarm.com Inc.",
+   "staffing": false
+  },
+  "Alaska Airlines": {
+   "cert": 82,
+   "confidence": "exact",
+   "filed": 84,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Alaska Airlines, Inc.",
    "staffing": false
   },
   "Alation": {
@@ -1588,6 +1692,15 @@
    "staffing": false
   },
   "Alldus": null,
+  "Allegiant": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2025,
+   "matched": "ALLEGIANT GROUP, LLC",
+   "staffing": true
+  },
   "Allegion": {
    "cert": 6,
    "confidence": "loose",
@@ -1619,6 +1732,7 @@
    "matched": "ALLEN INSTITUTE",
    "staffing": false
   },
+  "Allen Media Group": null,
   "Allergan Aesthetics, an AbbVie Company": {
    "cert": 96,
    "confidence": "loose",
@@ -1795,6 +1909,15 @@
    "matched": "ALTEC INDUSTRIES, INC.",
    "staffing": false
   },
+  "Alter Domus": {
+   "cert": 13,
+   "confidence": "exact",
+   "filed": 14,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Alter Domus Inc.",
+   "staffing": false
+  },
   "Altera": {
    "cert": 110,
    "confidence": "exact",
@@ -1814,6 +1937,15 @@
    "last": 2026,
    "matched": "Altimetrik Corp.",
    "staffing": true
+  },
+  "Altman Solon": {
+   "cert": 43,
+   "confidence": "prefix",
+   "filed": 44,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Altman Solon US, LP",
+   "staffing": false
   },
   "Alto-Shaam, Inc.": {
    "cert": 1,
@@ -2044,6 +2176,15 @@
    "matched": "American Family Mutual Insurance Company, S.I.",
    "staffing": false
   },
+  "American Fidelity": {
+   "cert": 27,
+   "confidence": "prefix",
+   "filed": 29,
+   "green_card": true,
+   "last": 2026,
+   "matched": "American Fidelity Assurance Company",
+   "staffing": false
+  },
   "American Heart Association": {
    "cert": 17,
    "confidence": "exact",
@@ -2111,6 +2252,7 @@
    "matched": "American Tower Corporation",
    "staffing": false
   },
+  "American Traffic Solutions": null,
   "Americo Financial Life and Annuity": {
    "cert": 1,
    "confidence": "prefix",
@@ -2166,6 +2308,15 @@
    "matched": "Amida Technology Solutions, Inc",
    "staffing": false
   },
+  "Amneal Pharmaceuticals": {
+   "cert": 231,
+   "confidence": "exact",
+   "filed": 243,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Amneal Pharmaceuticals, LLC",
+   "staffing": false
+  },
   "Amogy": {
    "cert": 32,
    "confidence": "exact",
@@ -2176,6 +2327,7 @@
    "staffing": false
   },
   "Amoha Recruitment Services LLC": null,
+  "Ampacity": null,
   "Ampcus Inc": {
    "cert": 86,
    "confidence": "exact",
@@ -2219,6 +2371,24 @@
    "green_card": true,
    "last": 2026,
    "matched": "Amphenol TCS - A division of Amphenol Corporation d//b/a Amphenol TCS",
+   "staffing": false
+  },
+  "Amphenol TPC Wire & Cable": {
+   "cert": 58,
+   "confidence": "loose",
+   "filed": 66,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Amphenol TCS - A division of Amphenol Corporation d//b/a Amphenol TCS",
+   "staffing": false
+  },
+  "Amplify": {
+   "cert": 46,
+   "confidence": "loose",
+   "filed": 54,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Amplify Education, Inc.",
    "staffing": false
   },
   "Amplitude": {
@@ -2277,6 +2447,15 @@
    "matched": "Amway Corp",
    "staffing": false
   },
+  "Amy's Kitchen": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2021,
+   "matched": "Amy's Kitchen, Inc.",
+   "staffing": false
+  },
   "Amylyx Pharmaceuticals": null,
   "Amyx, Inc.": null,
   "AnaVation LLC": null,
@@ -2327,6 +2506,15 @@
    "staffing": false
   },
   "Anchor Point Technology Resources": null,
+  "Andersen Corporation": {
+   "cert": 86,
+   "confidence": "exact",
+   "filed": 90,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Andersen Corporation",
+   "staffing": false
+  },
   "Andreessen Horowitz": null,
   "Anduril": {
    "cert": 5,
@@ -2344,6 +2532,16 @@
    "green_card": true,
    "last": 2024,
    "matched": "Anduril Industries, Inc.",
+   "staffing": false
+  },
+  "Angelino's Coffee": null,
+  "Annapurna Labs": {
+   "cert": 89,
+   "confidence": "exact",
+   "filed": 90,
+   "green_card": false,
+   "last": 2023,
+   "matched": "Annapurna Labs Inc.",
    "staffing": false
   },
   "Anta International": {
@@ -2430,6 +2628,15 @@
    "matched": "Anything You Need, LLC",
    "staffing": false
   },
+  "Aon": {
+   "cert": 164,
+   "confidence": "loose",
+   "filed": 203,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Aon Consulting, Inc.",
+   "staffing": false
+  },
   "Apartments.com": null,
   "Apera": {
    "cert": 12,
@@ -2486,6 +2693,7 @@
    "staffing": false
   },
   "Apexon": null,
+  "Apni Baat Apno Ke Saath": null,
   "Apogee Architectural Metals": null,
   "Apogee Solutions, Inc": null,
   "Apolis": null,
@@ -2534,6 +2742,7 @@
    "matched": "Applicantz, Inc.",
    "staffing": false
   },
+  "Applied Composites": null,
   "Applied Intuition": {
    "cert": 338,
    "confidence": "exact",
@@ -2570,6 +2779,7 @@
    "matched": "Applied Resource Group, LLC",
    "staffing": true
   },
+  "Applied Solutions Group, an affiliate of The Heico Companies": null,
   "Applied Systems": {
    "cert": 22,
    "confidence": "exact",
@@ -2586,6 +2796,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Applied Technical Services, LLC",
+   "staffing": false
+  },
+  "Applied Underwriters": {
+   "cert": 17,
+   "confidence": "exact",
+   "filed": 17,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Applied Underwriters, Inc.",
    "staffing": false
   },
   "Apptad": {
@@ -2701,6 +2920,7 @@
    "matched": "ArcBest Technologies, Inc.",
    "staffing": false
   },
+  "Arcafeed (Acq. by Whop)": null,
   "Arcesium": {
    "cert": 46,
    "confidence": "exact",
@@ -2757,6 +2977,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Arcosa, Inc.",
+   "staffing": false
+  },
+  "Arctic Cat": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2024,
+   "matched": "Arctic Cat Inc.",
    "staffing": false
   },
   "Arcwood Environmental": null,
@@ -2887,6 +3116,15 @@
    "matched": "Arkestro Inc.",
    "staffing": false
   },
+  "Arm": {
+   "cert": 1222,
+   "confidence": "exact",
+   "filed": 1246,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Arm, Inc.",
+   "staffing": false
+  },
   "Armacell": {
    "cert": 7,
    "confidence": "exact",
@@ -2979,6 +3217,15 @@
    "matched": "Arrowstreet Capital, Limited Partnership",
    "staffing": false
   },
+  "Arrowstreet Capital, Limited Partnership": {
+   "cert": 172,
+   "confidence": "exact",
+   "filed": 172,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Arrowstreet Capital, Limited Partnership",
+   "staffing": false
+  },
   "Artemis Solutions": {
    "cert": 11,
    "confidence": "loose",
@@ -3005,6 +3252,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Arthrex, Inc.",
+   "staffing": false
+  },
+  "Artifact Uprising®": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Artifact Lab, Inc.",
    "staffing": false
   },
   "Artificial Intelligence Underwriting Company (AIUC)": {
@@ -3073,6 +3329,24 @@
   },
   "Ascentec Engineering, LLC": null,
   "Ascentek": null,
+  "Ashby": {
+   "cert": 4,
+   "confidence": "exact",
+   "filed": 4,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Ashby, Inc.",
+   "staffing": false
+  },
+  "Ashland": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": true,
+   "last": 2022,
+   "matched": "Ashland LLC",
+   "staffing": false
+  },
   "Ashton North LLC": {
    "cert": 1,
    "confidence": "loose",
@@ -3089,6 +3363,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Aspen Aerogels, Inc.",
+   "staffing": false
+  },
+  "Aspen Surgical": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2021,
+   "matched": "Aspen Surgical",
    "staffing": false
   },
   "Aspen Technology": {
@@ -3231,6 +3514,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Astrodyne Corporation",
+   "staffing": false
+  },
+  "Astrolab": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2024,
+   "matched": "Astrolab, Inc.",
    "staffing": false
   },
   "Astronautics Corporation of America": null,
@@ -3401,6 +3693,7 @@
   },
   "Attindas Hygiene Partners": null,
   "Attis": null,
+  "Attractivate Consulting Solutions": null,
   "Atwell, LLC": {
    "cert": 19,
    "confidence": "exact",
@@ -3548,6 +3841,7 @@
    "matched": "Autoliv ASP Inc.",
    "staffing": false
   },
+  "Autonomai Recruitment": null,
   "Autonomize AI": {
    "cert": 5,
    "confidence": "loose",
@@ -3694,6 +3988,15 @@
    "matched": "Avista Corporation",
    "staffing": false
   },
+  "Avnet": {
+   "cert": 108,
+   "confidence": "exact",
+   "filed": 132,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Avnet, Inc.",
+   "staffing": false
+  },
   "Avo Photonics": {
    "cert": 8,
    "confidence": "exact",
@@ -3724,6 +4027,7 @@
    "staffing": false
   },
   "Away": null,
+  "Awetomaton Ltd": null,
   "Axalta": {
    "cert": 45,
    "confidence": "loose",
@@ -3890,6 +4194,15 @@
    "matched": "Benteler Automotive Corporation",
    "staffing": false
   },
+  "BETA TECHNOLOGIES": {
+   "cert": 21,
+   "confidence": "exact",
+   "filed": 22,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Beta Technologies, Inc.",
+   "staffing": false
+  },
   "BIC": {
    "cert": 3,
    "confidence": "exact",
@@ -4049,6 +4362,7 @@
   },
   "BURLEBO": null,
   "BW Papersystems": null,
+  "BWE": null,
   "Baanyan Software Services, Inc.": {
    "cert": 393,
    "confidence": "exact",
@@ -4653,6 +4967,15 @@
    "matched": "Belk, Inc.",
    "staffing": false
   },
+  "Bell Flavors & Fragrances": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2021,
+   "matched": "BELL FLAVORS & FRAGRANCES, INC",
+   "staffing": false
+  },
   "Bell Flight": null,
   "Belvedere Trading": null,
   "Belvedere Trading, LLC": null,
@@ -4935,6 +5258,15 @@
    "matched": "Bird Rides, Inc.",
    "staffing": false
   },
+  "Bitdeer (NASDAQ: BTDR)": {
+   "cert": 15,
+   "confidence": "loose",
+   "filed": 15,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Bitdeer Inc.",
+   "staffing": false
+  },
   "BizLink Group": {
    "cert": 31,
    "confidence": "loose",
@@ -5102,6 +5434,15 @@
    "matched": "Blue Cross Blue Shield of Michigan",
    "staffing": false
   },
+  "Blue Cross of Idaho": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2022,
+   "matched": "Blue Cross of Idaho",
+   "staffing": false
+  },
   "Blue Origin": {
    "cert": 1,
    "confidence": "exact",
@@ -5109,6 +5450,16 @@
    "green_card": false,
    "last": 2025,
    "matched": "Blue Origin, LLC",
+   "staffing": false
+  },
+  "Blue Voice Inc.": null,
+  "Blue Yonder": {
+   "cert": 586,
+   "confidence": "exact",
+   "filed": 589,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Blue Yonder, Inc.",
    "staffing": false
   },
   "BlueChew": null,
@@ -5138,6 +5489,15 @@
    "green_card": true,
    "last": 2022,
    "matched": "BlueCrest Capital Management (New York) LP",
+   "staffing": false
+  },
+  "Blueflame": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": false,
+   "last": 2025,
+   "matched": "BlueFlame AI LLC",
    "staffing": false
   },
   "Bluegrass Stream": {
@@ -5535,6 +5895,15 @@
    "matched": "Bray International Inc.",
    "staffing": false
   },
+  "Braze": {
+   "cert": 68,
+   "confidence": "exact",
+   "filed": 79,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Braze, Inc.",
+   "staffing": false
+  },
   "Breakthru Beverage Group": {
    "cert": 1,
    "confidence": "exact",
@@ -5542,6 +5911,15 @@
    "green_card": false,
    "last": 2020,
    "matched": "Breakthru Beverage Group, LLC",
+   "staffing": false
+  },
+  "Breeze Airways™": {
+   "cert": 8,
+   "confidence": "loose",
+   "filed": 8,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Breeze Aviation Group, Inc.",
    "staffing": false
   },
   "Brellium": {
@@ -5654,6 +6032,7 @@
    "matched": "BRILLIANT INFOTECH INC.",
    "staffing": true
   },
+  "Brilyon Ventures": null,
   "Brio Water Technology": {
    "cert": 0,
    "confidence": "exact",
@@ -5791,6 +6170,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "BROWN BROTHERS HARRIMAN & CO.",
+   "staffing": false
+  },
+  "Brown University Health": {
+   "cert": 492,
+   "confidence": "prefix",
+   "filed": 664,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Brown University",
    "staffing": false
   },
   "Brown and Caldwell": {
@@ -6121,6 +6509,24 @@
    "matched": "Caire Inc.",
    "staffing": false
   },
+  "CANPACK Group": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2025,
+   "matched": "CANPACK Group, Inc.",
+   "staffing": false
+  },
+  "CANPACK US": {
+   "cert": 20,
+   "confidence": "exact",
+   "filed": 20,
+   "green_card": true,
+   "last": 2026,
+   "matched": "CANPACK US LLC",
+   "staffing": false
+  },
   "CATHEXIS": null,
   "CB&I": {
    "cert": 46,
@@ -6131,6 +6537,7 @@
    "matched": "CB&I, LLC",
    "staffing": false
   },
+  "CB2": null,
   "CBIZ": null,
   "CBRE": {
    "cert": 1077,
@@ -6159,6 +6566,15 @@
    "matched": "CDG Engineers, Inc.",
    "staffing": false
   },
+  "CDK Global": {
+   "cert": 243,
+   "confidence": "exact",
+   "filed": 267,
+   "green_card": true,
+   "last": 2026,
+   "matched": "CDK GLOBAL, LLC",
+   "staffing": false
+  },
   "CDW": {
    "cert": 201,
    "confidence": "exact",
@@ -6168,6 +6584,7 @@
    "matched": "CDW LLC",
    "staffing": false
   },
+  "CELINA (Celina Tent, Inc.)": null,
   "CEdge Inc.": null,
   "CFS": {
    "cert": 3,
@@ -6251,6 +6668,7 @@
    "matched": "CIBC U.S.",
    "staffing": false
   },
+  "CIMCO Refrigeration Inc.": null,
   "CITGO": {
    "cert": 30,
    "confidence": "loose",
@@ -6289,6 +6707,15 @@
    "green_card": true,
    "last": 2024,
    "matched": "CK Technologies, Inc.",
+   "staffing": false
+  },
+  "CLA (CliftonLarsonAllen)": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 7,
+   "green_card": false,
+   "last": 2026,
+   "matched": "CLA Global Inc.",
    "staffing": false
   },
   "CLEAR": {
@@ -6444,6 +6871,15 @@
    "staffing": false
   },
   "CSC Generation": {
+   "cert": 707,
+   "confidence": "loose",
+   "filed": 739,
+   "green_card": true,
+   "last": 2026,
+   "matched": "CSC Covansys Corporation",
+   "staffing": true
+  },
+  "CSC Leasing": {
    "cert": 707,
    "confidence": "loose",
    "filed": 739,
@@ -6701,6 +7137,7 @@
    "matched": "Canadian Solar U.S. Module Manufacturing Corporation",
    "staffing": false
   },
+  "Canals": null,
   "Candid Health": {
    "cert": 25,
    "confidence": "loose",
@@ -6867,6 +7304,7 @@
    "staffing": false
   },
   "Capitol Careers  LLC": null,
+  "Capstone Search Advisors": null,
   "Captivation": null,
   "Capzen Media": null,
   "CarGurus": {
@@ -6963,6 +7401,7 @@
   "CareSphere": null,
   "Career Launch Tech Initiative": null,
   "Career Movement": null,
+  "Career Sprint": null,
   "Careerowl.in": null,
   "CareersInFood.com": null,
   "Careismatic Brands": {
@@ -7046,6 +7485,15 @@
    "matched": "Carnival Corporation Ltd.",
    "staffing": false
   },
+  "Carpenter Co.": {
+   "cert": 6,
+   "confidence": "loose",
+   "filed": 6,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Carpenter, Evert & Associates, Ltd.",
+   "staffing": false
+  },
   "Carpool Logistics": null,
   "Carr Lane Manufacturing Co.": {
    "cert": 11,
@@ -7059,6 +7507,15 @@
   "Carrier": {
    "cert": 58,
    "confidence": "exact",
+   "filed": 61,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Carrier Corporation",
+   "staffing": false
+  },
+  "Carrier Global": {
+   "cert": 58,
+   "confidence": "loose",
    "filed": 61,
    "green_card": true,
    "last": 2026,
@@ -7111,6 +7568,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Cash App Taxes, Inc.",
+   "staffing": false
+  },
+  "Casper": {
+   "cert": 15,
+   "confidence": "loose",
+   "filed": 17,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Casper Sleep, Inc.",
    "staffing": false
   },
   "Cassidy": {
@@ -7337,6 +7803,7 @@
   },
   "Central Insurance": null,
   "Central Marketing": null,
+  "Central States": null,
   "CentralReach": {
    "cert": 2,
    "confidence": "exact",
@@ -7535,6 +8002,7 @@
    "matched": "Charta Health Inc.",
    "staffing": false
   },
+  "Charter Casting": null,
   "Charter Global": {
    "cert": 128,
    "confidence": "exact",
@@ -7738,6 +8206,24 @@
    "matched": "Choice Hotels International Services Corp",
    "staffing": false
   },
+  "Christian Louboutin": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Christian Louboutin, LLC",
+   "staffing": false
+  },
+  "Chromalloy Corporation": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Chromalloy Gas Turbine LLC",
+   "staffing": false
+  },
   "Church & Dwight": null,
   "Church & Dwight Co., Inc.": null,
   "Church Brothers Farms": {
@@ -7801,6 +8287,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Cincinnati Children's Hospital Medical Center",
+   "staffing": false
+  },
+  "Cinder": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": false,
+   "last": 2023,
+   "matched": "Cinder Technologies, Inc.",
    "staffing": false
   },
   "Cintas": {
@@ -7949,6 +8444,15 @@
    "matched": "Citizens Financial Group, Inc.",
    "staffing": false
   },
+  "City National Bank of Florida": {
+   "cert": 20,
+   "confidence": "exact",
+   "filed": 23,
+   "green_card": true,
+   "last": 2025,
+   "matched": "City National Bank of Florida",
+   "staffing": false
+  },
   "City of Chesapeake": {
    "cert": 241,
    "confidence": "prefix",
@@ -7965,6 +8469,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "City of Hope National Medical Center",
+   "staffing": false
+  },
+  "City of Gainesville": {
+   "cert": 6,
+   "confidence": "exact",
+   "filed": 6,
+   "green_card": true,
+   "last": 2026,
+   "matched": "CITY OF GAINESVILLE",
    "staffing": false
   },
   "Claims Management Resources, Inc. (CMR)": {
@@ -8145,6 +8658,15 @@
    "staffing": false
   },
   "ClickUp": null,
+  "Client Solution Architects": {
+   "cert": 77,
+   "confidence": "loose",
+   "filed": 81,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Client Software Services, LLC",
+   "staffing": false
+  },
   "Cliffton Verge": null,
   "Climactic": {
    "cert": 3,
@@ -8294,6 +8816,15 @@
    "staffing": true
   },
   "Cogent People": null,
+  "Cognex": {
+   "cert": 145,
+   "confidence": "exact",
+   "filed": 149,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Cognex Corporation",
+   "staffing": false
+  },
   "Cognite": {
    "cert": 10,
    "confidence": "exact",
@@ -8497,6 +9028,7 @@
    "matched": "Commerce.com US, Inc.",
    "staffing": false
   },
+  "Commercial Vehicle Group, Inc.": null,
   "Commergence": null,
   "CommonSpirit Health": {
    "cert": 57,
@@ -8523,6 +9055,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Communications Test Design, Inc",
+   "staffing": false
+  },
+  "Community Bank, N.A.": {
+   "cert": 1,
+   "confidence": "prefix",
+   "filed": 1,
+   "green_card": false,
+   "last": 2020,
+   "matched": "Community Bank System, Inc.",
    "staffing": false
   },
   "Community Choice Financial Family of Brands": {
@@ -8579,6 +9120,15 @@
    "matched": "CompQsoft, Inc.",
    "staffing": false
   },
+  "Compal USA Technology Inc.": {
+   "cert": 3,
+   "confidence": "prefix",
+   "filed": 3,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Compal USA (Indiana) Inc.",
+   "staffing": false
+  },
   "Compass": {
    "cert": 127,
    "confidence": "exact",
@@ -8623,6 +9173,15 @@
    "green_card": true,
    "last": 2021,
    "matched": "COMPUNNEL INC.",
+   "staffing": false
+  },
+  "Comscore, Inc.": {
+   "cert": 259,
+   "confidence": "exact",
+   "filed": 266,
+   "green_card": true,
+   "last": 2026,
+   "matched": "comScore, Inc.",
    "staffing": false
   },
   "ConServe": {
@@ -8698,6 +9257,15 @@
    "last": 2026,
    "matched": "Conexess Group, LLC",
    "staffing": true
+  },
+  "Confidence Systems": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Confidence Systems Inc.",
+   "staffing": false
   },
   "Confidential": null,
   "Confidential Careers": null,
@@ -8992,6 +9560,7 @@
    "staffing": false
   },
   "Core4ce": null,
+  "CoreVista Strategies": null,
   "CoreWeave": {
    "cert": 105,
    "confidence": "exact",
@@ -9018,6 +9587,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Corgan Associates, Inc.",
+   "staffing": false
+  },
+  "Corient": {
+   "cert": 4,
+   "confidence": "loose",
+   "filed": 4,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Corient Services LLC",
    "staffing": false
   },
   "CornerStone Technology Talent Services": null,
@@ -9188,6 +9766,15 @@
    "matched": "COVETUS, LLC",
    "staffing": false
   },
+  "Covia": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": false,
+   "last": 2023,
+   "matched": "COVIA HOLDINGS LLC",
+   "staffing": false
+  },
   "Cox": null,
   "Cox Automotive": {
    "cert": 1034,
@@ -9330,6 +9917,7 @@
    "staffing": false
   },
   "Cretex Companies, Inc.": null,
+  "Cretex Medical": null,
   "Cricut": {
    "cert": 98,
    "confidence": "exact",
@@ -9341,6 +9929,7 @@
   },
   "Crissair Inc": null,
   "Cristek": null,
+  "Critical Loop": null,
   "Critical Materials Group": null,
   "Crocs, Inc.": {
    "cert": 70,
@@ -9626,6 +10215,7 @@
    "matched": "CYBEROBOTIX TECHNOLOGY, INC.",
    "staffing": true
   },
+  "Cyberr": null,
   "Cylake": {
    "cert": 3,
    "confidence": "exact",
@@ -9859,6 +10449,9 @@
    "matched": "DLA Piper LLP (US)",
    "staffing": false
   },
+  "DLF - BV": null,
+  "DLF North America": null,
+  "DLF Seeds Australia - Careers": null,
   "DLH Corporation": {
    "cert": 13,
    "confidence": "exact",
@@ -9878,6 +10471,7 @@
    "staffing": false
   },
   "DMA - DuCharme, McMillen & Associates, Inc.": null,
+  "DMCG Global": null,
   "DMR Technologies": {
    "cert": 2,
    "confidence": "loose",
@@ -9885,6 +10479,15 @@
    "green_card": false,
    "last": 2022,
    "matched": "DMR Architects",
+   "staffing": false
+  },
+  "DN": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2025,
+   "matched": "DN Inc.",
    "staffing": false
   },
   "DNI (Delaware Nation Industries)": null,
@@ -9895,6 +10498,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Dolce & Gabanna USA, Inc",
+   "staffing": false
+  },
+  "DOMA Technologies": {
+   "cert": 20,
+   "confidence": "loose",
+   "filed": 20,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Doma Corporate LLC",
    "staffing": false
   },
   "DP World": {
@@ -9982,6 +10594,7 @@
   "DTCC": null,
   "DV Trading": null,
   "DV Trading LLC": null,
+  "DYCM": null,
   "DaVita Kidney Care": {
    "cert": 431,
    "confidence": "loose",
@@ -10164,6 +10777,15 @@
    "matched": "Dark Matter Technologies LLC",
    "staffing": false
   },
+  "Darley": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": false,
+   "last": 2024,
+   "matched": "DARLEY ROAD STUDIOS INC.",
+   "staffing": false
+  },
   "Dart Container": {
    "cert": 116,
    "confidence": "prefix",
@@ -10200,6 +10822,15 @@
    "matched": "Dassault Falcon Jet Corp.",
    "staffing": false
   },
+  "Dassault Systèmes": {
+   "cert": 585,
+   "confidence": "loose",
+   "filed": 597,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Dassault Systemes Americas Corp.",
+   "staffing": false
+  },
   "Data Device Corporation": null,
   "Data Intelligence, LLC": {
    "cert": 13,
@@ -10228,6 +10859,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "DataRobot, Inc.",
+   "staffing": false
+  },
+  "DataVisor": {
+   "cert": 44,
+   "confidence": "exact",
+   "filed": 49,
+   "green_card": true,
+   "last": 2026,
+   "matched": "DataVisor, Inc.",
    "staffing": false
   },
   "Databricks": {
@@ -10445,6 +11085,15 @@
    "matched": "DefenseStorm Inc",
    "staffing": false
   },
+  "Definitive Healthcare": {
+   "cert": 77,
+   "confidence": "exact",
+   "filed": 92,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Definitive Healthcare, LLC",
+   "staffing": false
+  },
   "DelRicht Research": null,
   "Dell Technologies": null,
   "Delmar Nord": null,
@@ -10496,6 +11145,7 @@
    "staffing": false
   },
   "Delta Galil Industries": null,
+  "Delta Pipeline, Inc.": null,
   "Deluxe": {
    "cert": 90,
    "confidence": "exact",
@@ -10521,6 +11171,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Dentsply Sirona, Inc.",
+   "staffing": false
+  },
+  "Designer Brands": {
+   "cert": 61,
+   "confidence": "exact",
+   "filed": 65,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Designer Brands Inc.",
    "staffing": false
   },
   "Dessert Holdings": {
@@ -10550,6 +11209,7 @@
    "matched": "DEV SYSTEMS, INC.",
    "staffing": true
   },
+  "Develocity": null,
   "Devon Energy": {
    "cert": 12,
    "confidence": "exact",
@@ -10694,6 +11354,15 @@
    "green_card": true,
    "last": 2023,
    "matched": "DIODES INCORPORATED",
+   "staffing": false
+  },
+  "Direct Energy Business": {
+   "cert": 9,
+   "confidence": "prefix",
+   "filed": 10,
+   "green_card": true,
+   "last": 2021,
+   "matched": "Direct Energy, LP",
    "staffing": false
   },
   "Direct Supply": {
@@ -11019,6 +11688,15 @@
    "matched": "DriveTime Sales and Finance, LLC",
    "staffing": false
   },
+  "DriveWealth": {
+   "cert": 5,
+   "confidence": "exact",
+   "filed": 8,
+   "green_card": false,
+   "last": 2023,
+   "matched": "Drivewealth INC\t\t\t\t\t\t",
+   "staffing": false
+  },
   "Drivetrain": {
    "cert": 2,
    "confidence": "loose",
@@ -11198,6 +11876,7 @@
    "matched": "E80 Group, Inc.",
    "staffing": false
   },
+  "EA SPORTS": null,
   "EAE USA": null,
   "EAi Technologies": {
    "cert": 20,
@@ -11215,6 +11894,24 @@
    "green_card": false,
    "last": 2025,
    "matched": "EBSCO Industries, Inc.",
+   "staffing": false
+  },
+  "EBSCO Information Services": {
+   "cert": 281,
+   "confidence": "loose",
+   "filed": 293,
+   "green_card": true,
+   "last": 2026,
+   "matched": "EBSCO Publishing",
+   "staffing": false
+  },
+  "ECHO Incorporated": {
+   "cert": 6,
+   "confidence": "exact",
+   "filed": 7,
+   "green_card": true,
+   "last": 2026,
+   "matched": "ECHO Incorporated",
    "staffing": false
   },
   "ECLARO": {
@@ -11280,6 +11977,7 @@
    "matched": "ELEMIS USA, Inc",
    "staffing": false
   },
+  "ELEVI Associates": null,
   "ELM Utility Services": {
    "cert": 13,
    "confidence": "loose",
@@ -11305,6 +12003,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "EMD MILLIPORE CORPORATION",
+   "staffing": false
+  },
+  "EMERGING BLUE": {
+   "cert": 9,
+   "confidence": "loose",
+   "filed": 9,
+   "green_card": true,
+   "last": 2024,
+   "matched": "Emerging Acquisitions, LLC",
    "staffing": false
   },
   "ENFOS": {
@@ -11388,6 +12095,15 @@
    "green_card": true,
    "last": 2022,
    "matched": "ESG AUTOMOTIVE, INC.",
+   "staffing": false
+  },
+  "ESPN": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": true,
+   "last": 2023,
+   "matched": "ESPN PRODUCTIONS, INC.",
    "staffing": false
   },
   "ETHOS - Talent & Advisory": {
@@ -11753,6 +12469,7 @@
    "staffing": false
   },
   "Elevate Infrastructure": null,
+  "Elevate Technology Group": null,
   "ElevateBio": {
    "cert": 67,
    "confidence": "loose",
@@ -11828,6 +12545,15 @@
    "staffing": false
   },
   "Elite Spice Inc": null,
+  "Ellsworth Adhesives": {
+   "cert": 5,
+   "confidence": "loose",
+   "filed": 5,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Ellsworth County Medical Center",
+   "staffing": false
+  },
   "Elo Touch Solutions": {
    "cert": 41,
    "confidence": "exact",
@@ -12030,6 +12756,15 @@
    "matched": "Encompass Health Corporation",
    "staffing": false
   },
+  "Encore Automation": {
+   "cert": 7,
+   "confidence": "exact",
+   "filed": 7,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Encore Automation, LLC",
+   "staffing": false
+  },
   "Endeavor Air": {
    "cert": 37,
    "confidence": "loose",
@@ -12046,6 +12781,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Endeavor Health Clinical Operations",
+   "staffing": false
+  },
+  "EnerMech": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": false,
+   "last": 2025,
+   "matched": "EnerMech Mechanical Services Inc.",
    "staffing": false
   },
   "EnerSys": {
@@ -12082,6 +12826,15 @@
    "green_card": true,
    "last": 2025,
    "matched": "Energizer Brands, LLC",
+   "staffing": false
+  },
+  "Enerpac Tool Group": {
+   "cert": 9,
+   "confidence": "exact",
+   "filed": 9,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Enerpac Tool Group Corp.",
    "staffing": false
   },
   "EngFlow": {
@@ -12140,6 +12893,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Enova Financial Holdings, LLC",
+   "staffing": false
+  },
+  "Enovis": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Enovis Corporation",
    "staffing": false
   },
   "Enpro Inc.": {
@@ -12409,6 +13171,7 @@
    "matched": "EquipmentShare.com Inc.",
    "staffing": false
   },
+  "Ergobaby": null,
   "Ergon Inc.": {
    "cert": 20,
    "confidence": "exact",
@@ -12437,6 +13200,7 @@
    "matched": "Ernst & Young U.S. LLP",
    "staffing": false
   },
+  "Escalade Sports": null,
   "Esri": {
    "cert": 0,
    "confidence": "exact",
@@ -12743,6 +13507,15 @@
    "matched": "Expedition Medicines, Inc.",
    "staffing": false
   },
+  "Expeditors": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2020,
+   "matched": "EXPEDITORS",
+   "staffing": false
+  },
   "Experis": {
    "cert": 558,
    "confidence": "loose",
@@ -12780,6 +13553,7 @@
    "staffing": false
   },
   "Extron": null,
+  "Ezurio": null,
   "F5": {
    "cert": 766,
    "confidence": "exact",
@@ -12792,6 +13566,7 @@
   "FANTOM CORPORATION": null,
   "FCX Performance": null,
   "FDB (First Databank, Inc.)": null,
+  "FDE Times": null,
   "FDM Group": null,
   "FECON": null,
   "FEI Systems": {
@@ -12872,6 +13647,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "FTS International Express, Inc.",
+   "staffing": false
+  },
+  "FUCHS LUBRICANTS CO.": {
+   "cert": 12,
+   "confidence": "exact",
+   "filed": 14,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Fuchs Lubricants Co.",
    "staffing": false
   },
   "FUJIFILM Electronic Materials U.S.A., Inc.": {
@@ -13015,8 +13799,26 @@
    "matched": "Farmers Insurance Exchange",
    "staffing": false
   },
+  "Farmers Mutual Hail Insurance": {
+   "cert": 3,
+   "confidence": "prefix",
+   "filed": 4,
+   "green_card": false,
+   "last": 2021,
+   "matched": "Farmers Mutual Hail Insurance Co. of Iowa",
+   "staffing": false
+  },
   "Faros": null,
   "Faros AI": null,
+  "Fashion Nova": {
+   "cert": 31,
+   "confidence": "exact",
+   "filed": 34,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Fashion Nova, LLC",
+   "staffing": false
+  },
   "FastTek Global": null,
   "Fathom Digital Manufacturing": {
    "cert": 2,
@@ -13043,6 +13845,15 @@
    "green_card": true,
    "last": 2022,
    "matched": "FEARLESS GROUP USA INC.",
+   "staffing": false
+  },
+  "Feastables": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2022,
+   "matched": "Feastables Inc.",
    "staffing": false
   },
   "Federal Express Corporation": {
@@ -13128,6 +13939,15 @@
    "matched": "Ferguson Group LLC",
    "staffing": false
   },
+  "Fernway": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2022,
+   "matched": "Fernway LLC",
+   "staffing": false
+  },
   "Ferrara": {
    "cert": 8,
    "confidence": "loose",
@@ -13147,6 +13967,15 @@
    "staffing": false
   },
   "Ferretti Search": null,
+  "Ferring Pharmaceuticals": {
+   "cert": 11,
+   "confidence": "exact",
+   "filed": 17,
+   "green_card": true,
+   "last": 2024,
+   "matched": "Ferring Pharmaceuticals, Inc.",
+   "staffing": false
+  },
   "Fervo Energy": {
    "cert": 6,
    "confidence": "exact",
@@ -13172,6 +14001,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Festo Corporation",
+   "staffing": false
+  },
+  "Few&Far": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": false,
+   "last": 2025,
+   "matched": "FEW MODA INC.",
    "staffing": false
   },
   "Fictiv": {
@@ -13330,6 +14168,7 @@
    "matched": "First Citizens Bank and Trust Co.",
    "staffing": false
   },
+  "First Dakota National Bank": null,
   "First Fun": {
    "cert": 1,
    "confidence": "exact",
@@ -13357,6 +14196,7 @@
    "matched": "First Solar, Inc.",
    "staffing": false
   },
+  "FirstEnergy": null,
   "FiscalNote": {
    "cert": 7,
    "confidence": "exact",
@@ -13375,6 +14215,7 @@
    "matched": "Fiserv Solutions, LLC",
    "staffing": false
   },
+  "FishEye Software, Inc.": null,
   "Fisher Investments": null,
   "Fishwife": null,
   "Fisica, Inc.": null,
@@ -13642,6 +14483,7 @@
    "matched": "Fontaine Modification Co.",
    "staffing": false
   },
+  "Fontainebleau Las Vegas": null,
   "Fonzi AI": null,
   "Food Lion": {
    "cert": 0,
@@ -13678,6 +14520,15 @@
    "green_card": true,
    "last": 2025,
    "matched": "Forage Technology Corporation",
+   "staffing": false
+  },
+  "Force Factor": {
+   "cert": 7,
+   "confidence": "loose",
+   "filed": 7,
+   "green_card": false,
+   "last": 2025,
+   "matched": "SA Force IT",
    "staffing": false
   },
   "ForceBrands": null,
@@ -13854,6 +14705,15 @@
    "matched": "Foster, LLC",
    "staffing": false
   },
+  "Foundation AI": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Foundation AI, Inc",
+   "staffing": false
+  },
   "Foundation Finance Company Careers": {
    "cert": 5,
    "confidence": "prefix",
@@ -13872,7 +14732,26 @@
    "matched": "Foundation Medicine, Inc.",
    "staffing": false
   },
+  "Foundation RPO": null,
+  "Foundation for California Community Colleges": {
+   "cert": 5,
+   "confidence": "prefix",
+   "filed": 5,
+   "green_card": false,
+   "last": 2022,
+   "matched": "FOUNDATION FOR THE GLOBAL COMPACT",
+   "staffing": false
+  },
   "Founding Teams": null,
+  "Four Hands": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Four Hands, LLC",
+   "staffing": false
+  },
   "Fourth Floor": {
    "cert": 2,
    "confidence": "prefix",
@@ -13911,6 +14790,15 @@
    "staffing": false
   },
   "Foxconn Industrial Internet - FII": {
+   "cert": 75,
+   "confidence": "loose",
+   "filed": 79,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Foxconn Assembly LLC",
+   "staffing": false
+  },
+  "Foxconn WI": {
    "cert": 75,
    "confidence": "loose",
    "filed": 79,
@@ -14101,6 +14989,16 @@
    "matched": "Fuego UX LLC",
    "staffing": false
   },
+  "Fuel Cycle": {
+   "cert": 4,
+   "confidence": "exact",
+   "filed": 4,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Fuel Cycle, Inc.",
+   "staffing": false
+  },
+  "FuelCloud": null,
   "Fuge Technologies Inc": {
    "cert": 81,
    "confidence": "exact",
@@ -14120,6 +15018,7 @@
    "matched": "Fujitsu North America, Inc.",
    "staffing": false
   },
+  "Fulcronix": null,
   "Fulfillment Recruiting": {
    "cert": 2,
    "confidence": "loose",
@@ -14149,6 +15048,15 @@
    "matched": "Function Health, Inc.",
    "staffing": false
   },
+  "Funnel Leasing": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Funnel Leasing, Inc",
+   "staffing": false
+  },
   "Fuse": {
    "cert": 1,
    "confidence": "exact",
@@ -14169,6 +15077,7 @@
   },
   "Fusion Academy": null,
   "Fusion92": null,
+  "Future Mode": null,
   "Future Secure AI": {
    "cert": 15,
    "confidence": "prefix",
@@ -14226,6 +15135,7 @@
    "matched": "GAMA-1 Technologies, LLC",
    "staffing": false
   },
+  "GAOtek inc": null,
   "GBC Food Services": {
    "cert": 1,
    "confidence": "exact",
@@ -14235,6 +15145,7 @@
    "matched": "GBC FOOD SERVICES LLC",
    "staffing": false
   },
+  "GBIT (Global Bridge InfoTech Inc)": null,
   "GBU Life": null,
   "GC AI": null,
   "GCI Incorporated": {
@@ -14355,6 +15266,15 @@
   "GM Financial": null,
   "GM Performance Power Units": null,
   "GM financial": null,
+  "GP Fund Solutions": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": true,
+   "last": 2026,
+   "matched": "GP Fund Solutions LLC",
+   "staffing": false
+  },
   "GPA": {
    "cert": 2,
    "confidence": "loose",
@@ -14492,6 +15412,15 @@
    "matched": "Gamma Holdings LLC",
    "staffing": false
   },
+  "Gap": {
+   "cert": 736,
+   "confidence": "exact",
+   "filed": 868,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Gap, Inc.",
+   "staffing": false
+  },
   "Gap International": {
    "cert": 736,
    "confidence": "loose",
@@ -14564,6 +15493,7 @@
    "matched": "Gates Corporation",
    "staffing": false
   },
+  "Gathr Outdoors": null,
   "Gecko Robotics": {
    "cert": 23,
    "confidence": "exact",
@@ -14642,6 +15572,15 @@
    "staffing": false
   },
   "General Atomics Aeronautical Systems": {
+   "cert": 11,
+   "confidence": "prefix",
+   "filed": 11,
+   "green_card": true,
+   "last": 2025,
+   "matched": "General Atomics",
+   "staffing": false
+  },
+  "General Atomics Systems Integration": {
    "cert": 11,
    "confidence": "prefix",
    "filed": 11,
@@ -14855,6 +15794,15 @@
    "matched": "Georgia-Pacific LLC",
    "staffing": false
   },
+  "Geotab": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2021,
+   "matched": "Geotab Inc.",
+   "staffing": false
+  },
   "Gerdau North America": {
    "cert": 23,
    "confidence": "loose",
@@ -14989,6 +15937,15 @@
    "matched": "Global Connect Technologies Inc.",
    "staffing": true
   },
+  "Global Edge Group": {
+   "cert": 71,
+   "confidence": "prefix",
+   "filed": 72,
+   "green_card": true,
+   "last": 2021,
+   "matched": "Global Edge Software Inc",
+   "staffing": true
+  },
   "Global Medical Response": {
    "cert": 2,
    "confidence": "prefix",
@@ -15016,6 +15973,15 @@
    "last": 2026,
    "matched": "GlobalFoundries U.S. Inc.",
    "staffing": false
+  },
+  "GlobalLogic": {
+   "cert": 1822,
+   "confidence": "exact",
+   "filed": 2275,
+   "green_card": true,
+   "last": 2026,
+   "matched": "GlobalLogic Inc.",
+   "staffing": true
   },
   "Globe Composite Solutions": {
    "cert": 32,
@@ -15280,6 +16246,15 @@
    "matched": "Great Dane LLC",
    "staffing": false
   },
+  "Great Minds": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": true,
+   "last": 2022,
+   "matched": "Great Minds PBC",
+   "staffing": false
+  },
   "GreatAmerica": null,
   "Green Key Resources": {
    "cert": 5,
@@ -15355,6 +16330,15 @@
    "matched": "Greenlight Financial Technology, Inc.",
    "staffing": false
   },
+  "Greenlight Rent": {
+   "cert": 94,
+   "confidence": "loose",
+   "filed": 97,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Greenlight Financial Technology, Inc.",
+   "staffing": false
+  },
   "Greenpoint Technologies, Inc.": {
    "cert": 17,
    "confidence": "loose",
@@ -15363,6 +16347,15 @@
    "last": 2026,
    "matched": "Greenpoint IT LLC",
    "staffing": true
+  },
+  "Greenshades Software": {
+   "cert": 1,
+   "confidence": "squashed",
+   "filed": 1,
+   "green_card": true,
+   "last": 2024,
+   "matched": "Green Shades Software, LLC",
+   "staffing": false
   },
   "Greif": {
    "cert": 22,
@@ -15389,6 +16382,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Greystar Management Services, LLC",
+   "staffing": false
+  },
+  "Greystone": {
+   "cert": 13,
+   "confidence": "loose",
+   "filed": 15,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Greystone Funding Company LLC",
    "staffing": false
   },
   "Gridware": {
@@ -15465,7 +16467,26 @@
    "staffing": true
   },
   "GrowTal": null,
+  "Growvana": null,
   "Growvix": null,
+  "Grubhub": {
+   "cert": 466,
+   "confidence": "exact",
+   "filed": 472,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Grubhub Holdings, Inc.",
+   "staffing": false
+  },
+  "Guardant Health": {
+   "cert": 293,
+   "confidence": "exact",
+   "filed": 342,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Guardant Health, Inc.",
+   "staffing": false
+  },
   "Guardian": {
    "cert": 1,
    "confidence": "exact",
@@ -15494,6 +16515,15 @@
    "staffing": false
   },
   "Guardian Pharmacy": null,
+  "Guerbet": {
+   "cert": 5,
+   "confidence": "exact",
+   "filed": 6,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Guerbet LLC",
+   "staffing": false
+  },
   "Guest Supply": {
    "cert": 2,
    "confidence": "loose",
@@ -15552,6 +16582,15 @@
    "staffing": false
   },
   "GummyWorks": null,
+  "Gundersen Health System": {
+   "cert": 53,
+   "confidence": "loose",
+   "filed": 59,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Gundersen Lutheran Administrative Services, Inc.",
+   "staffing": false
+  },
   "Gusto": {
    "cert": 240,
    "confidence": "exact",
@@ -15861,6 +16900,15 @@
    "matched": "HRCap, Inc.",
    "staffing": false
   },
+  "HRK Technologies Inc.": {
+   "cert": 80,
+   "confidence": "loose",
+   "filed": 80,
+   "green_card": true,
+   "last": 2026,
+   "matched": "HRK Solutions LLC",
+   "staffing": false
+  },
   "HRmango": null,
   "HTC Global Services": {
    "cert": 2340,
@@ -15871,6 +16919,7 @@
    "matched": "HTC GLOBAL SERVICES INC.",
    "staffing": true
   },
+  "HX5, LLC": null,
   "Haas Automation, Inc.": {
    "cert": 37,
    "confidence": "exact",
@@ -15910,6 +16959,15 @@
    "staffing": false
   },
   "HallPass": null,
+  "Halvik": {
+   "cert": 56,
+   "confidence": "exact",
+   "filed": 56,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Halvik Corp.",
+   "staffing": true
+  },
   "Hamilton Barnes 🌳": null,
   "Hamilton Lane": {
    "cert": 3,
@@ -16043,10 +17101,12 @@
    "staffing": false
   },
   "Harris Rebar": null,
+  "Harrison Clarke": null,
   "Harrison Gray Search": null,
   "Harrison Street Asset Management": null,
   "HartleyCo": null,
   "Harvard Graduate School of Education": null,
+  "Harvard Group International": null,
   "Harvest Food Group LLC": null,
   "Harvest Group": null,
   "Harvey": {
@@ -16057,6 +17117,15 @@
    "last": 2026,
    "matched": "Harvey & Company LLC",
    "staffing": false
+  },
+  "Harvey Nash": {
+   "cert": 377,
+   "confidence": "exact",
+   "filed": 380,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Harvey Nash Inc.",
+   "staffing": true
   },
   "Hasbro": {
    "cert": 19,
@@ -16110,6 +17179,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Haworth, Inc.",
+   "staffing": false
+  },
+  "Hayden Industrial": {
+   "cert": 5,
+   "confidence": "exact",
+   "filed": 5,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Hayden Industrial LLC.",
    "staffing": false
   },
   "Hays": {
@@ -16293,6 +17371,15 @@
    "staffing": false
   },
   "Heliux": null,
+  "HellermannTyton North America": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": false,
+   "last": 2022,
+   "matched": "Hellermanntyton Corporation",
+   "staffing": false
+  },
   "HelloFresh": null,
   "HelloGov AI, Inc.": null,
   "Helsing": null,
@@ -16367,6 +17454,7 @@
    "staffing": false
   },
   "Hexcel Corporation": null,
+  "HeyCounsel": null,
   "HiTHIUM Energy Storage": {
    "cert": 9,
    "confidence": "prefix",
@@ -16414,6 +17502,15 @@
    "matched": "Higharc, Inc",
    "staffing": false
   },
+  "Highbrow Technology Inc": {
+   "cert": 119,
+   "confidence": "exact",
+   "filed": 132,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Highbrow Technology, Inc",
+   "staffing": false
+  },
   "Highline Warren": {
    "cert": 5,
    "confidence": "exact",
@@ -16459,6 +17556,7 @@
    "matched": "Hikma Pharmaceuticals USA Inc.",
    "staffing": false
   },
+  "Hill": null,
   "Hill Physicians Medical Group": null,
   "Hill's Pet Nutrition": {
    "cert": 12,
@@ -16649,6 +17747,7 @@
    "matched": "Hollingsworth & Vose Company",
    "staffing": false
   },
+  "Hollow Star Solutions": null,
   "Holobeam Technologies": null,
   "Hologic, Inc.": {
    "cert": 161,
@@ -16659,6 +17758,15 @@
    "matched": "Hologic, Inc.",
    "staffing": false
   },
+  "HomeServe USA": {
+   "cert": 4,
+   "confidence": "exact",
+   "filed": 4,
+   "green_card": true,
+   "last": 2026,
+   "matched": "HOMESERVE USA CORP.",
+   "staffing": false
+  },
   "Homes.com": {
    "cert": 5,
    "confidence": "exact",
@@ -16666,6 +17774,15 @@
    "green_card": true,
    "last": 2021,
    "matched": "Homes.com, Inc.",
+   "staffing": false
+  },
+  "Homewerks Worldwide": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2023,
+   "matched": "HOMEWERKS WORLDWIDE LLC",
    "staffing": false
   },
   "Honda South Carolina Manufacturing": {
@@ -16704,6 +17821,7 @@
    "matched": "Honeywell International Inc.",
    "staffing": false
   },
+  "Hoplite Solutions LLC": null,
   "Horizon Media": {
    "cert": 61,
    "confidence": "exact",
@@ -16824,6 +17942,15 @@
    "matched": "Hugh M. Cunningham, Inc.",
    "staffing": false
   },
+  "Huhtamaki": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2021,
+   "matched": "Huhtamaki, Inc.",
+   "staffing": false
+  },
   "Humacyte": {
    "cert": 2,
    "confidence": "loose",
@@ -16849,6 +17976,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Humanscale Corporation",
+   "staffing": false
+  },
+  "Humble Robotics": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Humble Robotics, Inc.",
    "staffing": false
   },
   "Hunt Electric": {
@@ -16991,6 +18127,15 @@
    "matched": "Hydrogen Group LLC",
    "staffing": false
   },
+  "Hyperice": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2021,
+   "matched": "Hyperice, Inc.",
+   "staffing": false
+  },
   "Hyperion Materials & Technologies": {
    "cert": 2,
    "confidence": "exact",
@@ -17049,6 +18194,7 @@
    "staffing": false
   },
   "Héroux-Devtek": null,
+  "IAMUS": null,
   "IAT Insurance Group": {
    "cert": 1,
    "confidence": "exact",
@@ -17120,6 +18266,15 @@
    "green_card": false,
    "last": 2025,
    "matched": "Icons Printing and Signs Inc",
+   "staffing": false
+  },
+  "ICR, Inc.": {
+   "cert": 8,
+   "confidence": "exact",
+   "filed": 8,
+   "green_card": true,
+   "last": 2024,
+   "matched": "ICR, LLC",
    "staffing": false
   },
   "ICU Medical": {
@@ -17296,6 +18451,15 @@
    "matched": "IGEN SYSTEMS LLC",
    "staffing": true
   },
+  "IGNITE": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2020,
+   "matched": "IGNITE HOLDINGS, LLC",
+   "staffing": false
+  },
   "IGS Energy": {
    "cert": 3,
    "confidence": "loose",
@@ -17324,6 +18488,15 @@
    "staffing": false
   },
   "ILLES Foods": null,
+  "ILS": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": true,
+   "last": 2025,
+   "matched": "ILS Cargo Corp",
+   "staffing": false
+  },
   "IMC Trading": {
    "cert": 145,
    "confidence": "loose",
@@ -17400,6 +18573,7 @@
   "INflow Federal": null,
   "IP Corporation": null,
   "IPConfigure Inc.": null,
+  "IPDN-Professional Diversity Network": null,
   "IPEX by Aliaxis": {
    "cert": 3,
    "confidence": "loose",
@@ -17447,6 +18621,15 @@
    "matched": "ISC Constructors, LLC",
    "staffing": false
   },
+  "ISI": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 4,
+   "green_card": false,
+   "last": 2026,
+   "matched": "ISI NEBRASKA TRADING INC",
+   "staffing": false
+  },
   "ISITE TECHNOLOGIES": {
    "cert": 385,
    "confidence": "exact",
@@ -17474,6 +18657,7 @@
    "matched": "ISO New England Inc.",
    "staffing": false
   },
+  "ISPA Technology": null,
   "IT Job Board - Tech Jobs Portal in USA": null,
   "IT Resources": {
    "cert": 479,
@@ -17485,6 +18669,15 @@
    "staffing": true
   },
   "ITC Defense Corp.": {
+   "cert": 711,
+   "confidence": "loose",
+   "filed": 803,
+   "green_card": true,
+   "last": 2026,
+   "matched": "ITC INFOTECH (USA), INC.",
+   "staffing": true
+  },
+  "ITC Federal": {
    "cert": 711,
    "confidence": "loose",
    "filed": 803,
@@ -17513,6 +18706,15 @@
    "staffing": false
   },
   "ITUS Global, Inc.": null,
+  "ITW": {
+   "cert": 32,
+   "confidence": "loose",
+   "filed": 37,
+   "green_card": true,
+   "last": 2026,
+   "matched": "ITW Food Equipment Group LLC",
+   "staffing": false
+  },
   "ITnova": null,
   "IXL Learning": {
    "cert": 144,
@@ -17657,6 +18859,15 @@
    "matched": "InComm Financial Services, Inc.",
    "staffing": false
   },
+  "Incedo Inc.": {
+   "cert": 574,
+   "confidence": "exact",
+   "filed": 652,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Incedo, Inc.",
+   "staffing": false
+  },
   "Inceed": null,
   "Incident IQ": {
    "cert": 2,
@@ -17676,7 +18887,17 @@
    "matched": "INCO Group LLC",
    "staffing": false
   },
+  "Incora": null,
   "Independent Software": null,
+  "Index Analytics LLC": {
+   "cert": 37,
+   "confidence": "exact",
+   "filed": 42,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Index Analytics LLC",
+   "staffing": false
+  },
   "Index Search": {
    "cert": 37,
    "confidence": "loose",
@@ -17704,6 +18925,15 @@
    "matched": "Indiana Packers Corporation",
    "staffing": false
   },
+  "Indiana University Health": {
+   "cert": 124,
+   "confidence": "exact",
+   "filed": 129,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Indiana University Health, Inc.",
+   "staffing": false
+  },
   "Indigo Slate": {
    "cert": 2,
    "confidence": "exact",
@@ -17711,6 +18941,15 @@
    "green_card": false,
    "last": 2020,
    "matched": "Indigo Slate, Inc.",
+   "staffing": false
+  },
+  "Indium Corporation": {
+   "cert": 34,
+   "confidence": "loose",
+   "filed": 36,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Indium Software, Inc.",
    "staffing": false
   },
   "Indotronix Avani Group": {
@@ -17785,6 +19024,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Info Services, LLC",
+   "staffing": true
+  },
+  "Info Way Solutions": {
+   "cert": 221,
+   "confidence": "exact",
+   "filed": 227,
+   "green_card": true,
+   "last": 2026,
+   "matched": "INFO WAY SOLUTIONS, LLC",
    "staffing": true
   },
   "InfoVision Inc.": {
@@ -17888,6 +19136,7 @@
    "matched": "InnoCore Solutions, Inc",
    "staffing": true
   },
+  "InnoSource": null,
   "Innomotics": {
    "cert": 1,
    "confidence": "loose",
@@ -18011,6 +19260,15 @@
    "staffing": false
   },
   "Intac Solution": null,
+  "Intact Insurance U.S.": {
+   "cert": 12,
+   "confidence": "loose",
+   "filed": 13,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Intact Services USA LLC",
+   "staffing": false
+  },
   "IntePros": {
    "cert": 44,
    "confidence": "loose",
@@ -18054,6 +19312,24 @@
    "green_card": true,
    "last": 2026,
    "matched": "Integra LifeSciences Corporation",
+   "staffing": false
+  },
+  "Integral Federal, Inc.": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Integral Federal, Inc.",
+   "staffing": true
+  },
+  "Integrate": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2024,
+   "matched": "Integrate LLC",
    "staffing": false
   },
   "Integrated Business Planning Associates (IBP2)": {
@@ -18158,6 +19434,7 @@
   },
   "Intelliforce-IT Solutions Group": null,
   "Intelligems": null,
+  "Intelligent Audit": null,
   "Intellum": {
    "cert": 1,
    "confidence": "exact",
@@ -18196,6 +19473,15 @@
    "staffing": false
   },
   "Interclypse": null,
+  "Intercos America": {
+   "cert": 26,
+   "confidence": "exact",
+   "filed": 26,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Intercos America Inc.",
+   "staffing": false
+  },
   "Intercos Group": {
    "cert": 26,
    "confidence": "loose",
@@ -18248,6 +19534,15 @@
    "green_card": true,
    "last": 2025,
    "matched": "Interroll USA Holding LLC",
+   "staffing": false
+  },
+  "Interstate Batteries": {
+   "cert": 11,
+   "confidence": "exact",
+   "filed": 11,
+   "green_card": true,
+   "last": 2026,
+   "matched": "INTERSTATE BATTERIES INC.",
    "staffing": false
   },
   "Interstate Packaging": null,
@@ -18352,6 +19647,15 @@
    "matched": "INVIA, LLC",
    "staffing": false
   },
+  "Invictus International Consulting, LLC": {
+   "cert": 122,
+   "confidence": "loose",
+   "filed": 124,
+   "green_card": true,
+   "last": 2026,
+   "matched": "INVICTUS INFOTECH LLC",
+   "staffing": true
+  },
   "IonQ": {
    "cert": 41,
    "confidence": "loose",
@@ -18415,6 +19719,7 @@
    "matched": "IRISLOGIC, INC.",
    "staffing": true
   },
+  "Iron EagleX, Inc.": null,
   "IronMountain Solutions": null,
   "IronRidge - An Enstall Company": {
    "cert": 9,
@@ -18470,6 +19775,7 @@
    "matched": "JT HOLDINGS INC.",
    "staffing": false
   },
+  "J-Mack Technologies, LLC": null,
   "J.Crew": {
    "cert": 110,
    "confidence": "exact",
@@ -18683,6 +19989,7 @@
    "matched": "Jackson Family Wines, Inc",
    "staffing": false
   },
+  "Jackson Health System": null,
   "Jacobs": {
    "cert": 2,
    "confidence": "exact",
@@ -18986,6 +20293,15 @@
    "staffing": false
   },
   "Judi Health": null,
+  "Juicebox": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Juicebox App, Inc.",
+   "staffing": false
+  },
   "Jumio Corporation": {
    "cert": 22,
    "confidence": "exact",
@@ -19030,6 +20346,15 @@
    "green_card": true,
    "last": 2022,
    "matched": "JUSTRITE MANUFACTURING COMPANY, LLC",
+   "staffing": false
+  },
+  "Justworks": {
+   "cert": 89,
+   "confidence": "exact",
+   "filed": 91,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Justworks, Inc.",
    "staffing": false
   },
   "K&K Talents": {
@@ -19153,6 +20478,15 @@
    "staffing": true
   },
   "KEPLER22 LLC": null,
+  "KEYENCE CORPORATION": {
+   "cert": 6,
+   "confidence": "loose",
+   "filed": 7,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Keyence Corporation of America",
+   "staffing": false
+  },
   "KFC": {
    "cert": 35,
    "confidence": "exact",
@@ -19182,6 +20516,15 @@
    "staffing": true
   },
   "KINETIQ": null,
+  "KION Group": {
+   "cert": 7,
+   "confidence": "loose",
+   "filed": 8,
+   "green_card": true,
+   "last": 2026,
+   "matched": "KION North America Corporation",
+   "staffing": false
+  },
   "KITH": {
    "cert": 9,
    "confidence": "loose",
@@ -19229,6 +20572,7 @@
    "matched": "KLS Martin Manufacturing LLC",
    "staffing": false
   },
+  "KOCH Finishing Systems": null,
   "KODIAK Construction Recruiting & Staffing": {
    "cert": 51,
    "confidence": "loose",
@@ -19311,6 +20655,15 @@
    "matched": "Kaleidoscope Innovation",
    "staffing": false
   },
+  "Kane Partners LLC": {
+   "cert": 5,
+   "confidence": "loose",
+   "filed": 5,
+   "green_card": true,
+   "last": 2026,
+   "matched": "KANE COUNTY HUMAN RESOURCE SPECIAL SERVICE DISTRICT",
+   "staffing": false
+  },
   "Kansas City National Security Campus": {
    "cert": 60,
    "confidence": "prefix",
@@ -19349,6 +20702,7 @@
    "staffing": false
   },
   "Karoo Health": null,
+  "Kastel Group": null,
   "Katalyst Space Technologies": {
    "cert": 238,
    "confidence": "loose",
@@ -19600,6 +20954,15 @@
    "staffing": false
   },
   "Kilcoy Global Foods North America": null,
+  "Kimball Electronics": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Kimball Electronics Group LLC",
+   "staffing": false
+  },
   "Kimball Midwest": {
    "cert": 2,
    "confidence": "exact",
@@ -19692,8 +21055,18 @@
    "matched": "Kinney Construction Services, Inc.",
    "staffing": false
   },
+  "Kintara": null,
   "Kipling": null,
   "Kirby": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": true,
+   "last": 2022,
+   "matched": "Kirby Corporation",
+   "staffing": false
+  },
+  "Kirby Company": {
    "cert": 1,
    "confidence": "exact",
    "filed": 3,
@@ -19920,6 +21293,7 @@
    "matched": "Korn Ferry",
    "staffing": false
   },
+  "Korry Electronics Co.": null,
   "Kraft Heinz": {
    "cert": 85,
    "confidence": "prefix",
@@ -19984,6 +21358,24 @@
    "matched": "Kubota Tractor Corporation",
    "staffing": false
   },
+  "Kuraray America, Inc.": {
+   "cert": 10,
+   "confidence": "exact",
+   "filed": 10,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Kuraray America, Inc.",
+   "staffing": false
+  },
+  "Kwik Trip, Inc.": {
+   "cert": 5,
+   "confidence": "exact",
+   "filed": 5,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Kwik Trip, Inc",
+   "staffing": false
+  },
   "Kyndryl": {
    "cert": 153,
    "confidence": "exact",
@@ -20045,6 +21437,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "L3Harris Technologies Inc",
+   "staffing": false
+  },
+  "LANXESS": {
+   "cert": 40,
+   "confidence": "exact",
+   "filed": 46,
+   "green_card": true,
+   "last": 2026,
+   "matched": "LANXESS Corporation",
    "staffing": false
   },
   "LATICRETE International": {
@@ -20261,6 +21662,15 @@
    "matched": "Labor Collaborative LLC",
    "staffing": false
   },
+  "Laborie": {
+   "cert": 24,
+   "confidence": "loose",
+   "filed": 24,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Laborie Medical Technologies Corp.",
+   "staffing": false
+  },
   "Lacoste": null,
   "Lactalis USA": {
    "cert": 33,
@@ -20363,6 +21773,7 @@
    "matched": "Landis Gyr Technology, Inc.",
    "staffing": false
   },
+  "Landmark Credit Union": null,
   "Lands' End": {
    "cert": 56,
    "confidence": "exact",
@@ -20445,6 +21856,7 @@
    "matched": "LATTICE SEMICONDUCTOR CORPORATION",
    "staffing": false
   },
+  "LaunchCode": null,
   "Laveer Engineering": null,
   "Lawrence Harvey": null,
   "Lawrence Livermore National Laboratory": {
@@ -20465,6 +21877,7 @@
    "matched": "Lawrence Livermore National Security, LLC",
    "staffing": false
   },
+  "LayerZero Power Systems": null,
   "Layup Parts": null,
   "Lazard": {
    "cert": 236,
@@ -20522,6 +21935,7 @@
    "matched": "Leeds LLC",
    "staffing": false
   },
+  "Legence": null,
   "Legrand": {
    "cert": 11,
    "confidence": "loose",
@@ -20594,6 +22008,7 @@
    "matched": "Lenovo (United States) Inc",
    "staffing": false
   },
+  "Lentech, Inc.": null,
   "Leon Capital Group": {
    "cert": 3,
    "confidence": "loose",
@@ -20648,7 +22063,17 @@
    "matched": "Leviton Manufacturing Co., Inc.",
    "staffing": false
   },
+  "Lewis Energy Group": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2023,
+   "matched": "Lewis Energy Group LP",
+   "staffing": false
+  },
   "Lewiston Tribune": null,
+  "Lewoint": null,
   "LexisNexis Legal & Professional": {
    "cert": 693,
    "confidence": "loose",
@@ -20668,6 +22093,7 @@
    "staffing": false
   },
   "Liberin Technologies": null,
+  "Liberty Furniture": null,
   "Liberty Mutual": {
    "cert": 324,
    "confidence": "exact",
@@ -20687,6 +22113,15 @@
    "staffing": false
   },
   "Liberty Personnel Services, Inc.": null,
+  "Lidl US": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Lidl US, LLC",
+   "staffing": false
+  },
   "Lids": null,
   "Life Fitness": {
    "cert": 45,
@@ -20805,6 +22240,24 @@
    "matched": "Linde Advanced Material Technologies Inc.",
    "staffing": false
   },
+  "Linde Gas & Equipment": {
+   "cert": 15,
+   "confidence": "exact",
+   "filed": 15,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Linde Gas & Equipment Inc.",
+   "staffing": false
+  },
+  "Linden Harbor": {
+   "cert": 7,
+   "confidence": "loose",
+   "filed": 10,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Linden Global Strategies LLC",
+   "staffing": false
+  },
   "Lindsay Corporation": {
    "cert": 16,
    "confidence": "exact",
@@ -20868,6 +22321,7 @@
    "matched": "Lippert Components, Inc.",
    "staffing": false
   },
+  "LiquidXR": null,
   "Litens Automotive Group": null,
   "Litera": null,
   "Live Oak Bank": {
@@ -20888,6 +22342,7 @@
    "matched": "LiveRamp, Inc.",
    "staffing": false
   },
+  "LiveSwitch": null,
   "Living Spaces Furniture": {
    "cert": 0,
    "confidence": "exact",
@@ -20998,6 +22453,15 @@
    "matched": "LONE STAR CIRCLE OF CARE",
    "staffing": false
   },
+  "Longbridge": {
+   "cert": 6,
+   "confidence": "loose",
+   "filed": 6,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Longbridge Financial, LLC",
+   "staffing": false
+  },
   "Longbridge Singapore": {
    "cert": 6,
    "confidence": "loose",
@@ -21026,6 +22490,15 @@
    "staffing": false
   },
   "Lorem Ipsum Corp.": null,
+  "Lori's Gifts": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": true,
+   "last": 2024,
+   "matched": "Lori Caldwell Designs, LLC",
+   "staffing": false
+  },
   "Loro Piana": {
    "cert": 2,
    "confidence": "prefix",
@@ -21036,6 +22509,15 @@
    "staffing": false
   },
   "Lorum": null,
+  "Lorven Technologies Inc.": {
+   "cert": 76,
+   "confidence": "exact",
+   "filed": 78,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Lorven Technologies, Inc",
+   "staffing": true
+  },
   "Los Alamos National Laboratory": {
    "cert": 0,
    "confidence": "prefix",
@@ -21074,6 +22556,7 @@
    "matched": "Love's Travel Stops & Country Stores, Inc.",
    "staffing": false
   },
+  "Lovesac": null,
   "Lowe's": {
    "cert": 2132,
    "confidence": "prefix",
@@ -21129,6 +22612,7 @@
    "matched": "Lufthansa Technik Component Services LLC",
    "staffing": false
   },
+  "Lulius Innovation": null,
   "Lulus": null,
   "Luma Financial Technologies": {
    "cert": 31,
@@ -21161,6 +22645,15 @@
    "matched": "Lunar Outpost Inc",
    "staffing": false
   },
+  "Lundberg Family Farms": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": false,
+   "last": 2024,
+   "matched": "Lundberg Architectural Design Corp.",
+   "staffing": false
+  },
   "Lutron Electronics": {
    "cert": 124,
    "confidence": "exact",
@@ -21177,6 +22670,15 @@
    "green_card": true,
    "last": 2020,
    "matched": "Luxoft",
+   "staffing": false
+  },
+  "Lycoming Engines": {
+   "cert": 7,
+   "confidence": "loose",
+   "filed": 8,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Lycoming College",
    "staffing": false
   },
   "Lyft": {
@@ -21270,6 +22772,15 @@
    "green_card": false,
    "last": 2025,
    "matched": "MAI Reality Inc",
+   "staffing": false
+  },
+  "MANE": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2020,
+   "matched": "Mane, Inc.",
    "staffing": false
   },
   "MANN+HUMMEL": {
@@ -21398,6 +22909,7 @@
   "MIT Lincoln Laboratory": null,
   "MITER Brands": null,
   "MITRE": null,
+  "MITY Inc.": null,
   "MKS Inc.": {
    "cert": 36,
    "confidence": "exact",
@@ -21613,6 +23125,15 @@
   },
   "Machina Labs": null,
   "Mackage": null,
+  "Mackie Myers": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Mackie Consultants LLC",
+   "staffing": false
+  },
   "Macquarie Group": {
    "cert": 444,
    "confidence": "loose",
@@ -21697,6 +23218,15 @@
    "staffing": false
   },
   "Magnum Venus Products": null,
+  "MaineHealth": {
+   "cert": 61,
+   "confidence": "exact",
+   "filed": 65,
+   "green_card": true,
+   "last": 2026,
+   "matched": "MaineHealth",
+   "staffing": false
+  },
   "Mainstream Engineering Corporation": {
    "cert": 5,
    "confidence": "loose",
@@ -21751,6 +23281,7 @@
    "matched": "Mammoth Brands Inc. (fka Harry's, Inc.)",
    "staffing": false
   },
+  "Mammotome": null,
   "ManTech": {
    "cert": 1,
    "confidence": "loose",
@@ -21779,6 +23310,15 @@
    "staffing": false
   },
   "Mandolin": null,
+  "Mane": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2020,
+   "matched": "Mane, Inc.",
+   "staffing": false
+  },
   "Manière De Voir": {
    "cert": 1,
    "confidence": "exact",
@@ -21786,6 +23326,15 @@
    "green_card": false,
    "last": 2025,
    "matched": "ManiÃ¨re De Voir LLC",
+   "staffing": false
+  },
+  "ManpowerGroup": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2020,
+   "matched": "ManpowerGroup",
    "staffing": false
   },
   "Mantari Industries, Inc.": null,
@@ -21890,6 +23439,15 @@
    "matched": "Mark43, Inc.",
    "staffing": false
   },
+  "Marketech International Corporation USA": {
+   "cert": 56,
+   "confidence": "exact",
+   "filed": 57,
+   "green_card": true,
+   "last": 2026,
+   "matched": "MARKETECH INTERNATIONAL CORP USA",
+   "staffing": false
+  },
   "Marketlab": null,
   "Markforged": null,
   "Markwins Beauty Brands": null,
@@ -21988,6 +23546,15 @@
    "last": 2026,
    "matched": "Mastech Digital Technologies, Inc.",
    "staffing": true
+  },
+  "Master Builders Solutions": {
+   "cert": 3,
+   "confidence": "prefix",
+   "filed": 3,
+   "green_card": false,
+   "last": 2021,
+   "matched": "Master Builders Solutions Admixture Systems US, LLC\t",
+   "staffing": false
   },
   "Mastercard": {
    "cert": 2338,
@@ -22230,6 +23797,7 @@
    "staffing": false
   },
   "Medal": null,
+  "Medical Murray": null,
   "Medical Mutual": {
    "cert": 111,
    "confidence": "prefix",
@@ -22434,6 +24002,7 @@
    "matched": "Merlin AI, Inc.",
    "staffing": false
   },
+  "Merrell": null,
   "Mesa Power Solutions": {
    "cert": 51,
    "confidence": "loose",
@@ -22500,6 +24069,7 @@
    "matched": "Metasys Technologies Inc",
    "staffing": false
   },
+  "Metcut Research Inc. Cincinnati - Rosslyn": null,
   "Method360 Talent Acquisition": {
    "cert": 13,
    "confidence": "loose",
@@ -22509,6 +24079,7 @@
    "matched": "Method360 Inc.",
    "staffing": false
   },
+  "Metrea": null,
   "Metric Geo": {
    "cert": 4,
    "confidence": "loose",
@@ -22525,6 +24096,15 @@
    "green_card": false,
    "last": 2019,
    "matched": "MetroStar Systems, Inc.",
+   "staffing": false
+  },
+  "Metrolina Greenhouses": {
+   "cert": 6,
+   "confidence": "exact",
+   "filed": 6,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Metrolina Greenhouses, Inc.",
    "staffing": false
   },
   "Metropolitan Transportation Authority": {
@@ -22563,6 +24143,15 @@
    "matched": "Meyer Distributing, Inc.",
    "staffing": false
   },
+  "MiTek": {
+   "cert": 4,
+   "confidence": "exact",
+   "filed": 4,
+   "green_card": true,
+   "last": 2026,
+   "matched": "MiTek Inc.",
+   "staffing": false
+  },
   "Miami-Dade County": {
    "cert": 11,
    "confidence": "prefix",
@@ -22573,6 +24162,15 @@
    "staffing": false
   },
   "Michael Foods": null,
+  "Michael Page": {
+   "cert": 22,
+   "confidence": "prefix",
+   "filed": 23,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Michael Page International, Inc.",
+   "staffing": false
+  },
   "Michaels Stores": {
    "cert": 125,
    "confidence": "exact",
@@ -22647,6 +24245,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Microsoft Corporation",
+   "staffing": false
+  },
+  "MidAmerican Energy Company": {
+   "cert": 79,
+   "confidence": "exact",
+   "filed": 82,
+   "green_card": true,
+   "last": 2026,
+   "matched": "MidAmerican Energy Company",
    "staffing": false
   },
   "Midcontinent Independent System Operator (MISO)": {
@@ -22752,6 +24359,7 @@
    "matched": "Milo Advisors LLC",
    "staffing": false
   },
+  "Milsco LLC": null,
   "Milwaukee Tool": null,
   "Mimecast": {
    "cert": 11,
@@ -22798,6 +24406,15 @@
    "matched": "Mini Kix Inc.",
    "staffing": false
   },
+  "Miniat": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Miniat Holdings LLC",
+   "staffing": false
+  },
   "Minitab": {
    "cert": 4,
    "confidence": "exact",
@@ -22809,6 +24426,15 @@
   },
   "Minor Figures": null,
   "MintMCP": null,
+  "Mintegral": {
+   "cert": 6,
+   "confidence": "loose",
+   "filed": 7,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Mintegral North America Inc.",
+   "staffing": false
+  },
   "Mira": {
    "cert": 0,
    "confidence": "exact",
@@ -23159,6 +24785,15 @@
    "matched": "Morgan Stanley & Co. LLC",
    "staffing": false
   },
+  "Morgan, Lewis & Bockius LLP": {
+   "cert": 25,
+   "confidence": "exact",
+   "filed": 25,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Morgan, Lewis & Bockius LLP",
+   "staffing": false
+  },
   "Morningstar": {
    "cert": 333,
    "confidence": "exact",
@@ -23205,6 +24840,15 @@
    "matched": "Motional AD Inc.",
    "staffing": false
   },
+  "Motor City Electric Co.": {
+   "cert": 4,
+   "confidence": "exact",
+   "filed": 4,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Motor City Electric Co.",
+   "staffing": false
+  },
   "Motorola": {
    "cert": 1026,
    "confidence": "loose",
@@ -23239,6 +24883,15 @@
    "green_card": false,
    "last": 2025,
    "matched": "Mott Corporation",
+   "staffing": false
+  },
+  "Motus Integrated Technologies": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2020,
+   "matched": "Motus Integrated Technologies",
    "staffing": false
   },
   "Moultrie": null,
@@ -23296,6 +24949,24 @@
    "matched": "Mueller Water Products, Inc.",
    "staffing": false
   },
+  "Multiply Labs": {
+   "cert": 8,
+   "confidence": "exact",
+   "filed": 9,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Multiply Labs, Inc.",
+   "staffing": false
+  },
+  "Munchkin": {
+   "cert": 12,
+   "confidence": "exact",
+   "filed": 12,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Munchkin, Inc.",
+   "staffing": false
+  },
   "Munters": {
    "cert": 14,
    "confidence": "exact",
@@ -23344,6 +25015,7 @@
    "staffing": false
   },
   "Mursix Corporation": null,
+  "My Market": null,
   "MyEyeDr.": {
    "cert": 3,
    "confidence": "loose",
@@ -23371,6 +25043,15 @@
    "matched": "MyMichigan Health",
    "staffing": false
   },
+  "MyOme": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2022,
+   "matched": "MyOme, Inc.",
+   "staffing": false
+  },
   "MyStudio": {
    "cert": 5,
    "confidence": "exact",
@@ -23381,6 +25062,16 @@
    "staffing": false
   },
   "Mygrant Glass Company": null,
+  "Myriad Genetics": {
+   "cert": 32,
+   "confidence": "exact",
+   "filed": 37,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Myriad Genetics, Inc.",
+   "staffing": false
+  },
+  "Mölnlycke Health Care": null,
   "NAC": {
    "cert": 16,
    "confidence": "exact",
@@ -23527,7 +25218,17 @@
    "matched": "NRC Electronics, LLC",
    "staffing": false
   },
+  "NRG Energy": {
+   "cert": 153,
+   "confidence": "exact",
+   "filed": 158,
+   "green_card": true,
+   "last": 2026,
+   "matched": "NRG Energy, Inc.",
+   "staffing": false
+  },
   "NS BlueScope": null,
+  "NS2 Mission": null,
   "NST - Nova Source Technologies": null,
   "NSTAR, now Eversource Energy- Follow our new company page, Eversource Energy": {
    "cert": 7,
@@ -23689,6 +25390,16 @@
    "staffing": false
   },
   "National Laboratory of the Rockies": null,
+  "National Machinery": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": true,
+   "last": 2025,
+   "matched": "NATIONAL MACHINERY LLC",
+   "staffing": false
+  },
+  "National Pump Company": null,
   "National Security Agency": null,
   "NationsBenefits": {
    "cert": 27,
@@ -24272,6 +25983,15 @@
    "staffing": false
   },
   "Nexus Circular": null,
+  "Nexwave": {
+   "cert": 87,
+   "confidence": "loose",
+   "filed": 87,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Nexwave Talent Management Solutions LLC",
+   "staffing": true
+  },
   "NiSource": {
    "cert": 8,
    "confidence": "loose",
@@ -24355,6 +26075,15 @@
    "matched": "NIKKISO CRYO INC.",
    "staffing": false
   },
+  "Niles Enterprises": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Niles Industrial Coatings, LLC",
+   "staffing": false
+  },
   "NinjaOne": {
    "cert": 7,
    "confidence": "exact",
@@ -24409,6 +26138,15 @@
    "matched": "Niterra North America, Inc.",
    "staffing": false
   },
+  "Nobel Biocare": {
+   "cert": 9,
+   "confidence": "prefix",
+   "filed": 10,
+   "green_card": true,
+   "last": 2022,
+   "matched": "NOBEL BIOCARE PROCERA LLC",
+   "staffing": false
+  },
   "Noble Machines": {
    "cert": 7,
    "confidence": "exact",
@@ -24438,6 +26176,15 @@
    "matched": "Node Tek Solutions Inc.",
    "staffing": true
   },
+  "Node.Digital": {
+   "cert": 15,
+   "confidence": "loose",
+   "filed": 17,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Node Tek Solutions Inc.",
+   "staffing": true
+  },
   "Nokia": {
    "cert": 1938,
    "confidence": "loose",
@@ -24447,6 +26194,7 @@
    "matched": "Nokia of America Corporation",
    "staffing": false
   },
+  "Nominal": null,
   "Nooks": {
    "cert": 19,
    "confidence": "loose",
@@ -24529,6 +26277,15 @@
    "matched": "Norman Regional Hospital Authority (an Oklahoma Public Trust)",
    "staffing": false
   },
+  "Norsk Hydro": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Norsk Titanium US Inc.",
+   "staffing": false
+  },
   "Nortek Data Center Cooling": {
    "cert": 84,
    "confidence": "loose",
@@ -24575,6 +26332,15 @@
    "matched": "North Beam, Inc.",
    "staffing": false
   },
+  "Northeastern University": {
+   "cert": 646,
+   "confidence": "exact",
+   "filed": 842,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Northeastern University",
+   "staffing": false
+  },
   "Northern Engraving": {
    "cert": 9,
    "confidence": "exact",
@@ -24594,6 +26360,7 @@
    "matched": "Northland Investment Corporation",
    "staffing": false
   },
+  "Northmere Solutions": null,
   "Northrop Grumman": null,
   "Northstrat Incorporated": null,
   "Northwestern Medicine": {
@@ -24695,6 +26462,7 @@
    "matched": "NOVA-TECH, INC.",
    "staffing": false
   },
+  "NovaCruitix": null,
   "NovaEdge Digital Labs": null,
   "NovaSource Power Services": null,
   "Novanta Inc.": {
@@ -24735,6 +26503,15 @@
    "staffing": false
   },
   "Novonesis": null,
+  "Novozen Healthcare LLC": {
+   "cert": 149,
+   "confidence": "exact",
+   "filed": 151,
+   "green_card": true,
+   "last": 2026,
+   "matched": "NOVOZEN HEALTHCARE LLC.",
+   "staffing": true
+  },
   "NoxPharm": null,
   "Nscale": {
    "cert": 6,
@@ -24888,6 +26665,15 @@
    "staffing": false
   },
   "OCC": null,
+  "OCLC": {
+   "cert": 199,
+   "confidence": "exact",
+   "filed": 246,
+   "green_card": true,
+   "last": 2026,
+   "matched": "OCLC Inc.",
+   "staffing": false
+  },
   "ODL, Inc": {
    "cert": 3,
    "confidence": "exact",
@@ -24955,6 +26741,7 @@
   },
   "ONE/SIZE": null,
   "OP Recruiting": null,
+  "OPENSHELF": null,
   "OPW Global": null,
   "OPW Propane Energy Solutions": null,
   "OPmobility": {
@@ -24976,6 +26763,15 @@
    "staffing": true
   },
   "ORION": null,
+  "OSF HealthCare": {
+   "cert": 332,
+   "confidence": "prefix",
+   "filed": 376,
+   "green_card": true,
+   "last": 2026,
+   "matched": "OSF Healthcare System",
+   "staffing": false
+  },
   "OSI Engineering": {
    "cert": 47,
    "confidence": "exact",
@@ -25014,6 +26810,15 @@
    "matched": "OAK RIDGE ASSOCIATED UNIVERSITIES",
    "staffing": false
   },
+  "Oakline Talent Solutions": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Oakline Properties Buyer, LLC",
+   "staffing": false
+  },
   "Oatey Company": {
    "cert": 3,
    "confidence": "exact",
@@ -25021,6 +26826,15 @@
    "green_card": false,
    "last": 2024,
    "matched": "Oatey Company",
+   "staffing": false
+  },
+  "Oats Overnight": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2024,
+   "matched": "Oats Overnight, Inc.",
    "staffing": false
   },
   "Oberon": {
@@ -25208,6 +27022,7 @@
    "staffing": false
   },
   "Omni": null,
+  "Omni One": null,
   "OmniOn Power": {
    "cert": 2,
    "confidence": "exact",
@@ -25423,6 +27238,15 @@
    "staffing": false
   },
   "OppFi": null,
+  "Opsin": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Opsin, Inc.",
+   "staffing": false
+  },
   "OptiCool": null,
   "Optimal Staffing": null,
   "Optimizely": {
@@ -25490,6 +27314,7 @@
    "matched": "Oracle America, Inc.",
    "staffing": false
   },
+  "Orascoptic": null,
   "Orb": {
    "cert": 3,
    "confidence": "exact",
@@ -25629,6 +27454,15 @@
    "matched": "Oshkosh Defense, LLC",
    "staffing": false
   },
+  "Oshkosh Delivery": {
+   "cert": 14,
+   "confidence": "loose",
+   "filed": 15,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Oshkosh Defense, LLC",
+   "staffing": false
+  },
   "OsintCat": null,
   "Oterra": null,
   "Otis Elevator Co.": {
@@ -25658,6 +27492,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Outset Medical, Inc.",
+   "staffing": false
+  },
+  "Overlake Medical Center & Clinics": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Overlake Tea Station Inc",
    "staffing": false
   },
   "Overland AI": {
@@ -25741,6 +27584,15 @@
    "green_card": true,
    "last": 2023,
    "matched": "PASLIN",
+   "staffing": false
+  },
+  "PCB Piezotronics, Inc.": {
+   "cert": 95,
+   "confidence": "loose",
+   "filed": 98,
+   "green_card": true,
+   "last": 2026,
+   "matched": "PCB APPS, LLC.",
    "staffing": false
   },
   "PDS Tech Commercial, Inc.": {
@@ -26094,6 +27946,7 @@
    "matched": "Panera Bread LLC",
    "staffing": false
   },
+  "Pankl Aerospace Systems": null,
   "Pantex Plant": {
    "cert": 1,
    "confidence": "loose",
@@ -26408,6 +28261,15 @@
    "matched": "Paylocity Corporation",
    "staffing": false
   },
+  "Peak Energy": {
+   "cert": 21,
+   "confidence": "prefix",
+   "filed": 22,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Peak Energy Technologies, Inc.",
+   "staffing": false
+  },
   "Peak to Creek Precision Staffing": {
    "cert": 1,
    "confidence": "prefix",
@@ -26415,6 +28277,15 @@
    "green_card": false,
    "last": 2021,
    "matched": "Peak to Peak Charter Schools, Inc.",
+   "staffing": false
+  },
+  "Pekin Insurance": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2023,
+   "matched": "PEKIN INSURANCE",
    "staffing": false
   },
   "Pelican Products, Inc.": {
@@ -26538,6 +28409,7 @@
    "staffing": false
   },
   "People, Technology & Processes, LLC": null,
+  "PeopleTec, Inc.": null,
   "PepsiCo": {
    "cert": 344,
    "confidence": "exact",
@@ -26603,6 +28475,15 @@
    "staffing": false
   },
   "Performance Foodservice": null,
+  "Performance Software Corporation": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2021,
+   "matched": "Performance Software Corporation",
+   "staffing": false
+  },
   "PermitFlow": {
    "cert": 4,
    "confidence": "exact",
@@ -26778,6 +28659,15 @@
    "staffing": false
   },
   "Phaxis": null,
+  "Phelps Pet Products": {
+   "cert": 17,
+   "confidence": "loose",
+   "filed": 17,
+   "green_card": true,
+   "last": 2024,
+   "matched": "Phelps County Regional Medical Center",
+   "staffing": false
+  },
   "Philip Morris International U.S.": null,
   "Philips": {
    "cert": 344,
@@ -26832,6 +28722,15 @@
    "last": 2026,
    "matched": "Phoenix Contact USA, Inc.",
    "staffing": false
+  },
+  "Phoenix Staff, Inc.": {
+   "cert": 5,
+   "confidence": "exact",
+   "filed": 6,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Phoenix Staff, Inc.",
+   "staffing": true
   },
   "Phononic Inc": {
    "cert": 1,
@@ -26908,6 +28807,7 @@
    "matched": "Pinnacle Fertility, Inc.",
    "staffing": false
   },
+  "Pinnacle Partners, Inc": null,
   "Pinterest": {
    "cert": 1783,
    "confidence": "exact",
@@ -26973,6 +28873,7 @@
    "matched": "Pivotal Software, Inc.",
    "staffing": false
   },
+  "Pivyt": null,
   "Placement Group": null,
   "Placer.ai": {
    "cert": 7,
@@ -27045,6 +28946,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Planview, Inc.",
+   "staffing": false
+  },
+  "Plasman": {
+   "cert": 5,
+   "confidence": "loose",
+   "filed": 6,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Plasman SC, Inc.",
    "staffing": false
   },
   "Plastipak": {
@@ -27149,6 +29059,7 @@
    "staffing": false
   },
   "Polaris Inc.": null,
+  "Pole/Zero Corporation": null,
   "Poltrona Frau": {
    "cert": 3,
    "confidence": "prefix",
@@ -27168,6 +29079,15 @@
    "matched": "Pop Up Mob LLC",
    "staffing": false
   },
+  "Poppies Bakeries": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Poppies Bakeries LLC",
+   "staffing": false
+  },
   "Porsche Cars North America": {
    "cert": 5,
    "confidence": "exact",
@@ -27178,6 +29098,15 @@
    "staffing": false
   },
   "Portra": null,
+  "Post Consumer Brands": {
+   "cert": 6,
+   "confidence": "loose",
+   "filed": 6,
+   "green_card": true,
+   "last": 2026,
+   "matched": "POST Rehab Services LLC",
+   "staffing": true
+  },
   "Post Holdings": {
    "cert": 0,
    "confidence": "exact",
@@ -27267,6 +29196,15 @@
    "matched": "PRAXIS CONSULTANTS INC.",
    "staffing": false
   },
+  "PrePass": {
+   "cert": 4,
+   "confidence": "loose",
+   "filed": 4,
+   "green_card": true,
+   "last": 2025,
+   "matched": "PrePass LLC (formerly CVO Holding Company, LLC)",
+   "staffing": false
+  },
   "Precisely": {
    "cert": 66,
    "confidence": "loose",
@@ -27328,6 +29266,7 @@
    "matched": "Prelim Technologies, Inc.",
    "staffing": false
   },
+  "Premier Global Links LLC": null,
   "Premier Inc.": {
    "cert": 136,
    "confidence": "exact",
@@ -27388,6 +29327,16 @@
    "staffing": false
   },
   "Prime Appearance": null,
+  "Prime Controls": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": true,
+   "last": 2021,
+   "matched": "Prime Controls LP",
+   "staffing": false
+  },
+  "Prime Matter Labs": null,
   "Prime Video & Amazon MGM Studios": null,
   "Primer": {
    "cert": 17,
@@ -27449,6 +29398,15 @@
    "staffing": false
   },
   "ProMach": null,
+  "ProPetro Services, Inc": {
+   "cert": 6,
+   "confidence": "exact",
+   "filed": 6,
+   "green_card": false,
+   "last": 2026,
+   "matched": "ProPetro Services, Inc.",
+   "staffing": false
+  },
   "Probity Inc.": {
    "cert": 0,
    "confidence": "exact",
@@ -27475,6 +29433,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Prodapt North America, Inc.",
+   "staffing": false
+  },
+  "Product Society": {
+   "cert": 8,
+   "confidence": "loose",
+   "filed": 8,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Product Science, Inc.",
    "staffing": false
   },
   "Professional Contractor Supply": null,
@@ -27506,6 +29473,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Prolaio, Inc.",
+   "staffing": false
+  },
+  "Prologis": {
+   "cert": 51,
+   "confidence": "loose",
+   "filed": 51,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Prologis Management LLC",
    "staffing": false
   },
   "Promega Corporation": {
@@ -27636,6 +29612,15 @@
    "matched": "Publicis Sapient AI Labs Inc",
    "staffing": false
   },
+  "Publix Super Markets": {
+   "cert": 446,
+   "confidence": "exact",
+   "filed": 450,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Publix Super Markets, Inc.",
+   "staffing": false
+  },
   "Puget Sound Energy": {
    "cert": 91,
    "confidence": "exact",
@@ -27654,6 +29639,7 @@
    "matched": "Puig USA, Inc.",
    "staffing": false
   },
+  "PulteGroup": null,
   "Pump.co": {
    "cert": 7,
    "confidence": "loose",
@@ -27747,6 +29733,7 @@
    "matched": "Pyrotek Incorporated",
    "staffing": false
   },
+  "Pythian": null,
   "Q2": null,
   "QTS Data Centers": null,
   "QUANTEAM - North America (RAINBOW PARTNERS Group)": {
@@ -27827,6 +29814,7 @@
    "staffing": false
   },
   "Qualis1 Inc.": null,
+  "Qualitate": null,
   "Qualitrol": {
    "cert": 27,
    "confidence": "exact",
@@ -28163,6 +30151,16 @@
    "staffing": false
   },
   "RENK America": null,
+  "RENOLIT": null,
+  "REPI Group": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": true,
+   "last": 2022,
+   "matched": "REPI, LLC",
+   "staffing": false
+  },
   "REV Group, Inc": {
    "cert": 1,
    "confidence": "exact",
@@ -28179,6 +30177,15 @@
    "green_card": false,
    "last": 2024,
    "matched": "REV Robotics LLC",
+   "staffing": false
+  },
+  "REVOLVE": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Revolve Labs Inc.",
    "staffing": false
   },
   "RF-SMART": null,
@@ -28222,6 +30229,15 @@
    "matched": "RK Infotech LLC",
    "staffing": true
   },
+  "ROAR Logistics": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": true,
+   "last": 2020,
+   "matched": "Roar Media, LLC",
+   "staffing": false
+  },
   "RRD": {
    "cert": 1,
    "confidence": "loose",
@@ -28253,6 +30269,15 @@
   "RSM": {
    "cert": 581,
    "confidence": "loose",
+   "filed": 715,
+   "green_card": true,
+   "last": 2026,
+   "matched": "RSM US LLP",
+   "staffing": false
+  },
+  "RSM US LLP": {
+   "cert": 581,
+   "confidence": "exact",
    "filed": 715,
    "green_card": true,
    "last": 2026,
@@ -28322,6 +30347,15 @@
    "matched": "Ryse Global Technologies Inc.",
    "staffing": false
   },
+  "Race Winning Brands": {
+   "cert": 5,
+   "confidence": "loose",
+   "filed": 6,
+   "green_card": false,
+   "last": 2024,
+   "matched": "Race Forward",
+   "staffing": false
+  },
   "Rachel Paul Recruiting": {
    "cert": 1,
    "confidence": "loose",
@@ -28343,6 +30377,15 @@
   },
   "Radians": null,
   "Radiant": null,
+  "Radicle Health": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Radicle Science, Inc.",
+   "staffing": false
+  },
   "Radley James": null,
   "Radwell International": {
    "cert": 1,
@@ -28379,6 +30422,15 @@
    "last": 2026,
    "matched": "Rain Corporation",
    "staffing": true
+  },
+  "Rakuten International": {
+   "cert": 84,
+   "confidence": "loose",
+   "filed": 101,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Rakuten USA, Inc.",
+   "staffing": false
   },
   "Ralph Lauren": {
    "cert": 215,
@@ -28479,6 +30531,15 @@
    "last": 2026,
    "matched": "Raven Software Solutions Inc",
    "staffing": true
+  },
+  "Raw Nutrition": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 4,
+   "green_card": false,
+   "last": 2022,
+   "matched": "RAW ARTISTS INC.",
+   "staffing": false
   },
   "Raydar": null,
   "Raymond James": {
@@ -28653,6 +30714,7 @@
    "matched": "Redfin Corporation",
    "staffing": false
   },
+  "Redhorse Corporation": null,
   "Reducto": {
    "cert": 4,
    "confidence": "exact",
@@ -28663,6 +30725,15 @@
    "staffing": false
   },
   "Redwire": null,
+  "Redwood Materials": {
+   "cert": 152,
+   "confidence": "exact",
+   "filed": 154,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Redwood Materials, Inc.",
+   "staffing": false
+  },
   "Referment": null,
   "Reflect Orbital": {
    "cert": 3,
@@ -28683,6 +30754,15 @@
    "staffing": false
   },
   "Reflexive Concepts": null,
+  "Refocus LLC": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": false,
+   "last": 2025,
+   "matched": "ReFocus Eye Health of Central Connecticut PC",
+   "staffing": false
+  },
   "Refresco": {
    "cert": 67,
    "confidence": "loose",
@@ -28722,6 +30802,15 @@
    "staffing": false
   },
   "Rehlko": null,
+  "Rehrig Pacific Company": {
+   "cert": 33,
+   "confidence": "exact",
+   "filed": 34,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Rehrig Pacific Company",
+   "staffing": false
+  },
   "Reinventing Geospatial (RGi)": null,
   "Rejuvenation": {
    "cert": 1,
@@ -28798,7 +30887,17 @@
    "staffing": false
   },
   "RemoteHunter": null,
+  "RemoteJobsOne": null,
   "RemoteStar": null,
+  "Rendezvous Robotics": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Rendezvous Run LLC",
+   "staffing": false
+  },
   "Renesas Electronics": {
    "cert": 413,
    "confidence": "prefix",
@@ -28875,6 +30974,15 @@
    "staffing": false
   },
   "Responsiv": null,
+  "Restaurant Brands International": {
+   "cert": 61,
+   "confidence": "prefix",
+   "filed": 75,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Restaurant Brands International US Services LLC",
+   "staffing": false
+  },
   "Restaurant Technologies": {
    "cert": 1,
    "confidence": "exact",
@@ -28893,6 +31001,7 @@
    "matched": "Retell AI, Inc.",
    "staffing": false
   },
+  "Reuben Cooley Inc.": null,
   "RevOps Report": null,
   "RevSpring": {
    "cert": 65,
@@ -28958,6 +31067,16 @@
    "matched": "Revlon Consumer Products LLC",
    "staffing": false
   },
+  "Revolution Power Solutions": {
+   "cert": 85,
+   "confidence": "loose",
+   "filed": 88,
+   "green_card": true,
+   "last": 2026,
+   "matched": "REVOLUTION MEDICINES, INC.",
+   "staffing": false
+  },
+  "Revolutional": null,
   "Revvity": {
    "cert": 8,
    "confidence": "exact",
@@ -29132,6 +31251,7 @@
    "matched": "RIGHT CLICK INC.",
    "staffing": false
   },
+  "Rilla": null,
   "Rillet": null,
   "Rincon Research Corporation": {
    "cert": 2,
@@ -29188,6 +31308,8 @@
    "staffing": false
   },
   "Rippling": null,
+  "Rise Baking Company": null,
+  "Rise Internet": null,
   "Rise Technical": null,
   "Rite-Hite": {
    "cert": 14,
@@ -29253,6 +31375,7 @@
    "matched": "Rivian and Volkswagen Group Technologies, LLC",
    "staffing": false
   },
+  "Rividium Inc": null,
   "Ro": {
    "cert": 0,
    "confidence": "exact",
@@ -29333,6 +31456,15 @@
   },
   "Rocket": null,
   "Rocket Lab": {
+   "cert": 18,
+   "confidence": "prefix",
+   "filed": 18,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Rocket Lab USA, Inc.",
+   "staffing": false
+  },
+  "Rocket Lab Corporation": {
    "cert": 18,
    "confidence": "prefix",
    "filed": 18,
@@ -29508,6 +31640,15 @@
    "matched": "Roquette America Inc.",
    "staffing": false
   },
+  "Rose International": {
+   "cert": 17,
+   "confidence": "exact",
+   "filed": 23,
+   "green_card": true,
+   "last": 2024,
+   "matched": "Rose International, Inc",
+   "staffing": false
+  },
   "Rosendin": {
    "cert": 25,
    "confidence": "loose",
@@ -29554,6 +31695,7 @@
    "matched": "ROVISYS BUILDING TECHNOLOGIES, LLC",
    "staffing": false
   },
+  "RowsOne": null,
   "Royal Bank of Canada": {
    "cert": 71,
    "confidence": "prefix",
@@ -29639,6 +31781,7 @@
    "matched": "Rush University Medical Center",
    "staffing": false
   },
+  "Rushdown Studios": null,
   "Russell Stover Chocolates": {
    "cert": 5,
    "confidence": "exact",
@@ -29843,6 +31986,7 @@
    "matched": "SECO Tools LLC",
    "staffing": false
   },
+  "SECU": null,
   "SEEMANN COMPOSITES, LLC": null,
   "SEP": null,
   "SERVPRO": null,
@@ -30015,6 +32159,15 @@
    "matched": "SPECTRAFORCE TECHNOLOGIES INC",
    "staffing": true
   },
+  "SPS Commerce": {
+   "cert": 28,
+   "confidence": "exact",
+   "filed": 28,
+   "green_card": true,
+   "last": 2026,
+   "matched": "SPS Commerce, Inc.",
+   "staffing": false
+  },
   "SPX Technologies": {
    "cert": 16,
    "confidence": "loose",
@@ -30170,6 +32323,7 @@
   "SV MICROWAVE": null,
   "SWAKIO™": null,
   "SWBC": null,
+  "SWIVEL": null,
   "SXSW": null,
   "SYSO Technologies": null,
   "Saab": {
@@ -30219,6 +32373,15 @@
    "staffing": false
   },
   "Saelens LLC": null,
+  "Safariland": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Safariland, LLC",
+   "staffing": false
+  },
   "Safe Fleet": {
    "cert": 2,
    "confidence": "prefix",
@@ -30370,6 +32533,15 @@
    "matched": "Sam's Beauty, Inc.",
    "staffing": false
   },
+  "Sam's Furniture": {
+   "cert": 3,
+   "confidence": "prefix",
+   "filed": 3,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Sam's Beauty, Inc.",
+   "staffing": false
+  },
   "Samaritan's Purse": {
    "cert": 0,
    "confidence": "exact",
@@ -30387,6 +32559,15 @@
    "last": 2026,
    "matched": "Samsara, Inc.",
    "staffing": false
+  },
+  "Samson Marketing": {
+   "cert": 7,
+   "confidence": "loose",
+   "filed": 7,
+   "green_card": true,
+   "last": 2026,
+   "matched": "SAMSON SOFTWARE SOLUTIONS, INC.",
+   "staffing": true
   },
   "Samsung Electronics America": {
    "cert": 976,
@@ -30666,6 +32847,7 @@
    "matched": "Schaeffler Group USA Inc.",
    "staffing": false
   },
+  "Schneider": null,
   "Schneider Electric": {
    "cert": 0,
    "confidence": "exact",
@@ -30728,6 +32910,15 @@
    "green_card": true,
    "last": 2025,
    "matched": "Schuff Steel Company",
+   "staffing": false
+  },
+  "Schumacher Homes": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": false,
+   "last": 2026,
+   "matched": "SCHUMACHER CO., INC.",
    "staffing": false
   },
   "Scientific Protein Laboratories, LLC": null,
@@ -30826,6 +33017,7 @@
    "matched": "Sealed Air Corporation",
    "staffing": false
   },
+  "Sealing Devices Inc.": null,
   "Search Masters, Inc.": {
    "cert": 0,
    "confidence": "exact",
@@ -30923,6 +33115,15 @@
    "matched": "Select Source International",
    "staffing": true
   },
+  "Self Financial, Inc.": {
+   "cert": 24,
+   "confidence": "exact",
+   "filed": 24,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Self Financial, Inc.",
+   "staffing": false
+  },
   "Semarchy": null,
   "Semgrep": {
    "cert": 22,
@@ -30942,6 +33143,7 @@
    "matched": "Seminole Hard Rock Support Services, LLC",
    "staffing": false
   },
+  "Sempiterna": null,
   "Semtech": {
    "cert": 35,
    "confidence": "exact",
@@ -31086,6 +33288,7 @@
    "matched": "SET N STONE",
    "staffing": false
   },
+  "Seven Corners, Inc.": null,
   "Shamrock Foods Company": {
    "cert": 57,
    "confidence": "exact",
@@ -31150,6 +33353,33 @@
    "matched": "Sharpedge Solutions Inc",
    "staffing": true
   },
+  "Shaw Contract EMEA": {
+   "cert": 8,
+   "confidence": "loose",
+   "filed": 9,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Shaw Industries Group",
+   "staffing": false
+  },
+  "Shaw Industries": {
+   "cert": 8,
+   "confidence": "exact",
+   "filed": 9,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Shaw Industries Group",
+   "staffing": false
+  },
+  "Shawsheen Coating and Converting": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Shawsheen Valley Technical High School",
+   "staffing": false
+  },
   "Shearer Supply, Inc.": {
    "cert": 2,
    "confidence": "loose",
@@ -31175,6 +33405,15 @@
    "green_card": true,
    "last": 2023,
    "matched": "Sherman Operating Company LLC",
+   "staffing": false
+  },
+  "Sherpa 6, Inc.": {
+   "cert": 14,
+   "confidence": "loose",
+   "filed": 16,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Sherpa Construction Consulting, LLC",
    "staffing": false
   },
   "Sherwin-Williams": null,
@@ -31320,6 +33559,7 @@
    "matched": "SIEMENS GAMESA RENEWABLE ENERGY, LLC",
    "staffing": false
   },
+  "Siemens Government Technologies": null,
   "Siemens Healthineers": {
    "cert": 27,
    "confidence": "prefix",
@@ -31468,6 +33708,7 @@
    "matched": "Silicon Laboratories, Inc.",
    "staffing": false
   },
+  "Silicontek Inc": null,
   "Silo Markets": {
    "cert": 1,
    "confidence": "loose",
@@ -31482,6 +33723,24 @@
   "SimIS Inc.": null,
   "SimRobotics Corp": null,
   "SimVentions": null,
+  "Simbe": {
+   "cert": 16,
+   "confidence": "loose",
+   "filed": 16,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Simbe Robotics, Inc.",
+   "staffing": false
+  },
+  "Simbe Robotics": {
+   "cert": 16,
+   "confidence": "exact",
+   "filed": 16,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Simbe Robotics, Inc.",
+   "staffing": false
+  },
   "Simmons Bank": {
    "cert": 31,
    "confidence": "exact",
@@ -31658,6 +33917,7 @@
    "matched": "SKILLED WOUND CARE",
    "staffing": false
   },
+  "Skullcandy Inc.": null,
   "SkyWater Search Partners": {
    "cert": 4,
    "confidence": "loose",
@@ -31854,6 +34114,15 @@
    "staffing": false
   },
   "SoTalent": null,
+  "Societe Generale": {
+   "cert": 73,
+   "confidence": "exact",
+   "filed": 75,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Societe Generale",
+   "staffing": false
+  },
   "Sofidel S.p.A.": {
    "cert": 51,
    "confidence": "loose",
@@ -31937,6 +34206,7 @@
    "matched": "Solidus Labs, Inc.",
    "staffing": false
   },
+  "Soliel, LLC": null,
   "Solina": null,
   "Solo Clash": {
    "cert": 10,
@@ -32072,6 +34342,7 @@
    "staffing": false
   },
   "Sortimo of North America, Inc.": null,
+  "Sound Decisions": null,
   "Source Capital": {
    "cert": 2,
    "confidence": "exact",
@@ -32372,6 +34643,15 @@
    "matched": "Speria MTech USA, LLC (formerly known as M-Tech Systems USA, LLC)",
    "staffing": false
   },
+  "Spherical Analytics": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2022,
+   "matched": "Spherical Analytics, Inc.",
+   "staffing": false
+  },
   "Sphinx Defense": {
    "cert": 2,
    "confidence": "loose",
@@ -32490,6 +34770,15 @@
    "matched": "Sprezzatura Management Consulting, LLC",
    "staffing": false
   },
+  "Spring Venture Group": {
+   "cert": 2,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2021,
+   "matched": "Spring Venture Group",
+   "staffing": false
+  },
   "Springs Window Fashions": {
    "cert": 45,
    "confidence": "exact",
@@ -32497,6 +34786,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Springs Window Fashions, LLC",
+   "staffing": false
+  },
+  "SprintRay Inc.": {
+   "cert": 35,
+   "confidence": "exact",
+   "filed": 37,
+   "green_card": true,
+   "last": 2026,
+   "matched": "SPRINTRAY, INC.",
    "staffing": false
   },
   "Sprints Athletic Apparel": null,
@@ -32535,6 +34833,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "SQUARESPACE, INC.",
+   "staffing": false
+  },
+  "Stadler": {
+   "cert": 15,
+   "confidence": "loose",
+   "filed": 17,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Stadler US Inc.",
    "staffing": false
   },
   "StaffBright": null,
@@ -32681,7 +34988,25 @@
    "matched": "State Street Corporation",
    "staffing": false
   },
+  "State Street Investment Management": {
+   "cert": 2281,
+   "confidence": "prefix",
+   "filed": 2315,
+   "green_card": true,
+   "last": 2026,
+   "matched": "State Street Bank and Trust Company",
+   "staffing": false
+  },
   "State of Alaska": {
+   "cert": 248,
+   "confidence": "prefix",
+   "filed": 270,
+   "green_card": true,
+   "last": 2026,
+   "matched": "State of Delaware",
+   "staffing": false
+  },
+  "State of Connecticut": {
    "cert": 248,
    "confidence": "prefix",
    "filed": 270,
@@ -32735,6 +35060,7 @@
    "matched": "State of Wisconsin Investment Board",
    "staffing": false
   },
+  "Statera Systems Solutions": null,
   "Stealth - AI Agents for Healthcare": {
    "cert": 10,
    "confidence": "loose",
@@ -32882,6 +35208,15 @@
    "matched": "Stevens Institute of Technology",
    "staffing": false
   },
+  "Stevens Industries, Inc.": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2020,
+   "matched": "Stevens Industries, Inc.",
+   "staffing": false
+  },
   "Stifel Financial Corp.": {
    "cert": 37,
    "confidence": "exact",
@@ -32979,6 +35314,7 @@
    "staffing": true
   },
   "Strategic Sight Consulting": null,
+  "Stratolaunch": null,
   "StratosNex": null,
   "Stratus": {
    "cert": 112,
@@ -32998,6 +35334,7 @@
    "matched": "Streck, Inc.",
    "staffing": false
   },
+  "StreetID": null,
   "Stripe": {
    "cert": 1785,
    "confidence": "exact",
@@ -33117,6 +35454,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "SUMITOMO BIORATIONAL COMPANY LLC",
+   "staffing": false
+  },
+  "Sumitomo Electric": {
+   "cert": 44,
+   "confidence": "prefix",
+   "filed": 49,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Sumitomo Electric Wiring Systems, Inc.",
    "staffing": false
   },
   "Sumitomo Electric Wiring Systems, Inc.": {
@@ -33239,6 +35585,15 @@
    "matched": "Suno, Inc.",
    "staffing": false
   },
+  "Sunrise Foods International": {
+   "cert": 3,
+   "confidence": "prefix",
+   "filed": 4,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Sunrise Foods International (USA) Inc.",
+   "staffing": false
+  },
   "Sunrun": {
    "cert": 133,
    "confidence": "exact",
@@ -33246,6 +35601,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Sunrun, Inc.",
+   "staffing": false
+  },
+  "Sunwest Bank": {
+   "cert": 3,
+   "confidence": "loose",
+   "filed": 3,
+   "green_card": false,
+   "last": 2025,
+   "matched": "SunWest Foods Inc.",
    "staffing": false
   },
   "Superhuman": {
@@ -33296,6 +35660,15 @@
    "green_card": true,
    "last": 2021,
    "matched": "SUREFIRE",
+   "staffing": false
+  },
+  "SureWerx": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": true,
+   "last": 2026,
+   "matched": "SUREWERX USA INC.",
    "staffing": false
   },
   "Surge Technology Solutions Inc": {
@@ -33426,6 +35799,7 @@
    "matched": "Switchboard Studios Inc.",
    "staffing": false
   },
+  "Swooped": null,
   "Syensqo": {
    "cert": 27,
    "confidence": "loose",
@@ -33471,6 +35845,15 @@
    "matched": "Syms Engineering, Inc.",
    "staffing": false
   },
+  "Synapse Health": {
+   "cert": 196,
+   "confidence": "loose",
+   "filed": 212,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Synapse Tech Services Inc.",
+   "staffing": true
+  },
   "SynchroGrid": {
    "cert": 15,
    "confidence": "exact",
@@ -33478,6 +35861,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "SynchroGrid, Inc.",
+   "staffing": false
+  },
+  "Synchrony Systems, Inc.": {
+   "cert": 454,
+   "confidence": "loose",
+   "filed": 457,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Synchrony Bank",
    "staffing": false
   },
   "Syndesus, Inc.": null,
@@ -33672,6 +36064,15 @@
    "staffing": false
   },
   "TEASPRESSA": null,
+  "TEK NINJAS": {
+   "cert": 260,
+   "confidence": "prefix",
+   "filed": 308,
+   "green_card": true,
+   "last": 2026,
+   "matched": "TEK NINJAS SOLUTIONS, LLC",
+   "staffing": true
+  },
   "TEKsystems": {
    "cert": 240,
    "confidence": "exact",
@@ -33744,6 +36145,15 @@
    "matched": "TIAA, FSB",
    "staffing": false
   },
+  "TMC Technologies": {
+   "cert": 16,
+   "confidence": "loose",
+   "filed": 18,
+   "green_card": true,
+   "last": 2026,
+   "matched": "TMC USA North East Inc.",
+   "staffing": false
+  },
   "TMEIC": {
    "cert": 24,
    "confidence": "exact",
@@ -33806,6 +36216,15 @@
    "green_card": false,
    "last": 2026,
    "matched": "TP-LINK SYSTEMS INC.",
+   "staffing": false
+  },
+  "TPA Motion": {
+   "cert": 4,
+   "confidence": "loose",
+   "filed": 5,
+   "green_card": true,
+   "last": 2025,
+   "matched": "TPA BENEFITS, INC.",
    "staffing": false
   },
   "TPI Global Solutions": {
@@ -33881,6 +36300,7 @@
    "matched": "TSP Advisors, LLC",
    "staffing": false
   },
+  "TT Electronics plc": null,
   "TTE Staffing": {
    "cert": 19,
    "confidence": "loose",
@@ -33987,6 +36407,8 @@
    "matched": "Talent Ola Inc",
    "staffing": true
   },
+  "TalentRise Solutions": null,
+  "TalentXM": null,
   "Talentfoot Executive Search": null,
   "Talking Rain Beverage Co®, makers of Sparkling Ice": {
    "cert": 19,
@@ -34068,6 +36490,15 @@
    "green_card": false,
    "last": 2023,
    "matched": "Target Corporation",
+   "staffing": false
+  },
+  "Tarkett": {
+   "cert": 16,
+   "confidence": "loose",
+   "filed": 20,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Tarkett USA Inc.",
    "staffing": false
   },
   "Tarte Cosmetics": {
@@ -34241,6 +36672,7 @@
    "matched": "Tecomet Inc.",
    "staffing": false
   },
+  "Teeccino": null,
   "TekSynap": {
    "cert": 3,
    "confidence": "exact",
@@ -34316,6 +36748,15 @@
    "matched": "Teledyne LeCroy, Inc.",
    "staffing": false
   },
+  "Teledyne LeCroy": {
+   "cert": 38,
+   "confidence": "exact",
+   "filed": 48,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Teledyne LeCroy, Inc.",
+   "staffing": false
+  },
   "Teledyne Micropac": {
    "cert": 38,
    "confidence": "loose",
@@ -34351,6 +36792,15 @@
    "green_card": false,
    "last": 2026,
    "matched": "Teleskope",
+   "staffing": false
+  },
+  "Teli Labs": {
+   "cert": 1,
+   "confidence": "loose",
+   "filed": 1,
+   "green_card": false,
+   "last": 2026,
+   "matched": "TELI.AI LLC",
    "staffing": false
   },
   "Telos Corporation": {
@@ -34418,6 +36868,7 @@
    "matched": "TensorWave Inc.",
    "staffing": false
   },
+  "Tenth Revolution Group": null,
   "Teradyne": {
    "cert": 195,
    "confidence": "exact",
@@ -34521,6 +36972,15 @@
    "matched": "Texas Instruments Incorporated",
    "staffing": false
   },
+  "Texas Mutual Insurance Company": {
+   "cert": 20,
+   "confidence": "exact",
+   "filed": 23,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Texas Mutual Insurance Company",
+   "staffing": false
+  },
   "Texas Sports Academy": null,
   "Texas Windstorm Insurance Association": {
    "cert": 21,
@@ -34577,6 +37037,7 @@
    "matched": "Thales Avionics, Inc.",
    "staffing": false
   },
+  "Tharp Consulting": null,
   "Thatcher Company LLC": {
    "cert": 1,
    "confidence": "exact",
@@ -34676,6 +37137,15 @@
    "staffing": false
   },
   "The Cigna Group": null,
+  "The Cincinnati Insurance Companies": {
+   "cert": 17,
+   "confidence": "prefix",
+   "filed": 17,
+   "green_card": true,
+   "last": 2026,
+   "matched": "The Cincinnati Insurance Company",
+   "staffing": false
+  },
   "The Clorox Company": {
    "cert": 34,
    "confidence": "exact",
@@ -34731,6 +37201,15 @@
    "last": 2025,
    "matched": "The Federal Reserve Bank of St. Louis",
    "staffing": false
+  },
+  "The Fountain Group": {
+   "cert": 168,
+   "confidence": "exact",
+   "filed": 305,
+   "green_card": true,
+   "last": 2026,
+   "matched": "The Fountain Group, LLC",
+   "staffing": true
   },
   "The Fresh Market": {
    "cert": 9,
@@ -34790,6 +37269,7 @@
    "matched": "The Hartford Steam Boiler Inspection & Insurance Co.",
    "staffing": false
   },
+  "The Heico Companies LLC": null,
   "The Henry M. Jackson Foundation for the Advancement of Military Medicine": {
    "cert": 148,
    "confidence": "prefix",
@@ -34806,6 +37286,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "The Hershey Company",
+   "staffing": false
+  },
+  "The Hillman Group": {
+   "cert": 3,
+   "confidence": "exact",
+   "filed": 3,
+   "green_card": false,
+   "last": 2023,
+   "matched": "The Hillman Company",
    "staffing": false
   },
   "The Home Depot": {
@@ -34873,6 +37362,8 @@
    "matched": "THE JUPITER GROUP, INC.",
    "staffing": true
   },
+  "The Kendall Group": null,
+  "The Kinetic Group": null,
   "The Lab Consulting": null,
   "The Larry H. Miller Company": null,
   "The Lockwood Group": {
@@ -34897,6 +37388,15 @@
   "The Malco Group": null,
   "The Manitowoc Company": null,
   "The Marzetti Company": null,
+  "The Master Lock Company": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2024,
+   "matched": "THE MASTER LOCK COMPANY",
+   "staffing": false
+  },
   "The McAlear Group": {
    "cert": 1,
    "confidence": "exact",
@@ -34989,6 +37489,15 @@
    "matched": "The Shaw Group, LLC",
    "staffing": false
   },
+  "The Shyft Group": {
+   "cert": 17,
+   "confidence": "exact",
+   "filed": 32,
+   "green_card": true,
+   "last": 2026,
+   "matched": "The Shyft Group, Inc.",
+   "staffing": false
+  },
   "The Swift Group, LLC": null,
   "The TJX Companies, Inc.": {
    "cert": 159,
@@ -35047,6 +37556,24 @@
    "green_card": false,
    "last": 2026,
    "matched": "The Washington Institute for Near East Policy",
+   "staffing": false
+  },
+  "The Wasserstrom Company": {
+   "cert": 6,
+   "confidence": "exact",
+   "filed": 6,
+   "green_card": true,
+   "last": 2025,
+   "matched": "The Wasserstrom Company",
+   "staffing": false
+  },
+  "The Weather Channel": {
+   "cert": 8,
+   "confidence": "prefix",
+   "filed": 8,
+   "green_card": true,
+   "last": 2025,
+   "matched": "The Weather Company LLC",
    "staffing": false
   },
   "The Wellness Group": {
@@ -35116,6 +37643,7 @@
    "matched": "Therm-x of California, Inc.",
    "staffing": false
   },
+  "Thermiq Systems": null,
   "Thermo Fisher Scientific": {
    "cert": 1497,
    "confidence": "exact",
@@ -35209,6 +37737,15 @@
    "staffing": false
   },
   "Tier4 Group": null,
+  "Tieto": {
+   "cert": 11,
+   "confidence": "loose",
+   "filed": 12,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Tieto US Inc.",
+   "staffing": false
+  },
   "Tigbourne Capital Ltd": null,
   "TikTok": {
    "cert": 2831,
@@ -35284,6 +37821,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "TireHub, LLC",
+   "staffing": false
+  },
+  "Titan Technologies": {
+   "cert": 118,
+   "confidence": "exact",
+   "filed": 120,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Titan Technologies Inc",
    "staffing": false
   },
   "Tito's Handmade Vodka": null,
@@ -35458,6 +38004,7 @@
    "matched": "Traba Inc.",
    "staffing": false
   },
+  "Trabus Technologies": null,
   "Trace": {
    "cert": 1,
    "confidence": "exact",
@@ -35606,6 +38153,15 @@
    "matched": "Travelers & Immigrants Aid’s Heartland Alliance for Human Needs & Human Rights",
    "staffing": false
   },
+  "Traversal": {
+   "cert": 6,
+   "confidence": "exact",
+   "filed": 6,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Traversal, Inc.",
+   "staffing": false
+  },
   "TreeHouse Foods": {
    "cert": 2,
    "confidence": "loose",
@@ -35622,6 +38178,15 @@
    "green_card": false,
    "last": 2021,
    "matched": "TREEHOUSE PRIVATE BRANDS, INC.",
+   "staffing": false
+  },
+  "Trek Bicycle": {
+   "cert": 49,
+   "confidence": "exact",
+   "filed": 49,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Trek Bicycle Corporation",
    "staffing": false
   },
   "Trelleborg Sealing Solutions": {
@@ -35668,6 +38233,15 @@
    "green_card": true,
    "last": 2025,
    "matched": "TriForza Corp.",
+   "staffing": false
+  },
+  "TriMark USA": {
+   "cert": 8,
+   "confidence": "exact",
+   "filed": 8,
+   "green_card": true,
+   "last": 2026,
+   "matched": "TriMark USA",
    "staffing": false
   },
   "TriNet": {
@@ -35919,6 +38493,8 @@
    "matched": "Tulip Interfaces, Inc.",
    "staffing": false
   },
+  "Tundra Technical Solutions": null,
+  "TurbineAero": null,
   "Turnberry Solutions": {
    "cert": 170,
    "confidence": "exact",
@@ -35955,6 +38531,15 @@
    "matched": "TWENTY HOLDINGS, INC.",
    "staffing": false
   },
+  "Twenty-Six Defense": {
+   "cert": 8,
+   "confidence": "loose",
+   "filed": 9,
+   "green_card": true,
+   "last": 2025,
+   "matched": "Twenty Twenty Therapeutics LLC",
+   "staffing": false
+  },
   "Twenty-Six Defense Maritime": {
    "cert": 8,
    "confidence": "loose",
@@ -35971,6 +38556,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Twilio, Inc.",
+   "staffing": false
+  },
+  "TwinMed, LLC": {
+   "cert": 5,
+   "confidence": "squashed",
+   "filed": 6,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Twin Med LLC",
    "staffing": false
   },
   "Twitch": {
@@ -36001,6 +38595,15 @@
    "matched": "Tyler Technologies, Inc.",
    "staffing": false
   },
+  "Tyler Union": {
+   "cert": 325,
+   "confidence": "loose",
+   "filed": 357,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Tyler Technologies, Inc.",
+   "staffing": false
+  },
   "Tyndale Company, Inc.": {
    "cert": 2,
    "confidence": "loose",
@@ -36008,6 +38611,15 @@
    "green_card": true,
    "last": 2025,
    "matched": "Tyndale House Ministries",
+   "staffing": false
+  },
+  "Type One Energy": {
+   "cert": 7,
+   "confidence": "exact",
+   "filed": 8,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Type One Energy Group Inc.",
    "staffing": false
   },
   "TypeSafe AI": null,
@@ -36403,6 +39015,15 @@
    "matched": "UNISON, Inc.",
    "staffing": false
   },
+  "Unissant": {
+   "cert": 10,
+   "confidence": "exact",
+   "filed": 10,
+   "green_card": true,
+   "last": 2026,
+   "matched": "UNISSANT, INC.",
+   "staffing": false
+  },
   "Uniswap": {
    "cert": 1,
    "confidence": "loose",
@@ -36420,6 +39041,15 @@
    "last": 2026,
    "matched": "United Airlines, Inc.",
    "staffing": false
+  },
+  "United Consulting Hub": {
+   "cert": 60,
+   "confidence": "exact",
+   "filed": 62,
+   "green_card": true,
+   "last": 2026,
+   "matched": "United Consulting Hub Inc",
+   "staffing": true
   },
   "United Engines": null,
   "United Launch Alliance": null,
@@ -36469,6 +39099,7 @@
    "matched": "United Wheels Inc",
    "staffing": false
   },
+  "UnitedHealth Group": null,
   "UnitedMasters": {
    "cert": 5,
    "confidence": "squashed",
@@ -36498,8 +39129,10 @@
    "staffing": false
   },
   "Universal Avionics": null,
+  "Universal Background Screening": null,
   "Universal Health Services": null,
   "Universal Music Group": null,
+  "Universal Orlando Resort": null,
   "Universal Robots": {
    "cert": 10,
    "confidence": "prefix",
@@ -36544,6 +39177,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "UNIVERSITY OF CENTRAL FLORIDA",
+   "staffing": false
+  },
+  "University of Chicago": {
+   "cert": 3177,
+   "confidence": "prefix",
+   "filed": 4249,
+   "green_card": true,
+   "last": 2026,
+   "matched": "University of Michigan",
    "staffing": false
   },
   "University of Florida": {
@@ -36643,6 +39285,15 @@
    "green_card": false,
    "last": 2026,
    "matched": "UNLEARN.AI, INC.",
+   "staffing": false
+  },
+  "Unlock Health": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 2,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Unlock Health, Inc.",
    "staffing": false
   },
   "Unrivaled Teamwear": {
@@ -36751,7 +39402,17 @@
    "matched": "VAS Aero Services, LLC",
    "staffing": false
   },
+  "VB Cosmetics, Inc.": null,
   "VBeyond Corporation": null,
+  "VEGA Americas, Inc.": {
+   "cert": 0,
+   "confidence": "exact",
+   "filed": 0,
+   "green_card": true,
+   "last": 2025,
+   "matched": "VEGA Americas, Inc.",
+   "staffing": false
+  },
   "VF Corporation": {
    "cert": 28,
    "confidence": "exact",
@@ -36845,6 +39506,15 @@
    "staffing": false
   },
   "Valcor Engineering Corporation": null,
+  "Valence Surface Technologies": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2022,
+   "matched": "Valence Surface Technologies LLC",
+   "staffing": false
+  },
   "Valeo": {
    "cert": 0,
    "confidence": "exact",
@@ -36998,6 +39668,7 @@
    "matched": "Vantage Point Consulting Inc",
    "staffing": true
   },
+  "Vantatel": null,
   "Vantive": {
    "cert": 4,
    "confidence": "loose",
@@ -37091,6 +39762,7 @@
    "matched": "Veeva Systems Inc.",
    "staffing": false
   },
+  "Velocity Machine, Inc.": null,
   "Veltrana Group": null,
   "Vendra (YC S24)": null,
   "Venmo": null,
@@ -37111,6 +39783,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Venture Global LNG Inc.",
+   "staffing": false
+  },
+  "Veo": {
+   "cert": 4,
+   "confidence": "loose",
+   "filed": 5,
+   "green_card": true,
+   "last": 2022,
+   "matched": "VEO ROBOTICS, INC.",
    "staffing": false
   },
   "Veolia | North America": {
@@ -37272,6 +39953,15 @@
   },
   "Vernal Point Advisors": null,
   "Vernovis": null,
+  "Verra Mobility": {
+   "cert": 7,
+   "confidence": "loose",
+   "filed": 8,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Verra",
+   "staffing": false
+  },
   "Versant Media": {
    "cert": 16,
    "confidence": "exact",
@@ -37440,6 +40130,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Vidorra, LLC.",
+   "staffing": false
+  },
+  "VieCure": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2024,
+   "matched": "VIECURE, INC",
    "staffing": false
   },
   "ViewSonic": {
@@ -37737,6 +40436,7 @@
   },
   "VySystems": null,
   "Vylor": null,
+  "Vyper Industrial": null,
   "W-Industries": {
    "cert": 0,
    "confidence": "exact",
@@ -37808,6 +40508,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "WEG Transformers USA LLC",
+   "staffing": false
+  },
+  "WEG Electric Corp. (USA)": {
+   "cert": 5,
+   "confidence": "prefix",
+   "filed": 5,
+   "green_card": true,
+   "last": 2026,
+   "matched": "WEG Electric Corp",
    "staffing": false
   },
   "WEX": {
@@ -38153,6 +40862,15 @@
    "matched": "Weber State University",
    "staffing": false
   },
+  "Webilent Technology, Inc.": {
+   "cert": 306,
+   "confidence": "exact",
+   "filed": 340,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Webilent Technology, Inc.",
+   "staffing": false
+  },
   "Webologix Ltd/ INC": null,
   "WebstaurantStore": {
    "cert": 2,
@@ -38163,8 +40881,26 @@
    "matched": "WebstaurantStore, LLC.",
    "staffing": false
   },
+  "Webull Financial": {
+   "cert": 26,
+   "confidence": "exact",
+   "filed": 27,
+   "green_card": true,
+   "last": 2026,
+   "matched": "WEBULL FINANCIAL LLC",
+   "staffing": false
+  },
   "Weeghman & Briggs, LLC": null,
   "Weekday (YC W21)": null,
+  "Weiss-Aug": {
+   "cert": 42,
+   "confidence": "loose",
+   "filed": 42,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Weiss Asset Management LP",
+   "staffing": false
+  },
   "Weissman": {
    "cert": 2,
    "confidence": "exact",
@@ -38280,6 +41016,15 @@
    "green_card": true,
    "last": 2025,
    "matched": "Werner Co.",
+   "staffing": false
+  },
+  "Werner Enterprises": {
+   "cert": 88,
+   "confidence": "exact",
+   "filed": 92,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Werner Enterprises, Inc.",
    "staffing": false
   },
   "Wesco": {
@@ -38487,6 +41232,15 @@
    "matched": "WHOOP, Inc.",
    "staffing": false
   },
+  "Whop": {
+   "cert": 10,
+   "confidence": "exact",
+   "filed": 10,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Whop Inc.",
+   "staffing": false
+  },
   "Why Hiring": {
    "cert": 10,
    "confidence": "loose",
@@ -38497,6 +41251,7 @@
    "staffing": false
   },
   "Whym": null,
+  "Wickeder Group │ Engineered Materials Solutions": null,
   "Wieland Group": {
    "cert": 9,
    "confidence": "loose",
@@ -38525,6 +41280,7 @@
    "matched": "William Blair & Company, LLC",
    "staffing": false
   },
+  "Williams Distributing": null,
   "Williams International": {
    "cert": 19,
    "confidence": "exact",
@@ -38544,6 +41300,15 @@
    "staffing": false
   },
   "Wilson Connectivity": null,
+  "Wilsonart": {
+   "cert": 15,
+   "confidence": "exact",
+   "filed": 15,
+   "green_card": true,
+   "last": 2026,
+   "matched": "WILSONART, LLC",
+   "staffing": false
+  },
   "Wimmer Solutions": {
    "cert": 6,
    "confidence": "exact",
@@ -38608,6 +41373,15 @@
    "last": 2026,
    "matched": "Winsupply Inc",
    "staffing": false
+  },
+  "Wipro": {
+   "cert": 16502,
+   "confidence": "exact",
+   "filed": 17266,
+   "green_card": true,
+   "last": 2026,
+   "matched": "WIPRO LIMITED",
+   "staffing": true
   },
   "Wiraa": null,
   "WireMasters": {
@@ -38690,6 +41464,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "Wolfspeed, Inc.",
+   "staffing": false
+  },
+  "Wolverine Advanced Materials": {
+   "cert": 4,
+   "confidence": "exact",
+   "filed": 4,
+   "green_card": true,
+   "last": 2024,
+   "matched": "Wolverine Advanced Materials, LLC",
    "staffing": false
   },
   "Wolverine Trading": {
@@ -38914,10 +41697,28 @@
    "matched": "WuXi AppTec, Inc.",
    "staffing": false
   },
+  "Wurth International Trading America": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2024,
+   "matched": "Wurth International Trading America, Inc.",
+   "staffing": false
+  },
   "Wyetech": null,
   "Wynen's": null,
   "WÜSTHOF, North America": null,
   "Würth Industry USA": null,
+  "X-energy": {
+   "cert": 7,
+   "confidence": "exact",
+   "filed": 7,
+   "green_card": false,
+   "last": 2026,
+   "matched": "X Energy, LLC",
+   "staffing": false
+  },
   "XChange Software Inc": {
    "cert": 17,
    "confidence": "loose",
@@ -39077,6 +41878,24 @@
   },
   "YO AI Labs": null,
   "Yahara Software": null,
+  "Yakima Chief Hops": {
+   "cert": 5,
+   "confidence": "prefix",
+   "filed": 5,
+   "green_card": false,
+   "last": 2026,
+   "matched": "Yakima Chief Ranches, LLC",
+   "staffing": false
+  },
+  "Yakshna Solutions": {
+   "cert": 28,
+   "confidence": "exact",
+   "filed": 31,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Yakshna Solutions Inc",
+   "staffing": false
+  },
   "Yamaha Motor Corporation, USA": {
    "cert": 43,
    "confidence": "exact",
@@ -39169,6 +41988,7 @@
    "staffing": false
   },
   "YouVersion": null,
+  "YoungLA": null,
   "Youth On Sustainable Development": {
    "cert": 44,
    "confidence": "loose",
@@ -39263,6 +42083,7 @@
    "matched": "ZealTech, Inc",
    "staffing": true
   },
+  "ZealoTech People": null,
   "Zebra Technologies": {
    "cert": 523,
    "confidence": "exact",
@@ -39350,6 +42171,15 @@
    "staffing": false
   },
   "Zhejiang Cayi Vacuum Container Co.,Ltd.": null,
+  "Zillow": {
+   "cert": 1169,
+   "confidence": "exact",
+   "filed": 1389,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Zillow, Inc.",
+   "staffing": false
+  },
   "ZimZee Recruiting": null,
   "Zimmer Biomet": {
    "cert": 2,
@@ -39453,6 +42283,15 @@
    "matched": "Zscaler, Inc.",
    "staffing": false
   },
+  "Ztek Consulting": {
+   "cert": 7,
+   "confidence": "exact",
+   "filed": 7,
+   "green_card": true,
+   "last": 2026,
+   "matched": "ZTEK CONSULTING INC",
+   "staffing": true
+  },
   "Zurn Elkay Water Solutions": {
    "cert": 6,
    "confidence": "loose",
@@ -39462,6 +42301,16 @@
    "matched": "Zurn Industries, LLC",
    "staffing": false
   },
+  "Zus Health": {
+   "cert": 1,
+   "confidence": "exact",
+   "filed": 1,
+   "green_card": false,
+   "last": 2023,
+   "matched": "Zus Health Inc",
+   "staffing": false
+  },
+  "Zwiesel Fortessa Americas LLC": null,
   "Zyric Grid": null,
   "[HOONIGAN]": null,
   "adMarketplace": {
@@ -39504,6 +42353,15 @@
    "matched": "Delight Consulting Services LLC",
    "staffing": true
   },
+  "develop": {
+   "cert": 2,
+   "confidence": "loose",
+   "filed": 2,
+   "green_card": false,
+   "last": 2025,
+   "matched": "Develop Health Inc.",
+   "staffing": false
+  },
   "devlogic": null,
   "dormakaba Americas": {
    "cert": 9,
@@ -39524,6 +42382,15 @@
    "green_card": true,
    "last": 2026,
    "matched": "eBay Inc.",
+   "staffing": false
+  },
+  "eClerx": {
+   "cert": 66,
+   "confidence": "exact",
+   "filed": 68,
+   "green_card": true,
+   "last": 2026,
+   "matched": "eClerx LLC",
    "staffing": false
   },
   "eNGINE": {
@@ -39617,9 +42484,19 @@
    "matched": "fal - Features & Labels, Inc.",
    "staffing": false
   },
+  "firstPRO US": null,
   "fullthrottle.ai®": null,
   "gategroup": null,
   "gpac": null,
+  "hims & hers": {
+   "cert": 81,
+   "confidence": "loose",
+   "filed": 83,
+   "green_card": true,
+   "last": 2026,
+   "matched": "Hims, Inc.",
+   "staffing": false
+  },
   "hireneXus": null,
   "hussh 🤫": null,
   "i3, LLC": null,
@@ -39724,6 +42601,15 @@
    "matched": "Isite Technologies Inc.",
    "staffing": true
   },
+  "iSoftStone": {
+   "cert": 65,
+   "confidence": "exact",
+   "filed": 70,
+   "green_card": true,
+   "last": 2026,
+   "matched": "iSoftStone, Inc.",
+   "staffing": false
+  },
   "iTradeNetwork, Inc.": {
    "cert": 2,
    "confidence": "exact",
@@ -39762,6 +42648,7 @@
    "staffing": false
   },
   "itD": null,
+  "kSARIA": null,
   "kate spade new york": {
    "cert": 1,
    "confidence": "loose",
@@ -39850,6 +42737,16 @@
    "staffing": false
   },
   "recruit22": null,
+  "rednote": null,
+  "rms Company": {
+   "cert": 4,
+   "confidence": "exact",
+   "filed": 5,
+   "green_card": true,
+   "last": 2026,
+   "matched": "rms Company",
+   "staffing": false
+  },
   "talentpluto": null,
   "the ASSURANCE group": null,
   "the LEGO Group": null,
