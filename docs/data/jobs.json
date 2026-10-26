@@ -33811,6 +33811,18 @@
    "title": "Research Engineer, Machine Learning (RL Velocity)",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008"
   },
+  "anthropic:be98bf78b857": {
+   "company": "Anthropic",
+   "first_seen": "2026-10-26",
+   "location": "San Francisco, CA",
+   "posted_at": "2026-10-25",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Scientist, Life Sciences (Computational Chemistry)",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461863008"
+  },
   "anthropic:beaeda60b39d": {
    "company": "Anthropic",
    "first_seen": "2026-09-15",
@@ -258755,7 +258767,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 681,
+   "last": 682,
    "last_ok": "2026-10-26"
   },
   "Anysphere": {
@@ -259246,7 +259258,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 718,
+   "last": 719,
    "last_ok": "2026-10-26"
   },
   "Suno": {
@@ -259347,6 +259359,6 @@
    "last_ok": "2026-10-26"
   }
  },
- "updated": "2026-10-26T00:42:03Z",
+ "updated": "2026-10-26T01:34:08Z",
  "version": 1
 }
