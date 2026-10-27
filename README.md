@@ -522,6 +522,12 @@ committed or sent anywhere except api.github.com.
   don't hold it, `monitor/resolve.py` searches the employer's own board for the
   role every day (any company whose board the registry names or another posting
   links to), so the link usually follows within a few days.
+- **🔗 add link puts the company's link on a LinkedIn row yourself.** For a
+  role you want and nothing found: open it on LinkedIn, click Apply, and paste
+  the address the company's site opened. It saves like your Applied/Skip marks
+  (this browser first, then the repo with a GitHub token), shows as "🔗 your
+  link", and nothing the scanner does replaces it. Cygnus applies through it on
+  its next run when it is a Greenhouse, Lever, Ashby or Workday link.
 - **One role listed under several locations folds into one row.** Employers'
   boards often decline to name a place ("3 Locations", "Remote US") while
   LinkedIn names a metro, which used to read as two unrelated openings. Same

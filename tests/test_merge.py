@@ -178,3 +178,15 @@ def test_the_employers_link_merges_like_any_other_enrichment():
     ours["jobs"]["stripe:aaa"]["employer_url"] = "https://boards.greenhouse.io/stripe/jobs/1"
     out = merge.merge(ours, base())["jobs"]["stripe:aaa"]
     assert out["employer_url"] == "https://boards.greenhouse.io/stripe/jobs/1"
+
+
+def test_a_link_you_pasted_survives_a_scan_holding_another():
+    """The dashboard writes employer_url + employer_by into the repo copy; a scan
+    that found a different link for the same row must not replace it."""
+    mine = {"company": "Crowe", "title": "SWE", "status": "new",
+            "employer_url": "https://crowe.wd12.myworkdayjobs.com/x/job/found_R1"}
+    yours = dict(mine, employer_url="https://crowe.wd12.myworkdayjobs.com/x/job/right_R2",
+                 employer_by="you")
+    out = merge.merge(base(jobs={"crowe:a": mine}), base(jobs={"crowe:a": yours}))
+    assert out["jobs"]["crowe:a"]["employer_url"].endswith("right_R2")
+    assert out["jobs"]["crowe:a"]["employer_by"] == "you"

@@ -32,9 +32,13 @@ function readMarks() {
     const out = {};
     // ignore anything that is not shaped like a mark, so a half-written or
     // hand-edited key can never take the dashboard down at boot
+    // a mark is a status, an employer link you pasted (🔗), or both; a link-only
+    // mark carries status null and never touches the posting's status
     for (const [id, m] of Object.entries(raw))
-      if (m && typeof m.status === "string")
-        out[id] = { status: m.status, applied_on: m.applied_on || null,
+      if (m && (typeof m.status === "string" || typeof m.link === "string"))
+        out[id] = { status: typeof m.status === "string" ? m.status : null,
+                    applied_on: m.applied_on || null,
+                    link: typeof m.link === "string" ? m.link : null,
                     ts: +m.ts || Date.now(), synced: +m.synced || 0 };
     return out;
   } catch (e) { return {}; }
@@ -63,12 +67,18 @@ function applyMarks(target) {
       if (Date.now() - m.ts > MARK_TTL_DAYS * 86400000) { delete marks[id]; changed = true; }
       continue;
     }
-    if (j.status === m.status && (j.applied_on || null) === m.applied_on) {
+    const statusIn = m.status == null
+      || (j.status === m.status && (j.applied_on || null) === m.applied_on);
+    const linkIn = m.link == null || j.employer_url === m.link;
+    if (statusIn && linkIn) {
       delete marks[id]; changed = true;      // confirmed by the file itself
       continue;
     }
-    j.status = m.status;
-    if (m.applied_on) j.applied_on = m.applied_on; else delete j.applied_on;
+    if (m.status != null) {
+      j.status = m.status;
+      if (m.applied_on) j.applied_on = m.applied_on; else delete j.applied_on;
+    }
+    if (m.link != null) { j.employer_url = m.link; j.employer_by = "you"; }
   }
   if (changed) writeMarks();
 }
@@ -702,9 +712,18 @@ function jobRow(g) {
     const title = href
       ? `<a class="title" href="${href}" target="_blank" rel="noopener">${esc(rj.title)}</a>`
       : `<span class="title">${esc(rj.title)}</span>`;
+    const yours = rj.employer_by === "you";
     const alt = board
       ? ` <a class="alt" href="${board}" target="_blank" rel="noopener"
              title="The board listing this was found on">\u2197 LinkedIn</a>`
+      : "";
+    // LinkedIn rows only: the one source whose link is not an application
+    const paste = isLinkedIn(rj)
+      ? ` <button class="linkbtn${yours ? " yours" : ""}" data-link="${esc(rid)}" title="${
+          yours ? "The company link you pasted. Click to change it."
+          : rj.employer_url ? "Found on the company's own board. Click to replace it with the right one."
+          : "Paste the company's apply link (from LinkedIn's Apply button), so Cygnus can apply"}">${
+          yours ? "\ud83d\udd17 your link" : rj.employer_url ? "\ud83d\udd17 change" : "\ud83d\udd17 add link"}</button>`
       : "";
     // the ids ride in a data attribute and are read back by one delegated
     // listener, so they never have to survive being parsed as JavaScript
@@ -724,7 +743,7 @@ function jobRow(g) {
       rj.status === "applied" ? "applied" : rj.status === "skip" ? "skip" : ""}">
       ${rj.status === "new" && !isClosed(rj) ? '<span class="newdot"></span>' : ""}
       <div class="info">
-        ${title}${alt}
+        ${title}${alt}${paste}
         ${member ? "" : `<span class="pill" style="--tint:var(--t-${esc(rj.tier)})">${esc(rj.tier)}</span>`}
         <div class="meta">${meta}</div>
         ${badges(rj, lead)}
@@ -985,13 +1004,55 @@ function mark(ids, status) {
     } else {
       delete j.applied_on;
     }
-    marks[id] = { status: j.status, applied_on: j.applied_on || null,
-                  ts: Date.now(), synced: 0 };
+    // keeps a pasted link still waiting to sync (marks[id].link)
+    marks[id] = { link: null, ...marks[id], status: j.status,
+                  applied_on: j.applied_on || null, ts: Date.now(), synced: 0 };
   }
   writeMarks();          // before the render, so a crash mid-paint costs nothing
   markRev++;             // the company directory counts these; let its cache go
   render();
   scheduleSave();
+}
+
+// ---- an employer link you paste (🔗) ---------------------------------------
+// LinkedIn hides a posting's "Apply on company website" address from anyone
+// not logged in, so the scanner cannot read it (monitor/resolve.py finds many
+// of them on the employer's own board, not all). You can: open the posting on
+// LinkedIn, click Apply, and paste the address the company's site opened. It
+// is saved like a mark - this browser first, then employer_url in the repo,
+// tagged employer_by "you" - and Cygnus applies through it on its next run.
+// The LinkedIn link stays on the row, as for a link the scanner found.
+let linkNote = "";   // what the last pasted link means for Cygnus, kept for the save toast
+const FILLABLE = /(^|\.)(greenhouse\.io|lever\.co|ashbyhq\.com|myworkdayjobs\.com|myworkdaysite\.com)$/i;
+
+function setLink(id) {
+  const j = data.jobs[id];
+  if (!j) return;
+  const raw = prompt(j.employer_url
+      ? "Change the company's apply link for this posting:"
+      : "Paste the company's apply link for this posting.\n\n"
+        + "Open it on LinkedIn, click Apply, and copy the address the company's site opens.",
+    j.employer_by === "you" ? j.employer_url : "");
+  if (raw == null || !raw.trim()) return;
+  let u;
+  try { u = new URL(raw.trim()); } catch (e) { toast("That is not a web address - nothing saved"); return; }
+  if (!/^https?:$/.test(u.protocol)) { toast("Only http(s) links - nothing saved"); return; }
+  if (/(^|\.)linkedin\.com$/i.test(u.hostname)) {
+    toast("That is LinkedIn's own link - paste the address the company's site opened");
+    return;
+  }
+  j.employer_url = u.href;
+  j.employer_by = "you";
+  marks[id] = { status: null, applied_on: null, ...marks[id], link: u.href,
+                ts: Date.now(), synced: 0 };
+  writeMarks();
+  render();
+  scheduleSave();
+  // the save toast lands 1.5s later and would hide this, so it carries it too
+  linkNote = FILLABLE.test(u.hostname) || /[?&]gh_jid=/i.test(u.search)
+    ? "Cygnus will apply through your link"
+    : "Cygnus fills Greenhouse, Lever, Ashby and Workday forms; this link it can only open";
+  toast("Link saved ✓ · " + linkNote);
 }
 
 let saveTimer = null;
@@ -1002,7 +1063,9 @@ async function persist(attempt = 0) {
   const pending = Object.entries(marks).filter(([, m]) => !m.synced);
   if (!pending.length) return;
   if (!c.token || !c.owner || !c.repo) {
-    toast("Marks kept in this browser ✓ · add a GitHub token (⚙) to sync them to the repo");
+    toast("Marks kept in this browser ✓ · add a GitHub token (⚙) to sync them to the repo"
+          + (linkNote ? " · " + linkNote : ""));
+    linkNote = "";
     return;
   }
   const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${PATH}`;
@@ -1028,11 +1091,15 @@ async function persist(attempt = 0) {
     for (const [id, d] of pending) {
       const t = remote.jobs[id];
       if (!t) continue;
-      t.status = d.status;
-      if (d.applied_on) t.applied_on = d.applied_on; else delete t.applied_on;
+      if (d.status != null) {
+        t.status = d.status;
+        if (d.applied_on) t.applied_on = d.applied_on; else delete t.applied_on;
+      }
+      if (d.link != null) { t.employer_url = d.link; t.employer_by = "you"; }
     }
+    const links = pending.filter(([, d]) => d.link != null).length;
     const body = {
-      message: "dashboard: update statuses",
+      message: links ? "dashboard: update statuses and employer links" : "dashboard: update statuses",
       content: btoa(unescape(encodeURIComponent(JSON.stringify(remote, null, 1)))),
       sha: cur.sha, branch: c.branch,
     };
@@ -1043,12 +1110,14 @@ async function persist(attempt = 0) {
     // it (see applyMarks); all this records is that it no longer needs sending
     for (const [id, d] of pending) {
       const held = marks[id];      // may have been re-clicked while this ran
-      if (held && held.status === d.status && held.applied_on === d.applied_on)
+      if (held && held.status === d.status && held.applied_on === d.applied_on
+          && held.link === d.link)
         held.synced = Date.now();
     }
     writeMarks();
     render();
-    toast("Saved ✓");
+    toast("Saved ✓" + (linkNote ? " · " + linkNote : ""));
+    linkNote = "";
   } catch (e) { toast("Save failed (kept in this browser): " + e.message); }
 }
 
@@ -1139,6 +1208,8 @@ $("list").addEventListener("click", e => {
   }
   const r = e.target.closest("button[data-reach]");
   if (r) { window.openOutreach(r.dataset.reach); return; }
+  const l = e.target.closest("button[data-link]");
+  if (l) { setLink(l.dataset.link); return; }
   const b = e.target.closest("button[data-act]");
   if (b) mark(b.dataset.ids.split(" "), b.dataset.act);
 });
