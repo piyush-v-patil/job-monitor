@@ -135,6 +135,12 @@ main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
 .job a.alt { color:var(--muted); font-size:10.5px; text-decoration:none; white-space:nowrap;
              margin-left:6px; }
 .job a.alt:hover { color:var(--text); }
+/* Paste the company's link for a LinkedIn row. Footnote weight, like the
+   LinkedIn link beside it; a link you pasted reads in the accent colour. */
+.job .linkbtn { background:none; border:none; padding:0; margin-left:6px; cursor:pointer;
+                color:var(--muted); font:inherit; font-size:10.5px; white-space:nowrap; }
+.job .linkbtn:hover { color:var(--text); text-decoration:underline; }
+.job .linkbtn.yours { color:var(--accent); }
 .meta { color:var(--muted); font-size:11.5px; margin-top:3px; }
 /* identity rides the dot; the label stays in ink (never the series colour) */
 .pill { font-size:10px; padding:2px 9px 2px 7px; border-radius:999px; font-weight:600;

@@ -19,9 +19,11 @@ def _sched(value: str) -> str:
 
 
 def amazon(c):
+    """c: {name, search?, category?}  category "" searches every job family."""
     s = session()
+    category = c.get("category", "software-development")
     url = ("https://www.amazon.jobs/en/search.json?result_limit=100&sort=recent"
-           "&category%5B%5D=software-development&country%5B%5D=USA"
+           + (f"&category%5B%5D={category}" if category else "") + "&country%5B%5D=USA"
            f"&base_query={c.get('search', 'software engineer').replace(' ', '+')}")
     data = get_json(s, url)
     out = []

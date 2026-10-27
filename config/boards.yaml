@@ -1,0 +1,82 @@
+# Where employers post, for monitor/resolve.py only. Nothing here is scanned:
+# the scanner reads config/companies*.yaml, and these boards are only searched
+# for the title of a LinkedIn row at that employer, to find its own posting.
+#
+# boards: employers that turn up often on LinkedIn but are not in a registry,
+# and whose board no tracked posting links to. Each one was checked to answer
+# a search before it went in. An entry here outranks a board read from tracked
+# postings (GDIT's postings mostly link to its early-talent site, which has
+# none of its experienced roles); a registry entry outranks this.
+#
+# aliases: LinkedIn spellings of an employer that posts under another name we
+# already know a board for. Both sides are company names as written anywhere -
+# they are normalized the same way as everything else (case, punctuation and
+# Inc/LLC/Corporation do not matter).
+
+boards:
+  - name: Analog Devices
+    fetcher: workday
+    host: analogdevices.wd1.myworkdayjobs.com
+    tenant: analogdevices
+    site: External
+  - name: Bank of America
+    fetcher: workday
+    host: ghr.wd1.myworkdayjobs.com
+    tenant: ghr
+    site: Lateral-US
+  - name: General Dynamics Information Technology
+    fetcher: workday
+    host: gdit.wd5.myworkdayjobs.com
+    tenant: gdit
+    site: External_Career_Site
+  - name: General Motors
+    fetcher: workday
+    host: generalmotors.wd5.myworkdayjobs.com
+    tenant: generalmotors
+    site: Careers_GM
+  - name: Humana
+    fetcher: workday
+    host: humana.wd5.myworkdayjobs.com
+    tenant: humana
+    site: Humana_External_Career_Site
+  - name: Intel
+    fetcher: workday
+    host: intel.wd1.myworkdayjobs.com
+    tenant: intel
+    site: External
+  - name: KLA
+    fetcher: workday
+    host: kla.wd1.myworkdayjobs.com
+    tenant: kla
+    site: Search
+  - name: State Street
+    fetcher: workday
+    host: statestreet.wd1.myworkdayjobs.com
+    tenant: statestreet
+    site: Global
+  - name: Thermo Fisher Scientific
+    fetcher: workday
+    host: thermofisher.wd5.myworkdayjobs.com
+    tenant: thermofisher
+    site: thermofishercareers
+  - name: Thomson Reuters
+    fetcher: workday
+    host: thomsonreuters.wd5.myworkdayjobs.com
+    tenant: thomsonreuters
+    site: External_Career_Site
+
+aliases:
+  # RTX's businesses list themselves separately on LinkedIn, and all post on
+  # RTX's one Workday site
+  Raytheon: RTX
+  Collins Aerospace: RTX
+  Pratt & Whitney: RTX
+  Amazon Web Services (AWS): Amazon
+  JPMorganChase: JP Morgan Chase
+  Booz Allen Hamilton: Booz Allen
+  CACI International Inc: CACI
+  Anduril Industries: Anduril
+  Motorola Solutions: Motorola
+  Emerson: Emerson Electric
+  Honeywell Aerospace: Honeywell
+  Lowe's Companies, Inc.: Lowe's

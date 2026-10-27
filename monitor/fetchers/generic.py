@@ -415,10 +415,13 @@ def oraclecloud(c):
 
 
 def smartrecruiters(c):
-    """c: {name, token}  ->  public postings API (e.g. Visa)"""
+    """c: {name, token, search?}  ->  public postings API (e.g. Visa)"""
     s = session()
+    params = {"limit": 100}
+    if c.get("search"):
+        params["q"] = c["search"]
     data = get_json(
-        s, f"https://api.smartrecruiters.com/v1/companies/{c['token']}/postings?limit=100")
+        s, f"https://api.smartrecruiters.com/v1/companies/{c['token']}/postings", params=params)
     out = []
     for j in data.get("content", []):
         loc = j.get("location") or {}

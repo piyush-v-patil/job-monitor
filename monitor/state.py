@@ -36,6 +36,12 @@ Structure:
       # have. Never replaces "url": that is the link the closure sweep probes
       # and the id de-duplication reads (see add_new).
       "employer_url": str,
+      # "you" when that link was pasted on the dashboard (🔗) rather than found;
+      # nothing here ever replaces an employer_url, so yours stays
+      "employer_by": "you",
+      # the day monitor/resolve.py last searched the employer's own board for
+      # this board row, found or not; it is not searched again for a week
+      "employer_checked": "YYYY-MM-DD",
       # set when "posted_at" was derived rather than stated by the board (see
       # monitor/backfill.py). The dashboard renders those dates as "≈", and an
       # exact date arriving later replaces the derived one.
