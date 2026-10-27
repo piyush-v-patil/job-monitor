@@ -11893,6 +11893,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10532316/software-dev-engineer-amazon-connect",
    "yoe": 2
   },
+  "amazon:2814525f21ff": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-27",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Customer Service",
+   "url": "https://www.amazon.jobs/en/jobs/10590246/software-development-engineer-amazon-customer-service",
+   "yoe": 1
+  },
   "amazon:28cd54f5c983": {
    "company": "Amazon",
    "department": "Software Development",
@@ -15354,6 +15369,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10534634/software-dev-engineer-nw-monitoring-remediation",
    "yoe": 1
   },
+  "amazon:6f7229ed8963": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-27",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Advanced Analytics - LLD",
+   "url": "https://www.amazon.jobs/en/jobs/10589937/software-development-engineer-advanced-analytics-lld",
+   "yoe": 1
+  },
   "amazon:7008540aeda3": {
    "company": "Amazon",
    "department": "Software Development",
@@ -17402,6 +17432,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10575853/software-engineer-sso-intelligence",
    "yoe": 1
   },
+  "amazon:98085824be4d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-27",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10586770/software-development-engineer",
+   "yoe": 1
+  },
   "amazon:9873a7c5c843": {
    "company": "Amazon",
    "department": "Software Development",
@@ -17826,6 +17871,21 @@
    "title": "Software Development Engineer II, AWS WorkSpaces, AWS WorkSpaces Control Plane Backend",
    "url": "https://www.amazon.jobs/en/jobs/10573899/software-development-engineer-ii-aws-workspaces-aws-workspaces-control-plane-backend",
    "yoe": 2
+  },
+  "amazon:9e94a6c5106c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-27",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Selection Monitoring - Catalog Enrichment",
+   "url": "https://www.amazon.jobs/en/jobs/10590486/software-dev-engineer-ii-selection-monitoring-catalog-enrichment",
+   "yoe": 1
   },
   "amazon:9e9b4fccfedb": {
    "company": "Amazon",
@@ -18818,6 +18878,21 @@
    "title": "Software Development Engineer",
    "url": "https://www.amazon.jobs/en/jobs/10583312/software-development-engineer",
    "yoe": 2
+  },
+  "amazon:b5455f9efa21": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-27",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, AVMS, AVMS",
+   "url": "https://www.amazon.jobs/en/jobs/10590386/software-development-engineer-ii-avms-avms",
+   "yoe": 1
   },
   "amazon:b5e00880d061": {
    "company": "Amazon",
@@ -36255,6 +36330,19 @@
    "title": "CPU Verification ML Tool Engineer",
    "url": "https://jobs.apple.com/en-us/details/200687964/cpu-verification-ml-tool-engineer"
   },
+  "apple:21c5273952e1": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-27",
+   "location": "Cupertino",
+   "posted_at": "2026-10-27",
+   "role": "embedded",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Camera Embedded Software Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200690234/camera-embedded-software-engineer"
+  },
   "apple:249bb396e419": {
    "company": "Apple",
    "department": "Software and Services",
@@ -36280,6 +36368,19 @@
    "tier": "experienced",
    "title": "Kubernetes Security Engineer",
    "url": "https://jobs.apple.com/en-us/details/200688257/kubernetes-security-engineer"
+  },
+  "apple:25f2ab529774": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-27",
+   "location": "Cupertino",
+   "posted_at": "2026-10-27",
+   "role": "qa-test",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Test Engineer, Packaging Product Design",
+   "url": "https://jobs.apple.com/en-us/details/200691956/test-engineer-packaging-product-design"
   },
   "apple:2654d144cd02": {
    "company": "Apple",
@@ -36762,6 +36863,19 @@
    "title": "Software Engineer - SoC Level Validation Engineer",
    "url": "https://jobs.apple.com/en-us/details/200690747/software-engineer-soc-level-validation-engineer"
   },
+  "apple:53acb0f1a7da": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-27",
+   "location": "Cupertino",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Systems Software Engineer - Performance & Agentic Tools",
+   "url": "https://jobs.apple.com/en-us/details/200691968/systems-software-engineer-performance-agentic-tools"
+  },
   "apple:548c35c8db59": {
    "company": "Apple",
    "department": "Operations and Supply Chain",
@@ -36853,6 +36967,19 @@
    "title": "Systems Engineer — Apple Reference Image",
    "url": "https://jobs.apple.com/en-us/details/200688855/systems-engineer-apple-reference-image"
   },
+  "apple:61f481af012d": {
+   "company": "Apple",
+   "department": "Operations and Supply Chain",
+   "first_seen": "2026-10-27",
+   "location": "San Francisco Bay Area",
+   "posted_at": "2026-10-27",
+   "role": "qa-test",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Operations Test Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200692033/operations-test-engineer"
+  },
   "apple:64c1de81a65d": {
    "company": "Apple",
    "department": "Hardware",
@@ -36931,6 +37058,19 @@
    "title": "ML - Data Scientist",
    "url": "https://jobs.apple.com/en-us/details/200690294/ml-data-scientist"
   },
+  "apple:687e0ccd621a": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-27",
+   "location": "Sunnyvale",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "RealityKit Media Pipeline Engineer, Vision Products Software",
+   "url": "https://jobs.apple.com/en-us/details/200686638/realitykit-media-pipeline-engineer-vision-products-software"
+  },
   "apple:694e2c9a8e3e": {
    "company": "Apple",
    "department": "Machine Learning and AI",
@@ -36944,6 +37084,19 @@
    "title": "AIML - Machine Learning Researcher, MLR",
    "url": "https://jobs.apple.com/en-us/details/200691018/aiml-machine-learning-researcher-mlr"
   },
+  "apple:6c27437529f6": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-27",
+   "location": "Cupertino",
+   "posted_at": "2026-10-27",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Agentic Systems Engineer, Proactive Intelligence — Automation & LLM Orchestration",
+   "url": "https://jobs.apple.com/en-us/details/200691138/agentic-systems-engineer-proactive-intelligence-automation-llm-orchestration"
+  },
   "apple:70b1036f541d": {
    "company": "Apple",
    "department": "Software and Services",
@@ -36956,6 +37109,19 @@
    "tier": "experienced",
    "title": "Platform Engineer, Find My",
    "url": "https://jobs.apple.com/en-us/details/200683831/platform-engineer-find-my"
+  },
+  "apple:72ecb61e18ac": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-27",
+   "location": "Cupertino",
+   "posted_at": "2026-10-27",
+   "role": "embedded",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded QA Engineer - Camera,  ISP FW & Driver",
+   "url": "https://jobs.apple.com/en-us/details/200690499/embedded-qa-engineer-camera-isp-fw-driver"
   },
   "apple:740c0d10042a": {
    "company": "Apple",
@@ -37008,6 +37174,19 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer, Answers Knowledge and Information - Proactive ",
    "url": "https://jobs.apple.com/en-us/details/200688556/machine-learning-engineer-answers-knowledge-and-information-proactive"
+  },
+  "apple:7cda1195bc17": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-27",
+   "location": "Cupertino",
+   "posted_at": "2026-10-27",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer / Scientist",
+   "url": "https://jobs.apple.com/en-us/details/200692016/research-engineer-scientist"
   },
   "apple:7dbfcb9ff614": {
    "company": "Apple",
@@ -37465,6 +37644,19 @@
    "title": "Software Engineer, ",
    "url": "https://jobs.apple.com/en-us/details/200688902/software-engineer"
   },
+  "apple:989ad4bbd0f8": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-27",
+   "location": "Waltham",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cellular RF Transmitter Systems Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200691975/cellular-rf-transmitter-systems-engineer"
+  },
   "apple:9935fd43a3eb": {
    "company": "Apple",
    "department": "Machine Learning and AI",
@@ -37750,6 +37942,19 @@
    "tier": "experienced",
    "title": "Tactile AI Research Engineer - Special Projects (Robotics)",
    "url": "https://jobs.apple.com/en-us/details/200675551/tactile-ai-research-engineer-special-projects-robotics"
+  },
+  "apple:b2e679406ef9": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-27",
+   "location": "Austin",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer in Test - Retail & Marcom",
+   "url": "https://jobs.apple.com/en-us/details/200687965/software-development-engineer-in-test-retail-marcom"
   },
   "apple:b396539ecbb0": {
    "company": "Apple",
@@ -38063,6 +38268,19 @@
    "title": "AI/ML Engineer: System RF Data Ecosystem",
    "url": "https://jobs.apple.com/en-us/details/200691105/ai-ml-engineer-system-rf-data-ecosystem"
   },
+  "apple:cd9c3a30e1ed": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-27",
+   "location": "Austin",
+   "posted_at": "2026-10-27",
+   "role": "devops-sre",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer, Retail and Marcom Engineering",
+   "url": "https://jobs.apple.com/en-us/details/200691099/site-reliability-engineer-retail-and-marcom-engineering"
+  },
   "apple:ce33374888b8": {
    "company": "Apple",
    "department": "Software and Services",
@@ -38101,6 +38319,19 @@
    "tier": "experienced",
    "title": "Coordination SRE",
    "url": "https://jobs.apple.com/en-us/details/200690343/coordination-sre"
+  },
+  "apple:d1e33fb1ec4b": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-27",
+   "location": "Waltham",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cellular RF Transmitter Systems Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200691923/cellular-rf-transmitter-systems-engineer"
   },
   "apple:d2b1e3e42ac3": {
    "company": "Apple",
@@ -122373,6 +122604,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Knowledge Catalog For AI",
    "url": "https://www.google.com/about/careers/applications/jobs/results/108231493897069254-software-engineer-iii-knowledge-catalog-for-ai"
+  },
+  "google:5ed3da04311a": {
+   "company": "Google",
+   "first_seen": "2026-10-27",
+   "location": "Madison, WI, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Cloud NetInfra",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/125320531770516166-software-engineer-iii-infrastructure-google-cloud-netinfra"
   },
   "google:5f32cb2558cd": {
    "company": "Google",
@@ -264889,7 +265131,7 @@
   },
   "Airbnb": {
    "best": 196,
-   "last": 190,
+   "last": 194,
    "last_ok": "2026-10-27"
   },
   "Airtable": {
@@ -264914,7 +265156,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 679,
+   "last": 678,
    "last_ok": "2026-10-27"
   },
   "Anysphere": {
@@ -264924,7 +265166,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 145,
+   "last": 131,
    "last_ok": "2026-10-27"
   },
   "Applied Intuition": {
@@ -265235,7 +265477,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 150,
+   "last": 141,
    "last_ok": "2026-10-27"
   },
   "MongoDB": {
@@ -265285,7 +265527,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 797,
+   "last": 795,
    "last_ok": "2026-10-27"
   },
   "OpenEvidence": {
@@ -265405,7 +265647,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 711,
+   "last": 714,
    "last_ok": "2026-10-27"
   },
   "Suno": {
@@ -265506,6 +265748,6 @@
    "last_ok": "2026-10-27"
   }
  },
- "updated": "2026-10-27T15:30:17Z",
+ "updated": "2026-10-27T20:13:33Z",
  "version": 1
 }
