@@ -9,13 +9,19 @@ even though we know exactly where Crowe and Cisco post their jobs.
 
 This asks those boards directly. LinkedIn itself is never contacted.
 
-  * Which board: the company registry (config/companies*.yaml) first, then the
-    board URLs of postings already tracked for that company - a Simplify row
-    pointing at crowe.wd12.myworkdayjobs.com/en-US/external_careers is enough
-    to know where Crowe's own listings live.
+  * Which board: the company registry (config/companies*.yaml), then the
+    boards in config/boards.yaml (big LinkedIn employers that are not scanned),
+    then the board URLs of postings already tracked for that company - a
+    Simplify row pointing at crowe.wd12.myworkdayjobs.com/en-US/external_careers
+    is enough to know where Crowe's own listings live. Both trackers' registries
+    and postings are used, whichever one is being resolved: the supply-chain
+    tracker scans almost no defence primes, the software tracker knows where
+    Northrop and Leidos post. config/boards.yaml also names the LinkedIn
+    spellings that share another company's board (Raytheon -> RTX).
   * What is read: Greenhouse, Lever and Ashby publish the whole board in one
-    request, so it is read once. Workday only searches, so each LinkedIn title
-    is searched for (one request, the top 20 hits).
+    request, so it is read once. Everything else (Workday, Oracle Cloud,
+    SmartRecruiters, Eightfold, and the Amazon/Microsoft/Google/Uber/Walmart
+    careers sites) is searched for each LinkedIn title, about one request each.
   * What is accepted: the same title in the row's own city, or filed under
     no city ("3 Locations", "Remote") - and only one such posting. Stricter
     than state.employer_link, because a top-20 search is not the whole board
@@ -30,6 +36,7 @@ Usage:  python -m monitor.resolve [--profile supplychain] [--limit 150]
                                   [--days 30] [--dry-run]
 """
 import argparse
+import os
 import re
 import sys
 import time
@@ -39,10 +46,10 @@ from datetime import datetime, timedelta, timezone
 import yaml
 
 from . import names, profiles, state
-from .fetchers import generic
+from .fetchers import FETCHERS, generic
 from .fetchers.http import session
 
-FETCHERS = ("greenhouse", "lever", "ashby", "workday")
+EXTRA = os.path.join(profiles.ROOT, "config", "boards.yaml")
 RECHECK_DAYS = 7
 PACE_S = 1.0
 
@@ -57,6 +64,30 @@ WD_JOBS = re.compile(
     r"//((\w[\w-]*)\.wd\d+\.myworkdayjobs\.com)/(?:[a-z]{2}-[A-Z]{2}/)?([\w-]+)/job/", re.I)
 WD_SITE = re.compile(
     r"//(wd\d+\.myworkdaysite\.com)/(?:[a-z]{2}-[A-Z]{2}/)?recruiting/([\w-]+)/([\w-]+)/job/", re.I)
+ORACLE = re.compile(
+    r"//([\w.-]+\.oraclecloud\.com)/hcmUI/CandidateExperience/[a-z]{2}(?:-[A-Z]{2})?/sites/([\w-]+)/job/", re.I)
+SMARTRECRUITERS = re.compile(r"//jobs\.smartrecruiters\.com/([\w-]+)/\d+", re.I)
+
+# Boards that publish every posting in one request: read once per run.
+WHOLE_BOARD = ("greenhouse", "lever", "ashby")
+# Boards that only search: asked once per title, sized to one request or so
+# (Microsoft's pages are ten postings). Phenom is missing on purpose - its
+# keyword is decorative, so a search returns the same pages as no search -
+# and so are Apple, Tesla and Avature, which read their whole site page by
+# page and would spend a run's requests on one company.
+SEARCH = {
+    "workday": {},
+    "oraclecloud": {"max_results": 20},
+    "smartrecruiters": {},
+    "eightfold": {},
+    "amazon": {"category": ""},     # LinkedIn titles span every job family
+    "microsoft": {"pages": 2},
+    "google": {"pages": 1},
+    "uber": {},
+    "walmart": {"max_results": 20},
+}
+# Registry keys that tune a scan, not a board, and would change a search.
+SCAN_ONLY = ("searches", "search", "max_results", "pages", "max_pages", "skip_recent")
 
 
 # state's soft-match suffixes, plus the partnership ones: Simplify files Crowe
@@ -84,12 +115,24 @@ def board_from_url(url: str) -> dict | None:
         host, tenant, site = m.groups()
         return {"fetcher": "workday", "host": host.lower(), "tenant": tenant, "site": site,
                 "url_prefix": f"https://{host.lower()}/en-US/recruiting/{tenant}/{site}"}
+    m = ORACLE.search(url or "")
+    if m:
+        return {"fetcher": "oraclecloud", "host": m.group(1).lower(), "site": m.group(2)}
+    m = SMARTRECRUITERS.search(url or "")
+    if m:
+        return {"fetcher": "smartrecruiters", "token": m.group(1)}
     return None
 
 
 def board_id(b: dict) -> str:
-    return (f"workday:{b['host']}/{b['tenant']}/{b['site']}" if b["fetcher"] == "workday"
-            else f"{b['fetcher']}:{b['token']}")
+    if b["fetcher"] == "workday":
+        return f"workday:{b['host']}/{b['tenant']}/{b['site']}"
+    where = b.get("token") or "/".join(filter(None, (b.get("host"), b.get("site")))) or b.get("name", "")
+    return f"{b['fetcher']}:{where}"
+
+
+def searchable(b: dict) -> bool:
+    return b.get("fetcher") in WHOLE_BOARD or b.get("fetcher") in SEARCH
 
 
 def registry(path: str) -> list:
@@ -99,11 +142,23 @@ def registry(path: str) -> list:
     return [c for v in cfg.values() if isinstance(v, list) for c in v if isinstance(c, dict)]
 
 
-def boards(companies: list, jobs: dict) -> dict:
-    """{company key: board config}. The registry wins; otherwise the board most of
-    that company's tracked postings link to."""
+def extra(path: str = EXTRA) -> tuple[list, dict]:
+    """config/boards.yaml -> (board entries, {LinkedIn spelling: company it posts as})."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            cfg = yaml.safe_load(f) or {}
+    except FileNotFoundError:
+        return [], {}
+    return list(cfg.get("boards") or []), dict(cfg.get("aliases") or {})
+
+
+def boards(companies: list, jobs, aliases: dict | None = None) -> dict:
+    """{company key: board config}. Later `companies` entries win over earlier ones
+    and every entry wins over a board read from tracked postings, where the board
+    most of that company's postings link to is taken. `aliases` then hand a
+    company's board to the other names it is listed under."""
     counts, configs = {}, {}
-    for j in jobs.values():
+    for j in (jobs.values() if isinstance(jobs, dict) else jobs):
         if j.get("soft_dedupe"):
             continue
         b, key = board_from_url(j.get("url", "")), company_key(j.get("company", ""))
@@ -111,10 +166,13 @@ def boards(companies: list, jobs: dict) -> dict:
             counts.setdefault(key, Counter())[board_id(b)] += 1
             configs[board_id(b)] = b
     out = {key: dict(configs[ids.most_common(1)[0][0]]) for key, ids in counts.items()}
-    keep = ("fetcher", "token", "host", "tenant", "site", "url_prefix", "facets")
     for c in companies:
-        if c.get("fetcher") in FETCHERS and company_key(c.get("name", "")):
-            out[company_key(c["name"])] = {k: c[k] for k in keep if k in c}
+        if searchable(c) and company_key(c.get("name", "")):
+            out[company_key(c["name"])] = {k: v for k, v in c.items() if k not in SCAN_ONLY}
+    for alias, owner in (aliases or {}).items():
+        board = out.get(company_key(owner))
+        if board and company_key(alias) not in out:
+            out[company_key(alias)] = board
     return out
 
 
@@ -135,18 +193,23 @@ def candidates(jobs: dict, known: dict, today: str, days: int = 30) -> list:
 
 
 def search_text(title: str) -> str:
-    """A title as a Workday search: without the req numbers boards append."""
-    return " ".join(state.SOFT_TITLE_NOISE.sub(" ", title or "").split())
+    """A title as a board search: without the req numbers boards append, and without
+    the punctuation Oracle's finder string uses as its own separators."""
+    return " ".join(re.sub(r"[,;\"']", " ", state.SOFT_TITLE_NOISE.sub(" ", title or "")).split())
 
 
 def fetch(board: dict, title: str) -> list:
     """The postings on `board` that could be `title`: the whole board where the board
-    publishes one, else the top hits of a search for the title (Workday)."""
-    c = dict(board, name="")
-    if board["fetcher"] == "workday":
+    publishes one, else the top hits of a search for the title."""
+    c = dict(board, name=board.get("name") or "")
+    f = board["fetcher"]
+    if f == "workday":
+        # one page, not workday()'s two sweeps: the newest-first one is no use here
         url = f"https://{board['host']}/wday/cxs/{board['tenant']}/{board['site']}/jobs"
         return generic._workday_pass(session(), url, dict(c, max_results=20), search_text(title))
-    return getattr(generic, board["fetcher"])(c)
+    if f in WHOLE_BOARD:
+        return FETCHERS[f](c)
+    return FETCHERS[f](dict(c, **SEARCH[f], search=search_text(title), skip_recent=True))
 
 
 # Boards file one place several ways: "Santa Clara, CA - USA (Offices)",
@@ -210,14 +273,15 @@ class Resolver:
         bid = board_id(board)
         if bid in self.failed:
             return None
-        key = bid + ("#" + search_text(title).lower() if board["fetcher"] == "workday" else "")
+        whole = board["fetcher"] in WHOLE_BOARD
+        key = bid if whole else f"{bid}#{search_text(title).lower()}"
         if key in self.cache:
             return self.cache[key]
         if sum(self.requests.values()) >= self.limit:
             raise OutOfRequests
         if self.requests and self.pace:
             time.sleep(self.pace)
-        self.requests["search" if board["fetcher"] == "workday" else "board"] += 1
+        self.requests["board" if whole else "search"] += 1
         try:
             self.cache[key] = self.fetch(board, title)
         except Exception as e:  # noqa: BLE001 - one board never stops the run
@@ -239,7 +303,7 @@ def resolve(jobs: dict, known: dict, today: str, resolver: Resolver, days: int =
         if posts is None:
             continue                         # board unreachable: try again next run
         checked.append(jid)
-        link = match(row, posts, whole_board=board["fetcher"] != "workday")
+        link = match(row, posts, whole_board=board["fetcher"] in WHOLE_BOARD)
         if link:
             links[jid] = link
     return links, checked
@@ -254,6 +318,19 @@ def apply(jobs: dict, links: dict, checked: list, today: str) -> None:
         jobs[jid]["employer_url"] = link
 
 
+def known_boards(profile, jobs: dict) -> dict:
+    """Boards from every tracker's registry and postings, this profile's registry
+    winning where two disagree."""
+    entries, aliases = extra()
+    others = [p for p in profiles.PROFILES.values() if p.key != profile.key]
+    companies = entries + [c for p in others for c in registry(p.config_path)] \
+        + registry(profile.config_path)
+    rows = list(jobs.values())
+    for p in others:
+        rows += list(state.load(p.state_path).get("jobs", {}).values())
+    return boards(companies, rows, aliases)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--profile", choices=list(profiles.PROFILES), default="tech")
@@ -266,7 +343,7 @@ def main(argv=None):
     st = state.load(profile.state_path)
     jobs = st["jobs"]
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    known = boards(registry(profile.config_path), jobs)
+    known = known_boards(profile, jobs)
     todo = candidates(jobs, known, today, args.days)
     print(f"{len(known)} company boards known; {len(todo)} LinkedIn rows to look up "
           f"(first seen in the last {args.days} days, not searched in the last {RECHECK_DAYS})")

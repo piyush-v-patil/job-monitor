@@ -63,11 +63,11 @@ def test_a_company_board_comes_from_its_tracked_postings():
 
 
 def test_the_registry_wins_over_a_tracked_url():
-    reg = [{"name": "Crowe", "fetcher": "greenhouse", "token": "crowe", "tier": "x"},
-           {"name": "Unscannable", "fetcher": "eightfold", "host": "x"}]
+    reg = [{"name": "Crowe", "fetcher": "greenhouse", "token": "crowe", "searches": ["x"]},
+           {"name": "Unsearchable", "fetcher": "phenom", "host": "x"}]
     known = resolve.boards(reg, tracked())
-    assert known["crowe"] == {"fetcher": "greenhouse", "token": "crowe"}
-    assert "unscannable" not in known
+    assert known["crowe"] == {"name": "Crowe", "fetcher": "greenhouse", "token": "crowe"}
+    assert "unsearchable" not in known
 
 
 def test_linkedin_rows_never_say_where_a_company_posts():
@@ -194,10 +194,12 @@ def test_a_dry_run_saves_nothing(tmp_path, monkeypatch):
     path.write_text('{"version": 1, "jobs": {}}')
 
     class P:
+        key = "test"
         state_path = str(path)
         config_path = str(tmp_path / "companies.yaml")
     (tmp_path / "companies.yaml").write_text("other: []\n")
     monkeypatch.setattr(resolve.profiles, "get", lambda key: P)
+    monkeypatch.setattr(resolve, "known_boards", lambda profile, jobs: {})
     monkeypatch.setattr(resolve.state, "save", lambda *a: pytest.fail("saved on a dry run"))
     assert resolve.main(["--dry-run"]) == 0
 
@@ -207,3 +209,130 @@ def test_the_later_search_date_survives_a_merge():
     theirs = {"jobs": {"a": {"employer_checked": "2026-10-20"}}}
     assert merge.merge(ours, theirs)["jobs"]["a"]["employer_checked"] == "2026-10-27"
     assert merge.merge(theirs, ours)["jobs"]["a"]["employer_checked"] == "2026-10-27"
+
+
+# ---- more boards -----------------------------------------------------------
+
+@pytest.mark.parametrize("url,want", [
+    ("https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210512345",
+     {"fetcher": "oraclecloud", "host": "jpmc.fa.oraclecloud.com", "site": "CX_1001"}),
+    ("https://jobs.smartrecruiters.com/ServiceNow/744000012345678",
+     {"fetcher": "smartrecruiters", "token": "ServiceNow"}),
+])
+def test_oracle_and_smartrecruiters_boards_are_read_from_posting_urls(url, want):
+    assert resolve.board_from_url(url) == want
+
+
+def test_an_alias_shares_the_board_of_the_company_it_names():
+    reg = [{"name": "RTX", "fetcher": "workday", "host": "globalhr.wd5.myworkdayjobs.com",
+            "tenant": "globalhr", "site": "REC_RTX_Ext_Gateway"}]
+    known = resolve.boards(reg, {}, {"Collins Aerospace": "RTX", "Nobody": "Unknown Co"})
+    assert known["collins aerospace"] is known["rtx"]
+    assert "nobody" not in known
+
+
+def test_an_alias_never_replaces_a_board_the_name_already_has():
+    reg = [{"name": "RTX", "fetcher": "greenhouse", "token": "rtx"},
+           {"name": "Raytheon", "fetcher": "greenhouse", "token": "raytheon"}]
+    assert resolve.boards(reg, {}, {"Raytheon": "RTX"})["raytheon"]["token"] == "raytheon"
+
+
+def test_listed_boards_outrank_a_board_read_from_tracked_postings():
+    jobs = {"g": {"company": "GDIT", "url": "https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/x/Intern_R1"}}
+    listed = [{"name": "GDIT", "fetcher": "workday", "host": "gdit.wd5.myworkdayjobs.com",
+               "tenant": "gdit", "site": "External_Career_Site"}]
+    assert resolve.boards([], jobs)["gdit"]["site"] == "gdit_earlytalent"
+    assert resolve.boards(listed, jobs)["gdit"]["site"] == "External_Career_Site"
+
+
+def test_scan_settings_never_reach_a_search():
+    reg = [{"name": "Microsoft", "fetcher": "microsoft", "pages": 15, "searches": ["a", "b"]}]
+    assert resolve.boards(reg, {})["microsoft"] == {"name": "Microsoft", "fetcher": "microsoft"}
+
+
+def test_boards_that_cannot_search_are_left_out():
+    reg = [{"name": c, "fetcher": f} for c, f in (("Pepsi", "phenom"), ("Apple", "apple"),
+                                                   ("Two Sigma", "avature"), ("Feed", "jobspy"))]
+    assert resolve.boards(reg, {}) == {}
+
+
+def test_both_trackers_share_their_boards(monkeypatch, tmp_path):
+    import json
+    from monitor import profiles
+
+    def tracker(key, rows):
+        (tmp_path / f"{key}.json").write_text(json.dumps({"jobs": rows}))
+        (tmp_path / f"{key}.yaml").write_text("other: []\n")
+
+        class P:
+            pass
+        P.key, P.state_path, P.config_path = key, str(tmp_path / f"{key}.json"), str(tmp_path / f"{key}.yaml")
+        return P
+
+    tech = tracker("tech", tracked())
+    scm = tracker("scm", {"li": li(title="Demand Planner")})
+    monkeypatch.setattr(profiles, "PROFILES", {"tech": tech, "scm": scm})
+    monkeypatch.setattr(resolve, "extra", lambda: ([], {}))
+    assert resolve.known_boards(scm, {"li": li(title="Demand Planner")})["crowe"]["tenant"] == "crowe"
+
+
+@pytest.mark.parametrize("fetcher,want", [
+    ("oraclecloud", {"max_results": 20}),
+    ("microsoft", {"pages": 2}),
+    ("google", {"pages": 1}),
+    ("walmart", {"max_results": 20}),
+    ("amazon", {"category": ""}),
+    ("smartrecruiters", {}),
+    ("eightfold", {}),
+    ("uber", {}),
+])
+def test_a_searchable_board_is_asked_for_the_title_once(monkeypatch, fetcher, want):
+    calls = []
+    monkeypatch.setitem(resolve.FETCHERS, fetcher, lambda c: calls.append(c) or [])
+    resolve.fetch({"name": "Co", "fetcher": fetcher, "host": "h", "token": "t"},
+                  "Software Engineer, Backend (R12345)")
+    (c,) = calls
+    assert c["search"] == "Software Engineer Backend" and c["skip_recent"] is True
+    assert {k: c[k] for k in want} == want
+
+
+def test_a_whole_board_is_read_without_a_search(monkeypatch):
+    calls = []
+    monkeypatch.setitem(resolve.FETCHERS, "lever", lambda c: calls.append(c) or [])
+    resolve.fetch({"name": "Co", "fetcher": "lever", "token": "co"}, "Engineer")
+    assert calls == [{"name": "Co", "fetcher": "lever", "token": "co"}]
+
+
+def test_each_title_is_its_own_search_on_a_searching_board():
+    jobs = {"a": li(company="JPMC"), "b": li(company="JPMC"), "c": li(company="JPMC", title="SRE")}
+    reg = [{"name": "JPMC", "fetcher": "oraclecloud", "host": "jpmc.fa.oraclecloud.com", "site": "CX_1001"}]
+    resolver = resolve.Resolver(10, lambda b, t: [], pace=0)
+    resolve.resolve(jobs, resolve.boards(reg, {}), TODAY, resolver)
+    assert resolver.requests == {"search": 2}
+
+
+def test_the_listed_boards_and_aliases_load_and_point_at_searchable_boards():
+    entries, aliases = resolve.extra()
+    assert entries and aliases
+    assert all(resolve.searchable(b) for b in entries)
+    assert all(isinstance(a, str) and isinstance(o, str) for a, o in aliases.items())
+
+
+def test_smartrecruiters_passes_a_search_through(monkeypatch):
+    from monitor.fetchers import generic
+    seen = {}
+    monkeypatch.setattr(generic, "get_json", lambda s, url, **kw: seen.update(url=url, **kw) or {"content": []})
+    generic.smartrecruiters({"name": "ServiceNow", "token": "ServiceNow", "search": "data engineer"})
+    assert seen["params"] == {"limit": 100, "q": "data engineer"}
+    generic.smartrecruiters({"name": "ServiceNow", "token": "ServiceNow"})
+    assert seen["params"] == {"limit": 100}
+
+
+def test_amazon_searches_every_job_family_only_when_asked(monkeypatch):
+    from monitor.fetchers import custom
+    urls = []
+    monkeypatch.setattr(custom, "get_json", lambda s, url, **kw: urls.append(url) or {"jobs": []})
+    custom.amazon({"name": "Amazon"})
+    custom.amazon({"name": "Amazon", "category": "", "search": "demand planner"})
+    assert "category%5B%5D=software-development" in urls[0]
+    assert "category" not in urls[1] and "base_query=demand+planner" in urls[1]

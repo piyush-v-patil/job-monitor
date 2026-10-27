@@ -84,6 +84,11 @@ job-monitor/
 ├── .gitignore                     ← keeps __pycache__ etc. out of git
 │
 ├── config/
+│   ├── boards.yaml                ← for monitor/resolve.py only, never
+│   │                                scanned: boards of big LinkedIn employers
+│   │                                no registry covers (each checked live),
+│   │                                and LinkedIn names that post under
+│   │                                another (Raytheon -> RTX).
 │   ├── companies-supplychain.yaml ← THE SUPPLY-CHAIN COMPANY LIST. Same
 │   │                                shape as the file below. Every source
 │   │                                in it was verified live before being
@@ -213,12 +218,15 @@ job-monitor/
 │                                    closure sweep; re-running is a no-op.
 ├── monitor/resolve.py             ← the employer's link for the LinkedIn rows
 │                                    backfill could not link: finds the
-│                                    company's board (the registry, or the
+│                                    company's board (either tracker's
+│                                    registry, config/boards.yaml, or the
 │                                    board its other postings link to), reads
 │                                    it (Greenhouse/Lever/Ashby) or searches
-│                                    it for the title (Workday), and links only
-│                                    the same title in the same city, or one
-│                                    that names no city. Never contacts
+│                                    it for the title (Workday, Oracle Cloud,
+│                                    SmartRecruiters, Eightfold, and Amazon/
+│                                    Microsoft/Google/Uber/Walmart), and links
+│                                    only the same title in the same city, or
+│                                    one that names no city. Never contacts
 │                                    LinkedIn; 150 requests a run, 1s apart.
 ├── monitor/prune.py               ← re-applies the CURRENT location rules to
 │                                    postings already stored, since a filter
