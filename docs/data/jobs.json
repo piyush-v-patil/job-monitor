@@ -14031,6 +14031,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10575097/software-development-engineer-amazon-leo-for-government-leo-modem-module-software-team",
    "yoe": 2
   },
+  "amazon:5694261d8284": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-27",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-27",
+   "role": "security",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Security Communications",
+   "url": "https://www.amazon.jobs/en/jobs/10589857/software-development-engineer-aws-security-communications",
+   "yoe": 5
+  },
   "amazon:56af631025ae": {
    "company": "Amazon",
    "department": "Software Development",
@@ -122256,6 +122271,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Generative AI, Shopping Quality",
    "url": "https://www.google.com/about/careers/applications/jobs/results/94448098809389766-software-engineer-generative-ai-shopping-quality"
+  },
+  "google:582d1153f9fd": {
+   "company": "Google",
+   "first_seen": "2026-10-27",
+   "location": "Irvine, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Agentic AI and LLMs, Google Ads",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/89777444013122246-software-engineer-agentic-ai-and-llms-google-ads"
   },
   "google:5ac53fba0eb5": {
    "company": "Google",
@@ -265375,7 +265401,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 713,
+   "last": 711,
    "last_ok": "2026-10-27"
   },
   "Suno": {
@@ -265476,6 +265502,6 @@
    "last_ok": "2026-10-27"
   }
  },
- "updated": "2026-10-27T14:55:07Z",
+ "updated": "2026-10-27T15:30:17Z",
  "version": 1
 }
