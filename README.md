@@ -56,7 +56,8 @@ defense/space, logistics and the DTC brands** that run real planning teams.
 
 A daily pass then works over the postings already tracked, rather than the ones
 arriving: `monitor/backfill.py` recovers the dates and employer links derivable
-from the file itself, and `monitor/expire.py` asks each posting whether it still
+from the file itself, `monitor/resolve.py` looks the remaining LinkedIn rows up
+on the employer's own board, and `monitor/expire.py` asks each posting whether it still
 accepts applications, so the feed stops offering roles that have closed. Both
 only ever add fields — your own marks are never touched.
 
@@ -210,6 +211,15 @@ job-monitor/
 │                                    employer's posting for the same role.
 │                                    Contacts nothing. Runs daily ahead of the
 │                                    closure sweep; re-running is a no-op.
+├── monitor/resolve.py             ← the employer's link for the LinkedIn rows
+│                                    backfill could not link: finds the
+│                                    company's board (the registry, or the
+│                                    board its other postings link to), reads
+│                                    it (Greenhouse/Lever/Ashby) or searches
+│                                    it for the title (Workday), and links only
+│                                    the same title in the same city, or one
+│                                    that names no city. Never contacts
+│                                    LinkedIn; 150 requests a run, 1s apart.
 ├── monitor/prune.py               ← re-applies the CURRENT location rules to
 │                                    postings already stored, since a filter
 │                                    fix only changes what future scans admit.
@@ -500,9 +510,10 @@ committed or sent anywhere except api.github.com.
   A board that later states the real date replaces it.
 - **LinkedIn rows link to the employer where we know it.** When this repo also
   holds the employer's own posting for that role, the title opens *that*, and a
-  small `↗ LinkedIn` beside it keeps the board listing one click away. About 240
-  rows today: the match needs the employer's board to be one we scan, so most
-  LinkedIn rows still link to LinkedIn.
+  small `↗ LinkedIn` beside it keeps the board listing one click away. Where we
+  don't hold it, `monitor/resolve.py` searches the employer's own board for the
+  role every day (any company whose board the registry names or another posting
+  links to), so the link usually follows within a few days.
 - **One role listed under several locations folds into one row.** Employers'
   boards often decline to name a place ("3 Locations", "Remote US") while
   LinkedIn names a metro, which used to read as two unrelated openings. Same

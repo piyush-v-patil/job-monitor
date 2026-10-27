@@ -7,7 +7,9 @@ name: Closed-posting sweep (daily)
 #
 # It also runs monitor/backfill.py first, which needs no network at all: it
 # recovers the posting dates and employer links derivable from the tracker's
-# own contents, for the rows no future scan will look at again.
+# own contents, for the rows no future scan will look at again. Then
+# monitor/resolve.py looks the remaining LinkedIn rows up on the employer's own
+# board (Greenhouse, Lever, Ashby, Workday - never LinkedIn), 150 requests a run.
 #
 # One request per posting, ~1.2s apart, so this is paced rather than parallel:
 # 1200 postings is about 24 minutes. Each tracker holds a few thousand LinkedIn
@@ -73,6 +75,11 @@ jobs:
       # never pick either of them up. Re-running changes nothing already set.
       - name: Recover dates and employer links
         run: python -m monitor.backfill --profile "${{ matrix.profile }}" ${{
+              inputs.dry_run && '--dry-run' || '' }}
+      # The rows backfill could not link: searched for on the employer's own
+      # board, paced 1s apart. A row is searched at most once a week.
+      - name: Find employer links on company boards
+        run: python -m monitor.resolve --profile "${{ matrix.profile }}" --limit 150 ${{
               inputs.dry_run && '--dry-run' || '' }}
       - name: Probe tracked postings
         run: |

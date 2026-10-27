@@ -34,7 +34,8 @@ USER_OWNED = ("status", "applied_on")
 # whether it still accepts applications, and it is how the next run decides
 # what to ask about; backfill semantics would freeze it at whichever run wrote
 # it first, and the rotation would keep re-probing the same postings.
-NEWER_WINS = ("checked_at",)
+# "employer_checked" is the same thing for monitor/resolve.py's board searches.
+NEWER_WINS = ("checked_at", "employer_checked")
 
 
 def reconcile_date(mine: dict, merged: dict) -> None:
