@@ -55635,8 +55635,10 @@
    "location": "USA - Huntsville, AL",
    "posted_at": "2026-10-28",
    "role": "software",
+   "skip_reason": "us_person_required",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "newgrad",
    "title": "Associate Software Engineer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Associate-Software-Engineer_JR2026525135"
