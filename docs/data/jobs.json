@@ -6327,6 +6327,7 @@
   },
   "agave:37b46c5cf3dc": {
    "company": "Agave",
+   "employer_url": "https://jobs.ashbyhq.com/agave/73bd2c98-bf87-4eaa-aea8-35e7b6131d0e/application?embed=true",
    "first_seen": "2026-10-27",
    "location": "San Francisco, CA, USA",
    "posted_at": "2026-10-27",
@@ -6337,6 +6338,18 @@
    "tier": "newgrad",
    "title": "Full-Stack Software Engineer (New Grad)",
    "url": "https://www.linkedin.com/jobs/view/4483671802"
+  },
+  "agave:d641a9a1db97": {
+   "company": "Agave",
+   "first_seen": "2026-10-28",
+   "location": "SF",
+   "posted_at": "2026-10-27",
+   "role": "fullstack",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Full-Stack Software Engineer New Grad",
+   "url": "https://jobs.ashbyhq.com/agave/73bd2c98-bf87-4eaa-aea8-35e7b6131d0e/application?embed=true"
   },
   "agco-corporation:54e7e3d67952": {
    "company": "AGCO Corporation",
@@ -19689,6 +19702,19 @@
    "url": "https://www.amazon.jobs/en/jobs/10530588/software-development-engineer-ii-aws-supply-chain-aws-infra-supply-chain-automation",
    "yoe": 1
   },
+  "amazon:c1d2125ea662": {
+   "company": "Amazon",
+   "first_seen": "2026-10-28",
+   "location": "Seattle, WA, USA",
+   "posted_at": "2026-10-28",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer, Amazon Prime",
+   "url": "https://www.linkedin.com/jobs/view/4484420781"
+  },
   "amazon:c1f9f41ab8f9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -26698,6 +26724,18 @@
    "tier": "intern",
    "title": "Software Engineer Intern",
    "url": "https://jobs.ashbyhq.com/amplify/855d22a3-f15e-49f6-854c-29e505653efa/application?embed=true"
+  },
+  "amplitude:1b5aa3b15e6f": {
+   "company": "Amplitude",
+   "first_seen": "2026-10-28",
+   "location": "SF",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://jobs.ashbyhq.com/amplitude/9c43576b-d16f-4192-a366-7c9eb689c4be/application?embed=true"
   },
   "amplitude:7bb71da0d5ad": {
    "company": "Amplitude",
@@ -43140,6 +43178,19 @@
    "title": "Java API developer",
    "url": "https://www.linkedin.com/jobs/view/4475475279"
   },
+  "ascension:611f61302b34": {
+   "company": "Ascension",
+   "first_seen": "2026-10-28",
+   "location": "St Louis, MO, USA",
+   "posted_at": "2026-10-28",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Clinical AI Data Scientist",
+   "url": "https://www.linkedin.com/jobs/view/4483837563"
+  },
   "ascensus:256ff64bab3b": {
    "company": "Ascensus",
    "first_seen": "2026-10-06",
@@ -43294,6 +43345,19 @@
    "tier": "newgrad",
    "title": "Systems Engineer I - Software, Robotics & Semiconductor Automation",
    "url": "https://www.linkedin.com/jobs/view/4453355606"
+  },
+  "asml:775beb587006": {
+   "company": "ASML",
+   "first_seen": "2026-10-28",
+   "location": "San Jose, CA, USA",
+   "posted_at": "2026-10-28",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Internship - Frontend Developer",
+   "url": "https://www.linkedin.com/jobs/view/4484294812"
   },
   "asml:dad17d84b155": {
    "checked_at": "2026-10-02",
@@ -53147,6 +53211,18 @@
    "tier": "experienced",
    "title": "Mid-level Ground Systems Engineer for MILSATCOM Program",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Mid-level-Ground-Systems-Engineer-for-MILSATCOM-Program_JR2026507793-1"
+  },
+  "boeing:5b3b3653753a": {
+   "company": "Boeing",
+   "first_seen": "2026-10-28",
+   "location": "USA - Maryland Heights, MO",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Entry-Level Software Engineer",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Entry-Level-Software-Engineer_JR2026527992-1"
   },
   "boeing:5c636a992417": {
    "company": "Boeing",
@@ -93595,6 +93671,19 @@
    "title": "Software Engineering Intern",
    "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297773"
   },
+  "dell-technologies:af6a6ccc2889": {
+   "company": "Dell Technologies",
+   "first_seen": "2026-10-28",
+   "location": "Mclean, VA, United States",
+   "posted_at": "2026-10-28",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer - Federal Customer",
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/296612",
+   "workplace": "Remote"
+  },
   "dell-technologies:b96a3f7f8092": {
    "company": "Dell Technologies",
    "first_seen": "2026-10-09",
@@ -94865,6 +94954,19 @@
    "tier": "experienced",
    "title": "Forward Deployed Engineer - Databricks",
    "url": "https://www.linkedin.com/jobs/view/4418121332"
+  },
+  "deloitte:495306cc16dc": {
+   "company": "Deloitte",
+   "first_seen": "2026-10-28",
+   "location": "Hermitage, TN, USA",
+   "posted_at": "2026-10-28",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "L55 - Lead DevOps Engineer II",
+   "url": "https://www.linkedin.com/jobs/view/4484422540"
   },
   "deloitte:4961cfdce23b": {
    "company": "Deloitte",
@@ -99906,6 +100008,18 @@
    "title": "Site Reliability Engineer - SRE",
    "url": "https://www.linkedin.com/jobs/view/4479718728"
   },
+  "drivewealth:03ca58fd96f7": {
+   "company": "DriveWealth",
+   "first_seen": "2026-10-28",
+   "location": "Chicago, IL",
+   "posted_at": "2026-10-20",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "AI Consulting Associate Program – AI Engineer Intern",
+   "url": "https://jobs.ashbyhq.com/drivewealth/a214dd6c-e3ac-481e-8308-bf74c2032b8a/application?embed=true"
+  },
   "drivewealth:d8ee1efc145a": {
    "company": "DriveWealth",
    "first_seen": "2026-10-21",
@@ -103742,6 +103856,32 @@
    "title": "Associate Machine Learning Engineer",
    "url": "https://www.linkedin.com/jobs/view/4478409722"
   },
+  "emonics-llc:1d7e63eef608": {
+   "company": "Emonics LLC",
+   "first_seen": "2026-10-28",
+   "location": "Phoenix, AZ, USA",
+   "posted_at": "2026-10-28",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Full Stack Software Engineer - Entry Level",
+   "url": "https://www.linkedin.com/jobs/view/4483845429"
+  },
+  "emonics-llc:2af42c029355": {
+   "company": "Emonics LLC",
+   "first_seen": "2026-10-28",
+   "location": "San Diego, CA, USA",
+   "posted_at": "2026-10-28",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Junior Data Scientist",
+   "url": "https://www.linkedin.com/jobs/view/4483838963"
+  },
   "emonics-llc:2c3504d5b761": {
    "company": "Emonics LLC",
    "first_seen": "2026-10-22",
@@ -103768,6 +103908,32 @@
    "title": "Entry-Level Data Scientist",
    "url": "https://www.linkedin.com/jobs/view/4478408753"
   },
+  "emonics-llc:40c6b1c6ff3d": {
+   "company": "Emonics LLC",
+   "first_seen": "2026-10-28",
+   "location": "Jacksonville, FL, USA",
+   "posted_at": "2026-10-28",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Machine Learning Engineer - Entry Level",
+   "url": "https://www.linkedin.com/jobs/view/4483838961"
+  },
+  "emonics-llc:42765a427ea5": {
+   "company": "Emonics LLC",
+   "first_seen": "2026-10-28",
+   "location": "Dallas, TX, USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Associate Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4483842563"
+  },
   "emonics-llc:5b9c36bf39fb": {
    "company": "Emonics LLC",
    "first_seen": "2026-09-30",
@@ -103780,6 +103946,19 @@
    "tier": "experienced",
    "title": "Python Backend Engineer",
    "url": "https://www.linkedin.com/jobs/view/4471954196"
+  },
+  "emonics-llc:63ce4ff6009f": {
+   "company": "Emonics LLC",
+   "first_seen": "2026-10-28",
+   "location": "Chicago, IL, USA",
+   "posted_at": "2026-10-28",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Backend Python Developer - Entry Level",
+   "url": "https://www.linkedin.com/jobs/view/4483840922"
   },
   "emonics-llc:720ca6554dc9": {
    "company": "Emonics LLC",
@@ -103978,6 +104157,19 @@
    "tier": "newgrad",
    "title": "Data Engineer – Entry Level",
    "url": "https://www.linkedin.com/jobs/view/4481306392"
+  },
+  "emonics-llc:e72471c5de86": {
+   "company": "Emonics LLC",
+   "first_seen": "2026-10-28",
+   "location": "Houston, TX, USA",
+   "posted_at": "2026-10-28",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Data Engineer – Entry Level",
+   "url": "https://www.linkedin.com/jobs/view/4483836989"
   },
   "emonics-llc:f6854c14a571": {
    "company": "Emonics LLC",
@@ -114906,6 +115098,18 @@
    "title": "Angular Developer",
    "url": "https://www.linkedin.com/jobs/view/4471628260"
   },
+  "futo:6b87f1c496ee": {
+   "company": "FUTO",
+   "first_seen": "2026-10-28",
+   "location": "Austin, TX",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70/apply"
+  },
   "future-secure-ai:1736bb7fc801": {
    "company": "Future Secure AI",
    "first_seen": "2026-10-23",
@@ -122699,6 +122903,17 @@
    "title": "Software Engineer III, AI/ML GenAI, YouTube",
    "url": "https://www.google.com/about/careers/applications/jobs/results/78100641531994822-software-engineer-iii-aiml-genai-youtube"
   },
+  "google:287db7af98c1": {
+   "company": "Google",
+   "first_seen": "2026-10-28",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, ML, Search Ads Creatives",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/88064267458093766-software-engineer-ml-search-ads-creatives"
+  },
   "google:2920fdb58b18": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -123099,6 +123314,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Chrome Networking Security",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100397577702122182-software-engineer-chrome-networking-security"
+  },
+  "google:3ba2d9d6a21d": {
+   "company": "Google",
+   "first_seen": "2026-10-28",
+   "location": "Seattle, WA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer, AI Protection",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/106254587828019910-security-engineer-ai-protection"
   },
   "google:3ba6ea0f1d89": {
    "company": "Google",
@@ -140217,6 +140443,18 @@
    "title": "React Developer with Security Clearance",
    "url": "https://www.linkedin.com/jobs/view/4481600605"
   },
+  "integrate:1db32933a476": {
+   "company": "Integrate",
+   "first_seen": "2026-10-28",
+   "location": "Seattle, WA",
+   "posted_at": "2026-10-20",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://jobs.ashbyhq.com/integrate/7681f59b-70c0-414b-96d9-ae8925cc2ed3/application?embed=true"
+  },
   "integrate:82952046ff72": {
    "company": "Integrate",
    "first_seen": "2026-10-20",
@@ -141186,6 +141424,18 @@
    "tier": "experienced",
    "title": "Infrastructure Systems Engineer",
    "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Arizona-Phoenix/Infrastructure-Systems-Engineer_JR0288264"
+  },
+  "intel:d2448c73ea00": {
+   "company": "Intel",
+   "first_seen": "2026-10-28",
+   "location": "3 Locations",
+   "posted_at": "2026-10-28",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "intern",
+   "title": "AI Software Engineer Intern",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288692"
   },
   "intel:d37b2bb4c34c": {
    "company": "Intel",
@@ -150946,6 +151196,19 @@
    "title": "Lead Software Engineer - Java/Spring",
    "url": "https://www.linkedin.com/jobs/view/4430427474"
   },
+  "jpmorganchase:d98a5aa77927": {
+   "company": "JPMorganChase",
+   "first_seen": "2026-10-28",
+   "location": "Plano, TX, USA",
+   "posted_at": "2026-10-28",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist - Process Intelligence Analytics",
+   "url": "https://www.linkedin.com/jobs/view/4484404898"
+  },
   "jpmorganchase:d9d95039ecc6": {
    "company": "JPMorganChase",
    "first_seen": "2026-09-30",
@@ -154686,6 +154949,19 @@
    "title": "Graduate Engineer Intern - National Security Engineering Division",
    "url": "https://jobs.smartrecruiters.com/LLNL/3743990014731646"
   },
+  "lawrence-livermore-national-laboratory:7bd2ad4d029c": {
+   "company": "Lawrence Livermore National Laboratory",
+   "first_seen": "2026-10-28",
+   "location": "Livermore, CA, USA",
+   "posted_at": "2026-10-28",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Development Operations (DevOps) Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4484424194"
+  },
   "lawrence-livermore-national-laboratory:90fe68ab2b88": {
    "checked_at": "2026-10-02",
    "company": "Lawrence Livermore National Laboratory",
@@ -155447,6 +155723,19 @@
    "tier": "experienced",
    "title": "Junior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4477356356"
+  },
+  "leidos:a3d5d3b3a60d": {
+   "company": "Leidos",
+   "first_seen": "2026-10-28",
+   "location": "Bethesda, MD, USA",
+   "posted_at": "2026-10-28",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482275488"
   },
   "leidos:a6bd0c2efc54": {
    "company": "Leidos",
@@ -180026,6 +180315,19 @@
    "title": "Test Engineer Intern - Intelligent Sensor Group - Test Engineering",
    "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506604"
   },
+  "onsemi:a2371f5685b2": {
+   "company": "onsemi",
+   "first_seen": "2026-10-28",
+   "location": "Scottsdale, AZ, USA",
+   "posted_at": "2026-10-28",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482272745"
+  },
   "ontic:bcb5b796f757": {
    "checked_at": "2026-10-02",
    "company": "Ontic",
@@ -186448,6 +186750,18 @@
    "title": "DevOps Engineer",
    "url": "https://www.linkedin.com/jobs/view/4478075186"
   },
+  "oracle:11e089d41b89": {
+   "company": "Oracle",
+   "first_seen": "2026-10-28",
+   "location": "United States",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Platform Software Engineer 2",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/348221"
+  },
   "oracle:15aa6eb637cf": {
    "company": "Oracle",
    "first_seen": "2026-10-19",
@@ -186685,6 +186999,18 @@
    "title": "Cleared Site Reliability Engineer - Database",
    "url": "https://www.linkedin.com/jobs/view/4357743689"
   },
+  "oracle:a35376e40391": {
+   "company": "Oracle",
+   "first_seen": "2026-10-28",
+   "location": "Nashville, TN, United States; United States",
+   "posted_at": "2026-10-22",
+   "role": "devops-sre",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer 2",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/348476"
+  },
   "oracle:b6e9bc1016d6": {
    "company": "Oracle",
    "first_seen": "2026-10-09",
@@ -186696,6 +187022,18 @@
    "tier": "experienced",
    "title": "Platform Software Engineer 2",
    "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/346980"
+  },
+  "oracle:ba955b3cab9b": {
+   "company": "Oracle",
+   "first_seen": "2026-10-28",
+   "location": "Nashville, TN, United States",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Developer 3",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/348804"
   },
   "oracle:c4aa00c6df52": {
    "company": "Oracle",
@@ -187247,6 +187585,18 @@
    "tier": "experienced",
    "title": "Enterprise Security Engineer",
    "url": "https://www.linkedin.com/jobs/view/4473042541"
+  },
+  "paccar:257a259af08d": {
+   "company": "Paccar",
+   "first_seen": "2026-10-28",
+   "location": "Chillicothe, OH",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Application Developer Intern",
+   "url": "https://jobs.paccar.com/job/Kirkland-Summer-2027-Application-Developer-Intern-(OH)-WA-98033/1451927133/?ats=successfactors"
   },
   "paccar:4f5dc0ce8d90": {
    "company": "PACCAR",
@@ -192519,6 +192869,20 @@
    "workplace": "Hybrid",
    "yoe": 3
   },
+  "perplexity:3bb1efcaaf6a": {
+   "company": "Perplexity",
+   "employer_url": "https://jobs.ashbyhq.com/perplexity/5fe2b80d-9d59-42bb-90e6-9a0b78d7d403",
+   "first_seen": "2026-10-28",
+   "location": "Seattle, WA, USA",
+   "posted_at": "2026-10-28",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff (Site Reliability Engineer, Cloud Infrastructure)",
+   "url": "https://www.linkedin.com/jobs/view/4483839774"
+  },
   "perplexity:3d1f1887a81b": {
    "company": "Perplexity",
    "employer_url": "https://jobs.ashbyhq.com/perplexity/daafcaba-cc39-487a-b941-d7a407753788",
@@ -193038,6 +193402,22 @@
    "title": "Member of Technical Staff (Software Engineer, Integrations)",
    "url": "https://jobs.ashbyhq.com/perplexity/ea87532c-69a0-497d-9cf3-04cc2a6c6410",
    "yoe": 6
+  },
+  "perplexity:e100b6170f89": {
+   "comp": "$220K – $405K • Offers Equity",
+   "company": "Perplexity",
+   "department": "Platform & Infrastructure",
+   "employer_url": "https://jobs.ashbyhq.com/perplexity/5fe2b80d-9d59-42bb-90e6-9a0b78d7d403",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-28",
+   "location": "San Francisco",
+   "posted_at": "2026-10-28",
+   "role": "ml-ai",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff (Site Reliability Engineer, Cloud Infrastructure)",
+   "url": "https://jobs.ashbyhq.com/perplexity/5fe2b80d-9d59-42bb-90e6-9a0b78d7d403"
   },
   "perplexity:e353a3a8635c": {
    "comp": "$200K – $250K • Offers Equity",
@@ -194741,6 +195121,19 @@
    "tier": "experienced",
    "title": "Software Engineer, Backend",
    "url": "https://www.linkedin.com/jobs/view/4410261275"
+  },
+  "planchecker-ai:69dca2d09fef": {
+   "company": "PlanChecker.AI",
+   "first_seen": "2026-10-28",
+   "location": "Brentwood, CA, USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4483834224"
   },
   "planet-dds:1b11e929d2b8": {
    "company": "Planet DDS",
@@ -199997,6 +200390,19 @@
    "title": "Data Engineer",
    "url": "https://www.linkedin.com/jobs/view/4472255353"
   },
+  "ramtec-consulting-llc:341e29f0d09b": {
+   "company": "Ramtec Consulting LLC",
+   "first_seen": "2026-10-28",
+   "location": "Herndon, VA, USA",
+   "posted_at": "2026-10-28",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cloud Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482276326"
+  },
   "ramtec-consulting-llc:5dcd5efe1261": {
    "company": "Ramtec Consulting LLC",
    "first_seen": "2026-09-25",
@@ -202285,6 +202691,18 @@
    "tier": "newgrad",
    "title": "Associate Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4427579543"
+  },
+  "relling:17adab367da9": {
+   "company": "Relling",
+   "first_seen": "2026-10-28",
+   "location": "SF",
+   "posted_at": "2026-10-02",
+   "role": "embedded",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Robotics Software Engineer New Grad",
+   "url": "https://jobs.ashbyhq.com/relling/a31f91ae-30f9-4e36-b9d2-2cb74c398d2e/application?embed=true"
   },
   "relx:07855e632a30": {
    "company": "RELX",
@@ -214449,6 +214867,18 @@
    "title": "AI Engineer",
    "url": "https://www.linkedin.com/jobs/view/4375826441"
   },
+  "scout-ai:8661fc8291bc": {
+   "company": "Scout AI",
+   "first_seen": "2026-10-28",
+   "location": "Sunnyvale, CA",
+   "posted_at": "2026-10-23",
+   "role": "ml-ai",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "AI Engineer Intern - Fury Team",
+   "url": "https://jobs.ashbyhq.com/scout-ai/3b639e39-abd7-4a0c-9bea-e1cd0a72db99/application?embed=true"
+  },
   "scout-motors-inc:131788e9f9b7": {
    "checked_at": "2026-10-02",
    "company": "Scout Motors Inc.",
@@ -215860,6 +216290,18 @@
    "title": "Software Engineer I - New Grad (R6052)",
    "url": "https://www.linkedin.com/jobs/view/4483134092"
   },
+  "shield-ai:503e4d887980": {
+   "company": "Shield AI",
+   "first_seen": "2026-10-28",
+   "location": "San Diego, CA",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/661d7ac4-51df-454d-82c8-2a0d94852036/application?embed=true"
+  },
   "shield-ai:51ea1fef2128": {
    "company": "Shield AI",
    "first_seen": "2026-10-12",
@@ -215899,6 +216341,30 @@
    "title": "Software Engineer 1 New Grad",
    "url": "https://jobs.lever.co/shieldai/633a3038-574c-45ff-babb-7e1b8b7c6196/apply"
   },
+  "shield-ai:7632525a6cef": {
+   "company": "Shield AI",
+   "first_seen": "2026-10-28",
+   "location": "San Diego, CA",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Autonomous Software Engineer New Grad",
+   "url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/c0735824-2b3c-46a2-a888-99e7376a9606/application?embed=true"
+  },
+  "shield-ai:903ef005f012": {
+   "company": "Shield AI",
+   "first_seen": "2026-10-28",
+   "location": "Seattle, WA",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer New Grad",
+   "url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/986a26e9-0597-4402-85ee-0f05a6012902/application?embed=true"
+  },
   "shield-ai:93c56149e9e8": {
    "company": "Shield AI",
    "first_seen": "2026-10-18",
@@ -215911,6 +216377,18 @@
    "tier": "experienced",
    "title": "DevOps Engineer (5431)",
    "url": "https://www.linkedin.com/jobs/view/4444937975"
+  },
+  "shield-ai:bbe7d21b682d": {
+   "company": "Shield AI",
+   "first_seen": "2026-10-28",
+   "location": "San Diego, CA",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/db04c516-d21a-449c-8bfd-1cf830eafb5a/application?embed=true"
   },
   "shield-ai:c4130d53cce2": {
    "company": "Shield AI",
@@ -215951,6 +216429,18 @@
    "tier": "intern",
    "title": "Summer 2027 - Software Engineer Intern",
    "url": "https://www.linkedin.com/jobs/view/4465604643"
+  },
+  "shield-ai:ef638f4611e2": {
+   "company": "Shield AI",
+   "first_seen": "2026-10-28",
+   "location": "Washington, DC",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 2 New Grad 🎓",
+   "url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/0e7ecf76-b4f6-4159-aa44-4814af263c86/application?embed=true"
   },
   "shield-ai:f0fe2f842e5c": {
    "company": "Shield AI",
@@ -216517,6 +217007,19 @@
    "title": "Software Engineer Intern - Summer 2027",
    "url": "https://www.linkedin.com/jobs/view/4480756565"
   },
+  "siemens:6b8cc1acf83c": {
+   "company": "Siemens",
+   "first_seen": "2026-10-28",
+   "location": "Chicago, IL, USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Internship",
+   "url": "https://www.linkedin.com/jobs/view/4483840699"
+  },
   "siemens:9d6613c53a1c": {
    "company": "Siemens",
    "first_seen": "2026-10-24",
@@ -216542,6 +217045,19 @@
    "tier": "intern",
    "title": "Strategic Student Program: Software Development Intern (SIM STS, Spring 2027)",
    "url": "https://www.linkedin.com/jobs/view/4461998061"
+  },
+  "siemens:b091fd2a9d2a": {
+   "company": "Siemens",
+   "first_seen": "2026-10-28",
+   "location": "Buffalo Grove, IL, USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineering Internship",
+   "url": "https://www.linkedin.com/jobs/view/4483837816"
   },
   "siemens:b3ac224857c3": {
    "company": "Siemens",
@@ -218638,6 +219154,30 @@
    "tier": "newgrad",
    "title": "Entry Level Software Developer",
    "url": "https://www.linkedin.com/jobs/view/4471497701"
+  },
+  "skyband-systems:37e458d2e2a0": {
+   "company": "Skyband Systems",
+   "first_seen": "2026-10-28",
+   "location": "Kirkland, WA",
+   "posted_at": "2026-10-07",
+   "role": "embedded",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Avionics Hardware & Test Engineer Intern",
+   "url": "https://jobs.ashbyhq.com/skyband%20systems/74d42f88-5265-4879-9c6d-61f532e89b20/application?embed=true"
+  },
+  "skyband-systems:4e924934b838": {
+   "company": "Skyband Systems",
+   "first_seen": "2026-10-28",
+   "location": "Kirkland, WA",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://jobs.ashbyhq.com/skyband%20systems/1e68c6d9-c810-418d-9171-f2a23f013d06/application?embed=true"
   },
   "skydance:060e7d4d86c1": {
    "company": "Skydance",
@@ -228912,6 +229452,18 @@
    "tier": "experienced",
    "title": "AI/ML Engineer",
    "url": "https://www.linkedin.com/jobs/view/4235568776"
+  },
+  "startree:211bed01043e": {
+   "company": "StarTree",
+   "first_seen": "2026-10-28",
+   "location": "Remote in USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer 1",
+   "url": "https://job-boards.greenhouse.io/startree/jobs/6235909004"
   },
   "stash:b89ac773eb96": {
    "company": "Stash",
@@ -257999,6 +258551,30 @@
    "title": "DATA SCIENTIST I–FINANCIAL & TIME SERIES FORECASTING",
    "url": "https://www.linkedin.com/jobs/view/4451826189"
   },
+  "vsp-vision:1256fdc5205c": {
+   "company": "VSP Vision",
+   "first_seen": "2026-10-28",
+   "location": "Remote in USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10068"
+  },
+  "vsp-vision:e25f09b114a5": {
+   "company": "VSP Vision",
+   "first_seen": "2026-10-28",
+   "location": "Remote in USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "simplify-github",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern - Technology Innovation",
+   "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Technology-Innovation_R-10020"
+  },
   "vt-group-vtg:29469aa3d723": {
    "company": "VT Group (VTG)",
    "first_seen": "2026-10-27",
@@ -268099,17 +268675,17 @@
   },
   "Abridge": {
    "best": 50,
-   "last": 39,
+   "last": 38,
    "last_ok": "2026-10-28"
   },
   "Adobe": {
    "best": 190,
-   "last": 160,
+   "last": 159,
    "last_ok": "2026-10-28"
   },
   "Affirm": {
    "best": 242,
-   "last": 242,
+   "last": 240,
    "last_ok": "2026-10-28"
   },
   "Airbnb": {
@@ -268129,17 +268705,17 @@
   },
   "American Express": {
    "best": 500,
-   "last": 428,
+   "last": 421,
    "last_ok": "2026-10-28"
   },
   "Anduril": {
    "best": 2539,
-   "last": 2525,
+   "last": 2526,
    "last_ok": "2026-10-28"
   },
   "Anthropic": {
    "best": 684,
-   "last": 680,
+   "last": 681,
    "last_ok": "2026-10-28"
   },
   "Anysphere": {
@@ -268159,7 +268735,7 @@
   },
   "Applied Materials": {
    "best": 195,
-   "last": 194,
+   "last": 193,
    "last_ok": "2026-10-28"
   },
   "Asana": {
@@ -268194,7 +268770,7 @@
   },
   "Boeing": {
    "best": 196,
-   "last": 196,
+   "last": 193,
    "last_ok": "2026-10-28"
   },
   "Brex": {
@@ -268204,7 +268780,7 @@
   },
   "CVS Health": {
    "best": 200,
-   "last": 197,
+   "last": 198,
    "last_ok": "2026-10-28"
   },
   "Capital One": {
@@ -268219,7 +268795,7 @@
   },
   "Cerebras": {
    "best": 125,
-   "last": 118,
+   "last": 119,
    "last_ok": "2026-10-28"
   },
   "Checkr": {
@@ -268249,8 +268825,8 @@
    "last_ok": "2026-10-28"
   },
   "Cognition": {
-   "best": 105,
-   "last": 105,
+   "best": 107,
+   "last": 107,
    "last_ok": "2026-10-28"
   },
   "Coinbase": {
@@ -268260,12 +268836,12 @@
   },
   "DTCC": {
    "best": 456,
-   "last": 453,
+   "last": 454,
    "last_ok": "2026-10-28"
   },
   "Databricks": {
    "best": 903,
-   "last": 898,
+   "last": 894,
    "last_ok": "2026-10-28"
   },
   "Datadog": {
@@ -268295,7 +268871,7 @@
   },
   "Dropbox": {
    "best": 47,
-   "last": 22,
+   "last": 21,
    "last_ok": "2026-10-28"
   },
   "Duolingo": {
@@ -268320,7 +268896,7 @@
   },
   "Expedia Group": {
    "best": 134,
-   "last": 119,
+   "last": 118,
    "last_ok": "2026-10-28"
   },
   "Faire": {
@@ -268330,7 +268906,7 @@
   },
   "Fidelity National Information Services": {
    "best": 183,
-   "last": 171,
+   "last": 172,
    "last_ok": "2026-10-28"
   },
   "Figma": {
@@ -268340,7 +268916,7 @@
   },
   "Flexport": {
    "best": 212,
-   "last": 191,
+   "last": 186,
    "last_ok": "2026-10-28"
   },
   "GM Financial": {
@@ -268355,7 +268931,7 @@
   },
   "GitLab": {
    "best": 239,
-   "last": 236,
+   "last": 238,
    "last_ok": "2026-10-28"
   },
   "Glean": {
@@ -268374,13 +268950,13 @@
    "last_ok": "2026-10-28"
   },
   "Harvey": {
-   "best": 366,
-   "last": 366,
+   "best": 368,
+   "last": 368,
    "last_ok": "2026-10-28"
   },
   "Hewlett Packard Enterprise": {
    "best": 200,
-   "last": 197,
+   "last": 196,
    "last_ok": "2026-10-28"
   },
   "Honeywell": {
@@ -268390,7 +268966,7 @@
   },
   "IMC Trading": {
    "best": 176,
-   "last": 168,
+   "last": 169,
    "last_ok": "2026-10-28"
   },
   "Instacart": {
@@ -268400,12 +268976,12 @@
   },
   "Intel": {
    "best": 173,
-   "last": 173,
+   "last": 170,
    "last_ok": "2026-10-28"
   },
   "JP Morgan Chase": {
    "best": 460,
-   "last": 413,
+   "last": 406,
    "last_ok": "2026-10-28"
   },
   "Komodo Health": {
@@ -268425,7 +269001,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 1281,
-   "last": 1011,
+   "last": 795,
    "last_ok": "2026-10-28"
   },
   "Lyft": {
@@ -268440,7 +269016,7 @@
   },
   "Mastercard": {
    "best": 185,
-   "last": 176,
+   "last": 175,
    "last_ok": "2026-10-28"
   },
   "Match Group": {
@@ -268475,7 +269051,7 @@
   },
   "Navy Federal": {
    "best": 189,
-   "last": 166,
+   "last": 153,
    "last_ok": "2026-10-28"
   },
   "Netflix": {
@@ -268505,7 +269081,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 387,
+   "last": 385,
    "last_ok": "2026-10-28"
   },
   "OpenAI": {
@@ -268540,7 +269116,7 @@
   },
   "Perplexity": {
    "best": 134,
-   "last": 132,
+   "last": 134,
    "last_ok": "2026-10-28"
   },
   "Pinterest": {
@@ -268570,7 +269146,7 @@
   },
   "Replit": {
    "best": 79,
-   "last": 35,
+   "last": 32,
    "last_ok": "2026-10-28"
   },
   "Robinhood": {
@@ -268579,13 +269155,13 @@
    "last_ok": "2026-10-28"
   },
   "Roblox": {
-   "best": 270,
-   "last": 269,
+   "best": 271,
+   "last": 271,
    "last_ok": "2026-10-28"
   },
   "Salesforce": {
    "best": 178,
-   "last": 162,
+   "last": 160,
    "last_ok": "2026-10-28"
   },
   "Samsara": {
@@ -268605,12 +269181,12 @@
   },
   "Simplify Aggregator": {
    "best": 2489,
-   "last": 2101,
+   "last": 2116,
    "last_ok": "2026-10-28"
   },
   "Snowflake": {
    "best": 393,
-   "last": 361,
+   "last": 364,
    "last_ok": "2026-10-28"
   },
   "SoFi": {
@@ -268640,7 +269216,7 @@
   },
   "Target": {
    "best": 200,
-   "last": 199,
+   "last": 198,
    "last_ok": "2026-10-28"
   },
   "Tesla": {
@@ -268656,17 +269232,17 @@
   },
   "The Walt Disney Company": {
    "best": 167,
-   "last": 166,
+   "last": 167,
    "last_ok": "2026-10-28"
   },
   "Trimble": {
-   "best": 150,
-   "last": 150,
+   "best": 151,
+   "last": 151,
    "last_ok": "2026-10-28"
   },
   "Twilio": {
    "best": 154,
-   "last": 133,
+   "last": 131,
    "last_ok": "2026-10-28"
   },
   "Two Sigma": {
@@ -268692,22 +269268,22 @@
   },
   "Verizon": {
    "best": 142,
-   "last": 137,
+   "last": 136,
    "last_ok": "2026-10-28"
   },
   "Verkada": {
    "best": 333,
-   "last": 333,
+   "last": 332,
    "last_ok": "2026-10-28"
   },
   "Visa": {
    "best": 183,
-   "last": 176,
+   "last": 178,
    "last_ok": "2026-10-28"
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 76,
+   "last": 68,
    "last_ok": "2026-10-28"
   },
   "Waymo": {
@@ -268727,10 +269303,10 @@
   },
   "xAI": {
    "best": 308,
-   "last": 308,
+   "last": 305,
    "last_ok": "2026-10-28"
   }
  },
- "updated": "2026-10-28T07:12:17Z",
+ "updated": "2026-10-28T08:55:48Z",
  "version": 1
 }
