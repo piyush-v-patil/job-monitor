@@ -53274,8 +53274,10 @@
    "location": "USA - Maryland Heights, MO",
    "posted_at": "2026-10-27",
    "role": "software",
+   "skip_reason": "us_person_required",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "newgrad",
    "title": "Entry-Level Software Engineer",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Entry-Level-Software-Engineer_JR2026527992-1"
