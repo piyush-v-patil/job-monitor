@@ -37175,6 +37175,19 @@
    "title": "Systems Engineer — Apple Reference Image",
    "url": "https://jobs.apple.com/en-us/details/200688855/systems-engineer-apple-reference-image"
   },
+  "apple:618c5e2ef3d5": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-28",
+   "location": "San Diego Metro Area",
+   "posted_at": "2026-10-27",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Evaluation and Quality, Creativity Apps",
+   "url": "https://jobs.apple.com/en-us/details/200691707/machine-learning-engineer-evaluation-and-quality-creativity-apps"
+  },
   "apple:61f481af012d": {
    "company": "Apple",
    "department": "Operations and Supply Chain",
@@ -37760,6 +37773,19 @@
    "tier": "experienced",
    "title": "Wireless Module Test Engineer",
    "url": "https://jobs.apple.com/en-us/details/200689180/wireless-module-test-engineer"
+  },
+  "apple:95308470a688": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-28",
+   "location": "Sunnyvale",
+   "posted_at": "2026-10-27",
+   "role": "mobile",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "iOS Application Developer - Health Software",
+   "url": "https://jobs.apple.com/en-us/details/200692096/ios-application-developer-health-software"
   },
   "apple:953c828c7d7e": {
    "company": "Apple",
@@ -176462,6 +176488,18 @@
    "title": "Software Engineer, DGX Cloud AI Infrastructure - New College Grad 2026",
    "url": "https://www.linkedin.com/jobs/view/4472375357"
   },
+  "nvidia:3389a44d18f4": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-28",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-28",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Research Scientist, Electronic Design Automation - New College Grad 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979"
+  },
   "nvidia:3419bf58be07": {
    "company": "Nvidia",
    "first_seen": "2026-09-01",
@@ -176876,6 +176914,30 @@
    "tier": "experienced",
    "title": "GPU Development Tools System Software Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Development-Tools-System-Software-Engineer_JR2015871-1"
+  },
+  "nvidia:6cee78933552": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-28",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-28",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics Research Engineer - Robot Simulation and Evaluation",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Robotics-Research-Engineer---Robot-Simulation-and-Evaluation_JR2023397"
+  },
+  "nvidia:6d00f10e4164": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-28",
+   "location": "4 Locations",
+   "posted_at": "2026-10-28",
+   "role": "security",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cyber Security Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Cyber-Security-Engineer_JR2028915-1"
   },
   "nvidia:6e98234f9a02": {
    "company": "Nvidia",
@@ -266734,7 +266796,7 @@
   "Airbnb": {
    "best": 196,
    "last": 194,
-   "last_ok": "2026-10-27"
+   "last_ok": "2026-10-28"
   },
   "Airtable": {
    "best": 16,
@@ -266744,7 +266806,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-27"
+   "last_ok": "2026-10-28"
   },
   "American Express": {
    "best": 500,
@@ -266759,7 +266821,7 @@
   "Anthropic": {
    "best": 684,
    "last": 681,
-   "last_ok": "2026-10-27"
+   "last_ok": "2026-10-28"
   },
   "Anysphere": {
    "best": 137,
@@ -266768,8 +266830,8 @@
   },
   "Apple": {
    "best": 164,
-   "last": 132,
-   "last_ok": "2026-10-27"
+   "last": 123,
+   "last_ok": "2026-10-28"
   },
   "Applied Intuition": {
    "best": 330,
@@ -266985,7 +267047,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-27"
+   "last_ok": "2026-10-28"
   },
   "Gusto": {
    "best": 104,
@@ -267079,8 +267141,8 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 147,
-   "last_ok": "2026-10-27"
+   "last": 150,
+   "last_ok": "2026-10-28"
   },
   "MongoDB": {
    "best": 415,
@@ -267100,7 +267162,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-10-27"
+   "last_ok": "2026-10-28"
   },
   "Nokia": {
    "best": 500,
@@ -267119,8 +267181,8 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 192,
-   "last_ok": "2026-10-27"
+   "last": 191,
+   "last_ok": "2026-10-28"
   },
   "Okta": {
    "best": 400,
@@ -267129,8 +267191,8 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 794,
-   "last_ok": "2026-10-27"
+   "last": 801,
+   "last_ok": "2026-10-28"
   },
   "OpenEvidence": {
    "best": 11,
@@ -267249,8 +267311,8 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 712,
-   "last_ok": "2026-10-27"
+   "last": 713,
+   "last_ok": "2026-10-28"
   },
   "Suno": {
    "best": 73,
@@ -267350,6 +267412,6 @@
    "last_ok": "2026-10-27"
   }
  },
- "updated": "2026-10-27T21:01:20Z",
+ "updated": "2026-10-28T00:39:49Z",
  "version": 1
 }
