@@ -22640,6 +22640,21 @@
    "title": "Software Development Engineer, Early Career - 2027 (US)",
    "url": "https://www.linkedin.com/jobs/view/4481570391"
   },
+  "amazon:fad4eccaea43": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-28",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Devices Software & Services",
+   "url": "https://www.amazon.jobs/en/jobs/10590870/software-development-engineer-devices-software-services",
+   "yoe": 2
+  },
   "amazon:fad6932bb607": {
    "company": "Amazon",
    "employer_checked": "2026-10-28",
@@ -37366,6 +37381,19 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer – LLMs, Agent Systems, and Simulation Tooling, Siri Core Modeling",
    "url": "https://jobs.apple.com/en-us/details/200687821/machine-learning-engineer-llms-agent-systems-and-simulation-tooling-siri-core-modeling"
+  },
+  "apple:587fedaccdbc": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-28",
+   "location": "Cupertino",
+   "posted_at": "2026-10-28",
+   "role": "mobile",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "iOS Software Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200692106/ios-software-engineer"
   },
   "apple:59c497017cb7": {
    "company": "Apple",
@@ -124499,6 +124527,17 @@
    "title": "Software Engineer III, AI/ML Engineer",
    "url": "https://www.google.com/about/careers/applications/jobs/results/106154012847284934-software-engineer-iii-aiml-engineer"
   },
+  "google:665575971801": {
+   "company": "Google",
+   "first_seen": "2026-10-28",
+   "location": "Sunnyvale, CA, USA",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/141075597093675718-software-engineer-iii-full-stack"
+  },
   "google:669fce79b31e": {
    "company": "Google",
    "first_seen": "2026-09-11",
@@ -125142,6 +125181,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure,  Infrastructure Storage",
    "url": "https://www.google.com/about/careers/applications/jobs/results/111982135291585222-software-engineer-iii-infrastructure-infrastructure-storage"
+  },
+  "google:832674848222": {
+   "company": "Google",
+   "first_seen": "2026-10-28",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Gen Media, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/114469614724752070-research-engineer-gen-media-deepmind"
   },
   "google:83acf7a61506": {
    "company": "Google",
@@ -269012,7 +269062,7 @@
   },
   "Airbnb": {
    "best": 196,
-   "last": 195,
+   "last": 196,
    "last_ok": "2026-10-28"
   },
   "Airtable": {
@@ -269047,7 +269097,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 126,
+   "last": 127,
    "last_ok": "2026-10-28"
   },
   "Applied Intuition": {
@@ -269398,7 +269448,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 191,
+   "last": 189,
    "last_ok": "2026-10-28"
   },
   "Okta": {
@@ -269528,7 +269578,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 714,
+   "last": 715,
    "last_ok": "2026-10-28"
   },
   "Suno": {
@@ -269629,6 +269679,6 @@
    "last_ok": "2026-10-28"
   }
  },
- "updated": "2026-10-28T09:37:14Z",
+ "updated": "2026-10-28T14:20:19Z",
  "version": 1
 }
