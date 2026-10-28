@@ -34037,13 +34037,15 @@
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4981828008"
   },
   "anthropic:17578e6fd135": {
+   "applied_on": "2026-10-27",
+   "applied_via": "autoapply",
    "company": "Anthropic",
    "first_seen": "2026-09-21",
    "location": "San Francisco, CA | New York City, NY",
    "posted_at": "2026-08-13",
    "role": "software",
    "source": "greenhouse",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Software Engineer, Education",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5389305008"
@@ -77495,6 +77497,8 @@
    "workplace": "Hybrid"
   },
   "cerebras:1cd10cd3c9fc": {
+   "applied_on": "2026-10-27",
+   "applied_via": "autoapply",
    "company": "Cerebras",
    "department": "Software Engineering ",
    "employment_type": "Full-time",
@@ -77503,7 +77507,7 @@
    "posted_at": "2026-08-13",
    "role": "software",
    "source": "ashby",
-   "status": "new",
+   "status": "applied",
    "tier": "experienced",
    "title": "Cluster Operations Software Engineer",
    "url": "https://jobs.ashbyhq.com/cerebras/f25b9677-32fa-41ed-84d1-0ed704a98533",
