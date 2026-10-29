@@ -11595,6 +11595,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10570125/software-engineer-graviton-software-annapurna-labs",
    "yoe": 2
   },
+  "amazon:1be0745dbf0d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, EFA Network - Annapurna Labs",
+   "url": "https://www.amazon.jobs/en/jobs/10592911/software-development-engineer-ii-efa-network-annapurna-labs",
+   "yoe": 2
+  },
   "amazon:1c27e27ae3c1": {
    "company": "Amazon",
    "employer_url": "https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa",
@@ -15361,6 +15376,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10511479/software-development-engineer-amazon-optics",
    "yoe": 1
   },
+  "amazon:65e99283eba5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Selection Monitoring",
+   "url": "https://www.amazon.jobs/en/jobs/10592959/software-development-engineer-ii-selection-monitoring",
+   "yoe": 1
+  },
   "amazon:661c02177d0a": {
    "company": "Amazon",
    "department": "Software Development",
@@ -17880,6 +17910,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, AWS Transfer Family",
    "url": "https://www.amazon.jobs/en/jobs/10579169/software-dev-engineer-ii-aws-transfer-family",
+   "yoe": 1
+  },
+  "amazon:9375cb2448e9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Culver City, California, USA",
+   "posted_at": "2026-10-29",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Audible AI Voice Production ",
+   "url": "https://www.amazon.jobs/en/jobs/10592978/software-development-engineer-audible-ai-voice-production",
    "yoe": 1
   },
   "amazon:94d2ad95332c": {
@@ -38102,6 +38147,19 @@
    "title": "RFIC Test Engineer",
    "url": "https://jobs.apple.com/en-us/details/200624249/rfic-test-engineer"
   },
+  "apple:44d53413cd3d": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-10-29",
+   "location": "Cambridge",
+   "posted_at": "2026-10-29",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AIML - ML Engineer, Safety Human Evaluation",
+   "url": "https://jobs.apple.com/en-us/details/200692531/aiml-ml-engineer-safety-human-evaluation"
+  },
   "apple:471d9212727b": {
    "company": "Apple",
    "department": "Software and Services",
@@ -39495,6 +39553,19 @@
    "title": "Tactile AI Research Engineer - Special Projects (Robotics)",
    "url": "https://jobs.apple.com/en-us/details/200675551/tactile-ai-research-engineer-special-projects-robotics"
   },
+  "apple:b2ccc77baa4c": {
+   "company": "Apple",
+   "department": "Corporate Functions",
+   "first_seen": "2026-10-29",
+   "location": "Austin",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer in Test, Customer Systems",
+   "url": "https://jobs.apple.com/en-us/details/200667747/software-development-engineer-in-test-customer-systems"
+  },
   "apple:b2e679406ef9": {
    "company": "Apple",
    "department": "Software and Services",
@@ -40105,6 +40176,19 @@
    "tier": "experienced",
    "title": "Wireless Systems Engineer",
    "url": "https://jobs.apple.com/en-us/details/200690852/wireless-systems-engineer"
+  },
+  "apple:dfef5467f368": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-29",
+   "location": "Cupertino",
+   "posted_at": "2026-10-29",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Battery Algorithm ML Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200692363/battery-algorithm-ml-engineer"
   },
   "apple:e01972f23d1d": {
    "company": "Apple",
@@ -125672,6 +125756,17 @@
    "title": "Software Engineer III, Mobile, iOS",
    "url": "https://www.google.com/about/careers/applications/jobs/results/113305266270675654-software-engineer-iii-mobile-ios"
   },
+  "google:2c3880b1cc41": {
+   "company": "Google",
+   "first_seen": "2026-10-29",
+   "location": "Mountain View, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics Embedded Software Tech Lead, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/127119667801006790-robotics-embedded-software-tech-lead-deepmind"
+  },
   "google:2c99b013482e": {
    "company": "Google",
    "first_seen": "2026-08-26",
@@ -181221,6 +181316,18 @@
    "title": "Forward Deployed Engineer - Finance",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Forward-Deployed-Engineer---Finance_JR2026919"
   },
+  "nvidia:144ab3d5b45d": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-29",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-29",
+   "role": "embedded",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Hardware Systems Engineer - LPU Platform Pathfinding",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Hardware-Systems-Engineer---LPU-Platform-Pathfinding_JR2021499"
+  },
   "nvidia:151a241eff52": {
    "company": "Nvidia",
    "first_seen": "2026-08-22",
@@ -182879,6 +182986,18 @@
    "tier": "experienced",
    "title": "Systems Software Engineer - AI and Cloud",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer---AI-and-Cloud_JR2024087"
+  },
+  "nvidia:cd2320df32cb": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-29",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-29",
+   "role": "data",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Technical Lead – Performance Data Platform",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Technical-Lead---Performance-Data-Platform_JR2029009"
   },
   "nvidia:d10e3e81df5a": {
    "company": "Nvidia",
@@ -236115,6 +236234,18 @@
    "title": "Android Engineer, Identity Product",
    "url": "https://stripe.com/jobs/search?gh_jid=8311069"
   },
+  "stripe:436c4a539bcc": {
+   "company": "Stripe",
+   "first_seen": "2026-10-29",
+   "location": "N/A",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Payments",
+   "url": "https://stripe.com/jobs/search?gh_jid=8260982"
+  },
   "stripe:45602e6563a7": {
    "applied_on": "2026-10-22",
    "applied_via": "autoapply",
@@ -274829,7 +274960,7 @@
   },
   "Airbnb": {
    "best": 197,
-   "last": 192,
+   "last": 197,
    "last_ok": "2026-10-29"
   },
   "Airtable": {
@@ -274864,7 +274995,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 135,
+   "last": 136,
    "last_ok": "2026-10-29"
   },
   "Applied Intuition": {
@@ -275225,7 +275356,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 812,
+   "last": 813,
    "last_ok": "2026-10-29"
   },
   "OpenEvidence": {
@@ -275345,7 +275476,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 731,
+   "last": 733,
    "last_ok": "2026-10-29"
   },
   "Suno": {
@@ -275446,6 +275577,6 @@
    "last_ok": "2026-10-29"
   }
  },
- "updated": "2026-10-29T19:56:47Z",
+ "updated": "2026-10-29T21:56:29Z",
  "version": 1
 }
