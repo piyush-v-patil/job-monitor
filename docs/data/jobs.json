@@ -53964,8 +53964,10 @@
    "location": "USA - Oklahoma City, OK",
    "posted_at": "2026-10-28",
    "role": "software",
+   "skip_reason": "us_person_required",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "AWACS Software Systems Engineer - Sustainment",
    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/AWACS-Software-Systems-Engineer---Sustainment_JR2026518998"
@@ -233382,8 +233384,10 @@
    "location": "South San Francisco, CA",
    "posted_at": "2026-10-28",
    "role": "software",
+   "skip_reason": "yoe",
+   "skipped_by": "autoapply",
    "source": "greenhouse",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer, Fraud System Interventions",
    "url": "https://stripe.com/jobs/search?gh_jid=8332718"
