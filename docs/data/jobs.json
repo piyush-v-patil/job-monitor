@@ -17252,6 +17252,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10585658/software-development-engineer-aws",
    "yoe": 2
   },
+  "amazon:8b4af75c0c75": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Selling Partner Promotions",
+   "url": "https://www.amazon.jobs/en/jobs/10592343/software-development-engineer-selling-partner-promotions",
+   "yoe": 2
+  },
   "amazon:8ba004d11651": {
    "company": "Amazon",
    "department": "Software Development",
@@ -18664,6 +18679,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, PostX - APEX",
    "url": "https://www.amazon.jobs/en/jobs/10532360/software-development-engineer-postx-apex",
+   "yoe": 1
+  },
+  "amazon:a4ab8ddaa63d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Connections CODEX Team",
+   "url": "https://www.amazon.jobs/en/jobs/10591801/software-development-engineer-ii-connections-codex-team",
    "yoe": 1
   },
   "amazon:a4d94d4a31bc": {
@@ -22371,6 +22401,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, AWS Elastic Disaster Recovery",
    "url": "https://www.amazon.jobs/en/jobs/10565955/software-development-engineer-aws-elastic-disaster-recovery",
+   "yoe": 1
+  },
+  "amazon:ee5b77afe4dd": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Austin, Texas, USA",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Amazon Key",
+   "url": "https://www.amazon.jobs/en/jobs/10592305/software-dev-engineer-ii-amazon-key",
    "yoe": 1
   },
   "amazon:eef2aa3a2e43": {
@@ -38281,6 +38326,19 @@
    "title": "Software Quality Engineer, Retail & Marcom Engineering",
    "url": "https://jobs.apple.com/en-us/details/200687576/software-quality-engineer-retail-marcom-engineering"
   },
+  "apple:788964a90889": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-29",
+   "location": "Sunnyvale",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Information Systems & Technology",
+   "url": "https://jobs.apple.com/en-us/details/200685186/software-engineer-information-systems-technology"
+  },
   "apple:7ba3fb71e6fc": {
    "company": "Apple",
    "department": "Machine Learning and AI",
@@ -39984,6 +40042,19 @@
    "tier": "experienced",
    "title": "Systems Engineer - Evaluation Engineering",
    "url": "https://jobs.apple.com/en-us/details/200691109/systems-engineer-evaluation-engineering"
+  },
+  "apple:fa80649c2eda": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-29",
+   "location": "Austin",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Information Systems & Technology",
+   "url": "https://jobs.apple.com/en-us/details/200685188/software-engineer-information-systems-technology"
   },
   "apple:fb87bc134ccf": {
    "company": "Apple",
@@ -124809,6 +124880,17 @@
    "title": "Robotics Engineer, Health and Calibration, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/93340518011806406-robotics-engineer-health-and-calibration-deepmind"
   },
+  "google:26d68d25c66a": {
+   "company": "Google",
+   "first_seen": "2026-10-29",
+   "location": "Boulder, CO, USA",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/117847898560832198-software-engineer-iii-full-stack"
+  },
   "google:272cd71bc9a4": {
    "company": "Google",
    "first_seen": "2026-10-14",
@@ -124930,6 +125012,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Infrastructure, Google Cloud Platforms",
    "url": "https://www.google.com/about/careers/applications/jobs/results/102936600232501958-software-engineer-iii-infrastructure-google-cloud-platforms"
+  },
+  "google:2c1543081aec": {
+   "company": "Google",
+   "first_seen": "2026-10-29",
+   "location": "Palo Alto, CA, USA; Mountain View, CA, USA; +3 more; +2 more",
+   "role": "mobile",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Mobile, iOS",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/113305266270675654-software-engineer-iii-mobile-ios"
   },
   "google:2c99b013482e": {
    "company": "Google",
@@ -125475,6 +125568,17 @@
    "tier": "experienced",
    "title": "Software Engineer, AI/ML, Search Personalization",
    "url": "https://www.google.com/about/careers/applications/jobs/results/80894066786476742-software-engineer-aiml-search-personalization"
+  },
+  "google:41ef1aba496b": {
+   "company": "Google",
+   "first_seen": "2026-10-29",
+   "location": "Los Angeles, CA, USA",
+   "role": "frontend",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Front End",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/91721578139525830-software-engineer-iii-front-end"
   },
   "google:424ada5d8c71": {
    "company": "Google",
@@ -129125,6 +129229,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Performance",
    "url": "https://www.google.com/about/careers/applications/jobs/results/134913361895662278-software-engineer-iii-performance"
+  },
+  "google:e3dcc9b42a09": {
+   "company": "Google",
+   "first_seen": "2026-10-29",
+   "location": "Mountain View, CA, USA; Palo Alto, CA, USA; +3 more; +2 more",
+   "role": "mobile",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Mobile, Android",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/123634078502003398-software-engineer-iii-mobile-android"
   },
   "google:e515c53dc876": {
    "company": "Google",
@@ -273476,7 +273591,7 @@
   },
   "Airbnb": {
    "best": 197,
-   "last": 190,
+   "last": 191,
    "last_ok": "2026-10-29"
   },
   "Airtable": {
@@ -273501,7 +273616,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 680,
+   "last": 679,
    "last_ok": "2026-10-29"
   },
   "Anysphere": {
@@ -273511,7 +273626,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 131,
+   "last": 133,
    "last_ok": "2026-10-29"
   },
   "Applied Intuition": {
@@ -273872,7 +273987,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 812,
+   "last": 811,
    "last_ok": "2026-10-29"
   },
   "OpenEvidence": {
@@ -273992,7 +274107,7 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 725,
+   "last": 728,
    "last_ok": "2026-10-29"
   },
   "Suno": {
@@ -274093,6 +274208,6 @@
    "last_ok": "2026-10-29"
   }
  },
- "updated": "2026-10-29T13:37:45Z",
+ "updated": "2026-10-29T16:22:23Z",
  "version": 1
 }
