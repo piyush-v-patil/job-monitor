@@ -20721,6 +20721,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10569783/software-development-engineer-ii-cia-interactions",
    "yoe": 2
   },
+  "amazon:d099b37aa310": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Irvine, California, USA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Devices Software & Services",
+   "url": "https://www.amazon.jobs/en/jobs/10591904/software-development-engineer-devices-software-services",
+   "yoe": 2
+  },
   "amazon:d099d5210776": {
    "company": "Amazon",
    "department": "Software Development",
@@ -37832,6 +37847,19 @@
    "title": "SDET(Fitness) - Watch Software",
    "url": "https://jobs.apple.com/en-us/details/200685479/sdet-fitness-watch-software"
   },
+  "apple:5aa0ddd3c5cc": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-29",
+   "location": "Sunnyvale",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer-Health",
+   "url": "https://jobs.apple.com/en-us/details/200692377/software-development-engineer-health"
+  },
   "apple:5c81f2207b2f": {
    "company": "Apple",
    "department": "Software and Services",
@@ -38652,6 +38680,19 @@
    "title": "Cloud Infrastructure Engineer",
    "url": "https://jobs.apple.com/en-us/details/200689205/cloud-infrastructure-engineer"
   },
+  "apple:9cdb01c2ca16": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-29",
+   "location": "San Diego",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Tools",
+   "url": "https://jobs.apple.com/en-us/details/200692365/software-development-engineer-tools"
+  },
   "apple:a04976f2ffcf": {
    "company": "Apple",
    "department": "Machine Learning and AI",
@@ -39236,6 +39277,19 @@
    "tier": "experienced",
    "title": "AI/ML Engineer: System RF Data Ecosystem",
    "url": "https://jobs.apple.com/en-us/details/200691105/ai-ml-engineer-system-rf-data-ecosystem"
+  },
+  "apple:cd23676ed604": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-29",
+   "location": "Cupertino",
+   "posted_at": "2026-10-29",
+   "role": "embedded",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Hardware Systems Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200691110/hardware-systems-engineer"
   },
   "apple:cd9c3a30e1ed": {
    "company": "Apple",
@@ -167907,6 +167961,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557040326",
    "workplace": "On-site"
   },
+  "microsoft:ca75e15d75a5": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-29",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556969536",
+   "workplace": "On-site"
+  },
   "microsoft:cda2653ce895": {
    "company": "Microsoft",
    "first_seen": "2026-09-01",
@@ -233308,6 +233376,18 @@
    "title": "Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/3819719843"
   },
+  "stripe:00cb91e282fa": {
+   "company": "Stripe",
+   "first_seen": "2026-10-29",
+   "location": "South San Francisco, CA",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Fraud System Interventions",
+   "url": "https://stripe.com/jobs/search?gh_jid=8332718"
+  },
   "stripe:03578dfb08ac": {
    "company": "Stripe",
    "first_seen": "2026-08-20",
@@ -234860,6 +234940,18 @@
    "tier": "intern",
    "title": "Software Engineer, Intern (Summer or Winter)",
    "url": "https://www.linkedin.com/jobs/view/4462058113"
+  },
+  "stripe:f18ad5e6277a": {
+   "company": "Stripe",
+   "first_seen": "2026-10-29",
+   "location": "Seattle, WA",
+   "posted_at": "2026-10-28",
+   "role": "fullstack",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Full stack",
+   "url": "https://stripe.com/jobs/search?gh_jid=8332676"
   },
   "stripe:f1bf4025d4d2": {
    "company": "Stripe",
@@ -271659,8 +271751,8 @@
   },
   "Airbnb": {
    "best": 197,
-   "last": 191,
-   "last_ok": "2026-10-28"
+   "last": 189,
+   "last_ok": "2026-10-29"
   },
   "Airtable": {
    "best": 16,
@@ -271670,7 +271762,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "American Express": {
    "best": 500,
@@ -271685,7 +271777,7 @@
   "Anthropic": {
    "best": 684,
    "last": 678,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "Anysphere": {
    "best": 137,
@@ -271694,8 +271786,8 @@
   },
   "Apple": {
    "best": 164,
-   "last": 134,
-   "last_ok": "2026-10-28"
+   "last": 133,
+   "last_ok": "2026-10-29"
   },
   "Applied Intuition": {
    "best": 330,
@@ -271911,7 +272003,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "Gusto": {
    "best": 104,
@@ -272006,7 +272098,7 @@
   "Microsoft": {
    "best": 150,
    "last": 150,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "MongoDB": {
    "best": 415,
@@ -272026,7 +272118,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "Nokia": {
    "best": 500,
@@ -272045,8 +272137,8 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 188,
-   "last_ok": "2026-10-28"
+   "last": 189,
+   "last_ok": "2026-10-29"
   },
   "Okta": {
    "best": 400,
@@ -272055,8 +272147,8 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 809,
-   "last_ok": "2026-10-28"
+   "last": 807,
+   "last_ok": "2026-10-29"
   },
   "OpenEvidence": {
    "best": 11,
@@ -272175,8 +272267,8 @@
   },
   "Stripe": {
    "best": 736,
-   "last": 717,
-   "last_ok": "2026-10-28"
+   "last": 721,
+   "last_ok": "2026-10-29"
   },
   "Suno": {
    "best": 73,
@@ -272276,6 +272368,6 @@
    "last_ok": "2026-10-28"
   }
  },
- "updated": "2026-10-28T22:56:28Z",
+ "updated": "2026-10-29T01:09:36Z",
  "version": 1
 }
