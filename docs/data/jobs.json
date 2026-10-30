@@ -15850,6 +15850,21 @@
    "title": "Data Engineer, SPTC",
    "url": "https://www.linkedin.com/jobs/view/4480173917"
   },
+  "amazon:6b7145037d6b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-30",
+   "location": "Cupertino, California, USA",
+   "posted_at": "2026-10-30",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - AI/ML, Neuron Inference, Neuron Inference",
+   "url": "https://www.amazon.jobs/en/jobs/10588736/software-engineer-ii-ai-ml-neuron-inference-neuron-inference",
+   "yoe": 3
+  },
   "amazon:6b8ff64d4797": {
    "company": "Amazon",
    "department": "Software Development",
@@ -16867,6 +16882,20 @@
    "title": "Robotics Software Engineer, Fauna",
    "url": "https://www.amazon.jobs/en/jobs/10566655/robotics-software-engineer-fauna",
    "yoe": 1
+  },
+  "amazon:7e81b77a3535": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-30",
+   "location": "Cupertino, California, USA",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10593872/software-development-engineer"
   },
   "amazon:7e82fae6a33e": {
    "company": "Amazon",
@@ -20689,6 +20718,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Customer Experience and Business Trends",
    "url": "https://www.amazon.jobs/en/jobs/10576179/software-development-engineer-customer-experience-and-business-trends",
+   "yoe": 1
+  },
+  "amazon:c6c2b72cf4bc": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-30",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Selection Monitoring - Amazon Catalog",
+   "url": "https://www.amazon.jobs/en/jobs/10593135/software-development-engineer-ii-selection-monitoring-amazon-catalog",
    "yoe": 1
   },
   "amazon:c6dc90af2ce4": {
@@ -38754,6 +38798,19 @@
    "title": "AI Software Engineer, App Intelligence",
    "url": "https://jobs.apple.com/en-us/details/200692473/ai-software-engineer-app-intelligence"
   },
+  "apple:5e5411582ec4": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-10-30",
+   "location": "San Diego",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Wireless Bluetooth Software Engineer, Wireless Technologies & Ecosystems",
+   "url": "https://jobs.apple.com/en-us/details/200692525/wireless-bluetooth-software-engineer-wireless-technologies-ecosystems"
+  },
   "apple:618c5e2ef3d5": {
    "company": "Apple",
    "department": "Software and Services",
@@ -39287,6 +39344,19 @@
    "tier": "experienced",
    "title": "Acoustics ML & DSP Engineer",
    "url": "https://jobs.apple.com/en-us/details/200691355/acoustics-ml-dsp-engineer"
+  },
+  "apple:8a5b9b762224": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-10-30",
+   "location": "Cupertino",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Camera Systems Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200692514/camera-systems-engineer"
   },
   "apple:8abc0a7086ee": {
    "company": "Apple",
@@ -278867,7 +278937,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 674,
+   "last": 676,
    "last_ok": "2026-10-30"
   },
   "Anysphere": {
@@ -278877,7 +278947,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 147,
+   "last": 149,
    "last_ok": "2026-10-30"
   },
   "Applied Intuition": {
@@ -279228,7 +279298,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 188,
+   "last": 189,
    "last_ok": "2026-10-30"
   },
   "Okta": {
@@ -279238,7 +279308,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 817,
+   "last": 815,
    "last_ok": "2026-10-30"
   },
   "OpenEvidence": {
@@ -279459,6 +279529,6 @@
    "last_ok": "2026-10-30"
   }
  },
- "updated": "2026-10-30T19:43:58Z",
+ "updated": "2026-10-30T21:40:17Z",
  "version": 1
 }
