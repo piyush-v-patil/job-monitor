@@ -169674,6 +169674,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557044529",
    "workplace": "On-site"
   },
+  "microsoft:2e1b67612ad8": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-30",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-30",
+   "role": "ml-ai",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff, Microsoft Robotics (Robot Security & Safety)",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556868893",
+   "workplace": "On-site"
+  },
   "microsoft:2e88274999e2": {
    "company": "Microsoft",
    "department": "Digital Solution Engineering",
@@ -189512,7 +189526,8 @@
    "status": "new",
    "tier": "experienced",
    "title": "Software Engineer, Productivity - Inference Runtime",
-   "url": "https://jobs.ashbyhq.com/openai/9d48e2e6-41a9-4a90-8b3b-6cc960e95c2f"
+   "url": "https://jobs.ashbyhq.com/openai/9d48e2e6-41a9-4a90-8b3b-6cc960e95c2f",
+   "workplace": "Hybrid"
   },
   "openai:be7a594c0699": {
    "comp": "$380K – $555K • Offers Equity",
@@ -276072,7 +276087,7 @@
   },
   "Airbnb": {
    "best": 198,
-   "last": 198,
+   "last": 197,
    "last_ok": "2026-10-30"
   },
   "Airtable": {
@@ -276097,7 +276112,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 673,
+   "last": 672,
    "last_ok": "2026-10-30"
   },
   "Anysphere": {
@@ -276458,7 +276473,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 188,
+   "last": 187,
    "last_ok": "2026-10-30"
   },
   "Okta": {
@@ -276588,7 +276603,7 @@
   },
   "Stripe": {
    "best": 737,
-   "last": 737,
+   "last": 736,
    "last_ok": "2026-10-30"
   },
   "Suno": {
@@ -276689,6 +276704,6 @@
    "last_ok": "2026-10-30"
   }
  },
- "updated": "2026-10-30T00:14:19Z",
+ "updated": "2026-10-30T02:49:02Z",
  "version": 1
 }
