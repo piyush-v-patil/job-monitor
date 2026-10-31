@@ -22577,6 +22577,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10539338/software-development-engineer-ii-inbound",
    "yoe": 2
   },
+  "amazon:e7ea80f2780c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-31",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-10-31",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10593929/software-development-engineer",
+   "yoe": 1
+  },
   "amazon:e82059570a45": {
    "company": "Amazon",
    "department": "Software Development",
@@ -172342,6 +172357,19 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393556995383",
    "workplace": "On-site"
   },
+  "microsoft:4ca7abc48efd": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-10-31",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - Remote Desktop Protocol & Redirection",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556999242"
+  },
   "microsoft:4f2ab20ead68": {
    "company": "Microsoft",
    "first_seen": "2026-09-25",
@@ -186136,6 +186164,18 @@
    "tier": "experienced",
    "title": "Compute Platform Engineer, License Scheduling",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compute-Platform-Engineer--License-Scheduling_JR2023965"
+  },
+  "nvidia:a0e8f3695e4a": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-31",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-10-31",
+   "role": "embedded",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System Software Engineer - Trusted Firmware",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Trusted-Firmware_JR2028868"
   },
   "nvidia:a3915a914498": {
    "company": "NVIDIA",
@@ -279883,8 +279923,8 @@
    "last_ok": "2026-10-31"
   },
   "Airbnb": {
-   "best": 201,
-   "last": 201,
+   "best": 202,
+   "last": 202,
    "last_ok": "2026-10-31"
   },
   "Airtable": {
@@ -279909,7 +279949,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 676,
+   "last": 675,
    "last_ok": "2026-10-31"
   },
   "Anysphere": {
@@ -279919,7 +279959,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 145,
+   "last": 140,
    "last_ok": "2026-10-31"
   },
   "Applied Intuition": {
@@ -280230,7 +280270,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 149,
+   "last": 150,
    "last_ok": "2026-10-31"
   },
   "MongoDB": {
@@ -280270,7 +280310,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 176,
+   "last": 184,
    "last_ok": "2026-10-31"
   },
   "Okta": {
@@ -280501,6 +280541,6 @@
    "last_ok": "2026-10-31"
   }
  },
- "updated": "2026-10-31T00:07:47Z",
+ "updated": "2026-10-31T02:39:25Z",
  "version": 1
 }
