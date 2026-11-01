@@ -54475,6 +54475,19 @@
    "title": "Buyer",
    "url": "https://www.linkedin.com/jobs/view/4478472491"
   },
+  "innovance-inc:309c708d0c77": {
+   "company": "Innovance Inc.",
+   "first_seen": "2026-11-01",
+   "location": "Albert Lea, MN, USA",
+   "posted_at": "2026-11-01",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Fabrication Planner",
+   "url": "https://www.linkedin.com/jobs/view/4485985886"
+  },
   "innovative-defense-technologies-idt:c01bfdbee5f0": {
    "company": "Innovative Defense Technologies (IDT)",
    "first_seen": "2026-10-04",
@@ -120572,7 +120585,7 @@
   },
   "Abbott": {
    "best": 535,
-   "last": 518,
+   "last": 519,
    "last_ok": "2026-11-01"
   },
   "Airbnb": {
@@ -120582,7 +120595,7 @@
   },
   "Amazon": {
    "best": 74,
-   "last": 70,
+   "last": 69,
    "last_ok": "2026-11-01"
   },
   "Anduril": {
@@ -120692,7 +120705,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 738,
-   "last": 590,
+   "last": 113,
    "last_ok": "2026-11-01"
   },
   "Liquid Death": {
@@ -120712,7 +120725,7 @@
   },
   "Medtronic": {
    "best": 451,
-   "last": 400,
+   "last": 398,
    "last_ok": "2026-11-01"
   },
   "Micron": {
@@ -120752,12 +120765,12 @@
   },
   "OpenAI": {
    "best": 840,
-   "last": 810,
+   "last": 809,
    "last_ok": "2026-11-01"
   },
   "Oura": {
    "best": 111,
-   "last": 94,
+   "last": 95,
    "last_ok": "2026-11-01"
   },
   "Peloton": {
@@ -120776,8 +120789,8 @@
    "last_ok": "2026-11-01"
   },
   "Samsara": {
-   "best": 338,
-   "last": 338,
+   "best": 340,
+   "last": 340,
    "last_ok": "2026-11-01"
   },
   "Saronic": {
@@ -120792,7 +120805,7 @@
   },
   "Stripe": {
    "best": 747,
-   "last": 746,
+   "last": 745,
    "last_ok": "2026-11-01"
   },
   "Stryker": {
@@ -120817,7 +120830,7 @@
   },
   "Unilever": {
    "best": 204,
-   "last": 189,
+   "last": 186,
    "last_ok": "2026-11-01"
   },
   "Verkada": {
@@ -120827,7 +120840,7 @@
   },
   "Walmart Global Tech": {
    "best": 268,
-   "last": 231,
+   "last": 213,
    "last_ok": "2026-11-01"
   },
   "Waymo": {
@@ -120841,6 +120854,6 @@
    "last_ok": "2026-11-01"
   }
  },
- "updated": "2026-11-01T16:47:36Z",
+ "updated": "2026-11-01T21:50:15Z",
  "version": 1
 }
