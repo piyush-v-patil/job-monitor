@@ -15203,6 +15203,19 @@
    "url": "https://www.amazon.jobs/en/jobs/10529117/software-development-engineer-rds-oracle",
    "yoe": 2
   },
+  "amazon:5ae76a8f1fc2": {
+   "company": "Amazon",
+   "first_seen": "2026-11-01",
+   "location": "Arlington, VA, USA",
+   "posted_at": "2026-10-31",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer, Leo Global Business and Customer Operations",
+   "url": "https://www.linkedin.com/jobs/view/4468845458"
+  },
   "amazon:5b9f066c0da4": {
    "company": "Amazon",
    "department": "Software Development",
@@ -51642,6 +51655,19 @@
    "title": "Machine Learning Engineer: Perception",
    "url": "https://www.linkedin.com/jobs/view/4408940437"
   },
+  "behaviorai:fb9e2858543d": {
+   "company": "BehaviorAI",
+   "first_seen": "2026-11-01",
+   "location": "New York City Metropolitan Area",
+   "posted_at": "2026-11-01",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer - Representation Learning",
+   "url": "https://www.linkedin.com/jobs/view/4485933425"
+  },
   "belay-technologies:5aff4816af4b": {
    "company": "Belay Technologies",
    "first_seen": "2026-10-14",
@@ -84955,6 +84981,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/RTP-North-Carolina-US/Software-Engineer_2021976"
   },
+  "cisco:59092d446fbb": {
+   "company": "Cisco",
+   "first_seen": "2026-11-01",
+   "location": "RTP, North Carolina, US",
+   "posted_at": "2026-11-01",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering Technical Leader (Remote)",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/RTP-North-Carolina-US/Software-Engineering-Technical-Leader--Remote-_2026854"
+  },
   "cisco:5b75f9faa856": {
    "company": "Cisco",
    "employer_url": "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805",
@@ -86868,6 +86906,19 @@
    "tier": "experienced",
    "title": "PAMS Cloud Engineer",
    "url": "https://www.linkedin.com/jobs/view/4484906001"
+  },
+  "citizant:bd4cf6bd7682": {
+   "company": "Citizant",
+   "first_seen": "2026-11-01",
+   "location": "Montgomery, AL, USA",
+   "posted_at": "2026-10-29",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "FMxC2 Cloud Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4484973819"
   },
   "citizens-financial-group:0042be8e4d31": {
    "company": "Citizens Financial Group",
@@ -92262,6 +92313,19 @@
    "tier": "intern",
    "title": "Supply Chain Application Developer Co-op",
    "url": "https://covestro.wd3.myworkdayjobs.com/cov_external/job/Pittsburgh-PA/Supply-Chain-Application-Developer-Co-Op_JR-2026-02346-1"
+  },
+  "covet-it-inc:f012eacf82d4": {
+   "company": "COVET IT INC",
+   "first_seen": "2026-11-01",
+   "location": "Phoenix, AZ, USA",
+   "posted_at": "2026-10-29",
+   "role": "frontend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "React Web developer with OneApp experience",
+   "url": "https://www.linkedin.com/jobs/view/4484558539"
   },
   "covetus:726907d270ad": {
    "company": "Covetus",
@@ -147932,6 +147996,18 @@
    "title": "Deep Learning Hardware Engineer",
    "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Santa-Clara/Deep-Learning-Hardware-Engineer_JR0288400"
   },
+  "intel:e09903c407ca": {
+   "company": "Intel",
+   "first_seen": "2026-11-01",
+   "location": "US, California, Folsom",
+   "posted_at": "2026-11-01",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "GPU Software Development Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/GPU-Software-Development-Engineer_JR0288200-1"
+  },
   "intel:e157e221c973": {
    "company": "Intel",
    "first_seen": "2026-10-21",
@@ -150671,6 +150747,19 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4473223203"
+  },
+  "jobot:8ed3b4a76bb5": {
+   "company": "Jobot",
+   "first_seen": "2026-11-01",
+   "location": "Montebello, CA, USA",
+   "posted_at": "2026-10-31",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4483946859"
   },
   "jobot:90a0c453d512": {
    "company": "Jobot",
@@ -168145,6 +168234,19 @@
    "title": "Software Developer",
    "url": "https://www.linkedin.com/jobs/view/4428202908"
   },
+  "mantech:b8ed03cf5c0e": {
+   "company": "MANTECH",
+   "first_seen": "2026-11-01",
+   "location": "Chantilly, VA, USA",
+   "posted_at": "2026-10-30",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "DevOps Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4483917062"
+  },
   "mantech:bfd69b44eaa9": {
    "company": "MANTECH",
    "first_seen": "2026-09-26",
@@ -168574,6 +168676,19 @@
    "tier": "intern",
    "title": "Test Engineering Intern",
    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Test-Engineering-Intern--BS---Summer-2027_2604537"
+  },
+  "marvin-engineering-company:08aa097a5b11": {
+   "company": "Marvin Engineering Company",
+   "first_seen": "2026-11-01",
+   "location": "Los Angeles Metropolitan Area",
+   "posted_at": "2026-10-30",
+   "role": "ml-ai",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "intern",
+   "title": "INTERN (AI DEVELOPER)",
+   "url": "https://www.linkedin.com/jobs/view/4485298816"
   },
   "mass-general-brigham:bb48a5e4b72c": {
    "company": "Mass General Brigham",
@@ -182731,6 +182846,19 @@
    "title": "Calling all Cleared Software Engineers!",
    "url": "https://www.linkedin.com/jobs/view/4472160758"
   },
+  "northrop-grumman:2ac975015bc3": {
+   "company": "Northrop Grumman",
+   "first_seen": "2026-11-01",
+   "location": "Aurora, CO, USA",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "2027 Associate Cyber Software Engineer - Pathways Program - Aurora CO",
+   "url": "https://www.linkedin.com/jobs/view/4485639523"
+  },
   "northrop-grumman:3134f48ec1dc": {
    "checked_at": "2026-10-02",
    "company": "Northrop Grumman",
@@ -183052,6 +183180,19 @@
    "tier": "experienced",
    "title": "Modeling & Simulation Systems Engineer",
    "url": "https://www.linkedin.com/jobs/view/4472253388"
+  },
+  "northrop-grumman:592ce8d01849": {
+   "company": "Northrop Grumman",
+   "first_seen": "2026-11-01",
+   "location": "Aurora, CO, USA",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Associate Software Engineer - Pathways Program - Aurora CO",
+   "url": "https://www.linkedin.com/jobs/view/4485293694"
   },
   "northrop-grumman:6139cc02cf1f": {
    "company": "Northrop Grumman",
@@ -264712,6 +264853,19 @@
    "title": "IAE Software Engineer Intern – Spring 2027",
    "url": "https://www.linkedin.com/jobs/view/4471777400"
   },
+  "university-of-south-florida:2cd7ca12a8bf": {
+   "company": "University of South Florida",
+   "first_seen": "2026-11-01",
+   "location": "Greater Tampa Bay Area",
+   "posted_at": "2026-10-30",
+   "role": "data",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer II",
+   "url": "https://www.linkedin.com/jobs/view/4483910294"
+  },
   "university-of-south-florida:6065ac0bd1da": {
    "company": "University of South Florida",
    "first_seen": "2026-09-26",
@@ -267835,6 +267989,7 @@
   },
   "verkada:8500e2cc1769": {
    "company": "Verkada",
+   "employer_url": "https://job-boards.greenhouse.io/verkada/jobs/5211595007",
    "first_seen": "2026-08-25",
    "location": "San Mateo, CA United States",
    "posted_at": "2026-08-25",
@@ -281442,22 +281597,22 @@
   "AMD": {
    "best": 400,
    "last": 400,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Abridge": {
    "best": 50,
    "last": 40,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Adobe": {
    "best": 190,
    "last": 157,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Affirm": {
    "best": 246,
    "last": 244,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Airbnb": {
    "best": 202,
@@ -281467,7 +281622,7 @@
   "Airtable": {
    "best": 16,
    "last": 5,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Amazon": {
    "best": 100,
@@ -281476,13 +281631,13 @@
   },
   "American Express": {
    "best": 500,
-   "last": 396,
-   "last_ok": "2026-10-31"
+   "last": 323,
+   "last_ok": "2026-11-01"
   },
   "Anduril": {
    "best": 2567,
-   "last": 2564,
-   "last_ok": "2026-10-31"
+   "last": 2562,
+   "last_ok": "2026-11-01"
   },
   "Anthropic": {
    "best": 684,
@@ -281492,97 +281647,97 @@
   "Anysphere": {
    "best": 137,
    "last": 125,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Apple": {
    "best": 164,
-   "last": 139,
+   "last": 140,
    "last_ok": "2026-11-01"
   },
   "Applied Intuition": {
    "best": 330,
    "last": 322,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Applied Materials": {
    "best": 195,
    "last": 194,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Asana": {
    "best": 126,
    "last": 110,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Attentive": {
    "best": 39,
    "last": 31,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Auto-Owners Insurance": {
    "best": 104,
    "last": 104,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Berkshire Hathaway Energy": {
    "best": 124,
-   "last": 119,
-   "last_ok": "2026-10-31"
+   "last": 118,
+   "last_ok": "2026-11-01"
   },
   "Betterment": {
    "best": 32,
    "last": 27,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Block": {
    "best": 231,
    "last": 204,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Boeing": {
    "best": 196,
    "last": 187,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Brex": {
    "best": 299,
    "last": 263,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "CVS Health": {
    "best": 200,
    "last": 200,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Capital One": {
    "best": 171,
-   "last": 152,
-   "last_ok": "2026-10-31"
+   "last": 151,
+   "last_ok": "2026-11-01"
   },
   "Carta": {
    "best": 78,
    "last": 76,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Cerebras": {
    "best": 125,
    "last": 116,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Checkr": {
    "best": 51,
    "last": 41,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Chime": {
    "best": 75,
    "last": 75,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Cisco": {
    "best": 144,
    "last": 143,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Citadel": {
    "best": 0,
@@ -281593,122 +281748,122 @@
   "Cloudflare": {
    "best": 465,
    "last": 464,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Cognition": {
    "best": 107,
    "last": 106,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Coinbase": {
    "best": 254,
    "last": 254,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "DTCC": {
    "best": 459,
    "last": 416,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Databricks": {
    "best": 909,
-   "last": 901,
-   "last_ok": "2026-10-31"
+   "last": 904,
+   "last_ok": "2026-11-01"
   },
   "Datadog": {
    "best": 456,
    "last": 397,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Decagon": {
    "best": 148,
    "last": 133,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Dell Technologies": {
    "best": 500,
-   "last": 456,
-   "last_ok": "2026-10-31"
+   "last": 453,
+   "last_ok": "2026-11-01"
   },
   "Discord": {
    "best": 52,
    "last": 41,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "DoorDash": {
    "best": 475,
    "last": 439,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Dropbox": {
    "best": 47,
    "last": 24,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Duolingo": {
    "best": 92,
    "last": 57,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Elastic": {
    "best": 423,
    "last": 407,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 144,
-   "last_ok": "2026-10-31"
+   "last": 138,
+   "last_ok": "2026-11-01"
   },
   "Emerson Electric": {
    "best": 500,
    "last": 500,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Expedia Group": {
    "best": 134,
    "last": 113,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Faire": {
    "best": 82,
    "last": 67,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Fidelity National Information Services": {
    "best": 183,
    "last": 175,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Figma": {
    "best": 165,
    "last": 140,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Flexport": {
    "best": 212,
    "last": 193,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "GM Financial": {
    "best": 132,
    "last": 125,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "General Motors": {
    "best": 198,
    "last": 195,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "GitLab": {
    "best": 239,
    "last": 238,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Glean": {
    "best": 137,
    "last": 127,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Google": {
    "best": 100,
@@ -281718,67 +281873,67 @@
   "Gusto": {
    "best": 104,
    "last": 84,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Harvey": {
    "best": 386,
    "last": 381,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Hewlett Packard Enterprise": {
    "best": 200,
    "last": 195,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Honeywell": {
    "best": 500,
    "last": 500,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "IMC Trading": {
    "best": 176,
    "last": 168,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Instacart": {
    "best": 131,
    "last": 96,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Intel": {
    "best": 173,
-   "last": 170,
-   "last_ok": "2026-10-31"
+   "last": 168,
+   "last_ok": "2026-11-01"
   },
   "JP Morgan Chase": {
    "best": 460,
    "last": 412,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Komodo Health": {
    "best": 37,
-   "last": 23,
-   "last_ok": "2026-10-31"
+   "last": 22,
+   "last_ok": "2026-11-01"
   },
   "Lazard": {
    "best": 137,
    "last": 127,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Linear": {
    "best": 34,
    "last": 31,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "LinkedIn (JobSpy)": {
    "best": 1281,
-   "last": 1028,
-   "last_ok": "2026-10-31"
+   "last": 955,
+   "last_ok": "2026-11-01"
   },
   "Lyft": {
    "best": 195,
    "last": 170,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Marqeta": {
    "best": 2,
@@ -281788,22 +281943,22 @@
   "Mastercard": {
    "best": 185,
    "last": 167,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Match Group": {
    "best": 81,
    "last": 62,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "McKesson": {
    "best": 194,
    "last": 192,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Mercury": {
    "best": 80,
    "last": 76,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Microsoft": {
    "best": 150,
@@ -281813,17 +281968,17 @@
   "MongoDB": {
    "best": 415,
    "last": 366,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "NOV": {
    "best": 500,
    "last": 500,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Navy Federal": {
    "best": 189,
-   "last": 156,
-   "last_ok": "2026-10-31"
+   "last": 153,
+   "last_ok": "2026-11-01"
   },
   "Netflix": {
    "best": 10,
@@ -281833,17 +281988,17 @@
   "Nokia": {
    "best": 500,
    "last": 500,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Notion": {
    "best": 148,
    "last": 148,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Nuro": {
    "best": 111,
    "last": 95,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Nvidia": {
    "best": 197,
@@ -281853,7 +282008,7 @@
   "Okta": {
    "best": 400,
    "last": 387,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "OpenAI": {
    "best": 842,
@@ -281863,117 +282018,117 @@
   "OpenEvidence": {
    "best": 11,
    "last": 8,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Oracle": {
    "best": 500,
    "last": 500,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "PagerDuty": {
    "best": 61,
    "last": 47,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Palantir": {
    "best": 324,
    "last": 301,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Peloton": {
    "best": 61,
    "last": 58,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Perplexity": {
    "best": 138,
    "last": 138,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Pinterest": {
    "best": 225,
    "last": 170,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Plaid": {
    "best": 135,
    "last": 132,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "RELX": {
    "best": 196,
    "last": 189,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Ramp": {
    "best": 173,
    "last": 172,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Reddit": {
    "best": 164,
    "last": 163,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Replit": {
    "best": 79,
    "last": 34,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Robinhood": {
    "best": 182,
    "last": 160,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Roblox": {
    "best": 271,
    "last": 268,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Salesforce": {
    "best": 178,
-   "last": 175,
-   "last_ok": "2026-10-31"
+   "last": 176,
+   "last_ok": "2026-11-01"
   },
   "Samsara": {
-   "best": 328,
-   "last": 324,
-   "last_ok": "2026-10-31"
+   "best": 338,
+   "last": 338,
+   "last_ok": "2026-11-01"
   },
   "Scale AI": {
    "best": 228,
    "last": 170,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Sierra": {
    "best": 220,
    "last": 220,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Simplify Aggregator": {
    "best": 2489,
-   "last": 2072,
-   "last_ok": "2026-10-31"
+   "last": 2020,
+   "last_ok": "2026-11-01"
   },
   "Snowflake": {
    "best": 393,
    "last": 366,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "SoFi": {
    "best": 64,
    "last": 62,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "SpaceX": {
    "best": 2874,
    "last": 2874,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Spotify": {
    "best": 95,
    "last": 89,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Stripe": {
    "best": 748,
@@ -281983,12 +282138,12 @@
   "Suno": {
    "best": 73,
    "last": 71,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Target": {
    "best": 200,
    "last": 194,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Tesla": {
    "best": 0,
@@ -281999,27 +282154,27 @@
   "The Toro Company": {
    "best": 139,
    "last": 134,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "The Walt Disney Company": {
    "best": 168,
-   "last": 153,
-   "last_ok": "2026-10-31"
+   "last": 150,
+   "last_ok": "2026-11-01"
   },
   "Trimble": {
    "best": 157,
    "last": 156,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Twilio": {
    "best": 154,
    "last": 132,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Two Sigma": {
    "best": 63,
    "last": 62,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Uber": {
    "best": 0,
@@ -282030,37 +282185,37 @@
   "Upstart": {
    "best": 101,
    "last": 88,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Vanta": {
    "best": 112,
    "last": 79,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Verizon": {
    "best": 142,
    "last": 126,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Verkada": {
    "best": 337,
    "last": 335,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Visa": {
    "best": 183,
    "last": 175,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 74,
-   "last_ok": "2026-10-31"
+   "last": 66,
+   "last_ok": "2026-11-01"
   },
   "Waymo": {
    "best": 374,
    "last": 372,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Webflow": {
    "best": 31,
@@ -282069,15 +282224,15 @@
   },
   "Whoop": {
    "best": 173,
-   "last": 133,
-   "last_ok": "2026-10-31"
+   "last": 134,
+   "last_ok": "2026-11-01"
   },
   "xAI": {
    "best": 308,
    "last": 308,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   }
  },
- "updated": "2026-11-01T00:19:31Z",
+ "updated": "2026-11-01T06:42:12Z",
  "version": 1
 }
