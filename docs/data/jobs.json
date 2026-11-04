@@ -19959,6 +19959,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10573518/software-development-engineer-developer-experience",
    "yoe": 1
   },
+  "amazon:a45486663cbf": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-04",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Experience Analytics",
+   "url": "https://www.amazon.jobs/en/jobs/10596654/software-development-engineer-aws-experience-analytics",
+   "yoe": 1
+  },
   "amazon:a45f4f30b002": {
    "company": "Amazon",
    "department": "Software Development",
@@ -39757,6 +39772,19 @@
    "title": "Software Data Engineer, Sensing & Connectivity ",
    "url": "https://jobs.apple.com/en-us/details/200689577/software-data-engineer-sensing-connectivity"
   },
+  "apple:13f050627e22": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-04",
+   "location": "Austin",
+   "posted_at": "2026-11-04",
+   "role": "solutions",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Software Engineer - Platforms Engineering, Enterprise Technology Services",
+   "url": "https://jobs.apple.com/en-us/details/200693427/forward-deployed-software-engineer-platforms-engineering-enterprise-technology-services"
+  },
   "apple:154b4bcba744": {
    "company": "Apple",
    "department": "Software and Services",
@@ -41342,6 +41370,19 @@
    "tier": "experienced",
    "title": "Embedded Firmware Verification Engineer",
    "url": "https://jobs.apple.com/en-us/details/200685902/embedded-firmware-verification-engineer"
+  },
+  "apple:824eea3eb38b": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-04",
+   "location": "Cupertino",
+   "posted_at": "2026-11-04",
+   "role": "backend",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer in Test (SDET), Web + Server — Find My",
+   "url": "https://jobs.apple.com/en-us/details/200693352/software-development-engineer-in-test-sdet-web-server-find-my"
   },
   "apple:8400e10516dc": {
    "company": "Apple",
@@ -179984,6 +180025,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557040468",
    "workplace": "On-site"
   },
+  "microsoft:036adfb51f9a": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-04",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-11-04",
+   "role": "devops-sre",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer II",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557051412",
+   "workplace": "On-site"
+  },
   "microsoft:03f21c274df6": {
    "company": "Microsoft",
    "department": "Software Engineering",
@@ -181504,6 +181559,20 @@
    "tier": "intern",
    "title": "Data Science - Forward Deployed Engineer: PhD Internship Opportunities",
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557040991",
+   "workplace": "On-site"
+  },
+  "microsoft:dc9a2b3e3a0a": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-04",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556982635",
    "workplace": "On-site"
   },
   "microsoft:deb698394a45": {
@@ -293486,7 +293555,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 149,
+   "last": 155,
    "last_ok": "2026-11-04"
   },
   "Applied Intuition": {
@@ -293967,7 +294036,7 @@
   },
   "Stripe": {
    "best": 756,
-   "last": 756,
+   "last": 755,
    "last_ok": "2026-11-04"
   },
   "Suno": {
@@ -294068,6 +294137,6 @@
    "last_ok": "2026-11-04"
   }
  },
- "updated": "2026-11-04T16:39:27Z",
+ "updated": "2026-11-04T17:25:47Z",
  "version": 1
 }
