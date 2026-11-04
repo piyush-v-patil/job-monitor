@@ -20890,6 +20890,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10596041/software-development-engineer-ii-customer-terminal-aviation-quality",
    "yoe": 1
   },
+  "amazon:b313205d12a7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-04",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Antenna Calibration, Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10597211/software-dev-engineer-antenna-calibration-amazon-leo",
+   "yoe": 1
+  },
   "amazon:b3837d6a6476": {
    "company": "Amazon",
    "department": "Software Development",
@@ -41805,6 +41820,19 @@
    "tier": "experienced",
    "title": "Wireless PHY Systems Engineer — Pre-Silicon Emulation",
    "url": "https://jobs.apple.com/en-us/details/200689125/wireless-phy-systems-engineer-pre-silicon-emulation"
+  },
+  "apple:88d51f1ec3ff": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-04",
+   "location": "Sunnyvale",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Cellular Software Enablement Engineer, Wireless Technologies & Ecosystems",
+   "url": "https://jobs.apple.com/en-us/details/200693290/cellular-software-enablement-engineer-wireless-technologies-ecosystems"
   },
   "apple:8a0dee59d6ed": {
    "company": "Apple",
@@ -295106,7 +295134,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 813,
+   "last": 811,
    "last_ok": "2026-11-04"
   },
   "OpenEvidence": {
@@ -295225,8 +295253,8 @@
    "last_ok": "2026-11-04"
   },
   "Stripe": {
-   "best": 757,
-   "last": 757,
+   "best": 758,
+   "last": 758,
    "last_ok": "2026-11-04"
   },
   "Suno": {
@@ -295327,6 +295355,6 @@
    "last_ok": "2026-11-04"
   }
  },
- "updated": "2026-11-04T22:13:04Z",
+ "updated": "2026-11-04T22:47:28Z",
  "version": 1
 }
