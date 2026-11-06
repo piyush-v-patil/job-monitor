@@ -22171,6 +22171,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10596899/software-development-engineer-provisioning-amazon-leo",
    "yoe": 1
   },
+  "amazon:c476161c0814": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-06",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-06",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10598335/software-development-engineer",
+   "yoe": 1
+  },
   "amazon:c4af2a5bf884": {
    "company": "Amazon",
    "department": "Software Development",
@@ -139489,6 +139504,17 @@
    "title": "Software Engineer, Chrome Networking Security",
    "url": "https://www.google.com/about/careers/applications/jobs/results/75161696074638022-software-engineer-chrome-networking-security"
   },
+  "google:ab52235e159d": {
+   "company": "Google",
+   "first_seen": "2026-11-06",
+   "location": "Reston, VA, USA; Washington D.C., DC, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, AI/ML, Technical Delivery, Google Public Sector",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/116649057224401606-software-engineer-aiml-technical-delivery-google-public-sector"
+  },
   "google:abb08100db1d": {
    "company": "Google",
    "first_seen": "2026-09-01",
@@ -185128,6 +185154,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557037774",
    "workplace": "On-site"
   },
+  "microsoft:981b9a4cd182": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-06",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-11-06",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer 2 - CoreAI",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557054056",
+   "workplace": "On-site"
+  },
   "microsoft:98f4540e6984": {
    "company": "Microsoft",
    "department": "Software Engineering",
@@ -204431,6 +204471,21 @@
    "url": "https://jobs.ashbyhq.com/openai/a4332746-163e-4506-b62a-90758fb7a950",
    "workplace": "On-site",
    "yoe": 6
+  },
+  "openai:72b2d810a23a": {
+   "comp": "$265K – $380K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Data Science",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-06",
+   "location": "San Francisco",
+   "posted_at": "2026-11-06",
+   "role": "data",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist, Preparedness",
+   "url": "https://jobs.ashbyhq.com/openai/bd1ac97f-20f9-4727-9f92-7064035a416f"
   },
   "openai:7414b11f084c": {
    "comp": "$162K – $280K • Offers Equity",
@@ -299622,7 +299677,7 @@
   },
   "Airbnb": {
    "best": 213,
-   "last": 202,
+   "last": 203,
    "last_ok": "2026-11-06"
   },
   "Airtable": {
@@ -299647,7 +299702,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 674,
+   "last": 673,
    "last_ok": "2026-11-06"
   },
   "Anysphere": {
@@ -299657,7 +299712,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 153,
+   "last": 156,
    "last_ok": "2026-11-06"
   },
   "Applied Intuition": {
@@ -300008,7 +300063,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 192,
+   "last": 191,
    "last_ok": "2026-11-06"
   },
   "Okta": {
@@ -300018,7 +300073,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 823,
+   "last": 819,
    "last_ok": "2026-11-06"
   },
   "OpenEvidence": {
@@ -300138,7 +300193,7 @@
   },
   "Stripe": {
    "best": 768,
-   "last": 764,
+   "last": 766,
    "last_ok": "2026-11-06"
   },
   "Suno": {
@@ -300239,6 +300294,6 @@
    "last_ok": "2026-11-06"
   }
  },
- "updated": "2026-11-06T12:30:40Z",
+ "updated": "2026-11-06T18:15:44Z",
  "version": 1
 }
