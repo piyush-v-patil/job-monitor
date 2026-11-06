@@ -16841,6 +16841,20 @@
    "url": "https://www.amazon.jobs/en/jobs/10579025/software-development-engineer-ii",
    "yoe": 1
   },
+  "amazon:68c0c7d1bdcc": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-06",
+   "location": "Cupertino, California, USA",
+   "posted_at": "2026-11-06",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, SoC HAL",
+   "url": "https://www.amazon.jobs/en/jobs/10598432/software-development-engineer-soc-hal"
+  },
   "amazon:68d87b5455d6": {
    "company": "Amazon",
    "department": "Software Development",
@@ -39049,6 +39063,18 @@
    "title": "Software Engineer, Memory & Search",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456453008"
   },
+  "anthropic:cabe7ccb4638": {
+   "company": "Anthropic",
+   "first_seen": "2026-11-06",
+   "location": "San Francisco, CA | New York City, NY",
+   "posted_at": "2026-11-06",
+   "role": "ml-ai",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5463598008"
+  },
   "anthropic:caeabafb82d3": {
    "company": "Anthropic",
    "first_seen": "2026-08-22",
@@ -42174,6 +42200,19 @@
    "title": "Software Quality Engineer, Retail & Marcom Engineering",
    "url": "https://jobs.apple.com/en-us/details/200687576/software-quality-engineer-retail-marcom-engineering"
   },
+  "apple:75fead0fd192": {
+   "company": "Apple",
+   "department": "Operations and Supply Chain",
+   "first_seen": "2026-11-06",
+   "location": "Cupertino",
+   "posted_at": "2026-11-06",
+   "role": "qa-test",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Operations Test Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200691102/operations-test-engineer"
+  },
   "apple:788964a90889": {
    "company": "Apple",
    "department": "Software and Services",
@@ -43942,6 +43981,19 @@
    "tier": "experienced",
    "title": "Software QA Engineer, Fitness Watch Software, Sensing & Connectivity",
    "url": "https://jobs.apple.com/en-us/details/200690788/software-qa-engineer-fitness-watch-software-sensing-connectivity"
+  },
+  "apple:d7aeda593bb6": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-11-06",
+   "location": "Cupertino",
+   "posted_at": "2026-11-06",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AirPods Analog Systems Engineer, Power",
+   "url": "https://jobs.apple.com/en-us/details/200693797/airpods-analog-systems-engineer-power"
   },
   "apple:d82ae665474f": {
    "company": "Apple",
@@ -299257,7 +299309,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 676,
+   "last": 674,
    "last_ok": "2026-11-06"
   },
   "Anysphere": {
@@ -299267,7 +299319,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 152,
+   "last": 153,
    "last_ok": "2026-11-06"
   },
   "Applied Intuition": {
@@ -299483,7 +299535,7 @@
   },
   "Google": {
    "best": 100,
-   "last": 100,
+   "last": 98,
    "last_ok": "2026-11-06"
   },
   "Gusto": {
@@ -299628,7 +299680,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 822,
+   "last": 823,
    "last_ok": "2026-11-06"
   },
   "OpenEvidence": {
@@ -299748,7 +299800,7 @@
   },
   "Stripe": {
    "best": 768,
-   "last": 767,
+   "last": 765,
    "last_ok": "2026-11-06"
   },
   "Suno": {
@@ -299849,6 +299901,6 @@
    "last_ok": "2026-11-06"
   }
  },
- "updated": "2026-11-06T10:46:04Z",
+ "updated": "2026-11-06T11:22:04Z",
  "version": 1
 }
