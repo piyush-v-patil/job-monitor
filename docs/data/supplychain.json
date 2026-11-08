@@ -114958,6 +114958,19 @@
    "title": "Supply Planner",
    "url": "https://www.linkedin.com/jobs/view/4477390030"
   },
+  "thermo-fisher-scientific:3c8a64b6c704": {
+   "company": "Thermo Fisher Scientific",
+   "first_seen": "2026-11-08",
+   "location": "Madison, WI, USA",
+   "posted_at": "2026-11-08",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Supply Planner/Supply Chain Analyst II",
+   "url": "https://www.linkedin.com/jobs/view/4487101197"
+  },
   "thermo-fisher-scientific:5478a27caac6": {
    "company": "Thermo Fisher Scientific",
    "first_seen": "2026-09-25",
@@ -124204,6 +124217,21 @@
    "title": "Process Engineer - Supply Chain",
    "url": "https://careers.walmart.com/us/en/job/R-2656430"
   },
+  "walmart-global-tech:72b9c5b44d6f": {
+   "comp": "$104,000 - $156,000 Annual",
+   "company": "Walmart Global Tech",
+   "department": "Corporate",
+   "employment_type": "Full time",
+   "first_seen": "2026-11-08",
+   "location": "Midway, TN",
+   "posted_at": "2026-10-27",
+   "role": "supply-chain",
+   "source": "walmart careers",
+   "status": "new",
+   "tier": "manager",
+   "title": "Manager II, Process Engineer - Supply Chain DC 6039 Midway TN",
+   "url": "https://careers.walmart.com/us/en/job/R-2691062"
+  },
   "walmart-global-tech:72cf8c5e6baa": {
    "comp": "$21 - $40 Hourly",
    "company": "Walmart Global Tech",
@@ -130022,7 +130050,7 @@
   },
   "Abbott": {
    "best": 535,
-   "last": 521,
+   "last": 520,
    "last_ok": "2026-11-08"
   },
   "Airbnb": {
@@ -130032,7 +130060,7 @@
   },
   "Amazon": {
    "best": 74,
-   "last": 73,
+   "last": 72,
    "last_ok": "2026-11-08"
   },
   "Anduril": {
@@ -130057,12 +130085,12 @@
   },
   "Boeing": {
    "best": 319,
-   "last": 300,
+   "last": 299,
    "last_ok": "2026-11-08"
   },
   "CVS Health": {
    "best": 356,
-   "last": 356,
+   "last": 355,
    "last_ok": "2026-11-08"
   },
   "Carvana": {
@@ -130142,7 +130170,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 738,
-   "last": 276,
+   "last": 173,
    "last_ok": "2026-11-08"
   },
   "Liquid Death": {
@@ -130157,12 +130185,12 @@
   },
   "Lyft": {
    "best": 196,
-   "last": 167,
+   "last": 166,
    "last_ok": "2026-11-08"
   },
   "Medtronic": {
    "best": 451,
-   "last": 388,
+   "last": 386,
    "last_ok": "2026-11-08"
   },
   "Micron": {
@@ -130182,7 +130210,7 @@
   },
   "Nike": {
    "best": 182,
-   "last": 161,
+   "last": 160,
    "last_ok": "2026-11-08"
   },
   "Nuro": {
@@ -130252,7 +130280,7 @@
   },
   "Target": {
    "best": 445,
-   "last": 343,
+   "last": 344,
    "last_ok": "2026-11-08"
   },
   "Thrive Market": {
@@ -130277,12 +130305,12 @@
   },
   "Walmart Global Tech": {
    "best": 268,
-   "last": 228,
+   "last": 242,
    "last_ok": "2026-11-08"
   },
   "Waymo": {
    "best": 373,
-   "last": 370,
+   "last": 369,
    "last_ok": "2026-11-08"
   },
   "Zebra Technologies": {
@@ -130291,6 +130319,6 @@
    "last_ok": "2026-11-08"
   }
  },
- "updated": "2026-11-08T10:10:11Z",
+ "updated": "2026-11-08T12:56:44Z",
  "version": 1
 }
