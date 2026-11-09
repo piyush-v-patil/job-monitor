@@ -24300,6 +24300,21 @@
    "title": "Data Engineer II, DSP Analytics",
    "url": "https://www.linkedin.com/jobs/view/4485271613"
   },
+  "amazon:e07740c5d3b5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-09",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-11-09",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Amazon LEO, LEO Pop Control Plane",
+   "url": "https://www.amazon.jobs/en/jobs/10600252/software-development-engineer-amazon-leo-leo-pop-control-plane",
+   "yoe": 1
+  },
   "amazon:e0b915b21356": {
    "company": "Amazon",
    "department": "Software Development",
@@ -306273,7 +306288,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 149,
+   "last": 145,
    "last_ok": "2026-11-09"
   },
   "Applied Intuition": {
@@ -306584,7 +306599,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 150,
+   "last": 149,
    "last_ok": "2026-11-09"
   },
   "MongoDB": {
@@ -306634,7 +306649,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 812,
+   "last": 811,
    "last_ok": "2026-11-09"
   },
   "OpenEvidence": {
@@ -306855,6 +306870,6 @@
    "last_ok": "2026-11-09"
   }
  },
- "updated": "2026-11-09T19:07:39Z",
+ "updated": "2026-11-09T19:57:53Z",
  "version": 1
 }
