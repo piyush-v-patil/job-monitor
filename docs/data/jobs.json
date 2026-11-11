@@ -22801,6 +22801,20 @@
    "url": "https://www.amazon.jobs/en/jobs/10512938/embedded-software-development-engineer-sensor-compute-amazon-robotics",
    "yoe": 1
   },
+  "amazon:be2187a07b52": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "San Francisco, California, USA",
+   "posted_at": "2026-11-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer I, Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10599912/software-engineer-i-commerce"
+  },
   "amazon:be35fedf84b5": {
    "company": "Amazon",
    "department": "Software Development",
@@ -44246,6 +44260,19 @@
    "tier": "experienced",
    "title": "Full stack/iOS Engineer (iOS + Backend) - iCloud Products",
    "url": "https://jobs.apple.com/en-us/details/200687574/full-stack-ios-engineer-ios-backend-icloud-products"
+  },
+  "apple:491e33bff735": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-11",
+   "location": "Cupertino",
+   "posted_at": "2026-11-11",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Automations and Shortcuts, Proactive",
+   "url": "https://jobs.apple.com/en-us/details/200675289/software-engineer-automations-and-shortcuts-proactive"
   },
   "apple:49d96a8458f8": {
    "company": "Apple",
@@ -144850,6 +144877,17 @@
    "tier": "experienced",
    "title": "Technical Lead, YouTube Posts Discovery, Machine Learning and Recommendation",
    "url": "https://www.google.com/about/careers/applications/jobs/results/72482495743828678-technical-lead-youtube-posts-discovery-machine-learning-and-recommendation"
+  },
+  "google:880165f7d8e9": {
+   "company": "Google",
+   "first_seen": "2026-11-11",
+   "location": "Mountain View, CA, USA",
+   "role": "embedded",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Agentic Model Serving, Robotics, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/117013208174076614-software-engineer-agentic-model-serving-robotics-deepmind"
   },
   "google:8863ee4c3b0a": {
    "company": "Google",
@@ -312803,7 +312841,7 @@
   },
   "Airbnb": {
    "best": 213,
-   "last": 202,
+   "last": 199,
    "last_ok": "2026-11-11"
   },
   "Airtable": {
@@ -312828,7 +312866,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 679,
+   "last": 677,
    "last_ok": "2026-11-11"
   },
   "Anysphere": {
@@ -312838,7 +312876,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 161,
+   "last": 163,
    "last_ok": "2026-11-11"
   },
   "Applied Intuition": {
@@ -313420,6 +313458,6 @@
    "last_ok": "2026-11-11"
   }
  },
- "updated": "2026-11-11T02:08:55Z",
+ "updated": "2026-11-11T08:07:29Z",
  "version": 1
 }
