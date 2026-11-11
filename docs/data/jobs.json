@@ -43218,6 +43218,19 @@
    "title": "Software Development Engineer (Developer Experience and Platform Tools)",
    "url": "https://jobs.apple.com/en-us/details/200674593/software-development-engineer-developer-experience-and-platform-tools"
   },
+  "apple:073e27089150": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-11-11",
+   "location": "Cupertino",
+   "posted_at": "2026-11-11",
+   "role": "embedded",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SoC Embedded Software Engineer for Factory",
+   "url": "https://jobs.apple.com/en-us/details/200694418/soc-embedded-software-engineer-for-factory"
+  },
   "apple:09ad373dc320": {
    "company": "Apple",
    "department": "Hardware",
@@ -44166,6 +44179,19 @@
    "tier": "experienced",
    "title": "Software Engineer - Power and Performance Analytics Platform",
    "url": "https://jobs.apple.com/en-us/details/200691225/software-engineer-power-and-performance-analytics-platform"
+  },
+  "apple:398e0f071c26": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-11-11",
+   "location": "Cupertino",
+   "posted_at": "2026-11-11",
+   "role": "embedded",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SoC Embedded Software Engineer for Factory",
+   "url": "https://jobs.apple.com/en-us/details/200694412/soc-embedded-software-engineer-for-factory"
   },
   "apple:3ab43a642756": {
    "company": "Apple",
@@ -142794,6 +142820,17 @@
    "title": "Software Engineer III, Infrastructure, Telemetry Router",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91620209663582918-software-engineer-iii-infrastructure-telemetry-router"
   },
+  "google:27ff796963fd": {
+   "company": "Google",
+   "first_seen": "2026-11-11",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML Recommendations, Rankings, Predictions",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/108702755693961926-software-engineer-iii-aiml-recommendations-rankings-predictions"
+  },
   "google:2806c7703be5": {
    "company": "Google",
    "first_seen": "2026-10-05",
@@ -144101,6 +144138,17 @@
    "tier": "experienced",
    "title": "Software Engineer, Agentic AI and LLMs, Google Ads",
    "url": "https://www.google.com/about/careers/applications/jobs/results/89777444013122246-software-engineer-agentic-ai-and-llms-google-ads"
+  },
+  "google:5a7a0418a52e": {
+   "company": "Google",
+   "first_seen": "2026-11-11",
+   "location": "San Jose, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Software Engineer, Multimodal Agentic AI for Glasses",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/82894606449943238-ai-software-engineer-multimodal-agentic-ai-for-glasses"
   },
   "google:5ac53fba0eb5": {
    "company": "Google",
@@ -147152,6 +147200,17 @@
    "title": "Software Engineer III, AI/ML, Image Recommendation Modeling",
    "url": "https://www.google.com/about/careers/applications/jobs/results/92885100080833222-software-engineer-iii-aiml-image-recommendation-modeling"
   },
+  "google:d23dc1001428": {
+   "company": "Google",
+   "first_seen": "2026-11-11",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Supportability Technical Lead, AI/ML, Support, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/127475542348702406-supportability-technical-lead-aiml-support-google-cloud"
+  },
   "google:d2dd0aee6417": {
    "company": "Google",
    "first_seen": "2026-10-07",
@@ -147240,6 +147299,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Agentic Systems and Production Safety",
    "url": "https://www.google.com/about/careers/applications/jobs/results/88565947823989446-software-engineer-iii-agentic-systems-and-production-safety"
+  },
+  "google:d849da6bfd2a": {
+   "company": "Google",
+   "first_seen": "2026-11-11",
+   "location": "Kirkland, WA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, BigQuery Engine Infrastructure",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/113478759327113926-software-engineer-iii-bigquery-engine-infrastructure"
   },
   "google:d877dd5b4f8a": {
    "company": "Google",
@@ -147363,6 +147433,17 @@
    "tier": "experienced",
    "title": "Android Platform Developer Relations Engineer",
    "url": "https://www.google.com/about/careers/applications/jobs/results/109784236243722950-android-platform-developer-relations-engineer"
+  },
+  "google:dab193c20a65": {
+   "company": "Google",
+   "first_seen": "2026-11-11",
+   "location": "Cambridge, MA, USA",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/93439678874559174-software-engineer-iii-full-stack"
   },
   "google:dac43339932c": {
    "company": "Google",
@@ -148112,6 +148193,17 @@
    "tier": "experienced",
    "title": "Hardware/Software Co-Design Engineer, Inference",
    "url": "https://www.google.com/about/careers/applications/jobs/results/78591866605314758-hardwaresoftware-codesign-engineer-inference"
+  },
+  "google:f6508a3486dc": {
+   "company": "Google",
+   "first_seen": "2026-11-11",
+   "location": "New York, NY, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer, DeepMind Agentic Detection and Response",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/143922037276975814-security-engineer-deepmind-agentic-detection-and-response"
   },
   "google:f6f169bb8556": {
    "company": "Google",
@@ -313554,7 +313646,7 @@
   },
   "Airbnb": {
    "best": 213,
-   "last": 201,
+   "last": 211,
    "last_ok": "2026-11-11"
   },
   "Airtable": {
@@ -313579,7 +313671,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 677,
+   "last": 675,
    "last_ok": "2026-11-11"
   },
   "Anysphere": {
@@ -313589,7 +313681,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 163,
+   "last": 161,
    "last_ok": "2026-11-11"
   },
   "Applied Intuition": {
@@ -313900,7 +313992,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 150,
+   "last": 149,
    "last_ok": "2026-11-11"
   },
   "MongoDB": {
@@ -313950,7 +314042,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 828,
+   "last": 824,
    "last_ok": "2026-11-11"
   },
   "OpenEvidence": {
@@ -314069,8 +314161,8 @@
    "last_ok": "2026-11-11"
   },
   "Stripe": {
-   "best": 779,
-   "last": 779,
+   "best": 782,
+   "last": 782,
    "last_ok": "2026-11-11"
   },
   "Suno": {
@@ -314171,6 +314263,6 @@
    "last_ok": "2026-11-11"
   }
  },
- "updated": "2026-11-11T10:47:14Z",
+ "updated": "2026-11-11T17:23:58Z",
  "version": 1
 }
