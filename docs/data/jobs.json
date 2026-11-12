@@ -12074,6 +12074,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10512148/software-development-engineer-amazon-workspaces",
    "yoe": 2
   },
+  "amazon:0b5291b5bc42": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-12",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-11-12",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer, Sponsored Products and Brands",
+   "url": "https://www.amazon.jobs/en/jobs/10603409/machine-learning-engineer-sponsored-products-and-brands",
+   "yoe": 1
+  },
   "amazon:0b8fd155ac92": {
    "company": "Amazon",
    "department": "Software Development",
@@ -12664,6 +12679,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, Amazon Rufus",
    "url": "https://www.linkedin.com/jobs/view/4483719751"
+  },
+  "amazon:15e276298c1b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-12",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-12",
+   "role": "backend",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, EC2 UltraServer Delivery Team",
+   "url": "https://www.amazon.jobs/en/jobs/10602901/software-development-engineer-ec2-ultraserver-delivery-team",
+   "yoe": 1
   },
   "amazon:166b44d86a65": {
    "company": "Amazon",
@@ -16546,6 +16576,21 @@
    "title": "Software Development Engineer, Amazon Leo, Early Career - 2027 (US)",
    "url": "https://www.amazon.jobs/en/jobs/10597803/software-development-engineer-amazon-leo-early-career-2027-us",
    "yoe": 18
+  },
+  "amazon:565809801acb": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-12",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-12",
+   "role": "backend",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, EC2 UltraServer Delivery Team",
+   "url": "https://www.amazon.jobs/en/jobs/10602907/software-development-engineer-ec2-ultraserver-delivery-team",
+   "yoe": 2
   },
   "amazon:565880427324": {
    "company": "Amazon",
@@ -21455,6 +21500,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer , Amazon Leo , Amazon Leo Commerce",
    "url": "https://www.amazon.jobs/en/jobs/10536359/software-development-engineer-amazon-leo-amazon-leo-commerce",
+   "yoe": 1
+  },
+  "amazon:a2048ece8729": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-12",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Frontier Core Platform Team ",
+   "url": "https://www.amazon.jobs/en/jobs/10603380/software-development-engineer-frontier-core-platform-team",
    "yoe": 1
   },
   "amazon:a27731544ce0": {
@@ -47770,6 +47830,19 @@
    "tier": "experienced",
    "title": "DevOps Engineer, Retail and Marcom Engineering",
    "url": "https://jobs.apple.com/en-us/details/200689607/devops-engineer-retail-and-marcom-engineering"
+  },
+  "apple:de85a587bbf6": {
+   "company": "Apple",
+   "department": "Corporate Functions",
+   "first_seen": "2026-11-12",
+   "location": "Austin",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AIOps Software Engineer - Strategic Data Solutions",
+   "url": "https://jobs.apple.com/en-us/details/200693736/aiops-software-engineer-strategic-data-solutions"
   },
   "apple:def5901cb76c": {
    "company": "Apple",
@@ -147376,6 +147449,17 @@
    "title": "Software Engineer III, AI/ML, App Ads Quality",
    "url": "https://www.google.com/about/careers/applications/jobs/results/86496792568308422-software-engineer-iii-aiml-app-ads-quality"
   },
+  "google:a617f25826be": {
+   "company": "Google",
+   "first_seen": "2026-11-12",
+   "location": "Kirkland, WA, USA; Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Knowledge Catalog For AI",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/99790896123257542-software-engineer-knowledge-catalog-for-ai"
+  },
   "google:a74f2e4bf65b": {
    "company": "Google",
    "first_seen": "2026-09-11",
@@ -148522,6 +148606,17 @@
    "title": "Software Engineer III, Mobile (Android), Android Ecosystem",
    "url": "https://www.google.com/about/careers/applications/jobs/results/75791736906883782-software-engineer-iii-mobile-android-android-ecosystem"
   },
+  "google:d7166f471a1f": {
+   "company": "Google",
+   "first_seen": "2026-11-12",
+   "location": "Cambridge, MA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Cloud Platforms",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/79841494587843270-software-engineer-iii-infrastructure-google-cloud-platforms"
+  },
   "google:d73521b5adfb": {
    "company": "Google",
    "first_seen": "2026-08-31",
@@ -149426,6 +149521,17 @@
    "tier": "experienced",
    "title": "Hardware/Software Co-Design Engineer, Inference",
    "url": "https://www.google.com/about/careers/applications/jobs/results/78591866605314758-hardwaresoftware-codesign-engineer-inference"
+  },
+  "google:f641cd717d3d": {
+   "company": "Google",
+   "first_seen": "2026-11-12",
+   "location": "Boulder, CO, USA",
+   "role": "data",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer, gUP Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/98668707068158662-data-engineer-gup-engineering"
   },
   "google:f6508a3486dc": {
    "company": "Google",
@@ -195131,6 +195237,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557039397",
    "workplace": "On-site"
   },
+  "microsoft:3a91462307fc": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-12",
+   "location": "Reston, VA, US; Redmond, WA, US",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - CTJ - Poly",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557053504",
+   "workplace": "On-site"
+  },
   "microsoft:3b6a03d0350c": {
    "company": "Microsoft",
    "department": "Software Engineering",
@@ -195451,6 +195571,20 @@
    "tier": "experienced",
    "title": "Software Engineer II - CTJ - TS/SCI",
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557040178",
+   "workplace": "On-site"
+  },
+  "microsoft:5fdcddf14b70": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-12",
+   "location": "Redmond, WA, US; Mountain View, CA, US",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer 2 - CoreAI",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557004889",
    "workplace": "On-site"
   },
   "microsoft:626a81ec39b1": {
@@ -316466,8 +316600,8 @@
    "last_ok": "2026-11-12"
   },
   "Airbnb": {
-   "best": 213,
-   "last": 207,
+   "best": 215,
+   "last": 215,
    "last_ok": "2026-11-12"
   },
   "Airtable": {
@@ -316492,7 +316626,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 674,
+   "last": 670,
    "last_ok": "2026-11-12"
   },
   "Anysphere": {
@@ -316502,7 +316636,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 162,
+   "last": 163,
    "last_ok": "2026-11-12"
   },
   "Applied Intuition": {
@@ -316863,7 +316997,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 822,
+   "last": 827,
    "last_ok": "2026-11-12"
   },
   "OpenEvidence": {
@@ -316983,7 +317117,7 @@
   },
   "Stripe": {
    "best": 787,
-   "last": 787,
+   "last": 782,
    "last_ok": "2026-11-12"
   },
   "Suno": {
@@ -317084,6 +317218,6 @@
    "last_ok": "2026-11-12"
   }
  },
- "updated": "2026-11-12T10:57:30Z",
+ "updated": "2026-11-12T17:41:55Z",
  "version": 1
 }
