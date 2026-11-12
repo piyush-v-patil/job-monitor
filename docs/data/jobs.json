@@ -14415,6 +14415,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10512552/software-development-engineer-s3-glacier",
    "yoe": 1
   },
+  "amazon:310cf4eee884": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-12",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-11-12",
+   "role": "embedded",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - Embedded Networking, Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10599139/software-engineer-ii-embedded-networking-amazon-leo",
+   "yoe": 1
+  },
   "amazon:315197909708": {
    "company": "Amazon",
    "department": "Software Development",
@@ -20536,6 +20551,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10517077/software-development-engineer-leo-secure-communications-team",
    "yoe": 1
   },
+  "amazon:959179e7a1fc": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-12",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-12",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Ads AI Core Infra",
+   "url": "https://www.amazon.jobs/en/jobs/10601951/software-development-engineer-ii-ads-ai-core-infra",
+   "yoe": 2
+  },
   "amazon:95e011aa18f5": {
    "company": "Amazon",
    "department": "Software Development",
@@ -21560,6 +21590,21 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, Connections CODEX Team",
    "url": "https://www.amazon.jobs/en/jobs/10591801/software-development-engineer-ii-connections-codex-team",
+   "yoe": 1
+  },
+  "amazon:a4b6659a1f92": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-12",
+   "location": "Sunnyvale, California, USA",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Amazon Leo Networking, Amazon Leo - Payload Dataplane Team",
+   "url": "https://www.amazon.jobs/en/jobs/10599140/software-dev-engineer-amazon-leo-networking-amazon-leo-payload-dataplane-team",
    "yoe": 1
   },
   "amazon:a4d94d4a31bc": {
@@ -45761,6 +45806,19 @@
    "title": "Software Engineer, Content Management Systems - Retail & Marcom Engineering",
    "url": "https://jobs.apple.com/en-us/details/200690757/software-engineer-content-management-systems-retail-marcom-engineering"
   },
+  "apple:81abc13063cc": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-11-12",
+   "location": "Sunnyvale",
+   "posted_at": "2026-11-12",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Researcher: Agentic Post-Training for On-Device Models",
+   "url": "https://jobs.apple.com/en-us/details/200694656/machine-learning-researcher-agentic-post-training-for-on-device-models"
+  },
   "apple:81d222068dcf": {
    "company": "Apple",
    "department": "Hardware",
@@ -46190,6 +46248,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer - Test",
    "url": "https://jobs.apple.com/en-us/details/200688638/software-development-engineer-test"
+  },
+  "apple:8eeaccaa0242": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-12",
+   "location": "Seattle",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Vision Products Software",
+   "url": "https://jobs.apple.com/en-us/details/200694513/software-development-engineer-vision-products-software"
   },
   "apple:8fa95256d840": {
    "company": "Apple",
@@ -145859,6 +145930,17 @@
    "title": "Tech Lead, YouTube Shorts Discovery, ML Recommendations",
    "url": "https://www.google.com/about/careers/applications/jobs/results/77714310297461446-tech-lead-youtube-shorts-discovery-ml-recommendations"
   },
+  "google:791e8865a3c9": {
+   "company": "Google",
+   "first_seen": "2026-11-12",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Engineer II, Generative AI, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/77331446980584134-forward-deployed-engineer-ii-generative-ai-google-cloud"
+  },
   "google:7937c1d62da9": {
    "company": "Google",
    "first_seen": "2026-11-03",
@@ -210981,6 +211063,18 @@
    "tier": "experienced",
    "title": "Software Verification Engineer - Networking",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/Networking-Verification-Engineer_JR2022759"
+  },
+  "nvidia:b1e60dd38f99": {
+   "company": "Nvidia",
+   "first_seen": "2026-11-12",
+   "location": "2 Locations",
+   "posted_at": "2026-11-11",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Enterprise Product Engineer - Fullstack",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Enterprise-Product-Engineer---Fullstack_JR2029924"
   },
   "nvidia:b4e1ab828e9f": {
    "company": "Nvidia",
@@ -315721,7 +315815,7 @@
   },
   "Airbnb": {
    "best": 213,
-   "last": 208,
+   "last": 207,
    "last_ok": "2026-11-12"
   },
   "Airtable": {
@@ -315746,7 +315840,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 674,
+   "last": 673,
    "last_ok": "2026-11-12"
   },
   "Anysphere": {
@@ -315756,7 +315850,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 163,
+   "last": 162,
    "last_ok": "2026-11-12"
   },
   "Applied Intuition": {
@@ -316117,7 +316211,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 820,
+   "last": 823,
    "last_ok": "2026-11-12"
   },
   "OpenEvidence": {
@@ -316236,8 +316330,8 @@
    "last_ok": "2026-11-12"
   },
   "Stripe": {
-   "best": 785,
-   "last": 785,
+   "best": 787,
+   "last": 787,
    "last_ok": "2026-11-12"
   },
   "Suno": {
@@ -316338,6 +316432,6 @@
    "last_ok": "2026-11-12"
   }
  },
- "updated": "2026-11-12T01:00:36Z",
+ "updated": "2026-11-12T08:43:18Z",
  "version": 1
 }
