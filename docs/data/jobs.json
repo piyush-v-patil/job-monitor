@@ -12555,6 +12555,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10513808/software-development-engineer-conversational-ads-experience",
    "yoe": 1
   },
+  "amazon:12b3e68b823a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-13",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-11-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Antenna Calibration, Amazon Leo",
+   "url": "https://www.amazon.jobs/en/jobs/10603920/software-dev-engineer-antenna-calibration-amazon-leo",
+   "yoe": 1
+  },
   "amazon:12c318a80931": {
    "company": "Amazon",
    "department": "Software Development",
@@ -45052,6 +45067,19 @@
    "title": "Software Engineer, IS&T Early Career Opportunities",
    "url": "https://jobs.apple.com/en-us/details/200689349/software-engineer-is-t-early-career-opportunities"
   },
+  "apple:4773be5f759a": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-13",
+   "location": "San Diego",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "UI Software Engineer - Apple TV",
+   "url": "https://jobs.apple.com/en-us/details/200694832/ui-software-engineer-apple-tv"
+  },
   "apple:47e96d34596c": {
    "company": "Apple",
    "department": "Software and Services",
@@ -48043,6 +48071,19 @@
    "tier": "experienced",
    "title": "Aesthetics Science ML Research Engineer",
    "url": "https://jobs.apple.com/en-us/details/200686682/aesthetics-science-ml-research-engineer"
+  },
+  "apple:d99fdc659333": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-11-13",
+   "location": "San Diego",
+   "posted_at": "2026-11-13",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "RF Communications Systems Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200694829/rf-communications-systems-engineer"
   },
   "apple:d9a498a8a3d8": {
    "company": "Apple",
@@ -318948,9 +318989,9 @@
    "last_ok": "2026-11-12"
   },
   "Airbnb": {
-   "best": 216,
-   "last": 216,
-   "last_ok": "2026-11-12"
+   "best": 218,
+   "last": 218,
+   "last_ok": "2026-11-13"
   },
   "Airtable": {
    "best": 16,
@@ -318960,7 +319001,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-12"
+   "last_ok": "2026-11-13"
   },
   "American Express": {
    "best": 500,
@@ -318974,8 +319015,8 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 671,
-   "last_ok": "2026-11-12"
+   "last": 672,
+   "last_ok": "2026-11-13"
   },
   "Anysphere": {
    "best": 137,
@@ -318984,8 +319025,8 @@
   },
   "Apple": {
    "best": 164,
-   "last": 160,
-   "last_ok": "2026-11-12"
+   "last": 161,
+   "last_ok": "2026-11-13"
   },
   "Applied Intuition": {
    "best": 330,
@@ -319201,7 +319242,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-12"
+   "last_ok": "2026-11-13"
   },
   "Gusto": {
    "best": 104,
@@ -319296,7 +319337,7 @@
   "Microsoft": {
    "best": 150,
    "last": 150,
-   "last_ok": "2026-11-12"
+   "last_ok": "2026-11-13"
   },
   "MongoDB": {
    "best": 415,
@@ -319316,7 +319357,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-11-12"
+   "last_ok": "2026-11-13"
   },
   "Nokia": {
    "best": 500,
@@ -319336,7 +319377,7 @@
   "Nvidia": {
    "best": 197,
    "last": 193,
-   "last_ok": "2026-11-12"
+   "last_ok": "2026-11-13"
   },
   "Okta": {
    "best": 400,
@@ -319345,8 +319386,8 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 823,
-   "last_ok": "2026-11-12"
+   "last": 826,
+   "last_ok": "2026-11-13"
   },
   "OpenEvidence": {
    "best": 11,
@@ -319466,7 +319507,7 @@
   "Stripe": {
    "best": 787,
    "last": 785,
-   "last_ok": "2026-11-12"
+   "last_ok": "2026-11-13"
   },
   "Suno": {
    "best": 73,
@@ -319566,6 +319607,6 @@
    "last_ok": "2026-11-12"
   }
  },
- "updated": "2026-11-12T23:58:01Z",
+ "updated": "2026-11-13T00:39:03Z",
  "version": 1
 }
