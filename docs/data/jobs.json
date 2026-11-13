@@ -17255,6 +17255,21 @@
    "title": "Data Engineer , PXT EXR-Ops Tech",
    "url": "https://www.linkedin.com/jobs/view/4482461851"
   },
+  "amazon:5c164d19c8ec": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-13",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Network Core",
+   "url": "https://www.amazon.jobs/en/jobs/10604591/software-development-engineer-network-core",
+   "yoe": 1
+  },
   "amazon:5c595ebfaa56": {
    "company": "Amazon",
    "department": "Software Development",
@@ -26917,6 +26932,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, AWS Applied AI Solutions",
    "url": "https://www.amazon.jobs/en/jobs/10532801/software-dev-engineer-ii-aws-applied-ai-solutions",
+   "yoe": 1
+  },
+  "amazon:f303c78a732c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-13",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-11-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Drift Defender",
+   "url": "https://www.amazon.jobs/en/jobs/10604346/software-development-engineer-ii-drift-defender",
    "yoe": 1
   },
   "amazon:f35c38b0654b": {
@@ -199157,6 +199187,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557044842",
    "workplace": "On-site"
   },
+  "microsoft:e1e40cd5deb6": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-13",
+   "location": "Reston, VA, US",
+   "posted_at": "2026-11-13",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering II - CTJ - Poly",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055299",
+   "workplace": "On-site"
+  },
   "microsoft:e2351bbcf3f2": {
    "company": "Microsoft",
    "employer_checked": "2026-11-01",
@@ -320810,7 +320854,7 @@
   },
   "Stripe": {
    "best": 787,
-   "last": 785,
+   "last": 784,
    "last_ok": "2026-11-13"
   },
   "Suno": {
@@ -320911,6 +320955,6 @@
    "last_ok": "2026-11-13"
   }
  },
- "updated": "2026-11-13T16:46:29Z",
+ "updated": "2026-11-13T17:20:40Z",
  "version": 1
 }
