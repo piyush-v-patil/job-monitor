@@ -278051,8 +278051,10 @@
    "location": "na",
    "posted_at": "2026-11-13",
    "role": "software",
+   "skip_reason": "yoe",
+   "skipped_by": "autoapply",
    "source": "greenhouse",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Software Engineer, Vulnerability Management",
    "url": "https://stripe.com/jobs/search?gh_jid=8384567"
