@@ -15696,6 +15696,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10579207/software-development-engineer-ii-aws-activate",
    "yoe": 1
   },
+  "amazon:42ddf3ca8360": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-14",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-14",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS",
+   "url": "https://www.amazon.jobs/en/jobs/10605142/software-development-engineer-aws",
+   "yoe": 2
+  },
   "amazon:43240445abcc": {
    "company": "Amazon",
    "employer_url": "https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa",
@@ -46436,6 +46451,19 @@
    "title": "AIML - Machine Learning Researcher, MLR",
    "url": "https://jobs.apple.com/en-us/details/200691018/aiml-machine-learning-researcher-mlr"
   },
+  "apple:69d98fea6e08": {
+   "company": "Apple",
+   "department": "Machine Learning and AI",
+   "first_seen": "2026-11-14",
+   "location": "Seattle",
+   "posted_at": "2026-11-13",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "GenAI Research Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200694136/genai-research-engineer"
+  },
   "apple:69e21aed9e89": {
    "company": "Apple",
    "department": "Machine Learning and AI",
@@ -49387,6 +49415,19 @@
    "tier": "experienced",
    "title": " Applied AI Engineer, Agent Harness",
    "url": "https://jobs.apple.com/en-us/details/200688056/applied-ai-engineer-agent-harness"
+  },
+  "apple:f916fc60e397": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-14",
+   "location": "Cupertino",
+   "posted_at": "2026-11-14",
+   "role": "ml-ai",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Research Engineer, Fitness Intelligence – Watch Software",
+   "url": "https://jobs.apple.com/en-us/details/200694963/machine-learning-research-engineer-fitness-intelligence-watch-software"
   },
   "apple:f93f1d79c0c0": {
    "company": "Apple",
@@ -199961,6 +200002,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393556999173",
    "workplace": "On-site"
   },
+  "microsoft:9aeba57e8d2b": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-14",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-11-14",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - MBO",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073410",
+   "workplace": "On-site"
+  },
   "microsoft:9b21c4e955ed": {
    "company": "Microsoft",
    "department": "Software Engineering",
@@ -322291,8 +322346,8 @@
   },
   "Airbnb": {
    "best": 218,
-   "last": 215,
-   "last_ok": "2026-11-13"
+   "last": 214,
+   "last_ok": "2026-11-14"
   },
   "Airtable": {
    "best": 16,
@@ -322302,7 +322357,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-13"
+   "last_ok": "2026-11-14"
   },
   "American Express": {
    "best": 500,
@@ -322316,8 +322371,8 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 670,
-   "last_ok": "2026-11-13"
+   "last": 668,
+   "last_ok": "2026-11-14"
   },
   "Anysphere": {
    "best": 137,
@@ -322326,8 +322381,8 @@
   },
   "Apple": {
    "best": 164,
-   "last": 156,
-   "last_ok": "2026-11-13"
+   "last": 143,
+   "last_ok": "2026-11-14"
   },
   "Applied Intuition": {
    "best": 330,
@@ -322543,7 +322598,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-13"
+   "last_ok": "2026-11-14"
   },
   "Gusto": {
    "best": 104,
@@ -322638,7 +322693,7 @@
   "Microsoft": {
    "best": 150,
    "last": 150,
-   "last_ok": "2026-11-13"
+   "last_ok": "2026-11-14"
   },
   "MongoDB": {
    "best": 415,
@@ -322658,7 +322713,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-11-13"
+   "last_ok": "2026-11-14"
   },
   "Nokia": {
    "best": 500,
@@ -322687,8 +322742,8 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 837,
-   "last_ok": "2026-11-13"
+   "last": 838,
+   "last_ok": "2026-11-14"
   },
   "OpenEvidence": {
    "best": 11,
@@ -322808,7 +322863,7 @@
   "Stripe": {
    "best": 787,
    "last": 786,
-   "last_ok": "2026-11-13"
+   "last_ok": "2026-11-14"
   },
   "Suno": {
    "best": 73,
@@ -322908,6 +322963,6 @@
    "last_ok": "2026-11-13"
   }
  },
- "updated": "2026-11-13T23:56:59Z",
+ "updated": "2026-11-14T03:30:55Z",
  "version": 1
 }
