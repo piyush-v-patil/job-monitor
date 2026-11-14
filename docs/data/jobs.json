@@ -92220,8 +92220,10 @@
    "location": "3 Locations",
    "posted_at": "2026-11-13",
    "role": "software",
+   "skip_reason": "no_sponsorship",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Network Engineer 4 ((Cloud Operations Resilience Engineering)",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Plano-TX/Network-Engineer-4---Cloud-Operations-Resilience-Engineering-_R1005049-1"
