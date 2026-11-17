@@ -8478,6 +8478,18 @@
    "title": "Software Engineer, Trust",
    "url": "https://careers.airbnb.com/positions/8142827?gh_jid=8142827"
   },
+  "airbnb:e8c9c7db5612": {
+   "company": "Airbnb",
+   "first_seen": "2026-11-17",
+   "location": "United States",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, DevAI ",
+   "url": "https://careers.airbnb.com/positions/8397762?gh_jid=8397762"
+  },
   "airbnb:f1fadd91658b": {
    "company": "Airbnb",
    "first_seen": "2026-11-13",
@@ -13696,6 +13708,21 @@
    "title": "Software Engineer I",
    "url": "https://www.amazon.jobs/en/jobs/10578558/software-engineer-i",
    "yoe": 1
+  },
+  "amazon:1b9547884a5d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Amazon, Partner Tech Amazon Ads",
+   "url": "https://www.amazon.jobs/en/jobs/10607665/software-development-engineer-ii-amazon-partner-tech-amazon-ads",
+   "yoe": 2
   },
   "amazon:1ba49cb8f2b4": {
    "company": "Amazon",
@@ -19732,6 +19759,21 @@
    "title": "Software Development Engineer II, AWS Emerging Planning Solutions",
    "url": "https://www.amazon.jobs/en/jobs/10584436/software-development-engineer-ii-aws-emerging-planning-solutions",
    "yoe": 1
+  },
+  "amazon:799057b7bed8": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-17",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AWS Managed Prometheus",
+   "url": "https://www.amazon.jobs/en/jobs/10607646/software-development-engineer-aws-managed-prometheus",
+   "yoe": 2
   },
   "amazon:7a0169c42f91": {
    "company": "Amazon",
@@ -47978,6 +48020,19 @@
    "tier": "experienced",
    "title": "Research Engineer / Scientist",
    "url": "https://jobs.apple.com/en-us/details/200692016/research-engineer-scientist"
+  },
+  "apple:7db727f1db71": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-17",
+   "location": "Sunnyvale",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Content Developer- Retail & Marcom Engineering ",
+   "url": "https://jobs.apple.com/en-us/details/200694660/content-developer-retail-marcom-engineering"
   },
   "apple:7dbfcb9ff614": {
    "company": "Apple",
@@ -149696,6 +149751,17 @@
    "tier": "experienced",
    "title": "Supportability Technical Lead, AI/ML, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84482894214374086-supportability-technical-lead-aiml-google-cloud"
+  },
+  "google:149c405d60af": {
+   "company": "Google",
+   "first_seen": "2026-11-17",
+   "location": "Sunnyvale, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML GenAI, Google Workspace",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/121215133593543366-software-engineer-iii-aiml-genai-google-workspace"
   },
   "google:14dca3ac595a": {
    "company": "Google",
@@ -330837,7 +330903,7 @@
   },
   "Airbnb": {
    "best": 218,
-   "last": 200,
+   "last": 202,
    "last_ok": "2026-11-17"
   },
   "Airtable": {
@@ -330872,7 +330938,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 146,
+   "last": 147,
    "last_ok": "2026-11-17"
   },
   "Applied Intuition": {
@@ -331183,7 +331249,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 149,
+   "last": 150,
    "last_ok": "2026-11-17"
   },
   "MongoDB": {
@@ -331454,6 +331520,6 @@
    "last_ok": "2026-11-17"
   }
  },
- "updated": "2026-11-17T22:43:14Z",
+ "updated": "2026-11-17T23:06:18Z",
  "version": 1
 }
