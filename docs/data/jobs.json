@@ -163025,8 +163025,10 @@
    "location": "2 Locations",
    "posted_at": "2026-11-12",
    "role": "software",
+   "skip_reason": "blocker_other",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Systems Engineer - Networking",
    "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Brasilia-Distrito-Federal-Brazil/Systems-Engineer---Networking_1217453-2"
@@ -163201,8 +163203,10 @@
    "location": "2 Locations",
    "posted_at": "2026-11-16",
    "role": "software",
+   "skip_reason": "yoe",
+   "skipped_by": "autoapply",
    "source": "workday",
-   "status": "new",
+   "status": "skip",
    "tier": "experienced",
    "title": "Technical Courseware Developer",
    "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Warszawa-Masovian-Poland/Technical-Courseware-Developer_1216017-2"
