@@ -49345,6 +49345,19 @@
    "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
    "url": "https://jobs.apple.com/en-us/details/200665281/wi-fi-software-engineer-wireless-technologies-ecosystems"
   },
+  "apple:9e60776ac573": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-11-18",
+   "location": "San Diego",
+   "posted_at": "2026-11-18",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Satellite Operations",
+   "url": "https://jobs.apple.com/en-us/details/200695636/software-engineer-satellite-operations"
+  },
   "apple:9ed13bddff55": {
    "company": "Apple",
    "department": "Software and Services",
@@ -151061,6 +151074,17 @@
    "title": "Research Engineer, GenMedia Safety Evaluations and Threat Intelligence TLM, DeepMind",
    "url": "https://www.google.com/about/careers/applications/jobs/results/139660544956080838-research-engineer-genmedia-safety-evaluations-and-threat-intelligence-tlm-deepmind"
   },
+  "google:2ea554ca2039": {
+   "company": "Google",
+   "first_seen": "2026-11-18",
+   "location": "New York, NY, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, AI and Generative Web Experiences, Google Workspace Editors",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/116289733817967302-software-engineer-ai-and-generative-web-experiences-google-workspace-editors"
+  },
   "google:2ed8790b4020": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -153467,6 +153491,17 @@
    "title": "Software Engineer III, AI/ML, AI and Infrastructure",
    "url": "https://www.google.com/about/careers/applications/jobs/results/72951961439085254-software-engineer-iii-aiml-ai-and-infrastructure"
   },
+  "google:84e420bc7832": {
+   "company": "Google",
+   "first_seen": "2026-11-18",
+   "location": "Mountain View, CA, USA; New York, NY, USA; +3 more; +2 more",
+   "role": "data",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer, YouTube",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/83521813409080006-data-engineer-youtube"
+  },
   "google:855b941d5227": {
    "company": "Google",
    "first_seen": "2026-11-03",
@@ -154694,6 +154729,17 @@
    "title": "Software Engineer, RCS Video, Google Messages",
    "url": "https://www.google.com/about/careers/applications/jobs/results/72836613649900230-software-engineer-rcs-video-google-messages"
   },
+  "google:b30a0e703630": {
+   "company": "Google",
+   "first_seen": "2026-11-18",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Benchmarking, Robotics, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/79472586961887942-research-engineer-benchmarking-robotics-deepmind"
+  },
   "google:b3623ae79b7a": {
    "company": "Google",
    "first_seen": "2026-10-01",
@@ -154994,6 +155040,17 @@
    "title": "Photos Mission Tech Lead, Applied AI, Full Stack",
    "url": "https://www.google.com/about/careers/applications/jobs/results/77031606992151238-photos-mission-tech-lead-applied-ai-full-stack"
   },
+  "google:bce42ad226db": {
+   "company": "Google",
+   "first_seen": "2026-11-18",
+   "location": "Sunnyvale, CA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Cloud Platforms",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/138588379385078470-software-engineer-iii-infrastructure-google-cloud-platforms"
+  },
   "google:be2fae3aee10": {
    "company": "Google",
    "first_seen": "2026-10-09",
@@ -155117,6 +155174,17 @@
    "tier": "experienced",
    "title": "Hardware/Software Co-Design Engineer, Inference",
    "url": "https://www.google.com/about/careers/applications/jobs/results/75303820837429958-hardwaresoftware-codesign-engineer-inference"
+  },
+  "google:c4bba0ad21d6": {
+   "company": "Google",
+   "first_seen": "2026-11-18",
+   "location": "Kirkland, WA, USA",
+   "role": "security",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer, Enterprise Security",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/105450198435537606-security-engineer-enterprise-security"
   },
   "google:c521af54a569": {
    "company": "Google",
@@ -156157,6 +156225,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Mobile (Android), XR",
    "url": "https://www.google.com/about/careers/applications/jobs/results/103794099043082950-software-engineer-iii-mobile-android-xr"
+  },
+  "google:eb14f103451b": {
+   "company": "Google",
+   "first_seen": "2026-11-18",
+   "location": "New York, NY, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, AI/ML GenAI, Workspace Drive",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/78569338159669958-software-engineer-iii-aiml-genai-workspace-drive"
   },
   "google:eb34fbb0dc8c": {
    "company": "Google",
@@ -221874,6 +221953,18 @@
    "tier": "experienced",
    "title": "Intellectual Property Security Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Intellectual-Property-Security-Engineer_JR2021915"
+  },
+  "nvidia:792bac0f093c": {
+   "company": "Nvidia",
+   "first_seen": "2026-11-18",
+   "location": "2 Locations",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Collective Communication and Network Performance",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Collective-Communication-and-Network-Performance_JR2030158"
   },
   "nvidia:79dc41e116ea": {
    "company": "Nvidia",
@@ -331916,7 +332007,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 656,
+   "last": 658,
    "last_ok": "2026-11-18"
   },
   "Anysphere": {
@@ -331926,7 +332017,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 145,
+   "last": 143,
    "last_ok": "2026-11-18"
   },
   "Applied Intuition": {
@@ -332277,7 +332368,7 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 0,
+   "last": 192,
    "last_ok": "2026-11-18"
   },
   "Okta": {
@@ -332407,7 +332498,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 790,
+   "last": 789,
    "last_ok": "2026-11-18"
   },
   "Suno": {
@@ -332508,6 +332599,6 @@
    "last_ok": "2026-11-18"
   }
  },
- "updated": "2026-11-18T11:38:01Z",
+ "updated": "2026-11-18T14:29:05Z",
  "version": 1
 }
