@@ -19164,6 +19164,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10589937/software-development-engineer-advanced-analytics-lld",
    "yoe": 1
   },
+  "amazon:6fd8e6002cf1": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-18",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, EC2 Core Platform",
+   "url": "https://www.amazon.jobs/en/jobs/10603760/software-development-engineer-ii-ec2-core-platform",
+   "yoe": 1
+  },
   "amazon:7008540aeda3": {
    "company": "Amazon",
    "department": "Software Development",
@@ -20438,6 +20453,21 @@
    "title": "Software Development Engineer, LEO Pop Control Plane",
    "url": "https://www.amazon.jobs/en/jobs/10604920/software-development-engineer-leo-pop-control-plane",
    "yoe": 1
+  },
+  "amazon:829a67f4c83d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-18",
+   "location": "Irvine, California, USA",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Devices Software & Services",
+   "url": "https://www.amazon.jobs/en/jobs/10607713/software-development-engineer-devices-software-services",
+   "yoe": 2
   },
   "amazon:82b7cb9c90cd": {
    "company": "Amazon",
@@ -24827,6 +24857,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10564013/software-development-engineer-display-advertising-entertainment-devices-grocery-ad-experiences",
    "yoe": 1
   },
+  "amazon:c602eff9d184": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-18",
+   "location": "Bellevue, Washington, USA",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE-II, Air Safety  & Gateway Optimization",
+   "url": "https://www.amazon.jobs/en/jobs/10607522/sde-ii-air-safety-gateway-optimization",
+   "yoe": 1
+  },
   "amazon:c64525918012": {
    "company": "Amazon",
    "department": "Software Development",
@@ -26276,6 +26321,21 @@
    "title": "Software Development Engineer II, Amazon Vulnerability Management Services",
    "url": "https://www.amazon.jobs/en/jobs/10538772/software-development-engineer-ii-amazon-vulnerability-management-services",
    "yoe": 2
+  },
+  "amazon:d96c74830e0b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-18",
+   "location": "Irvine, California, USA",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Devices Software & Services",
+   "url": "https://www.amazon.jobs/en/jobs/10607712/software-development-engineer-devices-software-services",
+   "yoe": 1
   },
   "amazon:d9aa72e7007c": {
    "company": "Amazon",
@@ -42770,6 +42830,18 @@
    "title": "Research Engineer / Scientist, Pre-training",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468947008"
   },
+  "anthropic:259aaf4a2133": {
+   "company": "Anthropic",
+   "first_seen": "2026-11-18",
+   "location": "San Francisco, CA | New York City, NY",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Developer Relations, Platform",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5206870008"
+  },
   "anthropic:293eb0119ac2": {
    "company": "Anthropic",
    "first_seen": "2026-09-09",
@@ -45694,6 +45766,19 @@
    "title": "Quality Engineer - Health Software",
    "url": "https://jobs.apple.com/en-us/details/200695466/quality-engineer-health-software"
   },
+  "apple:1112717b1e68": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-18",
+   "location": "Vancouver",
+   "posted_at": "2026-11-18",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Frameworks - Video Applications",
+   "url": "https://jobs.apple.com/en-us/details/200695239/software-engineer-frameworks-video-applications"
+  },
   "apple:112aa8742b8e": {
    "company": "Apple",
    "department": "Hardware",
@@ -46486,6 +46571,19 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer, Creative Intelligence Systems",
    "url": "https://jobs.apple.com/en-us/details/200687729/machine-learning-engineer-creative-intelligence-systems"
+  },
+  "apple:2fea05797cc8": {
+   "company": "Apple",
+   "department": "Hardware",
+   "first_seen": "2026-11-18",
+   "location": "Cupertino",
+   "posted_at": "2026-11-18",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Wireless RF OTA MIMO Systems Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200693970/wireless-rf-ota-mimo-systems-engineer"
   },
   "apple:30cde7146c54": {
    "company": "Apple",
@@ -47904,6 +48002,19 @@
    "title": "Software Quality Engineer, Retail & Marcom Engineering",
    "url": "https://jobs.apple.com/en-us/details/200687576/software-quality-engineer-retail-marcom-engineering"
   },
+  "apple:756cf4f9d730": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-18",
+   "location": "Pittsburgh",
+   "posted_at": "2026-11-18",
+   "role": "software",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Swift Software Engineer, Productivity Apps",
+   "url": "https://jobs.apple.com/en-us/details/200694166/swift-software-engineer-productivity-apps"
+  },
   "apple:75fead0fd192": {
    "company": "Apple",
    "department": "Operations and Supply Chain",
@@ -49204,6 +49315,19 @@
    "tier": "experienced",
    "title": "Software Engineer, Wireless Technologies & Ecosystems",
    "url": "https://jobs.apple.com/en-us/details/200687773/software-engineer-wireless-technologies-ecosystems"
+  },
+  "apple:aafe4464b0a1": {
+   "company": "Apple",
+   "department": "Software and Services",
+   "first_seen": "2026-11-18",
+   "location": "Seattle",
+   "posted_at": "2026-11-17",
+   "role": "security",
+   "source": "jobs.apple.com",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Site Reliability Engineer - Apple Service Engineering",
+   "url": "https://jobs.apple.com/en-us/details/200695546/security-site-reliability-engineer-apple-service-engineering"
   },
   "apple:ab007c729eb6": {
    "company": "Apple",
@@ -152067,6 +152191,17 @@
    "title": "Software Engineer III, Infrastructure, F1 Query",
    "url": "https://www.google.com/about/careers/applications/jobs/results/92823533872128710-software-engineer-iii-infrastructure-f1-query"
   },
+  "google:6789e586ef10": {
+   "company": "Google",
+   "first_seen": "2026-11-18",
+   "location": "San Bruno, CA, USA; New York, NY, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Developers and Creations Lead, YouTube",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/119669220244890310-developers-and-creations-lead-youtube"
+  },
   "google:67922545695f": {
    "company": "Google",
    "first_seen": "2026-08-24",
@@ -204886,6 +205021,20 @@
    "title": "Site Reliability Engineer - CTJ - POLY",
    "url": "https://www.linkedin.com/jobs/view/4376186681"
   },
+  "microsoft:7165273e5ec2": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-18",
+   "location": "Redmond, WA, US",
+   "posted_at": "2026-11-18",
+   "role": "ml-ai",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff, Software Engineer - ESAI (AI / Agentic Developer Productivity)",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557053360",
+   "workplace": "On-site"
+  },
   "microsoft:7328c9f94bdf": {
    "company": "Microsoft",
    "department": "Software Engineering",
@@ -205008,6 +205157,20 @@
    "tier": "experienced",
    "title": "Software Engineer - Forward Deployed Engineer",
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557004814",
+   "workplace": "On-site"
+  },
+  "microsoft:840eab7e913a": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-18",
+   "location": "Redmond, WA, US; Reston, VA, US; MD,US",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II - CTJ - Poly",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556995354",
    "workplace": "On-site"
   },
   "microsoft:85cf29f6ae5c": {
@@ -221129,6 +221292,18 @@
    "title": "NVIDIA 2027 Internships: Software Engineering",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495"
   },
+  "nvidia:75a83e4fc3c5": {
+   "company": "Nvidia",
+   "first_seen": "2026-11-18",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-11-17",
+   "role": "embedded",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Firmware System Integration Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Firmware-System-Integration-Engineer_JR2029711-1"
+  },
   "nvidia:76833cd316f0": {
    "company": "Nvidia",
    "first_seen": "2026-11-10",
@@ -221699,6 +221874,18 @@
    "tier": "experienced",
    "title": "Software Linux Engineer - Installation and Packaging",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Linux-Engineer---Installation-and-Packaging_JR2020906"
+  },
+  "nvidia:aeb268e85cba": {
+   "company": "Nvidia",
+   "first_seen": "2026-11-18",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System Software Engineer, Video Chips",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Video-Chips_JR2029548"
   },
   "nvidia:b02c7afac0a1": {
    "company": "Nvidia",
@@ -222397,6 +222584,18 @@
    "tier": "intern",
    "title": "Performance Engineering Intern, Platform Performance and Power -  Spring 2027",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Performance-Engineering-Intern--Platform-Performance-and-Power----Spring-2027_JR2029541"
+  },
+  "nvidia:f29a264e547d": {
+   "company": "Nvidia",
+   "first_seen": "2026-11-18",
+   "location": "US, CA, Santa Clara",
+   "posted_at": "2026-11-17",
+   "role": "ml-ai",
+   "source": "workday",
+   "status": "new",
+   "tier": "intern",
+   "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Scientist-Intern--Agentic-Biology---Summer-2027_JR2029307"
   },
   "nvidia:f3136b3f3509": {
    "company": "Nvidia",
@@ -224669,6 +224868,23 @@
    "title": "Full Stack Software Engineer, GTM Innovation",
    "url": "https://jobs.ashbyhq.com/openai/a2c9f105-b41a-41db-afd8-e70a54b3f21c",
    "yoe": 4
+  },
+  "openai:1f90dbad146b": {
+   "comp": "$347K – $385K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Marketing",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-18",
+   "location": "San Francisco",
+   "posted_at": "2026-11-17",
+   "role": "fullstack",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Software Engineer, DotCom",
+   "url": "https://jobs.ashbyhq.com/openai/60f8bcbc-3ca5-42f4-a73b-e864a6340a16",
+   "workplace": "On-site",
+   "yoe": 7
   },
   "openai:1fe65227c137": {
    "comp": "$266K – $445K • Offers Equity",
@@ -330903,8 +331119,8 @@
   },
   "Airbnb": {
    "best": 218,
-   "last": 202,
-   "last_ok": "2026-11-17"
+   "last": 200,
+   "last_ok": "2026-11-18"
   },
   "Airtable": {
    "best": 16,
@@ -330914,7 +331130,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-17"
+   "last_ok": "2026-11-18"
   },
   "American Express": {
    "best": 500,
@@ -330928,8 +331144,8 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 658,
-   "last_ok": "2026-11-17"
+   "last": 657,
+   "last_ok": "2026-11-18"
   },
   "Anysphere": {
    "best": 137,
@@ -330938,8 +331154,8 @@
   },
   "Apple": {
    "best": 164,
-   "last": 147,
-   "last_ok": "2026-11-17"
+   "last": 144,
+   "last_ok": "2026-11-18"
   },
   "Applied Intuition": {
    "best": 333,
@@ -331155,7 +331371,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-17"
+   "last_ok": "2026-11-18"
   },
   "Gusto": {
    "best": 104,
@@ -331250,7 +331466,7 @@
   "Microsoft": {
    "best": 150,
    "last": 150,
-   "last_ok": "2026-11-17"
+   "last_ok": "2026-11-18"
   },
   "MongoDB": {
    "best": 415,
@@ -331270,7 +331486,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-11-17"
+   "last_ok": "2026-11-18"
   },
   "Nokia": {
    "best": 500,
@@ -331289,8 +331505,8 @@
   },
   "Nvidia": {
    "best": 197,
-   "last": 0,
-   "last_ok": "2026-11-16"
+   "last": 189,
+   "last_ok": "2026-11-18"
   },
   "Okta": {
    "best": 400,
@@ -331299,8 +331515,8 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 839,
-   "last_ok": "2026-11-17"
+   "last": 837,
+   "last_ok": "2026-11-18"
   },
   "OpenEvidence": {
    "best": 11,
@@ -331419,8 +331635,8 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 791,
-   "last_ok": "2026-11-17"
+   "last": 789,
+   "last_ok": "2026-11-18"
   },
   "Suno": {
    "best": 73,
@@ -331520,6 +331736,6 @@
    "last_ok": "2026-11-17"
   }
  },
- "updated": "2026-11-17T23:06:18Z",
+ "updated": "2026-11-18T04:42:36Z",
  "version": 1
 }
