@@ -4376,7 +4376,7 @@
   },
   "alarm-com:7782b52cdb56": {
    "company": "Alarm.com",
-   "employer_checked": "2026-11-12",
+   "employer_checked": "2026-11-19",
    "first_seen": "2026-11-04",
    "location": "Tysons Corner, VA, USA",
    "posted_at": "2026-11-04",
@@ -5502,6 +5502,8 @@
   },
   "amazon:2b54336fb5f6": {
    "company": "Amazon",
+   "employer_checked": "2026-11-19",
+   "employer_url": "https://www.amazon.jobs/en/jobs/10608230/strategy-sr-analyst-supply-chain-execution-strategy",
    "first_seen": "2026-11-19",
    "location": "Tempe, AZ, USA",
    "posted_at": "2026-11-19",
@@ -6080,6 +6082,7 @@
   },
   "amazon:d8b3b0803dd9": {
    "company": "Amazon",
+   "employer_checked": "2026-11-19",
    "first_seen": "2026-11-19",
    "location": "Nashville, TN, USA",
    "posted_at": "2026-11-19",
@@ -37533,6 +37536,8 @@
   },
   "cummins-inc:31186dcf0294": {
    "company": "Cummins Inc.",
+   "employer_checked": "2026-11-19",
+   "employer_url": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2440941",
    "first_seen": "2026-11-19",
    "location": "Galesburg, MI, USA",
    "posted_at": "2026-11-18",
@@ -61427,7 +61432,7 @@
   },
   "honeywell-aerospace:4b5c7631e2b0": {
    "company": "Honeywell Aerospace",
-   "employer_checked": "2026-11-12",
+   "employer_checked": "2026-11-19",
    "first_seen": "2026-11-04",
    "location": "Minneapolis, MN, USA",
    "posted_at": "2026-11-04",
@@ -81977,6 +81982,7 @@
   },
   "merck:4ca7292492f1": {
    "company": "Merck",
+   "employer_checked": "2026-11-19",
    "first_seen": "2026-11-17",
    "location": "Durham, NC, USA",
    "posted_at": "2026-11-16",
@@ -82171,6 +82177,7 @@
   },
   "merck:e91db026b1da": {
    "company": "Merck",
+   "employer_checked": "2026-11-19",
    "first_seen": "2026-11-17",
    "location": "West Point, PA, USA",
    "posted_at": "2026-11-16",
@@ -87872,7 +87879,7 @@
   },
   "nbcuniversal:bf3cd76fc677": {
    "company": "NBCUniversal",
-   "employer_checked": "2026-11-12",
+   "employer_checked": "2026-11-19",
    "first_seen": "2026-11-10",
    "location": "Stamford, CT, USA",
    "posted_at": "2026-11-09",
@@ -120560,7 +120567,7 @@
   },
   "symbotic:da4a44fd7308": {
    "company": "Symbotic",
-   "employer_checked": "2026-11-12",
+   "employer_checked": "2026-11-19",
    "first_seen": "2026-11-10",
    "location": "Wilmington, MA, USA",
    "posted_at": "2026-11-09",
@@ -144510,6 +144517,6 @@
    "last_ok": "2026-11-19"
   }
  },
- "updated": "2026-11-19T10:06:49Z",
+ "updated": "2026-11-19T11:30:52Z",
  "version": 1
 }
