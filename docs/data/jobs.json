@@ -13172,6 +13172,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10537818/software-development-engineer-amazon-optics",
    "yoe": 1
   },
+  "amazon:1262f805ac40": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-19",
+   "location": "San Francisco, California, USA",
+   "posted_at": "2026-11-19",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II, Fintech",
+   "url": "https://www.amazon.jobs/en/jobs/10607721/software-engineer-ii-fintech",
+   "yoe": 4
+  },
   "amazon:12821334040b": {
    "checked_at": "2026-10-02",
    "company": "Amazon",
@@ -14651,6 +14666,21 @@
    "tier": "experienced",
    "title": "Security Engineer , Ads Security",
    "url": "https://www.linkedin.com/jobs/view/4489110957"
+  },
+  "amazon:25ced0036b6f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-19",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-19",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer I, Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10607758/software-engineer-i-commerce",
+   "yoe": 1
   },
   "amazon:266f9a927b91": {
    "company": "Amazon",
@@ -22477,6 +22507,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer, AWS CX - Cloudscape",
    "url": "https://www.amazon.jobs/en/jobs/10564067/software-dev-engineer-aws-cx-cloudscape",
+   "yoe": 1
+  },
+  "amazon:9bd9290e3746": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-19",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Test, Amazon Fuse and MBD",
+   "url": "https://www.amazon.jobs/en/jobs/10608536/software-development-engineer-test-amazon-fuse-and-mbd",
    "yoe": 1
   },
   "amazon:9be1d5ea2841": {
@@ -206815,6 +206860,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393556971484",
    "workplace": "On-site"
   },
+  "microsoft:6f81a51ff0cf": {
+   "company": "Microsoft",
+   "department": "Applied Sciences",
+   "first_seen": "2026-11-19",
+   "location": "Redmond, WA, US; New York, NY, US; Mountain View, CA, US",
+   "posted_at": "2026-11-13",
+   "role": "ml-ai",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied Scientist - Frontier Tuning",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557069987",
+   "workplace": "On-site"
+  },
   "microsoft:7128d322dbdd": {
    "company": "Microsoft",
    "first_seen": "2026-11-12",
@@ -333801,7 +333860,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 644,
+   "last": 637,
    "last_ok": "2026-11-19"
   },
   "Anysphere": {
@@ -333811,7 +333870,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 157,
+   "last": 159,
    "last_ok": "2026-11-19"
   },
   "Applied Intuition": {
@@ -334122,7 +334181,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 148,
+   "last": 150,
    "last_ok": "2026-11-19"
   },
   "MongoDB": {
@@ -334172,7 +334231,7 @@
   },
   "OpenAI": {
    "best": 842,
-   "last": 835,
+   "last": 834,
    "last_ok": "2026-11-19"
   },
   "OpenEvidence": {
@@ -334292,7 +334351,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 785,
+   "last": 784,
    "last_ok": "2026-11-19"
   },
   "Suno": {
@@ -334393,6 +334452,6 @@
    "last_ok": "2026-11-19"
   }
  },
- "updated": "2026-11-19T00:41:19Z",
+ "updated": "2026-11-19T04:24:55Z",
  "version": 1
 }
