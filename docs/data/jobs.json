@@ -23360,6 +23360,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10532360/software-development-engineer-postx-apex",
    "yoe": 1
   },
+  "amazon:a498d0129910": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-20",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-20",
+   "role": "ml-ai",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Agentic AI",
+   "url": "https://www.amazon.jobs/en/jobs/10607195/software-development-engineer-agentic-ai",
+   "yoe": 1
+  },
   "amazon:a4ab8ddaa63d": {
    "company": "Amazon",
    "department": "Software Development",
@@ -229541,6 +229556,22 @@
    "workplace": "Remote",
    "yoe": 7
   },
+  "openai:40012d40973d": {
+   "comp": "$265K – $380K • Offers Equity",
+   "company": "OpenAI",
+   "department": "Data Science",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-20",
+   "location": "San Francisco",
+   "posted_at": "2026-11-20",
+   "role": "data",
+   "source": "ashby",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist, Integrity",
+   "url": "https://jobs.ashbyhq.com/openai/f6cada21-0f54-4d8a-884e-e3c64edd4789",
+   "workplace": "Hybrid"
+  },
   "openai:40844b7c6505": {
    "comp": "$293K – $385K • Offers Equity",
    "company": "OpenAI",
@@ -336158,7 +336189,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 637,
+   "last": 636,
    "last_ok": "2026-11-20"
   },
   "Anysphere": {
@@ -336168,7 +336199,7 @@
   },
   "Apple": {
    "best": 164,
-   "last": 155,
+   "last": 154,
    "last_ok": "2026-11-20"
   },
   "Applied Intuition": {
@@ -336528,8 +336559,8 @@
    "last_ok": "2026-11-20"
   },
   "OpenAI": {
-   "best": 854,
-   "last": 854,
+   "best": 855,
+   "last": 855,
    "last_ok": "2026-11-20"
   },
   "OpenEvidence": {
@@ -336649,7 +336680,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 772,
+   "last": 771,
    "last_ok": "2026-11-20"
   },
   "Suno": {
@@ -336750,6 +336781,6 @@
    "last_ok": "2026-11-20"
   }
  },
- "updated": "2026-11-20T13:23:11Z",
+ "updated": "2026-11-20T14:16:12Z",
  "version": 1
 }
