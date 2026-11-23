@@ -46079,6 +46079,18 @@
    "title": "Research Engineer, Discovery",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4669581008"
   },
+  "anthropic:fbb0a0642756": {
+   "company": "Anthropic",
+   "first_seen": "2026-11-23",
+   "location": "San Francisco, CA",
+   "posted_at": "2026-11-23",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Model-to-Product Behavior Engineering",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5487188008"
+  },
   "anthropic:fbedce1bd8d4": {
    "company": "Anthropic",
    "first_seen": "2026-09-29",
@@ -160392,6 +160404,17 @@
    "title": "Software Engineer III, AI/ML, App Ads Quality",
    "url": "https://www.google.com/about/careers/applications/jobs/results/86496792568308422-software-engineer-iii-aiml-app-ads-quality"
   },
+  "google:a5fa1a3035aa": {
+   "company": "Google",
+   "first_seen": "2026-11-23",
+   "location": "Mountain View, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Health Frontier",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/77680133900509894-software-engineer-health-frontier"
+  },
   "google:a617f25826be": {
    "company": "Google",
    "first_seen": "2026-11-12",
@@ -162309,6 +162332,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, AI/ML, Google Cloud",
    "url": "https://www.google.com/about/careers/applications/jobs/results/109193622842155718-software-engineer-iii-aiml-google-cloud"
+  },
+  "google:ec189be61a28": {
+   "company": "Google",
+   "first_seen": "2026-11-23",
+   "location": "Atlanta, GA, USA; Austin, TX, USA; +3 more; +2 more",
+   "role": "data",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer, Cloud Learning Services",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/128190736007865030-data-engineer-cloud-learning-services"
   },
   "google:ece13c6171e2": {
    "company": "Google",
@@ -345192,7 +345226,7 @@
   },
   "Airbnb": {
    "best": 218,
-   "last": 202,
+   "last": 199,
    "last_ok": "2026-11-23"
   },
   "Airtable": {
@@ -345217,7 +345251,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 636,
+   "last": 634,
    "last_ok": "2026-11-23"
   },
   "Anysphere": {
@@ -345227,7 +345261,7 @@
   },
   "Apple": {
    "best": 166,
-   "last": 157,
+   "last": 158,
    "last_ok": "2026-11-23"
   },
   "Applied Intuition": {
@@ -345538,7 +345572,7 @@
   },
   "Microsoft": {
    "best": 150,
-   "last": 150,
+   "last": 149,
    "last_ok": "2026-11-23"
   },
   "MongoDB": {
@@ -345588,7 +345622,7 @@
   },
   "OpenAI": {
    "best": 855,
-   "last": 852,
+   "last": 850,
    "last_ok": "2026-11-23"
   },
   "OpenEvidence": {
@@ -345708,7 +345742,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 777,
+   "last": 779,
    "last_ok": "2026-11-23"
   },
   "Suno": {
@@ -345809,6 +345843,6 @@
    "last_ok": "2026-11-23"
   }
  },
- "updated": "2026-11-23T12:51:01Z",
+ "updated": "2026-11-23T16:21:17Z",
  "version": 1
 }
