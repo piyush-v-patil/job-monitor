@@ -13831,6 +13831,7 @@
   },
   "applied-materials:a4cd446d509c": {
    "company": "Applied Materials",
+   "employer_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/AustinTX/Planner-II----B2-_R2629777",
    "first_seen": "2026-11-20",
    "location": "Austin, TX, USA",
    "posted_at": "2026-11-20",
@@ -13915,6 +13916,18 @@
    "tier": "manager",
    "title": "Purchasing Manager III (M3)",
    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/BeniciaCA/Purchasing-Manager-III--M3-_R2624923"
+  },
+  "applied-materials:af608a051d84": {
+   "company": "Applied Materials",
+   "first_seen": "2026-11-23",
+   "location": "Austin,TX",
+   "posted_at": "2026-11-19",
+   "role": "supply-chain",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Product Configuration Engineer - Supply chain",
+   "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/AustinTX/Product-Configuration-Engineer---Supply-chain_R2633176"
   },
   "applied-materials:b1369f9ec11d": {
    "company": "Applied Materials",
@@ -32328,6 +32341,19 @@
    "title": "Production Planning Administrator",
    "url": "https://www.linkedin.com/jobs/view/4444396817"
   },
+  "celestica:0b31246fc807": {
+   "company": "Celestica",
+   "first_seen": "2026-11-23",
+   "location": "Tucson, AZ, USA",
+   "posted_at": "2026-11-20",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Production Planner",
+   "url": "https://www.linkedin.com/jobs/view/4492847695"
+  },
   "celestica:148497c9c60c": {
    "company": "Celestica",
    "first_seen": "2026-10-08",
@@ -35305,6 +35331,19 @@
    "tier": "mid",
    "title": "Logistics Cost Analyst",
    "url": "https://www.linkedin.com/jobs/view/4469486291"
+  },
+  "coastal-elite-pro:b7db1e46e29b": {
+   "company": "Coastal Elite Pro",
+   "first_seen": "2026-11-23",
+   "location": "Lebanon, TN, USA",
+   "posted_at": "2026-11-23",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "manager",
+   "title": "Materials Planning Supervisor",
+   "url": "https://www.linkedin.com/jobs/view/4493555466"
   },
   "coastal-elite-pro:fafd74989a1f": {
    "company": "Coastal Elite Pro",
@@ -65846,6 +65885,19 @@
    "title": "Inventory Management Specialist",
    "url": "https://www.linkedin.com/jobs/view/4484728193"
   },
+  "hyundai-mobis-north-america-electrified-powertrain-llc:214154a8c39c": {
+   "company": "Hyundai MOBIS North America Electrified Powertrain, LLC",
+   "first_seen": "2026-11-23",
+   "location": "Richmond Hill, GA, USA",
+   "posted_at": "2026-11-22",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "manager",
+   "title": "Material Manager- LP Material Planner",
+   "url": "https://www.linkedin.com/jobs/view/4493391143"
+  },
   "hyundai-mobis-north-america-electrified-powertrain-llc:6ae87a812fee": {
    "company": "Hyundai MOBIS North America Electrified Powertrain, LLC",
    "first_seen": "2026-11-09",
@@ -88447,6 +88499,19 @@
    "title": "Production Planner",
    "url": "https://www.linkedin.com/jobs/view/4491506815"
   },
+  "modexus-solutions:d4be287b54d8": {
+   "company": "Modexus Solutions",
+   "first_seen": "2026-11-23",
+   "location": "Grand Prairie, TX, USA",
+   "posted_at": "2026-11-20",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Material Planner",
+   "url": "https://www.linkedin.com/jobs/view/4485249127"
+  },
   "modine-manufacturing-company:19c966a49aa3": {
    "checked_at": "2026-11-22",
    "company": "Modine Manufacturing Company",
@@ -110347,6 +110412,19 @@
    "title": "Material Planning Analyst (Third Shift)",
    "url": "https://www.linkedin.com/jobs/view/4483841539"
   },
+  "rivian:aa6fda5298ac": {
+   "company": "Rivian",
+   "first_seen": "2026-11-23",
+   "location": "Plymouth, MI, USA",
+   "posted_at": "2026-11-21",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sr. Material Planner, Service Parts",
+   "url": "https://www.linkedin.com/jobs/view/4492870693"
+  },
   "rivian:aa9f2fe63497": {
    "checked_at": "2026-10-02",
    "company": "Rivian",
@@ -123450,6 +123528,19 @@
    "title": "Production Planner",
    "url": "https://www.linkedin.com/jobs/view/4472042919"
   },
+  "stanley-black-decker-inc:d78dfde4b9d8": {
+   "company": "Stanley Black & Decker, Inc.",
+   "first_seen": "2026-11-23",
+   "location": "Charlotte, NC, USA",
+   "posted_at": "2026-11-21",
+   "role": "demand-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "IBP Supply Planner - Americas",
+   "url": "https://www.linkedin.com/jobs/view/4493248916"
+  },
   "stanley-black-decker-inc:f359046802ce": {
    "company": "Stanley Black & Decker, Inc.",
    "employer_checked": "2026-11-04",
@@ -132963,6 +133054,19 @@
    "tier": "mid",
    "title": "Planner, Merchandise",
    "url": "https://www.linkedin.com/jobs/view/4486383280"
+  },
+  "the-vollrath-company:5ec06f189f2e": {
+   "company": "The Vollrath Company",
+   "first_seen": "2026-11-23",
+   "location": "Sheboygan, WI, USA",
+   "posted_at": "2026-11-20",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Planning Specialist",
+   "url": "https://www.linkedin.com/jobs/view/4492843373"
   },
   "the-vollrath-company:68f8f615589e": {
    "company": "The Vollrath Company",
@@ -150356,37 +150460,37 @@
   "AMD": {
    "best": 600,
    "last": 600,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Abbott": {
    "best": 535,
-   "last": 295,
+   "last": 0,
    "last_ok": "2026-11-22"
   },
   "Airbnb": {
    "best": 217,
    "last": 203,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Amazon": {
    "best": 74,
    "last": 71,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Anduril": {
    "best": 2640,
-   "last": 2633,
-   "last_ok": "2026-11-22"
+   "last": 2630,
+   "last_ok": "2026-11-23"
   },
   "Applied Materials": {
    "best": 470,
-   "last": 0,
-   "last_ok": "2026-11-21"
+   "last": 100,
+   "last_ok": "2026-11-23"
   },
   "Astranis": {
    "best": 189,
    "last": 168,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Becton Dickinson": {
    "best": 341,
@@ -150395,53 +150499,53 @@
   },
   "Boeing": {
    "best": 326,
-   "last": 0,
-   "last_ok": "2026-11-21"
+   "last": 2,
+   "last_ok": "2026-11-23"
   },
   "CVS Health": {
    "best": 356,
-   "last": 19,
+   "last": 0,
    "last_ok": "2026-11-22"
   },
   "Carvana": {
    "best": 1843,
    "last": 1634,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Coinbase": {
    "best": 286,
    "last": 252,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Databricks": {
    "best": 929,
-   "last": 893,
-   "last_ok": "2026-11-22"
+   "last": 895,
+   "last_ok": "2026-11-23"
   },
   "DoorDash": {
    "best": 468,
    "last": 408,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Duolingo": {
    "best": 89,
    "last": 54,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Faire": {
    "best": 82,
    "last": 74,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Flexport": {
    "best": 214,
    "last": 212,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Formlabs": {
    "best": 278,
    "last": 275,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "General Mills": {
    "best": 251,
@@ -150451,27 +150555,27 @@
   "Glossier": {
    "best": 29,
    "last": 18,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Google": {
    "best": 205,
    "last": 180,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Gusto": {
    "best": 104,
    "last": 82,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Illumina": {
    "best": 127,
-   "last": 3,
+   "last": 0,
    "last_ok": "2026-11-22"
   },
   "Instacart": {
    "best": 131,
    "last": 92,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Land O'Lakes": {
    "best": 138,
@@ -150480,23 +150584,23 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 738,
-   "last": 310,
-   "last_ok": "2026-11-22"
+   "last": 257,
+   "last_ok": "2026-11-23"
   },
   "Liquid Death": {
    "best": 3,
    "last": 2,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Lucid Motors": {
    "best": 496,
    "last": 496,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Lyft": {
    "best": 196,
    "last": 145,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Medtronic": {
    "best": 451,
@@ -150505,28 +150609,28 @@
   },
   "Micron": {
    "best": 324,
-   "last": 57,
+   "last": 0,
    "last_ok": "2026-11-22"
   },
   "Misfits Market": {
    "best": 96,
    "last": 53,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Mondelez": {
    "best": 470,
-   "last": 467,
-   "last_ok": "2026-11-22"
+   "last": 465,
+   "last_ok": "2026-11-23"
   },
   "Nike": {
    "best": 182,
-   "last": 3,
+   "last": 0,
    "last_ok": "2026-11-22"
   },
   "Nuro": {
    "best": 111,
    "last": 105,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Nvidia": {
    "best": 310,
@@ -150536,52 +150640,52 @@
   "Olipop": {
    "best": 14,
    "last": 10,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "OpenAI": {
    "best": 853,
    "last": 852,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Oura": {
    "best": 111,
    "last": 96,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Peloton": {
    "best": 61,
    "last": 42,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "PepsiCo": {
    "best": 319,
-   "last": 202,
-   "last_ok": "2026-11-22"
+   "last": 198,
+   "last_ok": "2026-11-23"
   },
   "Pinterest": {
    "best": 188,
    "last": 174,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Samsara": {
    "best": 340,
-   "last": 300,
-   "last_ok": "2026-11-22"
+   "last": 301,
+   "last_ok": "2026-11-23"
   },
   "Saronic": {
-   "best": 294,
-   "last": 294,
-   "last_ok": "2026-11-22"
+   "best": 295,
+   "last": 295,
+   "last_ok": "2026-11-23"
   },
   "SpaceX": {
    "best": 2913,
    "last": 2845,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Stripe": {
    "best": 794,
    "last": 778,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Stryker": {
    "best": 420,
@@ -150590,17 +150694,17 @@
   },
   "Target": {
    "best": 445,
-   "last": 279,
+   "last": 0,
    "last_ok": "2026-11-22"
   },
   "Thrive Market": {
    "best": 20,
    "last": 18,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Tyson Foods": {
    "best": 144,
-   "last": 11,
+   "last": 0,
    "last_ok": "2026-11-22"
   },
   "Unilever": {
@@ -150611,24 +150715,24 @@
   "Verkada": {
    "best": 352,
    "last": 352,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Walmart Global Tech": {
    "best": 268,
-   "last": 228,
-   "last_ok": "2026-11-22"
+   "last": 224,
+   "last_ok": "2026-11-23"
   },
   "Waymo": {
    "best": 381,
    "last": 363,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "Zebra Technologies": {
    "best": 125,
-   "last": 106,
-   "last_ok": "2026-11-22"
+   "last": 8,
+   "last_ok": "2026-11-23"
   }
  },
- "updated": "2026-11-22T21:42:55Z",
+ "updated": "2026-11-23T02:26:02Z",
  "version": 1
 }
