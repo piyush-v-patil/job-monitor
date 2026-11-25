@@ -19751,6 +19751,21 @@
    "title": "Software Development Engineer Intern - Summer 2027 (USA)",
    "url": "https://www.linkedin.com/jobs/view/4479523003"
   },
+  "amazon:64bbf76f2b95": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, Antenna System Validation",
+   "url": "https://www.amazon.jobs/en/jobs/10614355/software-dev-engineer-antenna-system-validation",
+   "yoe": 1
+  },
   "amazon:64d92a20fa4f": {
    "company": "Amazon",
    "department": "Software Development",
@@ -20168,6 +20183,21 @@
    "tier": "intern",
    "title": "Embedded Firmware Co-op, Amazon Robotics - Spring 2027",
    "url": "https://www.amazon.jobs/en/jobs/10573570/embedded-firmware-co-op-amazon-robotics-spring-2027"
+  },
+  "amazon:6ba91b2e76fe": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "Cupertino, California, USA",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Annapurna Labs - LibNVMe",
+   "url": "https://www.amazon.jobs/en/jobs/10614043/software-development-engineer-annapurna-labs-libnvme",
+   "yoe": 2
   },
   "amazon:6bcdb9b77e91": {
    "company": "Amazon",
@@ -22828,6 +22858,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10524274/front-end-engineer-iam-console-team",
    "yoe": 1
   },
+  "amazon:8f155d0244e6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "New York, New York, USA",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10614341/software-development-engineer",
+   "yoe": 1
+  },
   "amazon:8f2bd1f08b74": {
    "company": "Amazon",
    "department": "Software Development",
@@ -22915,6 +22960,21 @@
    "title": "Software Development Engineer II, Silicon Scan & Fleet Diagnostics, Machine Learning Accelerator Technology Team",
    "url": "https://www.amazon.jobs/en/jobs/10577153/software-development-engineer-ii-silicon-scan-fleet-diagnostics-machine-learning-accelerator-technology-team",
    "yoe": 2
+  },
+  "amazon:90223b0275be": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, Optimization Data",
+   "url": "https://www.amazon.jobs/en/jobs/10614362/software-development-engineer-iii-optimization-data",
+   "yoe": 5
   },
   "amazon:905c14ee9229": {
    "company": "Amazon",
@@ -159643,6 +159703,17 @@
    "title": "Software Engineer III, Infrastructure, Google Cloud Data Management",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127083503371068102-software-engineer-iii-infrastructure-google-cloud-data-management"
   },
+  "google:132efc259279": {
+   "company": "Google",
+   "first_seen": "2026-11-25",
+   "location": "Kirkland, WA, USA",
+   "role": "devops-sre",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III, Infrastructure, Google Workspace",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/136593599004320454-software-engineer-iii-infrastructure-google-workspace"
+  },
   "google:13c51b3cdb42": {
    "company": "Google",
    "first_seen": "2026-10-05",
@@ -161191,6 +161262,17 @@
    "tier": "experienced",
    "title": "Software Engineer III, Core Security",
    "url": "https://www.google.com/about/careers/applications/jobs/results/95357937165181638-software-engineer-iii-core-security"
+  },
+  "google:43d7281bf2f7": {
+   "company": "Google",
+   "first_seen": "2026-11-25",
+   "location": "San Francisco, CA, USA; Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Research Engineer, Media Forensics and Information Quality, DeepMind",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/107901430760645318-research-engineer-media-forensics-and-information-quality-deepmind"
   },
   "google:43dcb5e626c2": {
    "company": "Google",
@@ -353608,7 +353690,7 @@
   },
   "Anthropic": {
    "best": 684,
-   "last": 636,
+   "last": 635,
    "last_ok": "2026-11-25"
   },
   "Anysphere": {
@@ -353979,7 +354061,7 @@
   },
   "OpenAI": {
    "best": 877,
-   "last": 877,
+   "last": 876,
    "last_ok": "2026-11-25"
   },
   "OpenEvidence": {
@@ -354099,7 +354181,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 771,
+   "last": 772,
    "last_ok": "2026-11-25"
   },
   "Suno": {
@@ -354200,6 +354282,6 @@
    "last_ok": "2026-11-25"
   }
  },
- "updated": "2026-11-25T14:52:18Z",
+ "updated": "2026-11-25T20:35:14Z",
  "version": 1
 }
