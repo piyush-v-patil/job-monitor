@@ -13584,6 +13584,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10527582/software-dev-engineer-ii-aws-healthcare-ai",
    "yoe": 2
   },
+  "amazon:0f94a28bff88": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "Seattle, Washington, USA",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, GenAIUX",
+   "url": "https://www.amazon.jobs/en/jobs/10613799/software-dev-engineer-ii-genaiux",
+   "yoe": 1
+  },
   "amazon:0fb40e19e2e9": {
    "company": "Amazon",
    "employer_url": "https://www.amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us",
@@ -19485,6 +19500,21 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, Control Plane & Orchestration, Prime Video",
    "url": "https://www.amazon.jobs/en/jobs/10556712/software-dev-engineer-ii-control-plane-orchestration-prime-video",
+   "yoe": 1
+  },
+  "amazon:6287cd334872": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "San Diego, California, USA",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Leo - Payload Dataplane Team",
+   "url": "https://www.amazon.jobs/en/jobs/10610421/software-development-engineer-amazon-leo-payload-dataplane-team",
    "yoe": 1
   },
   "amazon:629748ba7d75": {
@@ -30079,6 +30109,21 @@
    "tier": "newgrad",
    "title": "Software Dev Engineer I, AWS Region Expansion",
    "url": "https://www.amazon.jobs/en/jobs/10512584/software-dev-engineer-i-aws-region-expansion",
+   "yoe": 1
+  },
+  "amazon:f575f4f9819e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer , Amazon Leo e-commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10613731/software-development-engineer-amazon-leo-e-commerce",
    "yoe": 1
   },
   "amazon:f5ab556b1231": {
@@ -162128,6 +162173,17 @@
    "title": "Software Engineer III, Infrastructure, API Proxy, One Platform",
    "url": "https://www.google.com/about/careers/applications/jobs/results/104043357470106310-software-engineer-iii-infrastructure-api-proxy-one-platform"
   },
+  "google:83cb9de3aa71": {
+   "company": "Google",
+   "first_seen": "2026-11-25",
+   "location": "Mountain View, CA, USA",
+   "role": "ml-ai",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied ML and Backend Software Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/97795544511849158-applied-ml-and-backend-software-engineer"
+  },
   "google:84461b5daa6e": {
    "company": "Google",
    "first_seen": "2026-11-16",
@@ -162182,6 +162238,17 @@
    "tier": "experienced",
    "title": "Rapid Prototyping Software Engineer, Pixel",
    "url": "https://www.google.com/about/careers/applications/jobs/results/105414530074321606-rapid-prototyping-software-engineer-pixel"
+  },
+  "google:86476c052c6e": {
+   "company": "Google",
+   "first_seen": "2026-11-25",
+   "location": "Austin, TX, USA; Sunnyvale, CA, USA",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Network Engineer, GEN Network Engineering",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/96344738918998726-network-engineer-gen-network-engineering"
   },
   "google:865ce200159b": {
    "company": "Google",
@@ -352231,6 +352298,6 @@
    "last_ok": "2026-11-25"
   }
  },
- "updated": "2026-11-25T02:44:46Z",
+ "updated": "2026-11-25T10:14:53Z",
  "version": 1
 }
