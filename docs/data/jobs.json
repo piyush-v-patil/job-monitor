@@ -27113,6 +27113,21 @@
    "title": "Data Engineer I, Business Data Technologies",
    "url": "https://www.linkedin.com/jobs/view/4467405622"
   },
+  "amazon:c7e9a8554931": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-27",
+   "location": "Redmond, Washington, USA",
+   "posted_at": "2026-11-27",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Leo - GNC SW",
+   "url": "https://www.amazon.jobs/en/jobs/10615996/software-development-engineer-amazon-leo-gnc-sw",
+   "yoe": 3
+  },
   "amazon:c7f8a17091a3": {
    "company": "Amazon",
    "department": "Software Development",
@@ -308495,6 +308510,18 @@
    "title": "Software Engineer, Core Technology",
    "url": "https://stripe.com/jobs/search?gh_jid=8411988"
   },
+  "stripe:06924480a93d": {
+   "company": "Stripe",
+   "first_seen": "2026-11-27",
+   "location": "Seattle, WA",
+   "posted_at": "2026-11-27",
+   "role": "backend",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Backend",
+   "url": "https://stripe.com/jobs/search?gh_jid=8421091"
+  },
   "stripe:07418e691111": {
    "company": "Stripe",
    "first_seen": "2026-08-22",
@@ -308794,6 +308821,18 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://stripe.com/jobs/search?gh_jid=8174105"
+  },
+  "stripe:2f930c893c0d": {
+   "company": "Stripe",
+   "first_seen": "2026-11-27",
+   "location": "South San Francisco, CA",
+   "posted_at": "2026-11-27",
+   "role": "backend",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Backend ",
+   "url": "https://stripe.com/jobs/search?gh_jid=8421387"
   },
   "stripe:36621e3b94cf": {
    "company": "Stripe",
@@ -309451,6 +309490,18 @@
    "title": "Backend Engineer, Developer & End-user Experience Platform",
    "url": "https://stripe.com/jobs/search?gh_jid=7476555"
   },
+  "stripe:78a7fdec1930": {
+   "company": "Stripe",
+   "first_seen": "2026-11-27",
+   "location": "South San Francisco, CA",
+   "posted_at": "2026-11-27",
+   "role": "fullstack",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Full Stack Atlas",
+   "url": "https://stripe.com/jobs/search?gh_jid=8421000"
+  },
   "stripe:7a1e971dc806": {
    "company": "Stripe",
    "first_seen": "2026-08-22",
@@ -309490,6 +309541,18 @@
    "tier": "experienced",
    "title": "Backend/API Engineer, Money as a Service",
    "url": "https://stripe.com/jobs/search?gh_jid=6176758"
+  },
+  "stripe:800df01f2e78": {
+   "company": "Stripe",
+   "first_seen": "2026-11-27",
+   "location": "New York, NY",
+   "posted_at": "2026-11-27",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Reporting Platform",
+   "url": "https://stripe.com/jobs/search?gh_jid=8421367"
   },
   "stripe:8018d58b03fc": {
    "company": "Stripe",
@@ -359672,7 +359735,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 765,
+   "last": 770,
    "last_ok": "2026-11-27"
   },
   "Suno": {
@@ -359773,6 +359836,6 @@
    "last_ok": "2026-11-27"
   }
  },
- "updated": "2026-11-27T14:08:17Z",
+ "updated": "2026-11-27T20:10:59Z",
  "version": 1
 }
