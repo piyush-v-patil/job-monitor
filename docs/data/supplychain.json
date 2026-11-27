@@ -135885,6 +135885,18 @@
    "title": "Logistics Yard Operations Manager - Regional Distribution Center - Midlothian, TX",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/4333-Power-Way-MidlothianTX-76065-8800/Logistics-Yard-Operations-Manager---Regional-Distribution-Center---Midlothian--TX_R0000476099"
   },
+  "target:75b1c1fef086": {
+   "company": "Target",
+   "first_seen": "2026-11-27",
+   "location": "22 Corporate Drive, Lugoff,SC 29078-8767",
+   "posted_at": "2026-11-25",
+   "role": "supply-planning",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Production Controller - Regional Distribution Center - Lugoff, SC",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/22-Corporate-Drive-LugoffSC-29078-8767/Production-Controller---Regional-Distribution-Center---Lugoff--SC_R0000481977"
+  },
   "target:75d18481574e": {
    "company": "Target",
    "first_seen": "2026-09-23",
@@ -136300,6 +136312,7 @@
   },
   "target:9e6f2b73fb47": {
    "company": "Target",
+   "employer_url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Lead-Analyst-S-OP---Forecasting-Solutions--Hybrid-_R0000477082-1",
    "first_seen": "2026-11-26",
    "location": "Minneapolis, MN, USA",
    "posted_at": "2026-11-25",
@@ -136787,6 +136800,18 @@
    "tier": "manager",
    "title": "Sr. Manager Supply Chain Safety - Activation",
    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Sr-Manager-Supply-Chain-Safety---Activation_R0000452057-1"
+  },
+  "target:d165b6e0730f": {
+   "company": "Target",
+   "first_seen": "2026-11-27",
+   "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+   "posted_at": "2026-11-25",
+   "role": "demand-planning",
+   "source": "workday",
+   "status": "new",
+   "tier": "manager",
+   "title": "Lead Analyst S&OP - Forecasting Solutions (Hybrid)",
+   "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Lead-Analyst-S-OP---Forecasting-Solutions--Hybrid-_R0000477082-1"
   },
   "target:d1c0d30dff3a": {
    "company": "Target",
@@ -159413,37 +159438,37 @@
   "AMD": {
    "best": 600,
    "last": 600,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Abbott": {
    "best": 535,
-   "last": 100,
+   "last": 0,
    "last_ok": "2026-11-26"
   },
   "Airbnb": {
    "best": 217,
-   "last": 200,
-   "last_ok": "2026-11-26"
+   "last": 202,
+   "last_ok": "2026-11-27"
   },
   "Amazon": {
    "best": 74,
    "last": 71,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Anduril": {
    "best": 2640,
-   "last": 2598,
-   "last_ok": "2026-11-26"
+   "last": 2599,
+   "last_ok": "2026-11-27"
   },
   "Applied Materials": {
    "best": 470,
-   "last": 166,
+   "last": 0,
    "last_ok": "2026-11-26"
   },
   "Astranis": {
    "best": 189,
    "last": 163,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Becton Dickinson": {
    "best": 341,
@@ -159463,62 +159488,62 @@
   "Carvana": {
    "best": 1843,
    "last": 1547,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Coinbase": {
    "best": 286,
    "last": 256,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Databricks": {
    "best": 929,
-   "last": 882,
-   "last_ok": "2026-11-26"
+   "last": 879,
+   "last_ok": "2026-11-27"
   },
   "DoorDash": {
    "best": 468,
    "last": 402,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Duolingo": {
    "best": 89,
    "last": 54,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Faire": {
    "best": 82,
    "last": 73,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Flexport": {
    "best": 214,
-   "last": 212,
-   "last_ok": "2026-11-26"
+   "last": 211,
+   "last_ok": "2026-11-27"
   },
   "Formlabs": {
    "best": 281,
    "last": 281,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "General Mills": {
    "best": 251,
-   "last": 71,
+   "last": 0,
    "last_ok": "2026-11-26"
   },
   "Glossier": {
    "best": 29,
    "last": 17,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Google": {
    "best": 205,
    "last": 183,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Gusto": {
    "best": 104,
    "last": 86,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Illumina": {
    "best": 127,
@@ -159528,7 +159553,7 @@
   "Instacart": {
    "best": 131,
    "last": 97,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Land O'Lakes": {
    "best": 138,
@@ -159537,23 +159562,23 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 738,
-   "last": 480,
-   "last_ok": "2026-11-26"
+   "last": 163,
+   "last_ok": "2026-11-27"
   },
   "Liquid Death": {
    "best": 3,
    "last": 2,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Lucid Motors": {
    "best": 521,
    "last": 521,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Lyft": {
    "best": 196,
    "last": 144,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Medtronic": {
    "best": 451,
@@ -159562,103 +159587,103 @@
   },
   "Micron": {
    "best": 324,
-   "last": 12,
+   "last": 0,
    "last_ok": "2026-11-26"
   },
   "Misfits Market": {
    "best": 96,
    "last": 43,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Mondelez": {
    "best": 470,
-   "last": 464,
-   "last_ok": "2026-11-26"
+   "last": 458,
+   "last_ok": "2026-11-27"
   },
   "Nike": {
    "best": 182,
-   "last": 45,
-   "last_ok": "2026-11-26"
+   "last": 1,
+   "last_ok": "2026-11-27"
   },
   "Nuro": {
    "best": 111,
    "last": 106,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Nvidia": {
    "best": 310,
-   "last": 0,
-   "last_ok": "2026-11-26"
+   "last": 21,
+   "last_ok": "2026-11-27"
   },
   "Olipop": {
    "best": 15,
    "last": 15,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "OpenAI": {
    "best": 877,
    "last": 876,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Oura": {
    "best": 111,
    "last": 100,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Peloton": {
    "best": 61,
    "last": 40,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "PepsiCo": {
    "best": 319,
-   "last": 204,
-   "last_ok": "2026-11-26"
+   "last": 200,
+   "last_ok": "2026-11-27"
   },
   "Pinterest": {
    "best": 188,
    "last": 167,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Samsara": {
    "best": 340,
    "last": 298,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Saronic": {
    "best": 312,
    "last": 312,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "SpaceX": {
    "best": 2913,
    "last": 2889,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Stripe": {
    "best": 794,
-   "last": 768,
-   "last_ok": "2026-11-26"
+   "last": 767,
+   "last_ok": "2026-11-27"
   },
   "Stryker": {
    "best": 420,
-   "last": 100,
+   "last": 0,
    "last_ok": "2026-11-26"
   },
   "Target": {
    "best": 445,
-   "last": 0,
-   "last_ok": "2026-11-25"
+   "last": 109,
+   "last_ok": "2026-11-27"
   },
   "Thrive Market": {
    "best": 20,
    "last": 18,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Tyson Foods": {
    "best": 144,
-   "last": 0,
-   "last_ok": "2026-11-25"
+   "last": 2,
+   "last_ok": "2026-11-27"
   },
   "Unilever": {
    "best": 204,
@@ -159667,25 +159692,25 @@
   },
   "Verkada": {
    "best": 354,
-   "last": 350,
-   "last_ok": "2026-11-26"
+   "last": 349,
+   "last_ok": "2026-11-27"
   },
   "Walmart Global Tech": {
    "best": 268,
    "last": 225,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Waymo": {
    "best": 381,
    "last": 356,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "Zebra Technologies": {
    "best": 125,
-   "last": 0,
-   "last_ok": "2026-11-26"
+   "last": 11,
+   "last_ok": "2026-11-27"
   }
  },
- "updated": "2026-11-26T23:01:53Z",
+ "updated": "2026-11-27T07:08:37Z",
  "version": 1
 }
