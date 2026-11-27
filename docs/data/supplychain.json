@@ -84990,6 +84990,19 @@
    "title": "Manufacturing Planner Sr - E3",
    "url": "https://www.linkedin.com/jobs/view/4484376284"
   },
+  "lockheed-martin:1956ba6379ef": {
+   "company": "Lockheed Martin",
+   "first_seen": "2026-11-27",
+   "location": "Moorestown, NJ, USA",
+   "posted_at": "2026-11-25",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Manufacturing Planner - Early Professional - Level 2",
+   "url": "https://www.linkedin.com/jobs/view/4493434387"
+  },
   "lockheed-martin:21b56bf4a654": {
    "checked_at": "2026-11-27",
    "closed_at": "2026-11-27",
@@ -94539,6 +94552,19 @@
    "tier": "mid",
    "title": "Material Planner",
    "url": "https://www.linkedin.com/jobs/view/4485249127"
+  },
+  "modexus-solutions:ec60fd7ead24": {
+   "company": "Modexus Solutions",
+   "first_seen": "2026-11-27",
+   "location": "Racine, WI, USA",
+   "posted_at": "2026-11-27",
+   "role": "supply-planning",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Senior Material Planner",
+   "url": "https://www.linkedin.com/jobs/view/4480114823"
   },
   "modine-manufacturing-company:19c966a49aa3": {
    "checked_at": "2026-11-22",
@@ -127956,6 +127982,20 @@
    "title": "Fulfillment Buyer (Starship)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8698652002?gh_jid=8698652002"
   },
+  "spacex:22c4059b1886": {
+   "company": "SpaceX",
+   "employer_url": "https://boards.greenhouse.io/spacex/jobs/8606899002?gh_jid=8606899002",
+   "first_seen": "2026-11-27",
+   "location": "Bastrop, TX, USA",
+   "posted_at": "2026-11-27",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sr. Supply Chain Planner, SpaceXSI",
+   "url": "https://www.linkedin.com/jobs/view/4434759379"
+  },
   "spacex:2459087d0676": {
    "company": "SpaceX",
    "first_seen": "2026-11-10",
@@ -130099,6 +130139,20 @@
    "tier": "manager",
    "title": "Sr. Manager, Supply Chain (Network Infrastructure)",
    "url": "https://boards.greenhouse.io/spacex/jobs/8957359002?gh_jid=8957359002"
+  },
+  "spacex:db888b99ce67": {
+   "company": "SpaceX",
+   "employer_url": "https://boards.greenhouse.io/spacex/jobs/8842011002?gh_jid=8842011002",
+   "first_seen": "2026-11-27",
+   "location": "Memphis, TN, USA",
+   "posted_at": "2026-11-27",
+   "role": "supply-chain",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sr. Supply Chain Planner, SpaceXSI",
+   "url": "https://www.linkedin.com/jobs/view/4469631627"
   },
   "spacex:dcd2c3147660": {
    "company": "SpaceX",
@@ -160646,17 +160700,17 @@
   },
   "Abbott": {
    "best": 535,
-   "last": 0,
-   "last_ok": "2026-11-26"
+   "last": 100,
+   "last_ok": "2026-11-27"
   },
   "Airbnb": {
    "best": 217,
-   "last": 202,
+   "last": 200,
    "last_ok": "2026-11-27"
   },
   "Amazon": {
    "best": 74,
-   "last": 71,
+   "last": 73,
    "last_ok": "2026-11-27"
   },
   "Anduril": {
@@ -160676,8 +160730,8 @@
   },
   "Becton Dickinson": {
    "best": 341,
-   "last": 0,
-   "last_ok": "2026-11-25"
+   "last": 53,
+   "last_ok": "2026-11-27"
   },
   "Boeing": {
    "best": 326,
@@ -160691,7 +160745,7 @@
   },
   "Carvana": {
    "best": 1843,
-   "last": 1547,
+   "last": 1557,
    "last_ok": "2026-11-27"
   },
   "Coinbase": {
@@ -160701,7 +160755,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 879,
+   "last": 888,
    "last_ok": "2026-11-27"
   },
   "DoorDash": {
@@ -160721,12 +160775,12 @@
   },
   "Flexport": {
    "best": 214,
-   "last": 211,
+   "last": 210,
    "last_ok": "2026-11-27"
   },
   "Formlabs": {
-   "best": 281,
-   "last": 281,
+   "best": 283,
+   "last": 283,
    "last_ok": "2026-11-27"
   },
   "General Mills": {
@@ -160736,12 +160790,12 @@
   },
   "Glossier": {
    "best": 29,
-   "last": 17,
+   "last": 16,
    "last_ok": "2026-11-27"
   },
   "Google": {
    "best": 205,
-   "last": 183,
+   "last": 184,
    "last_ok": "2026-11-27"
   },
   "Gusto": {
@@ -160766,7 +160820,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 738,
-   "last": 163,
+   "last": 199,
    "last_ok": "2026-11-27"
   },
   "Liquid Death": {
@@ -160781,7 +160835,7 @@
   },
   "Lyft": {
    "best": 196,
-   "last": 144,
+   "last": 143,
    "last_ok": "2026-11-27"
   },
   "Medtronic": {
@@ -160791,8 +160845,8 @@
   },
   "Micron": {
    "best": 324,
-   "last": 0,
-   "last_ok": "2026-11-26"
+   "last": 12,
+   "last_ok": "2026-11-27"
   },
   "Misfits Market": {
    "best": 96,
@@ -160801,22 +160855,22 @@
   },
   "Mondelez": {
    "best": 470,
-   "last": 458,
+   "last": 461,
    "last_ok": "2026-11-27"
   },
   "Nike": {
    "best": 182,
-   "last": 1,
+   "last": 0,
    "last_ok": "2026-11-27"
   },
   "Nuro": {
    "best": 111,
-   "last": 106,
+   "last": 107,
    "last_ok": "2026-11-27"
   },
   "Nvidia": {
    "best": 310,
-   "last": 21,
+   "last": 0,
    "last_ok": "2026-11-27"
   },
   "Olipop": {
@@ -160826,7 +160880,7 @@
   },
   "OpenAI": {
    "best": 877,
-   "last": 876,
+   "last": 875,
    "last_ok": "2026-11-27"
   },
   "Oura": {
@@ -160841,17 +160895,17 @@
   },
   "PepsiCo": {
    "best": 319,
-   "last": 200,
+   "last": 196,
    "last_ok": "2026-11-27"
   },
   "Pinterest": {
    "best": 188,
-   "last": 167,
+   "last": 165,
    "last_ok": "2026-11-27"
   },
   "Samsara": {
    "best": 340,
-   "last": 298,
+   "last": 295,
    "last_ok": "2026-11-27"
   },
   "Saronic": {
@@ -160861,7 +160915,7 @@
   },
   "SpaceX": {
    "best": 2913,
-   "last": 2889,
+   "last": 2890,
    "last_ok": "2026-11-27"
   },
   "Stripe": {
@@ -160876,7 +160930,7 @@
   },
   "Target": {
    "best": 445,
-   "last": 109,
+   "last": 0,
    "last_ok": "2026-11-27"
   },
   "Thrive Market": {
@@ -160886,13 +160940,13 @@
   },
   "Tyson Foods": {
    "best": 144,
-   "last": 2,
+   "last": 0,
    "last_ok": "2026-11-27"
   },
   "Unilever": {
    "best": 204,
-   "last": 0,
-   "last_ok": "2026-11-26"
+   "last": 62,
+   "last_ok": "2026-11-27"
   },
   "Verkada": {
    "best": 354,
@@ -160901,7 +160955,7 @@
   },
   "Walmart Global Tech": {
    "best": 268,
-   "last": 225,
+   "last": 200,
    "last_ok": "2026-11-27"
   },
   "Waymo": {
@@ -160911,10 +160965,10 @@
   },
   "Zebra Technologies": {
    "best": 125,
-   "last": 11,
+   "last": 115,
    "last_ok": "2026-11-27"
   }
  },
- "updated": "2026-11-27T12:33:51Z",
+ "updated": "2026-11-27T17:59:26Z",
  "version": 1
 }
