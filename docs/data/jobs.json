@@ -32409,6 +32409,20 @@
    "title": "HPC & AI Infrastructure Engineer",
    "url": "https://careers-amd.icims.com/jobs/96921/login"
   },
+  "amd:66f7ad5d7690": {
+   "company": "AMD",
+   "department": "Engineering",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-27",
+   "location": "Austin, Texas",
+   "posted_at": "2026-11-27",
+   "role": "embedded",
+   "source": "phenom",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Firmware Engineer",
+   "url": "https://careers-amd.icims.com/jobs/103853/login"
+  },
   "amd:6725cb2251d8": {
    "company": "AMD",
    "department": "Engineering",
@@ -59461,6 +59475,19 @@
    "tier": "experienced",
    "title": "Cloud Services Devops Engineer",
    "url": "https://www.linkedin.com/jobs/view/4486969181"
+  },
+  "archer:51760a4fbf7f": {
+   "company": "Archer",
+   "first_seen": "2026-11-27",
+   "location": "Palo Alto, CA, USA",
+   "posted_at": "2026-11-27",
+   "role": "devops-sre",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer III (Infrastructure Platforms - Foundational Services (IPFS) SRE)",
+   "url": "https://www.linkedin.com/jobs/view/4495071724"
   },
   "archer:51cae2ad0617": {
    "company": "Archer",
@@ -167855,8 +167882,10 @@
   },
   "google:d9f9ce629071": {
    "company": "Google",
+   "employer_url": "https://www.google.com/about/careers/applications/jobs/results/138758887439246022-software-engineer-iii-site-reliability-engineering",
    "first_seen": "2026-11-04",
    "location": "Pittsburgh, PA, USA",
+   "posted_at": "2026-11-25",
    "role": "devops-sre",
    "source": "google careers",
    "status": "new",
@@ -194582,6 +194611,19 @@
    "title": "Software Engineer III (Java/Agentic)",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210772476"
   },
+  "jp-morgan-chase:23361aac9e73": {
+   "company": "JP Morgan Chase",
+   "department": "Security Engineering",
+   "first_seen": "2026-11-27",
+   "location": "OH, United States",
+   "posted_at": "2026-11-27",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Security Engineer II - Endpoint Security Platforms (Employee Compute / GitOps Automation)",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809992"
+  },
   "jp-morgan-chase:23ebc44c62fe": {
    "company": "JP Morgan Chase",
    "department": "Software Engineering",
@@ -196958,6 +197000,19 @@
    "title": "Golang / IaC / Terraform Lead Software Engineer",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796413"
   },
+  "jp-morgan-chase:751912510974": {
+   "company": "JP Morgan Chase",
+   "department": "Security Engineering",
+   "first_seen": "2026-11-27",
+   "location": "Plano, TX, United States",
+   "posted_at": "2026-11-27",
+   "role": "security",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Lead Security Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210812150"
+  },
   "jp-morgan-chase:75548b2483ec": {
    "company": "JP Morgan Chase",
    "department": "Software Engineering",
@@ -198074,6 +198129,19 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer – Digital Intelligence",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210810700"
+  },
+  "jp-morgan-chase:96617f62cb62": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-27",
+   "location": "Chicago, IL, United States",
+   "posted_at": "2026-11-27",
+   "role": "frontend",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Software Engineer III - Java/Spring/React (Multiple Positions)",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210812608"
   },
   "jp-morgan-chase:968b5608919a": {
    "company": "JP Morgan Chase",
@@ -199985,6 +200053,19 @@
    "tier": "experienced",
    "title": "Lead Software Engineer - AI & Quantitative Development",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779593"
+  },
+  "jp-morgan-chase:dae689f8bd07": {
+   "company": "JP Morgan Chase",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-27",
+   "location": "OH, United States",
+   "posted_at": "2026-11-27",
+   "role": "ml-ai",
+   "source": "oraclecloud",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack AI Cloud Lead Software Engineer",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210807129"
   },
   "jp-morgan-chase:db1dc40675b3": {
    "company": "JP Morgan Chase",
@@ -309751,6 +309832,18 @@
    "title": "Master's Machine Learning Engineer, Intern",
    "url": "https://stripe.com/jobs/search?gh_jid=8333074"
   },
+  "stripe:97bd64c6251a": {
+   "company": "Stripe",
+   "first_seen": "2026-11-27",
+   "location": "South San Francisco, CA",
+   "posted_at": "2026-11-27",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://stripe.com/jobs/search?gh_jid=8421434"
+  },
   "stripe:99aceac400f6": {
    "company": "Stripe",
    "first_seen": "2026-10-07",
@@ -309855,6 +309948,18 @@
    "tier": "experienced",
    "title": "Software Engineer, Data Orchestration",
    "url": "https://stripe.com/jobs/search?gh_jid=7230670"
+  },
+  "stripe:a70816a027ac": {
+   "company": "Stripe",
+   "first_seen": "2026-11-27",
+   "location": "South San Francisco, CA ",
+   "posted_at": "2026-11-27",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://stripe.com/jobs/search?gh_jid=8421452"
   },
   "stripe:a83f562659f4": {
    "company": "Stripe",
@@ -313013,6 +313118,19 @@
    "tier": "experienced",
    "title": "React.JS Developer",
    "url": "https://www.linkedin.com/jobs/view/4469765795"
+  },
+  "synectic-solutions-inc:f8dcdd8b544d": {
+   "company": "Synectic Solutions, Inc.",
+   "first_seen": "2026-11-27",
+   "location": "Norco, CA, USA",
+   "posted_at": "2026-11-27",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer I",
+   "url": "https://www.linkedin.com/jobs/view/4495584098"
   },
   "synectic-solutions:1eb1bc24c225": {
    "company": "Synectic Solutions",
@@ -327011,6 +327129,19 @@
    "tier": "newgrad",
    "title": "ML Infra Engineer Graduate (Ads Infra) - 2027 Start",
    "url": "https://www.linkedin.com/jobs/view/4447909254"
+  },
+  "tiktok:47dcc9e579f3": {
+   "company": "TikTok",
+   "first_seen": "2026-11-27",
+   "location": "Seattle, WA, USA",
+   "posted_at": "2026-11-27",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Backend Software Engineer Graduate (Feed Safety) - 2027 Start",
+   "url": "https://www.linkedin.com/jobs/view/4495074358"
   },
   "tiktok:4806c417caec": {
    "checked_at": "2026-11-26",
@@ -359209,12 +359340,12 @@
   },
   "Adobe": {
    "best": 190,
-   "last": 0,
+   "last": 161,
    "last_ok": "2026-11-27"
   },
   "Affirm": {
    "best": 246,
-   "last": 217,
+   "last": 218,
    "last_ok": "2026-11-27"
   },
   "Airbnb": {
@@ -359234,12 +359365,12 @@
   },
   "American Express": {
    "best": 500,
-   "last": 382,
+   "last": 376,
    "last_ok": "2026-11-27"
   },
   "Anduril": {
    "best": 2636,
-   "last": 2599,
+   "last": 2598,
    "last_ok": "2026-11-27"
   },
   "Anthropic": {
@@ -359289,7 +359420,7 @@
   },
   "Betterment": {
    "best": 32,
-   "last": 23,
+   "last": 22,
    "last_ok": "2026-11-27"
   },
   "Block": {
@@ -359314,12 +359445,12 @@
   },
   "Capital One": {
    "best": 171,
-   "last": 149,
+   "last": 0,
    "last_ok": "2026-11-27"
   },
   "Carta": {
-   "best": 81,
-   "last": 81,
+   "best": 82,
+   "last": 82,
    "last_ok": "2026-11-27"
   },
   "Cerebras": {
@@ -359334,7 +359465,7 @@
   },
   "Chime": {
    "best": 84,
-   "last": 77,
+   "last": 76,
    "last_ok": "2026-11-27"
   },
   "Cisco": {
@@ -359354,8 +359485,8 @@
    "last_ok": "2026-11-27"
   },
   "Cognition": {
-   "best": 116,
-   "last": 116,
+   "best": 120,
+   "last": 120,
    "last_ok": "2026-11-27"
   },
   "Coinbase": {
@@ -359365,17 +359496,17 @@
   },
   "DTCC": {
    "best": 459,
-   "last": 426,
+   "last": 429,
    "last_ok": "2026-11-27"
   },
   "Databricks": {
    "best": 928,
-   "last": 881,
+   "last": 889,
    "last_ok": "2026-11-27"
   },
   "Datadog": {
    "best": 456,
-   "last": 391,
+   "last": 390,
    "last_ok": "2026-11-27"
   },
   "Decagon": {
@@ -359395,7 +359526,7 @@
   },
   "DoorDash": {
    "best": 475,
-   "last": 402,
+   "last": 401,
    "last_ok": "2026-11-27"
   },
   "Dropbox": {
@@ -359415,7 +359546,7 @@
   },
   "ElevenLabs": {
    "best": 256,
-   "last": 108,
+   "last": 109,
    "last_ok": "2026-11-27"
   },
   "Emerson Electric": {
@@ -359430,7 +359561,7 @@
   },
   "Faire": {
    "best": 82,
-   "last": 73,
+   "last": 71,
    "last_ok": "2026-11-27"
   },
   "Fidelity National Information Services": {
@@ -359440,17 +359571,17 @@
   },
   "Figma": {
    "best": 165,
-   "last": 141,
+   "last": 140,
    "last_ok": "2026-11-27"
   },
   "Flexport": {
    "best": 213,
-   "last": 211,
+   "last": 209,
    "last_ok": "2026-11-27"
   },
   "GM Financial": {
    "best": 132,
-   "last": 118,
+   "last": 117,
    "last_ok": "2026-11-27"
   },
   "General Motors": {
@@ -359480,7 +359611,7 @@
   },
   "Harvey": {
    "best": 396,
-   "last": 389,
+   "last": 387,
    "last_ok": "2026-11-27"
   },
   "Hewlett Packard Enterprise": {
@@ -359510,7 +359641,7 @@
   },
   "JP Morgan Chase": {
    "best": 460,
-   "last": 418,
+   "last": 404,
    "last_ok": "2026-11-27"
   },
   "Komodo Health": {
@@ -359530,12 +359661,12 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 1281,
-   "last": 97,
+   "last": 188,
    "last_ok": "2026-11-27"
   },
   "Lyft": {
    "best": 195,
-   "last": 144,
+   "last": 143,
    "last_ok": "2026-11-27"
   },
   "Marqeta": {
@@ -359560,7 +359691,7 @@
   },
   "Mercury": {
    "best": 80,
-   "last": 68,
+   "last": 67,
    "last_ok": "2026-11-27"
   },
   "Microsoft": {
@@ -359570,7 +359701,7 @@
   },
   "MongoDB": {
    "best": 425,
-   "last": 425,
+   "last": 424,
    "last_ok": "2026-11-27"
   },
   "NOV": {
@@ -359580,7 +359711,7 @@
   },
   "Navy Federal": {
    "best": 189,
-   "last": 136,
+   "last": 137,
    "last_ok": "2026-11-27"
   },
   "Netflix": {
@@ -359610,7 +359741,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 362,
+   "last": 360,
    "last_ok": "2026-11-27"
   },
   "OpenAI": {
@@ -359650,7 +359781,7 @@
   },
   "Pinterest": {
    "best": 225,
-   "last": 166,
+   "last": 165,
    "last_ok": "2026-11-27"
   },
   "Plaid": {
@@ -359685,7 +359816,7 @@
   },
   "Roblox": {
    "best": 277,
-   "last": 259,
+   "last": 257,
    "last_ok": "2026-11-27"
   },
   "Salesforce": {
@@ -359695,7 +359826,7 @@
   },
   "Samsara": {
    "best": 340,
-   "last": 294,
+   "last": 292,
    "last_ok": "2026-11-27"
   },
   "Scale AI": {
@@ -359710,32 +359841,32 @@
   },
   "Simplify Aggregator": {
    "best": 2489,
-   "last": 1566,
+   "last": 1559,
    "last_ok": "2026-11-27"
   },
   "Snowflake": {
    "best": 393,
-   "last": 379,
+   "last": 380,
    "last_ok": "2026-11-27"
   },
   "SoFi": {
    "best": 64,
-   "last": 58,
+   "last": 57,
    "last_ok": "2026-11-27"
   },
   "SpaceX": {
    "best": 2911,
-   "last": 2889,
+   "last": 2890,
    "last_ok": "2026-11-27"
   },
   "Spotify": {
-   "best": 97,
-   "last": 97,
+   "best": 98,
+   "last": 98,
    "last_ok": "2026-11-27"
   },
   "Stripe": {
    "best": 795,
-   "last": 770,
+   "last": 771,
    "last_ok": "2026-11-27"
   },
   "Suno": {
@@ -359812,12 +359943,12 @@
   },
   "Walmart Global Tech": {
    "best": 200,
-   "last": 66,
+   "last": 67,
    "last_ok": "2026-11-27"
   },
   "Waymo": {
    "best": 382,
-   "last": 356,
+   "last": 354,
    "last_ok": "2026-11-27"
   },
   "Webflow": {
@@ -359836,6 +359967,6 @@
    "last_ok": "2026-11-27"
   }
  },
- "updated": "2026-11-27T20:10:59Z",
+ "updated": "2026-11-27T22:53:22Z",
  "version": 1
 }
