@@ -222566,6 +222566,20 @@
    "url": "https://apply.careers.microsoft.com/careers/job/1970393557072488",
    "workplace": "On-site"
   },
+  "microsoft:6372abb7e68d": {
+   "company": "Microsoft",
+   "department": "Software Engineering",
+   "first_seen": "2026-11-28",
+   "location": "US",
+   "posted_at": "2026-11-28",
+   "role": "software",
+   "source": "microsoft careers",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556649786",
+   "workplace": "On-site"
+  },
   "microsoft:64d9d90fa2f6": {
    "company": "Microsoft",
    "department": "Security Research",
@@ -359351,7 +359365,7 @@
   "Airbnb": {
    "best": 218,
    "last": 200,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "Airtable": {
    "best": 16,
@@ -359361,7 +359375,7 @@
   "Amazon": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "American Express": {
    "best": 500,
@@ -359376,7 +359390,7 @@
   "Anthropic": {
    "best": 684,
    "last": 634,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "Anysphere": {
    "best": 137,
@@ -359386,7 +359400,7 @@
   "Apple": {
    "best": 173,
    "last": 173,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "Applied Intuition": {
    "best": 336,
@@ -359602,7 +359616,7 @@
   "Google": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "Gusto": {
    "best": 104,
@@ -359697,7 +359711,7 @@
   "Microsoft": {
    "best": 150,
    "last": 150,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "MongoDB": {
    "best": 425,
@@ -359717,7 +359731,7 @@
   "Netflix": {
    "best": 10,
    "last": 10,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "Nokia": {
    "best": 500,
@@ -359747,7 +359761,7 @@
   "OpenAI": {
    "best": 877,
    "last": 876,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "OpenEvidence": {
    "best": 11,
@@ -359867,7 +359881,7 @@
   "Stripe": {
    "best": 795,
    "last": 771,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "Suno": {
    "best": 73,
@@ -359967,6 +359981,6 @@
    "last_ok": "2026-11-27"
   }
  },
- "updated": "2026-11-27T22:53:22Z",
+ "updated": "2026-11-28T03:27:09Z",
  "version": 1
 }
